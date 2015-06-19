@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Common</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Middleware</name>
+			<type>2</type>
+			<location>/opt/r2p/core/Middleware</location>
+		</link>
+		<link>
+			<name>RTCAN</name>
+			<type>2</type>
+			<location>/opt/r2p/core/RTCAN</location>
+		</link>
+		<link>
+			<name>os</name>
+			<type>2</type>
+			<location>/opt/r2p-sdk/core/ChibiOS/os</location>
+		</link>
+	</linkedResources>
+</projectDescription>
