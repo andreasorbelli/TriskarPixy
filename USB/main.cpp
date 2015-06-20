@@ -9,6 +9,7 @@
 #include <r2p/node/led.hpp>
 
 #include "nodes/shell_node.hpp"
+#include "nodes/pixy_node.hpp"
 
 
 static WORKING_AREA(wa_info, 1024);
@@ -39,6 +40,7 @@ int main(void) {
 	r2p::Thread::create_heap(NULL, THD_WA_SIZE(512), NORMALPRIO, r2p::ledsub_node, &ledsub_conf);
 
 	r2p::Thread::create_heap(NULL, THD_WA_SIZE(512), NORMALPRIO, shell_node, NULL);
+	r2p::Thread::create_heap(NULL, THD_WA_SIZE(512), NORMALPRIO, pixy_node, NULL);
 
 	for (;;) {
 		r2p::Thread::sleep(r2p::Time::ms(500));

@@ -6,7 +6,9 @@ PACKAGES = led
 PRJ_CSRC = 
 
 PRJ_CPPSRC = nodes/shell_node.cpp \
-	main.cpp
+	nodes/pixy_node.cpp \
+	main.cpp 
+	
 	
 PRJ_INC = .
 

@@ -12,17 +12,22 @@
 		<link>
 			<name>Middleware</name>
 			<type>2</type>
-			<location>/opt/r2p/core/Middleware</location>
+			<location>/home/denny/r2p-sdk/core/Middleware</location>
 		</link>
 		<link>
 			<name>RTCAN</name>
 			<type>2</type>
-			<location>/opt/r2p/core/RTCAN</location>
+			<location>/home/denny/r2p-sdk/core/RTCAN</location>
+		</link>
+		<link>
+			<name>modules</name>
+			<type>2</type>
+			<location>/home/denny/r2p-sdk/modules</location>
 		</link>
 		<link>
 			<name>os</name>
 			<type>2</type>
-			<location>/opt/r2p-sdk/core/ChibiOS/os</location>
+			<location>/home/denny/r2p-sdk/core/ChibiOS</location>
 		</link>
 	</linkedResources>
 </projectDescription>
