@@ -1,5 +1,6 @@
 #pragma once
 
+
 namespace r2p {
 class PixyMsg: public Message {
 public:
