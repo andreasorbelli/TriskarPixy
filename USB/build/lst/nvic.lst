@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc2yQfqG.s 			page 1
+ARM GAS  /tmp/ccEqqsv5.s 			page 1
 
 
    1              		.syntax unified
@@ -29,7 +29,7 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
   26              		.type	nvicEnableVector, %function
   27              	nvicEnableVector:
   28              	.LFB7:
-  29              		.file 1 "/home/denny/r2p-sdk/core/ChibiOS/os/ports/common/ARMCMx/nvic.c"
+  29              		.file 1 "/home/ergae/r2p-sdk/core/ChibiOS/os/ports/common/ARMCMx/nvic.c"
   30              		.loc 1 46 0
   31              		.cfi_startproc
   32              		@ args = 0, pretend = 0, frame = 16
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
   55 0020 51F82220 		ldr	r2, [r1, r2, lsl #2]
   56 0024 0399     		ldr	r1, [sp, #12]
   57 0026 FF20     		movs	r0, #255
-ARM GAS  /tmp/cc2yQfqG.s 			page 2
+ARM GAS  /tmp/ccEqqsv5.s 			page 2
 
 
   58 0028 00FA01F1 		lsl	r1, r0, r1
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  112              		@ args = 0, pretend = 0, frame = 16
  113              		@ frame_needed = 0, uses_anonymous_args = 0
  114              		@ link register save eliminated.
-ARM GAS  /tmp/cc2yQfqG.s 			page 3
+ARM GAS  /tmp/ccEqqsv5.s 			page 3
 
 
  115 0000 10B4     		push	{r4}
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  168              		.align	2
  169              		.p2align 4,,15
  170              		.global	nvicSetSystemHandlerPriority
-ARM GAS  /tmp/cc2yQfqG.s 			page 4
+ARM GAS  /tmp/ccEqqsv5.s 			page 4
 
 
  171              		.thumb
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  225              	.L9:
  226              		.align	2
  227              	.L8:
-ARM GAS  /tmp/cc2yQfqG.s 			page 5
+ARM GAS  /tmp/ccEqqsv5.s 			page 5
 
 
  228 0048 00ED00E0 		.word	-536810240
@@ -247,9 +247,9 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  231              		.size	nvicSetSystemHandlerPriority, .-nvicSetSystemHandlerPriority
  232 004c AFF30080 		.text
  233              	.Letext0:
- 234              		.file 2 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/machine/_def
- 235              		.file 3 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/stdint.h"
- 236              		.file 4 "/home/denny/r2p-sdk/core/ChibiOS/os/ports/common/ARMCMx/nvic.h"
+ 234              		.file 2 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/machine/_def
+ 235              		.file 3 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/stdint.h"
+ 236              		.file 4 "/home/ergae/r2p-sdk/core/ChibiOS/os/ports/common/ARMCMx/nvic.h"
  237              		.section	.debug_info,"",%progbits
  238              	.Ldebug_info0:
  239 0000 F6030000 		.4byte	0x3f6
@@ -257,9 +257,9 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  241 0006 00000000 		.4byte	.Ldebug_abbrev0
  242 000a 04       		.byte	0x4
  243 000b 01       		.uleb128 0x1
- 244 000c A8000000 		.4byte	.LASF47
+ 244 000c E1000000 		.4byte	.LASF47
  245 0010 01       		.byte	0x1
- 246 0011 D8010000 		.4byte	.LASF48
+ 246 0011 44000000 		.4byte	.LASF48
  247 0015 00000000 		.4byte	.Ldebug_ranges0+0
  248 0019 00000000 		.4byte	0
  249 001d 00000000 		.4byte	.Ldebug_line0
@@ -278,7 +278,7 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  262 0036 03       		.uleb128 0x3
  263 0037 01       		.byte	0x1
  264 0038 08       		.byte	0x8
- 265 0039 52000000 		.4byte	.LASF2
+ 265 0039 8B000000 		.4byte	.LASF2
  266 003d 03       		.uleb128 0x3
  267 003e 02       		.byte	0x2
  268 003f 05       		.byte	0x5
@@ -286,7 +286,7 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  270 0044 03       		.uleb128 0x3
  271 0045 02       		.byte	0x2
  272 0046 07       		.byte	0x7
- 273 0047 90000000 		.4byte	.LASF4
+ 273 0047 C9000000 		.4byte	.LASF4
  274 004b 03       		.uleb128 0x3
  275 004c 04       		.byte	0x4
  276 004d 05       		.byte	0x5
@@ -298,11 +298,11 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  282 0059 5D000000 		.4byte	0x5d
  283 005d 03       		.uleb128 0x3
  284 005e 04       		.byte	0x4
-ARM GAS  /tmp/cc2yQfqG.s 			page 6
+ARM GAS  /tmp/ccEqqsv5.s 			page 6
 
 
  285 005f 07       		.byte	0x7
- 286 0060 C6010000 		.4byte	.LASF6
+ 286 0060 FF010000 		.4byte	.LASF6
  287 0064 03       		.uleb128 0x3
  288 0065 08       		.byte	0x8
  289 0066 05       		.byte	0x5
@@ -321,7 +321,7 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  302 007f 02       		.byte	0x2
  303 0080 0F000000 		.4byte	.LASF11
  304 0084 04       		.uleb128 0x4
- 305 0085 4A000000 		.4byte	.LASF12
+ 305 0085 83000000 		.4byte	.LASF12
  306 0089 04       		.byte	0x4
  307 008a 3A       		.byte	0x3a
  308 008b 8F000000 		.4byte	0x8f
@@ -339,26 +339,26 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  320 00a4 5A010000 		.4byte	0x15a
  321 00a8 00       		.byte	0
  322 00a9 07       		.uleb128 0x7
- 323 00aa 60000000 		.4byte	.LASF14
+ 323 00aa 99000000 		.4byte	.LASF14
  324 00ae 04       		.byte	0x4
  325 00af 6C       		.byte	0x6c
  326 00b0 6F010000 		.4byte	0x16f
  327 00b4 20       		.byte	0x20
  328 00b5 07       		.uleb128 0x7
- 329 00b6 45000000 		.4byte	.LASF15
+ 329 00b6 3F000000 		.4byte	.LASF15
  330 00ba 04       		.byte	0x4
  331 00bb 6D       		.byte	0x6d
  332 00bc 74010000 		.4byte	0x174
  333 00c0 80       		.byte	0x80
  334 00c1 07       		.uleb128 0x7
- 335 00c2 68000000 		.4byte	.LASF16
+ 335 00c2 A1000000 		.4byte	.LASF16
  336 00c6 04       		.byte	0x4
  337 00c7 6E       		.byte	0x6e
  338 00c8 79010000 		.4byte	0x179
  339 00cc A0       		.byte	0xa0
  340 00cd 08       		.uleb128 0x8
  341 00ce 34020000 		.4byte	.LASF17
-ARM GAS  /tmp/cc2yQfqG.s 			page 7
+ARM GAS  /tmp/ccEqqsv5.s 			page 7
 
 
  342 00d2 04       		.byte	0x4
@@ -366,7 +366,7 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  344 00d4 7E010000 		.4byte	0x17e
  345 00d8 0001     		.2byte	0x100
  346 00da 08       		.uleb128 0x8
- 347 00db 70000000 		.4byte	.LASF18
+ 347 00db A9000000 		.4byte	.LASF18
  348 00df 04       		.byte	0x4
  349 00e0 70       		.byte	0x70
  350 00e1 83010000 		.4byte	0x183
@@ -378,7 +378,7 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  356 00ee 88010000 		.4byte	0x188
  357 00f2 8001     		.2byte	0x180
  358 00f4 08       		.uleb128 0x8
- 359 00f5 78000000 		.4byte	.LASF20
+ 359 00f5 B1000000 		.4byte	.LASF20
  360 00f9 04       		.byte	0x4
  361 00fa 72       		.byte	0x72
  362 00fb 8D010000 		.4byte	0x18d
@@ -390,7 +390,7 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  368 0108 92010000 		.4byte	0x192
  369 010c 0002     		.2byte	0x200
  370 010e 08       		.uleb128 0x8
- 371 010f 80000000 		.4byte	.LASF22
+ 371 010f B9000000 		.4byte	.LASF22
  372 0113 04       		.byte	0x4
  373 0114 74       		.byte	0x74
  374 0115 A7010000 		.4byte	0x1a7
@@ -402,7 +402,7 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  380 0122 BC010000 		.4byte	0x1bc
  381 0126 0003     		.2byte	0x300
  382 0128 08       		.uleb128 0x8
- 383 0129 88000000 		.4byte	.LASF23
+ 383 0129 C1000000 		.4byte	.LASF23
  384 012d 04       		.byte	0x4
  385 012e 76       		.byte	0x76
  386 012f D2010000 		.4byte	0x1d2
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  396 0144 84000000 		.4byte	0x84
  397 0148 53010000 		.4byte	0x153
  398 014c 0B       		.uleb128 0xb
-ARM GAS  /tmp/cc2yQfqG.s 			page 8
+ARM GAS  /tmp/ccEqqsv5.s 			page 8
 
 
  399 014d 53010000 		.4byte	0x153
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  453 01cb 53010000 		.4byte	0x153
  454 01cf 8302     		.2byte	0x283
  455 01d1 00       		.byte	0
-ARM GAS  /tmp/cc2yQfqG.s 			page 9
+ARM GAS  /tmp/ccEqqsv5.s 			page 9
 
 
  456 01d2 05       		.uleb128 0x5
@@ -538,20 +538,20 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  510 023e 07       		.uleb128 0x7
  511 023f A7020000 		.4byte	.LASF32
  512 0243 04       		.byte	0x4
-ARM GAS  /tmp/cc2yQfqG.s 			page 10
+ARM GAS  /tmp/ccEqqsv5.s 			page 10
 
 
  513 0244 91       		.byte	0x91
  514 0245 84000000 		.4byte	0x84
  515 0249 24       		.byte	0x24
  516 024a 07       		.uleb128 0x7
- 517 024b A3000000 		.4byte	.LASF33
+ 517 024b DC000000 		.4byte	.LASF33
  518 024f 04       		.byte	0x4
  519 0250 92       		.byte	0x92
  520 0251 84000000 		.4byte	0x84
  521 0255 28       		.byte	0x28
  522 0256 07       		.uleb128 0x7
- 523 0257 C1010000 		.4byte	.LASF34
+ 523 0257 FA010000 		.4byte	.LASF34
  524 025b 04       		.byte	0x4
  525 025c 93       		.byte	0x93
  526 025d 84000000 		.4byte	0x84
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  567 02b0 9A       		.byte	0x9a
  568 02b1 84000000 		.4byte	0x84
  569 02b5 4C       		.byte	0x4c
-ARM GAS  /tmp/cc2yQfqG.s 			page 11
+ARM GAS  /tmp/ccEqqsv5.s 			page 11
 
 
  570 02b6 07       		.uleb128 0x7
@@ -614,13 +614,13 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  580 02c9 36030000 		.4byte	0x336
  581 02cd 60       		.byte	0x60
  582 02ce 07       		.uleb128 0x7
- 583 02cf 60000000 		.4byte	.LASF14
+ 583 02cf 99000000 		.4byte	.LASF14
  584 02d3 04       		.byte	0x4
  585 02d4 9D       		.byte	0x9d
  586 02d5 3B030000 		.4byte	0x33b
  587 02d9 74       		.byte	0x74
  588 02da 07       		.uleb128 0x7
- 589 02db 3F000000 		.4byte	.LASF40
+ 589 02db 11020000 		.4byte	.LASF40
  590 02df 04       		.byte	0x4
  591 02e0 9E       		.byte	0x9e
  592 02e1 84000000 		.4byte	0x84
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  624 032b 36030000 		.4byte	0x336
  625 032f 0B       		.uleb128 0xb
  626 0330 53010000 		.4byte	0x153
-ARM GAS  /tmp/cc2yQfqG.s 			page 12
+ARM GAS  /tmp/ccEqqsv5.s 			page 12
 
 
  627 0334 04       		.byte	0x4
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  681 039a 58000000 		.4byte	.LFE8-.LFB8
  682 039e 01       		.uleb128 0x1
  683 039f 9C       		.byte	0x9c
-ARM GAS  /tmp/cc2yQfqG.s 			page 13
+ARM GAS  /tmp/ccEqqsv5.s 			page 13
 
 
  684 03a0 BE030000 		.4byte	0x3be
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  738 0000 01       		.uleb128 0x1
  739 0001 11       		.uleb128 0x11
  740 0002 01       		.byte	0x1
-ARM GAS  /tmp/cc2yQfqG.s 			page 14
+ARM GAS  /tmp/ccEqqsv5.s 			page 14
 
 
  741 0003 25       		.uleb128 0x25
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  795 0039 00       		.byte	0
  796 003a 00       		.byte	0
  797 003b 06       		.uleb128 0x6
-ARM GAS  /tmp/cc2yQfqG.s 			page 15
+ARM GAS  /tmp/ccEqqsv5.s 			page 15
 
 
  798 003c 13       		.uleb128 0x13
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  852 0072 05       		.uleb128 0x5
  853 0073 00       		.byte	0
  854 0074 00       		.byte	0
-ARM GAS  /tmp/cc2yQfqG.s 			page 16
+ARM GAS  /tmp/ccEqqsv5.s 			page 16
 
 
  855 0075 0A       		.uleb128 0xa
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  909 00ab 00       		.byte	0
  910 00ac 0F       		.uleb128 0xf
  911 00ad 2E       		.uleb128 0x2e
-ARM GAS  /tmp/cc2yQfqG.s 			page 17
+ARM GAS  /tmp/ccEqqsv5.s 			page 17
 
 
  912 00ae 01       		.byte	0x1
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  966 00e5 34       		.uleb128 0x34
  967 00e6 00       		.byte	0
  968 00e7 03       		.uleb128 0x3
-ARM GAS  /tmp/cc2yQfqG.s 			page 18
+ARM GAS  /tmp/ccEqqsv5.s 			page 18
 
 
  969 00e8 08       		.uleb128 0x8
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  1023 0004 7C000000 		.4byte	.LFE7
  1024 0008 00000000 		.4byte	.LFB8
  1025 000c 58000000 		.4byte	.LFE8
-ARM GAS  /tmp/cc2yQfqG.s 			page 19
+ARM GAS  /tmp/ccEqqsv5.s 			page 19
 
 
  1026 0010 00000000 		.4byte	.LFB9
@@ -1121,102 +1121,102 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  1048 0035 73686F72 		.ascii	"short int\000"
  1048      7420696E 
  1048      7400
- 1049              	.LASF40:
- 1050 003f 43504143 		.ascii	"CPACR\000"
- 1050      5200
- 1051              	.LASF15:
- 1052 0045 49434552 		.ascii	"ICER\000"
- 1052      00
- 1053              	.LASF12:
- 1054 004a 494F5245 		.ascii	"IOREG32\000"
- 1054      47333200 
- 1055              	.LASF2:
- 1056 0052 756E7369 		.ascii	"unsigned char\000"
- 1056      676E6564 
- 1056      20636861 
- 1056      7200
- 1057              	.LASF14:
- 1058 0060 756E7573 		.ascii	"unused1\000"
- 1058      65643100 
-ARM GAS  /tmp/cc2yQfqG.s 			page 20
+ 1049              	.LASF15:
+ 1050 003f 49434552 		.ascii	"ICER\000"
+ 1050      00
+ 1051              	.LASF48:
+ 1052 0044 2F686F6D 		.ascii	"/home/ergae/r2p-sdk/core/ChibiOS/os/ports/common/AR"
+ 1052      652F6572 
+ 1052      6761652F 
+ 1052      7232702D 
+ 1052      73646B2F 
+ 1053 0077 4D434D78 		.ascii	"MCMx/nvic.c\000"
+ 1053      2F6E7669 
+ 1053      632E6300 
+ 1054              	.LASF12:
+ 1055 0083 494F5245 		.ascii	"IOREG32\000"
+ 1055      47333200 
+ 1056              	.LASF2:
+ 1057 008b 756E7369 		.ascii	"unsigned char\000"
+ARM GAS  /tmp/ccEqqsv5.s 			page 20
 
 
- 1059              	.LASF16:
- 1060 0068 756E7573 		.ascii	"unused2\000"
- 1060      65643200 
- 1061              	.LASF18:
- 1062 0070 756E7573 		.ascii	"unused3\000"
- 1062      65643300 
- 1063              	.LASF20:
- 1064 0078 756E7573 		.ascii	"unused4\000"
- 1064      65643400 
- 1065              	.LASF22:
- 1066 0080 756E7573 		.ascii	"unused5\000"
- 1066      65643500 
- 1067              	.LASF23:
- 1068 0088 756E7573 		.ascii	"unused6\000"
- 1068      65643600 
- 1069              	.LASF4:
- 1070 0090 73686F72 		.ascii	"short unsigned int\000"
- 1070      7420756E 
- 1070      7369676E 
- 1070      65642069 
- 1070      6E7400
- 1071              	.LASF33:
- 1072 00a3 43465352 		.ascii	"CFSR\000"
- 1072      00
- 1073              	.LASF47:
- 1074 00a8 474E5520 		.ascii	"GNU C 4.9.3 20141119 (release) [ARM/embedded-4_9-br"
- 1074      4320342E 
- 1074      392E3320 
- 1074      32303134 
- 1074      31313139 
- 1075 00db 616E6368 		.ascii	"anch revision 218278] -mcpu=cortex-m4 -mfloat-abi=h"
- 1075      20726576 
- 1075      6973696F 
- 1075      6E203231 
- 1075      38323738 
- 1076 010e 61726420 		.ascii	"ard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthumb "
- 1076      2D6D6670 
- 1076      753D6670 
- 1076      76342D73 
- 1076      702D6431 
- 1077 0141 2D676764 		.ascii	"-ggdb -O0 -fomit-frame-pointer -falign-functions=16"
- 1077      62202D4F 
- 1077      30202D66 
- 1077      6F6D6974 
- 1077      2D667261 
- 1078 0174 202D6666 		.ascii	" -ffunction-sections -fdata-sections -fno-common -f"
- 1078      756E6374 
- 1078      696F6E2D 
- 1078      73656374 
- 1078      696F6E73 
- 1079 01a7 73696E67 		.ascii	"single-precision-constant\000"
- 1079      6C652D70 
- 1079      72656369 
- 1079      73696F6E 
- 1079      2D636F6E 
- 1080              	.LASF34:
- 1081 01c1 48465352 		.ascii	"HFSR\000"
-ARM GAS  /tmp/cc2yQfqG.s 			page 21
+ 1057      676E6564 
+ 1057      20636861 
+ 1057      7200
+ 1058              	.LASF14:
+ 1059 0099 756E7573 		.ascii	"unused1\000"
+ 1059      65643100 
+ 1060              	.LASF16:
+ 1061 00a1 756E7573 		.ascii	"unused2\000"
+ 1061      65643200 
+ 1062              	.LASF18:
+ 1063 00a9 756E7573 		.ascii	"unused3\000"
+ 1063      65643300 
+ 1064              	.LASF20:
+ 1065 00b1 756E7573 		.ascii	"unused4\000"
+ 1065      65643400 
+ 1066              	.LASF22:
+ 1067 00b9 756E7573 		.ascii	"unused5\000"
+ 1067      65643500 
+ 1068              	.LASF23:
+ 1069 00c1 756E7573 		.ascii	"unused6\000"
+ 1069      65643600 
+ 1070              	.LASF4:
+ 1071 00c9 73686F72 		.ascii	"short unsigned int\000"
+ 1071      7420756E 
+ 1071      7369676E 
+ 1071      65642069 
+ 1071      6E7400
+ 1072              	.LASF33:
+ 1073 00dc 43465352 		.ascii	"CFSR\000"
+ 1073      00
+ 1074              	.LASF47:
+ 1075 00e1 474E5520 		.ascii	"GNU C 4.9.3 20141119 (release) [ARM/embedded-4_9-br"
+ 1075      4320342E 
+ 1075      392E3320 
+ 1075      32303134 
+ 1075      31313139 
+ 1076 0114 616E6368 		.ascii	"anch revision 218278] -mcpu=cortex-m4 -mfloat-abi=h"
+ 1076      20726576 
+ 1076      6973696F 
+ 1076      6E203231 
+ 1076      38323738 
+ 1077 0147 61726420 		.ascii	"ard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthumb "
+ 1077      2D6D6670 
+ 1077      753D6670 
+ 1077      76342D73 
+ 1077      702D6431 
+ 1078 017a 2D676764 		.ascii	"-ggdb -O0 -fomit-frame-pointer -falign-functions=16"
+ 1078      62202D4F 
+ 1078      30202D66 
+ 1078      6F6D6974 
+ 1078      2D667261 
+ 1079 01ad 202D6666 		.ascii	" -ffunction-sections -fdata-sections -fno-common -f"
+ 1079      756E6374 
+ 1079      696F6E2D 
+ 1079      73656374 
+ 1079      696F6E73 
+ 1080 01e0 73696E67 		.ascii	"single-precision-constant\000"
+ARM GAS  /tmp/ccEqqsv5.s 			page 21
 
 
- 1081      00
- 1082              	.LASF6:
- 1083 01c6 6C6F6E67 		.ascii	"long unsigned int\000"
- 1083      20756E73 
- 1083      69676E65 
- 1083      6420696E 
- 1083      7400
- 1084              	.LASF48:
- 1085 01d8 2F686F6D 		.ascii	"/home/denny/r2p-sdk/core/ChibiOS/os/ports/common/AR"
- 1085      652F6465 
- 1085      6E6E792F 
- 1085      7232702D 
- 1085      73646B2F 
- 1086 020b 4D434D78 		.ascii	"MCMx/nvic.c\000"
- 1086      2F6E7669 
- 1086      632E6300 
+ 1080      6C652D70 
+ 1080      72656369 
+ 1080      73696F6E 
+ 1080      2D636F6E 
+ 1081              	.LASF34:
+ 1082 01fa 48465352 		.ascii	"HFSR\000"
+ 1082      00
+ 1083              	.LASF6:
+ 1084 01ff 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1084      20756E73 
+ 1084      69676E65 
+ 1084      6420696E 
+ 1084      7400
+ 1085              	.LASF40:
+ 1086 0211 43504143 		.ascii	"CPACR\000"
+ 1086      5200
  1087              	.LASF24:
  1088 0217 53544952 		.ascii	"STIR\000"
  1088      00
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  1108      6C657200 
  1109              	.LASF25:
  1110 0275 73697A65 		.ascii	"sizetype\000"
-ARM GAS  /tmp/cc2yQfqG.s 			page 22
+ARM GAS  /tmp/ccEqqsv5.s 			page 22
 
 
  1110      74797065 
@@ -1317,23 +1317,23 @@ ARM GAS  /tmp/cc2yQfqG.s 			page 1
  1138      63746F72 
  1138      00
  1139              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/cc2yQfqG.s 			page 23
+ARM GAS  /tmp/ccEqqsv5.s 			page 23
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 nvic.c
-     /tmp/cc2yQfqG.s:21     .text.nvicEnableVector:00000000 $t
-     /tmp/cc2yQfqG.s:27     .text.nvicEnableVector:00000000 nvicEnableVector
-     /tmp/cc2yQfqG.s:97     .text.nvicEnableVector:00000078 $d
-     /tmp/cc2yQfqG.s:102    .text.nvicDisableVector:00000000 $t
-     /tmp/cc2yQfqG.s:108    .text.nvicDisableVector:00000000 nvicDisableVector
-     /tmp/cc2yQfqG.s:163    .text.nvicDisableVector:00000054 $d
-     /tmp/cc2yQfqG.s:168    .text.nvicSetSystemHandlerPriority:00000000 $t
-     /tmp/cc2yQfqG.s:174    .text.nvicSetSystemHandlerPriority:00000000 nvicSetSystemHandlerPriority
-     /tmp/cc2yQfqG.s:228    .text.nvicSetSystemHandlerPriority:00000048 $d
+     /tmp/ccEqqsv5.s:21     .text.nvicEnableVector:00000000 $t
+     /tmp/ccEqqsv5.s:27     .text.nvicEnableVector:00000000 nvicEnableVector
+     /tmp/ccEqqsv5.s:97     .text.nvicEnableVector:00000078 $d
+     /tmp/ccEqqsv5.s:102    .text.nvicDisableVector:00000000 $t
+     /tmp/ccEqqsv5.s:108    .text.nvicDisableVector:00000000 nvicDisableVector
+     /tmp/ccEqqsv5.s:163    .text.nvicDisableVector:00000054 $d
+     /tmp/ccEqqsv5.s:168    .text.nvicSetSystemHandlerPriority:00000000 $t
+     /tmp/ccEqqsv5.s:174    .text.nvicSetSystemHandlerPriority:00000000 nvicSetSystemHandlerPriority
+     /tmp/ccEqqsv5.s:228    .text.nvicSetSystemHandlerPriority:00000048 $d
                      .debug_frame:00000010 $d
-     /tmp/cc2yQfqG.s:101    .text.nvicEnableVector:0000007c $t
-     /tmp/cc2yQfqG.s:167    .text.nvicDisableVector:00000058 $t
-     /tmp/cc2yQfqG.s:232    .text.nvicSetSystemHandlerPriority:0000004c $t
+     /tmp/ccEqqsv5.s:101    .text.nvicEnableVector:0000007c $t
+     /tmp/ccEqqsv5.s:167    .text.nvicDisableVector:00000058 $t
+     /tmp/ccEqqsv5.s:232    .text.nvicSetSystemHandlerPriority:0000004c $t
 
 NO UNDEFINED SYMBOLS

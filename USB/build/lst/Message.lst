@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cciJHeXp.s 			page 1
+ARM GAS  /tmp/cc7hwHT3.s 			page 1
 
 
    1              		.syntax unified
@@ -29,7 +29,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
   26              		.type	_ZN3r2p8SysLock_7acquireEv, %function
   27              	_ZN3r2p8SysLock_7acquireEv:
   28              	.LFB18:
-  29              		.file 1 "/home/denny/r2p-sdk/core/Middleware/port/chibios/include/r2p/impl/SysLock_.hpp"
+  29              		.file 1 "/home/ergae/r2p-sdk/core/Middleware/port/chibios/include/r2p/impl/SysLock_.hpp"
   30              		.loc 1 20 0
   31              		.cfi_startproc
   32              		@ args = 0, pretend = 0, frame = 0
@@ -43,7 +43,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
   40              	.LBB4:
   41              		.loc 1 22 0
   42 0002 2023     		movs	r3, #32
-  43              	@ 22 "/home/denny/r2p-sdk/core/Middleware/port/chibios/include/r2p/impl/SysLock_.hpp" 1
+  43              	@ 22 "/home/ergae/r2p-sdk/core/Middleware/port/chibios/include/r2p/impl/SysLock_.hpp" 1
   44 0004 83F31188 		msr     BASEPRI, r3
   45              	@ 0 "" 2
   46              		.thumb
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
   55              		.size	_ZN3r2p8SysLock_7acquireEv, .-_ZN3r2p8SysLock_7acquireEv
   56 000e 00BF     		.section	.text._ZN3r2p8SysLock_7releaseEv,"axG",%progbits,_ZN3r2p8SysLock_7releaseEv,comdat
   57              		.align	2
-ARM GAS  /tmp/cciJHeXp.s 			page 2
+ARM GAS  /tmp/cc7hwHT3.s 			page 2
 
 
   58              		.p2align 4,,15
@@ -82,7 +82,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
   76 0002 FFF7FEFF 		bl	dbg_check_unlock
   77              	.LBB7:
   78 0006 0023     		movs	r3, #0
-  79              	@ 29 "/home/denny/r2p-sdk/core/Middleware/port/chibios/include/r2p/impl/SysLock_.hpp" 1
+  79              	@ 29 "/home/ergae/r2p-sdk/core/Middleware/port/chibios/include/r2p/impl/SysLock_.hpp" 1
   80 0008 83F31188 		msr     BASEPRI, r3
   81              	@ 0 "" 2
   82              		.thumb
@@ -103,7 +103,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
   97              		.type	_ZN3r2p7SysLock7acquireEv, %function
   98              	_ZN3r2p7SysLock7acquireEv:
   99              	.LFB26:
- 100              		.file 2 "/home/denny/r2p-sdk/core/Middleware/include/r2p/SysLock.hpp"
+ 100              		.file 2 "/home/ergae/r2p-sdk/core/Middleware/include/r2p/SysLock.hpp"
  101              		.loc 2 27 0
  102              		.cfi_startproc
  103              		@ args = 0, pretend = 0, frame = 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  112 0006 08BD     		pop	{r3, pc}
  113              		.cfi_endproc
  114              	.LFE26:
-ARM GAS  /tmp/cciJHeXp.s 			page 3
+ARM GAS  /tmp/cc7hwHT3.s 			page 3
 
 
  115              		.size	_ZN3r2p7SysLock7acquireEv, .-_ZN3r2p7SysLock7acquireEv
@@ -163,7 +163,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  150              		.type	_ZN3r2p7Message14acquire_unsafeEv, %function
  151              	_ZN3r2p7Message14acquire_unsafeEv:
  152              	.LFB38:
- 153              		.file 3 "/home/denny/r2p-sdk/core/Middleware/include/r2p/Message.hpp"
+ 153              		.file 3 "/home/ergae/r2p-sdk/core/Middleware/include/r2p/Message.hpp"
  154              		.loc 3 104 0
  155              		.cfi_startproc
  156              		@ args = 0, pretend = 0, frame = 8
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  165 0006 019B     		ldr	r3, [sp, #4]
  166 0008 1B88     		ldrh	r3, [r3]	@ unaligned
  167 000a 9BB2     		uxth	r3, r3
-ARM GAS  /tmp/cciJHeXp.s 			page 4
+ARM GAS  /tmp/cc7hwHT3.s 			page 4
 
 
  168 000c 1A46     		mov	r2, r3
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  222 0008 1B88     		ldrh	r3, [r3]	@ unaligned
  223 000a 9BB2     		uxth	r3, r3
  224 000c 002B     		cmp	r3, #0
-ARM GAS  /tmp/cciJHeXp.s 			page 5
+ARM GAS  /tmp/cc7hwHT3.s 			page 5
 
 
  225 000e 02D1     		bne	.L10
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  279 0008 1A70     		strb	r2, [r3]
  280 000a 0022     		movs	r2, #0
  281 000c 5A70     		strb	r2, [r3, #1]
-ARM GAS  /tmp/cciJHeXp.s 			page 6
+ARM GAS  /tmp/cc7hwHT3.s 			page 6
 
 
  282              		.loc 3 128 0
@@ -321,7 +321,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  296              		.type	_ZN3r2p7Message7acquireEv, %function
  297              	_ZN3r2p7Message7acquireEv:
  298              	.LFB49:
- 299              		.file 4 "/home/denny/r2p-sdk/core/Middleware/src/Message.cpp"
+ 299              		.file 4 "/home/ergae/r2p-sdk/core/Middleware/src/Message.cpp"
  300              		.loc 4 8 0
  301              		.cfi_startproc
  302              		@ args = 0, pretend = 0, frame = 8
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  332              	_ZN3r2p7Message7releaseEv:
  333              	.LFB50:
  334              		.loc 4 16 0
-ARM GAS  /tmp/cciJHeXp.s 			page 7
+ARM GAS  /tmp/cc7hwHT3.s 			page 7
 
 
  335              		.cfi_startproc
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  387              		.loc 4 28 0
  388 000a 0198     		ldr	r0, [sp, #4]
  389 000c FFF7FEFF 		bl	_ZN3r2p7Message12reset_unsafeEv
-ARM GAS  /tmp/cciJHeXp.s 			page 8
+ARM GAS  /tmp/cc7hwHT3.s 			page 8
 
 
  390              		.loc 4 29 0
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  443 0028 FFF7FEFF 		bl	memcpy
  444              		.loc 4 45 0
  445 002c 05B0     		add	sp, sp, #20
-ARM GAS  /tmp/cciJHeXp.s 			page 9
+ARM GAS  /tmp/cc7hwHT3.s 			page 9
 
 
  446              		.cfi_def_cfa_offset 4
@@ -494,13 +494,13 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  456 0038 AFF30080 		.text
  456      AFF30080 
  457              	.Letext0:
- 458              		.file 5 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/lib/gcc/arm-none-eabi/4.9.3/includ
- 459              		.file 6 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/machine/_def
- 460              		.file 7 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/c++/4.9.3/cs
- 461              		.file 8 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/string.h"
+ 458              		.file 5 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/lib/gcc/arm-none-eabi/4.9.3/includ
+ 459              		.file 6 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/machine/_def
+ 460              		.file 7 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/c++/4.9.3/cs
+ 461              		.file 8 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/string.h"
  462              		.file 9 "<built-in>"
- 463              		.file 10 "/home/denny/r2p-sdk/core/Middleware/include/r2p/Uncopyable.hpp"
- 464              		.file 11 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/stdint.h"
+ 463              		.file 10 "/home/ergae/r2p-sdk/core/Middleware/include/r2p/Uncopyable.hpp"
+ 464              		.file 11 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/stdint.h"
  465              		.section	.debug_info,"",%progbits
  466              	.Ldebug_info0:
  467 0000 D0050000 		.4byte	0x5d0
@@ -508,10 +508,10 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  469 0006 00000000 		.4byte	.Ldebug_abbrev0
  470 000a 04       		.byte	0x4
  471 000b 01       		.uleb128 0x1
- 472 000c 16030000 		.4byte	.LASF58
+ 472 000c 58030000 		.4byte	.LASF58
  473 0010 04       		.byte	0x4
- 474 0011 BE040000 		.4byte	.LASF59
- 475 0015 E1020000 		.4byte	.LASF60
+ 474 0011 0C000000 		.4byte	.LASF59
+ 475 0015 D5020000 		.4byte	.LASF60
  476 0019 00000000 		.4byte	.Ldebug_ranges0+0
  477 001d 00000000 		.4byte	0
  478 0021 00000000 		.4byte	.Ldebug_line0
@@ -520,68 +520,68 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  481 0027 05       		.byte	0x5
  482 0028 696E7400 		.ascii	"int\000"
  483 002c 03       		.uleb128 0x3
- 484 002d 57000000 		.4byte	.LASF2
+ 484 002d 8B000000 		.4byte	.LASF2
  485 0031 05       		.byte	0x5
  486 0032 D4       		.byte	0xd4
  487 0033 37000000 		.4byte	0x37
  488 0037 04       		.uleb128 0x4
  489 0038 04       		.byte	0x4
  490 0039 07       		.byte	0x7
- 491 003a 05020000 		.4byte	.LASF0
+ 491 003a 39020000 		.4byte	.LASF0
  492 003e 04       		.uleb128 0x4
  493 003f 01       		.byte	0x1
  494 0040 06       		.byte	0x6
- 495 0041 41000000 		.4byte	.LASF1
+ 495 0041 75000000 		.4byte	.LASF1
  496 0045 03       		.uleb128 0x3
- 497 0046 69010000 		.4byte	.LASF3
+ 497 0046 9D010000 		.4byte	.LASF3
  498 004a 06       		.byte	0x6
  499 004b 1D       		.byte	0x1d
  500 004c 50000000 		.4byte	0x50
  501 0050 04       		.uleb128 0x4
-ARM GAS  /tmp/cciJHeXp.s 			page 10
+ARM GAS  /tmp/cc7hwHT3.s 			page 10
 
 
  502 0051 01       		.byte	0x1
  503 0052 08       		.byte	0x8
- 504 0053 8F010000 		.4byte	.LASF4
+ 504 0053 C3010000 		.4byte	.LASF4
  505 0057 04       		.uleb128 0x4
  506 0058 02       		.byte	0x2
  507 0059 05       		.byte	0x5
- 508 005a 4D000000 		.4byte	.LASF5
+ 508 005a 81000000 		.4byte	.LASF5
  509 005e 03       		.uleb128 0x3
- 510 005f 97000000 		.4byte	.LASF6
+ 510 005f CB000000 		.4byte	.LASF6
  511 0063 06       		.byte	0x6
  512 0064 2B       		.byte	0x2b
  513 0065 69000000 		.4byte	0x69
  514 0069 04       		.uleb128 0x4
  515 006a 02       		.byte	0x2
  516 006b 07       		.byte	0x7
- 517 006c A1020000 		.4byte	.LASF7
+ 517 006c 04030000 		.4byte	.LASF7
  518 0070 04       		.uleb128 0x4
  519 0071 04       		.byte	0x4
  520 0072 05       		.byte	0x5
- 521 0073 4F010000 		.4byte	.LASF8
+ 521 0073 83010000 		.4byte	.LASF8
  522 0077 03       		.uleb128 0x3
- 523 0078 8C000000 		.4byte	.LASF9
+ 523 0078 C0000000 		.4byte	.LASF9
  524 007c 06       		.byte	0x6
  525 007d 41       		.byte	0x41
  526 007e 82000000 		.4byte	0x82
  527 0082 04       		.uleb128 0x4
  528 0083 04       		.byte	0x4
  529 0084 07       		.byte	0x7
- 530 0085 81040000 		.4byte	.LASF10
+ 530 0085 C3040000 		.4byte	.LASF10
  531 0089 04       		.uleb128 0x4
  532 008a 08       		.byte	0x8
  533 008b 05       		.byte	0x5
- 534 008c 41010000 		.4byte	.LASF11
+ 534 008c 75010000 		.4byte	.LASF11
  535 0090 04       		.uleb128 0x4
  536 0091 08       		.byte	0x8
  537 0092 07       		.byte	0x7
- 538 0093 E5010000 		.4byte	.LASF12
+ 538 0093 19020000 		.4byte	.LASF12
  539 0097 04       		.uleb128 0x4
  540 0098 04       		.byte	0x4
  541 0099 07       		.byte	0x7
- 542 009a 76000000 		.4byte	.LASF13
+ 542 009a AA000000 		.4byte	.LASF13
  543 009e 05       		.uleb128 0x5
  544 009f 04       		.byte	0x4
  545 00a0 06       		.uleb128 0x6
@@ -590,7 +590,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  548 00a6 04       		.uleb128 0x4
  549 00a7 01       		.byte	0x1
  550 00a8 08       		.byte	0x8
- 551 00a9 B4020000 		.4byte	.LASF14
+ 551 00a9 17030000 		.4byte	.LASF14
  552 00ad 06       		.uleb128 0x6
  553 00ae 04       		.byte	0x4
  554 00af B3000000 		.4byte	0xb3
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  556 00b4 A6000000 		.4byte	0xa6
  557 00b8 08       		.uleb128 0x8
  558 00b9 73746400 		.ascii	"std\000"
-ARM GAS  /tmp/cciJHeXp.s 			page 11
+ARM GAS  /tmp/cc7hwHT3.s 			page 11
 
 
  559 00bd 09       		.byte	0x9
@@ -622,7 +622,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  577 00db 29010000 		.4byte	0x129
  578 00df 00       		.byte	0
  579 00e0 0A       		.uleb128 0xa
- 580 00e1 D9020000 		.4byte	.LASF15
+ 580 00e1 3C030000 		.4byte	.LASF15
  581 00e5 08       		.byte	0x8
  582 00e6 1D       		.byte	0x1d
  583 00e7 25000000 		.4byte	0x25
@@ -633,7 +633,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  588 00f5 AD000000 		.4byte	0xad
  589 00f9 00       		.byte	0
  590 00fa 0A       		.uleb128 0xa
- 591 00fb A2000000 		.4byte	.LASF16
+ 591 00fb D6000000 		.4byte	.LASF16
  592 00ff 08       		.byte	0x8
  593 0100 20       		.byte	0x20
  594 0101 A0000000 		.4byte	0xa0
@@ -642,7 +642,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  597 010a 25000000 		.4byte	0x25
  598 010e 00       		.byte	0
  599 010f 0A       		.uleb128 0xa
- 600 0110 62010000 		.4byte	.LASF17
+ 600 0110 96010000 		.4byte	.LASF17
  601 0114 08       		.byte	0x8
  602 0115 2A       		.byte	0x2a
  603 0116 A0000000 		.4byte	0xa0
@@ -653,12 +653,12 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  608 0124 AD000000 		.4byte	0xad
  609 0128 00       		.byte	0
  610 0129 0A       		.uleb128 0xa
- 611 012a 79040000 		.4byte	.LASF18
+ 611 012a BB040000 		.4byte	.LASF18
  612 012e 08       		.byte	0x8
  613 012f 2C       		.byte	0x2c
  614 0130 2C000000 		.4byte	0x2c
  615 0134 48010000 		.4byte	0x148
-ARM GAS  /tmp/cciJHeXp.s 			page 12
+ARM GAS  /tmp/cc7hwHT3.s 			page 12
 
 
  616 0138 0B       		.uleb128 0xb
@@ -674,13 +674,13 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  626 014e 03       		.byte	0x3
  627 014f B1030000 		.4byte	0x3b1
  628 0153 0C       		.uleb128 0xc
- 629 0154 EF000000 		.4byte	.LASF19
+ 629 0154 23010000 		.4byte	.LASF19
  630 0158 01       		.byte	0x1
  631 0159 0A       		.byte	0xa
  632 015a 06       		.byte	0x6
  633 015b B3010000 		.4byte	0x1b3
  634 015f 0D       		.uleb128 0xd
- 635 0160 EF000000 		.4byte	.LASF19
+ 635 0160 23010000 		.4byte	.LASF19
  636 0164 0A       		.byte	0xa
  637 0165 09       		.byte	0x9
  638 0166 B1030000 		.4byte	0x3b1
@@ -692,7 +692,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  644 0178 B7030000 		.4byte	0x3b7
  645 017c 00       		.byte	0
  646 017d 0F       		.uleb128 0xf
- 647 017e EF000000 		.4byte	.LASF19
+ 647 017e 23010000 		.4byte	.LASF19
  648 0182 0A       		.byte	0xa
  649 0183 14       		.byte	0x14
  650 0184 B1030000 		.4byte	0x3b1
@@ -718,10 +718,10 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  670 01b3 07       		.uleb128 0x7
  671 01b4 53010000 		.4byte	0x153
  672 01b8 0C       		.uleb128 0xc
-ARM GAS  /tmp/cciJHeXp.s 			page 13
+ARM GAS  /tmp/cc7hwHT3.s 			page 13
 
 
- 673 01b9 42050000 		.4byte	.LASF21
+ 673 01b9 50050000 		.4byte	.LASF21
  674 01bd 01       		.byte	0x1
  675 01be 01       		.byte	0x1
  676 01bf 09       		.byte	0x9
@@ -730,7 +730,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  679 01c5 53010000 		.4byte	0x153
  680 01c9 00       		.byte	0
  681 01ca 0D       		.uleb128 0xd
- 682 01cb 42050000 		.4byte	.LASF21
+ 682 01cb 50050000 		.4byte	.LASF21
  683 01cf 01       		.byte	0x1
  684 01d0 0B       		.byte	0xb
  685 01d1 F0030000 		.4byte	0x3f0
@@ -740,20 +740,20 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  689 01de F0030000 		.4byte	0x3f0
  690 01e2 00       		.byte	0
  691 01e3 12       		.uleb128 0x12
- 692 01e4 7E020000 		.4byte	.LASF22
+ 692 01e4 B2020000 		.4byte	.LASF22
  693 01e8 01       		.byte	0x1
  694 01e9 0E       		.byte	0xe
- 695 01ea 27050000 		.4byte	.LASF24
+ 695 01ea 35050000 		.4byte	.LASF24
  696 01ee 01       		.byte	0x1
  697 01ef 12       		.uleb128 0x12
- 698 01f0 F2040000 		.4byte	.LASF23
+ 698 01f0 00050000 		.4byte	.LASF23
  699 01f4 01       		.byte	0x1
  700 01f5 0F       		.byte	0xf
- 701 01f6 86020000 		.4byte	.LASF25
+ 701 01f6 BA020000 		.4byte	.LASF25
  702 01fa 01       		.byte	0x1
  703 01fb 00       		.byte	0
  704 01fc 0C       		.uleb128 0xc
- 705 01fd DE000000 		.4byte	.LASF26
+ 705 01fd 12010000 		.4byte	.LASF26
  706 0201 01       		.byte	0x1
  707 0202 02       		.byte	0x2
  708 0203 09       		.byte	0x9
@@ -762,7 +762,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  711 0209 53010000 		.4byte	0x153
  712 020d 00       		.byte	0
  713 020e 0D       		.uleb128 0xd
- 714 020f DE000000 		.4byte	.LASF26
+ 714 020f 12010000 		.4byte	.LASF26
  715 0213 02       		.byte	0x2
  716 0214 12       		.byte	0x12
  717 0215 F6030000 		.4byte	0x3f6
@@ -772,44 +772,44 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  721 0222 F6030000 		.4byte	0x3f6
  722 0226 00       		.byte	0
  723 0227 12       		.uleb128 0x12
- 724 0228 7E020000 		.4byte	.LASF22
+ 724 0228 B2020000 		.4byte	.LASF22
  725 022c 02       		.byte	0x2
  726 022d 15       		.byte	0x15
- 727 022e CB010000 		.4byte	.LASF27
+ 727 022e FF010000 		.4byte	.LASF27
  728 0232 01       		.byte	0x1
  729 0233 12       		.uleb128 0x12
-ARM GAS  /tmp/cciJHeXp.s 			page 14
+ARM GAS  /tmp/cc7hwHT3.s 			page 14
 
 
- 730 0234 F2040000 		.4byte	.LASF23
+ 730 0234 00050000 		.4byte	.LASF23
  731 0238 02       		.byte	0x2
  732 0239 16       		.byte	0x16
- 733 023a 0D010000 		.4byte	.LASF28
+ 733 023a 41010000 		.4byte	.LASF28
  734 023e 01       		.byte	0x1
  735 023f 00       		.byte	0
  736 0240 0C       		.uleb128 0xc
- 737 0241 1F050000 		.4byte	.LASF29
+ 737 0241 2D050000 		.4byte	.LASF29
  738 0245 02       		.byte	0x2
  739 0246 03       		.byte	0x3
  740 0247 14       		.byte	0x14
  741 0248 AB030000 		.4byte	0x3ab
  742 024c 13       		.uleb128 0x13
- 743 024d 9D010000 		.4byte	.LASF61
+ 743 024d D1010000 		.4byte	.LASF61
  744 0251 03       		.byte	0x3
  745 0252 16       		.byte	0x16
  746 0253 C8030000 		.4byte	0x3c8
  747 0257 01       		.byte	0x1
  748 0258 14       		.uleb128 0x14
- 749 0259 CD000000 		.4byte	.LASF62
+ 749 0259 01010000 		.4byte	.LASF62
  750 025d 03       		.byte	0x3
  751 025e 1D       		.byte	0x1d
  752 025f 4C020000 		.4byte	0x24c
  753 0263 00       		.byte	0
  754 0264 15       		.uleb128 0x15
- 755 0265 73010000 		.4byte	.LASF31
+ 755 0265 A7010000 		.4byte	.LASF31
  756 0269 03       		.byte	0x3
  757 026a 20       		.byte	0x20
- 758 026b 5D020000 		.4byte	.LASF33
+ 758 026b 91020000 		.4byte	.LASF33
  759 026f E5030000 		.4byte	0x3e5
  760 0273 01       		.byte	0x1
  761 0274 7C020000 		.4byte	0x27c
@@ -818,10 +818,10 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  764 027d FC030000 		.4byte	0x3fc
  765 0281 00       		.byte	0
  766 0282 16       		.uleb128 0x16
- 767 0283 80010000 		.4byte	.LASF30
+ 767 0283 B4010000 		.4byte	.LASF30
  768 0287 03       		.byte	0x3
  769 0288 26       		.byte	0x26
- 770 0289 12020000 		.4byte	.LASF36
+ 770 0289 46020000 		.4byte	.LASF36
  771 028d 01       		.byte	0x1
  772 028e 96020000 		.4byte	0x296
  773 0292 9C020000 		.4byte	0x29c
@@ -829,25 +829,25 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  775 0297 02040000 		.4byte	0x402
  776 029b 00       		.byte	0
  777 029c 15       		.uleb128 0x15
- 778 029d 07030000 		.4byte	.LASF32
+ 778 029d 49030000 		.4byte	.LASF32
  779 02a1 03       		.byte	0x3
  780 02a2 27       		.byte	0x27
- 781 02a3 AB000000 		.4byte	.LASF34
+ 781 02a3 DF000000 		.4byte	.LASF34
  782 02a7 DE030000 		.4byte	0x3de
  783 02ab 01       		.byte	0x1
  784 02ac B4020000 		.4byte	0x2b4
  785 02b0 BA020000 		.4byte	0x2ba
  786 02b4 0E       		.uleb128 0xe
-ARM GAS  /tmp/cciJHeXp.s 			page 15
+ARM GAS  /tmp/cc7hwHT3.s 			page 15
 
 
  787 02b5 02040000 		.4byte	0x402
  788 02b9 00       		.byte	0
  789 02ba 16       		.uleb128 0x16
- 790 02bb 7F000000 		.4byte	.LASF35
+ 790 02bb B3000000 		.4byte	.LASF35
  791 02bf 03       		.byte	0x3
  792 02c0 28       		.byte	0x28
- 793 02c1 3D020000 		.4byte	.LASF37
+ 793 02c1 71020000 		.4byte	.LASF37
  794 02c5 01       		.byte	0x1
  795 02c6 CE020000 		.4byte	0x2ce
  796 02ca D4020000 		.4byte	0x2d4
@@ -855,10 +855,10 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  798 02cf 02040000 		.4byte	0x402
  799 02d3 00       		.byte	0
  800 02d4 16       		.uleb128 0x16
- 801 02d5 7E020000 		.4byte	.LASF22
+ 801 02d5 B2020000 		.4byte	.LASF22
  802 02d9 03       		.byte	0x3
  803 02da 2A       		.byte	0x2a
- 804 02db FA040000 		.4byte	.LASF38
+ 804 02db 08050000 		.4byte	.LASF38
  805 02df 01       		.byte	0x1
  806 02e0 E8020000 		.4byte	0x2e8
  807 02e4 EE020000 		.4byte	0x2ee
@@ -866,10 +866,10 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  809 02e9 02040000 		.4byte	0x402
  810 02ed 00       		.byte	0
  811 02ee 15       		.uleb128 0x15
- 812 02ef F2040000 		.4byte	.LASF23
+ 812 02ef 00050000 		.4byte	.LASF23
  813 02f3 03       		.byte	0x3
  814 02f4 2B       		.byte	0x2b
- 815 02f5 27010000 		.4byte	.LASF39
+ 815 02f5 5B010000 		.4byte	.LASF39
  816 02f9 DE030000 		.4byte	0x3de
  817 02fd 01       		.byte	0x1
  818 02fe 06030000 		.4byte	0x306
@@ -878,10 +878,10 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  821 0307 02040000 		.4byte	0x402
  822 030b 00       		.byte	0
  823 030c 16       		.uleb128 0x16
- 824 030d 14050000 		.4byte	.LASF40
+ 824 030d 22050000 		.4byte	.LASF40
  825 0311 03       		.byte	0x3
  826 0312 2C       		.byte	0x2c
- 827 0313 5E000000 		.4byte	.LASF41
+ 827 0313 92000000 		.4byte	.LASF41
  828 0317 01       		.byte	0x1
  829 0318 20030000 		.4byte	0x320
  830 031c 26030000 		.4byte	0x326
@@ -889,7 +889,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  832 0321 02040000 		.4byte	0x402
  833 0325 00       		.byte	0
  834 0326 0F       		.uleb128 0xf
- 835 0327 1F050000 		.4byte	.LASF29
+ 835 0327 2D050000 		.4byte	.LASF29
  836 032b 03       		.byte	0x3
  837 032c 2F       		.byte	0x2f
  838 032d 02040000 		.4byte	0x402
@@ -898,15 +898,15 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  841 0336 40030000 		.4byte	0x340
  842 033a 0E       		.uleb128 0xe
  843 033b 02040000 		.4byte	0x402
-ARM GAS  /tmp/cciJHeXp.s 			page 16
+ARM GAS  /tmp/cc7hwHT3.s 			page 16
 
 
  844 033f 00       		.byte	0
  845 0340 17       		.uleb128 0x17
- 846 0341 1A050000 		.4byte	.LASF42
+ 846 0341 28050000 		.4byte	.LASF42
  847 0345 03       		.byte	0x3
  848 0346 32       		.byte	0x32
- 849 0347 B9020000 		.4byte	.LASF48
+ 849 0347 1C030000 		.4byte	.LASF48
  850 034b 01       		.byte	0x1
  851 034c 60030000 		.4byte	0x360
  852 0350 0B       		.uleb128 0xb
@@ -917,10 +917,10 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  857 035b 2C000000 		.4byte	0x2c
  858 035f 00       		.byte	0
  859 0360 18       		.uleb128 0x18
- 860 0361 63040000 		.4byte	.LASF43
+ 860 0361 A5040000 		.4byte	.LASF43
  861 0365 03       		.byte	0x3
  862 0366 33       		.byte	0x33
- 863 0367 93040000 		.4byte	.LASF44
+ 863 0367 D5040000 		.4byte	.LASF44
  864 036b 0E040000 		.4byte	0x40e
  865 036f 01       		.byte	0x1
  866 0370 7A030000 		.4byte	0x37a
@@ -928,10 +928,10 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  868 0375 E5030000 		.4byte	0x3e5
  869 0379 00       		.byte	0
  870 037a 18       		.uleb128 0x18
- 871 037b 30000000 		.4byte	.LASF45
+ 871 037b 64000000 		.4byte	.LASF45
  872 037f 03       		.byte	0x3
  873 0380 34       		.byte	0x34
- 874 0381 0C000000 		.4byte	.LASF46
+ 874 0381 40000000 		.4byte	.LASF46
  875 0385 2C000000 		.4byte	0x2c
  876 0389 01       		.byte	0x1
  877 038a 94030000 		.4byte	0x394
@@ -939,10 +939,10 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  879 038f 2C000000 		.4byte	0x2c
  880 0393 00       		.byte	0
  881 0394 19       		.uleb128 0x19
- 882 0395 FF000000 		.4byte	.LASF47
+ 882 0395 33010000 		.4byte	.LASF47
  883 0399 03       		.byte	0x3
  884 039a 35       		.byte	0x35
- 885 039b AA010000 		.4byte	.LASF49
+ 885 039b DE010000 		.4byte	.LASF49
  886 039f 2C000000 		.4byte	0x2c
  887 03a3 01       		.byte	0x1
  888 03a4 0B       		.uleb128 0xb
@@ -958,28 +958,28 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  898 03b7 1A       		.uleb128 0x1a
  899 03b8 04       		.byte	0x4
  900 03b9 B3010000 		.4byte	0x1b3
-ARM GAS  /tmp/cciJHeXp.s 			page 17
+ARM GAS  /tmp/cc7hwHT3.s 			page 17
 
 
  901 03bd 03       		.uleb128 0x3
- 902 03be D6000000 		.4byte	.LASF50
+ 902 03be 0A010000 		.4byte	.LASF50
  903 03c2 0B       		.byte	0xb
  904 03c3 15       		.byte	0x15
  905 03c4 45000000 		.4byte	0x45
  906 03c8 03       		.uleb128 0x3
- 907 03c9 34020000 		.4byte	.LASF51
+ 907 03c9 68020000 		.4byte	.LASF51
  908 03cd 0B       		.byte	0xb
  909 03ce 21       		.byte	0x21
  910 03cf 5E000000 		.4byte	0x5e
  911 03d3 03       		.uleb128 0x3
- 912 03d4 FC010000 		.4byte	.LASF52
+ 912 03d4 30020000 		.4byte	.LASF52
  913 03d8 0B       		.byte	0xb
  914 03d9 2D       		.byte	0x2d
  915 03da 77000000 		.4byte	0x77
  916 03de 04       		.uleb128 0x4
  917 03df 01       		.byte	0x1
  918 03e0 02       		.byte	0x2
- 919 03e1 FA000000 		.4byte	.LASF53
+ 919 03e1 2E010000 		.4byte	.LASF53
  920 03e5 06       		.uleb128 0x6
  921 03e6 04       		.byte	0x4
  922 03e7 EB030000 		.4byte	0x3eb
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  955 0432 746D7000 		.ascii	"tmp\000"
  956 0436 01       		.byte	0x1
  957 0437 16       		.byte	0x16
-ARM GAS  /tmp/cciJHeXp.s 			page 18
+ARM GAS  /tmp/cc7hwHT3.s 			page 18
 
 
  958 0438 D3030000 		.4byte	0x3d3
@@ -1070,7 +1070,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  1004 049c A4040000 		.4byte	0x4a4
  1005 04a0 B1040000 		.4byte	0x4b1
  1006 04a4 20       		.uleb128 0x20
- 1007 04a5 02030000 		.4byte	.LASF54
+ 1007 04a5 44030000 		.4byte	.LASF54
  1008 04a9 B1040000 		.4byte	0x4b1
  1009 04ad 02       		.uleb128 0x2
  1010 04ae 91       		.byte	0x91
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  1012 04b0 00       		.byte	0
  1013 04b1 07       		.uleb128 0x7
  1014 04b2 02040000 		.4byte	0x402
-ARM GAS  /tmp/cciJHeXp.s 			page 19
+ARM GAS  /tmp/cc7hwHT3.s 			page 19
 
 
  1015 04b6 1F       		.uleb128 0x1f
@@ -1091,7 +1091,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  1022 04c6 CE040000 		.4byte	0x4ce
  1023 04ca DB040000 		.4byte	0x4db
  1024 04ce 20       		.uleb128 0x20
- 1025 04cf 02030000 		.4byte	.LASF54
+ 1025 04cf 44030000 		.4byte	.LASF54
  1026 04d3 B1040000 		.4byte	0x4b1
  1027 04d7 02       		.uleb128 0x2
  1028 04d8 91       		.byte	0x91
@@ -1107,7 +1107,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  1038 04eb F3040000 		.4byte	0x4f3
  1039 04ef 00050000 		.4byte	0x500
  1040 04f3 20       		.uleb128 0x20
- 1041 04f4 02030000 		.4byte	.LASF54
+ 1041 04f4 44030000 		.4byte	.LASF54
  1042 04f8 B1040000 		.4byte	0x4b1
  1043 04fc 02       		.uleb128 0x2
  1044 04fd 91       		.byte	0x91
@@ -1124,7 +1124,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  1055 0511 19050000 		.4byte	0x519
  1056 0515 26050000 		.4byte	0x526
  1057 0519 20       		.uleb128 0x20
- 1058 051a 02030000 		.4byte	.LASF54
+ 1058 051a 44030000 		.4byte	.LASF54
  1059 051e B1040000 		.4byte	0x4b1
  1060 0522 02       		.uleb128 0x2
  1061 0523 91       		.byte	0x91
@@ -1138,13 +1138,13 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  1069 0531 26000000 		.4byte	.LFE50-.LFB50
  1070 0535 01       		.uleb128 0x1
  1071 0536 9C       		.byte	0x9c
-ARM GAS  /tmp/cciJHeXp.s 			page 20
+ARM GAS  /tmp/cc7hwHT3.s 			page 20
 
 
  1072 0537 3F050000 		.4byte	0x53f
  1073 053b 64050000 		.4byte	0x564
  1074 053f 20       		.uleb128 0x20
- 1075 0540 02030000 		.4byte	.LASF54
+ 1075 0540 44030000 		.4byte	.LASF54
  1076 0544 B1040000 		.4byte	0x4b1
  1077 0548 02       		.uleb128 0x2
  1078 0549 91       		.byte	0x91
@@ -1153,7 +1153,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  1081 054c 06000000 		.4byte	.LBB8
  1082 0550 18000000 		.4byte	.LBE8-.LBB8
  1083 0554 23       		.uleb128 0x23
- 1084 0555 E6000000 		.4byte	.LASF55
+ 1084 0555 1A010000 		.4byte	.LASF55
  1085 0559 04       		.byte	0x4
  1086 055a 13       		.byte	0x13
  1087 055b DE030000 		.4byte	0x3de
@@ -1173,7 +1173,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  1101 0575 7D050000 		.4byte	0x57d
  1102 0579 8A050000 		.4byte	0x58a
  1103 057d 20       		.uleb128 0x20
- 1104 057e 02030000 		.4byte	.LASF54
+ 1104 057e 44030000 		.4byte	.LASF54
  1105 0582 B1040000 		.4byte	0x4b1
  1106 0586 02       		.uleb128 0x2
  1107 0587 91       		.byte	0x91
@@ -1197,8 +1197,8 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  1125 05aa 91       		.byte	0x91
  1126 05ab 74       		.sleb128 -12
  1127 05ac 26       		.uleb128 0x26
- 1128 05ad 4B050000 		.4byte	.LASF56
-ARM GAS  /tmp/cciJHeXp.s 			page 21
+ 1128 05ad 59050000 		.4byte	.LASF56
+ARM GAS  /tmp/cc7hwHT3.s 			page 21
 
 
  1129 05b1 04       		.byte	0x4
@@ -1208,7 +1208,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  1133 05b8 91       		.byte	0x91
  1134 05b9 70       		.sleb128 -16
  1135 05ba 26       		.uleb128 0x26
- 1136 05bb 58010000 		.4byte	.LASF57
+ 1136 05bb 8C010000 		.4byte	.LASF57
  1137 05bf 04       		.byte	0x4
  1138 05c0 21       		.byte	0x21
  1139 05c1 2C000000 		.4byte	0x2c
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  1183 0020 00       		.byte	0
  1184 0021 03       		.uleb128 0x3
  1185 0022 0E       		.uleb128 0xe
-ARM GAS  /tmp/cciJHeXp.s 			page 22
+ARM GAS  /tmp/cc7hwHT3.s 			page 22
 
 
  1186 0023 3A       		.uleb128 0x3a
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  1240 0059 00       		.byte	0
  1241 005a 09       		.uleb128 0x9
  1242 005b 08       		.uleb128 0x8
-ARM GAS  /tmp/cciJHeXp.s 			page 23
+ARM GAS  /tmp/cc7hwHT3.s 			page 23
 
 
  1243 005c 00       		.byte	0
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  1297 0092 19       		.uleb128 0x19
  1298 0093 03       		.uleb128 0x3
  1299 0094 0E       		.uleb128 0xe
-ARM GAS  /tmp/cciJHeXp.s 			page 24
+ARM GAS  /tmp/cc7hwHT3.s 			page 24
 
 
  1300 0095 3A       		.uleb128 0x3a
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  1354 00cb 0B       		.uleb128 0xb
  1355 00cc 3B       		.uleb128 0x3b
  1356 00cd 0B       		.uleb128 0xb
-ARM GAS  /tmp/cciJHeXp.s 			page 25
+ARM GAS  /tmp/cc7hwHT3.s 			page 25
 
 
  1357 00ce 49       		.uleb128 0x49
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  1411 0104 0D       		.uleb128 0xd
  1412 0105 00       		.byte	0
  1413 0106 03       		.uleb128 0x3
-ARM GAS  /tmp/cciJHeXp.s 			page 26
+ARM GAS  /tmp/cc7hwHT3.s 			page 26
 
 
  1414 0107 0E       		.uleb128 0xe
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  1468 013d 13       		.uleb128 0x13
  1469 013e 01       		.uleb128 0x1
  1470 013f 13       		.uleb128 0x13
-ARM GAS  /tmp/cciJHeXp.s 			page 27
+ARM GAS  /tmp/cc7hwHT3.s 			page 27
 
 
  1471 0140 00       		.byte	0
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  1525 0176 0B       		.uleb128 0xb
  1526 0177 3B       		.uleb128 0x3b
  1527 0178 0B       		.uleb128 0xb
-ARM GAS  /tmp/cciJHeXp.s 			page 28
+ARM GAS  /tmp/cc7hwHT3.s 			page 28
 
 
  1528 0179 6E       		.uleb128 0x6e
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  1582 01b0 3B       		.uleb128 0x3b
  1583 01b1 0B       		.uleb128 0xb
  1584 01b2 49       		.uleb128 0x49
-ARM GAS  /tmp/cciJHeXp.s 			page 29
+ARM GAS  /tmp/cc7hwHT3.s 			page 29
 
 
  1585 01b3 13       		.uleb128 0x13
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  1639 01eb 00       		.byte	0
  1640 01ec 00       		.byte	0
  1641 01ed 21       		.uleb128 0x21
-ARM GAS  /tmp/cciJHeXp.s 			page 30
+ARM GAS  /tmp/cc7hwHT3.s 			page 30
 
 
  1642 01ee 2E       		.uleb128 0x2e
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  1696 0226 02       		.uleb128 0x2
  1697 0227 18       		.uleb128 0x18
  1698 0228 00       		.byte	0
-ARM GAS  /tmp/cciJHeXp.s 			page 31
+ARM GAS  /tmp/cc7hwHT3.s 			page 31
 
 
  1699 0229 00       		.byte	0
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  1753 0000 6C000000 		.4byte	0x6c
  1754 0004 0200     		.2byte	0x2
  1755 0006 00000000 		.4byte	.Ldebug_info0
-ARM GAS  /tmp/cciJHeXp.s 			page 32
+ARM GAS  /tmp/cc7hwHT3.s 			page 32
 
 
  1756 000a 04       		.byte	0x4
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  1810              		.section	.debug_line,"",%progbits
  1811              	.Ldebug_line0:
  1812 0000 9E030000 		.section	.debug_str,"MS",%progbits,1
-ARM GAS  /tmp/cciJHeXp.s 			page 33
+ARM GAS  /tmp/cc7hwHT3.s 			page 33
 
 
  1812      0200A102 
@@ -1929,375 +1929,375 @@ ARM GAS  /tmp/cciJHeXp.s 			page 1
  1814 0000 7E556E63 		.ascii	"~Uncopyable\000"
  1814      6F707961 
  1814      626C6500 
- 1815              	.LASF46:
- 1816 000c 5F5A4E33 		.ascii	"_ZN3r2p7Message16get_payload_sizeEj\000"
- 1816      72327037 
- 1816      4D657373 
- 1816      61676531 
- 1816      36676574 
- 1817              	.LASF45:
- 1818 0030 6765745F 		.ascii	"get_payload_size\000"
- 1818      7061796C 
- 1818      6F61645F 
- 1818      73697A65 
- 1818      00
- 1819              	.LASF1:
- 1820 0041 7369676E 		.ascii	"signed char\000"
- 1820      65642063 
- 1820      68617200 
- 1821              	.LASF5:
- 1822 004d 73686F72 		.ascii	"short int\000"
- 1822      7420696E 
- 1822      7400
- 1823              	.LASF2:
- 1824 0057 73697A65 		.ascii	"size_t\000"
- 1824      5F7400
- 1825              	.LASF41:
- 1826 005e 5F5A4E33 		.ascii	"_ZN3r2p7Message5resetEv\000"
- 1826      72327037 
- 1826      4D657373 
- 1826      61676535 
- 1826      72657365 
- 1827              	.LASF13:
- 1828 0076 73697A65 		.ascii	"sizetype\000"
- 1828      74797065 
- 1828      00
- 1829              	.LASF35:
- 1830 007f 72657365 		.ascii	"reset_unsafe\000"
- 1830      745F756E 
- 1830      73616665 
- 1830      00
- 1831              	.LASF9:
- 1832 008c 5F5F7569 		.ascii	"__uint32_t\000"
- 1832      6E743332 
- 1832      5F7400
- 1833              	.LASF6:
- 1834 0097 5F5F7569 		.ascii	"__uint16_t\000"
- 1834      6E743136 
- 1834      5F7400
- 1835              	.LASF16:
- 1836 00a2 73747265 		.ascii	"strerror\000"
- 1836      72726F72 
-ARM GAS  /tmp/cciJHeXp.s 			page 34
+ 1815              	.LASF59:
+ 1816 000c 2F686F6D 		.ascii	"/home/ergae/r2p-sdk/core/Middleware/src/Message.cpp"
+ 1816      652F6572 
+ 1816      6761652F 
+ 1816      7232702D 
+ 1816      73646B2F 
+ 1817 003f 00       		.ascii	"\000"
+ 1818              	.LASF46:
+ 1819 0040 5F5A4E33 		.ascii	"_ZN3r2p7Message16get_payload_sizeEj\000"
+ 1819      72327037 
+ 1819      4D657373 
+ 1819      61676531 
+ 1819      36676574 
+ 1820              	.LASF45:
+ 1821 0064 6765745F 		.ascii	"get_payload_size\000"
+ 1821      7061796C 
+ 1821      6F61645F 
+ 1821      73697A65 
+ 1821      00
+ 1822              	.LASF1:
+ 1823 0075 7369676E 		.ascii	"signed char\000"
+ 1823      65642063 
+ 1823      68617200 
+ 1824              	.LASF5:
+ 1825 0081 73686F72 		.ascii	"short int\000"
+ 1825      7420696E 
+ 1825      7400
+ 1826              	.LASF2:
+ 1827 008b 73697A65 		.ascii	"size_t\000"
+ 1827      5F7400
+ 1828              	.LASF41:
+ 1829 0092 5F5A4E33 		.ascii	"_ZN3r2p7Message5resetEv\000"
+ 1829      72327037 
+ 1829      4D657373 
+ 1829      61676535 
+ 1829      72657365 
+ 1830              	.LASF13:
+ 1831 00aa 73697A65 		.ascii	"sizetype\000"
+ 1831      74797065 
+ 1831      00
+ 1832              	.LASF35:
+ 1833 00b3 72657365 		.ascii	"reset_unsafe\000"
+ 1833      745F756E 
+ 1833      73616665 
+ 1833      00
+ 1834              	.LASF9:
+ 1835 00c0 5F5F7569 		.ascii	"__uint32_t\000"
+ 1835      6E743332 
+ 1835      5F7400
+ARM GAS  /tmp/cc7hwHT3.s 			page 34
 
 
- 1836      00
- 1837              	.LASF34:
- 1838 00ab 5F5A4E33 		.ascii	"_ZN3r2p7Message14release_unsafeEv\000"
- 1838      72327037 
- 1838      4D657373 
- 1838      61676531 
- 1838      3472656C 
- 1839              	.LASF62:
- 1840 00cd 72656663 		.ascii	"refcount\000"
- 1840      6F756E74 
- 1840      00
- 1841              	.LASF50:
- 1842 00d6 75696E74 		.ascii	"uint8_t\000"
- 1842      385F7400 
- 1843              	.LASF26:
- 1844 00de 5379734C 		.ascii	"SysLock\000"
- 1844      6F636B00 
- 1845              	.LASF55:
- 1846 00e6 666C6F61 		.ascii	"floating\000"
- 1846      74696E67 
- 1846      00
- 1847              	.LASF19:
- 1848 00ef 556E636F 		.ascii	"Uncopyable\000"
- 1848      70796162 
- 1848      6C6500
- 1849              	.LASF53:
- 1850 00fa 626F6F6C 		.ascii	"bool\000"
- 1850      00
- 1851              	.LASF47:
- 1852 00ff 6765745F 		.ascii	"get_type_size\000"
- 1852      74797065 
- 1852      5F73697A 
- 1852      6500
- 1853              	.LASF28:
- 1854 010d 5F5A4E33 		.ascii	"_ZN3r2p7SysLock7releaseEv\000"
- 1854      72327037 
- 1854      5379734C 
- 1854      6F636B37 
- 1854      72656C65 
- 1855              	.LASF39:
- 1856 0127 5F5A4E33 		.ascii	"_ZN3r2p7Message7releaseEv\000"
- 1856      72327037 
- 1856      4D657373 
- 1856      61676537 
- 1856      72656C65 
- 1857              	.LASF11:
- 1858 0141 6C6F6E67 		.ascii	"long long int\000"
- 1858      206C6F6E 
- 1858      6720696E 
- 1858      7400
- 1859              	.LASF8:
- 1860 014f 6C6F6E67 		.ascii	"long int\000"
- 1860      20696E74 
- 1860      00
- 1861              	.LASF57:
- 1862 0158 74797065 		.ascii	"type_size\000"
- 1862      5F73697A 
-ARM GAS  /tmp/cciJHeXp.s 			page 35
+ 1836              	.LASF6:
+ 1837 00cb 5F5F7569 		.ascii	"__uint16_t\000"
+ 1837      6E743136 
+ 1837      5F7400
+ 1838              	.LASF16:
+ 1839 00d6 73747265 		.ascii	"strerror\000"
+ 1839      72726F72 
+ 1839      00
+ 1840              	.LASF34:
+ 1841 00df 5F5A4E33 		.ascii	"_ZN3r2p7Message14release_unsafeEv\000"
+ 1841      72327037 
+ 1841      4D657373 
+ 1841      61676531 
+ 1841      3472656C 
+ 1842              	.LASF62:
+ 1843 0101 72656663 		.ascii	"refcount\000"
+ 1843      6F756E74 
+ 1843      00
+ 1844              	.LASF50:
+ 1845 010a 75696E74 		.ascii	"uint8_t\000"
+ 1845      385F7400 
+ 1846              	.LASF26:
+ 1847 0112 5379734C 		.ascii	"SysLock\000"
+ 1847      6F636B00 
+ 1848              	.LASF55:
+ 1849 011a 666C6F61 		.ascii	"floating\000"
+ 1849      74696E67 
+ 1849      00
+ 1850              	.LASF19:
+ 1851 0123 556E636F 		.ascii	"Uncopyable\000"
+ 1851      70796162 
+ 1851      6C6500
+ 1852              	.LASF53:
+ 1853 012e 626F6F6C 		.ascii	"bool\000"
+ 1853      00
+ 1854              	.LASF47:
+ 1855 0133 6765745F 		.ascii	"get_type_size\000"
+ 1855      74797065 
+ 1855      5F73697A 
+ 1855      6500
+ 1856              	.LASF28:
+ 1857 0141 5F5A4E33 		.ascii	"_ZN3r2p7SysLock7releaseEv\000"
+ 1857      72327037 
+ 1857      5379734C 
+ 1857      6F636B37 
+ 1857      72656C65 
+ 1858              	.LASF39:
+ 1859 015b 5F5A4E33 		.ascii	"_ZN3r2p7Message7releaseEv\000"
+ 1859      72327037 
+ 1859      4D657373 
+ 1859      61676537 
+ 1859      72656C65 
+ 1860              	.LASF11:
+ 1861 0175 6C6F6E67 		.ascii	"long long int\000"
+ 1861      206C6F6E 
+ 1861      6720696E 
+ 1861      7400
+ARM GAS  /tmp/cc7hwHT3.s 			page 35
 
 
- 1862      6500
- 1863              	.LASF17:
- 1864 0162 73747274 		.ascii	"strtok\000"
- 1864      6F6B00
- 1865              	.LASF3:
- 1866 0169 5F5F7569 		.ascii	"__uint8_t\000"
- 1866      6E74385F 
- 1866      7400
- 1867              	.LASF31:
- 1868 0173 6765745F 		.ascii	"get_raw_data\000"
- 1868      7261775F 
- 1868      64617461 
- 1868      00
- 1869              	.LASF30:
- 1870 0180 61637175 		.ascii	"acquire_unsafe\000"
- 1870      6972655F 
- 1870      756E7361 
- 1870      666500
- 1871              	.LASF4:
- 1872 018f 756E7369 		.ascii	"unsigned char\000"
- 1872      676E6564 
- 1872      20636861 
- 1872      7200
- 1873              	.LASF61:
- 1874 019d 52656663 		.ascii	"RefcountType\000"
- 1874      6F756E74 
- 1874      54797065 
- 1874      00
- 1875              	.LASF49:
- 1876 01aa 5F5A4E33 		.ascii	"_ZN3r2p7Message13get_type_sizeEj\000"
- 1876      72327037 
- 1876      4D657373 
- 1876      61676531 
- 1876      33676574 
- 1877              	.LASF27:
- 1878 01cb 5F5A4E33 		.ascii	"_ZN3r2p7SysLock7acquireEv\000"
- 1878      72327037 
- 1878      5379734C 
- 1878      6F636B37 
- 1878      61637175 
- 1879              	.LASF12:
- 1880 01e5 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1880      206C6F6E 
- 1880      6720756E 
- 1880      7369676E 
- 1880      65642069 
- 1881              	.LASF52:
- 1882 01fc 75696E74 		.ascii	"uint32_t\000"
- 1882      33325F74 
- 1882      00
- 1883              	.LASF0:
- 1884 0205 756E7369 		.ascii	"unsigned int\000"
- 1884      676E6564 
- 1884      20696E74 
- 1884      00
- 1885              	.LASF36:
- 1886 0212 5F5A4E33 		.ascii	"_ZN3r2p7Message14acquire_unsafeEv\000"
-ARM GAS  /tmp/cciJHeXp.s 			page 36
+ 1862              	.LASF8:
+ 1863 0183 6C6F6E67 		.ascii	"long int\000"
+ 1863      20696E74 
+ 1863      00
+ 1864              	.LASF57:
+ 1865 018c 74797065 		.ascii	"type_size\000"
+ 1865      5F73697A 
+ 1865      6500
+ 1866              	.LASF17:
+ 1867 0196 73747274 		.ascii	"strtok\000"
+ 1867      6F6B00
+ 1868              	.LASF3:
+ 1869 019d 5F5F7569 		.ascii	"__uint8_t\000"
+ 1869      6E74385F 
+ 1869      7400
+ 1870              	.LASF31:
+ 1871 01a7 6765745F 		.ascii	"get_raw_data\000"
+ 1871      7261775F 
+ 1871      64617461 
+ 1871      00
+ 1872              	.LASF30:
+ 1873 01b4 61637175 		.ascii	"acquire_unsafe\000"
+ 1873      6972655F 
+ 1873      756E7361 
+ 1873      666500
+ 1874              	.LASF4:
+ 1875 01c3 756E7369 		.ascii	"unsigned char\000"
+ 1875      676E6564 
+ 1875      20636861 
+ 1875      7200
+ 1876              	.LASF61:
+ 1877 01d1 52656663 		.ascii	"RefcountType\000"
+ 1877      6F756E74 
+ 1877      54797065 
+ 1877      00
+ 1878              	.LASF49:
+ 1879 01de 5F5A4E33 		.ascii	"_ZN3r2p7Message13get_type_sizeEj\000"
+ 1879      72327037 
+ 1879      4D657373 
+ 1879      61676531 
+ 1879      33676574 
+ 1880              	.LASF27:
+ 1881 01ff 5F5A4E33 		.ascii	"_ZN3r2p7SysLock7acquireEv\000"
+ 1881      72327037 
+ 1881      5379734C 
+ 1881      6F636B37 
+ 1881      61637175 
+ 1882              	.LASF12:
+ 1883 0219 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1883      206C6F6E 
+ 1883      6720756E 
+ 1883      7369676E 
+ 1883      65642069 
+ 1884              	.LASF52:
+ 1885 0230 75696E74 		.ascii	"uint32_t\000"
+ 1885      33325F74 
+ 1885      00
+ARM GAS  /tmp/cc7hwHT3.s 			page 36
 
 
- 1886      72327037 
- 1886      4D657373 
- 1886      61676531 
- 1886      34616371 
- 1887              	.LASF51:
- 1888 0234 75696E74 		.ascii	"uint16_t\000"
- 1888      31365F74 
- 1888      00
- 1889              	.LASF37:
- 1890 023d 5F5A4E33 		.ascii	"_ZN3r2p7Message12reset_unsafeEv\000"
- 1890      72327037 
- 1890      4D657373 
- 1890      61676531 
- 1890      32726573 
- 1891              	.LASF33:
- 1892 025d 5F5A4E4B 		.ascii	"_ZNK3r2p7Message12get_raw_dataEv\000"
- 1892      33723270 
- 1892      374D6573 
- 1892      73616765 
- 1892      31326765 
- 1893              	.LASF22:
- 1894 027e 61637175 		.ascii	"acquire\000"
- 1894      69726500 
- 1895              	.LASF25:
- 1896 0286 5F5A4E33 		.ascii	"_ZN3r2p8SysLock_7releaseEv\000"
- 1896      72327038 
- 1896      5379734C 
- 1896      6F636B5F 
- 1896      3772656C 
- 1897              	.LASF7:
- 1898 02a1 73686F72 		.ascii	"short unsigned int\000"
- 1898      7420756E 
- 1898      7369676E 
- 1898      65642069 
- 1898      6E7400
- 1899              	.LASF14:
- 1900 02b4 63686172 		.ascii	"char\000"
- 1900      00
- 1901              	.LASF48:
- 1902 02b9 5F5A4E33 		.ascii	"_ZN3r2p7Message4copyERS0_RKS0_j\000"
- 1902      72327037 
- 1902      4D657373 
- 1902      61676534 
- 1902      636F7079 
- 1903              	.LASF15:
- 1904 02d9 73747263 		.ascii	"strcoll\000"
- 1904      6F6C6C00 
- 1905              	.LASF60:
- 1906 02e1 2F686F6D 		.ascii	"/home/denny/git/TriskarPixy/USB/\000"
- 1906      652F6465 
- 1906      6E6E792F 
- 1906      6769742F 
- 1906      54726973 
- 1907              	.LASF54:
- 1908 0302 74686973 		.ascii	"this\000"
- 1908      00
- 1909              	.LASF32:
-ARM GAS  /tmp/cciJHeXp.s 			page 37
+ 1886              	.LASF0:
+ 1887 0239 756E7369 		.ascii	"unsigned int\000"
+ 1887      676E6564 
+ 1887      20696E74 
+ 1887      00
+ 1888              	.LASF36:
+ 1889 0246 5F5A4E33 		.ascii	"_ZN3r2p7Message14acquire_unsafeEv\000"
+ 1889      72327037 
+ 1889      4D657373 
+ 1889      61676531 
+ 1889      34616371 
+ 1890              	.LASF51:
+ 1891 0268 75696E74 		.ascii	"uint16_t\000"
+ 1891      31365F74 
+ 1891      00
+ 1892              	.LASF37:
+ 1893 0271 5F5A4E33 		.ascii	"_ZN3r2p7Message12reset_unsafeEv\000"
+ 1893      72327037 
+ 1893      4D657373 
+ 1893      61676531 
+ 1893      32726573 
+ 1894              	.LASF33:
+ 1895 0291 5F5A4E4B 		.ascii	"_ZNK3r2p7Message12get_raw_dataEv\000"
+ 1895      33723270 
+ 1895      374D6573 
+ 1895      73616765 
+ 1895      31326765 
+ 1896              	.LASF22:
+ 1897 02b2 61637175 		.ascii	"acquire\000"
+ 1897      69726500 
+ 1898              	.LASF25:
+ 1899 02ba 5F5A4E33 		.ascii	"_ZN3r2p8SysLock_7releaseEv\000"
+ 1899      72327038 
+ 1899      5379734C 
+ 1899      6F636B5F 
+ 1899      3772656C 
+ 1900              	.LASF60:
+ 1901 02d5 2F686F6D 		.ascii	"/home/ergae/r2p-sdk/workspace-triskarpixy/USB/\000"
+ 1901      652F6572 
+ 1901      6761652F 
+ 1901      7232702D 
+ 1901      73646B2F 
+ 1902              	.LASF7:
+ 1903 0304 73686F72 		.ascii	"short unsigned int\000"
+ 1903      7420756E 
+ 1903      7369676E 
+ 1903      65642069 
+ 1903      6E7400
+ 1904              	.LASF14:
+ 1905 0317 63686172 		.ascii	"char\000"
+ 1905      00
+ 1906              	.LASF48:
+ 1907 031c 5F5A4E33 		.ascii	"_ZN3r2p7Message4copyERS0_RKS0_j\000"
+ 1907      72327037 
+ 1907      4D657373 
+ 1907      61676534 
+ 1907      636F7079 
+ARM GAS  /tmp/cc7hwHT3.s 			page 37
 
 
- 1910 0307 72656C65 		.ascii	"release_unsafe\000"
- 1910      6173655F 
- 1910      756E7361 
- 1910      666500
- 1911              	.LASF58:
- 1912 0316 474E5520 		.ascii	"GNU C++ 4.9.3 20141119 (release) [ARM/embedded-4_9-"
- 1912      432B2B20 
- 1912      342E392E 
- 1912      33203230 
- 1912      31343131 
- 1913 0349 6272616E 		.ascii	"branch revision 218278] -mcpu=cortex-m4 -mfloat-abi"
- 1913      63682072 
- 1913      65766973 
- 1913      696F6E20 
- 1913      32313832 
- 1914 037c 3D686172 		.ascii	"=hard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthum"
- 1914      64202D6D 
- 1914      6670753D 
- 1914      66707634 
- 1914      2D73702D 
- 1915 03af 62202D67 		.ascii	"b -ggdb -O0 -fomit-frame-pointer -falign-functions="
- 1915      67646220 
- 1915      2D4F3020 
- 1915      2D666F6D 
- 1915      69742D66 
- 1916 03e2 3136202D 		.ascii	"16 -ffunction-sections -fdata-sections -fno-common "
- 1916      6666756E 
- 1916      6374696F 
- 1916      6E2D7365 
- 1916      6374696F 
- 1917 0415 2D667369 		.ascii	"-fsingle-precision-constant -fno-rtti -fno-exceptio"
- 1917      6E676C65 
- 1917      2D707265 
- 1917      63697369 
- 1917      6F6E2D63 
- 1918 0448 6E73202D 		.ascii	"ns -fno-threadsafe-statics\000"
- 1918      666E6F2D 
- 1918      74687265 
- 1918      61647361 
- 1918      66652D73 
- 1919              	.LASF43:
- 1920 0463 6765745F 		.ascii	"get_msg_from_raw_data\000"
- 1920      6D73675F 
- 1920      66726F6D 
- 1920      5F726177 
- 1920      5F646174 
- 1921              	.LASF18:
- 1922 0479 73747278 		.ascii	"strxfrm\000"
- 1922      66726D00 
- 1923              	.LASF10:
- 1924 0481 6C6F6E67 		.ascii	"long unsigned int\000"
- 1924      20756E73 
- 1924      69676E65 
- 1924      6420696E 
- 1924      7400
- 1925              	.LASF44:
- 1926 0493 5F5A4E33 		.ascii	"_ZN3r2p7Message21get_msg_from_raw_dataEPKh\000"
-ARM GAS  /tmp/cciJHeXp.s 			page 38
+ 1908              	.LASF15:
+ 1909 033c 73747263 		.ascii	"strcoll\000"
+ 1909      6F6C6C00 
+ 1910              	.LASF54:
+ 1911 0344 74686973 		.ascii	"this\000"
+ 1911      00
+ 1912              	.LASF32:
+ 1913 0349 72656C65 		.ascii	"release_unsafe\000"
+ 1913      6173655F 
+ 1913      756E7361 
+ 1913      666500
+ 1914              	.LASF58:
+ 1915 0358 474E5520 		.ascii	"GNU C++ 4.9.3 20141119 (release) [ARM/embedded-4_9-"
+ 1915      432B2B20 
+ 1915      342E392E 
+ 1915      33203230 
+ 1915      31343131 
+ 1916 038b 6272616E 		.ascii	"branch revision 218278] -mcpu=cortex-m4 -mfloat-abi"
+ 1916      63682072 
+ 1916      65766973 
+ 1916      696F6E20 
+ 1916      32313832 
+ 1917 03be 3D686172 		.ascii	"=hard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthum"
+ 1917      64202D6D 
+ 1917      6670753D 
+ 1917      66707634 
+ 1917      2D73702D 
+ 1918 03f1 62202D67 		.ascii	"b -ggdb -O0 -fomit-frame-pointer -falign-functions="
+ 1918      67646220 
+ 1918      2D4F3020 
+ 1918      2D666F6D 
+ 1918      69742D66 
+ 1919 0424 3136202D 		.ascii	"16 -ffunction-sections -fdata-sections -fno-common "
+ 1919      6666756E 
+ 1919      6374696F 
+ 1919      6E2D7365 
+ 1919      6374696F 
+ 1920 0457 2D667369 		.ascii	"-fsingle-precision-constant -fno-rtti -fno-exceptio"
+ 1920      6E676C65 
+ 1920      2D707265 
+ 1920      63697369 
+ 1920      6F6E2D63 
+ 1921 048a 6E73202D 		.ascii	"ns -fno-threadsafe-statics\000"
+ 1921      666E6F2D 
+ 1921      74687265 
+ 1921      61647361 
+ 1921      66652D73 
+ 1922              	.LASF43:
+ 1923 04a5 6765745F 		.ascii	"get_msg_from_raw_data\000"
+ 1923      6D73675F 
+ 1923      66726F6D 
+ 1923      5F726177 
+ 1923      5F646174 
+ 1924              	.LASF18:
+ 1925 04bb 73747278 		.ascii	"strxfrm\000"
+ 1925      66726D00 
+ 1926              	.LASF10:
+ARM GAS  /tmp/cc7hwHT3.s 			page 38
 
 
- 1926      72327037 
- 1926      4D657373 
- 1926      61676532 
- 1926      31676574 
- 1927              	.LASF59:
- 1928 04be 2F686F6D 		.ascii	"/home/denny/r2p-sdk/core/Middleware/src/Message.cpp"
- 1928      652F6465 
- 1928      6E6E792F 
- 1928      7232702D 
- 1928      73646B2F 
- 1929 04f1 00       		.ascii	"\000"
+ 1927 04c3 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1927      20756E73 
+ 1927      69676E65 
+ 1927      6420696E 
+ 1927      7400
+ 1928              	.LASF44:
+ 1929 04d5 5F5A4E33 		.ascii	"_ZN3r2p7Message21get_msg_from_raw_dataEPKh\000"
+ 1929      72327037 
+ 1929      4D657373 
+ 1929      61676532 
+ 1929      31676574 
  1930              	.LASF23:
- 1931 04f2 72656C65 		.ascii	"release\000"
+ 1931 0500 72656C65 		.ascii	"release\000"
  1931      61736500 
  1932              	.LASF38:
- 1933 04fa 5F5A4E33 		.ascii	"_ZN3r2p7Message7acquireEv\000"
+ 1933 0508 5F5A4E33 		.ascii	"_ZN3r2p7Message7acquireEv\000"
  1933      72327037 
  1933      4D657373 
  1933      61676537 
  1933      61637175 
  1934              	.LASF40:
- 1935 0514 72657365 		.ascii	"reset\000"
+ 1935 0522 72657365 		.ascii	"reset\000"
  1935      7400
  1936              	.LASF42:
- 1937 051a 636F7079 		.ascii	"copy\000"
+ 1937 0528 636F7079 		.ascii	"copy\000"
  1937      00
  1938              	.LASF29:
- 1939 051f 4D657373 		.ascii	"Message\000"
+ 1939 052d 4D657373 		.ascii	"Message\000"
  1939      61676500 
  1940              	.LASF24:
- 1941 0527 5F5A4E33 		.ascii	"_ZN3r2p8SysLock_7acquireEv\000"
+ 1941 0535 5F5A4E33 		.ascii	"_ZN3r2p8SysLock_7acquireEv\000"
  1941      72327038 
  1941      5379734C 
  1941      6F636B5F 
  1941      37616371 
  1942              	.LASF21:
- 1943 0542 5379734C 		.ascii	"SysLock_\000"
+ 1943 0550 5379734C 		.ascii	"SysLock_\000"
  1943      6F636B5F 
  1943      00
  1944              	.LASF56:
- 1945 054b 66726F6D 		.ascii	"from\000"
+ 1945 0559 66726F6D 		.ascii	"from\000"
  1945      00
  1946              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/cciJHeXp.s 			page 39
+ARM GAS  /tmp/cc7hwHT3.s 			page 39
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 Message.cpp
-     /tmp/cciJHeXp.s:21     .text._ZN3r2p8SysLock_7acquireEv:00000000 $t
-     /tmp/cciJHeXp.s:27     .text._ZN3r2p8SysLock_7acquireEv:00000000 _ZN3r2p8SysLock_7acquireEv
-     /tmp/cciJHeXp.s:57     .text._ZN3r2p8SysLock_7releaseEv:00000000 $t
-     /tmp/cciJHeXp.s:63     .text._ZN3r2p8SysLock_7releaseEv:00000000 _ZN3r2p8SysLock_7releaseEv
-     /tmp/cciJHeXp.s:92     .text._ZN3r2p7SysLock7acquireEv:00000000 $t
-     /tmp/cciJHeXp.s:98     .text._ZN3r2p7SysLock7acquireEv:00000000 _ZN3r2p7SysLock7acquireEv
-     /tmp/cciJHeXp.s:117    .text._ZN3r2p7SysLock7releaseEv:00000000 $t
-     /tmp/cciJHeXp.s:123    .text._ZN3r2p7SysLock7releaseEv:00000000 _ZN3r2p7SysLock7releaseEv
-     /tmp/cciJHeXp.s:141    .rodata:00000000 $d
-     /tmp/cciJHeXp.s:145    .text._ZN3r2p7Message14acquire_unsafeEv:00000000 $t
-     /tmp/cciJHeXp.s:151    .text._ZN3r2p7Message14acquire_unsafeEv:00000000 _ZN3r2p7Message14acquire_unsafeEv
-     /tmp/cciJHeXp.s:197    .text._ZN3r2p7Message14acquire_unsafeEv:00000038 $d
-     /tmp/cciJHeXp.s:202    .text._ZN3r2p7Message14release_unsafeEv:00000000 $t
-     /tmp/cciJHeXp.s:208    .text._ZN3r2p7Message14release_unsafeEv:00000000 _ZN3r2p7Message14release_unsafeEv
-     /tmp/cciJHeXp.s:255    .text._ZN3r2p7Message14release_unsafeEv:0000003c $d
-     /tmp/cciJHeXp.s:260    .text._ZN3r2p7Message12reset_unsafeEv:00000000 $t
-     /tmp/cciJHeXp.s:266    .text._ZN3r2p7Message12reset_unsafeEv:00000000 _ZN3r2p7Message12reset_unsafeEv
-     /tmp/cciJHeXp.s:291    .text._ZN3r2p7Message7acquireEv:00000000 $t
-     /tmp/cciJHeXp.s:297    .text._ZN3r2p7Message7acquireEv:00000000 _ZN3r2p7Message7acquireEv
-     /tmp/cciJHeXp.s:326    .text._ZN3r2p7Message7releaseEv:00000000 $t
-     /tmp/cciJHeXp.s:332    .text._ZN3r2p7Message7releaseEv:00000000 _ZN3r2p7Message7releaseEv
-     /tmp/cciJHeXp.s:367    .text._ZN3r2p7Message5resetEv:00000000 $t
-     /tmp/cciJHeXp.s:373    .text._ZN3r2p7Message5resetEv:00000000 _ZN3r2p7Message5resetEv
-     /tmp/cciJHeXp.s:401    .text._ZN3r2p7Message4copyERS0_RKS0_j:00000000 $t
-     /tmp/cciJHeXp.s:407    .text._ZN3r2p7Message4copyERS0_RKS0_j:00000000 _ZN3r2p7Message4copyERS0_RKS0_j
-     /tmp/cciJHeXp.s:452    .text._ZN3r2p7Message4copyERS0_RKS0_j:00000034 $d
+     /tmp/cc7hwHT3.s:21     .text._ZN3r2p8SysLock_7acquireEv:00000000 $t
+     /tmp/cc7hwHT3.s:27     .text._ZN3r2p8SysLock_7acquireEv:00000000 _ZN3r2p8SysLock_7acquireEv
+     /tmp/cc7hwHT3.s:57     .text._ZN3r2p8SysLock_7releaseEv:00000000 $t
+     /tmp/cc7hwHT3.s:63     .text._ZN3r2p8SysLock_7releaseEv:00000000 _ZN3r2p8SysLock_7releaseEv
+     /tmp/cc7hwHT3.s:92     .text._ZN3r2p7SysLock7acquireEv:00000000 $t
+     /tmp/cc7hwHT3.s:98     .text._ZN3r2p7SysLock7acquireEv:00000000 _ZN3r2p7SysLock7acquireEv
+     /tmp/cc7hwHT3.s:117    .text._ZN3r2p7SysLock7releaseEv:00000000 $t
+     /tmp/cc7hwHT3.s:123    .text._ZN3r2p7SysLock7releaseEv:00000000 _ZN3r2p7SysLock7releaseEv
+     /tmp/cc7hwHT3.s:141    .rodata:00000000 $d
+     /tmp/cc7hwHT3.s:145    .text._ZN3r2p7Message14acquire_unsafeEv:00000000 $t
+     /tmp/cc7hwHT3.s:151    .text._ZN3r2p7Message14acquire_unsafeEv:00000000 _ZN3r2p7Message14acquire_unsafeEv
+     /tmp/cc7hwHT3.s:197    .text._ZN3r2p7Message14acquire_unsafeEv:00000038 $d
+     /tmp/cc7hwHT3.s:202    .text._ZN3r2p7Message14release_unsafeEv:00000000 $t
+     /tmp/cc7hwHT3.s:208    .text._ZN3r2p7Message14release_unsafeEv:00000000 _ZN3r2p7Message14release_unsafeEv
+     /tmp/cc7hwHT3.s:255    .text._ZN3r2p7Message14release_unsafeEv:0000003c $d
+     /tmp/cc7hwHT3.s:260    .text._ZN3r2p7Message12reset_unsafeEv:00000000 $t
+     /tmp/cc7hwHT3.s:266    .text._ZN3r2p7Message12reset_unsafeEv:00000000 _ZN3r2p7Message12reset_unsafeEv
+     /tmp/cc7hwHT3.s:291    .text._ZN3r2p7Message7acquireEv:00000000 $t
+     /tmp/cc7hwHT3.s:297    .text._ZN3r2p7Message7acquireEv:00000000 _ZN3r2p7Message7acquireEv
+     /tmp/cc7hwHT3.s:326    .text._ZN3r2p7Message7releaseEv:00000000 $t
+     /tmp/cc7hwHT3.s:332    .text._ZN3r2p7Message7releaseEv:00000000 _ZN3r2p7Message7releaseEv
+     /tmp/cc7hwHT3.s:367    .text._ZN3r2p7Message5resetEv:00000000 $t
+     /tmp/cc7hwHT3.s:373    .text._ZN3r2p7Message5resetEv:00000000 _ZN3r2p7Message5resetEv
+     /tmp/cc7hwHT3.s:401    .text._ZN3r2p7Message4copyERS0_RKS0_j:00000000 $t
+     /tmp/cc7hwHT3.s:407    .text._ZN3r2p7Message4copyERS0_RKS0_j:00000000 _ZN3r2p7Message4copyERS0_RKS0_j
+     /tmp/cc7hwHT3.s:452    .text._ZN3r2p7Message4copyERS0_RKS0_j:00000034 $d
                      .debug_frame:00000010 $d
-     /tmp/cciJHeXp.s:201    .text._ZN3r2p7Message14acquire_unsafeEv:0000003c $t
-     /tmp/cciJHeXp.s:456    .text._ZN3r2p7Message4copyERS0_RKS0_j:00000038 $t
+     /tmp/cc7hwHT3.s:201    .text._ZN3r2p7Message14acquire_unsafeEv:0000003c $t
+     /tmp/cc7hwHT3.s:456    .text._ZN3r2p7Message4copyERS0_RKS0_j:00000038 $t
 
 UNDEFINED SYMBOLS
 dbg_check_lock

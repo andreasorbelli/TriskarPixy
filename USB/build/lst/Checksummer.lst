@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccotohCd.s 			page 1
+ARM GAS  /tmp/ccBCdeXM.s 			page 1
 
 
    1              		.syntax unified
@@ -29,7 +29,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
   26              		.type	_ZN3r2p11Checksummer3addEh, %function
   27              	_ZN3r2p11Checksummer3addEh:
   28              	.LFB41:
-  29              		.file 1 "/home/denny/r2p-sdk/core/Middleware/include/r2p/Checksummer.hpp"
+  29              		.file 1 "/home/ergae/r2p-sdk/core/Middleware/include/r2p/Checksummer.hpp"
   30              		.loc 1 104 0
   31              		.cfi_startproc
   32              		@ args = 0, pretend = 0, frame = 8
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
   55              		.size	_ZN3r2p11Checksummer3addEh, .-_ZN3r2p11Checksummer3addEh
   56 001e 00BF     		.section	.text._ZN3r2p11Checksummer3addEPKhj,"ax",%progbits
   57              		.align	2
-ARM GAS  /tmp/ccotohCd.s 			page 2
+ARM GAS  /tmp/ccBCdeXM.s 			page 2
 
 
   58              		.p2align 4,,15
@@ -68,7 +68,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
   62              		.type	_ZN3r2p11Checksummer3addEPKhj, %function
   63              	_ZN3r2p11Checksummer3addEPKhj:
   64              	.LFB66:
-  65              		.file 2 "/home/denny/r2p-sdk/core/Middleware/src/Checksummer.cpp"
+  65              		.file 2 "/home/ergae/r2p-sdk/core/Middleware/src/Checksummer.cpp"
   66              		.loc 2 7 0
   67              		.cfi_startproc
   68              		@ args = 0, pretend = 0, frame = 16
@@ -116,16 +116,16 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  109      0080AFF3 
  109      0080
  110              	.Letext0:
- 111              		.file 3 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/lib/gcc/arm-none-eabi/4.9.3/includ
- 112              		.file 4 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/machine/_def
-ARM GAS  /tmp/ccotohCd.s 			page 3
+ 111              		.file 3 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/lib/gcc/arm-none-eabi/4.9.3/includ
+ 112              		.file 4 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/machine/_def
+ARM GAS  /tmp/ccBCdeXM.s 			page 3
 
 
- 113              		.file 5 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/c++/4.9.3/cs
- 114              		.file 6 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/string.h"
+ 113              		.file 5 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/c++/4.9.3/cs
+ 114              		.file 6 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/string.h"
  115              		.file 7 "<built-in>"
- 116              		.file 8 "/home/denny/r2p-sdk/core/Middleware/include/r2p/Uncopyable.hpp"
- 117              		.file 9 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/stdint.h"
+ 116              		.file 8 "/home/ergae/r2p-sdk/core/Middleware/include/r2p/Uncopyable.hpp"
+ 117              		.file 9 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/stdint.h"
  118              		.section	.debug_info,"",%progbits
  119              	.Ldebug_info0:
  120 0000 7B040000 		.4byte	0x47b
@@ -133,10 +133,10 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  122 0006 00000000 		.4byte	.Ldebug_abbrev0
  123 000a 04       		.byte	0x4
  124 000b 01       		.uleb128 0x1
- 125 000c B1010000 		.4byte	.LASF42
+ 125 000c E9010000 		.4byte	.LASF42
  126 0010 04       		.byte	0x4
- 127 0011 83030000 		.4byte	.LASF43
- 128 0015 CF030000 		.4byte	.LASF44
+ 127 0011 08010000 		.4byte	.LASF43
+ 128 0015 67030000 		.4byte	.LASF44
  129 0019 00000000 		.4byte	.Ldebug_ranges0+0
  130 001d 00000000 		.4byte	0
  131 0021 00000000 		.4byte	.Ldebug_line0
@@ -152,11 +152,11 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  141 0037 04       		.uleb128 0x4
  142 0038 04       		.byte	0x4
  143 0039 07       		.byte	0x7
- 144 003a A4010000 		.4byte	.LASF0
+ 144 003a DC010000 		.4byte	.LASF0
  145 003e 04       		.uleb128 0x4
  146 003f 01       		.byte	0x1
  147 0040 06       		.byte	0x6
- 148 0041 16040000 		.4byte	.LASF1
+ 148 0041 24040000 		.4byte	.LASF1
  149 0045 03       		.uleb128 0x3
  150 0046 5C000000 		.4byte	.LASF3
  151 004a 04       		.byte	0x4
@@ -165,38 +165,38 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  154 0050 04       		.uleb128 0x4
  155 0051 01       		.byte	0x1
  156 0052 08       		.byte	0x8
- 157 0053 08010000 		.4byte	.LASF4
+ 157 0053 88010000 		.4byte	.LASF4
  158 0057 04       		.uleb128 0x4
  159 0058 02       		.byte	0x2
  160 0059 05       		.byte	0x5
- 161 005a F0030000 		.4byte	.LASF5
+ 161 005a FE030000 		.4byte	.LASF5
  162 005e 04       		.uleb128 0x4
  163 005f 02       		.byte	0x2
  164 0060 07       		.byte	0x7
- 165 0061 2D010000 		.4byte	.LASF6
+ 165 0061 57010000 		.4byte	.LASF6
  166 0065 04       		.uleb128 0x4
  167 0066 04       		.byte	0x4
  168 0067 05       		.byte	0x5
  169 0068 A4000000 		.4byte	.LASF7
-ARM GAS  /tmp/ccotohCd.s 			page 4
+ARM GAS  /tmp/ccBCdeXM.s 			page 4
 
 
  170 006c 04       		.uleb128 0x4
  171 006d 04       		.byte	0x4
  172 006e 07       		.byte	0x7
- 173 006f 1B010000 		.4byte	.LASF8
+ 173 006f 45010000 		.4byte	.LASF8
  174 0073 04       		.uleb128 0x4
  175 0074 08       		.byte	0x8
  176 0075 05       		.byte	0x5
- 177 0076 75030000 		.4byte	.LASF9
+ 177 0076 DC030000 		.4byte	.LASF9
  178 007a 04       		.uleb128 0x4
  179 007b 08       		.byte	0x8
  180 007c 07       		.byte	0x7
- 181 007d 05030000 		.4byte	.LASF10
+ 181 007d 3D030000 		.4byte	.LASF10
  182 0081 04       		.uleb128 0x4
  183 0082 04       		.byte	0x4
  184 0083 07       		.byte	0x7
- 185 0084 C0030000 		.4byte	.LASF11
+ 185 0084 EA030000 		.4byte	.LASF11
  186 0088 05       		.uleb128 0x5
  187 0089 04       		.byte	0x4
  188 008a 06       		.uleb128 0x6
@@ -205,7 +205,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  191 0090 04       		.uleb128 0x4
  192 0091 01       		.byte	0x1
  193 0092 08       		.byte	0x8
- 194 0093 BB030000 		.4byte	.LASF12
+ 194 0093 F3030000 		.4byte	.LASF12
  195 0097 06       		.uleb128 0x6
  196 0098 04       		.byte	0x4
  197 0099 9D000000 		.4byte	0x9d
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  224 00cf 06       		.byte	0x6
  225 00d0 1D       		.byte	0x1d
  226 00d1 25000000 		.4byte	0x25
-ARM GAS  /tmp/ccotohCd.s 			page 5
+ARM GAS  /tmp/ccBCdeXM.s 			page 5
 
 
  227 00d5 E4000000 		.4byte	0xe4
@@ -248,7 +248,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  231 00df 97000000 		.4byte	0x97
  232 00e3 00       		.byte	0
  233 00e4 0A       		.uleb128 0xa
- 234 00e5 FA030000 		.4byte	.LASF14
+ 234 00e5 08040000 		.4byte	.LASF14
  235 00e9 06       		.byte	0x6
  236 00ea 20       		.byte	0x20
  237 00eb 8A000000 		.4byte	0x8a
@@ -257,7 +257,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  240 00f4 25000000 		.4byte	0x25
  241 00f8 00       		.byte	0
  242 00f9 0A       		.uleb128 0xa
- 243 00fa FE020000 		.4byte	.LASF15
+ 243 00fa 36030000 		.4byte	.LASF15
  244 00fe 06       		.byte	0x6
  245 00ff 2A       		.byte	0x2a
  246 0100 8A000000 		.4byte	0x8a
@@ -268,7 +268,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  251 010e 97000000 		.4byte	0x97
  252 0112 00       		.byte	0
  253 0113 0A       		.uleb128 0xa
- 254 0114 90010000 		.4byte	.LASF16
+ 254 0114 C8010000 		.4byte	.LASF16
  255 0118 06       		.byte	0x6
  256 0119 2C       		.byte	0x2c
  257 011a 2C000000 		.4byte	0x2c
@@ -286,19 +286,19 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  269 0138 03       		.byte	0x3
  270 0139 C6030000 		.4byte	0x3c6
  271 013d 0C       		.uleb128 0xc
- 272 013e 85010000 		.4byte	.LASF17
+ 272 013e BD010000 		.4byte	.LASF17
  273 0142 01       		.byte	0x1
  274 0143 08       		.byte	0x8
  275 0144 06       		.byte	0x6
  276 0145 9D010000 		.4byte	0x19d
  277 0149 0D       		.uleb128 0xd
- 278 014a 85010000 		.4byte	.LASF17
+ 278 014a BD010000 		.4byte	.LASF17
  279 014e 08       		.byte	0x8
  280 014f 09       		.byte	0x9
  281 0150 C6030000 		.4byte	0x3c6
  282 0154 5C010000 		.4byte	0x15c
  283 0158 67010000 		.4byte	0x167
-ARM GAS  /tmp/ccotohCd.s 			page 6
+ARM GAS  /tmp/ccBCdeXM.s 			page 6
 
 
  284 015c 0E       		.uleb128 0xe
@@ -307,7 +307,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  287 0162 CC030000 		.4byte	0x3cc
  288 0166 00       		.byte	0
  289 0167 0F       		.uleb128 0xf
- 290 0168 85010000 		.4byte	.LASF17
+ 290 0168 BD010000 		.4byte	.LASF17
  291 016c 08       		.byte	0x8
  292 016d 14       		.byte	0x14
  293 016e C6030000 		.4byte	0x3c6
@@ -318,7 +318,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  298 017c C6030000 		.4byte	0x3c6
  299 0180 00       		.byte	0
  300 0181 10       		.uleb128 0x10
- 301 0182 98010000 		.4byte	.LASF18
+ 301 0182 D0010000 		.4byte	.LASF18
  302 0186 08       		.byte	0x8
  303 0187 15       		.byte	0x15
  304 0188 88000000 		.4byte	0x88
@@ -333,7 +333,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  313 019d 07       		.uleb128 0x7
  314 019e 3D010000 		.4byte	0x13d
  315 01a2 0C       		.uleb128 0xc
- 316 01a3 0A040000 		.4byte	.LASF19
+ 316 01a3 18040000 		.4byte	.LASF19
  317 01a7 01       		.byte	0x1
  318 01a8 01       		.byte	0x1
  319 01a9 08       		.byte	0x8
@@ -342,13 +342,13 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  322 01af 3D010000 		.4byte	0x13d
  323 01b3 00       		.byte	0
  324 01b4 12       		.uleb128 0x12
- 325 01b5 5E010000 		.4byte	.LASF45
+ 325 01b5 96010000 		.4byte	.LASF45
  326 01b9 01       		.byte	0x1
  327 01ba 13       		.byte	0x13
  328 01bb D2030000 		.4byte	0x3d2
  329 01bf 00       		.byte	0
  330 01c0 13       		.uleb128 0x13
- 331 01c1 2F030000 		.4byte	.LASF20
+ 331 01c1 96030000 		.4byte	.LASF20
  332 01c5 01       		.byte	0x1
  333 01c6 16       		.byte	0x16
  334 01c7 C8000000 		.4byte	.LASF22
@@ -358,12 +358,12 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  338 01d4 DE010000 		.4byte	0x1de
  339 01d8 0E       		.uleb128 0xe
  340 01d9 EF030000 		.4byte	0x3ef
-ARM GAS  /tmp/ccotohCd.s 			page 7
+ARM GAS  /tmp/ccBCdeXM.s 			page 7
 
 
  341 01dd 00       		.byte	0
  342 01de 13       		.uleb128 0x13
- 343 01df 3F030000 		.4byte	.LASF21
+ 343 01df A6030000 		.4byte	.LASF21
  344 01e3 01       		.byte	0x1
  345 01e4 17       		.byte	0x17
  346 01e5 2B000000 		.4byte	.LASF23
@@ -378,7 +378,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  355 01fd F1000000 		.4byte	.LASF24
  356 0201 01       		.byte	0x1
  357 0202 18       		.byte	0x18
- 358 0203 50030000 		.4byte	.LASF25
+ 358 0203 B7030000 		.4byte	.LASF25
  359 0207 DD030000 		.4byte	0x3dd
  360 020b 01       		.byte	0x1
  361 020c 14020000 		.4byte	0x214
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  395 025e 1C       		.byte	0x1c
  396 025f AD000000 		.4byte	.LASF28
  397 0263 01       		.byte	0x1
-ARM GAS  /tmp/ccotohCd.s 			page 8
+ARM GAS  /tmp/ccBCdeXM.s 			page 8
 
 
  398 0264 6C020000 		.4byte	0x26c
@@ -447,7 +447,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  421 029c 61646400 		.ascii	"add\000"
  422 02a0 01       		.byte	0x1
  423 02a1 1E       		.byte	0x1e
- 424 02a2 40010000 		.4byte	.LASF30
+ 424 02a2 6A010000 		.4byte	.LASF30
  425 02a6 01       		.byte	0x1
  426 02a7 AF020000 		.4byte	0x2af
  427 02ab BF020000 		.4byte	0x2bf
@@ -462,7 +462,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  436 02c0 F7000000 		.4byte	.LASF31
  437 02c4 01       		.byte	0x1
  438 02c5 23       		.byte	0x23
- 439 02c6 6A010000 		.4byte	.LASF32
+ 439 02c6 A2010000 		.4byte	.LASF32
  440 02ca D2030000 		.4byte	0x3d2
  441 02ce 01       		.byte	0x1
  442 02cf D7020000 		.4byte	0x2d7
@@ -471,14 +471,14 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  445 02d8 EF030000 		.4byte	0x3ef
  446 02dc 00       		.byte	0
  447 02dd 13       		.uleb128 0x13
- 448 02de 24030000 		.4byte	.LASF33
+ 448 02de 5C030000 		.4byte	.LASF33
  449 02e2 01       		.byte	0x1
  450 02e3 25       		.byte	0x25
- 451 02e4 22040000 		.4byte	.LASF34
+ 451 02e4 30040000 		.4byte	.LASF34
  452 02e8 02040000 		.4byte	0x402
  453 02ec 01       		.byte	0x1
  454 02ed F5020000 		.4byte	0x2f5
-ARM GAS  /tmp/ccotohCd.s 			page 9
+ARM GAS  /tmp/ccBCdeXM.s 			page 9
 
 
  455 02f1 00030000 		.4byte	0x300
@@ -488,10 +488,10 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  459 02fb 90000000 		.4byte	0x90
  460 02ff 00       		.byte	0
  461 0300 13       		.uleb128 0x13
- 462 0301 24030000 		.4byte	.LASF33
+ 462 0301 5C030000 		.4byte	.LASF33
  463 0305 01       		.byte	0x1
  464 0306 26       		.byte	0x26
- 465 0307 3B040000 		.4byte	.LASF35
+ 465 0307 49040000 		.4byte	.LASF35
  466 030b 02040000 		.4byte	0x402
  467 030f 01       		.byte	0x1
  468 0310 18030000 		.4byte	0x318
@@ -502,7 +502,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  473 031e D2030000 		.4byte	0x3d2
  474 0322 00       		.byte	0
  475 0323 0F       		.uleb128 0xf
- 476 0324 0A040000 		.4byte	.LASF19
+ 476 0324 18040000 		.4byte	.LASF19
  477 0328 01       		.byte	0x1
  478 0329 2A       		.byte	0x2a
  479 032a F5030000 		.4byte	0x3f5
@@ -513,7 +513,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  484 0338 F5030000 		.4byte	0x3f5
  485 033c 00       		.byte	0
  486 033d 0F       		.uleb128 0xf
- 487 033e 0A040000 		.4byte	.LASF19
+ 487 033e 18040000 		.4byte	.LASF19
  488 0342 01       		.byte	0x1
  489 0343 2B       		.byte	0x2b
  490 0344 F5030000 		.4byte	0x3f5
@@ -526,7 +526,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  497 0357 90000000 		.4byte	0x90
  498 035b 00       		.byte	0
  499 035c 0F       		.uleb128 0xf
- 500 035d 0A040000 		.4byte	.LASF19
+ 500 035d 18040000 		.4byte	.LASF19
  501 0361 01       		.byte	0x1
  502 0362 2C       		.byte	0x2c
  503 0363 F5030000 		.4byte	0x3f5
@@ -538,11 +538,11 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  509 0375 0B       		.uleb128 0xb
  510 0376 D2030000 		.4byte	0x3d2
  511 037a 00       		.byte	0
-ARM GAS  /tmp/ccotohCd.s 			page 10
+ARM GAS  /tmp/ccBCdeXM.s 			page 10
 
 
  512 037b 0F       		.uleb128 0xf
- 513 037c 0A040000 		.4byte	.LASF19
+ 513 037c 18040000 		.4byte	.LASF19
  514 0380 01       		.byte	0x1
  515 0381 2D       		.byte	0x2d
  516 0382 F5030000 		.4byte	0x3f5
@@ -557,7 +557,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  525 039a 2C000000 		.4byte	0x2c
  526 039e 00       		.byte	0
  527 039f 10       		.uleb128 0x10
- 528 03a0 0A040000 		.4byte	.LASF19
+ 528 03a0 18040000 		.4byte	.LASF19
  529 03a4 01       		.byte	0x1
  530 03a5 2E       		.byte	0x2e
  531 03a6 F5030000 		.4byte	0x3f5
@@ -581,7 +581,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  549 03cd 04       		.byte	0x4
  550 03ce 9D010000 		.4byte	0x19d
  551 03d2 03       		.uleb128 0x3
- 552 03d3 1C030000 		.4byte	.LASF36
+ 552 03d3 54030000 		.4byte	.LASF36
  553 03d7 09       		.byte	0x9
  554 03d8 15       		.byte	0x15
  555 03d9 45000000 		.4byte	0x45
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  566 03f0 04       		.byte	0x4
  567 03f1 C0030000 		.4byte	0x3c0
  568 03f5 06       		.uleb128 0x6
-ARM GAS  /tmp/ccotohCd.s 			page 11
+ARM GAS  /tmp/ccBCdeXM.s 			page 11
 
 
  569 03f6 04       		.byte	0x4
@@ -620,13 +620,13 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  585 0418 20040000 		.4byte	0x420
  586 041c 3B040000 		.4byte	0x43b
  587 0420 19       		.uleb128 0x19
- 588 0421 16010000 		.4byte	.LASF38
+ 588 0421 40010000 		.4byte	.LASF38
  589 0425 3B040000 		.4byte	0x43b
  590 0429 02       		.uleb128 0x2
  591 042a 91       		.byte	0x91
  592 042b 7C       		.sleb128 -4
  593 042c 1A       		.uleb128 0x1a
- 594 042d C9030000 		.4byte	.LASF39
+ 594 042d F8030000 		.4byte	.LASF39
  595 0431 01       		.byte	0x1
  596 0432 68       		.byte	0x68
  597 0433 EA030000 		.4byte	0x3ea
@@ -646,24 +646,24 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  611 0450 9C       		.byte	0x9c
  612 0451 55040000 		.4byte	0x455
  613 0455 19       		.uleb128 0x19
- 614 0456 16010000 		.4byte	.LASF38
+ 614 0456 40010000 		.4byte	.LASF38
  615 045a 3B040000 		.4byte	0x43b
  616 045e 02       		.uleb128 0x2
  617 045f 91       		.byte	0x91
  618 0460 74       		.sleb128 -12
  619 0461 1A       		.uleb128 0x1a
- 620 0462 6E030000 		.4byte	.LASF40
+ 620 0462 D5030000 		.4byte	.LASF40
  621 0466 02       		.byte	0x2
  622 0467 07       		.byte	0x7
  623 0468 E4030000 		.4byte	0x3e4
  624 046c 02       		.uleb128 0x2
  625 046d 91       		.byte	0x91
-ARM GAS  /tmp/ccotohCd.s 			page 12
+ARM GAS  /tmp/ccBCdeXM.s 			page 12
 
 
  626 046e 70       		.sleb128 -16
  627 046f 1A       		.uleb128 0x1a
- 628 0470 03040000 		.4byte	.LASF41
+ 628 0470 11040000 		.4byte	.LASF41
  629 0474 02       		.byte	0x2
  630 0475 07       		.byte	0x7
  631 0476 2C000000 		.4byte	0x2c
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  680 0029 00       		.byte	0
  681 002a 00       		.byte	0
  682 002b 04       		.uleb128 0x4
-ARM GAS  /tmp/ccotohCd.s 			page 13
+ARM GAS  /tmp/ccBCdeXM.s 			page 13
 
 
  683 002c 24       		.uleb128 0x24
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  737 0062 13       		.uleb128 0x13
  738 0063 00       		.byte	0
  739 0064 00       		.byte	0
-ARM GAS  /tmp/ccotohCd.s 			page 14
+ARM GAS  /tmp/ccBCdeXM.s 			page 14
 
 
  740 0065 0A       		.uleb128 0xa
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  794 009b 3C       		.uleb128 0x3c
  795 009c 19       		.uleb128 0x19
  796 009d 64       		.uleb128 0x64
-ARM GAS  /tmp/ccotohCd.s 			page 15
+ARM GAS  /tmp/ccBCdeXM.s 			page 15
 
 
  797 009e 13       		.uleb128 0x13
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  851 00d4 64       		.uleb128 0x64
  852 00d5 13       		.uleb128 0x13
  853 00d6 00       		.byte	0
-ARM GAS  /tmp/ccotohCd.s 			page 16
+ARM GAS  /tmp/ccBCdeXM.s 			page 16
 
 
  854 00d7 00       		.byte	0
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  908 010d 19       		.uleb128 0x19
  909 010e 03       		.uleb128 0x3
  910 010f 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccotohCd.s 			page 17
+ARM GAS  /tmp/ccBCdeXM.s 			page 17
 
 
  911 0110 3A       		.uleb128 0x3a
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  965 0146 2E       		.uleb128 0x2e
  966 0147 01       		.byte	0x1
  967 0148 47       		.uleb128 0x47
-ARM GAS  /tmp/ccotohCd.s 			page 18
+ARM GAS  /tmp/ccBCdeXM.s 			page 18
 
 
  968 0149 13       		.uleb128 0x13
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  1022 0180 11       		.uleb128 0x11
  1023 0181 01       		.uleb128 0x1
  1024 0182 12       		.uleb128 0x12
-ARM GAS  /tmp/ccotohCd.s 			page 19
+ARM GAS  /tmp/ccBCdeXM.s 			page 19
 
 
  1025 0183 06       		.uleb128 0x6
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  1067      31314368 
  1067      65636B73 
  1067      756D6D65 
-ARM GAS  /tmp/ccotohCd.s 			page 20
+ARM GAS  /tmp/ccBCdeXM.s 			page 20
 
 
  1068              	.LASF2:
@@ -1188,212 +1188,212 @@ ARM GAS  /tmp/ccotohCd.s 			page 1
  1087      2075696E 
  1087      74385F74 
  1087      00
- 1088              	.LASF4:
- 1089 0108 756E7369 		.ascii	"unsigned char\000"
- 1089      676E6564 
- 1089      20636861 
- 1089      7200
- 1090              	.LASF38:
- 1091 0116 74686973 		.ascii	"this\000"
- 1091      00
- 1092              	.LASF8:
- 1093 011b 6C6F6E67 		.ascii	"long unsigned int\000"
-ARM GAS  /tmp/ccotohCd.s 			page 21
+ 1088              	.LASF43:
+ 1089 0108 2F686F6D 		.ascii	"/home/ergae/r2p-sdk/core/Middleware/src/Checksummer"
+ 1089      652F6572 
+ 1089      6761652F 
+ 1089      7232702D 
+ 1089      73646B2F 
+ 1090 013b 2E637070 		.ascii	".cpp\000"
+ 1090      00
+ 1091              	.LASF38:
+ 1092 0140 74686973 		.ascii	"this\000"
+ARM GAS  /tmp/ccBCdeXM.s 			page 21
 
 
- 1093      20756E73 
- 1093      69676E65 
- 1093      6420696E 
- 1093      7400
- 1094              	.LASF6:
- 1095 012d 73686F72 		.ascii	"short unsigned int\000"
- 1095      7420756E 
- 1095      7369676E 
- 1095      65642069 
- 1095      6E7400
- 1096              	.LASF30:
- 1097 0140 5F5A4E33 		.ascii	"_ZN3r2p11Checksummer3addEPKvj\000"
- 1097      72327031 
- 1097      31436865 
- 1097      636B7375 
- 1097      6D6D6572 
- 1098              	.LASF45:
- 1099 015e 61636375 		.ascii	"accumulator\000"
- 1099      6D756C61 
- 1099      746F7200 
- 1100              	.LASF32:
- 1101 016a 5F5A4E4B 		.ascii	"_ZNK3r2p11ChecksummercvhEv\000"
- 1101      33723270 
- 1101      31314368 
- 1101      65636B73 
- 1101      756D6D65 
- 1102              	.LASF17:
- 1103 0185 556E636F 		.ascii	"Uncopyable\000"
- 1103      70796162 
- 1103      6C6500
- 1104              	.LASF16:
- 1105 0190 73747278 		.ascii	"strxfrm\000"
- 1105      66726D00 
- 1106              	.LASF18:
- 1107 0198 7E556E63 		.ascii	"~Uncopyable\000"
- 1107      6F707961 
- 1107      626C6500 
- 1108              	.LASF0:
- 1109 01a4 756E7369 		.ascii	"unsigned int\000"
- 1109      676E6564 
- 1109      20696E74 
- 1109      00
- 1110              	.LASF42:
- 1111 01b1 474E5520 		.ascii	"GNU C++ 4.9.3 20141119 (release) [ARM/embedded-4_9-"
- 1111      432B2B20 
- 1111      342E392E 
- 1111      33203230 
- 1111      31343131 
- 1112 01e4 6272616E 		.ascii	"branch revision 218278] -mcpu=cortex-m4 -mfloat-abi"
- 1112      63682072 
- 1112      65766973 
- 1112      696F6E20 
- 1112      32313832 
- 1113 0217 3D686172 		.ascii	"=hard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthum"
- 1113      64202D6D 
- 1113      6670753D 
- 1113      66707634 
-ARM GAS  /tmp/ccotohCd.s 			page 22
+ 1092      00
+ 1093              	.LASF8:
+ 1094 0145 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1094      20756E73 
+ 1094      69676E65 
+ 1094      6420696E 
+ 1094      7400
+ 1095              	.LASF6:
+ 1096 0157 73686F72 		.ascii	"short unsigned int\000"
+ 1096      7420756E 
+ 1096      7369676E 
+ 1096      65642069 
+ 1096      6E7400
+ 1097              	.LASF30:
+ 1098 016a 5F5A4E33 		.ascii	"_ZN3r2p11Checksummer3addEPKvj\000"
+ 1098      72327031 
+ 1098      31436865 
+ 1098      636B7375 
+ 1098      6D6D6572 
+ 1099              	.LASF4:
+ 1100 0188 756E7369 		.ascii	"unsigned char\000"
+ 1100      676E6564 
+ 1100      20636861 
+ 1100      7200
+ 1101              	.LASF45:
+ 1102 0196 61636375 		.ascii	"accumulator\000"
+ 1102      6D756C61 
+ 1102      746F7200 
+ 1103              	.LASF32:
+ 1104 01a2 5F5A4E4B 		.ascii	"_ZNK3r2p11ChecksummercvhEv\000"
+ 1104      33723270 
+ 1104      31314368 
+ 1104      65636B73 
+ 1104      756D6D65 
+ 1105              	.LASF17:
+ 1106 01bd 556E636F 		.ascii	"Uncopyable\000"
+ 1106      70796162 
+ 1106      6C6500
+ 1107              	.LASF16:
+ 1108 01c8 73747278 		.ascii	"strxfrm\000"
+ 1108      66726D00 
+ 1109              	.LASF18:
+ 1110 01d0 7E556E63 		.ascii	"~Uncopyable\000"
+ 1110      6F707961 
+ 1110      626C6500 
+ 1111              	.LASF0:
+ 1112 01dc 756E7369 		.ascii	"unsigned int\000"
+ 1112      676E6564 
+ 1112      20696E74 
+ 1112      00
+ 1113              	.LASF42:
+ 1114 01e9 474E5520 		.ascii	"GNU C++ 4.9.3 20141119 (release) [ARM/embedded-4_9-"
+ 1114      432B2B20 
+ 1114      342E392E 
+ 1114      33203230 
+ 1114      31343131 
+ 1115 021c 6272616E 		.ascii	"branch revision 218278] -mcpu=cortex-m4 -mfloat-abi"
+ARM GAS  /tmp/ccBCdeXM.s 			page 22
 
 
- 1113      2D73702D 
- 1114 024a 62202D67 		.ascii	"b -ggdb -O0 -fomit-frame-pointer -falign-functions="
- 1114      67646220 
- 1114      2D4F3020 
- 1114      2D666F6D 
- 1114      69742D66 
- 1115 027d 3136202D 		.ascii	"16 -ffunction-sections -fdata-sections -fno-common "
- 1115      6666756E 
- 1115      6374696F 
- 1115      6E2D7365 
- 1115      6374696F 
- 1116 02b0 2D667369 		.ascii	"-fsingle-precision-constant -fno-rtti -fno-exceptio"
- 1116      6E676C65 
- 1116      2D707265 
- 1116      63697369 
- 1116      6F6E2D63 
- 1117 02e3 6E73202D 		.ascii	"ns -fno-threadsafe-statics\000"
- 1117      666E6F2D 
- 1117      74687265 
- 1117      61647361 
- 1117      66652D73 
- 1118              	.LASF15:
- 1119 02fe 73747274 		.ascii	"strtok\000"
- 1119      6F6B00
- 1120              	.LASF10:
- 1121 0305 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1121      206C6F6E 
- 1121      6720756E 
- 1121      7369676E 
- 1121      65642069 
- 1122              	.LASF36:
- 1123 031c 75696E74 		.ascii	"uint8_t\000"
- 1123      385F7400 
- 1124              	.LASF33:
- 1125 0324 6F706572 		.ascii	"operator+=\000"
- 1125      61746F72 
- 1125      2B3D00
- 1126              	.LASF20:
- 1127 032f 6765745F 		.ascii	"get_accumulator\000"
- 1127      61636375 
- 1127      6D756C61 
- 1127      746F7200 
- 1128              	.LASF21:
- 1129 033f 636F6D70 		.ascii	"compute_checksum\000"
- 1129      7574655F 
- 1129      63686563 
- 1129      6B73756D 
- 1129      00
- 1130              	.LASF25:
- 1131 0350 5F5A4E4B 		.ascii	"_ZNK3r2p11Checksummer5checkEh\000"
- 1131      33723270 
- 1131      31314368 
- 1131      65636B73 
- 1131      756D6D65 
- 1132              	.LASF40:
- 1133 036e 6368756E 		.ascii	"chunkp\000"
- 1133      6B7000
-ARM GAS  /tmp/ccotohCd.s 			page 23
+ 1115      63682072 
+ 1115      65766973 
+ 1115      696F6E20 
+ 1115      32313832 
+ 1116 024f 3D686172 		.ascii	"=hard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthum"
+ 1116      64202D6D 
+ 1116      6670753D 
+ 1116      66707634 
+ 1116      2D73702D 
+ 1117 0282 62202D67 		.ascii	"b -ggdb -O0 -fomit-frame-pointer -falign-functions="
+ 1117      67646220 
+ 1117      2D4F3020 
+ 1117      2D666F6D 
+ 1117      69742D66 
+ 1118 02b5 3136202D 		.ascii	"16 -ffunction-sections -fdata-sections -fno-common "
+ 1118      6666756E 
+ 1118      6374696F 
+ 1118      6E2D7365 
+ 1118      6374696F 
+ 1119 02e8 2D667369 		.ascii	"-fsingle-precision-constant -fno-rtti -fno-exceptio"
+ 1119      6E676C65 
+ 1119      2D707265 
+ 1119      63697369 
+ 1119      6F6E2D63 
+ 1120 031b 6E73202D 		.ascii	"ns -fno-threadsafe-statics\000"
+ 1120      666E6F2D 
+ 1120      74687265 
+ 1120      61647361 
+ 1120      66652D73 
+ 1121              	.LASF15:
+ 1122 0336 73747274 		.ascii	"strtok\000"
+ 1122      6F6B00
+ 1123              	.LASF10:
+ 1124 033d 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1124      206C6F6E 
+ 1124      6720756E 
+ 1124      7369676E 
+ 1124      65642069 
+ 1125              	.LASF36:
+ 1126 0354 75696E74 		.ascii	"uint8_t\000"
+ 1126      385F7400 
+ 1127              	.LASF33:
+ 1128 035c 6F706572 		.ascii	"operator+=\000"
+ 1128      61746F72 
+ 1128      2B3D00
+ 1129              	.LASF44:
+ 1130 0367 2F686F6D 		.ascii	"/home/ergae/r2p-sdk/workspace-triskarpixy/USB/\000"
+ 1130      652F6572 
+ 1130      6761652F 
+ 1130      7232702D 
+ 1130      73646B2F 
+ 1131              	.LASF20:
+ 1132 0396 6765745F 		.ascii	"get_accumulator\000"
+ 1132      61636375 
+ 1132      6D756C61 
+ 1132      746F7200 
+ 1133              	.LASF21:
+ARM GAS  /tmp/ccBCdeXM.s 			page 23
 
 
- 1134              	.LASF9:
- 1135 0375 6C6F6E67 		.ascii	"long long int\000"
- 1135      206C6F6E 
- 1135      6720696E 
- 1135      7400
- 1136              	.LASF43:
- 1137 0383 2F686F6D 		.ascii	"/home/denny/r2p-sdk/core/Middleware/src/Checksummer"
- 1137      652F6465 
- 1137      6E6E792F 
- 1137      7232702D 
- 1137      73646B2F 
- 1138 03b6 2E637070 		.ascii	".cpp\000"
- 1138      00
- 1139              	.LASF12:
- 1140 03bb 63686172 		.ascii	"char\000"
- 1140      00
+ 1134 03a6 636F6D70 		.ascii	"compute_checksum\000"
+ 1134      7574655F 
+ 1134      63686563 
+ 1134      6B73756D 
+ 1134      00
+ 1135              	.LASF25:
+ 1136 03b7 5F5A4E4B 		.ascii	"_ZNK3r2p11Checksummer5checkEh\000"
+ 1136      33723270 
+ 1136      31314368 
+ 1136      65636B73 
+ 1136      756D6D65 
+ 1137              	.LASF40:
+ 1138 03d5 6368756E 		.ascii	"chunkp\000"
+ 1138      6B7000
+ 1139              	.LASF9:
+ 1140 03dc 6C6F6E67 		.ascii	"long long int\000"
+ 1140      206C6F6E 
+ 1140      6720696E 
+ 1140      7400
  1141              	.LASF11:
- 1142 03c0 73697A65 		.ascii	"sizetype\000"
+ 1142 03ea 73697A65 		.ascii	"sizetype\000"
  1142      74797065 
  1142      00
- 1143              	.LASF39:
- 1144 03c9 76616C75 		.ascii	"value\000"
- 1144      6500
- 1145              	.LASF44:
- 1146 03cf 2F686F6D 		.ascii	"/home/denny/git/TriskarPixy/USB/\000"
- 1146      652F6465 
- 1146      6E6E792F 
- 1146      6769742F 
- 1146      54726973 
+ 1143              	.LASF12:
+ 1144 03f3 63686172 		.ascii	"char\000"
+ 1144      00
+ 1145              	.LASF39:
+ 1146 03f8 76616C75 		.ascii	"value\000"
+ 1146      6500
  1147              	.LASF5:
- 1148 03f0 73686F72 		.ascii	"short int\000"
+ 1148 03fe 73686F72 		.ascii	"short int\000"
  1148      7420696E 
  1148      7400
  1149              	.LASF14:
- 1150 03fa 73747265 		.ascii	"strerror\000"
+ 1150 0408 73747265 		.ascii	"strerror\000"
  1150      72726F72 
  1150      00
  1151              	.LASF41:
- 1152 0403 6C656E67 		.ascii	"length\000"
+ 1152 0411 6C656E67 		.ascii	"length\000"
  1152      746800
  1153              	.LASF19:
- 1154 040a 43686563 		.ascii	"Checksummer\000"
+ 1154 0418 43686563 		.ascii	"Checksummer\000"
  1154      6B73756D 
  1154      6D657200 
  1155              	.LASF1:
- 1156 0416 7369676E 		.ascii	"signed char\000"
+ 1156 0424 7369676E 		.ascii	"signed char\000"
  1156      65642063 
  1156      68617200 
  1157              	.LASF34:
- 1158 0422 5F5A4E33 		.ascii	"_ZN3r2p11ChecksummerpLEc\000"
+ 1158 0430 5F5A4E33 		.ascii	"_ZN3r2p11ChecksummerpLEc\000"
  1158      72327031 
  1158      31436865 
  1158      636B7375 
  1158      6D6D6572 
  1159              	.LASF35:
- 1160 043b 5F5A4E33 		.ascii	"_ZN3r2p11ChecksummerpLEh\000"
+ 1160 0449 5F5A4E33 		.ascii	"_ZN3r2p11ChecksummerpLEh\000"
  1160      72327031 
-ARM GAS  /tmp/ccotohCd.s 			page 24
+ARM GAS  /tmp/ccBCdeXM.s 			page 24
 
 
  1160      31436865 
  1160      636B7375 
  1160      6D6D6572 
  1161              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccotohCd.s 			page 25
+ARM GAS  /tmp/ccBCdeXM.s 			page 25
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 Checksummer.cpp
-     /tmp/ccotohCd.s:21     .text._ZN3r2p11Checksummer3addEh:00000000 $t
-     /tmp/ccotohCd.s:27     .text._ZN3r2p11Checksummer3addEh:00000000 _ZN3r2p11Checksummer3addEh
-     /tmp/ccotohCd.s:57     .text._ZN3r2p11Checksummer3addEPKhj:00000000 $t
-     /tmp/ccotohCd.s:63     .text._ZN3r2p11Checksummer3addEPKhj:00000000 _ZN3r2p11Checksummer3addEPKhj
+     /tmp/ccBCdeXM.s:21     .text._ZN3r2p11Checksummer3addEh:00000000 $t
+     /tmp/ccBCdeXM.s:27     .text._ZN3r2p11Checksummer3addEh:00000000 _ZN3r2p11Checksummer3addEh
+     /tmp/ccBCdeXM.s:57     .text._ZN3r2p11Checksummer3addEPKhj:00000000 $t
+     /tmp/ccBCdeXM.s:63     .text._ZN3r2p11Checksummer3addEPKhj:00000000 _ZN3r2p11Checksummer3addEPKhj
                      .debug_frame:00000010 $d
 
 NO UNDEFINED SYMBOLS

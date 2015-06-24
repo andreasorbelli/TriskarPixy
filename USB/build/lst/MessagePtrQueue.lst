@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc64bMgh.s 			page 1
+ARM GAS  /tmp/ccuinEGX.s 			page 1
 
 
    1              		.syntax unified
@@ -29,7 +29,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
   26              		.type	_ZN3r2p10UncopyableC2Ev, %function
   27              	_ZN3r2p10UncopyableC2Ev:
   28              	.LFB6:
-  29              		.file 1 "/home/denny/r2p-sdk/core/Middleware/include/r2p/Uncopyable.hpp"
+  29              		.file 1 "/home/ergae/r2p-sdk/core/Middleware/include/r2p/Uncopyable.hpp"
   30              		.loc 1 20 0
   31              		.cfi_startproc
   32              		@ args = 0, pretend = 0, frame = 8
@@ -58,11 +58,11 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
   55              		.thumb_func
   56              		.type	_ZN3r2p15MessagePtrQueueC2EPPNS_7MessageEj, %function
   57              	_ZN3r2p15MessagePtrQueueC2EPPNS_7MessageEj:
-ARM GAS  /tmp/cc64bMgh.s 			page 2
+ARM GAS  /tmp/ccuinEGX.s 			page 2
 
 
   58              	.LFB49:
-  59              		.file 2 "/home/denny/r2p-sdk/core/Middleware/src/MessagePtrQueue.cpp"
+  59              		.file 2 "/home/ergae/r2p-sdk/core/Middleware/src/MessagePtrQueue.cpp"
   60              		.loc 2 7 0
   61              		.cfi_startproc
   62              		@ args = 0, pretend = 0, frame = 16
@@ -111,14 +111,14 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  102              		.type	_ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j, %function
  103              	_ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j:
  104              	.LFB52:
- 105              		.file 3 "/home/denny/r2p-sdk/core/Middleware/include/r2p/ArrayQueue.hpp"
+ 105              		.file 3 "/home/ergae/r2p-sdk/core/Middleware/include/r2p/ArrayQueue.hpp"
  106              		.loc 3 125 0
  107              		.cfi_startproc
  108              		@ args = 0, pretend = 0, frame = 16
  109              		@ frame_needed = 0, uses_anonymous_args = 0
  110 0000 00B5     		push	{lr}
  111              		.cfi_def_cfa_offset 4
-ARM GAS  /tmp/cc64bMgh.s 			page 3
+ARM GAS  /tmp/ccuinEGX.s 			page 3
 
 
  112              		.cfi_offset 14, -4
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  166              	.LFE52:
  167              		.size	_ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j, .-_ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j
  168              		.weak	_ZN3r2p10ArrayQueueIPNS_7MessageEEC1EPS2_j
-ARM GAS  /tmp/cc64bMgh.s 			page 4
+ARM GAS  /tmp/ccuinEGX.s 			page 4
 
 
  169              		.thumb_set _ZN3r2p10ArrayQueueIPNS_7MessageEEC1EPS2_j,_ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j
@@ -186,11 +186,11 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  170      AFF30080 
  170      AFF30080 
  171              	.Letext0:
- 172              		.file 4 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/c++/4.9.3/cs
- 173              		.file 5 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/string.h"
+ 172              		.file 4 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/c++/4.9.3/cs
+ 173              		.file 5 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/string.h"
  174              		.file 6 "<built-in>"
- 175              		.file 7 "/home/denny/r2p-sdk/core/Middleware/include/r2p/MessagePtrQueue.hpp"
- 176              		.file 8 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/lib/gcc/arm-none-eabi/4.9.3/includ
+ 175              		.file 7 "/home/ergae/r2p-sdk/core/Middleware/include/r2p/MessagePtrQueue.hpp"
+ 176              		.file 8 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/lib/gcc/arm-none-eabi/4.9.3/includ
  177              		.section	.debug_info,"",%progbits
  178              	.Ldebug_info0:
  179 0000 93040000 		.4byte	0x493
@@ -200,8 +200,8 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  183 000b 01       		.uleb128 0x1
  184 000c 1E020000 		.4byte	.LASF46
  185 0010 04       		.byte	0x4
- 186 0011 09040000 		.4byte	.LASF47
- 187 0015 4A040000 		.4byte	.LASF48
+ 186 0011 CB040000 		.4byte	.LASF47
+ 187 0015 A3030000 		.4byte	.LASF48
  188 0019 00000000 		.4byte	.Ldebug_ranges0+0
  189 001d 00000000 		.4byte	0
  190 0021 00000000 		.4byte	.Ldebug_line0
@@ -229,7 +229,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  212 004c 04       		.uleb128 0x4
  213 004d 02       		.byte	0x2
  214 004e 05       		.byte	0x5
- 215 004f 77040000 		.4byte	.LASF3
+ 215 004f 49040000 		.4byte	.LASF3
  216 0053 04       		.uleb128 0x4
  217 0054 02       		.byte	0x2
  218 0055 07       		.byte	0x7
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  221 005b 04       		.byte	0x4
  222 005c 05       		.byte	0x5
  223 005d 32000000 		.4byte	.LASF5
-ARM GAS  /tmp/cc64bMgh.s 			page 5
+ARM GAS  /tmp/ccuinEGX.s 			page 5
 
 
  224 0061 04       		.uleb128 0x4
@@ -248,7 +248,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  228 0068 04       		.uleb128 0x4
  229 0069 08       		.byte	0x8
  230 006a 05       		.byte	0x5
- 231 006b FB030000 		.4byte	.LASF7
+ 231 006b 2A040000 		.4byte	.LASF7
  232 006f 04       		.uleb128 0x4
  233 0070 08       		.byte	0x8
  234 0071 07       		.byte	0x7
@@ -256,7 +256,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  236 0076 04       		.uleb128 0x4
  237 0077 04       		.byte	0x4
  238 0078 07       		.byte	0x7
- 239 0079 DA030000 		.4byte	.LASF9
+ 239 0079 09040000 		.4byte	.LASF9
  240 007d 05       		.uleb128 0x5
  241 007e 04       		.byte	0x4
  242 007f 06       		.uleb128 0x6
@@ -265,7 +265,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  245 0085 04       		.uleb128 0x4
  246 0086 01       		.byte	0x1
  247 0087 08       		.byte	0x8
- 248 0088 45040000 		.4byte	.LASF10
+ 248 0088 38040000 		.4byte	.LASF10
  249 008c 06       		.uleb128 0x6
  250 008d 04       		.byte	0x4
  251 008e 92000000 		.4byte	0x92
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  278 00c4 05       		.byte	0x5
  279 00c5 1D       		.byte	0x1d
  280 00c6 25000000 		.4byte	0x25
-ARM GAS  /tmp/cc64bMgh.s 			page 6
+ARM GAS  /tmp/ccuinEGX.s 			page 6
 
 
  281 00ca D9000000 		.4byte	0xd9
@@ -308,7 +308,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  285 00d4 8C000000 		.4byte	0x8c
  286 00d8 00       		.byte	0
  287 00d9 0A       		.uleb128 0xa
- 288 00da EA040000 		.4byte	.LASF12
+ 288 00da BC040000 		.4byte	.LASF12
  289 00de 05       		.byte	0x5
  290 00df 20       		.byte	0x20
  291 00e0 7F000000 		.4byte	0x7f
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  335 0145 52030000 		.4byte	0x352
  336 0149 51010000 		.4byte	0x151
  337 014d 5C010000 		.4byte	0x15c
-ARM GAS  /tmp/cc64bMgh.s 			page 7
+ARM GAS  /tmp/ccuinEGX.s 			page 7
 
 
  338 0151 0E       		.uleb128 0xe
@@ -408,7 +408,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  382 01b0 65030000 		.4byte	0x365
  383 01b4 00       		.byte	0
  384 01b5 12       		.uleb128 0x12
- 385 01b6 04050000 		.4byte	.LASF19
+ 385 01b6 12050000 		.4byte	.LASF19
  386 01ba 03       		.byte	0x3
  387 01bb 0C       		.byte	0xc
  388 01bc 2C000000 		.4byte	0x2c
@@ -418,24 +418,24 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  392 01c6 03       		.byte	0x3
  393 01c7 0D       		.byte	0xd
  394 01c8 2C000000 		.4byte	0x2c
-ARM GAS  /tmp/cc64bMgh.s 			page 8
+ARM GAS  /tmp/ccuinEGX.s 			page 8
 
 
  395 01cc 08       		.byte	0x8
  396 01cd 12       		.uleb128 0x12
- 397 01ce 0B050000 		.4byte	.LASF21
+ 397 01ce 19050000 		.4byte	.LASF21
  398 01d2 03       		.byte	0x3
  399 01d3 0E       		.byte	0xe
  400 01d4 65030000 		.4byte	0x365
  401 01d8 0C       		.byte	0xc
  402 01d9 12       		.uleb128 0x12
- 403 01da F3040000 		.4byte	.LASF22
+ 403 01da C5040000 		.4byte	.LASF22
  404 01de 03       		.byte	0x3
  405 01df 0F       		.byte	0xf
  406 01e0 65030000 		.4byte	0x365
  407 01e4 10       		.byte	0x10
  408 01e5 13       		.uleb128 0x13
- 409 01e6 6B040000 		.4byte	.LASF23
+ 409 01e6 3D040000 		.4byte	.LASF23
  410 01ea 03       		.byte	0x3
  411 01eb 25       		.byte	0x25
  412 01ec B8010000 		.4byte	.LASF25
@@ -449,10 +449,10 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  420 0203 6B030000 		.4byte	0x36b
  421 0207 00       		.byte	0
  422 0208 13       		.uleb128 0x13
- 423 0209 CD030000 		.4byte	.LASF24
+ 423 0209 FC030000 		.4byte	.LASF24
  424 020d 03       		.byte	0x3
  425 020e 34       		.byte	0x34
- 426 020f 81040000 		.4byte	.LASF26
+ 426 020f 53040000 		.4byte	.LASF26
  427 0213 5E030000 		.4byte	0x35e
  428 0217 01       		.byte	0x1
  429 0218 20020000 		.4byte	0x220
@@ -475,10 +475,10 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  446 0244 71030000 		.4byte	0x371
  447 0248 00       		.byte	0
  448 0249 13       		.uleb128 0x13
- 449 024a F9040000 		.4byte	.LASF29
+ 449 024a 07050000 		.4byte	.LASF29
  450 024e 03       		.byte	0x3
  451 024f 51       		.byte	0x51
-ARM GAS  /tmp/cc64bMgh.s 			page 9
+ARM GAS  /tmp/ccuinEGX.s 			page 9
 
 
  452 0250 29010000 		.4byte	.LASF30
@@ -490,7 +490,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  458 0262 7D030000 		.4byte	0x37d
  459 0266 00       		.byte	0
  460 0267 13       		.uleb128 0x13
- 461 0268 1C050000 		.4byte	.LASF31
+ 461 0268 2A050000 		.4byte	.LASF31
  462 026c 03       		.byte	0x3
  463 026d 58       		.byte	0x58
  464 026e 6B000000 		.4byte	.LASF32
@@ -502,7 +502,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  470 0280 7D030000 		.4byte	0x37d
  471 0284 00       		.byte	0
  472 0285 13       		.uleb128 0x13
- 473 0286 B7040000 		.4byte	.LASF33
+ 473 0286 89040000 		.4byte	.LASF33
  474 028a 03       		.byte	0x3
  475 028b 5F       		.byte	0x5f
  476 028c CD000000 		.4byte	.LASF34
@@ -519,7 +519,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  487 02a9 EC010000 		.4byte	.LASF35
  488 02ad 03       		.byte	0x3
  489 02ae 69       		.byte	0x69
- 490 02af BC040000 		.4byte	.LASF36
+ 490 02af 8E040000 		.4byte	.LASF36
  491 02b3 5E030000 		.4byte	0x35e
  492 02b7 01       		.byte	0x1
  493 02b8 C0020000 		.4byte	0x2c0
@@ -533,19 +533,19 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  501 02cc 2D000000 		.4byte	.LASF37
  502 02d0 03       		.byte	0x3
  503 02d1 73       		.byte	0x73
- 504 02d2 A3030000 		.4byte	.LASF38
+ 504 02d2 D2030000 		.4byte	.LASF38
  505 02d6 5E030000 		.4byte	0x35e
  506 02da 01       		.byte	0x1
  507 02db E3020000 		.4byte	0x2e3
  508 02df E9020000 		.4byte	0x2e9
-ARM GAS  /tmp/cc64bMgh.s 			page 10
+ARM GAS  /tmp/ccuinEGX.s 			page 10
 
 
  509 02e3 0E       		.uleb128 0xe
  510 02e4 71030000 		.4byte	0x371
  511 02e8 00       		.byte	0
  512 02e9 0F       		.uleb128 0xf
- 513 02ea 11050000 		.4byte	.LASF39
+ 513 02ea 1F050000 		.4byte	.LASF39
  514 02ee 03       		.byte	0x3
  515 02ef 7D       		.byte	0x7d
  516 02f0 71030000 		.4byte	0x371
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  563 0358 18       		.uleb128 0x18
  564 0359 04       		.byte	0x4
  565 035a 92010000 		.4byte	0x192
-ARM GAS  /tmp/cc64bMgh.s 			page 11
+ARM GAS  /tmp/ccuinEGX.s 			page 11
 
 
  566 035e 04       		.uleb128 0x4
@@ -636,7 +636,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  598 03a2 52030000 		.4byte	0x352
  599 03a6 1B       		.uleb128 0x1b
  600 03a7 89030000 		.4byte	0x389
- 601 03ab E3030000 		.4byte	.LASF43
+ 601 03ab 12040000 		.4byte	.LASF43
  602 03af 00000000 		.4byte	.LFB6
  603 03b3 0C000000 		.4byte	.LFE6-.LFB6
  604 03b7 01       		.uleb128 0x1
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  620 03d6 FA030000 		.4byte	0x3fa
  621 03da 1A       		.uleb128 0x1a
  622 03db 24010000 		.4byte	.LASF42
-ARM GAS  /tmp/cc64bMgh.s 			page 12
+ARM GAS  /tmp/ccuinEGX.s 			page 12
 
 
  623 03df FA030000 		.4byte	0x3fa
@@ -668,7 +668,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  627 03e9 07       		.byte	0x7
  628 03ea 65030000 		.4byte	0x365
  629 03ee 1E       		.uleb128 0x1e
- 630 03ef 04050000 		.4byte	.LASF19
+ 630 03ef 12050000 		.4byte	.LASF19
  631 03f3 02       		.byte	0x2
  632 03f4 07       		.byte	0x7
  633 03f5 2C000000 		.4byte	0x2c
@@ -714,11 +714,11 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  673 0450 7D       		.byte	0x7d
  674 0451 65030000 		.4byte	0x365
  675 0455 1E       		.uleb128 0x1e
- 676 0456 04050000 		.4byte	.LASF19
+ 676 0456 12050000 		.4byte	.LASF19
  677 045a 03       		.byte	0x3
  678 045b 7D       		.byte	0x7d
  679 045c 2C000000 		.4byte	0x2c
-ARM GAS  /tmp/cc64bMgh.s 			page 13
+ARM GAS  /tmp/ccuinEGX.s 			page 13
 
 
  680 0460 00       		.byte	0
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  734 0018 3E       		.uleb128 0x3e
  735 0019 0B       		.uleb128 0xb
  736 001a 03       		.uleb128 0x3
-ARM GAS  /tmp/cc64bMgh.s 			page 14
+ARM GAS  /tmp/ccuinEGX.s 			page 14
 
 
  737 001b 08       		.uleb128 0x8
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  791 0051 08       		.uleb128 0x8
  792 0052 3A       		.uleb128 0x3a
  793 0053 0B       		.uleb128 0xb
-ARM GAS  /tmp/cc64bMgh.s 			page 15
+ARM GAS  /tmp/ccuinEGX.s 			page 15
 
 
  794 0054 3B       		.uleb128 0x3b
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  848 008a 01       		.uleb128 0x1
  849 008b 13       		.uleb128 0x13
  850 008c 00       		.byte	0
-ARM GAS  /tmp/cc64bMgh.s 			page 16
+ARM GAS  /tmp/ccuinEGX.s 			page 16
 
 
  851 008d 00       		.byte	0
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  905 00c3 10       		.uleb128 0x10
  906 00c4 2E       		.uleb128 0x2e
  907 00c5 01       		.byte	0x1
-ARM GAS  /tmp/cc64bMgh.s 			page 17
+ARM GAS  /tmp/ccuinEGX.s 			page 17
 
 
  908 00c6 3F       		.uleb128 0x3f
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  962 00fc 0E       		.uleb128 0xe
  963 00fd 49       		.uleb128 0x49
  964 00fe 13       		.uleb128 0x13
-ARM GAS  /tmp/cc64bMgh.s 			page 18
+ARM GAS  /tmp/ccuinEGX.s 			page 18
 
 
  965 00ff 32       		.uleb128 0x32
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  1019 0135 00       		.byte	0
  1020 0136 0B       		.uleb128 0xb
  1021 0137 0B       		.uleb128 0xb
-ARM GAS  /tmp/cc64bMgh.s 			page 19
+ARM GAS  /tmp/ccuinEGX.s 			page 19
 
 
  1022 0138 49       		.uleb128 0x49
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  1076 016f 02       		.uleb128 0x2
  1077 0170 18       		.uleb128 0x18
  1078 0171 00       		.byte	0
-ARM GAS  /tmp/cc64bMgh.s 			page 20
+ARM GAS  /tmp/ccuinEGX.s 			page 20
 
 
  1079 0172 00       		.byte	0
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  1133 01a9 01       		.byte	0x1
  1134 01aa 31       		.uleb128 0x31
  1135 01ab 13       		.uleb128 0x13
-ARM GAS  /tmp/cc64bMgh.s 			page 21
+ARM GAS  /tmp/ccuinEGX.s 			page 21
 
 
  1136 01ac 6E       		.uleb128 0x6e
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  1184              	.LASF40:
  1185 000f 4D657373 		.ascii	"MessagePtrQueue\000"
  1185      61676550 
-ARM GAS  /tmp/cc64bMgh.s 			page 22
+ARM GAS  /tmp/ccuinEGX.s 			page 22
 
 
  1185      74725175 
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  1211 0111 4974656D 		.ascii	"Item\000"
  1211      00
  1212              	.LASF2:
-ARM GAS  /tmp/cc64bMgh.s 			page 23
+ARM GAS  /tmp/ccuinEGX.s 			page 23
 
 
  1213 0116 756E7369 		.ascii	"unsigned char\000"
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  1236      626C6500 
  1237              	.LASF0:
  1238 0211 756E7369 		.ascii	"unsigned int\000"
-ARM GAS  /tmp/cc64bMgh.s 			page 24
+ARM GAS  /tmp/ccuinEGX.s 			page 24
 
 
  1238      676E6564 
@@ -1435,124 +1435,124 @@ ARM GAS  /tmp/cc64bMgh.s 			page 1
  1252      75653C72 
  1252      32703A3A 
  1252      4D657373 
- 1253              	.LASF38:
- 1254 03a3 5F5A4E33 		.ascii	"_ZN3r2p10ArrayQueueIPNS_7MessageEE4skipEv\000"
- 1254      72327031 
-ARM GAS  /tmp/cc64bMgh.s 			page 25
+ 1253              	.LASF48:
+ 1254 03a3 2F686F6D 		.ascii	"/home/ergae/r2p-sdk/workspace-triskarpixy/USB/\000"
+ 1254      652F6572 
+ARM GAS  /tmp/ccuinEGX.s 			page 25
 
 
- 1254      30417272 
- 1254      61795175 
- 1254      65756549 
- 1255              	.LASF24:
- 1256 03cd 66657463 		.ascii	"fetch_unsafe\000"
- 1256      685F756E 
- 1256      73616665 
- 1256      00
- 1257              	.LASF9:
- 1258 03da 73697A65 		.ascii	"sizetype\000"
- 1258      74797065 
+ 1254      6761652F 
+ 1254      7232702D 
+ 1254      73646B2F 
+ 1255              	.LASF38:
+ 1256 03d2 5F5A4E33 		.ascii	"_ZN3r2p10ArrayQueueIPNS_7MessageEE4skipEv\000"
+ 1256      72327031 
+ 1256      30417272 
+ 1256      61795175 
+ 1256      65756549 
+ 1257              	.LASF24:
+ 1258 03fc 66657463 		.ascii	"fetch_unsafe\000"
+ 1258      685F756E 
+ 1258      73616665 
  1258      00
- 1259              	.LASF43:
- 1260 03e3 5F5A4E33 		.ascii	"_ZN3r2p10UncopyableC2Ev\000"
- 1260      72327031 
- 1260      30556E63 
- 1260      6F707961 
- 1260      626C6543 
- 1261              	.LASF7:
- 1262 03fb 6C6F6E67 		.ascii	"long long int\000"
- 1262      206C6F6E 
- 1262      6720696E 
- 1262      7400
- 1263              	.LASF47:
- 1264 0409 2F686F6D 		.ascii	"/home/denny/r2p-sdk/core/Middleware/src/MessagePtrQ"
- 1264      652F6465 
- 1264      6E6E792F 
- 1264      7232702D 
- 1264      73646B2F 
- 1265 043c 75657565 		.ascii	"ueue.cpp\000"
- 1265      2E637070 
- 1265      00
- 1266              	.LASF10:
- 1267 0445 63686172 		.ascii	"char\000"
- 1267      00
- 1268              	.LASF48:
- 1269 044a 2F686F6D 		.ascii	"/home/denny/git/TriskarPixy/USB/\000"
- 1269      652F6465 
- 1269      6E6E792F 
- 1269      6769742F 
- 1269      54726973 
- 1270              	.LASF23:
- 1271 046b 706F7374 		.ascii	"post_unsafe\000"
- 1271      5F756E73 
- 1271      61666500 
- 1272              	.LASF3:
- 1273 0477 73686F72 		.ascii	"short int\000"
- 1273      7420696E 
- 1273      7400
- 1274              	.LASF26:
- 1275 0481 5F5A4E33 		.ascii	"_ZN3r2p10ArrayQueueIPNS_7MessageEE12fetch_unsafeERS"
- 1275      72327031 
- 1275      30417272 
- 1275      61795175 
- 1275      65756549 
- 1276 04b4 325F00   		.ascii	"2_\000"
- 1277              	.LASF33:
-ARM GAS  /tmp/cc64bMgh.s 			page 26
+ 1259              	.LASF9:
+ 1260 0409 73697A65 		.ascii	"sizetype\000"
+ 1260      74797065 
+ 1260      00
+ 1261              	.LASF43:
+ 1262 0412 5F5A4E33 		.ascii	"_ZN3r2p10UncopyableC2Ev\000"
+ 1262      72327031 
+ 1262      30556E63 
+ 1262      6F707961 
+ 1262      626C6543 
+ 1263              	.LASF7:
+ 1264 042a 6C6F6E67 		.ascii	"long long int\000"
+ 1264      206C6F6E 
+ 1264      6720696E 
+ 1264      7400
+ 1265              	.LASF10:
+ 1266 0438 63686172 		.ascii	"char\000"
+ 1266      00
+ 1267              	.LASF23:
+ 1268 043d 706F7374 		.ascii	"post_unsafe\000"
+ 1268      5F756E73 
+ 1268      61666500 
+ 1269              	.LASF3:
+ 1270 0449 73686F72 		.ascii	"short int\000"
+ 1270      7420696E 
+ 1270      7400
+ 1271              	.LASF26:
+ 1272 0453 5F5A4E33 		.ascii	"_ZN3r2p10ArrayQueueIPNS_7MessageEE12fetch_unsafeERS"
+ 1272      72327031 
+ 1272      30417272 
+ 1272      61795175 
+ 1272      65756549 
+ 1273 0486 325F00   		.ascii	"2_\000"
+ 1274              	.LASF33:
+ 1275 0489 706F7374 		.ascii	"post\000"
+ 1275      00
+ 1276              	.LASF36:
+ 1277 048e 5F5A4E33 		.ascii	"_ZN3r2p10ArrayQueueIPNS_7MessageEE5fetchERS2_\000"
+ 1277      72327031 
+ 1277      30417272 
+ 1277      61795175 
+ 1277      65756549 
+ 1278              	.LASF12:
+ARM GAS  /tmp/ccuinEGX.s 			page 26
 
 
- 1278 04b7 706F7374 		.ascii	"post\000"
- 1278      00
- 1279              	.LASF36:
- 1280 04bc 5F5A4E33 		.ascii	"_ZN3r2p10ArrayQueueIPNS_7MessageEE5fetchERS2_\000"
- 1280      72327031 
- 1280      30417272 
- 1280      61795175 
- 1280      65756549 
- 1281              	.LASF12:
- 1282 04ea 73747265 		.ascii	"strerror\000"
- 1282      72726F72 
- 1282      00
- 1283              	.LASF22:
- 1284 04f3 7461696C 		.ascii	"tailp\000"
- 1284      7000
+ 1279 04bc 73747265 		.ascii	"strerror\000"
+ 1279      72726F72 
+ 1279      00
+ 1280              	.LASF22:
+ 1281 04c5 7461696C 		.ascii	"tailp\000"
+ 1281      7000
+ 1282              	.LASF47:
+ 1283 04cb 2F686F6D 		.ascii	"/home/ergae/r2p-sdk/core/Middleware/src/MessagePtrQ"
+ 1283      652F6572 
+ 1283      6761652F 
+ 1283      7232702D 
+ 1283      73646B2F 
+ 1284 04fe 75657565 		.ascii	"ueue.cpp\000"
+ 1284      2E637070 
+ 1284      00
  1285              	.LASF29:
- 1286 04f9 6765745F 		.ascii	"get_length\000"
+ 1286 0507 6765745F 		.ascii	"get_length\000"
  1286      6C656E67 
  1286      746800
  1287              	.LASF19:
- 1288 0504 6C656E67 		.ascii	"length\000"
+ 1288 0512 6C656E67 		.ascii	"length\000"
  1288      746800
  1289              	.LASF21:
- 1290 050b 68656164 		.ascii	"headp\000"
+ 1290 0519 68656164 		.ascii	"headp\000"
  1290      7000
  1291              	.LASF39:
- 1292 0511 41727261 		.ascii	"ArrayQueue\000"
+ 1292 051f 41727261 		.ascii	"ArrayQueue\000"
  1292      79517565 
  1292      756500
  1293              	.LASF31:
- 1294 051c 6765745F 		.ascii	"get_count\000"
+ 1294 052a 6765745F 		.ascii	"get_count\000"
  1294      636F756E 
  1294      7400
  1295              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/cc64bMgh.s 			page 27
+ARM GAS  /tmp/ccuinEGX.s 			page 27
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 MessagePtrQueue.cpp
-     /tmp/cc64bMgh.s:21     .text._ZN3r2p10UncopyableC2Ev:00000000 $t
-     /tmp/cc64bMgh.s:27     .text._ZN3r2p10UncopyableC2Ev:00000000 _ZN3r2p10UncopyableC2Ev
-     /tmp/cc64bMgh.s:27     .text._ZN3r2p10UncopyableC2Ev:00000000 _ZN3r2p10UncopyableC1Ev
-     /tmp/cc64bMgh.s:51     .text._ZN3r2p15MessagePtrQueueC2EPPNS_7MessageEj:00000000 $t
-     /tmp/cc64bMgh.s:57     .text._ZN3r2p15MessagePtrQueueC2EPPNS_7MessageEj:00000000 _ZN3r2p15MessagePtrQueueC2EPPNS_7MessageEj
-     /tmp/cc64bMgh.s:103    .text._ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j:00000000 _ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j
-     /tmp/cc64bMgh.s:57     .text._ZN3r2p15MessagePtrQueueC2EPPNS_7MessageEj:00000000 _ZN3r2p15MessagePtrQueueC1EPPNS_7MessageEj
-     /tmp/cc64bMgh.s:93     .rodata:00000000 $d
-     /tmp/cc64bMgh.s:97     .text._ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j:00000000 $t
-     /tmp/cc64bMgh.s:164    .text._ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j:00000050 $d
-     /tmp/cc64bMgh.s:103    .text._ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j:00000000 _ZN3r2p10ArrayQueueIPNS_7MessageEEC1EPS2_j
+     /tmp/ccuinEGX.s:21     .text._ZN3r2p10UncopyableC2Ev:00000000 $t
+     /tmp/ccuinEGX.s:27     .text._ZN3r2p10UncopyableC2Ev:00000000 _ZN3r2p10UncopyableC2Ev
+     /tmp/ccuinEGX.s:27     .text._ZN3r2p10UncopyableC2Ev:00000000 _ZN3r2p10UncopyableC1Ev
+     /tmp/ccuinEGX.s:51     .text._ZN3r2p15MessagePtrQueueC2EPPNS_7MessageEj:00000000 $t
+     /tmp/ccuinEGX.s:57     .text._ZN3r2p15MessagePtrQueueC2EPPNS_7MessageEj:00000000 _ZN3r2p15MessagePtrQueueC2EPPNS_7MessageEj
+     /tmp/ccuinEGX.s:103    .text._ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j:00000000 _ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j
+     /tmp/ccuinEGX.s:57     .text._ZN3r2p15MessagePtrQueueC2EPPNS_7MessageEj:00000000 _ZN3r2p15MessagePtrQueueC1EPPNS_7MessageEj
+     /tmp/ccuinEGX.s:93     .rodata:00000000 $d
+     /tmp/ccuinEGX.s:97     .text._ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j:00000000 $t
+     /tmp/ccuinEGX.s:164    .text._ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j:00000050 $d
+     /tmp/ccuinEGX.s:103    .text._ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j:00000000 _ZN3r2p10ArrayQueueIPNS_7MessageEEC1EPS2_j
                      .debug_frame:00000010 $d
-     /tmp/cc64bMgh.s:170    .text._ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j:00000054 $t
+     /tmp/ccuinEGX.s:170    .text._ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j:00000054 $t
                            .group:00000000 _ZN3r2p10UncopyableC5Ev
                            .group:00000000 _ZN3r2p10ArrayQueueIPNS_7MessageEEC5EPS2_j
 

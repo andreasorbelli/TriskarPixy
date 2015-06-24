@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccXKXKMn.s 			page 1
+ARM GAS  /tmp/ccid23Sy.s 			page 1
 
 
    1              		.syntax unified
@@ -47,7 +47,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
   44              		.type	set_address, %function
   45              	set_address:
   46              	.LFB118:
-  47              		.file 1 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/usb.c"
+  47              		.file 1 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/usb.c"
   48              		.loc 1 69 0
   49              		.cfi_startproc
   50              		@ args = 0, pretend = 0, frame = 8
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
   55 0002 83B0     		sub	sp, sp, #12
   56              		.cfi_def_cfa_offset 16
   57 0004 0190     		str	r0, [sp, #4]
-ARM GAS  /tmp/ccXKXKMn.s 			page 2
+ARM GAS  /tmp/ccid23Sy.s 			page 2
 
 
   58              		.loc 1 71 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  111              		.loc 1 93 0
  112 0006 019B     		ldr	r3, [sp, #4]
  113 0008 93F87430 		ldrb	r3, [r3, #116]	@ zero_extendqisi2
-ARM GAS  /tmp/ccXKXKMn.s 			page 3
+ARM GAS  /tmp/ccid23Sy.s 			page 3
 
 
  114 000c 03F07F02 		and	r2, r3, #127
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  168 0090 0222     		movs	r2, #2
  169 0092 DA66     		str	r2, [r3, #108]
  170 0094 019B     		ldr	r3, [sp, #4]
-ARM GAS  /tmp/ccXKXKMn.s 			page 4
+ARM GAS  /tmp/ccid23Sy.s 			page 4
 
 
  171 0096 0022     		movs	r2, #0
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  225 00fa DA66     		str	r2, [r3, #108]
  226 00fc 019B     		ldr	r3, [sp, #4]
  227 00fe 0022     		movs	r2, #0
-ARM GAS  /tmp/ccXKXKMn.s 			page 5
+ARM GAS  /tmp/ccid23Sy.s 			page 5
 
 
  228 0100 1A67     		str	r2, [r3, #112]
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  282 0158 0EE1     		b	.L19
  283              	.L22:
  284              		.loc 1 138 0
-ARM GAS  /tmp/ccXKXKMn.s 			page 6
+ARM GAS  /tmp/ccid23Sy.s 			page 6
 
 
  285 015a 039B     		ldr	r3, [sp, #12]
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  339 01b6 1B68     		ldr	r3, [r3]
  340 01b8 002B     		cmp	r3, #0
  341 01ba 05D0     		beq	.L25
-ARM GAS  /tmp/ccXKXKMn.s 			page 7
+ARM GAS  /tmp/ccid23Sy.s 			page 7
 
 
  342              		.loc 1 151 0 is_stmt 0 discriminator 1
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  396 021c 022B     		cmp	r3, #2
  397 021e 0BD0     		beq	.L29
  398 0220 15E0     		b	.L39
-ARM GAS  /tmp/ccXKXKMn.s 			page 8
+ARM GAS  /tmp/ccid23Sy.s 			page 8
 
 
  399              	.L28:
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  453 027c DA66     		str	r2, [r3, #108]
  454 027e 019B     		ldr	r3, [sp, #4]
  455 0280 0022     		movs	r2, #0
-ARM GAS  /tmp/ccXKXKMn.s 			page 9
+ARM GAS  /tmp/ccid23Sy.s 			page 9
 
 
  456 0282 1A67     		str	r2, [r3, #112]
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  510              	.L35:
  511              		.loc 1 195 0
  512 02e2 019B     		ldr	r3, [sp, #4]
-ARM GAS  /tmp/ccXKXKMn.s 			page 10
+ARM GAS  /tmp/ccid23Sy.s 			page 10
 
 
  513 02e4 93F87830 		ldrb	r3, [r3, #120]	@ zero_extendqisi2
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  567 034c 019B     		ldr	r3, [sp, #4]
  568 034e 93F87830 		ldrb	r3, [r3, #120]	@ zero_extendqisi2
  569 0352 03F00F03 		and	r3, r3, #15
-ARM GAS  /tmp/ccXKXKMn.s 			page 11
+ARM GAS  /tmp/ccid23Sy.s 			page 11
 
 
  570 0356 DBB2     		uxtb	r3, r3
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  624              		.cfi_offset 14, -4
  625              		.loc 1 237 0
  626 0002 FFF7FEFF 		bl	usb_lld_init
-ARM GAS  /tmp/ccXKXKMn.s 			page 12
+ARM GAS  /tmp/ccid23Sy.s 			page 12
 
 
  627              		.loc 1 238 0
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  681              		.loc 1 252 0 is_stmt 0 discriminator 1
  682 0036 039B     		ldr	r3, [sp, #12]
  683 0038 062B     		cmp	r3, #6
-ARM GAS  /tmp/ccXKXKMn.s 			page 13
+ARM GAS  /tmp/ccid23Sy.s 			page 13
 
 
  684 003a ECD9     		bls	.L46
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  732              		.loc 1 271 0 is_stmt 0 discriminator 2
  733 000e 009B     		ldr	r3, [sp]
  734 0010 002B     		cmp	r3, #0
-ARM GAS  /tmp/ccXKXKMn.s 			page 14
+ARM GAS  /tmp/ccid23Sy.s 			page 14
 
 
  735 0012 02D1     		bne	.L49
@@ -790,7 +790,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  741              	.LBB2:
  742              		.loc 1 273 0 is_stmt 1
  743 001a 2023     		movs	r3, #32
- 744              	@ 273 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
+ 744              	@ 273 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
  745 001c 83F31188 		msr     BASEPRI, r3
  746              	@ 0 "" 2
  747              		.thumb
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  789 005e F2D9     		bls	.L52
  790              		.loc 1 279 0 is_stmt 1
  791 0060 0198     		ldr	r0, [sp, #4]
-ARM GAS  /tmp/ccXKXKMn.s 			page 15
+ARM GAS  /tmp/ccid23Sy.s 			page 15
 
 
  792 0062 FFF7FEFF 		bl	usb_lld_start
@@ -850,7 +850,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  798 006c FFF7FEFF 		bl	dbg_check_unlock
  799              	.LBB3:
  800 0070 0023     		movs	r3, #0
- 801              	@ 281 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
+ 801              	@ 281 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
  802 0072 83F31188 		msr     BASEPRI, r3
  803              	@ 0 "" 2
  804              		.thumb
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  839 0000 00B5     		push	{lr}
  840              		.cfi_def_cfa_offset 4
  841              		.cfi_offset 14, -4
-ARM GAS  /tmp/ccXKXKMn.s 			page 16
+ARM GAS  /tmp/ccid23Sy.s 			page 16
 
 
  842 0002 83B0     		sub	sp, sp, #12
@@ -915,7 +915,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  853              	.LBB4:
  854              		.loc 1 295 0 is_stmt 1
  855 0012 2023     		movs	r3, #32
- 856              	@ 295 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
+ 856              	@ 295 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
  857 0014 83F31188 		msr     BASEPRI, r3
  858              	@ 0 "" 2
  859              		.thumb
@@ -956,9 +956,9 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  894 004e FFF7FEFF 		bl	dbg_check_unlock
  895              	.LBB5:
  896 0052 0023     		movs	r3, #0
- 897              	@ 301 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
+ 897              	@ 301 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
  898 0054 83F31188 		msr     BASEPRI, r3
-ARM GAS  /tmp/ccXKXKMn.s 			page 17
+ARM GAS  /tmp/ccid23Sy.s 			page 17
 
 
  899              	@ 0 "" 2
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  940              		.cfi_offset 14, -4
  941 0002 85B0     		sub	sp, sp, #20
  942              		.cfi_def_cfa_offset 24
-ARM GAS  /tmp/ccXKXKMn.s 			page 18
+ARM GAS  /tmp/ccid23Sy.s 			page 18
 
 
  943 0004 0390     		str	r0, [sp, #12]
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  997              		.loc 1 330 0
  998 0060 019B     		ldr	r3, [sp, #4]
  999 0062 9B69     		ldr	r3, [r3, #24]
-ARM GAS  /tmp/ccXKXKMn.s 			page 19
+ARM GAS  /tmp/ccid23Sy.s 			page 19
 
 
  1000 0064 002B     		cmp	r3, #0
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  1044              		.section	.text.usbDisableEndpointsI,"ax",%progbits
  1045              		.align	2
  1046              		.p2align 4,,15
-ARM GAS  /tmp/ccXKXKMn.s 			page 20
+ARM GAS  /tmp/ccid23Sy.s 			page 20
 
 
  1047              		.global	usbDisableEndpointsI
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  1101              		.loc 1 361 0 discriminator 3
  1102 0046 019A     		ldr	r2, [sp, #4]
  1103 0048 039B     		ldr	r3, [sp, #12]
-ARM GAS  /tmp/ccXKXKMn.s 			page 21
+ARM GAS  /tmp/ccid23Sy.s 			page 21
 
 
  1104 004a 0233     		adds	r3, r3, #2
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  1156 000c 8DF80B30 		strb	r3, [sp, #11]
  1157              		.loc 1 380 0
  1158 0010 9DF80B30 		ldrb	r3, [sp, #11]	@ zero_extendqisi2
-ARM GAS  /tmp/ccXKXKMn.s 			page 22
+ARM GAS  /tmp/ccid23Sy.s 			page 22
 
 
  1159 0014 039A     		ldr	r2, [sp, #12]
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  1213 0004 0390     		str	r0, [sp, #12]
  1214 0006 0192     		str	r2, [sp, #4]
  1215 0008 0093     		str	r3, [sp]
-ARM GAS  /tmp/ccXKXKMn.s 			page 23
+ARM GAS  /tmp/ccid23Sy.s 			page 23
 
 
  1216 000a 0B46     		mov	r3, r1
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  1270              		.cfi_def_cfa_offset 4
  1271              		.cfi_offset 14, -4
  1272 0002 87B0     		sub	sp, sp, #28
-ARM GAS  /tmp/ccXKXKMn.s 			page 24
+ARM GAS  /tmp/ccid23Sy.s 			page 24
 
 
  1273              		.cfi_def_cfa_offset 32
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  1327              		.cfi_startproc
  1328              		@ args = 0, pretend = 0, frame = 24
  1329              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/ccXKXKMn.s 			page 25
+ARM GAS  /tmp/ccid23Sy.s 			page 25
 
 
  1330 0000 00B5     		push	{lr}
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  1381      65697665 
  1381      49222829 
  1382              		.section	.text.usbStartReceiveI,"ax",%progbits
-ARM GAS  /tmp/ccXKXKMn.s 			page 26
+ARM GAS  /tmp/ccid23Sy.s 			page 26
 
 
  1383              		.align	2
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  1437 004e 9AB2     		uxth	r2, r3
  1438 0050 019B     		ldr	r3, [sp, #4]
  1439 0052 5A81     		strh	r2, [r3, #10]	@ movhi
-ARM GAS  /tmp/ccXKXKMn.s 			page 27
+ARM GAS  /tmp/ccid23Sy.s 			page 27
 
 
  1440              		.loc 1 494 0
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  1490 0012 002B     		cmp	r3, #0
  1491 0014 02D1     		bne	.L87
  1492              		.loc 1 515 0 is_stmt 0 discriminator 1
-ARM GAS  /tmp/ccXKXKMn.s 			page 28
+ARM GAS  /tmp/ccid23Sy.s 			page 28
 
 
  1493 0016 1548     		ldr	r0, .L90
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  1547 00f4 22757362 		.ascii	"\"usbStallReceiveI\"()\000"
  1547      5374616C 
  1547      6C526563 
-ARM GAS  /tmp/ccXKXKMn.s 			page 29
+ARM GAS  /tmp/ccid23Sy.s 			page 29
 
 
  1547      65697665 
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  1600              		.loc 1 547 0
  1601 0044 1846     		mov	r0, r3
  1602 0046 03B0     		add	sp, sp, #12
-ARM GAS  /tmp/ccXKXKMn.s 			page 30
+ARM GAS  /tmp/ccid23Sy.s 			page 30
 
 
  1603              		.cfi_def_cfa_offset 4
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  1653 0026 42FA03F3 		asr	r3, r2, r3
  1654 002a 03F00103 		and	r3, r3, #1
  1655 002e 002B     		cmp	r3, #0
-ARM GAS  /tmp/ccXKXKMn.s 			page 31
+ARM GAS  /tmp/ccid23Sy.s 			page 31
 
 
  1656 0030 01D0     		beq	.L100
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  1710 0014 019B     		ldr	r3, [sp, #4]
  1711 0016 0022     		movs	r2, #0
  1712 0018 83F87E20 		strb	r2, [r3, #126]
-ARM GAS  /tmp/ccXKXKMn.s 			page 32
+ARM GAS  /tmp/ccid23Sy.s 			page 32
 
 
  1713              		.loc 1 588 0
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  1765              		.global	_usb_ep0setup
  1766              		.thumb
  1767              		.thumb_func
-ARM GAS  /tmp/ccXKXKMn.s 			page 33
+ARM GAS  /tmp/ccid23Sy.s 			page 33
 
 
  1768              		.type	_usb_ep0setup, %function
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  1822 0056 FFF7FEFF 		bl	default_handler
  1823 005a 0346     		mov	r3, r0
  1824 005c 83F00103 		eor	r3, r3, #1
-ARM GAS  /tmp/ccXKXKMn.s 			page 34
+ARM GAS  /tmp/ccid23Sy.s 			page 34
 
 
  1825 0060 DBB2     		uxtb	r3, r3
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  1879              		.loc 1 650 0
  1880 00ba 019B     		ldr	r3, [sp, #4]
  1881 00bc 93F87430 		ldrb	r3, [r3, #116]	@ zero_extendqisi2
-ARM GAS  /tmp/ccXKXKMn.s 			page 35
+ARM GAS  /tmp/ccid23Sy.s 			page 35
 
 
  1882 00c0 DBB2     		uxtb	r3, r3
@@ -2065,7 +2065,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  1903              	.LBB6:
  1904              		.loc 1 656 0
  1905 00e8 2023     		movs	r3, #32
- 1906              	@ 656 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
+ 1906              	@ 656 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
  1907 00ea 83F31188 		msr     BASEPRI, r3
  1908              	@ 0 "" 2
  1909              		.thumb
@@ -2079,7 +2079,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  1917 00fa FFF7FEFF 		bl	dbg_check_unlock_from_isr
  1918              	.LBB7:
  1919 00fe 0023     		movs	r3, #0
- 1920              	@ 658 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
+ 1920              	@ 658 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
  1921 0100 83F31188 		msr     BASEPRI, r3
  1922              	@ 0 "" 2
  1923              		.thumb
@@ -2098,11 +2098,11 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  1936 0116 FFF7FEFF 		bl	usbPrepareReceive
  1937              	.LBB8:
  1938              		.loc 1 666 0
-ARM GAS  /tmp/ccXKXKMn.s 			page 36
+ARM GAS  /tmp/ccid23Sy.s 			page 36
 
 
  1939 011a 2023     		movs	r3, #32
- 1940              	@ 666 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
+ 1940              	@ 666 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
  1941 011c 83F31188 		msr     BASEPRI, r3
  1942              	@ 0 "" 2
  1943              		.thumb
@@ -2116,7 +2116,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  1951 012c FFF7FEFF 		bl	dbg_check_unlock_from_isr
  1952              	.LBB9:
  1953 0130 0023     		movs	r3, #0
- 1954              	@ 668 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
+ 1954              	@ 668 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
  1955 0132 83F31188 		msr     BASEPRI, r3
  1956              	@ 0 "" 2
  1957              		.thumb
@@ -2143,7 +2143,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  1978              	.LBB10:
  1979              		.loc 1 680 0
  1980 0158 2023     		movs	r3, #32
- 1981              	@ 680 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
+ 1981              	@ 680 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
  1982 015a 83F31188 		msr     BASEPRI, r3
  1983              	@ 0 "" 2
  1984              		.thumb
@@ -2157,8 +2157,8 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  1992 016a FFF7FEFF 		bl	dbg_check_unlock_from_isr
  1993              	.LBB11:
  1994 016e 0023     		movs	r3, #0
- 1995              	@ 682 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
-ARM GAS  /tmp/ccXKXKMn.s 			page 37
+ 1995              	@ 682 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
+ARM GAS  /tmp/ccid23Sy.s 			page 37
 
 
  1996 0170 83F31188 		msr     BASEPRI, r3
@@ -2180,7 +2180,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  2012              	.LBB12:
  2013              		.loc 1 690 0
  2014 018a 2023     		movs	r3, #32
- 2015              	@ 690 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
+ 2015              	@ 690 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
  2016 018c 83F31188 		msr     BASEPRI, r3
  2017              	@ 0 "" 2
  2018              		.thumb
@@ -2194,7 +2194,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  2026 019c FFF7FEFF 		bl	dbg_check_unlock_from_isr
  2027              	.LBB13:
  2028 01a0 0023     		movs	r3, #0
- 2029              	@ 692 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
+ 2029              	@ 692 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
  2030 01a2 83F31188 		msr     BASEPRI, r3
  2031              	@ 0 "" 2
  2032              		.thumb
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  2050              	_usb_ep0in:
  2051              	.LFB136:
  2052              		.loc 1 710 0
-ARM GAS  /tmp/ccXKXKMn.s 			page 38
+ARM GAS  /tmp/ccid23Sy.s 			page 38
 
 
  2053              		.cfi_startproc
@@ -2276,9 +2276,9 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  2105              	.LBB14:
  2106              		.loc 1 722 0
  2107 0060 2023     		movs	r3, #32
- 2108              	@ 722 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
+ 2108              	@ 722 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
  2109 0062 83F31188 		msr     BASEPRI, r3
-ARM GAS  /tmp/ccXKXKMn.s 			page 39
+ARM GAS  /tmp/ccid23Sy.s 			page 39
 
 
  2110              	@ 0 "" 2
@@ -2293,7 +2293,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  2119 0072 FFF7FEFF 		bl	dbg_check_unlock_from_isr
  2120              	.LBB15:
  2121 0076 0023     		movs	r3, #0
- 2122              	@ 724 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
+ 2122              	@ 724 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
  2123 0078 83F31188 		msr     BASEPRI, r3
  2124              	@ 0 "" 2
  2125              		.thumb
@@ -2318,7 +2318,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  2144              	.LBB16:
  2145              		.loc 1 734 0
  2146 009a 2023     		movs	r3, #32
- 2147              	@ 734 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
+ 2147              	@ 734 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
  2148 009c 83F31188 		msr     BASEPRI, r3
  2149              	@ 0 "" 2
  2150              		.thumb
@@ -2332,13 +2332,13 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  2158 00ac FFF7FEFF 		bl	dbg_check_unlock_from_isr
  2159              	.LBB17:
  2160 00b0 0023     		movs	r3, #0
- 2161              	@ 736 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
+ 2161              	@ 736 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
  2162 00b2 83F31188 		msr     BASEPRI, r3
  2163              	@ 0 "" 2
  2164              		.thumb
  2165              	.LBE17:
  2166              		.loc 1 740 0
-ARM GAS  /tmp/ccXKXKMn.s 			page 40
+ARM GAS  /tmp/ccid23Sy.s 			page 40
 
 
  2167 00b6 23E0     		b	.L118
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  2221              		.size	_usb_ep0in, .-_usb_ep0in
  2222 0106 00BFAFF3 		.section	.text._usb_ep0out,"ax",%progbits
  2222      0080AFF3 
-ARM GAS  /tmp/ccXKXKMn.s 			page 41
+ARM GAS  /tmp/ccid23Sy.s 			page 41
 
 
  2222      0080
@@ -2442,7 +2442,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  2260              	.LBB18:
  2261              		.loc 1 778 0
  2262 002e 2023     		movs	r3, #32
- 2263              	@ 778 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
+ 2263              	@ 778 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
  2264 0030 83F31188 		msr     BASEPRI, r3
  2265              	@ 0 "" 2
  2266              		.thumb
@@ -2456,9 +2456,9 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  2274 0040 FFF7FEFF 		bl	dbg_check_unlock_from_isr
  2275              	.LBB19:
  2276 0044 0023     		movs	r3, #0
- 2277              	@ 780 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
+ 2277              	@ 780 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/usb.c" 1
  2278 0046 83F31188 		msr     BASEPRI, r3
-ARM GAS  /tmp/ccXKXKMn.s 			page 42
+ARM GAS  /tmp/ccid23Sy.s 			page 42
 
 
  2279              	@ 0 "" 2
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  2333 0098 9847     		blx	r3
  2334              	.L134:
  2335              		.loc 1 805 0 is_stmt 1
-ARM GAS  /tmp/ccXKXKMn.s 			page 43
+ARM GAS  /tmp/ccid23Sy.s 			page 43
 
 
  2336 009a 019B     		ldr	r3, [sp, #4]
@@ -2536,18 +2536,18 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  2348 00a8 AFF30080 		.text
  2348      AFF30080 
  2349              	.Letext0:
- 2350              		.file 2 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/lib/gcc/arm-none-eabi/4.9.3/includ
- 2351              		.file 3 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/machine/_def
- 2352              		.file 4 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/stdint.h"
- 2353              		.file 5 "/home/denny/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCMx/chtypes.h"
- 2354              		.file 6 "/home/denny/r2p-sdk/core/ChibiOS/os/kernel/include/chlists.h"
- 2355              		.file 7 "/home/denny/r2p-sdk/core/ChibiOS/os/kernel/include/chthreads.h"
- 2356              		.file 8 "/home/denny/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCMx/chcore_v7m.h"
- 2357              		.file 9 "/home/denny/r2p-sdk/core/ChibiOS/os/kernel/include/chmtx.h"
- 2358              		.file 10 "/home/denny/r2p-sdk/core/ChibiOS/os/kernel/include/chqueues.h"
- 2359              		.file 11 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/include/usb.h"
- 2360              		.file 12 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/platforms/STM32/USBv1/usb_lld.h"
- 2361              		.file 13 "/home/denny/r2p-sdk/core/ChibiOS/os/ports/common/ARMCMx/CMSIS/include/core_cm4.h"
+ 2350              		.file 2 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/lib/gcc/arm-none-eabi/4.9.3/includ
+ 2351              		.file 3 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/machine/_def
+ 2352              		.file 4 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/stdint.h"
+ 2353              		.file 5 "/home/ergae/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCMx/chtypes.h"
+ 2354              		.file 6 "/home/ergae/r2p-sdk/core/ChibiOS/os/kernel/include/chlists.h"
+ 2355              		.file 7 "/home/ergae/r2p-sdk/core/ChibiOS/os/kernel/include/chthreads.h"
+ 2356              		.file 8 "/home/ergae/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCMx/chcore_v7m.h"
+ 2357              		.file 9 "/home/ergae/r2p-sdk/core/ChibiOS/os/kernel/include/chmtx.h"
+ 2358              		.file 10 "/home/ergae/r2p-sdk/core/ChibiOS/os/kernel/include/chqueues.h"
+ 2359              		.file 11 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/include/usb.h"
+ 2360              		.file 12 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/platforms/STM32/USBv1/usb_lld.h"
+ 2361              		.file 13 "/home/ergae/r2p-sdk/core/ChibiOS/os/ports/common/ARMCMx/CMSIS/include/core_cm4.h"
  2362              		.section	.debug_info,"",%progbits
  2363              	.Ldebug_info0:
  2364 0000 A4110000 		.4byte	0x11a4
@@ -2557,7 +2557,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  2368 000b 01       		.uleb128 0x1
  2369 000c 22080000 		.4byte	.LASF182
  2370 0010 01       		.byte	0x1
- 2371 0011 83040000 		.4byte	.LASF183
+ 2371 0011 88030000 		.4byte	.LASF183
  2372 0015 00000000 		.4byte	.Ldebug_ranges0+0
  2373 0019 00000000 		.4byte	0
  2374 001d 00000000 		.4byte	.Ldebug_line0
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  2389 003b 01       		.byte	0x1
  2390 003c 06       		.byte	0x6
  2391 003d D1000000 		.4byte	.LASF1
-ARM GAS  /tmp/ccXKXKMn.s 			page 44
+ARM GAS  /tmp/ccid23Sy.s 			page 44
 
 
  2392 0041 03       		.uleb128 0x3
@@ -2626,7 +2626,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  2434 0092 05       		.byte	0x5
  2435 0093 C3000000 		.4byte	.LASF12
  2436 0097 03       		.uleb128 0x3
- 2437 0098 54040000 		.4byte	.LASF13
+ 2437 0098 86040000 		.4byte	.LASF13
  2438 009c 03       		.byte	0x3
  2439 009d 5B       		.byte	0x5b
  2440 009e A2000000 		.4byte	0xa2
@@ -2637,8 +2637,8 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  2445 00a9 04       		.uleb128 0x4
  2446 00aa 04       		.byte	0x4
  2447 00ab 07       		.byte	0x7
- 2448 00ac A3030000 		.4byte	.LASF15
-ARM GAS  /tmp/ccXKXKMn.s 			page 45
+ 2448 00ac D5030000 		.4byte	.LASF15
+ARM GAS  /tmp/ccid23Sy.s 			page 45
 
 
  2449 00b0 05       		.uleb128 0x5
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  2503 011f C4000000 		.4byte	0xc4
  2504 0123 03       		.uleb128 0x3
  2505 0124 B5040000 		.4byte	.LASF26
-ARM GAS  /tmp/ccXKXKMn.s 			page 46
+ARM GAS  /tmp/ccid23Sy.s 			page 46
 
 
  2506 0128 05       		.byte	0x5
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  2560 019a 63       		.byte	0x63
  2561 019b 39010000 		.4byte	0x139
  2562 019f 08       		.byte	0x8
-ARM GAS  /tmp/ccXKXKMn.s 			page 47
+ARM GAS  /tmp/ccid23Sy.s 			page 47
 
 
  2563 01a0 09       		.uleb128 0x9
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  2617 020c 09       		.uleb128 0x9
  2618 020d 1A030000 		.4byte	.LASF45
  2619 0211 07       		.byte	0x7
-ARM GAS  /tmp/ccXKXKMn.s 			page 48
+ARM GAS  /tmp/ccid23Sy.s 			page 48
 
 
  2620 0212 8F       		.byte	0x8f
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  2674 027b 06       		.byte	0x6
  2675 027c 61       		.byte	0x61
  2676 027d 9A020000 		.4byte	0x29a
-ARM GAS  /tmp/ccXKXKMn.s 			page 49
+ARM GAS  /tmp/ccid23Sy.s 			page 49
 
 
  2677 0281 09       		.uleb128 0x9
@@ -2898,7 +2898,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  2691 029b 04       		.byte	0x4
  2692 029c 65010000 		.4byte	0x165
  2693 02a0 03       		.uleb128 0x3
- 2694 02a1 0D040000 		.4byte	.LASF53
+ 2694 02a1 3F040000 		.4byte	.LASF53
  2695 02a5 06       		.byte	0x6
  2696 02a6 66       		.byte	0x66
  2697 02a7 79020000 		.4byte	0x279
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  2731 02ee 0D       		.uleb128 0xd
  2732 02ef 73313600 		.ascii	"s16\000"
  2733 02f3 08       		.byte	0x8
-ARM GAS  /tmp/ccXKXKMn.s 			page 50
+ARM GAS  /tmp/ccid23Sy.s 			page 50
 
 
  2734 02f4 0E01     		.2byte	0x10e
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  2788 0369 1701     		.2byte	0x117
  2789 036b CB020000 		.4byte	0x2cb
  2790 036f 24       		.byte	0x24
-ARM GAS  /tmp/ccXKXKMn.s 			page 51
+ARM GAS  /tmp/ccid23Sy.s 			page 51
 
 
  2791 0370 0D       		.uleb128 0xd
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  2845 03e2 0D       		.uleb128 0xd
  2846 03e3 723700   		.ascii	"r7\000"
  2847 03e6 08       		.byte	0x8
-ARM GAS  /tmp/ccXKXKMn.s 			page 52
+ARM GAS  /tmp/ccid23Sy.s 			page 52
 
 
  2848 03e7 2201     		.2byte	0x122
@@ -3114,11 +3114,11 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  2898 044e 0E       		.uleb128 0xe
  2899 044f 5A010000 		.4byte	0x15a
  2900 0453 08       		.uleb128 0x8
- 2901 0454 C7030000 		.4byte	.LASF59
+ 2901 0454 F9030000 		.4byte	.LASF59
  2902 0458 10       		.byte	0x10
  2903 0459 09       		.byte	0x9
  2904 045a 2C       		.byte	0x2c
-ARM GAS  /tmp/ccXKXKMn.s 			page 53
+ARM GAS  /tmp/ccid23Sy.s 			page 53
 
 
  2905 045b 84040000 		.4byte	0x484
@@ -3145,7 +3145,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  2926 0485 04       		.byte	0x4
  2927 0486 53040000 		.4byte	0x453
  2928 048a 03       		.uleb128 0x3
- 2929 048b C7030000 		.4byte	.LASF59
+ 2929 048b F9030000 		.4byte	.LASF59
  2930 048f 09       		.byte	0x9
  2931 0490 33       		.byte	0x33
  2932 0491 53040000 		.4byte	0x453
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  2959 04ca 06       		.uleb128 0x6
  2960 04cb 04       		.byte	0x4
  2961 04cc D6020000 		.4byte	0x2d6
-ARM GAS  /tmp/ccXKXKMn.s 			page 54
+ARM GAS  /tmp/ccid23Sy.s 			page 54
 
 
  2962 04d0 06       		.uleb128 0x6
@@ -3202,7 +3202,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  2980 04f4 A0020000 		.4byte	0x2a0
  2981 04f8 00       		.byte	0
  2982 04f9 09       		.uleb128 0x9
- 2983 04fa B7030000 		.4byte	.LASF69
+ 2983 04fa E9030000 		.4byte	.LASF69
  2984 04fe 0A       		.byte	0xa
  2985 04ff 47       		.byte	0x47
  2986 0500 28000000 		.4byte	0x28
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3016 053c 4E050000 		.4byte	0x54e
  3017 0540 1C       		.byte	0x1c
  3018 0541 09       		.uleb128 0x9
-ARM GAS  /tmp/ccXKXKMn.s 			page 55
+ARM GAS  /tmp/ccid23Sy.s 			page 55
 
 
  3019 0542 06080000 		.4byte	.LASF75
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3073 05b5 3C010000 		.4byte	.LASF80
  3074 05b9 0C       		.byte	0xc
  3075 05ba 1F01     		.2byte	0x11f
-ARM GAS  /tmp/ccXKXKMn.s 			page 56
+ARM GAS  /tmp/ccid23Sy.s 			page 56
 
 
  3076 05bc B7060000 		.4byte	0x6b7
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3130 0631 28000000 		.4byte	0x28
  3131 0635 6C       		.byte	0x6c
  3132 0636 13       		.uleb128 0x13
-ARM GAS  /tmp/ccXKXKMn.s 			page 57
+ARM GAS  /tmp/ccid23Sy.s 			page 57
 
 
  3133 0637 C7060000 		.4byte	.LASF89
@@ -3367,7 +3367,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3136 063e 87070000 		.4byte	0x787
  3137 0642 70       		.byte	0x70
  3138 0643 13       		.uleb128 0x13
- 3139 0644 2D040000 		.4byte	.LASF90
+ 3139 0644 5F040000 		.4byte	.LASF90
  3140 0648 0C       		.byte	0xc
  3141 0649 5101     		.2byte	0x151
  3142 064b 940A0000 		.4byte	0xa94
@@ -3379,7 +3379,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3148 0658 CF000000 		.4byte	0xcf
  3149 065c 7C       		.byte	0x7c
  3150 065d 13       		.uleb128 0x13
- 3151 065e CD030000 		.4byte	.LASF92
+ 3151 065e FF030000 		.4byte	.LASF92
  3152 0662 0C       		.byte	0xc
  3153 0663 5901     		.2byte	0x159
  3154 0665 C4000000 		.4byte	0xc4
@@ -3391,7 +3391,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3160 0672 C4000000 		.4byte	0xc4
  3161 0676 7F       		.byte	0x7f
  3162 0677 13       		.uleb128 0x13
- 3163 0678 88030000 		.4byte	.LASF94
+ 3163 0678 BA030000 		.4byte	.LASF94
  3164 067c 0C       		.byte	0xc
  3165 067d 6501     		.2byte	0x165
  3166 067f E5000000 		.4byte	0xe5
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3187 06a9 02       		.sleb128 2
  3188 06aa 15       		.uleb128 0x15
  3189 06ab 74050000 		.4byte	.LASF99
-ARM GAS  /tmp/ccXKXKMn.s 			page 58
+ARM GAS  /tmp/ccid23Sy.s 			page 58
 
 
  3190 06af 03       		.sleb128 3
@@ -3467,7 +3467,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3233 06ff 6D060000 		.4byte	.LASF109
  3234 0703 04       		.sleb128 4
  3235 0704 15       		.uleb128 0x15
- 3236 0705 8F030000 		.4byte	.LASF110
+ 3236 0705 C1030000 		.4byte	.LASF110
  3237 0709 05       		.sleb128 5
  3238 070a 15       		.uleb128 0x15
  3239 070b 2E010000 		.4byte	.LASF111
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3244 0716 0B       		.byte	0xb
  3245 0717 0F01     		.2byte	0x10f
  3246 0719 DD060000 		.4byte	0x6dd
-ARM GAS  /tmp/ccXKXKMn.s 			page 59
+ARM GAS  /tmp/ccid23Sy.s 			page 59
 
 
  3247 071d 16       		.uleb128 0x16
@@ -3487,7 +3487,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3250 0720 1401     		.2byte	0x114
  3251 0722 4B070000 		.4byte	0x74b
  3252 0726 15       		.uleb128 0x15
- 3253 0727 68040000 		.4byte	.LASF113
+ 3253 0727 9A040000 		.4byte	.LASF113
  3254 072b 00       		.sleb128 0
  3255 072c 15       		.uleb128 0x15
  3256 072d BD040000 		.4byte	.LASF114
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3301 078c 0B       		.byte	0xb
  3302 078d 3101     		.2byte	0x131
  3303 078f 93070000 		.4byte	0x793
-ARM GAS  /tmp/ccXKXKMn.s 			page 60
+ARM GAS  /tmp/ccid23Sy.s 			page 60
 
 
  3304 0793 06       		.uleb128 0x6
@@ -3597,8 +3597,8 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3357 080a A4070000 		.4byte	0x7a4
  3358 080e 00       		.byte	0
  3359 080f 17       		.uleb128 0x17
- 3360 0810 1A040000 		.4byte	.LASF127
-ARM GAS  /tmp/ccXKXKMn.s 			page 61
+ 3360 0810 4C040000 		.4byte	.LASF127
+ARM GAS  /tmp/ccid23Sy.s 			page 61
 
 
  3361 0814 0B       		.byte	0xb
@@ -3642,7 +3642,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3399 0862 8A       		.byte	0x8a
  3400 0863 74080000 		.4byte	0x874
  3401 0867 09       		.uleb128 0x9
- 3402 0868 3A040000 		.4byte	.LASF129
+ 3402 0868 6C040000 		.4byte	.LASF129
  3403 086c 0C       		.byte	0xc
  3404 086d 8E       		.byte	0x8e
  3405 086e 74080000 		.4byte	0x874
@@ -3658,14 +3658,14 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3415 087e 99080000 		.4byte	0x899
  3416 0882 10       		.uleb128 0x10
  3417 0883 EB000000 		.4byte	.LASF130
-ARM GAS  /tmp/ccXKXKMn.s 			page 62
+ARM GAS  /tmp/ccid23Sy.s 			page 62
 
 
  3418 0887 0C       		.byte	0xc
  3419 0888 89       		.byte	0x89
  3420 0889 4A080000 		.4byte	0x84a
  3421 088d 10       		.uleb128 0x10
- 3422 088e C1030000 		.4byte	.LASF131
+ 3422 088e F3030000 		.4byte	.LASF131
  3423 0892 0C       		.byte	0xc
  3424 0893 8F       		.byte	0x8f
  3425 0894 5F080000 		.4byte	0x85f
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3472 08f0 00       		.byte	0
  3473 08f1 00       		.byte	0
  3474 08f2 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccXKXKMn.s 			page 63
+ARM GAS  /tmp/ccid23Sy.s 			page 63
 
 
  3475 08f3 04       		.byte	0x4
@@ -3746,7 +3746,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3497 091b AA       		.byte	0xaa
  3498 091c DD080000 		.4byte	0x8dd
  3499 0920 10       		.uleb128 0x10
- 3500 0921 C1030000 		.4byte	.LASF131
+ 3500 0921 F3030000 		.4byte	.LASF131
  3501 0925 0C       		.byte	0xc
  3502 0926 B0       		.byte	0xb0
  3503 0927 F2080000 		.4byte	0x8f2
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3529 0959 4E060000 		.4byte	.LASF135
  3530 095d 0C       		.byte	0xc
  3531 095e B1       		.byte	0xb1
-ARM GAS  /tmp/ccXKXKMn.s 			page 64
+ARM GAS  /tmp/ccid23Sy.s 			page 64
 
 
  3532 095f 0D090000 		.4byte	0x90d
@@ -3791,7 +3791,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3539 096f 10       		.byte	0x10
  3540 0970 00       		.byte	0
  3541 0971 03       		.uleb128 0x3
- 3542 0972 ED030000 		.4byte	.LASF143
+ 3542 0972 1F040000 		.4byte	.LASF143
  3543 0976 0C       		.byte	0xc
  3544 0977 B7       		.byte	0xb7
  3545 0978 2C090000 		.4byte	0x92c
@@ -3807,7 +3807,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3555 098b E5000000 		.4byte	0xe5
  3556 098f 00       		.byte	0
  3557 0990 09       		.uleb128 0x9
- 3558 0991 5F040000 		.4byte	.LASF145
+ 3558 0991 91040000 		.4byte	.LASF145
  3559 0995 0C       		.byte	0xc
  3560 0996 CC       		.byte	0xcc
  3561 0997 AA070000 		.4byte	0x7aa
@@ -3825,7 +3825,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3573 09af AA070000 		.4byte	0x7aa
  3574 09b3 0C       		.byte	0xc
  3575 09b4 09       		.uleb128 0x9
- 3576 09b5 78040000 		.4byte	.LASF148
+ 3576 09b5 AA040000 		.4byte	.LASF148
  3577 09b9 0C       		.byte	0xc
  3578 09ba DE       		.byte	0xde
  3579 09bb CF000000 		.4byte	0xcf
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3586 09cb 12       		.byte	0x12
  3587 09cc 09       		.uleb128 0x9
  3588 09cd 30060000 		.4byte	.LASF150
-ARM GAS  /tmp/ccXKXKMn.s 			page 65
+ARM GAS  /tmp/ccid23Sy.s 			page 65
 
 
  3589 09d1 0C       		.byte	0xc
@@ -3846,7 +3846,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3591 09d3 FD090000 		.4byte	0x9fd
  3592 09d7 14       		.byte	0x14
  3593 09d8 09       		.uleb128 0x9
- 3594 09d9 D5030000 		.4byte	.LASF151
+ 3594 09d9 07040000 		.4byte	.LASF151
  3595 09dd 0C       		.byte	0xc
  3596 09de EE       		.byte	0xee
  3597 09df 030A0000 		.4byte	0xa03
@@ -3871,7 +3871,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3616 0a04 04       		.byte	0x4
  3617 0a05 71090000 		.4byte	0x971
  3618 0a09 03       		.uleb128 0x3
- 3619 0a0a 42040000 		.4byte	.LASF154
+ 3619 0a0a 74040000 		.4byte	.LASF154
  3620 0a0e 0C       		.byte	0xc
  3621 0a0f FB       		.byte	0xfb
  3622 0a10 7C090000 		.4byte	0x97c
@@ -3898,11 +3898,11 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3643 0a3d 1001     		.2byte	0x110
  3644 0a3f EE070000 		.4byte	0x7ee
  3645 0a43 08       		.byte	0x8
-ARM GAS  /tmp/ccXKXKMn.s 			page 66
+ARM GAS  /tmp/ccid23Sy.s 			page 66
 
 
  3646 0a44 13       		.uleb128 0x13
- 3647 0a45 33040000 		.4byte	.LASF158
+ 3647 0a45 65040000 		.4byte	.LASF158
  3648 0a49 0C       		.byte	0xc
  3649 0a4a 1401     		.2byte	0x114
  3650 0a4c 87070000 		.4byte	0x787
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3700 0abe 01       		.byte	0x1
  3701 0abf 45       		.byte	0x45
  3702 0ac0 A4070000 		.4byte	0x7a4
-ARM GAS  /tmp/ccXKXKMn.s 			page 67
+ARM GAS  /tmp/ccid23Sy.s 			page 67
 
 
  3703 0ac4 02       		.uleb128 0x2
@@ -4001,7 +4001,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3740 0b0c 01       		.uleb128 0x1
  3741 0b0d 9C       		.byte	0x9c
  3742 0b0e 21       		.uleb128 0x21
- 3743 0b0f DF030000 		.4byte	.LASF161
+ 3743 0b0f 11040000 		.4byte	.LASF161
  3744 0b13 01       		.byte	0x1
  3745 0b14 F7       		.byte	0xf7
  3746 0b15 00000000 		.4byte	.LFB121
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3757 0b2f 91       		.byte	0x91
  3758 0b30 74       		.sleb128 -12
  3759 0b31 1F       		.uleb128 0x1f
-ARM GAS  /tmp/ccXKXKMn.s 			page 68
+ARM GAS  /tmp/ccid23Sy.s 			page 68
 
 
  3760 0b32 6900     		.ascii	"i\000"
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3814 0b9c 70000000 		.4byte	.LBB3
  3815 0ba0 06000000 		.4byte	.LBE3-.LBB3
  3816 0ba4 24       		.uleb128 0x24
-ARM GAS  /tmp/ccXKXKMn.s 			page 69
+ARM GAS  /tmp/ccid23Sy.s 			page 69
 
 
  3817 0ba5 746D7000 		.ascii	"tmp\000"
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3871 0c1a A4000000 		.4byte	.LFE124-.LFB124
  3872 0c1e 01       		.uleb128 0x1
  3873 0c1f 9C       		.byte	0x9c
-ARM GAS  /tmp/ccXKXKMn.s 			page 70
+ARM GAS  /tmp/ccid23Sy.s 			page 70
 
 
  3874 0c20 510C0000 		.4byte	0xc51
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3928 0c89 01       		.byte	0x1
  3929 0c8a 7B01     		.2byte	0x17b
  3930 0c8c 00000000 		.4byte	.LFB126
-ARM GAS  /tmp/ccXKXKMn.s 			page 71
+ARM GAS  /tmp/ccid23Sy.s 			page 71
 
 
  3931 0c90 4C000000 		.4byte	.LFE126-.LFB126
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  3985 0cf9 23       		.uleb128 0x23
  3986 0cfa 15030000 		.4byte	.LASF160
  3987 0cfe 01       		.byte	0x1
-ARM GAS  /tmp/ccXKXKMn.s 			page 72
+ARM GAS  /tmp/ccid23Sy.s 			page 72
 
 
  3988 0cff 9401     		.2byte	0x194
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  4042 0d66 6C       		.sleb128 -20
  4043 0d67 27       		.uleb128 0x27
  4044 0d68 657000   		.ascii	"ep\000"
-ARM GAS  /tmp/ccXKXKMn.s 			page 73
+ARM GAS  /tmp/ccid23Sy.s 			page 73
 
 
  4045 0d6b 01       		.byte	0x1
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  4099 0dd2 91       		.byte	0x91
  4100 0dd3 6B       		.sleb128 -21
  4101 0dd4 27       		.uleb128 0x27
-ARM GAS  /tmp/ccXKXKMn.s 			page 74
+ARM GAS  /tmp/ccid23Sy.s 			page 74
 
 
  4102 0dd5 6F717000 		.ascii	"oqp\000"
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  4156 0e3e 0002     		.2byte	0x200
  4157 0e40 FB000000 		.4byte	0xfb
  4158 0e44 00000000 		.4byte	.LFB131
-ARM GAS  /tmp/ccXKXKMn.s 			page 75
+ARM GAS  /tmp/ccid23Sy.s 			page 75
 
 
  4159 0e48 70000000 		.4byte	.LFE131-.LFB131
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  4213 0eb8 50000000 		.4byte	.LFE133-.LFB133
  4214 0ebc 01       		.uleb128 0x1
  4215 0ebd 9C       		.byte	0x9c
-ARM GAS  /tmp/ccXKXKMn.s 			page 76
+ARM GAS  /tmp/ccid23Sy.s 			page 76
 
 
  4216 0ebe E00E0000 		.4byte	0xee0
@@ -4520,7 +4520,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  4232 0ede 73       		.sleb128 -13
  4233 0edf 00       		.byte	0
  4234 0ee0 22       		.uleb128 0x22
- 4235 0ee1 AC030000 		.4byte	.LASF175
+ 4235 0ee1 DE030000 		.4byte	.LASF175
  4236 0ee5 01       		.byte	0x1
  4237 0ee6 4602     		.2byte	0x246
  4238 0ee8 00000000 		.4byte	.LFB134
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  4270 0f2a 15030000 		.4byte	.LASF160
  4271 0f2e 01       		.byte	0x1
  4272 0f2f 6502     		.2byte	0x265
-ARM GAS  /tmp/ccXKXKMn.s 			page 77
+ARM GAS  /tmp/ccid23Sy.s 			page 77
 
 
  4273 0f31 A4070000 		.4byte	0x7a4
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  4327 0fa7 53       		.byte	0x53
  4328 0fa8 00       		.byte	0
  4329 0fa9 25       		.uleb128 0x25
-ARM GAS  /tmp/ccXKXKMn.s 			page 78
+ARM GAS  /tmp/ccid23Sy.s 			page 78
 
 
  4330 0faa 30010000 		.4byte	.LBB9
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  4384 102a E5000000 		.4byte	0xe5
  4385 102e 01       		.uleb128 0x1
  4386 102f 53       		.byte	0x53
-ARM GAS  /tmp/ccXKXKMn.s 			page 79
+ARM GAS  /tmp/ccid23Sy.s 			page 79
 
 
  4387 1030 00       		.byte	0
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  4441 10a3 D402     		.2byte	0x2d4
  4442 10a5 E5000000 		.4byte	0xe5
  4443 10a9 01       		.uleb128 0x1
-ARM GAS  /tmp/ccXKXKMn.s 			page 80
+ARM GAS  /tmp/ccid23Sy.s 			page 80
 
 
  4444 10aa 53       		.byte	0x53
@@ -4768,7 +4768,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  4468 10df 00       		.byte	0
  4469 10e0 00       		.byte	0
  4470 10e1 22       		.uleb128 0x22
- 4471 10e2 01040000 		.4byte	.LASF178
+ 4471 10e2 33040000 		.4byte	.LASF178
  4472 10e6 01       		.byte	0x1
  4473 10e7 0103     		.2byte	0x301
  4474 10e9 00000000 		.4byte	.LFB137
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  4498 111d 30110000 		.4byte	0x1130
  4499 1121 24       		.uleb128 0x24
  4500 1122 746D7000 		.ascii	"tmp\000"
-ARM GAS  /tmp/ccXKXKMn.s 			page 81
+ARM GAS  /tmp/ccid23Sy.s 			page 81
 
 
  4501 1126 01       		.byte	0x1
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  4555 1197 49110000 		.4byte	0x1149
  4556 119b 2A       		.uleb128 0x2a
  4557 119c 1B050000 		.4byte	.LASF187
-ARM GAS  /tmp/ccXKXKMn.s 			page 82
+ARM GAS  /tmp/ccid23Sy.s 			page 82
 
 
  4558 11a0 0D       		.byte	0xd
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  4612 0030 03       		.uleb128 0x3
  4613 0031 0E       		.uleb128 0xe
  4614 0032 00       		.byte	0
-ARM GAS  /tmp/ccXKXKMn.s 			page 83
+ARM GAS  /tmp/ccid23Sy.s 			page 83
 
 
  4615 0033 00       		.byte	0
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  4669 0069 0A       		.uleb128 0xa
  4670 006a 0D       		.uleb128 0xd
  4671 006b 00       		.byte	0
-ARM GAS  /tmp/ccXKXKMn.s 			page 84
+ARM GAS  /tmp/ccid23Sy.s 			page 84
 
 
  4672 006c 03       		.uleb128 0x3
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  4726 00a2 00       		.byte	0
  4727 00a3 0E       		.uleb128 0xe
  4728 00a4 35       		.uleb128 0x35
-ARM GAS  /tmp/ccXKXKMn.s 			page 85
+ARM GAS  /tmp/ccid23Sy.s 			page 85
 
 
  4729 00a5 00       		.byte	0
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  4783 00db 3B       		.uleb128 0x3b
  4784 00dc 05       		.uleb128 0x5
  4785 00dd 49       		.uleb128 0x49
-ARM GAS  /tmp/ccXKXKMn.s 			page 86
+ARM GAS  /tmp/ccid23Sy.s 			page 86
 
 
  4786 00de 13       		.uleb128 0x13
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  4840 0114 13       		.uleb128 0x13
  4841 0115 01       		.byte	0x1
  4842 0116 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccXKXKMn.s 			page 87
+ARM GAS  /tmp/ccid23Sy.s 			page 87
 
 
  4843 0117 0B       		.uleb128 0xb
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  4897 014d 18       		.uleb128 0x18
  4898 014e 9642     		.uleb128 0x2116
  4899 0150 19       		.uleb128 0x19
-ARM GAS  /tmp/ccXKXKMn.s 			page 88
+ARM GAS  /tmp/ccid23Sy.s 			page 88
 
 
  4900 0151 01       		.uleb128 0x1
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  4954 0188 13       		.uleb128 0x13
  4955 0189 02       		.uleb128 0x2
  4956 018a 18       		.uleb128 0x18
-ARM GAS  /tmp/ccXKXKMn.s 			page 89
+ARM GAS  /tmp/ccid23Sy.s 			page 89
 
 
  4957 018b 00       		.byte	0
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  5011 01c3 19       		.uleb128 0x19
  5012 01c4 03       		.uleb128 0x3
  5013 01c5 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccXKXKMn.s 			page 90
+ARM GAS  /tmp/ccid23Sy.s 			page 90
 
 
  5014 01c6 3A       		.uleb128 0x3a
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  5068 01fd 06       		.uleb128 0x6
  5069 01fe 01       		.uleb128 0x1
  5070 01ff 13       		.uleb128 0x13
-ARM GAS  /tmp/ccXKXKMn.s 			page 91
+ARM GAS  /tmp/ccid23Sy.s 			page 91
 
 
  5071 0200 00       		.byte	0
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  5125 0237 34       		.uleb128 0x34
  5126 0238 00       		.byte	0
  5127 0239 03       		.uleb128 0x3
-ARM GAS  /tmp/ccXKXKMn.s 			page 92
+ARM GAS  /tmp/ccid23Sy.s 			page 92
 
 
  5128 023a 0E       		.uleb128 0xe
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  5182 0054 4C000000 		.4byte	.LFE126-.LFB126
  5183 0058 00000000 		.4byte	.LFB127
  5184 005c 4C000000 		.4byte	.LFE127-.LFB127
-ARM GAS  /tmp/ccXKXKMn.s 			page 93
+ARM GAS  /tmp/ccid23Sy.s 			page 93
 
 
  5185 0060 00000000 		.4byte	.LFB128
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  5239 0078 00000000 		.4byte	.LFB133
  5240 007c 50000000 		.4byte	.LFE133
  5241 0080 00000000 		.4byte	.LFB134
-ARM GAS  /tmp/ccXKXKMn.s 			page 94
+ARM GAS  /tmp/ccid23Sy.s 			page 94
 
 
  5242 0084 64000000 		.4byte	.LFE134
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  5274              	.LASF137:
  5275 0062 72786275 		.ascii	"rxbuf\000"
  5275      6600
-ARM GAS  /tmp/ccXKXKMn.s 			page 95
+ARM GAS  /tmp/ccid23Sy.s 			page 95
 
 
  5276              	.LASF14:
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  5301      6F6F6C00 
  5302              	.LASF22:
  5303 0101 626F6F6C 		.ascii	"bool_t\000"
-ARM GAS  /tmp/ccXKXKMn.s 			page 96
+ARM GAS  /tmp/ccid23Sy.s 			page 96
 
 
  5303      5F7400
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  5329      74617475 
  5329      7300
  5330              	.LASF37:
-ARM GAS  /tmp/ccXKXKMn.s 			page 97
+ARM GAS  /tmp/ccid23Sy.s 			page 97
 
 
  5331 019a 705F6E65 		.ascii	"p_newer\000"
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  5355      676E6564 
  5355      20696E74 
  5355      00
-ARM GAS  /tmp/ccXKXKMn.s 			page 98
+ARM GAS  /tmp/ccid23Sy.s 			page 98
 
 
  5356              	.LASF100:
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  5381      6E00
  5382              	.LASF29:
  5383 02d2 6D73675F 		.ascii	"msg_t\000"
-ARM GAS  /tmp/ccXKXKMn.s 			page 99
+ARM GAS  /tmp/ccid23Sy.s 			page 99
 
 
  5383      7400
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  5411      5F686F6F 
  5411      6B5F6362 
  5411      00
-ARM GAS  /tmp/ccXKXKMn.s 			page 100
+ARM GAS  /tmp/ccid23Sy.s 			page 100
 
 
  5412              	.LASF56:
@@ -5951,114 +5951,114 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  5415      72655265 
  5415      63656976 
  5415      6500
- 5416              	.LASF94:
- 5417 0388 706D6E65 		.ascii	"pmnext\000"
- 5417      787400
- 5418              	.LASF110:
- 5419 038f 5553425F 		.ascii	"USB_EP0_SENDING_STS\000"
- 5419      4550305F 
- 5419      53454E44 
- 5419      494E475F 
- 5419      53545300 
- 5420              	.LASF15:
- 5421 03a3 73697A65 		.ascii	"sizetype\000"
- 5421      74797065 
- 5421      00
- 5422              	.LASF175:
- 5423 03ac 5F757362 		.ascii	"_usb_reset\000"
- 5423      5F726573 
- 5423      657400
- 5424              	.LASF69:
- 5425 03b7 715F636F 		.ascii	"q_counter\000"
- 5425      756E7465 
- 5425      7200
- 5426              	.LASF131:
- 5427 03c1 71756575 		.ascii	"queue\000"
- 5427      6500
- 5428              	.LASF59:
- 5429 03c7 4D757465 		.ascii	"Mutex\000"
- 5429      7800
- 5430              	.LASF92:
- 5431 03cd 61646472 		.ascii	"address\000"
- 5431      65737300 
- 5432              	.LASF151:
- 5433 03d5 6F75745F 		.ascii	"out_state\000"
- 5433      73746174 
- 5433      6500
- 5434              	.LASF161:
- 5435 03df 7573624F 		.ascii	"usbObjectInit\000"
- 5435      626A6563 
- 5435      74496E69 
- 5435      7400
- 5436              	.LASF143:
- 5437 03ed 5553424F 		.ascii	"USBOutEndpointState\000"
- 5437      7574456E 
- 5437      64706F69 
- 5437      6E745374 
- 5437      61746500 
- 5438              	.LASF178:
- 5439 0401 5F757362 		.ascii	"_usb_ep0out\000"
-ARM GAS  /tmp/ccXKXKMn.s 			page 101
+ 5416              	.LASF183:
+ 5417 0388 2F686F6D 		.ascii	"/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/usb.c\000"
+ 5417      652F6572 
+ 5417      6761652F 
+ 5417      7232702D 
+ 5417      73646B2F 
+ 5418              	.LASF94:
+ 5419 03ba 706D6E65 		.ascii	"pmnext\000"
+ 5419      787400
+ 5420              	.LASF110:
+ 5421 03c1 5553425F 		.ascii	"USB_EP0_SENDING_STS\000"
+ 5421      4550305F 
+ 5421      53454E44 
+ 5421      494E475F 
+ 5421      53545300 
+ 5422              	.LASF15:
+ 5423 03d5 73697A65 		.ascii	"sizetype\000"
+ 5423      74797065 
+ 5423      00
+ 5424              	.LASF175:
+ 5425 03de 5F757362 		.ascii	"_usb_reset\000"
+ 5425      5F726573 
+ 5425      657400
+ 5426              	.LASF69:
+ 5427 03e9 715F636F 		.ascii	"q_counter\000"
+ 5427      756E7465 
+ 5427      7200
+ 5428              	.LASF131:
+ 5429 03f3 71756575 		.ascii	"queue\000"
+ 5429      6500
+ 5430              	.LASF59:
+ 5431 03f9 4D757465 		.ascii	"Mutex\000"
+ 5431      7800
+ 5432              	.LASF92:
+ 5433 03ff 61646472 		.ascii	"address\000"
+ 5433      65737300 
+ 5434              	.LASF151:
+ 5435 0407 6F75745F 		.ascii	"out_state\000"
+ 5435      73746174 
+ 5435      6500
+ 5436              	.LASF161:
+ 5437 0411 7573624F 		.ascii	"usbObjectInit\000"
+ 5437      626A6563 
+ 5437      74496E69 
+ 5437      7400
+ 5438              	.LASF143:
+ 5439 041f 5553424F 		.ascii	"USBOutEndpointState\000"
+ARM GAS  /tmp/ccid23Sy.s 			page 101
 
 
- 5439      5F657030 
- 5439      6F757400 
- 5440              	.LASF53:
- 5441 040d 54687265 		.ascii	"ThreadsQueue\000"
- 5441      61647351 
- 5441      75657565 
- 5441      00
- 5442              	.LASF127:
- 5443 041a 75736267 		.ascii	"usbgetdescriptor_t\000"
- 5443      65746465 
- 5443      73637269 
- 5443      70746F72 
- 5443      5F7400
- 5444              	.LASF90:
- 5445 042d 73657475 		.ascii	"setup\000"
- 5445      7000
- 5446              	.LASF158:
- 5447 0433 736F665F 		.ascii	"sof_cb\000"
- 5447      636200
- 5448              	.LASF129:
- 5449 043a 74787175 		.ascii	"txqueue\000"
- 5449      65756500 
- 5450              	.LASF154:
- 5451 0442 55534245 		.ascii	"USBEndpointConfig\000"
- 5451      6E64706F 
- 5451      696E7443 
- 5451      6F6E6669 
- 5451      6700
- 5452              	.LASF13:
- 5453 0454 5F5F7569 		.ascii	"__uint64_t\000"
- 5453      6E743634 
- 5453      5F7400
- 5454              	.LASF145:
- 5455 045f 73657475 		.ascii	"setup_cb\000"
- 5455      705F6362 
- 5455      00
- 5456              	.LASF113:
- 5457 0468 5553425F 		.ascii	"USB_EVENT_RESET\000"
- 5457      4556454E 
- 5457      545F5245 
- 5457      53455400 
- 5458              	.LASF148:
- 5459 0478 696E5F6D 		.ascii	"in_maxsize\000"
- 5459      61787369 
- 5459      7A6500
- 5460              	.LASF183:
- 5461 0483 2F686F6D 		.ascii	"/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/usb.c\000"
- 5461      652F6465 
- 5461      6E6E792F 
- 5461      7232702D 
- 5461      73646B2F 
+ 5439      7574456E 
+ 5439      64706F69 
+ 5439      6E745374 
+ 5439      61746500 
+ 5440              	.LASF178:
+ 5441 0433 5F757362 		.ascii	"_usb_ep0out\000"
+ 5441      5F657030 
+ 5441      6F757400 
+ 5442              	.LASF53:
+ 5443 043f 54687265 		.ascii	"ThreadsQueue\000"
+ 5443      61647351 
+ 5443      75657565 
+ 5443      00
+ 5444              	.LASF127:
+ 5445 044c 75736267 		.ascii	"usbgetdescriptor_t\000"
+ 5445      65746465 
+ 5445      73637269 
+ 5445      70746F72 
+ 5445      5F7400
+ 5446              	.LASF90:
+ 5447 045f 73657475 		.ascii	"setup\000"
+ 5447      7000
+ 5448              	.LASF158:
+ 5449 0465 736F665F 		.ascii	"sof_cb\000"
+ 5449      636200
+ 5450              	.LASF129:
+ 5451 046c 74787175 		.ascii	"txqueue\000"
+ 5451      65756500 
+ 5452              	.LASF154:
+ 5453 0474 55534245 		.ascii	"USBEndpointConfig\000"
+ 5453      6E64706F 
+ 5453      696E7443 
+ 5453      6F6E6669 
+ 5453      6700
+ 5454              	.LASF13:
+ 5455 0486 5F5F7569 		.ascii	"__uint64_t\000"
+ 5455      6E743634 
+ 5455      5F7400
+ 5456              	.LASF145:
+ 5457 0491 73657475 		.ascii	"setup_cb\000"
+ 5457      705F6362 
+ 5457      00
+ 5458              	.LASF113:
+ 5459 049a 5553425F 		.ascii	"USB_EVENT_RESET\000"
+ 5459      4556454E 
+ 5459      545F5245 
+ 5459      53455400 
+ 5460              	.LASF148:
+ 5461 04aa 696E5F6D 		.ascii	"in_maxsize\000"
+ 5461      61787369 
+ 5461      7A6500
  5462              	.LASF26:
  5463 04b5 74726566 		.ascii	"trefs_t\000"
  5463      735F7400 
  5464              	.LASF114:
  5465 04bd 5553425F 		.ascii	"USB_EVENT_ADDRESS\000"
  5465      4556454E 
-ARM GAS  /tmp/ccXKXKMn.s 			page 102
+ARM GAS  /tmp/ccid23Sy.s 			page 102
 
 
  5465      545F4144 
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  5495 054c 705F7072 		.ascii	"p_preempt\000"
  5495      65656D70 
  5495      7400
-ARM GAS  /tmp/ccXKXKMn.s 			page 103
+ARM GAS  /tmp/ccid23Sy.s 			page 103
 
 
  5496              	.LASF38:
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  5522              	.LASF159:
  5523 05e9 55534243 		.ascii	"USBConfig\000"
  5523      6F6E6669 
-ARM GAS  /tmp/ccXKXKMn.s 			page 104
+ARM GAS  /tmp/ccid23Sy.s 			page 104
 
 
  5523      6700
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  5551 0681 6D5F6E65 		.ascii	"m_next\000"
  5551      787400
  5552              	.LASF31:
-ARM GAS  /tmp/ccXKXKMn.s 			page 105
+ARM GAS  /tmp/ccid23Sy.s 			page 105
 
 
  5553 0688 73797374 		.ascii	"systime_t\000"
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  5577      5472616E 
  5577      736D6974 
  5577      4900
-ARM GAS  /tmp/ccXKXKMn.s 			page 106
+ARM GAS  /tmp/ccid23Sy.s 			page 106
 
 
  5578              	.LASF134:
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  5604              	.LASF140:
  5605 07bc 72787369 		.ascii	"rxsize\000"
  5605      7A6500
-ARM GAS  /tmp/ccXKXKMn.s 			page 107
+ARM GAS  /tmp/ccid23Sy.s 			page 107
 
 
  5606              	.LASF185:
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  5628      6F6D6974 
  5628      2D667261 
  5629 08ee 202D6666 		.ascii	" -ffunction-sections -fdata-sections -fno-common -f"
-ARM GAS  /tmp/ccXKXKMn.s 			page 108
+ARM GAS  /tmp/ccid23Sy.s 			page 108
 
 
  5629      756E6374 
@@ -6438,75 +6438,75 @@ ARM GAS  /tmp/ccXKXKMn.s 			page 1
  5634      6974696E 
  5634      6700
  5635              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccXKXKMn.s 			page 109
+ARM GAS  /tmp/ccid23Sy.s 			page 109
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 usb.c
-     /tmp/ccXKXKMn.s:21     .rodata.zero_status:00000000 $d
-     /tmp/ccXKXKMn.s:24     .rodata.zero_status:00000000 zero_status
-     /tmp/ccXKXKMn.s:27     .rodata.active_status:00000000 $d
-     /tmp/ccXKXKMn.s:30     .rodata.active_status:00000000 active_status
-     /tmp/ccXKXKMn.s:33     .rodata.halted_status:00000000 $d
-     /tmp/ccXKXKMn.s:36     .rodata.halted_status:00000000 halted_status
-     /tmp/ccXKXKMn.s:40     .text.set_address:00000000 $t
-     /tmp/ccXKXKMn.s:45     .text.set_address:00000000 set_address
-     /tmp/ccXKXKMn.s:93     .text.default_handler:00000000 $t
-     /tmp/ccXKXKMn.s:98     .text.default_handler:00000000 default_handler
-     /tmp/ccXKXKMn.s:601    .text.default_handler:00000380 $d
-     /tmp/ccXKXKMn.s:609    .text.usbInit:00000000 $t
-     /tmp/ccXKXKMn.s:615    .text.usbInit:00000000 usbInit
-     /tmp/ccXKXKMn.s:633    .text.usbObjectInit:00000000 $t
-     /tmp/ccXKXKMn.s:639    .text.usbObjectInit:00000000 usbObjectInit
-     /tmp/ccXKXKMn.s:702    .rodata:00000000 $d
-     /tmp/ccXKXKMn.s:709    .text.usbStart:00000000 $t
-     /tmp/ccXKXKMn.s:715    .text.usbStart:00000000 usbStart
-     /tmp/ccXKXKMn.s:814    .text.usbStart:0000007c $d
-     /tmp/ccXKXKMn.s:827    .text.usbStop:00000000 $t
-     /tmp/ccXKXKMn.s:833    .text.usbStop:00000000 usbStop
-     /tmp/ccXKXKMn.s:910    .text.usbStop:00000060 $d
-     /tmp/ccXKXKMn.s:926    .text.usbInitEndpointI:00000000 $t
-     /tmp/ccXKXKMn.s:932    .text.usbInitEndpointI:00000000 usbInitEndpointI
-     /tmp/ccXKXKMn.s:1031   .text.usbInitEndpointI:00000098 $d
-     /tmp/ccXKXKMn.s:1045   .text.usbDisableEndpointsI:00000000 $t
-     /tmp/ccXKXKMn.s:1051   .text.usbDisableEndpointsI:00000000 usbDisableEndpointsI
-     /tmp/ccXKXKMn.s:1129   .text.usbDisableEndpointsI:0000006c $d
-     /tmp/ccXKXKMn.s:1135   .text.usbPrepareReceive:00000000 $t
-     /tmp/ccXKXKMn.s:1141   .text.usbPrepareReceive:00000000 usbPrepareReceive
-     /tmp/ccXKXKMn.s:1196   .text.usbPrepareTransmit:00000000 $t
-     /tmp/ccXKXKMn.s:1202   .text.usbPrepareTransmit:00000000 usbPrepareTransmit
-     /tmp/ccXKXKMn.s:1257   .text.usbPrepareQueuedReceive:00000000 $t
-     /tmp/ccXKXKMn.s:1263   .text.usbPrepareQueuedReceive:00000000 usbPrepareQueuedReceive
-     /tmp/ccXKXKMn.s:1318   .text.usbPrepareQueuedTransmit:00000000 $t
-     /tmp/ccXKXKMn.s:1324   .text.usbPrepareQueuedTransmit:00000000 usbPrepareQueuedTransmit
-     /tmp/ccXKXKMn.s:1383   .text.usbStartReceiveI:00000000 $t
-     /tmp/ccXKXKMn.s:1389   .text.usbStartReceiveI:00000000 usbStartReceiveI
-     /tmp/ccXKXKMn.s:1457   .text.usbStartReceiveI:0000006c $d
-     /tmp/ccXKXKMn.s:1466   .text.usbStartTransmitI:00000000 $t
-     /tmp/ccXKXKMn.s:1472   .text.usbStartTransmitI:00000000 usbStartTransmitI
-     /tmp/ccXKXKMn.s:1540   .text.usbStartTransmitI:0000006c $d
-     /tmp/ccXKXKMn.s:1549   .text.usbStallReceiveI:00000000 $t
-     /tmp/ccXKXKMn.s:1555   .text.usbStallReceiveI:00000000 usbStallReceiveI
-     /tmp/ccXKXKMn.s:1609   .text.usbStallReceiveI:0000004c $d
-     /tmp/ccXKXKMn.s:1618   .text.usbStallTransmitI:00000000 $t
-     /tmp/ccXKXKMn.s:1624   .text.usbStallTransmitI:00000000 usbStallTransmitI
-     /tmp/ccXKXKMn.s:1678   .text.usbStallTransmitI:0000004c $d
-     /tmp/ccXKXKMn.s:1683   .text._usb_reset:00000000 $t
-     /tmp/ccXKXKMn.s:1689   .text._usb_reset:00000000 _usb_reset
-     /tmp/ccXKXKMn.s:1763   .text._usb_ep0setup:00000000 $t
-     /tmp/ccXKXKMn.s:1769   .text._usb_ep0setup:00000000 _usb_ep0setup
-     /tmp/ccXKXKMn.s:2044   .text._usb_ep0in:00000000 $t
-     /tmp/ccXKXKMn.s:2050   .text._usb_ep0in:00000000 _usb_ep0in
-     /tmp/ccXKXKMn.s:2223   .text._usb_ep0out:00000000 $t
-ARM GAS  /tmp/ccXKXKMn.s 			page 110
+     /tmp/ccid23Sy.s:21     .rodata.zero_status:00000000 $d
+     /tmp/ccid23Sy.s:24     .rodata.zero_status:00000000 zero_status
+     /tmp/ccid23Sy.s:27     .rodata.active_status:00000000 $d
+     /tmp/ccid23Sy.s:30     .rodata.active_status:00000000 active_status
+     /tmp/ccid23Sy.s:33     .rodata.halted_status:00000000 $d
+     /tmp/ccid23Sy.s:36     .rodata.halted_status:00000000 halted_status
+     /tmp/ccid23Sy.s:40     .text.set_address:00000000 $t
+     /tmp/ccid23Sy.s:45     .text.set_address:00000000 set_address
+     /tmp/ccid23Sy.s:93     .text.default_handler:00000000 $t
+     /tmp/ccid23Sy.s:98     .text.default_handler:00000000 default_handler
+     /tmp/ccid23Sy.s:601    .text.default_handler:00000380 $d
+     /tmp/ccid23Sy.s:609    .text.usbInit:00000000 $t
+     /tmp/ccid23Sy.s:615    .text.usbInit:00000000 usbInit
+     /tmp/ccid23Sy.s:633    .text.usbObjectInit:00000000 $t
+     /tmp/ccid23Sy.s:639    .text.usbObjectInit:00000000 usbObjectInit
+     /tmp/ccid23Sy.s:702    .rodata:00000000 $d
+     /tmp/ccid23Sy.s:709    .text.usbStart:00000000 $t
+     /tmp/ccid23Sy.s:715    .text.usbStart:00000000 usbStart
+     /tmp/ccid23Sy.s:814    .text.usbStart:0000007c $d
+     /tmp/ccid23Sy.s:827    .text.usbStop:00000000 $t
+     /tmp/ccid23Sy.s:833    .text.usbStop:00000000 usbStop
+     /tmp/ccid23Sy.s:910    .text.usbStop:00000060 $d
+     /tmp/ccid23Sy.s:926    .text.usbInitEndpointI:00000000 $t
+     /tmp/ccid23Sy.s:932    .text.usbInitEndpointI:00000000 usbInitEndpointI
+     /tmp/ccid23Sy.s:1031   .text.usbInitEndpointI:00000098 $d
+     /tmp/ccid23Sy.s:1045   .text.usbDisableEndpointsI:00000000 $t
+     /tmp/ccid23Sy.s:1051   .text.usbDisableEndpointsI:00000000 usbDisableEndpointsI
+     /tmp/ccid23Sy.s:1129   .text.usbDisableEndpointsI:0000006c $d
+     /tmp/ccid23Sy.s:1135   .text.usbPrepareReceive:00000000 $t
+     /tmp/ccid23Sy.s:1141   .text.usbPrepareReceive:00000000 usbPrepareReceive
+     /tmp/ccid23Sy.s:1196   .text.usbPrepareTransmit:00000000 $t
+     /tmp/ccid23Sy.s:1202   .text.usbPrepareTransmit:00000000 usbPrepareTransmit
+     /tmp/ccid23Sy.s:1257   .text.usbPrepareQueuedReceive:00000000 $t
+     /tmp/ccid23Sy.s:1263   .text.usbPrepareQueuedReceive:00000000 usbPrepareQueuedReceive
+     /tmp/ccid23Sy.s:1318   .text.usbPrepareQueuedTransmit:00000000 $t
+     /tmp/ccid23Sy.s:1324   .text.usbPrepareQueuedTransmit:00000000 usbPrepareQueuedTransmit
+     /tmp/ccid23Sy.s:1383   .text.usbStartReceiveI:00000000 $t
+     /tmp/ccid23Sy.s:1389   .text.usbStartReceiveI:00000000 usbStartReceiveI
+     /tmp/ccid23Sy.s:1457   .text.usbStartReceiveI:0000006c $d
+     /tmp/ccid23Sy.s:1466   .text.usbStartTransmitI:00000000 $t
+     /tmp/ccid23Sy.s:1472   .text.usbStartTransmitI:00000000 usbStartTransmitI
+     /tmp/ccid23Sy.s:1540   .text.usbStartTransmitI:0000006c $d
+     /tmp/ccid23Sy.s:1549   .text.usbStallReceiveI:00000000 $t
+     /tmp/ccid23Sy.s:1555   .text.usbStallReceiveI:00000000 usbStallReceiveI
+     /tmp/ccid23Sy.s:1609   .text.usbStallReceiveI:0000004c $d
+     /tmp/ccid23Sy.s:1618   .text.usbStallTransmitI:00000000 $t
+     /tmp/ccid23Sy.s:1624   .text.usbStallTransmitI:00000000 usbStallTransmitI
+     /tmp/ccid23Sy.s:1678   .text.usbStallTransmitI:0000004c $d
+     /tmp/ccid23Sy.s:1683   .text._usb_reset:00000000 $t
+     /tmp/ccid23Sy.s:1689   .text._usb_reset:00000000 _usb_reset
+     /tmp/ccid23Sy.s:1763   .text._usb_ep0setup:00000000 $t
+     /tmp/ccid23Sy.s:1769   .text._usb_ep0setup:00000000 _usb_ep0setup
+     /tmp/ccid23Sy.s:2044   .text._usb_ep0in:00000000 $t
+     /tmp/ccid23Sy.s:2050   .text._usb_ep0in:00000000 _usb_ep0in
+     /tmp/ccid23Sy.s:2223   .text._usb_ep0out:00000000 $t
+ARM GAS  /tmp/ccid23Sy.s 			page 110
 
 
-     /tmp/ccXKXKMn.s:2229   .text._usb_ep0out:00000000 _usb_ep0out
+     /tmp/ccid23Sy.s:2229   .text._usb_ep0out:00000000 _usb_ep0out
                      .debug_frame:00000010 $d
-     /tmp/ccXKXKMn.s:819    .text.usbStart:00000084 $t
-     /tmp/ccXKXKMn.s:915    .text.usbStop:00000068 $t
-     /tmp/ccXKXKMn.s:1037   .text.usbInitEndpointI:000000a4 $t
-     /tmp/ccXKXKMn.s:1134   .text.usbDisableEndpointsI:00000074 $t
+     /tmp/ccid23Sy.s:819    .text.usbStart:00000084 $t
+     /tmp/ccid23Sy.s:915    .text.usbStop:00000068 $t
+     /tmp/ccid23Sy.s:1037   .text.usbInitEndpointI:000000a4 $t
+     /tmp/ccid23Sy.s:1134   .text.usbDisableEndpointsI:00000074 $t
 
 UNDEFINED SYMBOLS
 usb_lld_set_address

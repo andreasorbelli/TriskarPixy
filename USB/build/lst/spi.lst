@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccqoeBDi.s 			page 1
+ARM GAS  /tmp/ccieCIld.s 			page 1
 
 
    1              		.syntax unified
@@ -29,7 +29,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
   26              		.type	spiInit, %function
   27              	spiInit:
   28              	.LFB118:
-  29              		.file 1 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/spi.c"
+  29              		.file 1 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/spi.c"
   30              		.loc 1 68 0
   31              		.cfi_startproc
   32              		@ args = 0, pretend = 0, frame = 0
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
   54              		.loc 1 80 0
   55              		.cfi_startproc
   56              		@ args = 0, pretend = 0, frame = 8
-ARM GAS  /tmp/ccqoeBDi.s 			page 2
+ARM GAS  /tmp/ccieCIld.s 			page 2
 
 
   57              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  104              	.LFB120:
  105              		.loc 1 107 0
  106              		.cfi_startproc
-ARM GAS  /tmp/ccqoeBDi.s 			page 3
+ARM GAS  /tmp/ccieCIld.s 			page 3
 
 
  107              		@ args = 0, pretend = 0, frame = 8
@@ -146,7 +146,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  129              	.LBB2:
  130              		.loc 1 111 0 is_stmt 1
  131 001a 2023     		movs	r3, #32
- 132              	@ 111 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
+ 132              	@ 111 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
  133 001c 83F31188 		msr     BASEPRI, r3
  134              	@ 0 "" 2
  135              		.thumb
@@ -178,13 +178,13 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  161 0048 0222     		movs	r2, #2
  162 004a 1A70     		strb	r2, [r3]
  163              		.loc 1 117 0
-ARM GAS  /tmp/ccqoeBDi.s 			page 4
+ARM GAS  /tmp/ccieCIld.s 			page 4
 
 
  164 004c FFF7FEFF 		bl	dbg_check_unlock
  165              	.LBB3:
  166 0050 0023     		movs	r3, #0
- 167              	@ 117 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
+ 167              	@ 117 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
  168 0052 83F31188 		msr     BASEPRI, r3
  169              	@ 0 "" 2
  170              		.thumb
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  211              		.loc 1 131 0
  212 0006 019B     		ldr	r3, [sp, #4]
  213 0008 002B     		cmp	r3, #0
-ARM GAS  /tmp/ccqoeBDi.s 			page 5
+ARM GAS  /tmp/ccieCIld.s 			page 5
 
 
  214 000a 02D1     		bne	.L10
@@ -249,7 +249,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  219              	.LBB4:
  220              		.loc 1 133 0 is_stmt 1
  221 0012 2023     		movs	r3, #32
- 222              	@ 133 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
+ 222              	@ 133 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
  223 0014 83F31188 		msr     BASEPRI, r3
  224              	@ 0 "" 2
  225              		.thumb
@@ -283,7 +283,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  253 0044 FFF7FEFF 		bl	dbg_check_unlock
  254              	.LBB5:
  255 0048 0023     		movs	r3, #0
- 256              	@ 139 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
+ 256              	@ 139 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
  257 004a 83F31188 		msr     BASEPRI, r3
  258              	@ 0 "" 2
  259              		.thumb
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  268              	.L12:
  269 0054 20000000 		.word	.LC2
  270 0058 2C000000 		.word	.LC3
-ARM GAS  /tmp/ccqoeBDi.s 			page 6
+ARM GAS  /tmp/ccieCIld.s 			page 6
 
 
  271              		.cfi_endproc
@@ -347,7 +347,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  308              	.LBB6:
  309              		.loc 1 153 0 is_stmt 1
  310 0012 2023     		movs	r3, #32
- 311              	@ 153 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
+ 311              	@ 153 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
  312 0014 83F31188 		msr     BASEPRI, r3
  313              	@ 0 "" 2
  314              		.thumb
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  319 001e 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
  320 0020 022B     		cmp	r3, #2
  321 0022 02D0     		beq	.L16
-ARM GAS  /tmp/ccqoeBDi.s 			page 7
+ARM GAS  /tmp/ccieCIld.s 			page 7
 
 
  322              		.loc 1 154 0 is_stmt 0 discriminator 1
@@ -372,7 +372,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  330 0030 FFF7FEFF 		bl	dbg_check_unlock
  331              	.LBB7:
  332 0034 0023     		movs	r3, #0
- 333              	@ 156 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
+ 333              	@ 156 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
  334 0036 83F31188 		msr     BASEPRI, r3
  335              	@ 0 "" 2
  336              		.thumb
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  368              		.cfi_startproc
  369              		@ args = 0, pretend = 0, frame = 8
  370              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/ccqoeBDi.s 			page 8
+ARM GAS  /tmp/ccieCIld.s 			page 8
 
 
  371 0000 00B5     		push	{lr}
@@ -438,7 +438,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  385              	.LBB8:
  386              		.loc 1 171 0 is_stmt 1
  387 0012 2023     		movs	r3, #32
- 388              	@ 171 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
+ 388              	@ 171 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
  389 0014 83F31188 		msr     BASEPRI, r3
  390              	@ 0 "" 2
  391              		.thumb
@@ -460,7 +460,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  407 0030 FFF7FEFF 		bl	dbg_check_unlock
  408              	.LBB9:
  409 0034 0023     		movs	r3, #0
- 410              	@ 174 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
+ 410              	@ 174 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
  411 0036 83F31188 		msr     BASEPRI, r3
  412              	@ 0 "" 2
  413              		.thumb
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  425              		.cfi_endproc
  426              	.LFE123:
  427              		.size	spiUnselect, .-spiUnselect
-ARM GAS  /tmp/ccqoeBDi.s 			page 9
+ARM GAS  /tmp/ccieCIld.s 			page 9
 
 
  428 0048 AFF30080 		.section	.rodata
@@ -533,12 +533,12 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  468              	.LBB10:
  469              		.loc 1 194 0 is_stmt 1
  470 001a 2023     		movs	r3, #32
- 471              	@ 194 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
+ 471              	@ 194 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
  472 001c 83F31188 		msr     BASEPRI, r3
  473              	@ 0 "" 2
  474              		.thumb
  475              	.LBE10:
-ARM GAS  /tmp/ccqoeBDi.s 			page 10
+ARM GAS  /tmp/ccieCIld.s 			page 10
 
 
  476 0020 FFF7FEFF 		bl	dbg_check_lock
@@ -562,7 +562,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  494 0040 FFF7FEFF 		bl	dbg_check_unlock
  495              	.LBB11:
  496 0044 0023     		movs	r3, #0
- 497              	@ 197 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
+ 497              	@ 197 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
  498 0046 83F31188 		msr     BASEPRI, r3
  499              	@ 0 "" 2
  500              		.thumb
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  521      28292C20 
  522              		.section	.text.spiStartExchange,"ax",%progbits
  523              		.align	2
-ARM GAS  /tmp/ccqoeBDi.s 			page 11
+ARM GAS  /tmp/ccieCIld.s 			page 11
 
 
  524              		.p2align 4,,15
@@ -645,7 +645,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  565              	.LBB12:
  566              		.loc 1 223 0 is_stmt 1
  567 002a 2023     		movs	r3, #32
- 568              	@ 223 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
+ 568              	@ 223 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
  569 002c 83F31188 		msr     BASEPRI, r3
  570              	@ 0 "" 2
  571              		.thumb
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  578 003a 02D0     		beq	.L33
  579              		.loc 1 224 0 is_stmt 0 discriminator 1
  580 003c 0A48     		ldr	r0, .L34+4
-ARM GAS  /tmp/ccqoeBDi.s 			page 12
+ARM GAS  /tmp/ccieCIld.s 			page 12
 
 
  581 003e FFF7FEFF 		bl	chDbgPanic
@@ -676,7 +676,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  593 0054 FFF7FEFF 		bl	dbg_check_unlock
  594              	.LBB13:
  595 0058 0023     		movs	r3, #0
- 596              	@ 226 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
+ 596              	@ 226 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
  597 005a 83F31188 		msr     BASEPRI, r3
  598              	@ 0 "" 2
  599              		.thumb
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  627              		.type	spiStartSend, %function
  628              	spiStartSend:
  629              	.LFB126:
-ARM GAS  /tmp/ccqoeBDi.s 			page 13
+ARM GAS  /tmp/ccieCIld.s 			page 13
 
 
  630              		.loc 1 244 0
@@ -753,7 +753,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  659              	.LBB14:
  660              		.loc 1 249 0 is_stmt 1
  661 0022 2023     		movs	r3, #32
- 662              	@ 249 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
+ 662              	@ 249 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
  663 0024 83F31188 		msr     BASEPRI, r3
  664              	@ 0 "" 2
  665              		.thumb
@@ -778,12 +778,12 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  684 0046 FFF7FEFF 		bl	spi_lld_send
  685              		.loc 1 252 0
  686 004a FFF7FEFF 		bl	dbg_check_unlock
-ARM GAS  /tmp/ccqoeBDi.s 			page 14
+ARM GAS  /tmp/ccieCIld.s 			page 14
 
 
  687              	.LBB15:
  688 004e 0023     		movs	r3, #0
- 689              	@ 252 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
+ 689              	@ 252 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
  690 0050 83F31188 		msr     BASEPRI, r3
  691              	@ 0 "" 2
  692              		.thumb
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  731              		.cfi_def_cfa_offset 24
  732 0004 0390     		str	r0, [sp, #12]
  733 0006 0291     		str	r1, [sp, #8]
-ARM GAS  /tmp/ccqoeBDi.s 			page 15
+ARM GAS  /tmp/ccieCIld.s 			page 15
 
 
  734 0008 0192     		str	r2, [sp, #4]
@@ -862,7 +862,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  752              	.LBB16:
  753              		.loc 1 275 0 is_stmt 1
  754 0022 2023     		movs	r3, #32
- 755              	@ 275 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
+ 755              	@ 275 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
  756 0024 83F31188 		msr     BASEPRI, r3
  757              	@ 0 "" 2
  758              		.thumb
@@ -889,7 +889,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  779 004a FFF7FEFF 		bl	dbg_check_unlock
  780              	.LBB17:
  781 004e 0023     		movs	r3, #0
- 782              	@ 278 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
+ 782              	@ 278 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
  783 0050 83F31188 		msr     BASEPRI, r3
  784              	@ 0 "" 2
  785              		.thumb
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  788 0054 05B0     		add	sp, sp, #20
  789              		.cfi_def_cfa_offset 4
  790              		@ sp needed
-ARM GAS  /tmp/ccqoeBDi.s 			page 16
+ARM GAS  /tmp/ccieCIld.s 			page 16
 
 
  791 0056 5DF804FB 		ldr	pc, [sp], #4
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  830              		.cfi_def_cfa_offset 16
  831 0004 0190     		str	r0, [sp, #4]
  832 0006 0091     		str	r1, [sp]
-ARM GAS  /tmp/ccqoeBDi.s 			page 17
+ARM GAS  /tmp/ccieCIld.s 			page 17
 
 
  833              		.loc 1 298 0
@@ -977,7 +977,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  846              	.LBB18:
  847              		.loc 1 300 0 is_stmt 1
  848 001a 2023     		movs	r3, #32
- 849              	@ 300 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
+ 849              	@ 300 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
  850 001c 83F31188 		msr     BASEPRI, r3
  851              	@ 0 "" 2
  852              		.thumb
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  887 0058 0B48     		ldr	r0, .L54+12
  888 005a FFF7FEFF 		bl	chDbgPanic
  889              	.L53:
-ARM GAS  /tmp/ccqoeBDi.s 			page 18
+ARM GAS  /tmp/ccieCIld.s 			page 18
 
 
  890              		.loc 1 304 0 discriminator 3
@@ -1032,7 +1032,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  898 006c FFF7FEFF 		bl	dbg_check_unlock
  899              	.LBB19:
  900 0070 0023     		movs	r3, #0
- 901              	@ 305 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
+ 901              	@ 305 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
  902 0072 83F31188 		msr     BASEPRI, r3
  903              	@ 0 "" 2
  904              		.thumb
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  933              		.align	2
  934              		.p2align 4,,15
  935              		.global	spiExchange
-ARM GAS  /tmp/ccqoeBDi.s 			page 19
+ARM GAS  /tmp/ccieCIld.s 			page 19
 
 
  936              		.thumb
@@ -1123,7 +1123,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  975              	.LBB20:
  976              		.loc 1 332 0 is_stmt 1
  977 002a 2023     		movs	r3, #32
- 978              	@ 332 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
+ 978              	@ 332 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
  979 002c 83F31188 		msr     BASEPRI, r3
  980              	@ 0 "" 2
  981              		.thumb
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  990 003c 1548     		ldr	r0, .L62+4
  991 003e FFF7FEFF 		bl	chDbgPanic
  992              	.L59:
-ARM GAS  /tmp/ccqoeBDi.s 			page 20
+ARM GAS  /tmp/ccieCIld.s 			page 20
 
 
  993              		.loc 1 334 0 is_stmt 1
@@ -1180,7 +1180,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  1029 0080 FFF7FEFF 		bl	dbg_check_unlock
  1030              	.LBB21:
  1031 0084 0023     		movs	r3, #0
- 1032              	@ 338 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
+ 1032              	@ 338 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
  1033 0086 83F31188 		msr     BASEPRI, r3
  1034              	@ 0 "" 2
  1035              		.thumb
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  1047 0098 98010000 		.word	.LC22
  1048 009c 64010000 		.word	.LC19
  1049 00a0 00000000 		.word	rlist
-ARM GAS  /tmp/ccqoeBDi.s 			page 21
+ARM GAS  /tmp/ccieCIld.s 			page 21
 
 
  1050              		.cfi_endproc
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  1094 0018 002B     		cmp	r3, #0
  1095 001a 02D1     		bne	.L66
  1096              	.L65:
-ARM GAS  /tmp/ccqoeBDi.s 			page 22
+ARM GAS  /tmp/ccieCIld.s 			page 22
 
 
  1097              		.loc 1 359 0 discriminator 5
@@ -1268,7 +1268,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  1101              	.LBB22:
  1102              		.loc 1 361 0 is_stmt 1
  1103 0022 2023     		movs	r3, #32
- 1104              	@ 361 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
+ 1104              	@ 361 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
  1105 0024 83F31188 		msr     BASEPRI, r3
  1106              	@ 0 "" 2
  1107              		.thumb
@@ -1318,13 +1318,13 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  1151 0070 0220     		movs	r0, #2
  1152 0072 FFF7FEFF 		bl	chSchGoSleepS
  1153              		.loc 1 366 0 is_stmt 1 discriminator 3
-ARM GAS  /tmp/ccqoeBDi.s 			page 23
+ARM GAS  /tmp/ccieCIld.s 			page 23
 
 
  1154 0076 FFF7FEFF 		bl	dbg_check_unlock
  1155              	.LBB23:
  1156 007a 0023     		movs	r3, #0
- 1157              	@ 366 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
+ 1157              	@ 366 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
  1158 007c 83F31188 		msr     BASEPRI, r3
  1159              	@ 0 "" 2
  1160              		.thumb
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  1197              		.loc 1 385 0
  1198              		.cfi_startproc
  1199              		@ args = 0, pretend = 0, frame = 16
-ARM GAS  /tmp/ccqoeBDi.s 			page 24
+ARM GAS  /tmp/ccieCIld.s 			page 24
 
 
  1200              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1410,7 +1410,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  1226              	.LBB24:
  1227              		.loc 1 390 0 is_stmt 1
  1228 0022 2023     		movs	r3, #32
- 1229              	@ 390 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
+ 1229              	@ 390 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
  1230 0024 83F31188 		msr     BASEPRI, r3
  1231              	@ 0 "" 2
  1232              		.thumb
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  1254              		.loc 1 394 0 is_stmt 1
  1255 004a 039B     		ldr	r3, [sp, #12]
  1256 004c 0322     		movs	r2, #3
-ARM GAS  /tmp/ccqoeBDi.s 			page 25
+ARM GAS  /tmp/ccieCIld.s 			page 25
 
 
  1257 004e 1A70     		strb	r2, [r3]
@@ -1466,7 +1466,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  1279 0076 FFF7FEFF 		bl	dbg_check_unlock
  1280              	.LBB25:
  1281 007a 0023     		movs	r3, #0
- 1282              	@ 396 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
+ 1282              	@ 396 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/spi.c" 1
  1283 007c 83F31188 		msr     BASEPRI, r3
  1284              	@ 0 "" 2
  1285              		.thumb
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  1307              		.section	.text.spiAcquireBus,"ax",%progbits
  1308              		.align	2
  1309              		.p2align 4,,15
-ARM GAS  /tmp/ccqoeBDi.s 			page 26
+ARM GAS  /tmp/ccieCIld.s 			page 26
 
 
  1310              		.global	spiAcquireBus
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  1359              		.thumb
  1360              		.thumb_func
  1361              		.type	spiReleaseBus, %function
-ARM GAS  /tmp/ccqoeBDi.s 			page 27
+ARM GAS  /tmp/ccieCIld.s 			page 27
 
 
  1362              	spiReleaseBus:
@@ -1597,34 +1597,34 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  1395              		.size	spiReleaseBus, .-spiReleaseBus
  1396              		.text
  1397              	.Letext0:
- 1398              		.file 2 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/lib/gcc/arm-none-eabi/4.9.3/includ
- 1399              		.file 3 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/machine/_def
- 1400              		.file 4 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/stdint.h"
- 1401              		.file 5 "/home/denny/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCMx/chtypes.h"
- 1402              		.file 6 "/home/denny/r2p-sdk/core/ChibiOS/os/kernel/include/chlists.h"
- 1403              		.file 7 "/home/denny/r2p-sdk/core/ChibiOS/os/kernel/include/chthreads.h"
- 1404              		.file 8 "/home/denny/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCMx/chcore_v7m.h"
- 1405              		.file 9 "/home/denny/r2p-sdk/core/ChibiOS/os/kernel/include/chschd.h"
- 1406              		.file 10 "/home/denny/r2p-sdk/core/ChibiOS/os/kernel/include/chmtx.h"
- 1407              		.file 11 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/platforms/STM32F30x/stm32f30x.h"
- 1408              		.file 12 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/platforms/STM32F30x/stm32_dma.h"
- 1409              		.file 13 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/platforms/STM32/GPIOv2/pal_lld.h"
- 1410              		.file 14 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/include/spi.h"
- 1411              		.file 15 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/platforms/STM32/SPIv2/spi_lld.h"
- 1412              		.file 16 "/home/denny/r2p-sdk/core/ChibiOS/os/ports/common/ARMCMx/CMSIS/include/core_cm4.h"
+ 1398              		.file 2 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/lib/gcc/arm-none-eabi/4.9.3/includ
+ 1399              		.file 3 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/machine/_def
+ 1400              		.file 4 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/stdint.h"
+ 1401              		.file 5 "/home/ergae/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCMx/chtypes.h"
+ 1402              		.file 6 "/home/ergae/r2p-sdk/core/ChibiOS/os/kernel/include/chlists.h"
+ 1403              		.file 7 "/home/ergae/r2p-sdk/core/ChibiOS/os/kernel/include/chthreads.h"
+ 1404              		.file 8 "/home/ergae/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCMx/chcore_v7m.h"
+ 1405              		.file 9 "/home/ergae/r2p-sdk/core/ChibiOS/os/kernel/include/chschd.h"
+ 1406              		.file 10 "/home/ergae/r2p-sdk/core/ChibiOS/os/kernel/include/chmtx.h"
+ 1407              		.file 11 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/platforms/STM32F30x/stm32f30x.h"
+ 1408              		.file 12 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/platforms/STM32F30x/stm32_dma.h"
+ 1409              		.file 13 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/platforms/STM32/GPIOv2/pal_lld.h"
+ 1410              		.file 14 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/include/spi.h"
+ 1411              		.file 15 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/platforms/STM32/SPIv2/spi_lld.h"
+ 1412              		.file 16 "/home/ergae/r2p-sdk/core/ChibiOS/os/ports/common/ARMCMx/CMSIS/include/core_cm4.h"
  1413              		.section	.debug_info,"",%progbits
  1414              	.Ldebug_info0:
  1415 0000 AF0E0000 		.4byte	0xeaf
  1416 0004 0400     		.2byte	0x4
  1417 0006 00000000 		.4byte	.Ldebug_abbrev0
  1418 000a 04       		.byte	0x4
-ARM GAS  /tmp/ccqoeBDi.s 			page 28
+ARM GAS  /tmp/ccieCIld.s 			page 28
 
 
  1419 000b 01       		.uleb128 0x1
  1420 000c 8C050000 		.4byte	.LASF149
  1421 0010 01       		.byte	0x1
- 1422 0011 09020000 		.4byte	.LASF150
+ 1422 0011 63010000 		.4byte	.LASF150
  1423 0015 00000000 		.4byte	.Ldebug_ranges0+0
  1424 0019 00000000 		.4byte	0
  1425 001d 00000000 		.4byte	.Ldebug_line0
@@ -1640,7 +1640,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  1435 0033 04       		.uleb128 0x4
  1436 0034 04       		.byte	0x4
  1437 0035 07       		.byte	0x7
- 1438 0036 95010000 		.4byte	.LASF0
+ 1438 0036 BF010000 		.4byte	.LASF0
  1439 003a 04       		.uleb128 0x4
  1440 003b 01       		.byte	0x1
  1441 003c 06       		.byte	0x6
@@ -1666,7 +1666,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  1461 0065 04       		.uleb128 0x4
  1462 0066 02       		.byte	0x2
  1463 0067 07       		.byte	0x7
- 1464 0068 F0010000 		.4byte	.LASF7
+ 1464 0068 1A020000 		.4byte	.LASF7
  1465 006c 03       		.uleb128 0x3
  1466 006d A6040000 		.4byte	.LASF8
  1467 0071 03       		.byte	0x3
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  1473 007a 03010000 		.4byte	.LASF9
  1474 007e 03       		.uleb128 0x3
  1475 007f B0040000 		.4byte	.LASF10
-ARM GAS  /tmp/ccqoeBDi.s 			page 29
+ARM GAS  /tmp/ccieCIld.s 			page 29
 
 
  1476 0083 03       		.byte	0x3
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  1530 00f2 03       		.uleb128 0x3
  1531 00f3 0C010000 		.4byte	.LASF22
  1532 00f7 05       		.byte	0x5
-ARM GAS  /tmp/ccqoeBDi.s 			page 30
+ARM GAS  /tmp/ccieCIld.s 			page 30
 
 
  1533 00f8 2D       		.byte	0x2d
@@ -1759,7 +1759,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  1548 0119 30       		.byte	0x30
  1549 011a CA000000 		.4byte	0xca
  1550 011e 03       		.uleb128 0x3
- 1551 011f 03020000 		.4byte	.LASF26
+ 1551 011f 35020000 		.4byte	.LASF26
  1552 0123 05       		.byte	0x5
  1553 0124 31       		.byte	0x31
  1554 0125 BF000000 		.4byte	0xbf
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  1587 016d 04       		.byte	0x4
  1588 016e 06       		.uleb128 0x6
  1589 016f A0000000 		.4byte	.LASF32
-ARM GAS  /tmp/ccqoeBDi.s 			page 31
+ARM GAS  /tmp/ccieCIld.s 			page 31
 
 
  1590 0173 07       		.byte	0x7
@@ -1830,7 +1830,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  1616 01a5 0E050000 		.4byte	0x50e
  1617 01a9 18       		.byte	0x18
  1618 01aa 06       		.uleb128 0x6
- 1619 01ab 8A010000 		.4byte	.LASF37
+ 1619 01ab B4010000 		.4byte	.LASF37
  1620 01af 07       		.byte	0x7
  1621 01b0 74       		.byte	0x74
  1622 01b1 20050000 		.4byte	0x520
@@ -1858,12 +1858,12 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  1644 01df 07       		.byte	0x7
  1645 01e0 88       		.byte	0x88
  1646 01e1 08010000 		.4byte	0x108
-ARM GAS  /tmp/ccqoeBDi.s 			page 32
+ARM GAS  /tmp/ccieCIld.s 			page 32
 
 
  1647 01e5 23       		.byte	0x23
  1648 01e6 06       		.uleb128 0x6
- 1649 01e7 A8010000 		.4byte	.LASF42
+ 1649 01e7 D2010000 		.4byte	.LASF42
  1650 01eb 07       		.byte	0x7
  1651 01ec 8F       		.byte	0x8f
  1652 01ed 36040000 		.4byte	0x436
@@ -1881,7 +1881,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  1664 0205 9A020000 		.4byte	0x29a
  1665 0209 2C       		.byte	0x2c
  1666 020a 06       		.uleb128 0x6
- 1667 020b BF010000 		.4byte	.LASF44
+ 1667 020b E9010000 		.4byte	.LASF44
  1668 020f 07       		.byte	0x7
  1669 0210 BF       		.byte	0xbf
  1670 0211 7A020000 		.4byte	0x27a
@@ -1911,14 +1911,14 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  1694 0241 13010000 		.4byte	0x113
  1695 0245 44       		.byte	0x44
  1696 0246 06       		.uleb128 0x6
- 1697 0247 63010000 		.4byte	.LASF49
+ 1697 0247 2D020000 		.4byte	.LASF49
  1698 024b 07       		.byte	0x7
  1699 024c DA       		.byte	0xda
  1700 024d B0020000 		.4byte	0x2b0
  1701 0251 48       		.byte	0x48
  1702 0252 00       		.byte	0
  1703 0253 08       		.uleb128 0x8
-ARM GAS  /tmp/ccqoeBDi.s 			page 33
+ARM GAS  /tmp/ccieCIld.s 			page 33
 
 
  1704 0254 08       		.byte	0x8
@@ -1964,7 +1964,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  1744 02a0 70       		.byte	0x70
  1745 02a1 85020000 		.4byte	0x285
  1746 02a5 03       		.uleb128 0x3
- 1747 02a6 6B010000 		.4byte	.LASF52
+ 1747 02a6 95010000 		.4byte	.LASF52
  1748 02aa 08       		.byte	0x8
  1749 02ab E5       		.byte	0xe5
  1750 02ac B0020000 		.4byte	0x2b0
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  1758 02bd 0B       		.uleb128 0xb
  1759 02be 00050000 		.4byte	.LASF54
  1760 02c2 64       		.byte	0x64
-ARM GAS  /tmp/ccqoeBDi.s 			page 34
+ARM GAS  /tmp/ccieCIld.s 			page 34
 
 
  1761 02c3 08       		.byte	0x8
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  1815 0338 1601     		.2byte	0x116
  1816 033a A5020000 		.4byte	0x2a5
  1817 033e 20       		.byte	0x20
-ARM GAS  /tmp/ccqoeBDi.s 			page 35
+ARM GAS  /tmp/ccieCIld.s 			page 35
 
 
  1818 033f 0C       		.uleb128 0xc
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  1872 03b2 0C       		.uleb128 0xc
  1873 03b3 723600   		.ascii	"r6\000"
  1874 03b6 08       		.byte	0x8
-ARM GAS  /tmp/ccqoeBDi.s 			page 36
+ARM GAS  /tmp/ccieCIld.s 			page 36
 
 
  1875 03b7 2101     		.2byte	0x121
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  1929 0425 04       		.byte	0x4
  1930 0426 BD020000 		.4byte	0x2bd
  1931 042a 0D       		.uleb128 0xd
-ARM GAS  /tmp/ccqoeBDi.s 			page 37
+ARM GAS  /tmp/ccieCIld.s 			page 37
 
 
  1932 042b CA000000 		.4byte	0xca
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  1986 0497 05       		.uleb128 0x5
  1987 0498 B0020000 		.4byte	.LASF64
  1988 049c 10       		.byte	0x10
-ARM GAS  /tmp/ccqoeBDi.s 			page 38
+ARM GAS  /tmp/ccieCIld.s 			page 38
 
 
  1989 049d 0A       		.byte	0xa
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  2043 0509 29010000 		.4byte	0x129
  2044 050d 00       		.byte	0
  2045 050e 09       		.uleb128 0x9
-ARM GAS  /tmp/ccqoeBDi.s 			page 39
+ARM GAS  /tmp/ccieCIld.s 			page 39
 
 
  2046 050f 04       		.byte	0x4
@@ -2317,7 +2317,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  2079 0554 2A040000 		.4byte	0x42a
  2080 0558 04       		.byte	0x4
  2081 0559 12       		.uleb128 0x12
- 2082 055a BA010000 		.4byte	.LASF74
+ 2082 055a E4010000 		.4byte	.LASF74
  2083 055e 0B       		.byte	0xb
  2084 055f E901     		.2byte	0x1e9
  2085 0561 2A040000 		.4byte	0x42a
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  2100 0581 24       		.byte	0x24
  2101 0582 0B       		.byte	0xb
  2102 0583 C702     		.2byte	0x2c7
-ARM GAS  /tmp/ccqoeBDi.s 			page 40
+ARM GAS  /tmp/ccieCIld.s 			page 40
 
 
  2103 0585 72060000 		.4byte	0x672
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  2157 05fb 10       		.byte	0x10
  2158 05fc 12       		.uleb128 0x12
  2159 05fd 54030000 		.4byte	.LASF82
-ARM GAS  /tmp/ccqoeBDi.s 			page 41
+ARM GAS  /tmp/ccieCIld.s 			page 41
 
 
  2160 0601 0B       		.byte	0xb
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  2214 0673 4F040000 		.4byte	.LASF91
  2215 0677 0B       		.byte	0xb
  2216 0678 DB02     		.2byte	0x2db
-ARM GAS  /tmp/ccqoeBDi.s 			page 42
+ARM GAS  /tmp/ccieCIld.s 			page 42
 
 
  2217 067a 80050000 		.4byte	0x580
@@ -2480,13 +2480,13 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  2233 0699 C9060000 		.4byte	0x6c9
  2234 069d 04       		.byte	0x4
  2235 069e 06       		.uleb128 0x6
- 2236 069f DC010000 		.4byte	.LASF94
+ 2236 069f 06020000 		.4byte	.LASF94
  2237 06a3 0C       		.byte	0xc
  2238 06a4 C4       		.byte	0xc4
  2239 06a5 A9000000 		.4byte	0xa9
  2240 06a9 08       		.byte	0x8
  2241 06aa 06       		.uleb128 0x6
- 2242 06ab 74010000 		.4byte	.LASF95
+ 2242 06ab 9E010000 		.4byte	.LASF95
  2243 06af 0C       		.byte	0xc
  2244 06b0 C6       		.byte	0xc6
  2245 06b1 A9000000 		.4byte	0xa9
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  2271 06e3 73657400 		.ascii	"set\000"
  2272 06e7 0D       		.byte	0xd
  2273 06e8 97       		.byte	0x97
-ARM GAS  /tmp/ccqoeBDi.s 			page 43
+ARM GAS  /tmp/ccieCIld.s 			page 43
 
 
  2274 06e9 B4000000 		.4byte	0xb4
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  2328 074e 07       		.uleb128 0x7
  2329 074f 49445200 		.ascii	"IDR\000"
  2330 0753 0D       		.byte	0xd
-ARM GAS  /tmp/ccqoeBDi.s 			page 44
+ARM GAS  /tmp/ccieCIld.s 			page 44
 
 
  2331 0754 92       		.byte	0x92
@@ -2597,7 +2597,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  2344 076d 97070000 		.4byte	0x797
  2345 0771 18       		.byte	0x18
  2346 0772 06       		.uleb128 0x6
- 2347 0773 D7010000 		.4byte	.LASF104
+ 2347 0773 01020000 		.4byte	.LASF104
  2348 0777 0D       		.byte	0xd
  2349 0778 9B       		.byte	0x9b
  2350 0779 2A040000 		.4byte	0x42a
@@ -2618,7 +2618,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  2365 0797 0D       		.uleb128 0xd
  2366 0798 FB060000 		.4byte	0x6fb
  2367 079c 03       		.uleb128 0x3
- 2368 079d CA010000 		.4byte	.LASF107
+ 2368 079d F4010000 		.4byte	.LASF107
  2369 07a1 0D       		.byte	0xd
  2370 07a2 9E       		.byte	0x9e
  2371 07a3 16070000 		.4byte	0x716
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  2385 07c0 16       		.uleb128 0x16
  2386 07c1 11050000 		.4byte	.LASF109
  2387 07c5 00       		.sleb128 0
-ARM GAS  /tmp/ccqoeBDi.s 			page 45
+ARM GAS  /tmp/ccieCIld.s 			page 45
 
 
  2388 07c6 16       		.uleb128 0x16
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  2442 0838 73706900 		.ascii	"spi\000"
  2443 083c 0F       		.byte	0xf
  2444 083d 6B01     		.2byte	0x16b
-ARM GAS  /tmp/ccqoeBDi.s 			page 46
+ARM GAS  /tmp/ccieCIld.s 			page 46
 
 
  2445 083f FE080000 		.4byte	0x8fe
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  2499 08b2 12       		.uleb128 0x12
  2500 08b3 8C000000 		.4byte	.LASF126
  2501 08b7 0F       		.byte	0xf
-ARM GAS  /tmp/ccqoeBDi.s 			page 47
+ARM GAS  /tmp/ccieCIld.s 			page 47
 
 
  2502 08b8 3901     		.2byte	0x139
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  2556 092f 01       		.uleb128 0x1
  2557 0930 9C       		.byte	0x9c
  2558 0931 44090000 		.4byte	0x944
-ARM GAS  /tmp/ccqoeBDi.s 			page 48
+ARM GAS  /tmp/ccieCIld.s 			page 48
 
 
  2559 0935 1B       		.uleb128 0x1b
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  2613 09a4 01       		.uleb128 0x1
  2614 09a5 53       		.byte	0x53
  2615 09a6 00       		.byte	0
-ARM GAS  /tmp/ccqoeBDi.s 			page 49
+ARM GAS  /tmp/ccieCIld.s 			page 49
 
 
  2616 09a7 00       		.byte	0
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  2670 0a19 95       		.byte	0x95
  2671 0a1a 96080000 		.4byte	0x896
  2672 0a1e 02       		.uleb128 0x2
-ARM GAS  /tmp/ccqoeBDi.s 			page 50
+ARM GAS  /tmp/ccieCIld.s 			page 50
 
 
  2673 0a1f 91       		.byte	0x91
@@ -2968,7 +2968,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  2697 0a52 00       		.byte	0
  2698 0a53 00       		.byte	0
  2699 0a54 1A       		.uleb128 0x1a
- 2700 0a55 7E010000 		.4byte	.LASF134
+ 2700 0a55 A8010000 		.4byte	.LASF134
  2701 0a59 01       		.byte	0x1
  2702 0a5a A7       		.byte	0xa7
  2703 0a5b 00000000 		.4byte	.LFB123
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  2727 0a91 00       		.byte	0
  2728 0a92 1E       		.uleb128 0x1e
  2729 0a93 34000000 		.4byte	.LBB9
-ARM GAS  /tmp/ccqoeBDi.s 			page 51
+ARM GAS  /tmp/ccieCIld.s 			page 51
 
 
  2730 0a97 06000000 		.4byte	.LBE9-.LBB9
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  2784 0b04 CA000000 		.4byte	0xca
  2785 0b08 01       		.uleb128 0x1
  2786 0b09 53       		.byte	0x53
-ARM GAS  /tmp/ccqoeBDi.s 			page 52
+ARM GAS  /tmp/ccieCIld.s 			page 52
 
 
  2787 0b0a 00       		.byte	0
@@ -3089,7 +3089,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  2812 0b39 91       		.byte	0x91
  2813 0b3a 70       		.sleb128 -16
  2814 0b3b 1B       		.uleb128 0x1b
- 2815 0b3c A2010000 		.4byte	.LASF137
+ 2815 0b3c CC010000 		.4byte	.LASF137
  2816 0b40 01       		.byte	0x1
  2817 0b41 DA       		.byte	0xda
  2818 0b42 8A0B0000 		.4byte	0xb8a
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  2841 0b71 00       		.byte	0
  2842 0b72 1E       		.uleb128 0x1e
  2843 0b73 58000000 		.4byte	.LBB13
-ARM GAS  /tmp/ccqoeBDi.s 			page 53
+ARM GAS  /tmp/ccieCIld.s 			page 53
 
 
  2844 0b77 06000000 		.4byte	.LBE13-.LBB13
@@ -3136,7 +3136,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  2856 0b8c 900B0000 		.4byte	0xb90
  2857 0b90 20       		.uleb128 0x20
  2858 0b91 1A       		.uleb128 0x1a
- 2859 0b92 E3010000 		.4byte	.LASF139
+ 2859 0b92 0D020000 		.4byte	.LASF139
  2860 0b96 01       		.byte	0x1
  2861 0b97 F4       		.byte	0xf4
  2862 0b98 00000000 		.4byte	.LFB126
@@ -3161,7 +3161,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  2881 0bbe 91       		.byte	0x91
  2882 0bbf 70       		.sleb128 -16
  2883 0bc0 1B       		.uleb128 0x1b
- 2884 0bc1 A2010000 		.4byte	.LASF137
+ 2884 0bc1 CC010000 		.4byte	.LASF137
  2885 0bc5 01       		.byte	0x1
  2886 0bc6 F4       		.byte	0xf4
  2887 0bc7 8A0B0000 		.4byte	0xb8a
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  2898 0be1 F9       		.byte	0xf9
  2899 0be2 CA000000 		.4byte	0xca
  2900 0be6 01       		.uleb128 0x1
-ARM GAS  /tmp/ccqoeBDi.s 			page 54
+ARM GAS  /tmp/ccieCIld.s 			page 54
 
 
  2901 0be7 53       		.byte	0x53
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  2955 0c55 1301     		.2byte	0x113
  2956 0c57 CA000000 		.4byte	0xca
  2957 0c5b 01       		.uleb128 0x1
-ARM GAS  /tmp/ccqoeBDi.s 			page 55
+ARM GAS  /tmp/ccieCIld.s 			page 55
 
 
  2958 0c5c 53       		.byte	0x53
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  3012 0cce 24       		.uleb128 0x24
  3013 0ccf 746D7000 		.ascii	"tmp\000"
  3014 0cd3 01       		.byte	0x1
-ARM GAS  /tmp/ccqoeBDi.s 			page 56
+ARM GAS  /tmp/ccieCIld.s 			page 56
 
 
  3015 0cd4 3101     		.2byte	0x131
@@ -3333,7 +3333,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  3044 0d0e 91       		.byte	0x91
  3045 0d0f 70       		.sleb128 -16
  3046 0d10 22       		.uleb128 0x22
- 3047 0d11 A2010000 		.4byte	.LASF137
+ 3047 0d11 CC010000 		.4byte	.LASF137
  3048 0d15 01       		.byte	0x1
  3049 0d16 4701     		.2byte	0x147
  3050 0d18 8A0B0000 		.4byte	0xb8a
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  3069 0d41 4C01     		.2byte	0x14c
  3070 0d43 CA000000 		.4byte	0xca
  3071 0d47 01       		.uleb128 0x1
-ARM GAS  /tmp/ccqoeBDi.s 			page 57
+ARM GAS  /tmp/ccieCIld.s 			page 57
 
 
  3072 0d48 53       		.byte	0x53
@@ -3401,7 +3401,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  3109 0d93 91       		.byte	0x91
  3110 0d94 70       		.sleb128 -16
  3111 0d95 22       		.uleb128 0x22
- 3112 0d96 A2010000 		.4byte	.LASF137
+ 3112 0d96 CC010000 		.4byte	.LASF137
  3113 0d9a 01       		.byte	0x1
  3114 0d9b 6501     		.2byte	0x165
  3115 0d9d 8A0B0000 		.4byte	0xb8a
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  3126 0db7 6901     		.2byte	0x169
  3127 0db9 CA000000 		.4byte	0xca
  3128 0dbd 01       		.uleb128 0x1
-ARM GAS  /tmp/ccqoeBDi.s 			page 58
+ARM GAS  /tmp/ccieCIld.s 			page 58
 
 
  3129 0dbe 53       		.byte	0x53
@@ -3436,7 +3436,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  3141 0dd7 00       		.byte	0
  3142 0dd8 00       		.byte	0
  3143 0dd9 21       		.uleb128 0x21
- 3144 0dda AF010000 		.4byte	.LASF144
+ 3144 0dda D9010000 		.4byte	.LASF144
  3145 0dde 01       		.byte	0x1
  3146 0ddf 8101     		.2byte	0x181
  3147 0de1 00000000 		.4byte	.LFB131
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  3183 0e2d 8601     		.2byte	0x186
  3184 0e2f CA000000 		.4byte	0xca
  3185 0e33 01       		.uleb128 0x1
-ARM GAS  /tmp/ccqoeBDi.s 			page 59
+ARM GAS  /tmp/ccieCIld.s 			page 59
 
 
  3186 0e34 53       		.byte	0x53
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  3240 0ea2 8C040000 		.4byte	0x48c
  3241 0ea6 26       		.uleb128 0x26
  3242 0ea7 93000000 		.4byte	.LASF148
-ARM GAS  /tmp/ccqoeBDi.s 			page 60
+ARM GAS  /tmp/ccieCIld.s 			page 60
 
 
  3243 0eab 10       		.byte	0x10
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  3297 0030 03       		.uleb128 0x3
  3298 0031 0E       		.uleb128 0xe
  3299 0032 00       		.byte	0
-ARM GAS  /tmp/ccqoeBDi.s 			page 61
+ARM GAS  /tmp/ccieCIld.s 			page 61
 
 
  3300 0033 00       		.byte	0
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  3354 0069 0B       		.uleb128 0xb
  3355 006a 01       		.uleb128 0x1
  3356 006b 13       		.uleb128 0x13
-ARM GAS  /tmp/ccqoeBDi.s 			page 62
+ARM GAS  /tmp/ccieCIld.s 			page 62
 
 
  3357 006c 00       		.byte	0
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  3411 00a2 00       		.byte	0
  3412 00a3 0E       		.uleb128 0xe
  3413 00a4 17       		.uleb128 0x17
-ARM GAS  /tmp/ccqoeBDi.s 			page 63
+ARM GAS  /tmp/ccieCIld.s 			page 63
 
 
  3414 00a5 01       		.byte	0x1
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  3468 00db 13       		.uleb128 0x13
  3469 00dc 38       		.uleb128 0x38
  3470 00dd 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccqoeBDi.s 			page 64
+ARM GAS  /tmp/ccieCIld.s 			page 64
 
 
  3471 00de 00       		.byte	0
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  3525 0114 19       		.uleb128 0x19
  3526 0115 01       		.uleb128 0x1
  3527 0116 13       		.uleb128 0x13
-ARM GAS  /tmp/ccqoeBDi.s 			page 65
+ARM GAS  /tmp/ccieCIld.s 			page 65
 
 
  3528 0117 00       		.byte	0
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  3582 014f 13       		.uleb128 0x13
  3583 0150 00       		.byte	0
  3584 0151 00       		.byte	0
-ARM GAS  /tmp/ccqoeBDi.s 			page 66
+ARM GAS  /tmp/ccieCIld.s 			page 66
 
 
  3585 0152 1B       		.uleb128 0x1b
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  3639 0188 08       		.uleb128 0x8
  3640 0189 3A       		.uleb128 0x3a
  3641 018a 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccqoeBDi.s 			page 67
+ARM GAS  /tmp/ccieCIld.s 			page 67
 
 
  3642 018b 3B       		.uleb128 0x3b
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  3696 01c2 05       		.uleb128 0x5
  3697 01c3 00       		.byte	0
  3698 01c4 03       		.uleb128 0x3
-ARM GAS  /tmp/ccqoeBDi.s 			page 68
+ARM GAS  /tmp/ccieCIld.s 			page 68
 
 
  3699 01c5 08       		.uleb128 0x8
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  3753 01fb 3F       		.uleb128 0x3f
  3754 01fc 19       		.uleb128 0x19
  3755 01fd 3C       		.uleb128 0x3c
-ARM GAS  /tmp/ccqoeBDi.s 			page 69
+ARM GAS  /tmp/ccieCIld.s 			page 69
 
 
  3756 01fe 19       		.uleb128 0x19
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  3810 0018 00000000 		.4byte	.LFB121
  3811 001c 5C000000 		.4byte	.LFE121
  3812 0020 00000000 		.4byte	.LFB122
-ARM GAS  /tmp/ccqoeBDi.s 			page 70
+ARM GAS  /tmp/ccieCIld.s 			page 70
 
 
  3813 0024 48000000 		.4byte	.LFE122
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  3855              	.LASF3:
  3856 0033 5F5F7569 		.ascii	"__uint8_t\000"
  3856      6E74385F 
-ARM GAS  /tmp/ccqoeBDi.s 			page 71
+ARM GAS  /tmp/ccieCIld.s 			page 71
 
 
  3856      7400
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  3885              	.LASF103:
  3886 00c7 42535252 		.ascii	"BSRR\000"
  3886      00
-ARM GAS  /tmp/ccqoeBDi.s 			page 72
+ARM GAS  /tmp/ccieCIld.s 			page 72
 
 
  3887              	.LASF110:
@@ -4318,86 +4318,86 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  3916 0153 4F535045 		.ascii	"OSPEEDR\000"
  3916      45445200 
  3917              	.LASF60:
-ARM GAS  /tmp/ccqoeBDi.s 			page 73
+ARM GAS  /tmp/ccieCIld.s 			page 73
 
 
  3918 015b 725F6E65 		.ascii	"r_newer\000"
  3918      77657200 
- 3919              	.LASF49:
- 3920 0163 705F6D70 		.ascii	"p_mpool\000"
- 3920      6F6F6C00 
+ 3919              	.LASF150:
+ 3920 0163 2F686F6D 		.ascii	"/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/spi.c\000"
+ 3920      652F6572 
+ 3920      6761652F 
+ 3920      7232702D 
+ 3920      73646B2F 
  3921              	.LASF52:
- 3922 016b 72656761 		.ascii	"regarm_t\000"
+ 3922 0195 72656761 		.ascii	"regarm_t\000"
  3922      726D5F74 
  3922      00
  3923              	.LASF95:
- 3924 0174 73656C66 		.ascii	"selfindex\000"
+ 3924 019e 73656C66 		.ascii	"selfindex\000"
  3924      696E6465 
  3924      7800
  3925              	.LASF134:
- 3926 017e 73706955 		.ascii	"spiUnselect\000"
+ 3926 01a8 73706955 		.ascii	"spiUnselect\000"
  3926      6E73656C 
  3926      65637400 
  3927              	.LASF37:
- 3928 018a 705F7374 		.ascii	"p_stklimit\000"
+ 3928 01b4 705F7374 		.ascii	"p_stklimit\000"
  3928      6B6C696D 
  3928      697400
  3929              	.LASF0:
- 3930 0195 756E7369 		.ascii	"unsigned int\000"
+ 3930 01bf 756E7369 		.ascii	"unsigned int\000"
  3930      676E6564 
  3930      20696E74 
  3930      00
  3931              	.LASF137:
- 3932 01a2 74786275 		.ascii	"txbuf\000"
+ 3932 01cc 74786275 		.ascii	"txbuf\000"
  3932      6600
  3933              	.LASF42:
- 3934 01a8 705F7469 		.ascii	"p_time\000"
+ 3934 01d2 705F7469 		.ascii	"p_time\000"
  3934      6D6500
  3935              	.LASF144:
- 3936 01af 73706952 		.ascii	"spiReceive\000"
+ 3936 01d9 73706952 		.ascii	"spiReceive\000"
  3936      65636569 
  3936      766500
  3937              	.LASF74:
- 3938 01ba 43504152 		.ascii	"CPAR\000"
+ 3938 01e4 43504152 		.ascii	"CPAR\000"
  3938      00
  3939              	.LASF44:
- 3940 01bf 705F6D73 		.ascii	"p_msgqueue\000"
+ 3940 01e9 705F6D73 		.ascii	"p_msgqueue\000"
  3940      67717565 
  3940      756500
  3941              	.LASF107:
- 3942 01ca 4750494F 		.ascii	"GPIO_TypeDef\000"
+ 3942 01f4 4750494F 		.ascii	"GPIO_TypeDef\000"
  3942      5F547970 
  3942      65446566 
  3942      00
  3943              	.LASF104:
- 3944 01d7 4C434B52 		.ascii	"LCKR\000"
+ 3944 0201 4C434B52 		.ascii	"LCKR\000"
  3944      00
  3945              	.LASF94:
- 3946 01dc 69736869 		.ascii	"ishift\000"
+ 3946 0206 69736869 		.ascii	"ishift\000"
  3946      667400
+ARM GAS  /tmp/ccieCIld.s 			page 74
+
+
  3947              	.LASF139:
- 3948 01e3 73706953 		.ascii	"spiStartSend\000"
+ 3948 020d 73706953 		.ascii	"spiStartSend\000"
  3948      74617274 
-ARM GAS  /tmp/ccqoeBDi.s 			page 74
-
-
  3948      53656E64 
  3948      00
  3949              	.LASF7:
- 3950 01f0 73686F72 		.ascii	"short unsigned int\000"
+ 3950 021a 73686F72 		.ascii	"short unsigned int\000"
  3950      7420756E 
  3950      7369676E 
  3950      65642069 
  3950      6E7400
- 3951              	.LASF26:
- 3952 0203 6D73675F 		.ascii	"msg_t\000"
- 3952      7400
- 3953              	.LASF150:
- 3954 0209 2F686F6D 		.ascii	"/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/spi.c\000"
- 3954      652F6465 
- 3954      6E6E792F 
- 3954      7232702D 
- 3954      73646B2F 
+ 3951              	.LASF49:
+ 3952 022d 705F6D70 		.ascii	"p_mpool\000"
+ 3952      6F6F6C00 
+ 3953              	.LASF26:
+ 3954 0235 6D73675F 		.ascii	"msg_t\000"
+ 3954      7400
  3955              	.LASF21:
  3956 023b 746D6F64 		.ascii	"tmode_t\000"
  3956      655F7400 
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  3976 029b 49325350 		.ascii	"I2SPR\000"
  3976      5200
  3977              	.LASF56:
-ARM GAS  /tmp/ccqoeBDi.s 			page 75
+ARM GAS  /tmp/ccieCIld.s 			page 75
 
 
  3978 02a1 73697A65 		.ascii	"sizetype\000"
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  4006      435200
  4007              	.LASF77:
  4008 032c 52455345 		.ascii	"RESERVED0\000"
-ARM GAS  /tmp/ccqoeBDi.s 			page 76
+ARM GAS  /tmp/ccieCIld.s 			page 76
 
 
  4008      52564544 
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  4036      7265616D 
  4036      5F7400
  4037              	.LASF47:
-ARM GAS  /tmp/ccqoeBDi.s 			page 77
+ARM GAS  /tmp/ccieCIld.s 			page 77
 
 
  4038 03c0 705F6D74 		.ascii	"p_mtxlist\000"
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  4066      7400
  4067              	.LASF91:
  4068 044f 5350495F 		.ascii	"SPI_TypeDef\000"
-ARM GAS  /tmp/ccqoeBDi.s 			page 78
+ARM GAS  /tmp/ccieCIld.s 			page 78
 
 
  4068      54797065 
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  4096      72746964 
  4096      5F7400
  4097              	.LASF55:
-ARM GAS  /tmp/ccqoeBDi.s 			page 79
+ARM GAS  /tmp/ccieCIld.s 			page 79
 
 
  4098 04e5 636F6E74 		.ascii	"context\000"
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  4129              	.LASF143:
  4130 0567 73706953 		.ascii	"spiSend\000"
  4130      656E6400 
-ARM GAS  /tmp/ccqoeBDi.s 			page 80
+ARM GAS  /tmp/ccieCIld.s 			page 80
 
 
  4131              	.LASF128:
@@ -4793,74 +4793,74 @@ ARM GAS  /tmp/ccqoeBDi.s 			page 1
  4149      6974696E 
  4149      6700
  4150              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccqoeBDi.s 			page 81
+ARM GAS  /tmp/ccieCIld.s 			page 81
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 spi.c
-     /tmp/ccqoeBDi.s:21     .text.spiInit:00000000 $t
-     /tmp/ccqoeBDi.s:27     .text.spiInit:00000000 spiInit
-     /tmp/ccqoeBDi.s:46     .text.spiObjectInit:00000000 $t
-     /tmp/ccqoeBDi.s:52     .text.spiObjectInit:00000000 spiObjectInit
-     /tmp/ccqoeBDi.s:90     .rodata:00000000 $d
-     /tmp/ccqoeBDi.s:97     .text.spiStart:00000000 $t
-     /tmp/ccqoeBDi.s:103    .text.spiStart:00000000 spiStart
-     /tmp/ccqoeBDi.s:180    .text.spiStart:0000005c $d
-     /tmp/ccqoeBDi.s:193    .text.spiStop:00000000 $t
-     /tmp/ccqoeBDi.s:199    .text.spiStop:00000000 spiStop
-     /tmp/ccqoeBDi.s:269    .text.spiStop:00000054 $d
-     /tmp/ccqoeBDi.s:282    .text.spiSelect:00000000 $t
-     /tmp/ccqoeBDi.s:288    .text.spiSelect:00000000 spiSelect
-     /tmp/ccqoeBDi.s:346    .text.spiSelect:00000040 $d
-     /tmp/ccqoeBDi.s:359    .text.spiUnselect:00000000 $t
-     /tmp/ccqoeBDi.s:365    .text.spiUnselect:00000000 spiUnselect
-     /tmp/ccqoeBDi.s:423    .text.spiUnselect:00000040 $d
-     /tmp/ccqoeBDi.s:436    .text.spiStartIgnore:00000000 $t
-     /tmp/ccqoeBDi.s:442    .text.spiStartIgnore:00000000 spiStartIgnore
-     /tmp/ccqoeBDi.s:510    .text.spiStartIgnore:00000050 $d
-     /tmp/ccqoeBDi.s:523    .text.spiStartExchange:00000000 $t
-     /tmp/ccqoeBDi.s:529    .text.spiStartExchange:00000000 spiStartExchange
-     /tmp/ccqoeBDi.s:609    .text.spiStartExchange:00000064 $d
-     /tmp/ccqoeBDi.s:622    .text.spiStartSend:00000000 $t
-     /tmp/ccqoeBDi.s:628    .text.spiStartSend:00000000 spiStartSend
-     /tmp/ccqoeBDi.s:702    .text.spiStartSend:0000005c $d
-     /tmp/ccqoeBDi.s:715    .text.spiStartReceive:00000000 $t
-     /tmp/ccqoeBDi.s:721    .text.spiStartReceive:00000000 spiStartReceive
-     /tmp/ccqoeBDi.s:795    .text.spiStartReceive:0000005c $d
-     /tmp/ccqoeBDi.s:814    .text.spiIgnore:00000000 $t
-     /tmp/ccqoeBDi.s:820    .text.spiIgnore:00000000 spiIgnore
-     /tmp/ccqoeBDi.s:914    .text.spiIgnore:0000007c $d
-     /tmp/ccqoeBDi.s:933    .text.spiExchange:00000000 $t
-     /tmp/ccqoeBDi.s:939    .text.spiExchange:00000000 spiExchange
-     /tmp/ccqoeBDi.s:1045   .text.spiExchange:00000090 $d
-     /tmp/ccqoeBDi.s:1064   .text.spiSend:00000000 $t
-     /tmp/ccqoeBDi.s:1070   .text.spiSend:00000000 spiSend
-     /tmp/ccqoeBDi.s:1170   .text.spiSend:00000088 $d
-     /tmp/ccqoeBDi.s:1189   .text.spiReceive:00000000 $t
-     /tmp/ccqoeBDi.s:1195   .text.spiReceive:00000000 spiReceive
-     /tmp/ccqoeBDi.s:1295   .text.spiReceive:00000088 $d
-     /tmp/ccqoeBDi.s:1308   .text.spiAcquireBus:00000000 $t
-     /tmp/ccqoeBDi.s:1314   .text.spiAcquireBus:00000000 spiAcquireBus
-     /tmp/ccqoeBDi.s:1347   .text.spiAcquireBus:00000024 $d
-     /tmp/ccqoeBDi.s:1356   .text.spiReleaseBus:00000000 $t
-     /tmp/ccqoeBDi.s:1362   .text.spiReleaseBus:00000000 spiReleaseBus
-     /tmp/ccqoeBDi.s:1392   .text.spiReleaseBus:0000001c $d
+     /tmp/ccieCIld.s:21     .text.spiInit:00000000 $t
+     /tmp/ccieCIld.s:27     .text.spiInit:00000000 spiInit
+     /tmp/ccieCIld.s:46     .text.spiObjectInit:00000000 $t
+     /tmp/ccieCIld.s:52     .text.spiObjectInit:00000000 spiObjectInit
+     /tmp/ccieCIld.s:90     .rodata:00000000 $d
+     /tmp/ccieCIld.s:97     .text.spiStart:00000000 $t
+     /tmp/ccieCIld.s:103    .text.spiStart:00000000 spiStart
+     /tmp/ccieCIld.s:180    .text.spiStart:0000005c $d
+     /tmp/ccieCIld.s:193    .text.spiStop:00000000 $t
+     /tmp/ccieCIld.s:199    .text.spiStop:00000000 spiStop
+     /tmp/ccieCIld.s:269    .text.spiStop:00000054 $d
+     /tmp/ccieCIld.s:282    .text.spiSelect:00000000 $t
+     /tmp/ccieCIld.s:288    .text.spiSelect:00000000 spiSelect
+     /tmp/ccieCIld.s:346    .text.spiSelect:00000040 $d
+     /tmp/ccieCIld.s:359    .text.spiUnselect:00000000 $t
+     /tmp/ccieCIld.s:365    .text.spiUnselect:00000000 spiUnselect
+     /tmp/ccieCIld.s:423    .text.spiUnselect:00000040 $d
+     /tmp/ccieCIld.s:436    .text.spiStartIgnore:00000000 $t
+     /tmp/ccieCIld.s:442    .text.spiStartIgnore:00000000 spiStartIgnore
+     /tmp/ccieCIld.s:510    .text.spiStartIgnore:00000050 $d
+     /tmp/ccieCIld.s:523    .text.spiStartExchange:00000000 $t
+     /tmp/ccieCIld.s:529    .text.spiStartExchange:00000000 spiStartExchange
+     /tmp/ccieCIld.s:609    .text.spiStartExchange:00000064 $d
+     /tmp/ccieCIld.s:622    .text.spiStartSend:00000000 $t
+     /tmp/ccieCIld.s:628    .text.spiStartSend:00000000 spiStartSend
+     /tmp/ccieCIld.s:702    .text.spiStartSend:0000005c $d
+     /tmp/ccieCIld.s:715    .text.spiStartReceive:00000000 $t
+     /tmp/ccieCIld.s:721    .text.spiStartReceive:00000000 spiStartReceive
+     /tmp/ccieCIld.s:795    .text.spiStartReceive:0000005c $d
+     /tmp/ccieCIld.s:814    .text.spiIgnore:00000000 $t
+     /tmp/ccieCIld.s:820    .text.spiIgnore:00000000 spiIgnore
+     /tmp/ccieCIld.s:914    .text.spiIgnore:0000007c $d
+     /tmp/ccieCIld.s:933    .text.spiExchange:00000000 $t
+     /tmp/ccieCIld.s:939    .text.spiExchange:00000000 spiExchange
+     /tmp/ccieCIld.s:1045   .text.spiExchange:00000090 $d
+     /tmp/ccieCIld.s:1064   .text.spiSend:00000000 $t
+     /tmp/ccieCIld.s:1070   .text.spiSend:00000000 spiSend
+     /tmp/ccieCIld.s:1170   .text.spiSend:00000088 $d
+     /tmp/ccieCIld.s:1189   .text.spiReceive:00000000 $t
+     /tmp/ccieCIld.s:1195   .text.spiReceive:00000000 spiReceive
+     /tmp/ccieCIld.s:1295   .text.spiReceive:00000088 $d
+     /tmp/ccieCIld.s:1308   .text.spiAcquireBus:00000000 $t
+     /tmp/ccieCIld.s:1314   .text.spiAcquireBus:00000000 spiAcquireBus
+     /tmp/ccieCIld.s:1347   .text.spiAcquireBus:00000024 $d
+     /tmp/ccieCIld.s:1356   .text.spiReleaseBus:00000000 $t
+     /tmp/ccieCIld.s:1362   .text.spiReleaseBus:00000000 spiReleaseBus
+     /tmp/ccieCIld.s:1392   .text.spiReleaseBus:0000001c $d
                      .debug_frame:00000010 $d
-     /tmp/ccqoeBDi.s:185    .text.spiStart:00000064 $t
-     /tmp/ccqoeBDi.s:274    .text.spiStop:0000005c $t
-     /tmp/ccqoeBDi.s:351    .text.spiSelect:00000048 $t
-     /tmp/ccqoeBDi.s:428    .text.spiUnselect:00000048 $t
-     /tmp/ccqoeBDi.s:515    .text.spiStartIgnore:00000058 $t
-     /tmp/ccqoeBDi.s:614    .text.spiStartExchange:0000006c $t
-     /tmp/ccqoeBDi.s:707    .text.spiStartSend:00000064 $t
-ARM GAS  /tmp/ccqoeBDi.s 			page 82
+     /tmp/ccieCIld.s:185    .text.spiStart:00000064 $t
+     /tmp/ccieCIld.s:274    .text.spiStop:0000005c $t
+     /tmp/ccieCIld.s:351    .text.spiSelect:00000048 $t
+     /tmp/ccieCIld.s:428    .text.spiUnselect:00000048 $t
+     /tmp/ccieCIld.s:515    .text.spiStartIgnore:00000058 $t
+     /tmp/ccieCIld.s:614    .text.spiStartExchange:0000006c $t
+     /tmp/ccieCIld.s:707    .text.spiStartSend:00000064 $t
+ARM GAS  /tmp/ccieCIld.s 			page 82
 
 
-     /tmp/ccqoeBDi.s:800    .text.spiStartReceive:00000064 $t
-     /tmp/ccqoeBDi.s:1053   .text.spiExchange:000000a4 $t
-     /tmp/ccqoeBDi.s:1178   .text.spiSend:0000009c $t
-     /tmp/ccqoeBDi.s:1303   .text.spiReceive:0000009c $t
-     /tmp/ccqoeBDi.s:1351   .text.spiAcquireBus:00000028 $t
+     /tmp/ccieCIld.s:800    .text.spiStartReceive:00000064 $t
+     /tmp/ccieCIld.s:1053   .text.spiExchange:000000a4 $t
+     /tmp/ccieCIld.s:1178   .text.spiSend:0000009c $t
+     /tmp/ccieCIld.s:1303   .text.spiReceive:0000009c $t
+     /tmp/ccieCIld.s:1351   .text.spiAcquireBus:00000028 $t
 
 UNDEFINED SYMBOLS
 spi_lld_init

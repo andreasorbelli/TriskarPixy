@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccLAr4y9.s 			page 1
+ARM GAS  /tmp/ccZf7yW5.s 			page 1
 
 
    1              		.syntax unified
@@ -21,11 +21,11 @@ ARM GAS  /tmp/ccLAr4y9.s 			page 1
   18              	.Ltext0:
   19              		.cfi_sections	.debug_frame
   20              	.Letext0:
-  21              		.file 1 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/c++/4.9.3/cs
-  22              		.file 2 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/string.h"
-  23              		.file 3 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/lib/gcc/arm-none-eabi/4.9.3/includ
+  21              		.file 1 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/c++/4.9.3/cs
+  22              		.file 2 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/string.h"
+  23              		.file 3 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/lib/gcc/arm-none-eabi/4.9.3/includ
   24              		.file 4 "<built-in>"
-  25              		.file 5 "/home/denny/r2p-sdk/core/Middleware/include/r2p/Uncopyable.hpp"
+  25              		.file 5 "/home/ergae/r2p-sdk/core/Middleware/include/r2p/Uncopyable.hpp"
   26              		.section	.debug_info,"",%progbits
   27              	.Ldebug_info0:
   28 0000 28010000 		.4byte	0x128
@@ -33,10 +33,10 @@ ARM GAS  /tmp/ccLAr4y9.s 			page 1
   30 0006 00000000 		.4byte	.Ldebug_abbrev0
   31 000a 04       		.byte	0x4
   32 000b 01       		.uleb128 0x1
-  33 000c 9B000000 		.4byte	.LASF16
+  33 000c 7A000000 		.4byte	.LASF16
   34 0010 04       		.byte	0x4
-  35 0011 08020000 		.4byte	.LASF17
-  36 0015 5E000000 		.4byte	.LASF18
+  35 0011 29020000 		.4byte	.LASF17
+  36 0015 DD010000 		.4byte	.LASF18
   37 0019 00000000 		.4byte	.Ldebug_line0
   38 001d 02       		.uleb128 0x2
   39 001e 04       		.byte	0x4
@@ -54,18 +54,18 @@ ARM GAS  /tmp/ccLAr4y9.s 			page 1
   51 0036 04       		.uleb128 0x4
   52 0037 01       		.byte	0x1
   53 0038 06       		.byte	0x6
-  54 0039 4C020000 		.4byte	.LASF1
+  54 0039 1D020000 		.4byte	.LASF1
   55 003d 04       		.uleb128 0x4
   56 003e 01       		.byte	0x1
   57 003f 08       		.byte	0x8
-ARM GAS  /tmp/ccLAr4y9.s 			page 2
+ARM GAS  /tmp/ccZf7yW5.s 			page 2
 
 
-  58 0040 8D000000 		.4byte	.LASF2
+  58 0040 6C000000 		.4byte	.LASF2
   59 0044 04       		.uleb128 0x4
   60 0045 02       		.byte	0x2
   61 0046 05       		.byte	0x5
-  62 0047 FE010000 		.4byte	.LASF3
+  62 0047 0C020000 		.4byte	.LASF3
   63 004b 04       		.uleb128 0x4
   64 004c 02       		.byte	0x2
   65 004d 07       		.byte	0x7
@@ -73,7 +73,7 @@ ARM GAS  /tmp/ccLAr4y9.s 			page 1
   67 0052 04       		.uleb128 0x4
   68 0053 04       		.byte	0x4
   69 0054 05       		.byte	0x5
-  70 0055 F5010000 		.4byte	.LASF5
+  70 0055 D4010000 		.4byte	.LASF5
   71 0059 04       		.uleb128 0x4
   72 005a 04       		.byte	0x4
   73 005b 07       		.byte	0x7
@@ -89,14 +89,14 @@ ARM GAS  /tmp/ccLAr4y9.s 			page 1
   83 006e 04       		.uleb128 0x4
   84 006f 04       		.byte	0x4
   85 0070 07       		.byte	0x7
-  86 0071 60020000 		.4byte	.LASF9
+  86 0071 6E020000 		.4byte	.LASF9
   87 0075 05       		.uleb128 0x5
   88 0076 04       		.byte	0x4
   89 0077 7B000000 		.4byte	0x7b
   90 007b 04       		.uleb128 0x4
   91 007c 01       		.byte	0x1
   92 007d 08       		.byte	0x8
-  93 007e E8010000 		.4byte	.LASF10
+  93 007e C7010000 		.4byte	.LASF10
   94 0082 05       		.uleb128 0x5
   95 0083 04       		.byte	0x4
   96 0084 88000000 		.4byte	0x88
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccLAr4y9.s 			page 1
  112 00a6 08       		.uleb128 0x8
  113 00a7 01       		.byte	0x1
  114 00a8 5B       		.byte	0x5b
-ARM GAS  /tmp/ccLAr4y9.s 			page 3
+ARM GAS  /tmp/ccZf7yW5.s 			page 3
 
 
  115 00a9 E4000000 		.4byte	0xe4
@@ -128,7 +128,7 @@ ARM GAS  /tmp/ccLAr4y9.s 			page 1
  119 00b0 FE000000 		.4byte	0xfe
  120 00b4 00       		.byte	0
  121 00b5 09       		.uleb128 0x9
- 122 00b6 58020000 		.4byte	.LASF11
+ 122 00b6 66020000 		.4byte	.LASF11
  123 00ba 02       		.byte	0x2
  124 00bb 1D       		.byte	0x1d
  125 00bc 1D000000 		.4byte	0x1d
@@ -139,7 +139,7 @@ ARM GAS  /tmp/ccLAr4y9.s 			page 1
  130 00ca 82000000 		.4byte	0x82
  131 00ce 00       		.byte	0
  132 00cf 09       		.uleb128 0x9
- 133 00d0 84000000 		.4byte	.LASF12
+ 133 00d0 63000000 		.4byte	.LASF12
  134 00d4 02       		.byte	0x2
  135 00d5 20       		.byte	0x20
  136 00d6 75000000 		.4byte	0x75
@@ -148,7 +148,7 @@ ARM GAS  /tmp/ccLAr4y9.s 			page 1
  139 00df 1D000000 		.4byte	0x1d
  140 00e3 00       		.byte	0
  141 00e4 09       		.uleb128 0x9
- 142 00e5 45020000 		.4byte	.LASF13
+ 142 00e5 16020000 		.4byte	.LASF13
  143 00e9 02       		.byte	0x2
  144 00ea 2A       		.byte	0x2a
  145 00eb 75000000 		.4byte	0x75
@@ -159,7 +159,7 @@ ARM GAS  /tmp/ccLAr4y9.s 			page 1
  150 00f9 82000000 		.4byte	0x82
  151 00fd 00       		.byte	0
  152 00fe 09       		.uleb128 0x9
- 153 00ff ED010000 		.4byte	.LASF14
+ 153 00ff CC010000 		.4byte	.LASF14
  154 0103 02       		.byte	0x2
  155 0104 2C       		.byte	0x2c
  156 0105 24000000 		.4byte	0x24
@@ -178,10 +178,10 @@ ARM GAS  /tmp/ccLAr4y9.s 			page 1
  169 0124 04       		.uleb128 0x4
  170 0125 01       		.byte	0x1
  171 0126 02       		.byte	0x2
-ARM GAS  /tmp/ccLAr4y9.s 			page 4
+ARM GAS  /tmp/ccZf7yW5.s 			page 4
 
 
- 172 0127 7F000000 		.4byte	.LASF15
+ 172 0127 5E000000 		.4byte	.LASF15
  173 012b 00       		.byte	0
  174              		.section	.debug_abbrev,"",%progbits
  175              	.Ldebug_abbrev0:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccLAr4y9.s 			page 1
  226 0032 05       		.uleb128 0x5
  227 0033 0F       		.uleb128 0xf
  228 0034 00       		.byte	0
-ARM GAS  /tmp/ccLAr4y9.s 			page 5
+ARM GAS  /tmp/ccZf7yW5.s 			page 5
 
 
  229 0035 0B       		.uleb128 0xb
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccLAr4y9.s 			page 1
  283 006b 00       		.byte	0
  284 006c 00       		.byte	0
  285 006d 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccLAr4y9.s 			page 6
+ARM GAS  /tmp/ccZf7yW5.s 			page 6
 
 
  286 006e 05       		.uleb128 0x5
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccLAr4y9.s 			page 1
  325              	.LASF6:
  326 0035 6C6F6E67 		.ascii	"long unsigned int\000"
  326      20756E73 
-ARM GAS  /tmp/ccLAr4y9.s 			page 7
+ARM GAS  /tmp/ccZf7yW5.s 			page 7
 
 
  326      69676E65 
@@ -370,102 +370,102 @@ ARM GAS  /tmp/ccLAr4y9.s 			page 1
  328      6720756E 
  328      7369676E 
  328      65642069 
- 329              	.LASF18:
- 330 005e 2F686F6D 		.ascii	"/home/denny/git/TriskarPixy/USB/\000"
- 330      652F6465 
- 330      6E6E792F 
- 330      6769742F 
- 330      54726973 
- 331              	.LASF15:
- 332 007f 626F6F6C 		.ascii	"bool\000"
+ 329              	.LASF15:
+ 330 005e 626F6F6C 		.ascii	"bool\000"
+ 330      00
+ 331              	.LASF12:
+ 332 0063 73747265 		.ascii	"strerror\000"
+ 332      72726F72 
  332      00
- 333              	.LASF12:
- 334 0084 73747265 		.ascii	"strerror\000"
- 334      72726F72 
- 334      00
- 335              	.LASF2:
- 336 008d 756E7369 		.ascii	"unsigned char\000"
- 336      676E6564 
- 336      20636861 
- 336      7200
- 337              	.LASF16:
- 338 009b 474E5520 		.ascii	"GNU C++ 4.9.3 20141119 (release) [ARM/embedded-4_9-"
- 338      432B2B20 
- 338      342E392E 
- 338      33203230 
- 338      31343131 
- 339 00ce 6272616E 		.ascii	"branch revision 218278] -mcpu=cortex-m4 -mfloat-abi"
- 339      63682072 
- 339      65766973 
- 339      696F6E20 
- 339      32313832 
- 340 0101 3D686172 		.ascii	"=hard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthum"
- 340      64202D6D 
- 340      6670753D 
- 340      66707634 
- 340      2D73702D 
- 341 0134 62202D67 		.ascii	"b -ggdb -O0 -fomit-frame-pointer -falign-functions="
- 341      67646220 
- 341      2D4F3020 
- 341      2D666F6D 
- 341      69742D66 
- 342 0167 3136202D 		.ascii	"16 -ffunction-sections -fdata-sections -fno-common "
- 342      6666756E 
- 342      6374696F 
- 342      6E2D7365 
- 342      6374696F 
- 343 019a 2D667369 		.ascii	"-fsingle-precision-constant -fno-rtti -fno-exceptio"
- 343      6E676C65 
- 343      2D707265 
- 343      63697369 
-ARM GAS  /tmp/ccLAr4y9.s 			page 8
+ 333              	.LASF2:
+ 334 006c 756E7369 		.ascii	"unsigned char\000"
+ 334      676E6564 
+ 334      20636861 
+ 334      7200
+ 335              	.LASF16:
+ 336 007a 474E5520 		.ascii	"GNU C++ 4.9.3 20141119 (release) [ARM/embedded-4_9-"
+ 336      432B2B20 
+ 336      342E392E 
+ 336      33203230 
+ 336      31343131 
+ 337 00ad 6272616E 		.ascii	"branch revision 218278] -mcpu=cortex-m4 -mfloat-abi"
+ 337      63682072 
+ 337      65766973 
+ 337      696F6E20 
+ 337      32313832 
+ 338 00e0 3D686172 		.ascii	"=hard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthum"
+ 338      64202D6D 
+ 338      6670753D 
+ 338      66707634 
+ 338      2D73702D 
+ 339 0113 62202D67 		.ascii	"b -ggdb -O0 -fomit-frame-pointer -falign-functions="
+ 339      67646220 
+ 339      2D4F3020 
+ 339      2D666F6D 
+ 339      69742D66 
+ 340 0146 3136202D 		.ascii	"16 -ffunction-sections -fdata-sections -fno-common "
+ 340      6666756E 
+ 340      6374696F 
+ 340      6E2D7365 
+ 340      6374696F 
+ 341 0179 2D667369 		.ascii	"-fsingle-precision-constant -fno-rtti -fno-exceptio"
+ 341      6E676C65 
+ 341      2D707265 
+ 341      63697369 
+ 341      6F6E2D63 
+ 342 01ac 6E73202D 		.ascii	"ns -fno-threadsafe-statics\000"
+ 342      666E6F2D 
+ 342      74687265 
+ 342      61647361 
+ 342      66652D73 
+ARM GAS  /tmp/ccZf7yW5.s 			page 8
 
 
- 343      6F6E2D63 
- 344 01cd 6E73202D 		.ascii	"ns -fno-threadsafe-statics\000"
- 344      666E6F2D 
- 344      74687265 
- 344      61647361 
- 344      66652D73 
- 345              	.LASF10:
- 346 01e8 63686172 		.ascii	"char\000"
- 346      00
- 347              	.LASF14:
- 348 01ed 73747278 		.ascii	"strxfrm\000"
- 348      66726D00 
- 349              	.LASF5:
- 350 01f5 6C6F6E67 		.ascii	"long int\000"
- 350      20696E74 
- 350      00
+ 343              	.LASF10:
+ 344 01c7 63686172 		.ascii	"char\000"
+ 344      00
+ 345              	.LASF14:
+ 346 01cc 73747278 		.ascii	"strxfrm\000"
+ 346      66726D00 
+ 347              	.LASF5:
+ 348 01d4 6C6F6E67 		.ascii	"long int\000"
+ 348      20696E74 
+ 348      00
+ 349              	.LASF18:
+ 350 01dd 2F686F6D 		.ascii	"/home/ergae/r2p-sdk/workspace-triskarpixy/USB/\000"
+ 350      652F6572 
+ 350      6761652F 
+ 350      7232702D 
+ 350      73646B2F 
  351              	.LASF3:
- 352 01fe 73686F72 		.ascii	"short int\000"
+ 352 020c 73686F72 		.ascii	"short int\000"
  352      7420696E 
  352      7400
- 353              	.LASF17:
- 354 0208 2F686F6D 		.ascii	"/home/denny/r2p-sdk/core/Middleware/src/impl/ArrayQ"
- 354      652F6465 
- 354      6E6E792F 
- 354      7232702D 
- 354      73646B2F 
- 355 023b 75657565 		.ascii	"ueue_.cpp\000"
- 355      5F2E6370 
- 355      7000
- 356              	.LASF13:
- 357 0245 73747274 		.ascii	"strtok\000"
- 357      6F6B00
- 358              	.LASF1:
- 359 024c 7369676E 		.ascii	"signed char\000"
- 359      65642063 
- 359      68617200 
+ 353              	.LASF13:
+ 354 0216 73747274 		.ascii	"strtok\000"
+ 354      6F6B00
+ 355              	.LASF1:
+ 356 021d 7369676E 		.ascii	"signed char\000"
+ 356      65642063 
+ 356      68617200 
+ 357              	.LASF17:
+ 358 0229 2F686F6D 		.ascii	"/home/ergae/r2p-sdk/core/Middleware/src/impl/ArrayQ"
+ 358      652F6572 
+ 358      6761652F 
+ 358      7232702D 
+ 358      73646B2F 
+ 359 025c 75657565 		.ascii	"ueue_.cpp\000"
+ 359      5F2E6370 
+ 359      7000
  360              	.LASF11:
- 361 0258 73747263 		.ascii	"strcoll\000"
+ 361 0266 73747263 		.ascii	"strcoll\000"
  361      6F6C6C00 
  362              	.LASF9:
- 363 0260 73697A65 		.ascii	"sizetype\000"
+ 363 026e 73697A65 		.ascii	"sizetype\000"
  363      74797065 
  363      00
  364              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccLAr4y9.s 			page 9
+ARM GAS  /tmp/ccZf7yW5.s 			page 9
 
 
 DEFINED SYMBOLS

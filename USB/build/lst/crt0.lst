@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccLiE24D.s 			page 1
+ARM GAS  /tmp/ccfW1m10.s 			page 1
 
 
    1              		.syntax unified
@@ -29,7 +29,7 @@ ARM GAS  /tmp/ccLiE24D.s 			page 1
   26              		.type	__early_init, %function
   27              	__early_init:
   28              	.LFB0:
-  29              		.file 1 "/home/denny/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCMx/crt0.c"
+  29              		.file 1 "/home/ergae/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCMx/crt0.c"
   30              		.loc 1 234 0
   31              		.cfi_startproc
   32              		@ args = 0, pretend = 0, frame = 0
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccLiE24D.s 			page 1
   52              		@ frame_needed = 0, uses_anonymous_args = 0
   53              		@ link register save eliminated.
   54              		.loc 1 246 0
-ARM GAS  /tmp/ccLiE24D.s 			page 2
+ARM GAS  /tmp/ccfW1m10.s 			page 2
 
 
   55 0000 7047     		bx	lr
@@ -106,19 +106,19 @@ ARM GAS  /tmp/ccLiE24D.s 			page 1
   91              		@ args = 0, pretend = 0, frame = 0
   92              		@ frame_needed = 0, uses_anonymous_args = 0
   93              		.loc 1 274 0
-  94              	@ 274 "/home/denny/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCMx/crt0.c" 1
+  94              	@ 274 "/home/ergae/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCMx/crt0.c" 1
   95 0000 72B6     		cpsid   i
   96              	@ 0 "" 2
   97              		.loc 1 275 0
   98              		.thumb
   99 0002 2C4C     		ldr	r4, .L18
  100              		.loc 1 276 0
- 101              	@ 276 "/home/denny/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCMx/crt0.c" 1
+ 101              	@ 276 "/home/ergae/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCMx/crt0.c" 1
  102 0004 84F30988 		msr     PSP, r4
  103              	@ 0 "" 2
  104              		.loc 1 280 0
  105              		.thumb
-ARM GAS  /tmp/ccLiE24D.s 			page 3
+ARM GAS  /tmp/ccfW1m10.s 			page 3
 
 
  106 0008 2B4B     		ldr	r3, .L18+4
@@ -133,7 +133,7 @@ ARM GAS  /tmp/ccLiE24D.s 			page 1
  115              		.loc 1 286 0
  116 001c 0024     		movs	r4, #0
  117              		.loc 1 287 0
- 118              	@ 287 "/home/denny/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCMx/crt0.c" 1
+ 118              	@ 287 "/home/ergae/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCMx/crt0.c" 1
  119 001e E1EE104A 		vmsr    FPSCR, r4
  120              	@ 0 "" 2
  121              		.loc 1 288 0
@@ -143,11 +143,11 @@ ARM GAS  /tmp/ccLiE24D.s 			page 1
  125              		.loc 1 291 0
  126 0026 0624     		movs	r4, #6
  127              		.loc 1 296 0
- 128              	@ 296 "/home/denny/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCMx/crt0.c" 1
+ 128              	@ 296 "/home/ergae/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCMx/crt0.c" 1
  129 0028 84F31488 		msr     CONTROL, r4
  130              	@ 0 "" 2
  131              		.loc 1 297 0
- 132              	@ 297 "/home/denny/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCMx/crt0.c" 1
+ 132              	@ 297 "/home/ergae/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCMx/crt0.c" 1
  133 002c BFF36F8F 		isb
  134              	@ 0 "" 2
  135              		.thumb
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccLiE24D.s 			page 1
  160 004c 1C1D     		adds	r4, r3, #4
  161 004e 4FF05532 		mov	r2, #1431655765
  162 0052 1A60     		str	r2, [r3]
-ARM GAS  /tmp/ccLiE24D.s 			page 4
+ARM GAS  /tmp/ccfW1m10.s 			page 4
 
 
  163              	.L8:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccLiE24D.s 			page 1
  217 0090 9847     		blx	r3
  218              		.loc 1 338 0
  219 0092 0434     		adds	r4, r4, #4
-ARM GAS  /tmp/ccLiE24D.s 			page 5
+ARM GAS  /tmp/ccfW1m10.s 			page 5
 
 
  220              	.L14:
@@ -295,10 +295,10 @@ ARM GAS  /tmp/ccLiE24D.s 			page 1
  270      AFF30080 
  270      AFF30080 
  271              	.Letext0:
- 272              		.file 2 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/machine/_def
- 273              		.file 3 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/stdint.h"
+ 272              		.file 2 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/machine/_def
+ 273              		.file 3 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/stdint.h"
  274              		.section	.debug_info,"",%progbits
-ARM GAS  /tmp/ccLiE24D.s 			page 6
+ARM GAS  /tmp/ccfW1m10.s 			page 6
 
 
  275              	.Ldebug_info0:
@@ -307,16 +307,16 @@ ARM GAS  /tmp/ccLiE24D.s 			page 1
  278 0006 00000000 		.4byte	.Ldebug_abbrev0
  279 000a 04       		.byte	0x4
  280 000b 01       		.uleb128 0x1
- 281 000c A0000000 		.4byte	.LASF31
+ 281 000c DC000000 		.4byte	.LASF31
  282 0010 01       		.byte	0x1
- 283 0011 BC020000 		.4byte	.LASF32
+ 283 0011 81000000 		.4byte	.LASF32
  284 0015 00000000 		.4byte	.Ldebug_ranges0+0
  285 0019 00000000 		.4byte	0
  286 001d 00000000 		.4byte	.Ldebug_line0
  287 0021 02       		.uleb128 0x2
  288 0022 01       		.byte	0x1
  289 0023 06       		.byte	0x6
- 290 0024 87020000 		.4byte	.LASF0
+ 290 0024 C3020000 		.4byte	.LASF0
  291 0028 03       		.uleb128 0x3
  292 0029 0B000000 		.4byte	.LASF5
  293 002d 02       		.byte	0x2
@@ -329,7 +329,7 @@ ARM GAS  /tmp/ccLiE24D.s 			page 1
  300 003a 02       		.uleb128 0x2
  301 003b 02       		.byte	0x2
  302 003c 05       		.byte	0x5
- 303 003d 5D020000 		.4byte	.LASF2
+ 303 003d 99020000 		.4byte	.LASF2
  304 0041 02       		.uleb128 0x2
  305 0042 02       		.byte	0x2
  306 0043 07       		.byte	0x7
@@ -337,47 +337,47 @@ ARM GAS  /tmp/ccLiE24D.s 			page 1
  308 0048 02       		.uleb128 0x2
  309 0049 04       		.byte	0x4
  310 004a 05       		.byte	0x5
- 311 004b 78020000 		.4byte	.LASF4
+ 311 004b B4020000 		.4byte	.LASF4
  312 004f 03       		.uleb128 0x3
- 313 0050 E6010000 		.4byte	.LASF6
+ 313 0050 22020000 		.4byte	.LASF6
  314 0054 02       		.byte	0x2
  315 0055 41       		.byte	0x41
  316 0056 5A000000 		.4byte	0x5a
  317 005a 02       		.uleb128 0x2
  318 005b 04       		.byte	0x4
  319 005c 07       		.byte	0x7
- 320 005d 81000000 		.4byte	.LASF7
+ 320 005d BD000000 		.4byte	.LASF7
  321 0061 02       		.uleb128 0x2
  322 0062 08       		.byte	0x8
  323 0063 05       		.byte	0x5
- 324 0064 34020000 		.4byte	.LASF8
+ 324 0064 70020000 		.4byte	.LASF8
  325 0068 02       		.uleb128 0x2
  326 0069 08       		.byte	0x8
  327 006a 07       		.byte	0x7
- 328 006b FE010000 		.4byte	.LASF9
+ 328 006b 3A020000 		.4byte	.LASF9
  329 006f 04       		.uleb128 0x4
  330 0070 04       		.byte	0x4
  331 0071 05       		.byte	0x5
-ARM GAS  /tmp/ccLiE24D.s 			page 7
+ARM GAS  /tmp/ccfW1m10.s 			page 7
 
 
  332 0072 696E7400 		.ascii	"int\000"
  333 0076 02       		.uleb128 0x2
  334 0077 04       		.byte	0x4
  335 0078 07       		.byte	0x7
- 336 0079 F1010000 		.4byte	.LASF10
+ 336 0079 2D020000 		.4byte	.LASF10
  337 007d 03       		.uleb128 0x3
- 338 007e 15020000 		.4byte	.LASF11
+ 338 007e 51020000 		.4byte	.LASF11
  339 0082 03       		.byte	0x3
  340 0083 15       		.byte	0x15
  341 0084 28000000 		.4byte	0x28
  342 0088 03       		.uleb128 0x3
- 343 0089 6F020000 		.4byte	.LASF12
+ 343 0089 AB020000 		.4byte	.LASF12
  344 008d 03       		.byte	0x3
  345 008e 2D       		.byte	0x2d
  346 008f 4F000000 		.4byte	0x4f
  347 0093 03       		.uleb128 0x3
- 348 0094 67020000 		.4byte	.LASF13
+ 348 0094 A3020000 		.4byte	.LASF13
  349 0098 01       		.byte	0x1
  350 0099 34       		.byte	0x34
  351 009a 9E000000 		.4byte	0x9e
@@ -394,7 +394,7 @@ ARM GAS  /tmp/ccLiE24D.s 			page 1
  362 00b1 04       		.byte	0x4
  363 00b2 93000000 		.4byte	0x93
  364 00b6 07       		.uleb128 0x7
- 365 00b7 27020000 		.4byte	.LASF15
+ 365 00b7 63020000 		.4byte	.LASF15
  366 00bb 01       		.byte	0x1
  367 00bc EA       		.byte	0xea
  368 00bd 00000000 		.4byte	.LFB0
@@ -418,10 +418,10 @@ ARM GAS  /tmp/ccLiE24D.s 			page 1
  386 00e8 01       		.uleb128 0x1
  387 00e9 9C       		.byte	0x9c
  388 00ea 09       		.uleb128 0x9
-ARM GAS  /tmp/ccLiE24D.s 			page 8
+ARM GAS  /tmp/ccfW1m10.s 			page 8
 
 
- 389 00eb 93000000 		.4byte	.LASF33
+ 389 00eb CF000000 		.4byte	.LASF33
  390 00ef 01       		.byte	0x1
  391 00f0 0C01     		.2byte	0x10c
  392 00f2 00000000 		.4byte	.LFB3
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccLiE24D.s 			page 1
  443 0162 01       		.byte	0x1
  444 0163 3001     		.2byte	0x130
  445 0165 F1010000 		.4byte	0x1f1
-ARM GAS  /tmp/ccLiE24D.s 			page 9
+ARM GAS  /tmp/ccfW1m10.s 			page 9
 
 
  446 0169 01       		.uleb128 0x1
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccLiE24D.s 			page 1
  500 01d9 9E000000 		.4byte	.LBB7
  501 01dd 10000000 		.4byte	.LBE7-.LBB7
  502 01e1 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccLiE24D.s 			page 10
+ARM GAS  /tmp/ccfW1m10.s 			page 10
 
 
  503 01e2 66707000 		.ascii	"fpp\000"
@@ -553,7 +553,7 @@ ARM GAS  /tmp/ccLiE24D.s 			page 1
  512 01f2 04       		.byte	0x4
  513 01f3 88000000 		.4byte	0x88
  514 01f7 0D       		.uleb128 0xd
- 515 01f8 49020000 		.4byte	.LASF18
+ 515 01f8 85020000 		.4byte	.LASF18
  516 01fc 01       		.byte	0x1
  517 01fd 8B       		.byte	0x8b
  518 01fe 88000000 		.4byte	0x88
@@ -568,22 +568,22 @@ ARM GAS  /tmp/ccLiE24D.s 			page 1
  527 0213 9A       		.byte	0x9a
  528 0214 88000000 		.4byte	0x88
  529 0218 0D       		.uleb128 0xd
- 530 0219 93020000 		.4byte	.LASF21
+ 530 0219 CF020000 		.4byte	.LASF21
  531 021d 01       		.byte	0x1
  532 021e A1       		.byte	0xa1
  533 021f 88000000 		.4byte	0x88
  534 0223 0D       		.uleb128 0xd
- 535 0224 1D020000 		.4byte	.LASF22
+ 535 0224 59020000 		.4byte	.LASF22
  536 0228 01       		.byte	0x1
  537 0229 A7       		.byte	0xa7
  538 022a 88000000 		.4byte	0x88
  539 022e 0D       		.uleb128 0xd
- 540 022f 81020000 		.4byte	.LASF23
+ 540 022f BD020000 		.4byte	.LASF23
  541 0233 01       		.byte	0x1
  542 0234 AD       		.byte	0xad
  543 0235 88000000 		.4byte	0x88
  544 0239 0D       		.uleb128 0xd
- 545 023a 42020000 		.4byte	.LASF24
+ 545 023a 7E020000 		.4byte	.LASF24
  546 023e 01       		.byte	0x1
  547 023f B3       		.byte	0xb3
  548 0240 88000000 		.4byte	0x88
@@ -593,25 +593,25 @@ ARM GAS  /tmp/ccLiE24D.s 			page 1
  552 024a B9       		.byte	0xb9
  553 024b 88000000 		.4byte	0x88
  554 024f 0D       		.uleb128 0xd
- 555 0250 CC010000 		.4byte	.LASF26
+ 555 0250 08020000 		.4byte	.LASF26
  556 0254 01       		.byte	0x1
  557 0255 BF       		.byte	0xbf
  558 0256 88000000 		.4byte	0x88
  559 025a 0D       		.uleb128 0xd
-ARM GAS  /tmp/ccLiE24D.s 			page 11
+ARM GAS  /tmp/ccfW1m10.s 			page 11
 
 
- 560 025b A9020000 		.4byte	.LASF27
+ 560 025b E5020000 		.4byte	.LASF27
  561 025f 01       		.byte	0x1
  562 0260 C5       		.byte	0xc5
  563 0261 93000000 		.4byte	0x93
  564 0265 0D       		.uleb128 0xd
- 565 0266 D5010000 		.4byte	.LASF28
+ 565 0266 11020000 		.4byte	.LASF28
  566 026a 01       		.byte	0x1
  567 026b CB       		.byte	0xcb
  568 026c 93000000 		.4byte	0x93
  569 0270 0D       		.uleb128 0xd
- 570 0271 B9010000 		.4byte	.LASF29
+ 570 0271 F5010000 		.4byte	.LASF29
  571 0275 01       		.byte	0x1
  572 0276 D1       		.byte	0xd1
  573 0277 93000000 		.4byte	0x93
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccLiE24D.s 			page 1
  614 0020 0E       		.uleb128 0xe
  615 0021 3A       		.uleb128 0x3a
  616 0022 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccLiE24D.s 			page 12
+ARM GAS  /tmp/ccfW1m10.s 			page 12
 
 
  617 0023 3B       		.uleb128 0x3b
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccLiE24D.s 			page 1
  671 005a 00       		.byte	0
  672 005b 00       		.byte	0
  673 005c 08       		.uleb128 0x8
-ARM GAS  /tmp/ccLiE24D.s 			page 13
+ARM GAS  /tmp/ccfW1m10.s 			page 13
 
 
  674 005d 2E       		.uleb128 0x2e
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccLiE24D.s 			page 1
  728 0095 3B       		.uleb128 0x3b
  729 0096 05       		.uleb128 0x5
  730 0097 49       		.uleb128 0x49
-ARM GAS  /tmp/ccLiE24D.s 			page 14
+ARM GAS  /tmp/ccfW1m10.s 			page 14
 
 
  731 0098 13       		.uleb128 0x13
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccLiE24D.s 			page 1
  785 001c 02000000 		.4byte	.LFE1-.LFB1
  786 0020 00000000 		.4byte	.LFB2
  787 0024 02000000 		.4byte	.LFE2-.LFB2
-ARM GAS  /tmp/ccLiE24D.s 			page 15
+ARM GAS  /tmp/ccfW1m10.s 			page 15
 
 
  788 0028 00000000 		.4byte	.LFB3
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccLiE24D.s 			page 1
  819              	.LASF14:
  820 005e 66756E63 		.ascii	"funcpp_t\000"
  820      70705F74 
-ARM GAS  /tmp/ccLiE24D.s 			page 16
+ARM GAS  /tmp/ccfW1m10.s 			page 16
 
 
  820      00
@@ -911,154 +911,154 @@ ARM GAS  /tmp/ccLiE24D.s 			page 1
  824 0075 5F5F6C61 		.ascii	"__late_init\000"
  824      74655F69 
  824      6E697400 
- 825              	.LASF7:
- 826 0081 6C6F6E67 		.ascii	"long unsigned int\000"
- 826      20756E73 
- 826      69676E65 
- 826      6420696E 
- 826      7400
- 827              	.LASF33:
- 828 0093 52657365 		.ascii	"ResetHandler\000"
- 828      7448616E 
- 828      646C6572 
- 828      00
- 829              	.LASF31:
- 830 00a0 474E5520 		.ascii	"GNU C 4.9.3 20141119 (release) [ARM/embedded-4_9-br"
- 830      4320342E 
- 830      392E3320 
- 830      32303134 
- 830      31313139 
- 831 00d3 616E6368 		.ascii	"anch revision 218278] -mcpu=cortex-m4 -mfloat-abi=h"
- 831      20726576 
- 831      6973696F 
- 831      6E203231 
- 831      38323738 
- 832 0106 61726420 		.ascii	"ard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthumb "
- 832      2D6D6670 
- 832      753D6670 
- 832      76342D73 
- 832      702D6431 
- 833 0139 2D676764 		.ascii	"-ggdb -O0 -fomit-frame-pointer -falign-functions=16"
- 833      62202D4F 
- 833      30202D66 
- 833      6F6D6974 
- 833      2D667261 
- 834 016c 202D6666 		.ascii	" -ffunction-sections -fdata-sections -fno-common -f"
- 834      756E6374 
- 834      696F6E2D 
- 834      73656374 
- 834      696F6E73 
- 835 019f 73696E67 		.ascii	"single-precision-constant\000"
- 835      6C652D70 
- 835      72656369 
- 835      73696F6E 
- 835      2D636F6E 
- 836              	.LASF29:
- 837 01b9 5F5F6669 		.ascii	"__fini_array_start\000"
- 837      6E695F61 
- 837      72726179 
- 837      5F737461 
-ARM GAS  /tmp/ccLiE24D.s 			page 17
+ 825              	.LASF32:
+ 826 0081 2F686F6D 		.ascii	"/home/ergae/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCM"
+ 826      652F6572 
+ 826      6761652F 
+ 826      7232702D 
+ 826      73646B2F 
+ 827 00b4 782F6372 		.ascii	"x/crt0.c\000"
+ 827      74302E63 
+ 827      00
+ 828              	.LASF7:
+ 829 00bd 6C6F6E67 		.ascii	"long unsigned int\000"
+ 829      20756E73 
+ 829      69676E65 
+ 829      6420696E 
+ 829      7400
+ 830              	.LASF33:
+ 831 00cf 52657365 		.ascii	"ResetHandler\000"
+ 831      7448616E 
+ 831      646C6572 
+ 831      00
+ 832              	.LASF31:
+ 833 00dc 474E5520 		.ascii	"GNU C 4.9.3 20141119 (release) [ARM/embedded-4_9-br"
+ 833      4320342E 
+ 833      392E3320 
+ 833      32303134 
+ 833      31313139 
+ 834 010f 616E6368 		.ascii	"anch revision 218278] -mcpu=cortex-m4 -mfloat-abi=h"
+ 834      20726576 
+ 834      6973696F 
+ 834      6E203231 
+ 834      38323738 
+ 835 0142 61726420 		.ascii	"ard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthumb "
+ 835      2D6D6670 
+ 835      753D6670 
+ 835      76342D73 
+ 835      702D6431 
+ 836 0175 2D676764 		.ascii	"-ggdb -O0 -fomit-frame-pointer -falign-functions=16"
+ 836      62202D4F 
+ 836      30202D66 
+ 836      6F6D6974 
+ 836      2D667261 
+ 837 01a8 202D6666 		.ascii	" -ffunction-sections -fdata-sections -fno-common -f"
+ 837      756E6374 
+ 837      696F6E2D 
+ 837      73656374 
+ 837      696F6E73 
+ 838 01db 73696E67 		.ascii	"single-precision-constant\000"
+ARM GAS  /tmp/ccfW1m10.s 			page 17
 
 
- 837      727400
- 838              	.LASF26:
- 839 01cc 5F627373 		.ascii	"_bss_end\000"
- 839      5F656E64 
- 839      00
- 840              	.LASF28:
- 841 01d5 5F5F696E 		.ascii	"__init_array_end\000"
- 841      69745F61 
- 841      72726179 
- 841      5F656E64 
- 841      00
- 842              	.LASF6:
- 843 01e6 5F5F7569 		.ascii	"__uint32_t\000"
- 843      6E743332 
- 843      5F7400
- 844              	.LASF10:
- 845 01f1 756E7369 		.ascii	"unsigned int\000"
- 845      676E6564 
- 845      20696E74 
- 845      00
- 846              	.LASF9:
- 847 01fe 6C6F6E67 		.ascii	"long long unsigned int\000"
- 847      206C6F6E 
- 847      6720756E 
- 847      7369676E 
- 847      65642069 
- 848              	.LASF11:
- 849 0215 75696E74 		.ascii	"uint8_t\000"
- 849      385F7400 
- 850              	.LASF22:
- 851 021d 5F746578 		.ascii	"_textdata\000"
- 851      74646174 
- 851      6100
- 852              	.LASF15:
- 853 0227 5F5F6561 		.ascii	"__early_init\000"
- 853      726C795F 
- 853      696E6974 
- 853      00
- 854              	.LASF8:
- 855 0234 6C6F6E67 		.ascii	"long long int\000"
- 855      206C6F6E 
- 855      6720696E 
- 855      7400
- 856              	.LASF24:
- 857 0242 5F656461 		.ascii	"_edata\000"
- 857      746100
- 858              	.LASF18:
- 859 0249 5F5F6D61 		.ascii	"__main_stack_base__\000"
- 859      696E5F73 
- 859      7461636B 
- 859      5F626173 
- 859      655F5F00 
- 860              	.LASF2:
- 861 025d 73686F72 		.ascii	"short int\000"
- 861      7420696E 
- 861      7400
- 862              	.LASF13:
-ARM GAS  /tmp/ccLiE24D.s 			page 18
+ 838      6C652D70 
+ 838      72656369 
+ 838      73696F6E 
+ 838      2D636F6E 
+ 839              	.LASF29:
+ 840 01f5 5F5F6669 		.ascii	"__fini_array_start\000"
+ 840      6E695F61 
+ 840      72726179 
+ 840      5F737461 
+ 840      727400
+ 841              	.LASF26:
+ 842 0208 5F627373 		.ascii	"_bss_end\000"
+ 842      5F656E64 
+ 842      00
+ 843              	.LASF28:
+ 844 0211 5F5F696E 		.ascii	"__init_array_end\000"
+ 844      69745F61 
+ 844      72726179 
+ 844      5F656E64 
+ 844      00
+ 845              	.LASF6:
+ 846 0222 5F5F7569 		.ascii	"__uint32_t\000"
+ 846      6E743332 
+ 846      5F7400
+ 847              	.LASF10:
+ 848 022d 756E7369 		.ascii	"unsigned int\000"
+ 848      676E6564 
+ 848      20696E74 
+ 848      00
+ 849              	.LASF9:
+ 850 023a 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 850      206C6F6E 
+ 850      6720756E 
+ 850      7369676E 
+ 850      65642069 
+ 851              	.LASF11:
+ 852 0251 75696E74 		.ascii	"uint8_t\000"
+ 852      385F7400 
+ 853              	.LASF22:
+ 854 0259 5F746578 		.ascii	"_textdata\000"
+ 854      74646174 
+ 854      6100
+ 855              	.LASF15:
+ 856 0263 5F5F6561 		.ascii	"__early_init\000"
+ 856      726C795F 
+ 856      696E6974 
+ 856      00
+ 857              	.LASF8:
+ 858 0270 6C6F6E67 		.ascii	"long long int\000"
+ 858      206C6F6E 
+ 858      6720696E 
+ 858      7400
+ 859              	.LASF24:
+ 860 027e 5F656461 		.ascii	"_edata\000"
+ 860      746100
+ 861              	.LASF18:
+ 862 0285 5F5F6D61 		.ascii	"__main_stack_base__\000"
+ARM GAS  /tmp/ccfW1m10.s 			page 18
 
 
- 863 0267 66756E63 		.ascii	"funcp_t\000"
- 863      705F7400 
- 864              	.LASF12:
- 865 026f 75696E74 		.ascii	"uint32_t\000"
- 865      33325F74 
- 865      00
- 866              	.LASF4:
- 867 0278 6C6F6E67 		.ascii	"long int\000"
- 867      20696E74 
- 867      00
- 868              	.LASF23:
- 869 0281 5F646174 		.ascii	"_data\000"
- 869      6100
- 870              	.LASF0:
- 871 0287 7369676E 		.ascii	"signed char\000"
- 871      65642063 
- 871      68617200 
- 872              	.LASF21:
- 873 0293 5F5F7072 		.ascii	"__process_stack_end__\000"
- 873      6F636573 
- 873      735F7374 
- 873      61636B5F 
- 873      656E645F 
- 874              	.LASF27:
- 875 02a9 5F5F696E 		.ascii	"__init_array_start\000"
- 875      69745F61 
- 875      72726179 
- 875      5F737461 
- 875      727400
- 876              	.LASF32:
- 877 02bc 2F686F6D 		.ascii	"/home/denny/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCM"
- 877      652F6465 
- 877      6E6E792F 
- 877      7232702D 
- 877      73646B2F 
- 878 02ef 782F6372 		.ascii	"x/crt0.c\000"
- 878      74302E63 
- 878      00
+ 862      696E5F73 
+ 862      7461636B 
+ 862      5F626173 
+ 862      655F5F00 
+ 863              	.LASF2:
+ 864 0299 73686F72 		.ascii	"short int\000"
+ 864      7420696E 
+ 864      7400
+ 865              	.LASF13:
+ 866 02a3 66756E63 		.ascii	"funcp_t\000"
+ 866      705F7400 
+ 867              	.LASF12:
+ 868 02ab 75696E74 		.ascii	"uint32_t\000"
+ 868      33325F74 
+ 868      00
+ 869              	.LASF4:
+ 870 02b4 6C6F6E67 		.ascii	"long int\000"
+ 870      20696E74 
+ 870      00
+ 871              	.LASF23:
+ 872 02bd 5F646174 		.ascii	"_data\000"
+ 872      6100
+ 873              	.LASF0:
+ 874 02c3 7369676E 		.ascii	"signed char\000"
+ 874      65642063 
+ 874      68617200 
+ 875              	.LASF21:
+ 876 02cf 5F5F7072 		.ascii	"__process_stack_end__\000"
+ 876      6F636573 
+ 876      735F7374 
+ 876      61636B5F 
+ 876      656E645F 
+ 877              	.LASF27:
+ 878 02e5 5F5F696E 		.ascii	"__init_array_start\000"
+ 878      69745F61 
+ 878      72726179 
+ 878      5F737461 
+ 878      727400
  879              	.LASF19:
  880 02f8 5F5F6D61 		.ascii	"__main_stack_end__\000"
  880      696E5F73 
@@ -1066,22 +1066,22 @@ ARM GAS  /tmp/ccLiE24D.s 			page 1
  880      5F656E64 
  880      5F5F00
  881              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccLiE24D.s 			page 19
+ARM GAS  /tmp/ccfW1m10.s 			page 19
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 crt0.c
-     /tmp/ccLiE24D.s:21     .text.__early_init:00000000 $t
-     /tmp/ccLiE24D.s:27     .text.__early_init:00000000 __early_init
-     /tmp/ccLiE24D.s:41     .text.__late_init:00000000 $t
-     /tmp/ccLiE24D.s:47     .text.__late_init:00000000 __late_init
-     /tmp/ccLiE24D.s:60     .text._default_exit:00000000 $t
-     /tmp/ccLiE24D.s:66     .text._default_exit:00000000 _default_exit
-     /tmp/ccLiE24D.s:80     .text.ResetHandler:00000000 $t
-     /tmp/ccLiE24D.s:86     .text.ResetHandler:00000000 ResetHandler
-     /tmp/ccLiE24D.s:251    .text.ResetHandler:000000b4 $d
+     /tmp/ccfW1m10.s:21     .text.__early_init:00000000 $t
+     /tmp/ccfW1m10.s:27     .text.__early_init:00000000 __early_init
+     /tmp/ccfW1m10.s:41     .text.__late_init:00000000 $t
+     /tmp/ccfW1m10.s:47     .text.__late_init:00000000 __late_init
+     /tmp/ccfW1m10.s:60     .text._default_exit:00000000 $t
+     /tmp/ccfW1m10.s:66     .text._default_exit:00000000 _default_exit
+     /tmp/ccfW1m10.s:80     .text.ResetHandler:00000000 $t
+     /tmp/ccfW1m10.s:86     .text.ResetHandler:00000000 ResetHandler
+     /tmp/ccfW1m10.s:251    .text.ResetHandler:000000b4 $d
                      .debug_frame:00000010 $d
-     /tmp/ccLiE24D.s:270    .text.ResetHandler:000000f4 $t
+     /tmp/ccfW1m10.s:270    .text.ResetHandler:000000f4 $t
 
 UNDEFINED SYMBOLS
 main

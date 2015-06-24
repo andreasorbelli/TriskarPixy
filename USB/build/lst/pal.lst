@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccStlaSh.s 			page 1
+ARM GAS  /tmp/ccqLg0RN.s 			page 1
 
 
    1              		.syntax unified
@@ -36,7 +36,7 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
   30              		.type	palReadBus, %function
   31              	palReadBus:
   32              	.LFB118:
-  33              		.file 1 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/pal.c"
+  33              		.file 1 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/pal.c"
   34              		.loc 1 77 0
   35              		.cfi_startproc
   36              		@ args = 0, pretend = 0, frame = 8
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
   52 0012 02D9     		bls	.L3
   53              	.L2:
   54              		.loc 1 79 0 discriminator 3
-ARM GAS  /tmp/ccStlaSh.s 			page 2
+ARM GAS  /tmp/ccqLg0RN.s 			page 2
 
 
   55 0014 0848     		ldr	r0, .L5
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
  106 0008 019B     		ldr	r3, [sp, #4]
  107 000a 002B     		cmp	r3, #0
  108 000c 03D0     		beq	.L8
-ARM GAS  /tmp/ccStlaSh.s 			page 3
+ARM GAS  /tmp/ccqLg0RN.s 			page 3
 
 
  109              		.loc 1 105 0 is_stmt 0 discriminator 2
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
  159              		.global	palSetBusMode
  160              		.thumb
  161              		.thumb_func
-ARM GAS  /tmp/ccStlaSh.s 			page 4
+ARM GAS  /tmp/ccqLg0RN.s 			page 4
 
 
  162              		.type	palSetBusMode, %function
@@ -235,14 +235,14 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
  213              		.size	palSetBusMode, .-palSetBusMode
  214              		.text
  215              	.Letext0:
- 216              		.file 2 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/machine/_def
- 217              		.file 3 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/stdint.h"
- 218              		.file 4 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/platforms/STM32/GPIOv2/pal_lld.h"
-ARM GAS  /tmp/ccStlaSh.s 			page 5
+ 216              		.file 2 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/machine/_def
+ 217              		.file 3 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/stdint.h"
+ 218              		.file 4 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/platforms/STM32/GPIOv2/pal_lld.h"
+ARM GAS  /tmp/ccqLg0RN.s 			page 5
 
 
- 219              		.file 5 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/include/pal.h"
- 220              		.file 6 "/home/denny/r2p-sdk/core/ChibiOS/os/ports/common/ARMCMx/CMSIS/include/core_cm4.h"
+ 219              		.file 5 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/include/pal.h"
+ 220              		.file 6 "/home/ergae/r2p-sdk/core/ChibiOS/os/ports/common/ARMCMx/CMSIS/include/core_cm4.h"
  221              		.section	.debug_info,"",%progbits
  222              	.Ldebug_info0:
  223 0000 9A020000 		.4byte	0x29a
@@ -252,7 +252,7 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
  227 000b 01       		.uleb128 0x1
  228 000c D7000000 		.4byte	.LASF40
  229 0010 01       		.byte	0x1
- 230 0011 1C000000 		.4byte	.LASF41
+ 230 0011 80000000 		.4byte	.LASF41
  231 0015 00000000 		.4byte	.Ldebug_ranges0+0
  232 0019 00000000 		.4byte	0
  233 001d 00000000 		.4byte	.Ldebug_line0
@@ -275,7 +275,7 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
  250 003d 03       		.uleb128 0x3
  251 003e 02       		.byte	0x2
  252 003f 05       		.byte	0x5
- 253 0040 76000000 		.4byte	.LASF3
+ 253 0040 44000000 		.4byte	.LASF3
  254 0044 04       		.uleb128 0x4
  255 0045 02020000 		.4byte	.LASF5
  256 0049 02       		.byte	0x2
@@ -286,7 +286,7 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
  261 0051 07       		.byte	0x7
  262 0052 AC020000 		.4byte	.LASF4
  263 0056 04       		.uleb128 0x4
- 264 0057 5B000000 		.4byte	.LASF6
+ 264 0057 1C000000 		.4byte	.LASF6
  265 005b 02       		.byte	0x2
  266 005c 3F       		.byte	0x3f
  267 005d 61000000 		.4byte	0x61
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
  273 0069 0D020000 		.4byte	.LASF8
  274 006d 02       		.byte	0x2
  275 006e 41       		.byte	0x41
-ARM GAS  /tmp/ccStlaSh.s 			page 6
+ARM GAS  /tmp/ccqLg0RN.s 			page 6
 
 
  276 006f 73000000 		.4byte	0x73
@@ -330,7 +330,7 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
  302 00a4 2D       		.byte	0x2d
  303 00a5 68000000 		.4byte	0x68
  304 00a9 04       		.uleb128 0x4
- 305 00aa 4E000000 		.4byte	.LASF15
+ 305 00aa 26000000 		.4byte	.LASF15
  306 00ae 03       		.byte	0x3
  307 00af 4B       		.byte	0x4b
  308 00b0 28000000 		.4byte	0x28
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
  330 00db 07       		.uleb128 0x7
  331 00dc 73657400 		.ascii	"set\000"
  332 00e0 04       		.byte	0x4
-ARM GAS  /tmp/ccStlaSh.s 			page 7
+ARM GAS  /tmp/ccqLg0RN.s 			page 7
 
 
  333 00e1 97       		.byte	0x97
@@ -399,7 +399,7 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
  368 011e BB000000 		.4byte	0xbb
  369 0122 00       		.byte	0
  370 0123 08       		.uleb128 0x8
- 371 0124 A2000000 		.4byte	.LASF21
+ 371 0124 70000000 		.4byte	.LASF21
  372 0128 04       		.byte	0x4
  373 0129 8F       		.byte	0x8f
  374 012a BB000000 		.4byte	0xbb
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
  387 0146 0C       		.byte	0xc
  388 0147 07       		.uleb128 0x7
  389 0148 49445200 		.ascii	"IDR\000"
-ARM GAS  /tmp/ccStlaSh.s 			page 8
+ARM GAS  /tmp/ccqLg0RN.s 			page 8
 
 
  390 014c 04       		.byte	0x4
@@ -432,7 +432,7 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
  398 015a BB000000 		.4byte	0xbb
  399 015e 14       		.byte	0x14
  400 015f 08       		.uleb128 0x8
- 401 0160 65000000 		.4byte	.LASF24
+ 401 0160 33000000 		.4byte	.LASF24
  402 0164 04       		.byte	0x4
  403 0165 9A       		.byte	0x9a
  404 0166 90010000 		.4byte	0x190
@@ -464,12 +464,12 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
  430 019b 9E       		.byte	0x9e
  431 019c 0F010000 		.4byte	0x10f
  432 01a0 04       		.uleb128 0x4
- 433 01a1 95000000 		.4byte	.LASF29
+ 433 01a1 63000000 		.4byte	.LASF29
  434 01a5 04       		.byte	0x4
  435 01a6 F0       		.byte	0xf0
  436 01a7 9E000000 		.4byte	0x9e
  437 01ab 04       		.uleb128 0x4
- 438 01ac A9000000 		.4byte	.LASF30
+ 438 01ac 77000000 		.4byte	.LASF30
  439 01b0 04       		.byte	0x4
  440 01b1 F5       		.byte	0xf5
  441 01b2 9E000000 		.4byte	0x9e
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
  444 01bb 04       		.byte	0x4
  445 01bc FD       		.byte	0xfd
  446 01bd C1010000 		.4byte	0x1c1
-ARM GAS  /tmp/ccStlaSh.s 			page 9
+ARM GAS  /tmp/ccqLg0RN.s 			page 9
 
 
  447 01c1 0B       		.uleb128 0xb
@@ -490,7 +490,7 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
  453 01ca 85       		.byte	0x85
  454 01cb F4010000 		.4byte	0x1f4
  455 01cf 08       		.uleb128 0x8
- 456 01d0 8E000000 		.4byte	.LASF32
+ 456 01d0 5C000000 		.4byte	.LASF32
  457 01d4 05       		.byte	0x5
  458 01d5 89       		.byte	0x89
  459 01d6 B6010000 		.4byte	0x1b6
@@ -536,9 +536,9 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
  499 0228 04       		.byte	0x4
  500 0229 F4010000 		.4byte	0x1f4
  501 022d 0E       		.uleb128 0xe
- 502 022e 6A000000 		.4byte	.LASF37
+ 502 022e 38000000 		.4byte	.LASF37
  503 0232 01       		.byte	0x1
-ARM GAS  /tmp/ccStlaSh.s 			page 10
+ARM GAS  /tmp/ccqLg0RN.s 			page 10
 
 
  504 0233 67       		.byte	0x67
@@ -565,7 +565,7 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
  525 025d 70       		.sleb128 -16
  526 025e 00       		.byte	0
  527 025f 0E       		.uleb128 0xe
- 528 0260 80000000 		.4byte	.LASF38
+ 528 0260 4E000000 		.4byte	.LASF38
  529 0264 01       		.byte	0x1
  530 0265 7F       		.byte	0x7f
  531 0266 00000000 		.4byte	.LFB120
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
  558 029d 00       		.byte	0
  559              		.section	.debug_abbrev,"",%progbits
  560              	.Ldebug_abbrev0:
-ARM GAS  /tmp/ccStlaSh.s 			page 11
+ARM GAS  /tmp/ccqLg0RN.s 			page 11
 
 
  561 0000 01       		.uleb128 0x1
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
  615 0036 00       		.byte	0
  616 0037 49       		.uleb128 0x49
  617 0038 13       		.uleb128 0x13
-ARM GAS  /tmp/ccStlaSh.s 			page 12
+ARM GAS  /tmp/ccqLg0RN.s 			page 12
 
 
  618 0039 00       		.byte	0
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
  672 006f 01       		.uleb128 0x1
  673 0070 13       		.uleb128 0x13
  674 0071 00       		.byte	0
-ARM GAS  /tmp/ccStlaSh.s 			page 13
+ARM GAS  /tmp/ccqLg0RN.s 			page 13
 
 
  675 0072 00       		.byte	0
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
  729 00a9 08       		.uleb128 0x8
  730 00aa 3A       		.uleb128 0x3a
  731 00ab 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccStlaSh.s 			page 14
+ARM GAS  /tmp/ccqLg0RN.s 			page 14
 
 
  732 00ac 3B       		.uleb128 0x3b
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
  786 00e3 0B       		.uleb128 0xb
  787 00e4 3B       		.uleb128 0x3b
  788 00e5 05       		.uleb128 0x5
-ARM GAS  /tmp/ccStlaSh.s 			page 15
+ARM GAS  /tmp/ccqLg0RN.s 			page 15
 
 
  789 00e6 49       		.uleb128 0x49
@@ -896,55 +896,55 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
  834 0011 70616C52 		.ascii	"palReadBus\000"
  834      65616442 
  834      757300
- 835              	.LASF41:
- 836 001c 2F686F6D 		.ascii	"/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/pal.c\000"
-ARM GAS  /tmp/ccStlaSh.s 			page 16
+ 835              	.LASF6:
+ 836 001c 5F5F696E 		.ascii	"__int32_t\000"
+ARM GAS  /tmp/ccqLg0RN.s 			page 16
 
 
- 836      652F6465 
- 836      6E6E792F 
- 836      7232702D 
- 836      73646B2F 
+ 836      7433325F 
+ 836      7400
  837              	.LASF15:
- 838 004e 75696E74 		.ascii	"uint_fast8_t\000"
+ 838 0026 75696E74 		.ascii	"uint_fast8_t\000"
  838      5F666173 
  838      74385F74 
  838      00
- 839              	.LASF6:
- 840 005b 5F5F696E 		.ascii	"__int32_t\000"
- 840      7433325F 
- 840      7400
- 841              	.LASF24:
- 842 0065 42535252 		.ascii	"BSRR\000"
- 842      00
- 843              	.LASF37:
- 844 006a 70616C57 		.ascii	"palWriteBus\000"
- 844      72697465 
- 844      42757300 
- 845              	.LASF3:
- 846 0076 73686F72 		.ascii	"short int\000"
- 846      7420696E 
- 846      7400
- 847              	.LASF38:
- 848 0080 70616C53 		.ascii	"palSetBusMode\000"
- 848      65744275 
- 848      734D6F64 
- 848      6500
- 849              	.LASF32:
- 850 008e 706F7274 		.ascii	"portid\000"
- 850      696400
- 851              	.LASF29:
- 852 0095 696F706F 		.ascii	"ioportmask_t\000"
- 852      72746D61 
- 852      736B5F74 
- 852      00
- 853              	.LASF21:
- 854 00a2 4F545950 		.ascii	"OTYPER\000"
- 854      455200
- 855              	.LASF30:
- 856 00a9 696F6D6F 		.ascii	"iomode_t\000"
- 856      64655F74 
- 856      00
+ 839              	.LASF24:
+ 840 0033 42535252 		.ascii	"BSRR\000"
+ 840      00
+ 841              	.LASF37:
+ 842 0038 70616C57 		.ascii	"palWriteBus\000"
+ 842      72697465 
+ 842      42757300 
+ 843              	.LASF3:
+ 844 0044 73686F72 		.ascii	"short int\000"
+ 844      7420696E 
+ 844      7400
+ 845              	.LASF38:
+ 846 004e 70616C53 		.ascii	"palSetBusMode\000"
+ 846      65744275 
+ 846      734D6F64 
+ 846      6500
+ 847              	.LASF32:
+ 848 005c 706F7274 		.ascii	"portid\000"
+ 848      696400
+ 849              	.LASF29:
+ 850 0063 696F706F 		.ascii	"ioportmask_t\000"
+ 850      72746D61 
+ 850      736B5F74 
+ 850      00
+ 851              	.LASF21:
+ 852 0070 4F545950 		.ascii	"OTYPER\000"
+ 852      455200
+ 853              	.LASF30:
+ 854 0077 696F6D6F 		.ascii	"iomode_t\000"
+ 854      64655F74 
+ 854      00
+ 855              	.LASF41:
+ 856 0080 2F686F6D 		.ascii	"/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/pal.c\000"
+ 856      652F6572 
+ 856      6761652F 
+ 856      7232702D 
+ 856      73646B2F 
  857              	.LASF2:
  858 00b2 756E7369 		.ascii	"unsigned char\000"
  858      676E6564 
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
  862      20756E73 
  862      69676E65 
  862      6420696E 
-ARM GAS  /tmp/ccStlaSh.s 			page 17
+ARM GAS  /tmp/ccqLg0RN.s 			page 17
 
 
  862      7400
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
  881      20696E74 
  881      00
  882              	.LASF28:
-ARM GAS  /tmp/ccStlaSh.s 			page 18
+ARM GAS  /tmp/ccqLg0RN.s 			page 18
 
 
  883 022d 4750494F 		.ascii	"GPIO_TypeDef\000"
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
  912              	.LASF4:
  913 02ac 73686F72 		.ascii	"short unsigned int\000"
  913      7420756E 
-ARM GAS  /tmp/ccStlaSh.s 			page 19
+ARM GAS  /tmp/ccqLg0RN.s 			page 19
 
 
  913      7369676E 
@@ -1097,23 +1097,23 @@ ARM GAS  /tmp/ccStlaSh.s 			page 1
  919 02dc 494F4275 		.ascii	"IOBus\000"
  919      7300
  920              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccStlaSh.s 			page 20
+ARM GAS  /tmp/ccqLg0RN.s 			page 20
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 pal.c
-     /tmp/ccStlaSh.s:21     .rodata:00000000 $d
-     /tmp/ccStlaSh.s:25     .text.palReadBus:00000000 $t
-     /tmp/ccStlaSh.s:31     .text.palReadBus:00000000 palReadBus
-     /tmp/ccStlaSh.s:77     .text.palReadBus:00000038 $d
-     /tmp/ccStlaSh.s:86     .text.palWriteBus:00000000 $t
-     /tmp/ccStlaSh.s:92     .text.palWriteBus:00000000 palWriteBus
-     /tmp/ccStlaSh.s:148    .text.palWriteBus:0000004c $d
-     /tmp/ccStlaSh.s:157    .text.palSetBusMode:00000000 $t
-     /tmp/ccStlaSh.s:163    .text.palSetBusMode:00000000 palSetBusMode
-     /tmp/ccStlaSh.s:210    .text.palSetBusMode:0000003c $d
+     /tmp/ccqLg0RN.s:21     .rodata:00000000 $d
+     /tmp/ccqLg0RN.s:25     .text.palReadBus:00000000 $t
+     /tmp/ccqLg0RN.s:31     .text.palReadBus:00000000 palReadBus
+     /tmp/ccqLg0RN.s:77     .text.palReadBus:00000038 $d
+     /tmp/ccqLg0RN.s:86     .text.palWriteBus:00000000 $t
+     /tmp/ccqLg0RN.s:92     .text.palWriteBus:00000000 palWriteBus
+     /tmp/ccqLg0RN.s:148    .text.palWriteBus:0000004c $d
+     /tmp/ccqLg0RN.s:157    .text.palSetBusMode:00000000 $t
+     /tmp/ccqLg0RN.s:163    .text.palSetBusMode:00000000 palSetBusMode
+     /tmp/ccqLg0RN.s:210    .text.palSetBusMode:0000003c $d
                      .debug_frame:00000010 $d
-     /tmp/ccStlaSh.s:81     .text.palReadBus:0000003c $t
+     /tmp/ccqLg0RN.s:81     .text.palReadBus:0000003c $t
 
 UNDEFINED SYMBOLS
 chDbgPanic

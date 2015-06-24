@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc1Psyx6.s 			page 1
+ARM GAS  /tmp/ccZk4sWS.s 			page 1
 
 
    1              		.syntax unified
@@ -36,7 +36,7 @@ ARM GAS  /tmp/cc1Psyx6.s 			page 1
   33              		.type	__cxa_pure_virtual, %function
   34              	__cxa_pure_virtual:
   35              	.LFB118:
-  36              		.file 1 "/home/denny/r2p-sdk/modules/USB_module/stubs.c"
+  36              		.file 1 "/home/ergae/r2p-sdk/modules/USB_module/stubs.c"
   37              		.loc 1 5 0
   38              		.cfi_startproc
   39              		@ args = 0, pretend = 0, frame = 0
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc1Psyx6.s 			page 1
   54              		.p2align 4,,15
   55              		.global	_exit
   56              		.thumb
-ARM GAS  /tmp/cc1Psyx6.s 			page 2
+ARM GAS  /tmp/ccZk4sWS.s 			page 2
 
 
   57              		.thumb_func
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc1Psyx6.s 			page 1
  111              		.size	_kill, .-_kill
  112 0018 AFF30080 		.section	.text._getpid,"ax",%progbits
  112      AFF30080 
-ARM GAS  /tmp/cc1Psyx6.s 			page 3
+ARM GAS  /tmp/ccZk4sWS.s 			page 3
 
 
  113              		.align	2
@@ -146,9 +146,9 @@ ARM GAS  /tmp/cc1Psyx6.s 			page 1
  134      0080AFF3 
  134      0080
  135              	.Letext0:
- 136              		.file 2 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/machine/_def
- 137              		.file 3 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/stdint.h"
- 138              		.file 4 "/home/denny/r2p-sdk/core/ChibiOS/os/ports/common/ARMCMx/CMSIS/include/core_cm4.h"
+ 136              		.file 2 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/machine/_def
+ 137              		.file 3 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/stdint.h"
+ 138              		.file 4 "/home/ergae/r2p-sdk/core/ChibiOS/os/ports/common/ARMCMx/CMSIS/include/core_cm4.h"
  139              		.section	.debug_info,"",%progbits
  140              	.Ldebug_info0:
  141 0000 2D010000 		.4byte	0x12d
@@ -156,9 +156,9 @@ ARM GAS  /tmp/cc1Psyx6.s 			page 1
  143 0006 00000000 		.4byte	.Ldebug_abbrev0
  144 000a 04       		.byte	0x4
  145 000b 01       		.uleb128 0x1
- 146 000c 2E000000 		.4byte	.LASF16
+ 146 000c 5D000000 		.4byte	.LASF16
  147 0010 01       		.byte	0x1
- 148 0011 47010000 		.4byte	.LASF17
+ 148 0011 2E000000 		.4byte	.LASF17
  149 0015 00000000 		.4byte	.Ldebug_ranges0+0
  150 0019 00000000 		.4byte	0
  151 001d 00000000 		.4byte	.Ldebug_line0
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc1Psyx6.s 			page 1
  165 0037 01       		.byte	0x1
  166 0038 08       		.byte	0x8
  167 0039 C5010000 		.4byte	.LASF2
-ARM GAS  /tmp/cc1Psyx6.s 			page 4
+ARM GAS  /tmp/ccZk4sWS.s 			page 4
 
 
  168 003d 03       		.uleb128 0x3
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc1Psyx6.s 			page 1
  222 00a0 00000000 		.4byte	.LFB118
  223 00a4 08000000 		.4byte	.LFE118-.LFB118
  224 00a8 01       		.uleb128 0x1
-ARM GAS  /tmp/cc1Psyx6.s 			page 5
+ARM GAS  /tmp/ccZk4sWS.s 			page 5
 
 
  225 00a9 9C       		.byte	0x9c
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc1Psyx6.s 			page 1
  279 0112 9C       		.byte	0x9c
  280 0113 0C       		.uleb128 0xc
  281 0114 F1010000 		.4byte	.LASF14
-ARM GAS  /tmp/cc1Psyx6.s 			page 6
+ARM GAS  /tmp/ccZk4sWS.s 			page 6
 
 
  282 0118 04       		.byte	0x4
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc1Psyx6.s 			page 1
  336 0028 16       		.uleb128 0x16
  337 0029 00       		.byte	0
  338 002a 03       		.uleb128 0x3
-ARM GAS  /tmp/cc1Psyx6.s 			page 7
+ARM GAS  /tmp/ccZk4sWS.s 			page 7
 
 
  339 002b 0E       		.uleb128 0xe
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc1Psyx6.s 			page 1
  393 0062 0B       		.uleb128 0xb
  394 0063 27       		.uleb128 0x27
  395 0064 19       		.uleb128 0x19
-ARM GAS  /tmp/cc1Psyx6.s 			page 8
+ARM GAS  /tmp/ccZk4sWS.s 			page 8
 
 
  396 0065 11       		.uleb128 0x11
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc1Psyx6.s 			page 1
  450 009d 0B       		.uleb128 0xb
  451 009e 2E       		.uleb128 0x2e
  452 009f 00       		.byte	0
-ARM GAS  /tmp/cc1Psyx6.s 			page 9
+ARM GAS  /tmp/ccZk4sWS.s 			page 9
 
 
  453 00a0 3F       		.uleb128 0x3f
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc1Psyx6.s 			page 1
  507 00d7 00       		.byte	0
  508              		.section	.debug_aranges,"",%progbits
  509 0000 34000000 		.4byte	0x34
-ARM GAS  /tmp/cc1Psyx6.s 			page 10
+ARM GAS  /tmp/ccZk4sWS.s 			page 10
 
 
  510 0004 0200     		.2byte	0x2
@@ -592,46 +592,46 @@ ARM GAS  /tmp/cc1Psyx6.s 			page 1
  546      676E6564 
  546      20696E74 
  546      00
- 547              	.LASF16:
- 548 002e 474E5520 		.ascii	"GNU C 4.9.3 20141119 (release) [ARM/embedded-4_9-br"
- 548      4320342E 
- 548      392E3320 
- 548      32303134 
- 548      31313139 
-ARM GAS  /tmp/cc1Psyx6.s 			page 11
+ 547              	.LASF17:
+ 548 002e 2F686F6D 		.ascii	"/home/ergae/r2p-sdk/modules/USB_module/stubs.c\000"
+ 548      652F6572 
+ 548      6761652F 
+ 548      7232702D 
+ 548      73646B2F 
+ARM GAS  /tmp/ccZk4sWS.s 			page 11
 
 
- 549 0061 616E6368 		.ascii	"anch revision 218278] -mcpu=cortex-m4 -mfloat-abi=h"
- 549      20726576 
- 549      6973696F 
- 549      6E203231 
- 549      38323738 
- 550 0094 61726420 		.ascii	"ard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthumb "
- 550      2D6D6670 
- 550      753D6670 
- 550      76342D73 
- 550      702D6431 
- 551 00c7 2D676764 		.ascii	"-ggdb -O0 -fomit-frame-pointer -falign-functions=16"
- 551      62202D4F 
- 551      30202D66 
- 551      6F6D6974 
- 551      2D667261 
- 552 00fa 202D6666 		.ascii	" -ffunction-sections -fdata-sections -fno-common -f"
- 552      756E6374 
- 552      696F6E2D 
- 552      73656374 
- 552      696F6E73 
- 553 012d 73696E67 		.ascii	"single-precision-constant\000"
- 553      6C652D70 
- 553      72656369 
- 553      73696F6E 
- 553      2D636F6E 
- 554              	.LASF17:
- 555 0147 2F686F6D 		.ascii	"/home/denny/r2p-sdk/modules/USB_module/stubs.c\000"
- 555      652F6465 
- 555      6E6E792F 
- 555      7232702D 
- 555      73646B2F 
+ 549              	.LASF16:
+ 550 005d 474E5520 		.ascii	"GNU C 4.9.3 20141119 (release) [ARM/embedded-4_9-br"
+ 550      4320342E 
+ 550      392E3320 
+ 550      32303134 
+ 550      31313139 
+ 551 0090 616E6368 		.ascii	"anch revision 218278] -mcpu=cortex-m4 -mfloat-abi=h"
+ 551      20726576 
+ 551      6973696F 
+ 551      6E203231 
+ 551      38323738 
+ 552 00c3 61726420 		.ascii	"ard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthumb "
+ 552      2D6D6670 
+ 552      753D6670 
+ 552      76342D73 
+ 552      702D6431 
+ 553 00f6 2D676764 		.ascii	"-ggdb -O0 -fomit-frame-pointer -falign-functions=16"
+ 553      62202D4F 
+ 553      30202D66 
+ 553      6F6D6974 
+ 553      2D667261 
+ 554 0129 202D6666 		.ascii	" -ffunction-sections -fdata-sections -fno-common -f"
+ 554      756E6374 
+ 554      696F6E2D 
+ 554      73656374 
+ 554      696F6E73 
+ 555 015c 73696E67 		.ascii	"single-precision-constant\000"
+ 555      6C652D70 
+ 555      72656369 
+ 555      73696F6E 
+ 555      2D636F6E 
  556              	.LASF6:
  557 0176 6C6F6E67 		.ascii	"long unsigned int\000"
  557      20756E73 
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc1Psyx6.s 			page 1
  565      6F5F6861 
  565      6E646C65 
  565      00
-ARM GAS  /tmp/cc1Psyx6.s 			page 12
+ARM GAS  /tmp/ccZk4sWS.s 			page 12
 
 
  566              	.LASF2:
@@ -707,21 +707,21 @@ ARM GAS  /tmp/cc1Psyx6.s 			page 1
  589 022d 5F6B696C 		.ascii	"_kill\000"
  589      6C00
  590              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/cc1Psyx6.s 			page 13
+ARM GAS  /tmp/ccZk4sWS.s 			page 13
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stubs.c
-     /tmp/cc1Psyx6.s:25     .bss.__dso_handle:00000000 __dso_handle
-     /tmp/cc1Psyx6.s:22     .bss.__dso_handle:00000000 $d
-     /tmp/cc1Psyx6.s:28     .text.__cxa_pure_virtual:00000000 $t
-     /tmp/cc1Psyx6.s:34     .text.__cxa_pure_virtual:00000000 __cxa_pure_virtual
-     /tmp/cc1Psyx6.s:53     .text._exit:00000000 $t
-     /tmp/cc1Psyx6.s:59     .text._exit:00000000 _exit
-     /tmp/cc1Psyx6.s:80     .text._kill:00000000 $t
-     /tmp/cc1Psyx6.s:86     .text._kill:00000000 _kill
-     /tmp/cc1Psyx6.s:113    .text._getpid:00000000 $t
-     /tmp/cc1Psyx6.s:119    .text._getpid:00000000 _getpid
+     /tmp/ccZk4sWS.s:25     .bss.__dso_handle:00000000 __dso_handle
+     /tmp/ccZk4sWS.s:22     .bss.__dso_handle:00000000 $d
+     /tmp/ccZk4sWS.s:28     .text.__cxa_pure_virtual:00000000 $t
+     /tmp/ccZk4sWS.s:34     .text.__cxa_pure_virtual:00000000 __cxa_pure_virtual
+     /tmp/ccZk4sWS.s:53     .text._exit:00000000 $t
+     /tmp/ccZk4sWS.s:59     .text._exit:00000000 _exit
+     /tmp/ccZk4sWS.s:80     .text._kill:00000000 $t
+     /tmp/ccZk4sWS.s:86     .text._kill:00000000 _kill
+     /tmp/ccZk4sWS.s:113    .text._getpid:00000000 $t
+     /tmp/ccZk4sWS.s:119    .text._getpid:00000000 _getpid
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

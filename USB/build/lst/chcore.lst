@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc1BmdkE.s 			page 1
+ARM GAS  /tmp/cckU70V0.s 			page 1
 
 
    1              		.syntax unified
@@ -29,14 +29,14 @@ ARM GAS  /tmp/cc1BmdkE.s 			page 1
   26              		.type	port_halt, %function
   27              	port_halt:
   28              	.LFB7:
-  29              		.file 1 "/home/denny/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCMx/chcore.c"
+  29              		.file 1 "/home/ergae/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCMx/chcore.c"
   30              		.loc 1 46 0
   31              		.cfi_startproc
   32              		@ args = 0, pretend = 0, frame = 0
   33              		@ frame_needed = 0, uses_anonymous_args = 0
   34              		@ link register save eliminated.
   35              		.loc 1 48 0
-  36              	@ 48 "/home/denny/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCMx/chcore.c" 1
+  36              	@ 48 "/home/ergae/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCMx/chcore.c" 1
   37 0000 72B6     		cpsid   i
   38              	@ 0 "" 2
   39              		.thumb
@@ -58,11 +58,11 @@ ARM GAS  /tmp/cc1BmdkE.s 			page 1
   53 000a 04       		.byte	0x4
   54 000b 01       		.uleb128 0x1
   55 000c 1B000000 		.4byte	.LASF12
-ARM GAS  /tmp/cc1BmdkE.s 			page 2
+ARM GAS  /tmp/cckU70V0.s 			page 2
 
 
   56 0010 01       		.byte	0x1
-  57 0011 79010000 		.4byte	.LASF13
+  57 0011 5D010000 		.4byte	.LASF13
   58 0015 00000000 		.4byte	.Ldebug_ranges0+0
   59 0019 00000000 		.4byte	0
   60 001d 00000000 		.4byte	.Ldebug_line0
@@ -81,7 +81,7 @@ ARM GAS  /tmp/cc1BmdkE.s 			page 1
   73 0036 03       		.uleb128 0x3
   74 0037 01       		.byte	0x1
   75 0038 08       		.byte	0x8
-  76 0039 5D010000 		.4byte	.LASF2
+  76 0039 9B010000 		.4byte	.LASF2
   77 003d 03       		.uleb128 0x3
   78 003e 02       		.byte	0x2
   79 003f 05       		.byte	0x5
@@ -93,7 +93,7 @@ ARM GAS  /tmp/cc1BmdkE.s 			page 1
   85 004b 03       		.uleb128 0x3
   86 004c 04       		.byte	0x4
   87 004d 05       		.byte	0x5
-  88 004e 70010000 		.4byte	.LASF5
+  88 004e AE010000 		.4byte	.LASF5
   89 0052 03       		.uleb128 0x3
   90 0053 04       		.byte	0x4
   91 0054 07       		.byte	0x7
@@ -117,8 +117,8 @@ ARM GAS  /tmp/cc1BmdkE.s 			page 1
  109 0075 03       		.uleb128 0x3
  110 0076 01       		.byte	0x1
  111 0077 08       		.byte	0x8
- 112 0078 6B010000 		.4byte	.LASF11
-ARM GAS  /tmp/cc1BmdkE.s 			page 3
+ 112 0078 A9010000 		.4byte	.LASF11
+ARM GAS  /tmp/cckU70V0.s 			page 3
 
 
  113 007c 04       		.uleb128 0x4
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc1BmdkE.s 			page 1
  167 002b 19       		.uleb128 0x19
  168 002c 03       		.uleb128 0x3
  169 002d 0E       		.uleb128 0xe
-ARM GAS  /tmp/cc1BmdkE.s 			page 4
+ARM GAS  /tmp/cckU70V0.s 			page 4
 
 
  170 002e 3A       		.uleb128 0x3a
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc1BmdkE.s 			page 1
  213      4320342E 
  213      392E3320 
  213      32303134 
-ARM GAS  /tmp/cc1BmdkE.s 			page 5
+ARM GAS  /tmp/cckU70V0.s 			page 5
 
 
  213      31313139 
@@ -279,30 +279,30 @@ ARM GAS  /tmp/cc1BmdkE.s 			page 1
  222      6720756E 
  222      7369676E 
  222      65642069 
- 223              	.LASF2:
- 224 015d 756E7369 		.ascii	"unsigned char\000"
- 224      676E6564 
- 224      20636861 
- 224      7200
- 225              	.LASF11:
- 226 016b 63686172 		.ascii	"char\000"
- 226      00
- 227              	.LASF5:
- 228 0170 6C6F6E67 		.ascii	"long int\000"
- 228      20696E74 
- 228      00
- 229              	.LASF13:
- 230 0179 2F686F6D 		.ascii	"/home/denny/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCM"
- 230      652F6465 
- 230      6E6E792F 
- 230      7232702D 
- 230      73646B2F 
- 231 01ac 782F6368 		.ascii	"x/chcore.c\000"
-ARM GAS  /tmp/cc1BmdkE.s 			page 6
+ 223              	.LASF13:
+ 224 015d 2F686F6D 		.ascii	"/home/ergae/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCM"
+ 224      652F6572 
+ 224      6761652F 
+ 224      7232702D 
+ 224      73646B2F 
+ 225 0190 782F6368 		.ascii	"x/chcore.c\000"
+ 225      636F7265 
+ 225      2E6300
+ 226              	.LASF2:
+ 227 019b 756E7369 		.ascii	"unsigned char\000"
+ 227      676E6564 
+ 227      20636861 
+ 227      7200
+ 228              	.LASF11:
+ 229 01a9 63686172 		.ascii	"char\000"
+ 229      00
+ 230              	.LASF5:
+ 231 01ae 6C6F6E67 		.ascii	"long int\000"
+ARM GAS  /tmp/cckU70V0.s 			page 6
 
 
- 231      636F7265 
- 231      2E6300
+ 231      20696E74 
+ 231      00
  232              	.LASF9:
  233 01b7 5F426F6F 		.ascii	"_Bool\000"
  233      6C00
@@ -329,13 +329,13 @@ ARM GAS  /tmp/cc1BmdkE.s 			page 1
  243      74797065 
  243      00
  244              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/cc1BmdkE.s 			page 7
+ARM GAS  /tmp/cckU70V0.s 			page 7
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chcore.c
-     /tmp/cc1BmdkE.s:21     .text.port_halt:00000000 $t
-     /tmp/cc1BmdkE.s:27     .text.port_halt:00000000 port_halt
+     /tmp/cckU70V0.s:21     .text.port_halt:00000000 $t
+     /tmp/cckU70V0.s:27     .text.port_halt:00000000 port_halt
                      .debug_frame:00000010 $d
 
 NO UNDEFINED SYMBOLS

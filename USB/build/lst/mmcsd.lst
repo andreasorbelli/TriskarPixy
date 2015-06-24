@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccTOh4Wd.s 			page 1
+ARM GAS  /tmp/ccnaqFYH.s 			page 1
 
 
    1              		.syntax unified
@@ -36,7 +36,7 @@ ARM GAS  /tmp/ccTOh4Wd.s 			page 1
   29              		.type	mmcsd_get_slice, %function
   30              	mmcsd_get_slice:
   31              	.LFB118:
-  32              		.file 1 "/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/mmcsd.c"
+  32              		.file 1 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/mmcsd.c"
   33              		.loc 1 69 0
   34              		.cfi_startproc
   35              		@ args = 0, pretend = 0, frame = 32
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccTOh4Wd.s 			page 1
   51 0012 029A     		ldr	r2, [sp, #8]
   52 0014 019B     		ldr	r3, [sp, #4]
   53 0016 D31A     		subs	r3, r2, r3
-ARM GAS  /tmp/ccTOh4Wd.s 			page 2
+ARM GAS  /tmp/ccnaqFYH.s 			page 2
 
 
   54 0018 1F2B     		cmp	r3, #31
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccTOh4Wd.s 			page 1
  108 0076 09E0     		b	.L5
  109              	.L4:
  110              		.loc 1 84 0
-ARM GAS  /tmp/ccTOh4Wd.s 			page 3
+ARM GAS  /tmp/ccnaqFYH.s 			page 3
 
 
  111 0078 079B     		ldr	r3, [sp, #28]
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccTOh4Wd.s 			page 1
  164              	.LBB2:
  165              		.loc 1 106 0
  166 0018 0198     		ldr	r0, [sp, #4]
-ARM GAS  /tmp/ccTOh4Wd.s 			page 4
+ARM GAS  /tmp/ccnaqFYH.s 			page 4
 
 
  167 001a 4921     		movs	r1, #73
@@ -234,11 +234,11 @@ ARM GAS  /tmp/ccTOh4Wd.s 			page 1
  217 006a 00BFAFF3 		.text
  217      0080
  218              	.Letext0:
- 219              		.file 2 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/machine/_def
- 220              		.file 3 "/home/denny/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/stdint.h"
- 221              		.file 4 "/home/denny/r2p-sdk/core/ChibiOS/os/ports/common/ARMCMx/CMSIS/include/core_cm4.h"
+ 219              		.file 2 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/machine/_def
+ 220              		.file 3 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/stdint.h"
+ 221              		.file 4 "/home/ergae/r2p-sdk/core/ChibiOS/os/ports/common/ARMCMx/CMSIS/include/core_cm4.h"
  222              		.section	.debug_info,"",%progbits
-ARM GAS  /tmp/ccTOh4Wd.s 			page 5
+ARM GAS  /tmp/ccnaqFYH.s 			page 5
 
 
  223              	.Ldebug_info0:
@@ -249,7 +249,7 @@ ARM GAS  /tmp/ccTOh4Wd.s 			page 1
  228 000b 01       		.uleb128 0x1
  229 000c 71000000 		.4byte	.LASF22
  230 0010 01       		.byte	0x1
- 231 0011 AA010000 		.4byte	.LASF23
+ 231 0011 14020000 		.4byte	.LASF23
  232 0015 00000000 		.4byte	.Ldebug_ranges0+0
  233 0019 00000000 		.4byte	0
  234 001d 00000000 		.4byte	.Ldebug_line0
@@ -260,11 +260,11 @@ ARM GAS  /tmp/ccTOh4Wd.s 			page 1
  239 0028 03       		.uleb128 0x3
  240 0029 04       		.byte	0x4
  241 002a 07       		.byte	0x7
- 242 002b DE010000 		.4byte	.LASF0
+ 242 002b AA010000 		.4byte	.LASF0
  243 002f 03       		.uleb128 0x3
  244 0030 01       		.byte	0x1
  245 0031 06       		.byte	0x6
- 246 0032 3C020000 		.4byte	.LASF1
+ 246 0032 08020000 		.4byte	.LASF1
  247 0036 03       		.uleb128 0x3
  248 0037 01       		.byte	0x1
  249 0038 08       		.byte	0x8
@@ -272,7 +272,7 @@ ARM GAS  /tmp/ccTOh4Wd.s 			page 1
  251 003d 03       		.uleb128 0x3
  252 003e 02       		.byte	0x2
  253 003f 05       		.byte	0x5
- 254 0040 0F020000 		.4byte	.LASF3
+ 254 0040 DB010000 		.4byte	.LASF3
  255 0044 03       		.uleb128 0x3
  256 0045 02       		.byte	0x2
  257 0046 07       		.byte	0x7
@@ -285,7 +285,7 @@ ARM GAS  /tmp/ccTOh4Wd.s 			page 1
  264 0056 03       		.uleb128 0x3
  265 0057 04       		.byte	0x4
  266 0058 05       		.byte	0x5
- 267 0059 22020000 		.4byte	.LASF5
+ 267 0059 EE010000 		.4byte	.LASF5
  268 005d 04       		.uleb128 0x4
  269 005e 97010000 		.4byte	.LASF7
  270 0062 02       		.byte	0x2
@@ -298,21 +298,21 @@ ARM GAS  /tmp/ccTOh4Wd.s 			page 1
  277 006f 03       		.uleb128 0x3
  278 0070 08       		.byte	0x8
  279 0071 05       		.byte	0x5
-ARM GAS  /tmp/ccTOh4Wd.s 			page 6
+ARM GAS  /tmp/ccnaqFYH.s 			page 6
 
 
- 280 0072 01020000 		.4byte	.LASF9
+ 280 0072 CD010000 		.4byte	.LASF9
  281 0076 03       		.uleb128 0x3
  282 0077 08       		.byte	0x8
  283 0078 07       		.byte	0x7
  284 0079 4E020000 		.4byte	.LASF10
  285 007d 04       		.uleb128 0x4
- 286 007e F0010000 		.4byte	.LASF11
+ 286 007e BC010000 		.4byte	.LASF11
  287 0082 03       		.byte	0x3
  288 0083 2C       		.byte	0x2c
  289 0084 4B000000 		.4byte	0x4b
  290 0088 04       		.uleb128 0x4
- 291 0089 19020000 		.4byte	.LASF12
+ 291 0089 E5010000 		.4byte	.LASF12
  292 008d 03       		.byte	0x3
  293 008e 2D       		.byte	0x2d
  294 008f 5D000000 		.4byte	0x5d
@@ -323,11 +323,11 @@ ARM GAS  /tmp/ccTOh4Wd.s 			page 1
  299 009a 03       		.uleb128 0x3
  300 009b 04       		.byte	0x4
  301 009c 07       		.byte	0x7
- 302 009d F8010000 		.4byte	.LASF14
+ 302 009d C4010000 		.4byte	.LASF14
  303 00a1 03       		.uleb128 0x3
  304 00a2 01       		.byte	0x1
  305 00a3 08       		.byte	0x8
- 306 00a4 EB010000 		.4byte	.LASF15
+ 306 00a4 B7010000 		.4byte	.LASF15
  307 00a8 05       		.uleb128 0x5
  308 00a9 7D000000 		.4byte	0x7d
  309 00ad 06       		.uleb128 0x6
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccTOh4Wd.s 			page 1
  334 00e1 60       		.sleb128 -32
  335 00e2 07       		.uleb128 0x7
  336 00e3 0A000000 		.4byte	.LASF17
-ARM GAS  /tmp/ccTOh4Wd.s 			page 7
+ARM GAS  /tmp/ccnaqFYH.s 			page 7
 
 
  337 00e7 01       		.byte	0x1
@@ -404,7 +404,7 @@ ARM GAS  /tmp/ccTOh4Wd.s 			page 1
  377 012a 04       		.byte	0x4
  378 012b 88000000 		.4byte	0x88
  379 012f 0B       		.uleb128 0xb
- 380 0130 2B020000 		.4byte	.LASF25
+ 380 0130 F7010000 		.4byte	.LASF25
  381 0134 01       		.byte	0x1
  382 0135 64       		.byte	0x64
  383 0136 88000000 		.4byte	0x88
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccTOh4Wd.s 			page 1
  391 014d 01       		.byte	0x1
  392 014e 64       		.byte	0x64
  393 014f 29010000 		.4byte	0x129
-ARM GAS  /tmp/ccTOh4Wd.s 			page 8
+ARM GAS  /tmp/ccnaqFYH.s 			page 8
 
 
  394 0153 02       		.uleb128 0x2
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccTOh4Wd.s 			page 1
  448 000e 17       		.uleb128 0x17
  449 000f 00       		.byte	0
  450 0010 00       		.byte	0
-ARM GAS  /tmp/ccTOh4Wd.s 			page 9
+ARM GAS  /tmp/ccnaqFYH.s 			page 9
 
 
  451 0011 02       		.uleb128 0x2
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccTOh4Wd.s 			page 1
  505 0047 13       		.uleb128 0x13
  506 0048 11       		.uleb128 0x11
  507 0049 01       		.uleb128 0x1
-ARM GAS  /tmp/ccTOh4Wd.s 			page 10
+ARM GAS  /tmp/ccnaqFYH.s 			page 10
 
 
  508 004a 12       		.uleb128 0x12
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccTOh4Wd.s 			page 1
  562 0081 00       		.byte	0
  563 0082 0A       		.uleb128 0xa
  564 0083 0F       		.uleb128 0xf
-ARM GAS  /tmp/ccTOh4Wd.s 			page 11
+ARM GAS  /tmp/ccnaqFYH.s 			page 11
 
 
  565 0084 00       		.byte	0
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccTOh4Wd.s 			page 1
  619 00bb 02       		.uleb128 0x2
  620 00bc 18       		.uleb128 0x18
  621 00bd 00       		.byte	0
-ARM GAS  /tmp/ccTOh4Wd.s 			page 12
+ARM GAS  /tmp/ccnaqFYH.s 			page 12
 
 
  622 00be 00       		.byte	0
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccTOh4Wd.s 			page 1
  669      7400
  670              	.LASF4:
  671 0010 73686F72 		.ascii	"short unsigned int\000"
-ARM GAS  /tmp/ccTOh4Wd.s 			page 13
+ARM GAS  /tmp/ccnaqFYH.s 			page 13
 
 
  671      7420756E 
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccTOh4Wd.s 			page 1
  690      2D667261 
  691 013d 202D6666 		.ascii	" -ffunction-sections -fdata-sections -fno-common -f"
  691      756E6374 
-ARM GAS  /tmp/ccTOh4Wd.s 			page 14
+ARM GAS  /tmp/ccnaqFYH.s 			page 14
 
 
  691      696F6E2D 
@@ -801,58 +801,58 @@ ARM GAS  /tmp/ccTOh4Wd.s 			page 1
  697              	.LASF21:
  698 01a2 656E646D 		.ascii	"endmask\000"
  698      61736B00 
- 699              	.LASF23:
- 700 01aa 2F686F6D 		.ascii	"/home/denny/r2p-sdk/core/ChibiOS/os/hal/src/mmcsd.c"
- 700      652F6465 
- 700      6E6E792F 
- 700      7232702D 
- 700      73646B2F 
- 701 01dd 00       		.ascii	"\000"
- 702              	.LASF0:
- 703 01de 756E7369 		.ascii	"unsigned int\000"
- 703      676E6564 
- 703      20696E74 
- 703      00
- 704              	.LASF15:
- 705 01eb 63686172 		.ascii	"char\000"
- 705      00
- 706              	.LASF11:
- 707 01f0 696E7433 		.ascii	"int32_t\000"
- 707      325F7400 
- 708              	.LASF14:
- 709 01f8 73697A65 		.ascii	"sizetype\000"
- 709      74797065 
- 709      00
- 710              	.LASF9:
- 711 0201 6C6F6E67 		.ascii	"long long int\000"
- 711      206C6F6E 
- 711      6720696E 
- 711      7400
- 712              	.LASF3:
- 713 020f 73686F72 		.ascii	"short int\000"
- 713      7420696E 
- 713      7400
- 714              	.LASF12:
- 715 0219 75696E74 		.ascii	"uint32_t\000"
- 715      33325F74 
- 715      00
- 716              	.LASF5:
- 717 0222 6C6F6E67 		.ascii	"long int\000"
-ARM GAS  /tmp/ccTOh4Wd.s 			page 15
+ 699              	.LASF0:
+ 700 01aa 756E7369 		.ascii	"unsigned int\000"
+ 700      676E6564 
+ 700      20696E74 
+ 700      00
+ 701              	.LASF15:
+ 702 01b7 63686172 		.ascii	"char\000"
+ 702      00
+ 703              	.LASF11:
+ 704 01bc 696E7433 		.ascii	"int32_t\000"
+ 704      325F7400 
+ 705              	.LASF14:
+ 706 01c4 73697A65 		.ascii	"sizetype\000"
+ 706      74797065 
+ 706      00
+ 707              	.LASF9:
+ 708 01cd 6C6F6E67 		.ascii	"long long int\000"
+ 708      206C6F6E 
+ 708      6720696E 
+ 708      7400
+ 709              	.LASF3:
+ 710 01db 73686F72 		.ascii	"short int\000"
+ 710      7420696E 
+ 710      7400
+ 711              	.LASF12:
+ 712 01e5 75696E74 		.ascii	"uint32_t\000"
+ 712      33325F74 
+ 712      00
+ 713              	.LASF5:
+ 714 01ee 6C6F6E67 		.ascii	"long int\000"
+ 714      20696E74 
+ 714      00
+ 715              	.LASF25:
+ 716 01f7 6D6D6373 		.ascii	"mmcsdGetCapacity\000"
+ 716      64476574 
+ 716      43617061 
+ 716      63697479 
+ARM GAS  /tmp/ccnaqFYH.s 			page 15
 
 
- 717      20696E74 
- 717      00
- 718              	.LASF25:
- 719 022b 6D6D6373 		.ascii	"mmcsdGetCapacity\000"
- 719      64476574 
- 719      43617061 
- 719      63697479 
- 719      00
- 720              	.LASF1:
- 721 023c 7369676E 		.ascii	"signed char\000"
- 721      65642063 
- 721      68617200 
+ 716      00
+ 717              	.LASF1:
+ 718 0208 7369676E 		.ascii	"signed char\000"
+ 718      65642063 
+ 718      68617200 
+ 719              	.LASF23:
+ 720 0214 2F686F6D 		.ascii	"/home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/mmcsd.c"
+ 720      652F6572 
+ 720      6761652F 
+ 720      7232702D 
+ 720      73646B2F 
+ 721 0247 00       		.ascii	"\000"
  722              	.LASF13:
  723 0248 5F426F6F 		.ascii	"_Bool\000"
  723      6C00
@@ -863,19 +863,19 @@ ARM GAS  /tmp/ccTOh4Wd.s 			page 1
  725      7369676E 
  725      65642069 
  726              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccTOh4Wd.s 			page 16
+ARM GAS  /tmp/ccnaqFYH.s 			page 16
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 mmcsd.c
-     /tmp/ccTOh4Wd.s:21     .rodata:00000000 $d
-     /tmp/ccTOh4Wd.s:25     .text.mmcsd_get_slice:00000000 $t
-     /tmp/ccTOh4Wd.s:30     .text.mmcsd_get_slice:00000000 mmcsd_get_slice
-     /tmp/ccTOh4Wd.s:130    .text.mmcsd_get_slice:00000094 $d
-     /tmp/ccTOh4Wd.s:135    .text.mmcsdGetCapacity:00000000 $t
-     /tmp/ccTOh4Wd.s:141    .text.mmcsdGetCapacity:00000000 mmcsdGetCapacity
+     /tmp/ccnaqFYH.s:21     .rodata:00000000 $d
+     /tmp/ccnaqFYH.s:25     .text.mmcsd_get_slice:00000000 $t
+     /tmp/ccnaqFYH.s:30     .text.mmcsd_get_slice:00000000 mmcsd_get_slice
+     /tmp/ccnaqFYH.s:130    .text.mmcsd_get_slice:00000094 $d
+     /tmp/ccnaqFYH.s:135    .text.mmcsdGetCapacity:00000000 $t
+     /tmp/ccnaqFYH.s:141    .text.mmcsdGetCapacity:00000000 mmcsdGetCapacity
                      .debug_frame:00000010 $d
-     /tmp/ccTOh4Wd.s:134    .text.mmcsd_get_slice:00000098 $t
+     /tmp/ccnaqFYH.s:134    .text.mmcsd_get_slice:00000098 $t
 
 UNDEFINED SYMBOLS
 chDbgPanic
