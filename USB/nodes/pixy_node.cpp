@@ -2,7 +2,7 @@
 #include "ch.h"
 #include "hal.h"
 #include "r2p/Middleware.hpp"
-#include <r2p/msg/motor.hpp>
+#include <r2p/msg/pixy.hpp>
 
 
 
@@ -22,13 +22,21 @@ static UARTConfig uart_cfg_1 = {
 };
 
 msg_t pixy_node(void *arg) {
+
+	r2p::Publisher<r2p::PixyMsg> pixy_pub;
 	r2p::Node node("pixy");
+	r2p::PixyMsg * msgp;
 	uartStart(&UARTD3,&uart_cfg_1);
     char buffer[14] ;
 
+   	node.advertise(pixy_pub,"pixy");
 
 	for (;;) {
 		uartStartReceive(&UARTD3,14,buffer);
+		if (pixy_pub.alloc(msgp)) {
+			memcpy(msgp->buffer, buffer, 14);
+			pixy_pub.publish(*msgp);
+		}
 		r2p::Thread::sleep(r2p::Time::ms(500));
 	}
 

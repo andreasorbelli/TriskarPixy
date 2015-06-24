@@ -8,6 +8,7 @@
 
 #include "r2p/Middleware.hpp"
 #include <r2p/msg/motor.hpp>
+#include <r2p/msg/pixy.hpp>
 
 r2p::Node vel_node("speedpub", false);
 r2p::Publisher<r2p::Speed3Msg> vel_pub;
@@ -16,6 +17,10 @@ bool speed_first_time = true;
 r2p::Node pidcfg_node("pidcfg", false);
 r2p::Publisher<r2p::PIDCfgMsg> pidcfg_pub;
 bool pidcfg_first_time = true;
+
+r2p::Node pixy_node("pixy", false);
+r2p::Subscriber<r2p::PixyMsg, 5> pixy_sub;
+bool pixy_first_time = true;
 
 BaseSequentialStream * serialp;
 bool stream_enc = false;
@@ -98,7 +103,7 @@ void usb_lld_connect_bus(USBDriver *usbp) {
 /* Command line related.                                                     */
 /*===========================================================================*/
 
-#define SHELL_WA_SIZE   THD_WA_SIZE(2048)
+#define SHELL_WA_SIZE   THD_WA_SIZE(4096)
 
 static void cmd_run(BaseSequentialStream *chp, int argc, char *argv[]) {
 	r2p::Speed3Msg * msgp;
@@ -141,6 +146,29 @@ static void cmd_run(BaseSequentialStream *chp, int argc, char *argv[]) {
 	chprintf(chp, "SETPOINT: %f %f %f\r\n", dth1, dth2, dth3);
 
 	vel_node.set_enabled(false);
+}
+
+
+static void cmd_pixy(BaseSequentialStream *chp, int argc, char *argv[]) {
+	(void) argv;
+	r2p::PixyMsg * msgp;
+
+	if (pixy_first_time) {
+		pixy_node.subscribe(pixy_sub, "pixy");
+		pixy_first_time = false;
+	}
+	pixy_node.set_enabled(true);
+
+	chprintf(chp, "Print from Pixy\r\n");
+	while(!pixy_sub.fetch(msgp)) {
+		r2p::Thread::sleep(r2p::Time::ms(5));
+	}
+//	chprintf(chp, "msg: %s\r\n",msgp->buffer);
+	chprintf(chp, "msg: %x %x %x %x\r\n", msgp->buffer[0], msgp->buffer[1], msgp->buffer[2], msgp->buffer[3]);
+//	chprintf(chp, "msg!\r\n");
+	pixy_sub.release(*msgp);
+
+	pixy_node.set_enabled(false);
 }
 
 static void cmd_stop(BaseSequentialStream *chp, int argc, char *argv[]) {
@@ -213,7 +241,7 @@ static void cmd_pidcfg(BaseSequentialStream *chp, int argc, char *argv[]) {
 	pidcfg_node.set_enabled(false);
 }
 
-static const ShellCommand commands[] = { { "r", cmd_run }, { "s", cmd_stop }, { "e", cmd_enc }, { "pidcfg", cmd_pidcfg}, { NULL, NULL } };
+static const ShellCommand commands[] = { { "pixy", cmd_pixy }, { "r", cmd_run }, { "s", cmd_stop }, { "e", cmd_enc }, { "pidcfg", cmd_pidcfg}, { NULL, NULL } };
 
 static const ShellConfig usb_shell_cfg = { (BaseSequentialStream *) &SDU1, commands };
 
