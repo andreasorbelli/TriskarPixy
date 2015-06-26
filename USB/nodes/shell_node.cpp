@@ -160,12 +160,23 @@ static void cmd_pixy(BaseSequentialStream *chp, int argc, char *argv[]) {
 	pixy_node.set_enabled(true);
 
 	chprintf(chp, "Print from Pixy\r\n");
+	for (int i=0;i<=30;i++){
 	while(!pixy_sub.fetch(msgp)) {
 		r2p::Thread::sleep(r2p::Time::ms(5));
 	}
+
 //	chprintf(chp, "msg: %s\r\n",msgp->buffer);
-	chprintf(chp, "msg: %x %x %x %x\r\n", msgp->buffer[0], msgp->buffer[1], msgp->buffer[2], msgp->buffer[3]);
-//	chprintf(chp, "msg!\r\n");
+
+	chprintf(chp, "msg:");
+	for (int j=0;j<=39;j++){
+		chprintf(chp, " %x", msgp->buffer[j]);
+	}
+	chprintf(chp, "\r\n");
+
+	//	chprintf(chp, "msg!\r\n");
+	r2p::Thread::sleep(r2p::Time::ms(400));
+
+	}
 	pixy_sub.release(*msgp);
 
 	pixy_node.set_enabled(false);

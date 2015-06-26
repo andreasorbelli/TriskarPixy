@@ -32,12 +32,29 @@ msg_t pixy_node(void *arg) {
    	node.advertise(pixy_pub,"pixy");
 
 	for (;;) {
-		uartStartReceive(&UARTD3,14,buffer);
-		if (pixy_pub.alloc(msgp)) {
-			memcpy(msgp->buffer, buffer, 14);
-			pixy_pub.publish(*msgp);
+		uartStartReceive(&UARTD3,1,buffer);
+		if(buffer[0]=="55"){
+			uartStartReceive(&UARTD3,1,buffer);
+			if(buffer[0]=="AA"){
+				uartStartReceive(&UARTD3,1,buffer);
+				if(buffer[0]=="55"){
+					uartStartReceive(&UARTD3,1,buffer);
+					if(buffer[0]=="AA"){
+						uartStartReceive(&UARTD3,40,buffer);
+						if (pixy_pub.alloc(msgp)) {
+							memcpy(msgp->buffer, buffer, 40);
+							pixy_pub.publish(*msgp);
+							r2p::Thread::sleep(r2p::Time::ms(500));
+						}
+
+					}
+
+				}
+
+			}
+
 		}
-		r2p::Thread::sleep(r2p::Time::ms(500));
+		r2p::Thread::sleep(r2p::Time::ms(50));
 	}
 
 	return CH_SUCCESS;
