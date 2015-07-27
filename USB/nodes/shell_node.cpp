@@ -9,6 +9,7 @@
 #include "r2p/Middleware.hpp"
 #include <r2p/msg/motor.hpp>
 #include <r2p/msg/pixy.hpp>
+#include <r2p/msg/proximity.hpp>
 
 r2p::Node vel_node("speedpub", false);
 r2p::Publisher<r2p::Speed3Msg> vel_pub;
@@ -21,6 +22,17 @@ bool pidcfg_first_time = true;
 r2p::Node pixy_node("pixy", false);
 r2p::Subscriber<r2p::PixyMsg, 5> pixy_sub;
 bool pixy_first_time = true;
+
+int proximity_values[8] = {0};
+
+bool proximity_cb(const r2p::ProximityMsg &msg) {
+
+	for (int i = 0; i < 8; i++) {
+		proximity_values[i] = msg.value[i];
+	}
+
+	return true;
+}
 
 BaseSequentialStream * serialp;
 bool stream_enc = false;
@@ -148,6 +160,86 @@ static void cmd_run(BaseSequentialStream *chp, int argc, char *argv[]) {
 	vel_node.set_enabled(false);
 }
 
+static void cmd_follow(BaseSequentialStream *chp, int argc, char *argv[]) {
+
+	(void) argv;
+	r2p::PixyMsg * pixy_msgp;
+	r2p::Speed3Msg * msgp;
+
+	vel_node.set_enabled(true);
+
+		if (speed_first_time) {
+			vel_node.advertise(vel_pub, "speed3", r2p::Time::INFINITE);
+			speed_first_time = false;
+		}
+
+		float x = 0;
+		float y = 0;
+		float w = 0;
+
+		vel_node.set_enabled(false);
+
+	if (pixy_first_time) {
+		pixy_node.subscribe(pixy_sub, "pixy");
+		pixy_first_time = false;
+	}
+	pixy_node.set_enabled(true);
+
+	while(!pixy_sub.fetch(pixy_msgp)) {
+		r2p::Thread::sleep(r2p::Time::ms(5));
+	}
+
+	if(pixy_msgp->x_center >360){
+		w = -2;
+	}else if(pixy_msgp->x_center<280){
+		w = +2;
+	}else{
+		x=2;
+	}
+
+	// Wheel angular speeds
+	const float dthz123 = _mL_R * w;
+	const float dx12 = _C60_R * y;
+	const float dy12 = _C30_R * x;
+
+	float dth1 = dx12 - dy12 + dthz123;
+	float dth2 = dx12 + dy12 + dthz123;
+	float dth3 = _m1_R * y + dthz123;
+
+	// Motor setpoints
+	if (vel_pub.alloc(msgp)) {
+		msgp->value[0] = (int16_t) clamp(-_MAX_DTH, dth1, _MAX_DTH);
+		msgp->value[1] = (int16_t) clamp(-_MAX_DTH, dth2, _MAX_DTH);
+		msgp->value[2] = (int16_t) clamp(-_MAX_DTH, dth3, _MAX_DTH);
+		vel_pub.publish(*msgp);
+	}
+	chprintf(chp, "SETPOINT: %f %f %f\r\n", dth1, dth2, dth3);
+	pixy_sub.release(*pixy_msgp);
+
+	pixy_node.set_enabled(false);
+
+}
+
+static void cmd_proximity(BaseSequentialStream *chp, int argc, char *argv[]) {
+	(void) argv;
+	r2p::ProximityMsg * msgp;
+	r2p::Subscriber<r2p::ProximityMsg, 5> proximity_sub(proximity_cb);
+	r2p::Node node("shell");
+	node.subscribe(proximity_sub, "proximity");
+
+	chprintf(chp, "Print from Proximity\r\n");
+
+	for(int i =0;i<8;i++)
+	{
+		chprintf(chp,"ir n:%d value : %d\r\n",i,proximity_values[i]);
+
+	}
+
+	chprintf(chp, "\r\n");
+
+
+}
+
 
 static void cmd_pixy(BaseSequentialStream *chp, int argc, char *argv[]) {
 	(void) argv;
@@ -160,23 +252,21 @@ static void cmd_pixy(BaseSequentialStream *chp, int argc, char *argv[]) {
 	pixy_node.set_enabled(true);
 
 	chprintf(chp, "Print from Pixy\r\n");
-	for (int i=0;i<=30;i++){
+
 	while(!pixy_sub.fetch(msgp)) {
 		r2p::Thread::sleep(r2p::Time::ms(5));
 	}
 
-//	chprintf(chp, "msg: %s\r\n",msgp->buffer);
-
 	chprintf(chp, "msg:");
-	for (int j=0;j<=39;j++){
-		chprintf(chp, " %x", msgp->buffer[j]);
-	}
+	chprintf(chp, "Check %d ", msgp->checksum);
+	chprintf(chp, "Sig %d ", msgp->signature);
+	chprintf(chp, "X %d ", msgp->x_center);
+	chprintf(chp, "Y %d ", msgp->y_center);
+	chprintf(chp, "Width %d ", msgp->width);
+	chprintf(chp, "Height %d ", msgp->height);
+
 	chprintf(chp, "\r\n");
 
-	//	chprintf(chp, "msg!\r\n");
-	r2p::Thread::sleep(r2p::Time::ms(400));
-
-	}
 	pixy_sub.release(*msgp);
 
 	pixy_node.set_enabled(false);
@@ -252,7 +342,7 @@ static void cmd_pidcfg(BaseSequentialStream *chp, int argc, char *argv[]) {
 	pidcfg_node.set_enabled(false);
 }
 
-static const ShellCommand commands[] = { { "pixy", cmd_pixy }, { "r", cmd_run }, { "s", cmd_stop }, { "e", cmd_enc }, { "pidcfg", cmd_pidcfg}, { NULL, NULL } };
+static const ShellCommand commands[] = { { "proximity", cmd_proximity },{ "follow", cmd_follow } , { "pixy", cmd_pixy }, { "r", cmd_run }, { "s", cmd_stop }, { "e", cmd_enc }, { "pidcfg", cmd_pidcfg}, { NULL, NULL } };
 
 static const ShellConfig usb_shell_cfg = { (BaseSequentialStream *) &SDU1, commands };
 
