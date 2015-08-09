@@ -29,13 +29,12 @@ int main(void) {
 	halInit();
 	chSysInit();
 
-	r2p::Middleware::instance.initialize(wa_info, sizeof(wa_info), r2p::Thread::LOWEST);
+	r2p::Middleware::instance.initialize(wa_info, sizeof(wa_info), r2p::Thread::HIGHEST);
 	rtcantra.initialize(rtcan_config);
 	r2p::Middleware::instance.start();
 
 	r2p::ledpub_conf ledpub_conf = { "led", 1 };
 	r2p::Thread::create_heap(NULL, THD_WA_SIZE(512), NORMALPRIO, r2p::ledpub_node, &ledpub_conf);
-
 	r2p::ledsub_conf ledsub_conf = {"led"};
 	r2p::Thread::create_heap(NULL, THD_WA_SIZE(512), NORMALPRIO, r2p::ledsub_node, &ledsub_conf);
 

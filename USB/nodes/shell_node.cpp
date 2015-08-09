@@ -23,6 +23,9 @@ r2p::Node pixy_node("pixy", false);
 r2p::Subscriber<r2p::PixyMsg, 5> pixy_sub;
 bool pixy_first_time = true;
 
+
+
+
 int proximity_values[8] = {0};
 
 bool proximity_cb(const r2p::ProximityMsg &msg) {
@@ -33,6 +36,10 @@ bool proximity_cb(const r2p::ProximityMsg &msg) {
 
 	return true;
 }
+
+r2p::Node proximity_node("proximity", false);
+r2p::Subscriber<r2p::ProximityMsg, 5> proximity_sub(proximity_cb);
+bool proxy_first_time = true;
 
 BaseSequentialStream * serialp;
 bool stream_enc = false;
@@ -223,9 +230,12 @@ static void cmd_follow(BaseSequentialStream *chp, int argc, char *argv[]) {
 static void cmd_proximity(BaseSequentialStream *chp, int argc, char *argv[]) {
 	(void) argv;
 	r2p::ProximityMsg * msgp;
-	r2p::Subscriber<r2p::ProximityMsg, 5> proximity_sub(proximity_cb);
-	r2p::Node node("shell");
-	node.subscribe(proximity_sub, "proximity");
+
+	if (pixy_first_time) {
+			pixy_node.subscribe(pixy_sub, "proximity");
+			proxy_first_time = false;
+		}
+		proximity_node.set_enabled(true);
 
 	chprintf(chp, "Print from Proximity\r\n");
 
@@ -234,10 +244,8 @@ static void cmd_proximity(BaseSequentialStream *chp, int argc, char *argv[]) {
 		chprintf(chp,"ir n:%d value : %d\r\n",i,proximity_values[i]);
 
 	}
-
 	chprintf(chp, "\r\n");
-
-
+	proximity_node.set_enabled(false);
 }
 
 
@@ -253,10 +261,15 @@ static void cmd_pixy(BaseSequentialStream *chp, int argc, char *argv[]) {
 
 	chprintf(chp, "Print from Pixy\r\n");
 
-	while(!pixy_sub.fetch(msgp)) {
+	int forced_exit=0;
+	while(!pixy_sub.fetch(msgp) && forced_exit<200) {
 		r2p::Thread::sleep(r2p::Time::ms(5));
-	}
 
+		forced_exit++;
+	}
+	if(forced_exit<200)
+	{
+	chprintf(chp, "pack number :",msgp->pack_number);
 	chprintf(chp, "msg:");
 	chprintf(chp, "Check %d ", msgp->checksum);
 	chprintf(chp, "Sig %d ", msgp->signature);
@@ -268,6 +281,10 @@ static void cmd_pixy(BaseSequentialStream *chp, int argc, char *argv[]) {
 	chprintf(chp, "\r\n");
 
 	pixy_sub.release(*msgp);
+	}else
+	{
+		chprintf(chp, "timeout");
+	}
 
 	pixy_node.set_enabled(false);
 }

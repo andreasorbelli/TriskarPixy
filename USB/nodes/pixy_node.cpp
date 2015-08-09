@@ -4,36 +4,20 @@
 #include "r2p/Middleware.hpp"
 #include <r2p/msg/pixy.hpp>
 #include <r2p/msg/proximity.hpp>
-#include <stdlib.h>
-#include <cstdlib>
 
 
-/*
- * UART driver configuration structure.
- */
-/*
-static UARTConfig uart_cfg_1 = {
-  NULL,
-  NULL,
-  NULL,
-  NULL,
-  NULL,
-  19200,
-  0,
-  USART_CR2_LINEN,
-  0
-};
- */
+
+static int pack_number = 0;
 
 bool sync(char temp[]) {
 	char tocmp1='U';
 	char tocmp2='ª';
 	if(temp[0]==tocmp1 && temp[1]==tocmp2 && temp[2]==tocmp1 && temp[3]==tocmp2)
-		{
+	{
 		return true;
-		}
+	}
 
-		return false;
+	return false;
 }
 
 int toInt(char temp[]) {
@@ -50,11 +34,9 @@ int toInt(char temp[]) {
 
 msg_t pixy_node(void *arg) {
 	r2p::Publisher<r2p::PixyMsg> pixy_pub;
-
 	r2p::Node node("pixy");
 	r2p::PixyMsg * msgp;
 	sdStart(&SD3, NULL);
-
 	node.advertise(pixy_pub,"pixy");
 
 	char toCheck [4];
@@ -63,10 +45,11 @@ msg_t pixy_node(void *arg) {
 	toCheck[2] = sdGetTimeout(&SD3, MS2ST(100));
 
 	for (;;) {
-		node.spin();
+		//if (node.spin(r2p::Time::ms(300))) {
 		toCheck[3] = sdGetTimeout(&SD3, MS2ST(100));
 		if(sync(toCheck)){
 
+			if (pixy_pub.alloc(msgp)) {
 				char check_temp[2];
 				check_temp[1]=sdGetTimeout(&SD3, MS2ST(100));
 				check_temp[0]=sdGetTimeout(&SD3, MS2ST(100));
@@ -91,7 +74,6 @@ msg_t pixy_node(void *arg) {
 				height_temp[1]=sdGetTimeout(&SD3, MS2ST(100));
 				height_temp[0]=sdGetTimeout(&SD3, MS2ST(100));
 
-			if (pixy_pub.alloc(msgp)) {
 				int check = toInt(check_temp);
 				int sig = toInt(Sig_temp);
 				int x = toInt(x_temp);
@@ -104,6 +86,7 @@ msg_t pixy_node(void *arg) {
 				msgp->y_center = y;
 				msgp->width = width;
 				msgp->height = height;
+				msgp->pack_number = pack_number;
 				pixy_pub.publish(*msgp);
 			}
 			toCheck[0] = sdGetTimeout(&SD3, MS2ST(100));
@@ -117,11 +100,13 @@ msg_t pixy_node(void *arg) {
 			}
 
 		}
-		r2p::Thread::sleep(r2p::Time::ms(200));
+		pack_number++;
+		r2p::Thread::sleep(r2p::Time::ms(500));
 	}
+
+
 	return CH_SUCCESS;
 }
-
 
 
 
