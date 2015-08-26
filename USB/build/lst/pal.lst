@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccqLg0RN.s 			page 1
+ARM GAS  /tmp/ccmuiLQ7.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccqLg0RN.s 			page 1
   52 0012 02D9     		bls	.L3
   53              	.L2:
   54              		.loc 1 79 0 discriminator 3
-ARM GAS  /tmp/ccqLg0RN.s 			page 2
+ARM GAS  /tmp/ccmuiLQ7.s 			page 2
 
 
   55 0014 0848     		ldr	r0, .L5
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccqLg0RN.s 			page 1
  106 0008 019B     		ldr	r3, [sp, #4]
  107 000a 002B     		cmp	r3, #0
  108 000c 03D0     		beq	.L8
-ARM GAS  /tmp/ccqLg0RN.s 			page 3
+ARM GAS  /tmp/ccmuiLQ7.s 			page 3
 
 
  109              		.loc 1 105 0 is_stmt 0 discriminator 2
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccqLg0RN.s 			page 1
  159              		.global	palSetBusMode
  160              		.thumb
  161              		.thumb_func
-ARM GAS  /tmp/ccqLg0RN.s 			page 4
+ARM GAS  /tmp/ccmuiLQ7.s 			page 4
 
 
  162              		.type	palSetBusMode, %function
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccqLg0RN.s 			page 1
  216              		.file 2 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/machine/_def
  217              		.file 3 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/stdint.h"
  218              		.file 4 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/platforms/STM32/GPIOv2/pal_lld.h"
-ARM GAS  /tmp/ccqLg0RN.s 			page 5
+ARM GAS  /tmp/ccmuiLQ7.s 			page 5
 
 
  219              		.file 5 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/include/pal.h"
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccqLg0RN.s 			page 1
  273 0069 0D020000 		.4byte	.LASF8
  274 006d 02       		.byte	0x2
  275 006e 41       		.byte	0x41
-ARM GAS  /tmp/ccqLg0RN.s 			page 6
+ARM GAS  /tmp/ccmuiLQ7.s 			page 6
 
 
  276 006f 73000000 		.4byte	0x73
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccqLg0RN.s 			page 1
  330 00db 07       		.uleb128 0x7
  331 00dc 73657400 		.ascii	"set\000"
  332 00e0 04       		.byte	0x4
-ARM GAS  /tmp/ccqLg0RN.s 			page 7
+ARM GAS  /tmp/ccmuiLQ7.s 			page 7
 
 
  333 00e1 97       		.byte	0x97
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccqLg0RN.s 			page 1
  387 0146 0C       		.byte	0xc
  388 0147 07       		.uleb128 0x7
  389 0148 49445200 		.ascii	"IDR\000"
-ARM GAS  /tmp/ccqLg0RN.s 			page 8
+ARM GAS  /tmp/ccmuiLQ7.s 			page 8
 
 
  390 014c 04       		.byte	0x4
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccqLg0RN.s 			page 1
  444 01bb 04       		.byte	0x4
  445 01bc FD       		.byte	0xfd
  446 01bd C1010000 		.4byte	0x1c1
-ARM GAS  /tmp/ccqLg0RN.s 			page 9
+ARM GAS  /tmp/ccmuiLQ7.s 			page 9
 
 
  447 01c1 0B       		.uleb128 0xb
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccqLg0RN.s 			page 1
  501 022d 0E       		.uleb128 0xe
  502 022e 38000000 		.4byte	.LASF37
  503 0232 01       		.byte	0x1
-ARM GAS  /tmp/ccqLg0RN.s 			page 10
+ARM GAS  /tmp/ccmuiLQ7.s 			page 10
 
 
  504 0233 67       		.byte	0x67
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccqLg0RN.s 			page 1
  558 029d 00       		.byte	0
  559              		.section	.debug_abbrev,"",%progbits
  560              	.Ldebug_abbrev0:
-ARM GAS  /tmp/ccqLg0RN.s 			page 11
+ARM GAS  /tmp/ccmuiLQ7.s 			page 11
 
 
  561 0000 01       		.uleb128 0x1
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccqLg0RN.s 			page 1
  615 0036 00       		.byte	0
  616 0037 49       		.uleb128 0x49
  617 0038 13       		.uleb128 0x13
-ARM GAS  /tmp/ccqLg0RN.s 			page 12
+ARM GAS  /tmp/ccmuiLQ7.s 			page 12
 
 
  618 0039 00       		.byte	0
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccqLg0RN.s 			page 1
  672 006f 01       		.uleb128 0x1
  673 0070 13       		.uleb128 0x13
  674 0071 00       		.byte	0
-ARM GAS  /tmp/ccqLg0RN.s 			page 13
+ARM GAS  /tmp/ccmuiLQ7.s 			page 13
 
 
  675 0072 00       		.byte	0
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccqLg0RN.s 			page 1
  729 00a9 08       		.uleb128 0x8
  730 00aa 3A       		.uleb128 0x3a
  731 00ab 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccqLg0RN.s 			page 14
+ARM GAS  /tmp/ccmuiLQ7.s 			page 14
 
 
  732 00ac 3B       		.uleb128 0x3b
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccqLg0RN.s 			page 1
  786 00e3 0B       		.uleb128 0xb
  787 00e4 3B       		.uleb128 0x3b
  788 00e5 05       		.uleb128 0x5
-ARM GAS  /tmp/ccqLg0RN.s 			page 15
+ARM GAS  /tmp/ccmuiLQ7.s 			page 15
 
 
  789 00e6 49       		.uleb128 0x49
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccqLg0RN.s 			page 1
  834      757300
  835              	.LASF6:
  836 001c 5F5F696E 		.ascii	"__int32_t\000"
-ARM GAS  /tmp/ccqLg0RN.s 			page 16
+ARM GAS  /tmp/ccmuiLQ7.s 			page 16
 
 
  836      7433325F 
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccqLg0RN.s 			page 1
  862      20756E73 
  862      69676E65 
  862      6420696E 
-ARM GAS  /tmp/ccqLg0RN.s 			page 17
+ARM GAS  /tmp/ccmuiLQ7.s 			page 17
 
 
  862      7400
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccqLg0RN.s 			page 1
  881      20696E74 
  881      00
  882              	.LASF28:
-ARM GAS  /tmp/ccqLg0RN.s 			page 18
+ARM GAS  /tmp/ccmuiLQ7.s 			page 18
 
 
  883 022d 4750494F 		.ascii	"GPIO_TypeDef\000"
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccqLg0RN.s 			page 1
  912              	.LASF4:
  913 02ac 73686F72 		.ascii	"short unsigned int\000"
  913      7420756E 
-ARM GAS  /tmp/ccqLg0RN.s 			page 19
+ARM GAS  /tmp/ccmuiLQ7.s 			page 19
 
 
  913      7369676E 
@@ -1097,23 +1097,23 @@ ARM GAS  /tmp/ccqLg0RN.s 			page 1
  919 02dc 494F4275 		.ascii	"IOBus\000"
  919      7300
  920              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccqLg0RN.s 			page 20
+ARM GAS  /tmp/ccmuiLQ7.s 			page 20
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 pal.c
-     /tmp/ccqLg0RN.s:21     .rodata:00000000 $d
-     /tmp/ccqLg0RN.s:25     .text.palReadBus:00000000 $t
-     /tmp/ccqLg0RN.s:31     .text.palReadBus:00000000 palReadBus
-     /tmp/ccqLg0RN.s:77     .text.palReadBus:00000038 $d
-     /tmp/ccqLg0RN.s:86     .text.palWriteBus:00000000 $t
-     /tmp/ccqLg0RN.s:92     .text.palWriteBus:00000000 palWriteBus
-     /tmp/ccqLg0RN.s:148    .text.palWriteBus:0000004c $d
-     /tmp/ccqLg0RN.s:157    .text.palSetBusMode:00000000 $t
-     /tmp/ccqLg0RN.s:163    .text.palSetBusMode:00000000 palSetBusMode
-     /tmp/ccqLg0RN.s:210    .text.palSetBusMode:0000003c $d
+     /tmp/ccmuiLQ7.s:21     .rodata:00000000 $d
+     /tmp/ccmuiLQ7.s:25     .text.palReadBus:00000000 $t
+     /tmp/ccmuiLQ7.s:31     .text.palReadBus:00000000 palReadBus
+     /tmp/ccmuiLQ7.s:77     .text.palReadBus:00000038 $d
+     /tmp/ccmuiLQ7.s:86     .text.palWriteBus:00000000 $t
+     /tmp/ccmuiLQ7.s:92     .text.palWriteBus:00000000 palWriteBus
+     /tmp/ccmuiLQ7.s:148    .text.palWriteBus:0000004c $d
+     /tmp/ccmuiLQ7.s:157    .text.palSetBusMode:00000000 $t
+     /tmp/ccmuiLQ7.s:163    .text.palSetBusMode:00000000 palSetBusMode
+     /tmp/ccmuiLQ7.s:210    .text.palSetBusMode:0000003c $d
                      .debug_frame:00000010 $d
-     /tmp/ccqLg0RN.s:81     .text.palReadBus:0000003c $t
+     /tmp/ccmuiLQ7.s:81     .text.palReadBus:0000003c $t
 
 UNDEFINED SYMBOLS
 chDbgPanic

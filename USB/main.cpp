@@ -42,7 +42,7 @@ int main(void) {
 	r2p::Thread::create_heap(NULL, THD_WA_SIZE(512), NORMALPRIO, pixy_node, NULL);
 
 	for (;;) {
-		r2p::Thread::sleep(r2p::Time::ms(500));
+		r2p::Thread::sleep(r2p::Time::ms(50));
 	}
 
 

@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccoS5kWS.s 			page 1
+ARM GAS  /tmp/ccrlXph7.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
   55              		@ link register save eliminated.
   56 0000 82B0     		sub	sp, sp, #8
   57              		.cfi_def_cfa_offset 8
-ARM GAS  /tmp/ccoS5kWS.s 			page 2
+ARM GAS  /tmp/ccrlXph7.s 			page 2
 
 
   58 0002 0190     		str	r0, [sp, #4]
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  110 001c FFF7FEFF 		bl	_ZN3r2p4TimeC1IiEET_
  111              		.loc 2 8 0
  112 0020 0748     		ldr	r0, .L6+4
-ARM GAS  /tmp/ccoS5kWS.s 			page 3
+ARM GAS  /tmp/ccrlXph7.s 			page 3
 
 
  113 0022 6FF00041 		mvn	r1, #-2147483648
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  166              		.file 6 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/string.h"
  167              		.file 7 "<built-in>"
  168              		.file 8 "/home/ergae/r2p-sdk/core/Middleware/include/r2p/Uncopyable.hpp"
-ARM GAS  /tmp/ccoS5kWS.s 			page 4
+ARM GAS  /tmp/ccrlXph7.s 			page 4
 
 
  169              		.file 9 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/stdint.h"
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  223 006d 04       		.byte	0x4
  224 006e 07       		.byte	0x7
  225 006f BF040000 		.4byte	.LASF8
-ARM GAS  /tmp/ccoS5kWS.s 			page 5
+ARM GAS  /tmp/ccrlXph7.s 			page 5
 
 
  226 0073 04       		.uleb128 0x4
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  280 00dc 0A       		.uleb128 0xa
  281 00dd 95000000 		.4byte	0x95
  282 00e1 00       		.byte	0
-ARM GAS  /tmp/ccoS5kWS.s 			page 6
+ARM GAS  /tmp/ccrlXph7.s 			page 6
 
 
  283 00e2 09       		.uleb128 0x9
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  336 015a 0D       		.uleb128 0xd
  337 015b 9C010000 		.4byte	.LASF18
  338 015f FEFFFFFF 		.sleb128 2147483646
-ARM GAS  /tmp/ccoS5kWS.s 			page 7
+ARM GAS  /tmp/ccrlXph7.s 			page 7
 
 
  338      07
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  392 01d4 1E       		.byte	0x1e
  393 01d5 DB000000 		.4byte	.LASF30
  394 01d9 91010000 		.4byte	0x191
-ARM GAS  /tmp/ccoS5kWS.s 			page 8
+ARM GAS  /tmp/ccrlXph7.s 			page 8
 
 
  395 01dd 01       		.byte	0x1
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  449 0264 11       		.uleb128 0x11
  450 0265 5B020000 		.4byte	.LASF38
  451 0269 01       		.byte	0x1
-ARM GAS  /tmp/ccoS5kWS.s 			page 9
+ARM GAS  /tmp/ccrlXph7.s 			page 9
 
 
  452 026a 24       		.byte	0x24
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  506 02f1 F9020000 		.4byte	0x2f9
  507 02f5 04030000 		.4byte	0x304
  508 02f9 12       		.uleb128 0x12
-ARM GAS  /tmp/ccoS5kWS.s 			page 10
+ARM GAS  /tmp/ccrlXph7.s 			page 10
 
 
  509 02fa 58040000 		.4byte	0x458
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  563 037e 00       		.byte	0
  564 037f 15       		.uleb128 0x15
  565 0380 757300   		.ascii	"us\000"
-ARM GAS  /tmp/ccoS5kWS.s 			page 11
+ARM GAS  /tmp/ccrlXph7.s 			page 11
 
 
  566 0383 01       		.byte	0x1
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  620 03fb 6E6F7700 		.ascii	"now\000"
  621 03ff 01       		.byte	0x1
  622 0400 38       		.byte	0x38
-ARM GAS  /tmp/ccoS5kWS.s 			page 12
+ARM GAS  /tmp/ccrlXph7.s 			page 12
 
 
  623 0401 5C050000 		.4byte	.LASF68
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  677 0475 25000000 		.4byte	0x25
  678 0479 1B       		.uleb128 0x1b
  679 047a F3020000 		.4byte	.LASF70
-ARM GAS  /tmp/ccoS5kWS.s 			page 13
+ARM GAS  /tmp/ccrlXph7.s 			page 13
 
 
  680 047e 8E040000 		.4byte	0x48e
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  734 04f4 70       		.sleb128 -16
  735 04f5 00       		.byte	0
  736 04f6 21       		.uleb128 0x21
-ARM GAS  /tmp/ccoS5kWS.s 			page 14
+ARM GAS  /tmp/ccrlXph7.s 			page 14
 
 
  737 04f7 5A000000 		.4byte	.LASF74
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  791 0016 0B       		.uleb128 0xb
  792 0017 0B       		.uleb128 0xb
  793 0018 3E       		.uleb128 0x3e
-ARM GAS  /tmp/ccoS5kWS.s 			page 15
+ARM GAS  /tmp/ccrlXph7.s 			page 15
 
 
  794 0019 0B       		.uleb128 0xb
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  848 004f 01       		.uleb128 0x1
  849 0050 13       		.uleb128 0x13
  850 0051 00       		.byte	0
-ARM GAS  /tmp/ccoS5kWS.s 			page 16
+ARM GAS  /tmp/ccrlXph7.s 			page 16
 
 
  851 0052 00       		.byte	0
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  905 0088 04       		.uleb128 0x4
  906 0089 01       		.byte	0x1
  907 008a 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccoS5kWS.s 			page 17
+ARM GAS  /tmp/ccrlXph7.s 			page 17
 
 
  908 008b 0B       		.uleb128 0xb
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  962 00c1 00       		.byte	0
  963 00c2 03       		.uleb128 0x3
  964 00c3 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccoS5kWS.s 			page 18
+ARM GAS  /tmp/ccrlXph7.s 			page 18
 
 
  965 00c4 3A       		.uleb128 0x3a
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  1019 00fa 0E       		.uleb128 0xe
  1020 00fb 3A       		.uleb128 0x3a
  1021 00fc 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccoS5kWS.s 			page 19
+ARM GAS  /tmp/ccrlXph7.s 			page 19
 
 
  1022 00fd 3B       		.uleb128 0x3b
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  1076 0133 32       		.uleb128 0x32
  1077 0134 0B       		.uleb128 0xb
  1078 0135 3C       		.uleb128 0x3c
-ARM GAS  /tmp/ccoS5kWS.s 			page 20
+ARM GAS  /tmp/ccrlXph7.s 			page 20
 
 
  1079 0136 19       		.uleb128 0x19
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  1133 016c 00       		.byte	0
  1134 016d 00       		.byte	0
  1135 016e 19       		.uleb128 0x19
-ARM GAS  /tmp/ccoS5kWS.s 			page 21
+ARM GAS  /tmp/ccrlXph7.s 			page 21
 
 
  1136 016f 10       		.uleb128 0x10
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  1190 01a5 12       		.uleb128 0x12
  1191 01a6 06       		.uleb128 0x6
  1192 01a7 40       		.uleb128 0x40
-ARM GAS  /tmp/ccoS5kWS.s 			page 22
+ARM GAS  /tmp/ccrlXph7.s 			page 22
 
 
  1193 01a8 18       		.uleb128 0x18
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  1247 01e0 00       		.byte	0
  1248 01e1 03       		.uleb128 0x3
  1249 01e2 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccoS5kWS.s 			page 23
+ARM GAS  /tmp/ccrlXph7.s 			page 23
 
 
  1250 01e3 34       		.uleb128 0x34
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  1304              		.section	.debug_line,"",%progbits
  1305              	.Ldebug_line0:
  1306 0000 81020000 		.section	.debug_str,"MS",%progbits,1
-ARM GAS  /tmp/ccoS5kWS.s 			page 24
+ARM GAS  /tmp/ccrlXph7.s 			page 24
 
 
  1306      02003A02 
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  1330      72726F72 
  1330      00
  1331              	.LASF40:
-ARM GAS  /tmp/ccoS5kWS.s 			page 25
+ARM GAS  /tmp/ccrlXph7.s 			page 25
 
 
  1332 00a5 746F5F73 		.ascii	"to_s\000"
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  1354      5F726177 
  1354      00
  1355              	.LASF12:
-ARM GAS  /tmp/ccoS5kWS.s 			page 26
+ARM GAS  /tmp/ccrlXph7.s 			page 26
 
 
  1356 0154 63686172 		.ascii	"char\000"
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  1379              	.LASF19:
  1380 0215 4D494E5F 		.ascii	"MIN_MS\000"
  1380      4D5300
-ARM GAS  /tmp/ccoS5kWS.s 			page 27
+ARM GAS  /tmp/ccrlXph7.s 			page 27
 
 
  1381              	.LASF44:
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  1406 02ae 696E7433 		.ascii	"int32_t\000"
  1406      325F7400 
  1407              	.LASF13:
-ARM GAS  /tmp/ccoS5kWS.s 			page 28
+ARM GAS  /tmp/ccrlXph7.s 			page 28
 
 
  1408 02b6 73747263 		.ascii	"strcoll\000"
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  1425      63697369 
  1425      6F6E2D63 
  1426 0466 6E73202D 		.ascii	"ns -fno-threadsafe-statics\000"
-ARM GAS  /tmp/ccoS5kWS.s 			page 29
+ARM GAS  /tmp/ccrlXph7.s 			page 29
 
 
  1426      666E6F2D 
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  1450      72327034 
  1450      54696D65 
  1450      43324969 
-ARM GAS  /tmp/ccoS5kWS.s 			page 30
+ARM GAS  /tmp/ccrlXph7.s 			page 30
 
 
  1450      4545545F 
@@ -1774,28 +1774,28 @@ ARM GAS  /tmp/ccoS5kWS.s 			page 1
  1462      6534746F 
  1462      5F6D4576 
  1463              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccoS5kWS.s 			page 31
+ARM GAS  /tmp/ccrlXph7.s 			page 31
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 Time.cpp
-     /tmp/ccoS5kWS.s:25     .bss._ZN3r2p4Time9IMMEDIATEE:00000000 _ZN3r2p4Time9IMMEDIATEE
-     /tmp/ccoS5kWS.s:22     .bss._ZN3r2p4Time9IMMEDIATEE:00000000 $d
-     /tmp/ccoS5kWS.s:32     .bss._ZN3r2p4Time8INFINITEE:00000000 _ZN3r2p4Time8INFINITEE
-     /tmp/ccoS5kWS.s:29     .bss._ZN3r2p4Time8INFINITEE:00000000 $d
-     /tmp/ccoS5kWS.s:39     .bss._ZN3r2p4Time9INFINITENE:00000000 _ZN3r2p4Time9INFINITENE
-     /tmp/ccoS5kWS.s:36     .bss._ZN3r2p4Time9INFINITENE:00000000 $d
-     /tmp/ccoS5kWS.s:42     .text._ZN3r2p4TimeC2IiEET_:00000000 $t
-     /tmp/ccoS5kWS.s:48     .text._ZN3r2p4TimeC2IiEET_:00000000 _ZN3r2p4TimeC2IiEET_
-     /tmp/ccoS5kWS.s:48     .text._ZN3r2p4TimeC2IiEET_:00000000 _ZN3r2p4TimeC1IiEET_
-     /tmp/ccoS5kWS.s:79     .text._Z41__static_initialization_and_destruction_0ii:00000000 $t
-     /tmp/ccoS5kWS.s:84     .text._Z41__static_initialization_and_destruction_0ii:00000000 _Z41__static_initialization_and_destruction_0ii
-     /tmp/ccoS5kWS.s:128    .text._Z41__static_initialization_and_destruction_0ii:0000003c $d
-     /tmp/ccoS5kWS.s:135    .text._GLOBAL__sub_I__ZN3r2p4Time9IMMEDIATEE:00000000 $t
-     /tmp/ccoS5kWS.s:140    .text._GLOBAL__sub_I__ZN3r2p4Time9IMMEDIATEE:00000000 _GLOBAL__sub_I__ZN3r2p4Time9IMMEDIATEE
-     /tmp/ccoS5kWS.s:159    .init_array:00000000 $d
+     /tmp/ccrlXph7.s:25     .bss._ZN3r2p4Time9IMMEDIATEE:00000000 _ZN3r2p4Time9IMMEDIATEE
+     /tmp/ccrlXph7.s:22     .bss._ZN3r2p4Time9IMMEDIATEE:00000000 $d
+     /tmp/ccrlXph7.s:32     .bss._ZN3r2p4Time8INFINITEE:00000000 _ZN3r2p4Time8INFINITEE
+     /tmp/ccrlXph7.s:29     .bss._ZN3r2p4Time8INFINITEE:00000000 $d
+     /tmp/ccrlXph7.s:39     .bss._ZN3r2p4Time9INFINITENE:00000000 _ZN3r2p4Time9INFINITENE
+     /tmp/ccrlXph7.s:36     .bss._ZN3r2p4Time9INFINITENE:00000000 $d
+     /tmp/ccrlXph7.s:42     .text._ZN3r2p4TimeC2IiEET_:00000000 $t
+     /tmp/ccrlXph7.s:48     .text._ZN3r2p4TimeC2IiEET_:00000000 _ZN3r2p4TimeC2IiEET_
+     /tmp/ccrlXph7.s:48     .text._ZN3r2p4TimeC2IiEET_:00000000 _ZN3r2p4TimeC1IiEET_
+     /tmp/ccrlXph7.s:79     .text._Z41__static_initialization_and_destruction_0ii:00000000 $t
+     /tmp/ccrlXph7.s:84     .text._Z41__static_initialization_and_destruction_0ii:00000000 _Z41__static_initialization_and_destruction_0ii
+     /tmp/ccrlXph7.s:128    .text._Z41__static_initialization_and_destruction_0ii:0000003c $d
+     /tmp/ccrlXph7.s:135    .text._GLOBAL__sub_I__ZN3r2p4Time9IMMEDIATEE:00000000 $t
+     /tmp/ccrlXph7.s:140    .text._GLOBAL__sub_I__ZN3r2p4Time9IMMEDIATEE:00000000 _GLOBAL__sub_I__ZN3r2p4Time9IMMEDIATEE
+     /tmp/ccrlXph7.s:159    .init_array:00000000 $d
                      .debug_frame:00000010 $d
-     /tmp/ccoS5kWS.s:134    .text._Z41__static_initialization_and_destruction_0ii:00000048 $t
+     /tmp/ccrlXph7.s:134    .text._Z41__static_initialization_and_destruction_0ii:00000048 $t
                            .group:00000000 _ZN3r2p4TimeC5IiEET_
 
 NO UNDEFINED SYMBOLS

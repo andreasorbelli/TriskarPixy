@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccFG3gU0.s 			page 1
+ARM GAS  /tmp/cc4L31Ed.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
   55              	@ 53 "/home/ergae/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCMx/chcore_v7m.c" 1
   56 001a 83F31188 		msr     BASEPRI, r3
   57              	@ 0 "" 2
-ARM GAS  /tmp/ccFG3gU0.s 			page 2
+ARM GAS  /tmp/cc4L31Ed.s 			page 2
 
 
   58              		.thumb
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  111              	@ 0 "" 2
  112              		.thumb
  113              	.LBE4:
-ARM GAS  /tmp/ccFG3gU0.s 			page 3
+ARM GAS  /tmp/cc4L31Ed.s 			page 3
 
 
  114              		.loc 1 83 0
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  168 0028 00ED00E0 		.word	-536810240
  169 002c 0003FA05 		.word	100270848
  170              		.cfi_endproc
-ARM GAS  /tmp/ccFG3gU0.s 			page 4
+ARM GAS  /tmp/cc4L31Ed.s 			page 4
 
 
  171              	.LFE9:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  225 002e 83F30988 		msr     PSP, r3
  226              	@ 0 "" 2
  227              		.loc 1 173 0
-ARM GAS  /tmp/ccFG3gU0.s 			page 5
+ARM GAS  /tmp/cc4L31Ed.s 			page 5
 
 
  228              		.thumb
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  282              	@ 187 "/home/ergae/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCMx/chcore_v7m.c" 1
  283 0082 83F31188 		msr     BASEPRI, r3
  284              	@ 0 "" 2
-ARM GAS  /tmp/ccFG3gU0.s 			page 6
+ARM GAS  /tmp/cc4L31Ed.s 			page 6
 
 
  285              		.thumb
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  339              		.global	_port_switch
  340              		.thumb
  341              		.thumb_func
-ARM GAS  /tmp/ccFG3gU0.s 			page 7
+ARM GAS  /tmp/cc4L31Ed.s 			page 7
 
 
  342              		.type	_port_switch, %function
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  396 0002 FFF7FEFF 		bl	dbg_check_unlock
  397              	.LBB8:
  398 0006 0023     		movs	r3, #0
-ARM GAS  /tmp/ccFG3gU0.s 			page 8
+ARM GAS  /tmp/cc4L31Ed.s 			page 8
 
 
  399              	@ 251 "/home/ergae/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCMx/chcore_v7m.c" 1
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  451 0032 B1000000 		.4byte	.LASF1
  452 0036 04       		.uleb128 0x4
  453 0037 1D000000 		.4byte	.LASF5
-ARM GAS  /tmp/ccFG3gU0.s 			page 9
+ARM GAS  /tmp/cc4L31Ed.s 			page 9
 
 
  454 003b 02       		.byte	0x2
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  508 00a4 2C       		.byte	0x2c
  509 00a5 56000000 		.4byte	0x56
  510 00a9 04       		.uleb128 0x4
-ARM GAS  /tmp/ccFG3gU0.s 			page 10
+ARM GAS  /tmp/cc4L31Ed.s 			page 10
 
 
  511 00aa 28030000 		.4byte	.LASF15
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  565 011f 16030000 		.4byte	.LASF26
  566 0123 05       		.byte	0x5
  567 0124 2A       		.byte	0x2a
-ARM GAS  /tmp/ccFG3gU0.s 			page 11
+ARM GAS  /tmp/cc4L31Ed.s 			page 11
 
 
  568 0125 29010000 		.4byte	0x129
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  622 0194 1C       		.byte	0x1c
  623 0195 06       		.uleb128 0x6
  624 0196 CE020000 		.4byte	.LASF35
-ARM GAS  /tmp/ccFG3gU0.s 			page 12
+ARM GAS  /tmp/cc4L31Ed.s 			page 12
 
 
  625 019a 06       		.byte	0x6
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  679 0206 06       		.byte	0x6
  680 0207 C9       		.byte	0xc9
  681 0208 08010000 		.4byte	0x108
-ARM GAS  /tmp/ccFG3gU0.s 			page 13
+ARM GAS  /tmp/cc4L31Ed.s 			page 13
 
 
  682 020c 3C       		.byte	0x3c
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  736 0272 6D       		.byte	0x6d
  737 0273 53020000 		.4byte	0x253
  738 0277 00       		.byte	0
-ARM GAS  /tmp/ccFG3gU0.s 			page 14
+ARM GAS  /tmp/cc4L31Ed.s 			page 14
 
 
  739 0278 00       		.byte	0
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  793 02e0 06       		.uleb128 0x6
  794 02e1 46010000 		.4byte	.LASF52
  795 02e5 07       		.byte	0x7
-ARM GAS  /tmp/ccFG3gU0.s 			page 15
+ARM GAS  /tmp/cc4L31Ed.s 			page 15
 
 
  796 02e6 F3       		.byte	0xf3
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  850 034a FD       		.byte	0xfd
  851 034b 84020000 		.4byte	0x284
  852 034f 38       		.byte	0x38
-ARM GAS  /tmp/ccFG3gU0.s 			page 16
+ARM GAS  /tmp/cc4L31Ed.s 			page 16
 
 
  853 0350 07       		.uleb128 0x7
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  907 03c0 0C       		.uleb128 0xc
  908 03c1 02030000 		.4byte	.LASF54
  909 03c5 07       		.byte	0x7
-ARM GAS  /tmp/ccFG3gU0.s 			page 17
+ARM GAS  /tmp/cc4L31Ed.s 			page 17
 
 
  910 03c6 0701     		.2byte	0x107
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  964 043b 07       		.byte	0x7
  965 043c 1401     		.2byte	0x114
  966 043e 84020000 		.4byte	0x284
-ARM GAS  /tmp/ccFG3gU0.s 			page 18
+ARM GAS  /tmp/cc4L31Ed.s 			page 18
 
 
  967 0442 18       		.byte	0x18
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  1021 04b7 3C       		.byte	0x3c
  1022 04b8 0B       		.uleb128 0xb
  1023 04b9 723400   		.ascii	"r4\000"
-ARM GAS  /tmp/ccFG3gU0.s 			page 19
+ARM GAS  /tmp/cc4L31Ed.s 			page 19
 
 
  1024 04bc 07       		.byte	0x7
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  1078 0528 8E010000 		.4byte	.LASF57
  1079 052c 04       		.byte	0x4
  1080 052d 07       		.byte	0x7
-ARM GAS  /tmp/ccFG3gU0.s 			page 20
+ARM GAS  /tmp/cc4L31Ed.s 			page 20
 
 
  1081 052e 3101     		.2byte	0x131
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  1135 059c 08       		.byte	0x8
  1136 059d 8E       		.byte	0x8e
  1137 059e 48050000 		.4byte	0x548
-ARM GAS  /tmp/ccFG3gU0.s 			page 21
+ARM GAS  /tmp/cc4L31Ed.s 			page 21
 
 
  1138 05a2 10       		.byte	0x10
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  1192 060e 3C       		.byte	0x3c
  1193 060f 07       		.uleb128 0x7
  1194 0610 50465200 		.ascii	"PFR\000"
-ARM GAS  /tmp/ccFG3gU0.s 			page 22
+ARM GAS  /tmp/cc4L31Ed.s 			page 22
 
 
  1195 0614 08       		.byte	0x8
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  1249 0683 58050000 		.4byte	0x558
  1250 0687 01       		.byte	0x1
  1251 0688 00       		.byte	0
-ARM GAS  /tmp/ccFG3gU0.s 			page 23
+ARM GAS  /tmp/cc4L31Ed.s 			page 23
 
 
  1252 0689 0E       		.uleb128 0xe
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  1306 06fb 48050000 		.4byte	0x548
  1307 06ff 0C       		.byte	0xc
  1308 0700 06       		.uleb128 0x6
-ARM GAS  /tmp/ccFG3gU0.s 			page 24
+ARM GAS  /tmp/cc4L31Ed.s 			page 24
 
 
  1309 0701 70020000 		.4byte	.LASF79
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  1363 0770 65       		.byte	0x65
  1364 0771 53020000 		.4byte	0x253
  1365 0775 10       		.byte	0x10
-ARM GAS  /tmp/ccFG3gU0.s 			page 25
+ARM GAS  /tmp/cc4L31Ed.s 			page 25
 
 
  1366 0776 06       		.uleb128 0x6
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  1420 07df 96       		.byte	0x96
  1421 07e0 11080000 		.4byte	0x811
  1422 07e4 12       		.uleb128 0x12
-ARM GAS  /tmp/ccFG3gU0.s 			page 26
+ARM GAS  /tmp/cc4L31Ed.s 			page 26
 
 
  1423 07e5 06000000 		.4byte	.LASF93
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  1477 085d 53       		.byte	0x53
  1478 085e 00       		.byte	0
  1479 085f 17       		.uleb128 0x17
-ARM GAS  /tmp/ccFG3gU0.s 			page 27
+ARM GAS  /tmp/cc4L31Ed.s 			page 27
 
 
  1480 0860 18000000 		.4byte	.LBB3
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  1534 08cf 96       		.byte	0x96
  1535 08d0 00000000 		.4byte	.LFB10
  1536 08d4 9C000000 		.4byte	.LFE10-.LFB10
-ARM GAS  /tmp/ccFG3gU0.s 			page 28
+ARM GAS  /tmp/cc4L31Ed.s 			page 28
 
 
  1537 08d8 01       		.uleb128 0x1
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  1591 094d 01       		.uleb128 0x1
  1592 094e 9C       		.byte	0x9c
  1593 094f 6E090000 		.4byte	0x96e
-ARM GAS  /tmp/ccFG3gU0.s 			page 29
+ARM GAS  /tmp/cc4L31Ed.s 			page 29
 
 
  1594 0953 1B       		.uleb128 0x1b
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  1648 000a 17       		.uleb128 0x17
  1649 000b 11       		.uleb128 0x11
  1650 000c 01       		.uleb128 0x1
-ARM GAS  /tmp/ccFG3gU0.s 			page 30
+ARM GAS  /tmp/cc4L31Ed.s 			page 30
 
 
  1651 000d 10       		.uleb128 0x10
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  1705 0043 06       		.uleb128 0x6
  1706 0044 0D       		.uleb128 0xd
  1707 0045 00       		.byte	0
-ARM GAS  /tmp/ccFG3gU0.s 			page 31
+ARM GAS  /tmp/cc4L31Ed.s 			page 31
 
 
  1708 0046 03       		.uleb128 0x3
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  1762 007c 00       		.byte	0
  1763 007d 00       		.byte	0
  1764 007e 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccFG3gU0.s 			page 32
+ARM GAS  /tmp/cc4L31Ed.s 			page 32
 
 
  1765 007f 0D       		.uleb128 0xd
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  1819 00b5 49       		.uleb128 0x49
  1820 00b6 13       		.uleb128 0x13
  1821 00b7 01       		.uleb128 0x1
-ARM GAS  /tmp/ccFG3gU0.s 			page 33
+ARM GAS  /tmp/cc4L31Ed.s 			page 33
 
 
  1822 00b8 13       		.uleb128 0x13
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  1876 00ee 3B       		.uleb128 0x3b
  1877 00ef 0B       		.uleb128 0xb
  1878 00f0 27       		.uleb128 0x27
-ARM GAS  /tmp/ccFG3gU0.s 			page 34
+ARM GAS  /tmp/cc4L31Ed.s 			page 34
 
 
  1879 00f1 19       		.uleb128 0x19
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  1933 0128 0E       		.uleb128 0xe
  1934 0129 3A       		.uleb128 0x3a
  1935 012a 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccFG3gU0.s 			page 35
+ARM GAS  /tmp/cc4L31Ed.s 			page 35
 
 
  1936 012b 3B       		.uleb128 0x3b
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  1990 0163 1B       		.uleb128 0x1b
  1991 0164 05       		.uleb128 0x5
  1992 0165 00       		.byte	0
-ARM GAS  /tmp/ccFG3gU0.s 			page 36
+ARM GAS  /tmp/cc4L31Ed.s 			page 36
 
 
  1993 0166 03       		.uleb128 0x3
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  2047              		.section	.debug_ranges,"",%progbits
  2048              	.Ldebug_ranges0:
  2049 0000 00000000 		.4byte	.LFB7
-ARM GAS  /tmp/ccFG3gU0.s 			page 37
+ARM GAS  /tmp/cc4L31Ed.s 			page 37
 
 
  2050 0004 28000000 		.4byte	.LFE7
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  2085 0054 43505549 		.ascii	"CPUID\000"
  2085      4400
  2086              	.LASF29:
-ARM GAS  /tmp/ccFG3gU0.s 			page 38
+ARM GAS  /tmp/cc4L31Ed.s 			page 38
 
 
  2087 005a 705F7072 		.ascii	"p_prio\000"
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  2113              	.LASF71:
  2114 010c 41465352 		.ascii	"AFSR\000"
  2114      00
-ARM GAS  /tmp/ccFG3gU0.s 			page 39
+ARM GAS  /tmp/cc4L31Ed.s 			page 39
 
 
  2115              	.LASF8:
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  2140      65642069 
  2140      6E7400
  2141              	.LASF61:
-ARM GAS  /tmp/ccFG3gU0.s 			page 40
+ARM GAS  /tmp/cc4L31Ed.s 			page 40
 
 
  2142 01a9 49435352 		.ascii	"ICSR\000"
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  2171              	.LASF66:
  2172 0233 43465352 		.ascii	"CFSR\000"
  2172      00
-ARM GAS  /tmp/ccFG3gU0.s 			page 41
+ARM GAS  /tmp/cc4L31Ed.s 			page 41
 
 
  2173              	.LASF32:
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  2205              	.LASF44:
  2206 02ba 705F6D74 		.ascii	"p_mtxlist\000"
  2206      786C6973 
-ARM GAS  /tmp/ccFG3gU0.s 			page 42
+ARM GAS  /tmp/cc4L31Ed.s 			page 42
 
 
  2206      7400
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  2240 0341 63686172 		.ascii	"char\000"
  2240      00
  2241              	.LASF58:
-ARM GAS  /tmp/ccFG3gU0.s 			page 43
+ARM GAS  /tmp/cc4L31Ed.s 			page 43
 
 
  2242 0346 494F5245 		.ascii	"IOREG32\000"
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  2274 03c8 705F6E61 		.ascii	"p_name\000"
  2274      6D6500
  2275              	.LASF74:
-ARM GAS  /tmp/ccFG3gU0.s 			page 44
+ARM GAS  /tmp/cc4L31Ed.s 			page 44
 
 
  2276 03cf 43504143 		.ascii	"CPACR\000"
@@ -2628,31 +2628,31 @@ ARM GAS  /tmp/ccFG3gU0.s 			page 1
  2291      6974696E 
  2291      6700
  2292              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccFG3gU0.s 			page 45
+ARM GAS  /tmp/cc4L31Ed.s 			page 45
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chcore_v7m.c
-     /tmp/ccFG3gU0.s:21     .text.SysTickVector:00000000 $t
-     /tmp/ccFG3gU0.s:27     .text.SysTickVector:00000000 SysTickVector
-     /tmp/ccFG3gU0.s:180    .text._port_irq_epilogue:00000000 _port_irq_epilogue
-     /tmp/ccFG3gU0.s:69     .text.SVCallVector:00000000 $t
-     /tmp/ccFG3gU0.s:75     .text.SVCallVector:00000000 SVCallVector
-     /tmp/ccFG3gU0.s:122    .text.SVCallVector:0000002c $d
-     /tmp/ccFG3gU0.s:127    .text._port_init:00000000 $t
-     /tmp/ccFG3gU0.s:133    .text._port_init:00000000 _port_init
-     /tmp/ccFG3gU0.s:168    .text._port_init:00000028 $d
-     /tmp/ccFG3gU0.s:174    .text._port_irq_epilogue:00000000 $t
-     /tmp/ccFG3gU0.s:296    .text._port_irq_epilogue:0000008c $d
-     /tmp/ccFG3gU0.s:310    .text._port_switch_from_isr:00000000 _port_switch_from_isr
-     /tmp/ccFG3gU0.s:325    .text._port_switch_from_isr:0000000c _port_exit_from_isr
-     /tmp/ccFG3gU0.s:304    .text._port_switch_from_isr:00000000 $t
-     /tmp/ccFG3gU0.s:337    .text._port_switch:00000000 $t
-     /tmp/ccFG3gU0.s:343    .text._port_switch:00000000 _port_switch
-     /tmp/ccFG3gU0.s:379    .text._port_thread_start:00000000 $t
-     /tmp/ccFG3gU0.s:385    .text._port_thread_start:00000000 _port_thread_start
+     /tmp/cc4L31Ed.s:21     .text.SysTickVector:00000000 $t
+     /tmp/cc4L31Ed.s:27     .text.SysTickVector:00000000 SysTickVector
+     /tmp/cc4L31Ed.s:180    .text._port_irq_epilogue:00000000 _port_irq_epilogue
+     /tmp/cc4L31Ed.s:69     .text.SVCallVector:00000000 $t
+     /tmp/cc4L31Ed.s:75     .text.SVCallVector:00000000 SVCallVector
+     /tmp/cc4L31Ed.s:122    .text.SVCallVector:0000002c $d
+     /tmp/cc4L31Ed.s:127    .text._port_init:00000000 $t
+     /tmp/cc4L31Ed.s:133    .text._port_init:00000000 _port_init
+     /tmp/cc4L31Ed.s:168    .text._port_init:00000028 $d
+     /tmp/cc4L31Ed.s:174    .text._port_irq_epilogue:00000000 $t
+     /tmp/cc4L31Ed.s:296    .text._port_irq_epilogue:0000008c $d
+     /tmp/cc4L31Ed.s:310    .text._port_switch_from_isr:00000000 _port_switch_from_isr
+     /tmp/cc4L31Ed.s:325    .text._port_switch_from_isr:0000000c _port_exit_from_isr
+     /tmp/cc4L31Ed.s:304    .text._port_switch_from_isr:00000000 $t
+     /tmp/cc4L31Ed.s:337    .text._port_switch:00000000 $t
+     /tmp/cc4L31Ed.s:343    .text._port_switch:00000000 _port_switch
+     /tmp/cc4L31Ed.s:379    .text._port_thread_start:00000000 $t
+     /tmp/cc4L31Ed.s:385    .text._port_thread_start:00000000 _port_thread_start
                      .debug_frame:00000010 $d
-     /tmp/ccFG3gU0.s:303    .text._port_irq_epilogue:0000009c $t
+     /tmp/cc4L31Ed.s:303    .text._port_irq_epilogue:0000009c $t
 
 UNDEFINED SYMBOLS
 dbg_check_enter_isr

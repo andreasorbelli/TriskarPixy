@@ -9,6 +9,7 @@
 #include "r2p/Middleware.hpp"
 #include <r2p/msg/motor.hpp>
 #include <r2p/msg/pixy.hpp>
+#include <r2p/msg/pixyBuffer.hpp>
 #include <r2p/msg/proximity.hpp>
 
 r2p::Node vel_node("speedpub", false);
@@ -28,17 +29,18 @@ bool pixy_first_time = true;
 
 int proximity_values[8] = {0};
 
-bool proximity_cb(const r2p::ProximityMsg &msg) {
-
-	for (int i = 0; i < 8; i++) {
-		proximity_values[i] = msg.value[i];
-	}
-
-	return true;
-}
+//bool proximity_cb(const r2p::ProximityMsg &msg) {
+//
+//	for (int i = 0; i < 8; i++) {
+//		proximity_values[i] = msg.value[i];
+//	}
+//
+//	return true;
+//}
 
 r2p::Node proximity_node("proximity", false);
-r2p::Subscriber<r2p::ProximityMsg, 5> proximity_sub(proximity_cb);
+//r2p::Subscriber<r2p::ProximityMsg, 5> proximity_sub(proximity_cb);
+r2p::Subscriber<r2p::ProximityMsg, 5> proximity_sub;
 bool proxy_first_time = true;
 
 BaseSequentialStream * serialp;
@@ -170,21 +172,13 @@ static void cmd_run(BaseSequentialStream *chp, int argc, char *argv[]) {
 static void cmd_follow(BaseSequentialStream *chp, int argc, char *argv[]) {
 
 	(void) argv;
+	for(int i=10;i>0;i--)
+	{
+		chprintf(chp, "%d second to explosion\n",i);
+		r2p::Thread::sleep(r2p::Time::ms(1000));
+	}
+	chprintf(chp, "BOOOOOOM\n");
 	r2p::PixyMsg * pixy_msgp;
-	r2p::Speed3Msg * msgp;
-
-	vel_node.set_enabled(true);
-
-		if (speed_first_time) {
-			vel_node.advertise(vel_pub, "speed3", r2p::Time::INFINITE);
-			speed_first_time = false;
-		}
-
-		float x = 0;
-		float y = 0;
-		float w = 0;
-
-		vel_node.set_enabled(false);
 
 	if (pixy_first_time) {
 		pixy_node.subscribe(pixy_sub, "pixy");
@@ -192,59 +186,134 @@ static void cmd_follow(BaseSequentialStream *chp, int argc, char *argv[]) {
 	}
 	pixy_node.set_enabled(true);
 
-	while(!pixy_sub.fetch(pixy_msgp)) {
-		r2p::Thread::sleep(r2p::Time::ms(5));
+	r2p::Speed3Msg * speed_msgp;
+
+	vel_node.set_enabled(true);
+
+	if (speed_first_time) {
+		vel_node.advertise(vel_pub, "speed3", r2p::Time::INFINITE);
+		speed_first_time = false;
+	}
+	float x = 0;
+	float y = 0;
+	float w = 0;
+
+	for(;;){
+		x = 0;
+		y = 0;
+		w = 0;
+		int timeout = 0;
+		while(!pixy_sub.fetch(pixy_msgp) && timeout <1000)  {
+			r2p::Thread::sleep(r2p::Time::ms(5));
+			timeout++;
+		}
+
+		if(timeout<1000){
+			for(int trash=0;trash<4;trash++){
+				pixy_sub.release(*pixy_msgp);
+				pixy_sub.fetch(pixy_msgp);
+			}
+			chprintf(chp, "Height: %d \n", pixy_msgp->height);
+			if(pixy_msgp->height<100){
+				if(pixy_msgp->x>200){
+					chprintf(chp, "Rotating Right\n");
+					x = -0.2;
+					y = 0;
+					w = 0.1;
+				}else if(pixy_msgp->x<120){
+					chprintf(chp, "Rotating Left\n");
+					x = -0.2;
+					y = 0;
+					w = -0.2;
+				}else{
+					chprintf(chp, "Going Ahead\n");
+					x=-0.4;
+					y = 0;
+					w = 0;
+				}
+			}
+			else {
+				chprintf(chp, "Object Found\n");
+				if(pixy_msgp->x>170){
+					chprintf(chp, "Rotating Right\n");
+					x = -0.2;
+					y = 0;
+					w = 0.1;
+				}else if(pixy_msgp->x<150){
+					chprintf(chp, "Rotating Left\n");
+					x = -0.2;
+					y = 0;
+					w = -0.2;
+				}else{
+					chprintf(chp, "Object Centered\n");
+					x=0;
+					y = 0;
+					w = 0;
+				}
+			}
+			pixy_sub.release(*pixy_msgp);
+
+		}
+		else{
+			chprintf(chp, "Searching\n");
+			x=0;
+			y = 0;
+			w = 1;
+
+		}
+
+		// Wheel angular speeds
+		const float dthz123 = _mL_R * w;
+		const float dx12 = _C60_R * y;
+		const float dy12 = _C30_R * x;
+
+		float dth1 = dx12 - dy12 + dthz123;
+		float dth2 = dx12 + dy12 + dthz123;
+		float dth3 = _m1_R * y + dthz123;
+
+		// Motor setpoints
+		if (vel_pub.alloc(speed_msgp)) {
+			speed_msgp->value[0] = (int16_t) clamp(-_MAX_DTH, dth1, _MAX_DTH);
+			speed_msgp->value[1] = (int16_t) clamp(-_MAX_DTH, dth2, _MAX_DTH);
+			speed_msgp->value[2] = (int16_t) clamp(-_MAX_DTH, dth3, _MAX_DTH);
+			vel_pub.publish(*speed_msgp);
+		}
 	}
 
-	if(pixy_msgp->x_center >360){
-		w = -2;
-	}else if(pixy_msgp->x_center<280){
-		w = +2;
-	}else{
-		x=2;
-	}
 
-	// Wheel angular speeds
-	const float dthz123 = _mL_R * w;
-	const float dx12 = _C60_R * y;
-	const float dy12 = _C30_R * x;
-
-	float dth1 = dx12 - dy12 + dthz123;
-	float dth2 = dx12 + dy12 + dthz123;
-	float dth3 = _m1_R * y + dthz123;
-
-	// Motor setpoints
-	if (vel_pub.alloc(msgp)) {
-		msgp->value[0] = (int16_t) clamp(-_MAX_DTH, dth1, _MAX_DTH);
-		msgp->value[1] = (int16_t) clamp(-_MAX_DTH, dth2, _MAX_DTH);
-		msgp->value[2] = (int16_t) clamp(-_MAX_DTH, dth3, _MAX_DTH);
-		vel_pub.publish(*msgp);
-	}
-	chprintf(chp, "SETPOINT: %f %f %f\r\n", dth1, dth2, dth3);
-	pixy_sub.release(*pixy_msgp);
-
+	vel_node.set_enabled(false);
 	pixy_node.set_enabled(false);
-
 }
+
 
 static void cmd_proximity(BaseSequentialStream *chp, int argc, char *argv[]) {
 	(void) argv;
 	r2p::ProximityMsg * msgp;
+	int forced_exit=0;
 
-	if (pixy_first_time) {
-			pixy_node.subscribe(pixy_sub, "proximity");
-			proxy_first_time = false;
-		}
-		proximity_node.set_enabled(true);
+
+	if (proxy_first_time) {
+		proximity_node.subscribe(proximity_sub, "proximity");
+		proxy_first_time = false;
+	}
+	proximity_node.set_enabled(true);
 
 	chprintf(chp, "Print from Proximity\r\n");
-
-	for(int i =0;i<8;i++)
-	{
-		chprintf(chp,"ir n:%d value : %d\r\n",i,proximity_values[i]);
-
+	while(!proximity_sub.fetch(msgp)&& forced_exit<1000) {
+		r2p::Thread::sleep(r2p::Time::ms(5));
+		forced_exit++;
 	}
-	chprintf(chp, "\r\n");
+
+	if(forced_exit<1000)
+	{
+		for(int i =0;i<8;i++)
+		{
+			chprintf(chp,"ir n:%d value : %d\r\n",i,msgp->value[i]);
+
+		}
+		chprintf(chp, "\r\n");
+	}
+	proximity_sub.release(*msgp);
 	proximity_node.set_enabled(false);
 }
 
@@ -262,32 +331,30 @@ static void cmd_pixy(BaseSequentialStream *chp, int argc, char *argv[]) {
 	chprintf(chp, "Print from Pixy\r\n");
 
 	int forced_exit=0;
-	while(!pixy_sub.fetch(msgp) && forced_exit<200) {
-		r2p::Thread::sleep(r2p::Time::ms(5));
-
+	while(!pixy_sub.fetch(msgp) && forced_exit<1000) {
+		chThdSleepMilliseconds(5);
 		forced_exit++;
 	}
-	if(forced_exit<200)
+	if(forced_exit<1000)
 	{
-	chprintf(chp, "pack number :",msgp->pack_number);
-	chprintf(chp, "msg:");
-	chprintf(chp, "Check %d ", msgp->checksum);
-	chprintf(chp, "Sig %d ", msgp->signature);
-	chprintf(chp, "X %d ", msgp->x_center);
-	chprintf(chp, "Y %d ", msgp->y_center);
-	chprintf(chp, "Width %d ", msgp->width);
-	chprintf(chp, "Height %d ", msgp->height);
+		chprintf(chp, "Sig %d ", msgp->signature);
+		chprintf(chp, "X %d ", msgp->x);
+		chprintf(chp, "Y %d ", msgp->y);
+		chprintf(chp, "Width %d ", msgp->width);
+		chprintf(chp, "Height %d ", msgp->height);
 
-	chprintf(chp, "\r\n");
+		chprintf(chp, "\r\n");
 
-	pixy_sub.release(*msgp);
+		pixy_sub.release(*msgp);
 	}else
 	{
 		chprintf(chp, "timeout");
 	}
 
 	pixy_node.set_enabled(false);
+
 }
+
 
 static void cmd_stop(BaseSequentialStream *chp, int argc, char *argv[]) {
 	r2p::Speed3Msg * msgp;
@@ -359,7 +426,9 @@ static void cmd_pidcfg(BaseSequentialStream *chp, int argc, char *argv[]) {
 	pidcfg_node.set_enabled(false);
 }
 
-static const ShellCommand commands[] = { { "proximity", cmd_proximity },{ "follow", cmd_follow } , { "pixy", cmd_pixy }, { "r", cmd_run }, { "s", cmd_stop }, { "e", cmd_enc }, { "pidcfg", cmd_pidcfg}, { NULL, NULL } };
+static const ShellCommand commands[] = { { "follow", cmd_follow },
+		{ "pixy", cmd_pixy },{ "proximity", cmd_proximity },
+		{ "r", cmd_run }, { "s", cmd_stop }, { "e", cmd_enc }, { "pidcfg", cmd_pidcfg}, { NULL, NULL } };
 
 static const ShellConfig usb_shell_cfg = { (BaseSequentialStream *) &SDU1, commands };
 
@@ -391,7 +460,7 @@ msg_t shell_node(void *arg) {
 
 	for (;;) {
 		if (!usb_shelltp && (SDU1.config->usbp->state == USB_ACTIVE))
-			usb_shelltp = shellCreate(&usb_shell_cfg, SHELL_WA_SIZE, NORMALPRIO);
+			usb_shelltp = shellCreate(&usb_shell_cfg, SHELL_WA_SIZE, NORMALPRIO - 1);
 		else if (chThdTerminated(usb_shelltp)) {
 			chThdRelease(usb_shelltp); /* Recovers memory of the previous shell.   */
 			usb_shelltp = NULL; /* Triggers spawning of a new shell.        */

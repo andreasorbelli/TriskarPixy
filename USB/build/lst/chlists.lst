@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccaXt1ra.s 			page 1
+ARM GAS  /tmp/ccWpS9oe.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccaXt1ra.s 			page 1
   55 003f 60000000 		.4byte	.LASF4
   56 0043 03       		.uleb128 0x3
   57 0044 04       		.byte	0x4
-ARM GAS  /tmp/ccaXt1ra.s 			page 2
+ARM GAS  /tmp/ccWpS9oe.s 			page 2
 
 
   58 0045 05       		.byte	0x5
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccaXt1ra.s 			page 1
  112 0019 24       		.uleb128 0x24
  113 001a 00       		.byte	0
  114 001b 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccaXt1ra.s 			page 3
+ARM GAS  /tmp/ccWpS9oe.s 			page 3
 
 
  115 001c 0B       		.uleb128 0xb
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccaXt1ra.s 			page 1
  148 0073 73686F72 		.ascii	"short int\000"
  148      7420696E 
  148      7400
-ARM GAS  /tmp/ccaXt1ra.s 			page 4
+ARM GAS  /tmp/ccWpS9oe.s 			page 4
 
 
  149              	.LASF8:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccaXt1ra.s 			page 1
  166              	.LASF11:
  167 01d7 63686172 		.ascii	"char\000"
  167      00
-ARM GAS  /tmp/ccaXt1ra.s 			page 5
+ARM GAS  /tmp/ccWpS9oe.s 			page 5
 
 
  168              	.LASF7:
@@ -247,7 +247,7 @@ ARM GAS  /tmp/ccaXt1ra.s 			page 1
  169      6720696E 
  169      7400
  170              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccaXt1ra.s 			page 6
+ARM GAS  /tmp/ccWpS9oe.s 			page 6
 
 
 DEFINED SYMBOLS

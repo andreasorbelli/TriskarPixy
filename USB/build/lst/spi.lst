@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccieCIld.s 			page 1
+ARM GAS  /tmp/cc9lOjYx.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
   54              		.loc 1 80 0
   55              		.cfi_startproc
   56              		@ args = 0, pretend = 0, frame = 8
-ARM GAS  /tmp/ccieCIld.s 			page 2
+ARM GAS  /tmp/cc9lOjYx.s 			page 2
 
 
   57              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  104              	.LFB120:
  105              		.loc 1 107 0
  106              		.cfi_startproc
-ARM GAS  /tmp/ccieCIld.s 			page 3
+ARM GAS  /tmp/cc9lOjYx.s 			page 3
 
 
  107              		@ args = 0, pretend = 0, frame = 8
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  161 0048 0222     		movs	r2, #2
  162 004a 1A70     		strb	r2, [r3]
  163              		.loc 1 117 0
-ARM GAS  /tmp/ccieCIld.s 			page 4
+ARM GAS  /tmp/cc9lOjYx.s 			page 4
 
 
  164 004c FFF7FEFF 		bl	dbg_check_unlock
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  211              		.loc 1 131 0
  212 0006 019B     		ldr	r3, [sp, #4]
  213 0008 002B     		cmp	r3, #0
-ARM GAS  /tmp/ccieCIld.s 			page 5
+ARM GAS  /tmp/cc9lOjYx.s 			page 5
 
 
  214 000a 02D1     		bne	.L10
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  268              	.L12:
  269 0054 20000000 		.word	.LC2
  270 0058 2C000000 		.word	.LC3
-ARM GAS  /tmp/ccieCIld.s 			page 6
+ARM GAS  /tmp/cc9lOjYx.s 			page 6
 
 
  271              		.cfi_endproc
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  319 001e 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
  320 0020 022B     		cmp	r3, #2
  321 0022 02D0     		beq	.L16
-ARM GAS  /tmp/ccieCIld.s 			page 7
+ARM GAS  /tmp/cc9lOjYx.s 			page 7
 
 
  322              		.loc 1 154 0 is_stmt 0 discriminator 1
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  368              		.cfi_startproc
  369              		@ args = 0, pretend = 0, frame = 8
  370              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/ccieCIld.s 			page 8
+ARM GAS  /tmp/cc9lOjYx.s 			page 8
 
 
  371 0000 00B5     		push	{lr}
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  425              		.cfi_endproc
  426              	.LFE123:
  427              		.size	spiUnselect, .-spiUnselect
-ARM GAS  /tmp/ccieCIld.s 			page 9
+ARM GAS  /tmp/cc9lOjYx.s 			page 9
 
 
  428 0048 AFF30080 		.section	.rodata
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  473              	@ 0 "" 2
  474              		.thumb
  475              	.LBE10:
-ARM GAS  /tmp/ccieCIld.s 			page 10
+ARM GAS  /tmp/cc9lOjYx.s 			page 10
 
 
  476 0020 FFF7FEFF 		bl	dbg_check_lock
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  521      28292C20 
  522              		.section	.text.spiStartExchange,"ax",%progbits
  523              		.align	2
-ARM GAS  /tmp/ccieCIld.s 			page 11
+ARM GAS  /tmp/cc9lOjYx.s 			page 11
 
 
  524              		.p2align 4,,15
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  578 003a 02D0     		beq	.L33
  579              		.loc 1 224 0 is_stmt 0 discriminator 1
  580 003c 0A48     		ldr	r0, .L34+4
-ARM GAS  /tmp/ccieCIld.s 			page 12
+ARM GAS  /tmp/cc9lOjYx.s 			page 12
 
 
  581 003e FFF7FEFF 		bl	chDbgPanic
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  627              		.type	spiStartSend, %function
  628              	spiStartSend:
  629              	.LFB126:
-ARM GAS  /tmp/ccieCIld.s 			page 13
+ARM GAS  /tmp/cc9lOjYx.s 			page 13
 
 
  630              		.loc 1 244 0
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  684 0046 FFF7FEFF 		bl	spi_lld_send
  685              		.loc 1 252 0
  686 004a FFF7FEFF 		bl	dbg_check_unlock
-ARM GAS  /tmp/ccieCIld.s 			page 14
+ARM GAS  /tmp/cc9lOjYx.s 			page 14
 
 
  687              	.LBB15:
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  731              		.cfi_def_cfa_offset 24
  732 0004 0390     		str	r0, [sp, #12]
  733 0006 0291     		str	r1, [sp, #8]
-ARM GAS  /tmp/ccieCIld.s 			page 15
+ARM GAS  /tmp/cc9lOjYx.s 			page 15
 
 
  734 0008 0192     		str	r2, [sp, #4]
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  788 0054 05B0     		add	sp, sp, #20
  789              		.cfi_def_cfa_offset 4
  790              		@ sp needed
-ARM GAS  /tmp/ccieCIld.s 			page 16
+ARM GAS  /tmp/cc9lOjYx.s 			page 16
 
 
  791 0056 5DF804FB 		ldr	pc, [sp], #4
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  830              		.cfi_def_cfa_offset 16
  831 0004 0190     		str	r0, [sp, #4]
  832 0006 0091     		str	r1, [sp]
-ARM GAS  /tmp/ccieCIld.s 			page 17
+ARM GAS  /tmp/cc9lOjYx.s 			page 17
 
 
  833              		.loc 1 298 0
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  887 0058 0B48     		ldr	r0, .L54+12
  888 005a FFF7FEFF 		bl	chDbgPanic
  889              	.L53:
-ARM GAS  /tmp/ccieCIld.s 			page 18
+ARM GAS  /tmp/cc9lOjYx.s 			page 18
 
 
  890              		.loc 1 304 0 discriminator 3
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  933              		.align	2
  934              		.p2align 4,,15
  935              		.global	spiExchange
-ARM GAS  /tmp/ccieCIld.s 			page 19
+ARM GAS  /tmp/cc9lOjYx.s 			page 19
 
 
  936              		.thumb
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  990 003c 1548     		ldr	r0, .L62+4
  991 003e FFF7FEFF 		bl	chDbgPanic
  992              	.L59:
-ARM GAS  /tmp/ccieCIld.s 			page 20
+ARM GAS  /tmp/cc9lOjYx.s 			page 20
 
 
  993              		.loc 1 334 0 is_stmt 1
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  1047 0098 98010000 		.word	.LC22
  1048 009c 64010000 		.word	.LC19
  1049 00a0 00000000 		.word	rlist
-ARM GAS  /tmp/ccieCIld.s 			page 21
+ARM GAS  /tmp/cc9lOjYx.s 			page 21
 
 
  1050              		.cfi_endproc
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  1094 0018 002B     		cmp	r3, #0
  1095 001a 02D1     		bne	.L66
  1096              	.L65:
-ARM GAS  /tmp/ccieCIld.s 			page 22
+ARM GAS  /tmp/cc9lOjYx.s 			page 22
 
 
  1097              		.loc 1 359 0 discriminator 5
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  1151 0070 0220     		movs	r0, #2
  1152 0072 FFF7FEFF 		bl	chSchGoSleepS
  1153              		.loc 1 366 0 is_stmt 1 discriminator 3
-ARM GAS  /tmp/ccieCIld.s 			page 23
+ARM GAS  /tmp/cc9lOjYx.s 			page 23
 
 
  1154 0076 FFF7FEFF 		bl	dbg_check_unlock
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  1197              		.loc 1 385 0
  1198              		.cfi_startproc
  1199              		@ args = 0, pretend = 0, frame = 16
-ARM GAS  /tmp/ccieCIld.s 			page 24
+ARM GAS  /tmp/cc9lOjYx.s 			page 24
 
 
  1200              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  1254              		.loc 1 394 0 is_stmt 1
  1255 004a 039B     		ldr	r3, [sp, #12]
  1256 004c 0322     		movs	r2, #3
-ARM GAS  /tmp/ccieCIld.s 			page 25
+ARM GAS  /tmp/cc9lOjYx.s 			page 25
 
 
  1257 004e 1A70     		strb	r2, [r3]
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  1307              		.section	.text.spiAcquireBus,"ax",%progbits
  1308              		.align	2
  1309              		.p2align 4,,15
-ARM GAS  /tmp/ccieCIld.s 			page 26
+ARM GAS  /tmp/cc9lOjYx.s 			page 26
 
 
  1310              		.global	spiAcquireBus
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  1359              		.thumb
  1360              		.thumb_func
  1361              		.type	spiReleaseBus, %function
-ARM GAS  /tmp/ccieCIld.s 			page 27
+ARM GAS  /tmp/cc9lOjYx.s 			page 27
 
 
  1362              	spiReleaseBus:
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  1416 0004 0400     		.2byte	0x4
  1417 0006 00000000 		.4byte	.Ldebug_abbrev0
  1418 000a 04       		.byte	0x4
-ARM GAS  /tmp/ccieCIld.s 			page 28
+ARM GAS  /tmp/cc9lOjYx.s 			page 28
 
 
  1419 000b 01       		.uleb128 0x1
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  1473 007a 03010000 		.4byte	.LASF9
  1474 007e 03       		.uleb128 0x3
  1475 007f B0040000 		.4byte	.LASF10
-ARM GAS  /tmp/ccieCIld.s 			page 29
+ARM GAS  /tmp/cc9lOjYx.s 			page 29
 
 
  1476 0083 03       		.byte	0x3
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  1530 00f2 03       		.uleb128 0x3
  1531 00f3 0C010000 		.4byte	.LASF22
  1532 00f7 05       		.byte	0x5
-ARM GAS  /tmp/ccieCIld.s 			page 30
+ARM GAS  /tmp/cc9lOjYx.s 			page 30
 
 
  1533 00f8 2D       		.byte	0x2d
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  1587 016d 04       		.byte	0x4
  1588 016e 06       		.uleb128 0x6
  1589 016f A0000000 		.4byte	.LASF32
-ARM GAS  /tmp/ccieCIld.s 			page 31
+ARM GAS  /tmp/cc9lOjYx.s 			page 31
 
 
  1590 0173 07       		.byte	0x7
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  1644 01df 07       		.byte	0x7
  1645 01e0 88       		.byte	0x88
  1646 01e1 08010000 		.4byte	0x108
-ARM GAS  /tmp/ccieCIld.s 			page 32
+ARM GAS  /tmp/cc9lOjYx.s 			page 32
 
 
  1647 01e5 23       		.byte	0x23
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  1701 0251 48       		.byte	0x48
  1702 0252 00       		.byte	0
  1703 0253 08       		.uleb128 0x8
-ARM GAS  /tmp/ccieCIld.s 			page 33
+ARM GAS  /tmp/cc9lOjYx.s 			page 33
 
 
  1704 0254 08       		.byte	0x8
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  1758 02bd 0B       		.uleb128 0xb
  1759 02be 00050000 		.4byte	.LASF54
  1760 02c2 64       		.byte	0x64
-ARM GAS  /tmp/ccieCIld.s 			page 34
+ARM GAS  /tmp/cc9lOjYx.s 			page 34
 
 
  1761 02c3 08       		.byte	0x8
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  1815 0338 1601     		.2byte	0x116
  1816 033a A5020000 		.4byte	0x2a5
  1817 033e 20       		.byte	0x20
-ARM GAS  /tmp/ccieCIld.s 			page 35
+ARM GAS  /tmp/cc9lOjYx.s 			page 35
 
 
  1818 033f 0C       		.uleb128 0xc
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  1872 03b2 0C       		.uleb128 0xc
  1873 03b3 723600   		.ascii	"r6\000"
  1874 03b6 08       		.byte	0x8
-ARM GAS  /tmp/ccieCIld.s 			page 36
+ARM GAS  /tmp/cc9lOjYx.s 			page 36
 
 
  1875 03b7 2101     		.2byte	0x121
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  1929 0425 04       		.byte	0x4
  1930 0426 BD020000 		.4byte	0x2bd
  1931 042a 0D       		.uleb128 0xd
-ARM GAS  /tmp/ccieCIld.s 			page 37
+ARM GAS  /tmp/cc9lOjYx.s 			page 37
 
 
  1932 042b CA000000 		.4byte	0xca
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  1986 0497 05       		.uleb128 0x5
  1987 0498 B0020000 		.4byte	.LASF64
  1988 049c 10       		.byte	0x10
-ARM GAS  /tmp/ccieCIld.s 			page 38
+ARM GAS  /tmp/cc9lOjYx.s 			page 38
 
 
  1989 049d 0A       		.byte	0xa
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  2043 0509 29010000 		.4byte	0x129
  2044 050d 00       		.byte	0
  2045 050e 09       		.uleb128 0x9
-ARM GAS  /tmp/ccieCIld.s 			page 39
+ARM GAS  /tmp/cc9lOjYx.s 			page 39
 
 
  2046 050f 04       		.byte	0x4
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  2100 0581 24       		.byte	0x24
  2101 0582 0B       		.byte	0xb
  2102 0583 C702     		.2byte	0x2c7
-ARM GAS  /tmp/ccieCIld.s 			page 40
+ARM GAS  /tmp/cc9lOjYx.s 			page 40
 
 
  2103 0585 72060000 		.4byte	0x672
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  2157 05fb 10       		.byte	0x10
  2158 05fc 12       		.uleb128 0x12
  2159 05fd 54030000 		.4byte	.LASF82
-ARM GAS  /tmp/ccieCIld.s 			page 41
+ARM GAS  /tmp/cc9lOjYx.s 			page 41
 
 
  2160 0601 0B       		.byte	0xb
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  2214 0673 4F040000 		.4byte	.LASF91
  2215 0677 0B       		.byte	0xb
  2216 0678 DB02     		.2byte	0x2db
-ARM GAS  /tmp/ccieCIld.s 			page 42
+ARM GAS  /tmp/cc9lOjYx.s 			page 42
 
 
  2217 067a 80050000 		.4byte	0x580
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  2271 06e3 73657400 		.ascii	"set\000"
  2272 06e7 0D       		.byte	0xd
  2273 06e8 97       		.byte	0x97
-ARM GAS  /tmp/ccieCIld.s 			page 43
+ARM GAS  /tmp/cc9lOjYx.s 			page 43
 
 
  2274 06e9 B4000000 		.4byte	0xb4
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  2328 074e 07       		.uleb128 0x7
  2329 074f 49445200 		.ascii	"IDR\000"
  2330 0753 0D       		.byte	0xd
-ARM GAS  /tmp/ccieCIld.s 			page 44
+ARM GAS  /tmp/cc9lOjYx.s 			page 44
 
 
  2331 0754 92       		.byte	0x92
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  2385 07c0 16       		.uleb128 0x16
  2386 07c1 11050000 		.4byte	.LASF109
  2387 07c5 00       		.sleb128 0
-ARM GAS  /tmp/ccieCIld.s 			page 45
+ARM GAS  /tmp/cc9lOjYx.s 			page 45
 
 
  2388 07c6 16       		.uleb128 0x16
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  2442 0838 73706900 		.ascii	"spi\000"
  2443 083c 0F       		.byte	0xf
  2444 083d 6B01     		.2byte	0x16b
-ARM GAS  /tmp/ccieCIld.s 			page 46
+ARM GAS  /tmp/cc9lOjYx.s 			page 46
 
 
  2445 083f FE080000 		.4byte	0x8fe
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  2499 08b2 12       		.uleb128 0x12
  2500 08b3 8C000000 		.4byte	.LASF126
  2501 08b7 0F       		.byte	0xf
-ARM GAS  /tmp/ccieCIld.s 			page 47
+ARM GAS  /tmp/cc9lOjYx.s 			page 47
 
 
  2502 08b8 3901     		.2byte	0x139
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  2556 092f 01       		.uleb128 0x1
  2557 0930 9C       		.byte	0x9c
  2558 0931 44090000 		.4byte	0x944
-ARM GAS  /tmp/ccieCIld.s 			page 48
+ARM GAS  /tmp/cc9lOjYx.s 			page 48
 
 
  2559 0935 1B       		.uleb128 0x1b
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  2613 09a4 01       		.uleb128 0x1
  2614 09a5 53       		.byte	0x53
  2615 09a6 00       		.byte	0
-ARM GAS  /tmp/ccieCIld.s 			page 49
+ARM GAS  /tmp/cc9lOjYx.s 			page 49
 
 
  2616 09a7 00       		.byte	0
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  2670 0a19 95       		.byte	0x95
  2671 0a1a 96080000 		.4byte	0x896
  2672 0a1e 02       		.uleb128 0x2
-ARM GAS  /tmp/ccieCIld.s 			page 50
+ARM GAS  /tmp/cc9lOjYx.s 			page 50
 
 
  2673 0a1f 91       		.byte	0x91
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  2727 0a91 00       		.byte	0
  2728 0a92 1E       		.uleb128 0x1e
  2729 0a93 34000000 		.4byte	.LBB9
-ARM GAS  /tmp/ccieCIld.s 			page 51
+ARM GAS  /tmp/cc9lOjYx.s 			page 51
 
 
  2730 0a97 06000000 		.4byte	.LBE9-.LBB9
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  2784 0b04 CA000000 		.4byte	0xca
  2785 0b08 01       		.uleb128 0x1
  2786 0b09 53       		.byte	0x53
-ARM GAS  /tmp/ccieCIld.s 			page 52
+ARM GAS  /tmp/cc9lOjYx.s 			page 52
 
 
  2787 0b0a 00       		.byte	0
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  2841 0b71 00       		.byte	0
  2842 0b72 1E       		.uleb128 0x1e
  2843 0b73 58000000 		.4byte	.LBB13
-ARM GAS  /tmp/ccieCIld.s 			page 53
+ARM GAS  /tmp/cc9lOjYx.s 			page 53
 
 
  2844 0b77 06000000 		.4byte	.LBE13-.LBB13
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  2898 0be1 F9       		.byte	0xf9
  2899 0be2 CA000000 		.4byte	0xca
  2900 0be6 01       		.uleb128 0x1
-ARM GAS  /tmp/ccieCIld.s 			page 54
+ARM GAS  /tmp/cc9lOjYx.s 			page 54
 
 
  2901 0be7 53       		.byte	0x53
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  2955 0c55 1301     		.2byte	0x113
  2956 0c57 CA000000 		.4byte	0xca
  2957 0c5b 01       		.uleb128 0x1
-ARM GAS  /tmp/ccieCIld.s 			page 55
+ARM GAS  /tmp/cc9lOjYx.s 			page 55
 
 
  2958 0c5c 53       		.byte	0x53
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  3012 0cce 24       		.uleb128 0x24
  3013 0ccf 746D7000 		.ascii	"tmp\000"
  3014 0cd3 01       		.byte	0x1
-ARM GAS  /tmp/ccieCIld.s 			page 56
+ARM GAS  /tmp/cc9lOjYx.s 			page 56
 
 
  3015 0cd4 3101     		.2byte	0x131
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  3069 0d41 4C01     		.2byte	0x14c
  3070 0d43 CA000000 		.4byte	0xca
  3071 0d47 01       		.uleb128 0x1
-ARM GAS  /tmp/ccieCIld.s 			page 57
+ARM GAS  /tmp/cc9lOjYx.s 			page 57
 
 
  3072 0d48 53       		.byte	0x53
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  3126 0db7 6901     		.2byte	0x169
  3127 0db9 CA000000 		.4byte	0xca
  3128 0dbd 01       		.uleb128 0x1
-ARM GAS  /tmp/ccieCIld.s 			page 58
+ARM GAS  /tmp/cc9lOjYx.s 			page 58
 
 
  3129 0dbe 53       		.byte	0x53
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  3183 0e2d 8601     		.2byte	0x186
  3184 0e2f CA000000 		.4byte	0xca
  3185 0e33 01       		.uleb128 0x1
-ARM GAS  /tmp/ccieCIld.s 			page 59
+ARM GAS  /tmp/cc9lOjYx.s 			page 59
 
 
  3186 0e34 53       		.byte	0x53
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  3240 0ea2 8C040000 		.4byte	0x48c
  3241 0ea6 26       		.uleb128 0x26
  3242 0ea7 93000000 		.4byte	.LASF148
-ARM GAS  /tmp/ccieCIld.s 			page 60
+ARM GAS  /tmp/cc9lOjYx.s 			page 60
 
 
  3243 0eab 10       		.byte	0x10
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  3297 0030 03       		.uleb128 0x3
  3298 0031 0E       		.uleb128 0xe
  3299 0032 00       		.byte	0
-ARM GAS  /tmp/ccieCIld.s 			page 61
+ARM GAS  /tmp/cc9lOjYx.s 			page 61
 
 
  3300 0033 00       		.byte	0
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  3354 0069 0B       		.uleb128 0xb
  3355 006a 01       		.uleb128 0x1
  3356 006b 13       		.uleb128 0x13
-ARM GAS  /tmp/ccieCIld.s 			page 62
+ARM GAS  /tmp/cc9lOjYx.s 			page 62
 
 
  3357 006c 00       		.byte	0
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  3411 00a2 00       		.byte	0
  3412 00a3 0E       		.uleb128 0xe
  3413 00a4 17       		.uleb128 0x17
-ARM GAS  /tmp/ccieCIld.s 			page 63
+ARM GAS  /tmp/cc9lOjYx.s 			page 63
 
 
  3414 00a5 01       		.byte	0x1
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  3468 00db 13       		.uleb128 0x13
  3469 00dc 38       		.uleb128 0x38
  3470 00dd 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccieCIld.s 			page 64
+ARM GAS  /tmp/cc9lOjYx.s 			page 64
 
 
  3471 00de 00       		.byte	0
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  3525 0114 19       		.uleb128 0x19
  3526 0115 01       		.uleb128 0x1
  3527 0116 13       		.uleb128 0x13
-ARM GAS  /tmp/ccieCIld.s 			page 65
+ARM GAS  /tmp/cc9lOjYx.s 			page 65
 
 
  3528 0117 00       		.byte	0
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  3582 014f 13       		.uleb128 0x13
  3583 0150 00       		.byte	0
  3584 0151 00       		.byte	0
-ARM GAS  /tmp/ccieCIld.s 			page 66
+ARM GAS  /tmp/cc9lOjYx.s 			page 66
 
 
  3585 0152 1B       		.uleb128 0x1b
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  3639 0188 08       		.uleb128 0x8
  3640 0189 3A       		.uleb128 0x3a
  3641 018a 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccieCIld.s 			page 67
+ARM GAS  /tmp/cc9lOjYx.s 			page 67
 
 
  3642 018b 3B       		.uleb128 0x3b
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  3696 01c2 05       		.uleb128 0x5
  3697 01c3 00       		.byte	0
  3698 01c4 03       		.uleb128 0x3
-ARM GAS  /tmp/ccieCIld.s 			page 68
+ARM GAS  /tmp/cc9lOjYx.s 			page 68
 
 
  3699 01c5 08       		.uleb128 0x8
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  3753 01fb 3F       		.uleb128 0x3f
  3754 01fc 19       		.uleb128 0x19
  3755 01fd 3C       		.uleb128 0x3c
-ARM GAS  /tmp/ccieCIld.s 			page 69
+ARM GAS  /tmp/cc9lOjYx.s 			page 69
 
 
  3756 01fe 19       		.uleb128 0x19
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  3810 0018 00000000 		.4byte	.LFB121
  3811 001c 5C000000 		.4byte	.LFE121
  3812 0020 00000000 		.4byte	.LFB122
-ARM GAS  /tmp/ccieCIld.s 			page 70
+ARM GAS  /tmp/cc9lOjYx.s 			page 70
 
 
  3813 0024 48000000 		.4byte	.LFE122
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  3855              	.LASF3:
  3856 0033 5F5F7569 		.ascii	"__uint8_t\000"
  3856      6E74385F 
-ARM GAS  /tmp/ccieCIld.s 			page 71
+ARM GAS  /tmp/cc9lOjYx.s 			page 71
 
 
  3856      7400
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  3885              	.LASF103:
  3886 00c7 42535252 		.ascii	"BSRR\000"
  3886      00
-ARM GAS  /tmp/ccieCIld.s 			page 72
+ARM GAS  /tmp/cc9lOjYx.s 			page 72
 
 
  3887              	.LASF110:
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  3916 0153 4F535045 		.ascii	"OSPEEDR\000"
  3916      45445200 
  3917              	.LASF60:
-ARM GAS  /tmp/ccieCIld.s 			page 73
+ARM GAS  /tmp/cc9lOjYx.s 			page 73
 
 
  3918 015b 725F6E65 		.ascii	"r_newer\000"
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  3945              	.LASF94:
  3946 0206 69736869 		.ascii	"ishift\000"
  3946      667400
-ARM GAS  /tmp/ccieCIld.s 			page 74
+ARM GAS  /tmp/cc9lOjYx.s 			page 74
 
 
  3947              	.LASF139:
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  3976 029b 49325350 		.ascii	"I2SPR\000"
  3976      5200
  3977              	.LASF56:
-ARM GAS  /tmp/ccieCIld.s 			page 75
+ARM GAS  /tmp/cc9lOjYx.s 			page 75
 
 
  3978 02a1 73697A65 		.ascii	"sizetype\000"
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  4006      435200
  4007              	.LASF77:
  4008 032c 52455345 		.ascii	"RESERVED0\000"
-ARM GAS  /tmp/ccieCIld.s 			page 76
+ARM GAS  /tmp/cc9lOjYx.s 			page 76
 
 
  4008      52564544 
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  4036      7265616D 
  4036      5F7400
  4037              	.LASF47:
-ARM GAS  /tmp/ccieCIld.s 			page 77
+ARM GAS  /tmp/cc9lOjYx.s 			page 77
 
 
  4038 03c0 705F6D74 		.ascii	"p_mtxlist\000"
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  4066      7400
  4067              	.LASF91:
  4068 044f 5350495F 		.ascii	"SPI_TypeDef\000"
-ARM GAS  /tmp/ccieCIld.s 			page 78
+ARM GAS  /tmp/cc9lOjYx.s 			page 78
 
 
  4068      54797065 
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  4096      72746964 
  4096      5F7400
  4097              	.LASF55:
-ARM GAS  /tmp/ccieCIld.s 			page 79
+ARM GAS  /tmp/cc9lOjYx.s 			page 79
 
 
  4098 04e5 636F6E74 		.ascii	"context\000"
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  4129              	.LASF143:
  4130 0567 73706953 		.ascii	"spiSend\000"
  4130      656E6400 
-ARM GAS  /tmp/ccieCIld.s 			page 80
+ARM GAS  /tmp/cc9lOjYx.s 			page 80
 
 
  4131              	.LASF128:
@@ -4793,74 +4793,74 @@ ARM GAS  /tmp/ccieCIld.s 			page 1
  4149      6974696E 
  4149      6700
  4150              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccieCIld.s 			page 81
+ARM GAS  /tmp/cc9lOjYx.s 			page 81
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 spi.c
-     /tmp/ccieCIld.s:21     .text.spiInit:00000000 $t
-     /tmp/ccieCIld.s:27     .text.spiInit:00000000 spiInit
-     /tmp/ccieCIld.s:46     .text.spiObjectInit:00000000 $t
-     /tmp/ccieCIld.s:52     .text.spiObjectInit:00000000 spiObjectInit
-     /tmp/ccieCIld.s:90     .rodata:00000000 $d
-     /tmp/ccieCIld.s:97     .text.spiStart:00000000 $t
-     /tmp/ccieCIld.s:103    .text.spiStart:00000000 spiStart
-     /tmp/ccieCIld.s:180    .text.spiStart:0000005c $d
-     /tmp/ccieCIld.s:193    .text.spiStop:00000000 $t
-     /tmp/ccieCIld.s:199    .text.spiStop:00000000 spiStop
-     /tmp/ccieCIld.s:269    .text.spiStop:00000054 $d
-     /tmp/ccieCIld.s:282    .text.spiSelect:00000000 $t
-     /tmp/ccieCIld.s:288    .text.spiSelect:00000000 spiSelect
-     /tmp/ccieCIld.s:346    .text.spiSelect:00000040 $d
-     /tmp/ccieCIld.s:359    .text.spiUnselect:00000000 $t
-     /tmp/ccieCIld.s:365    .text.spiUnselect:00000000 spiUnselect
-     /tmp/ccieCIld.s:423    .text.spiUnselect:00000040 $d
-     /tmp/ccieCIld.s:436    .text.spiStartIgnore:00000000 $t
-     /tmp/ccieCIld.s:442    .text.spiStartIgnore:00000000 spiStartIgnore
-     /tmp/ccieCIld.s:510    .text.spiStartIgnore:00000050 $d
-     /tmp/ccieCIld.s:523    .text.spiStartExchange:00000000 $t
-     /tmp/ccieCIld.s:529    .text.spiStartExchange:00000000 spiStartExchange
-     /tmp/ccieCIld.s:609    .text.spiStartExchange:00000064 $d
-     /tmp/ccieCIld.s:622    .text.spiStartSend:00000000 $t
-     /tmp/ccieCIld.s:628    .text.spiStartSend:00000000 spiStartSend
-     /tmp/ccieCIld.s:702    .text.spiStartSend:0000005c $d
-     /tmp/ccieCIld.s:715    .text.spiStartReceive:00000000 $t
-     /tmp/ccieCIld.s:721    .text.spiStartReceive:00000000 spiStartReceive
-     /tmp/ccieCIld.s:795    .text.spiStartReceive:0000005c $d
-     /tmp/ccieCIld.s:814    .text.spiIgnore:00000000 $t
-     /tmp/ccieCIld.s:820    .text.spiIgnore:00000000 spiIgnore
-     /tmp/ccieCIld.s:914    .text.spiIgnore:0000007c $d
-     /tmp/ccieCIld.s:933    .text.spiExchange:00000000 $t
-     /tmp/ccieCIld.s:939    .text.spiExchange:00000000 spiExchange
-     /tmp/ccieCIld.s:1045   .text.spiExchange:00000090 $d
-     /tmp/ccieCIld.s:1064   .text.spiSend:00000000 $t
-     /tmp/ccieCIld.s:1070   .text.spiSend:00000000 spiSend
-     /tmp/ccieCIld.s:1170   .text.spiSend:00000088 $d
-     /tmp/ccieCIld.s:1189   .text.spiReceive:00000000 $t
-     /tmp/ccieCIld.s:1195   .text.spiReceive:00000000 spiReceive
-     /tmp/ccieCIld.s:1295   .text.spiReceive:00000088 $d
-     /tmp/ccieCIld.s:1308   .text.spiAcquireBus:00000000 $t
-     /tmp/ccieCIld.s:1314   .text.spiAcquireBus:00000000 spiAcquireBus
-     /tmp/ccieCIld.s:1347   .text.spiAcquireBus:00000024 $d
-     /tmp/ccieCIld.s:1356   .text.spiReleaseBus:00000000 $t
-     /tmp/ccieCIld.s:1362   .text.spiReleaseBus:00000000 spiReleaseBus
-     /tmp/ccieCIld.s:1392   .text.spiReleaseBus:0000001c $d
+     /tmp/cc9lOjYx.s:21     .text.spiInit:00000000 $t
+     /tmp/cc9lOjYx.s:27     .text.spiInit:00000000 spiInit
+     /tmp/cc9lOjYx.s:46     .text.spiObjectInit:00000000 $t
+     /tmp/cc9lOjYx.s:52     .text.spiObjectInit:00000000 spiObjectInit
+     /tmp/cc9lOjYx.s:90     .rodata:00000000 $d
+     /tmp/cc9lOjYx.s:97     .text.spiStart:00000000 $t
+     /tmp/cc9lOjYx.s:103    .text.spiStart:00000000 spiStart
+     /tmp/cc9lOjYx.s:180    .text.spiStart:0000005c $d
+     /tmp/cc9lOjYx.s:193    .text.spiStop:00000000 $t
+     /tmp/cc9lOjYx.s:199    .text.spiStop:00000000 spiStop
+     /tmp/cc9lOjYx.s:269    .text.spiStop:00000054 $d
+     /tmp/cc9lOjYx.s:282    .text.spiSelect:00000000 $t
+     /tmp/cc9lOjYx.s:288    .text.spiSelect:00000000 spiSelect
+     /tmp/cc9lOjYx.s:346    .text.spiSelect:00000040 $d
+     /tmp/cc9lOjYx.s:359    .text.spiUnselect:00000000 $t
+     /tmp/cc9lOjYx.s:365    .text.spiUnselect:00000000 spiUnselect
+     /tmp/cc9lOjYx.s:423    .text.spiUnselect:00000040 $d
+     /tmp/cc9lOjYx.s:436    .text.spiStartIgnore:00000000 $t
+     /tmp/cc9lOjYx.s:442    .text.spiStartIgnore:00000000 spiStartIgnore
+     /tmp/cc9lOjYx.s:510    .text.spiStartIgnore:00000050 $d
+     /tmp/cc9lOjYx.s:523    .text.spiStartExchange:00000000 $t
+     /tmp/cc9lOjYx.s:529    .text.spiStartExchange:00000000 spiStartExchange
+     /tmp/cc9lOjYx.s:609    .text.spiStartExchange:00000064 $d
+     /tmp/cc9lOjYx.s:622    .text.spiStartSend:00000000 $t
+     /tmp/cc9lOjYx.s:628    .text.spiStartSend:00000000 spiStartSend
+     /tmp/cc9lOjYx.s:702    .text.spiStartSend:0000005c $d
+     /tmp/cc9lOjYx.s:715    .text.spiStartReceive:00000000 $t
+     /tmp/cc9lOjYx.s:721    .text.spiStartReceive:00000000 spiStartReceive
+     /tmp/cc9lOjYx.s:795    .text.spiStartReceive:0000005c $d
+     /tmp/cc9lOjYx.s:814    .text.spiIgnore:00000000 $t
+     /tmp/cc9lOjYx.s:820    .text.spiIgnore:00000000 spiIgnore
+     /tmp/cc9lOjYx.s:914    .text.spiIgnore:0000007c $d
+     /tmp/cc9lOjYx.s:933    .text.spiExchange:00000000 $t
+     /tmp/cc9lOjYx.s:939    .text.spiExchange:00000000 spiExchange
+     /tmp/cc9lOjYx.s:1045   .text.spiExchange:00000090 $d
+     /tmp/cc9lOjYx.s:1064   .text.spiSend:00000000 $t
+     /tmp/cc9lOjYx.s:1070   .text.spiSend:00000000 spiSend
+     /tmp/cc9lOjYx.s:1170   .text.spiSend:00000088 $d
+     /tmp/cc9lOjYx.s:1189   .text.spiReceive:00000000 $t
+     /tmp/cc9lOjYx.s:1195   .text.spiReceive:00000000 spiReceive
+     /tmp/cc9lOjYx.s:1295   .text.spiReceive:00000088 $d
+     /tmp/cc9lOjYx.s:1308   .text.spiAcquireBus:00000000 $t
+     /tmp/cc9lOjYx.s:1314   .text.spiAcquireBus:00000000 spiAcquireBus
+     /tmp/cc9lOjYx.s:1347   .text.spiAcquireBus:00000024 $d
+     /tmp/cc9lOjYx.s:1356   .text.spiReleaseBus:00000000 $t
+     /tmp/cc9lOjYx.s:1362   .text.spiReleaseBus:00000000 spiReleaseBus
+     /tmp/cc9lOjYx.s:1392   .text.spiReleaseBus:0000001c $d
                      .debug_frame:00000010 $d
-     /tmp/ccieCIld.s:185    .text.spiStart:00000064 $t
-     /tmp/ccieCIld.s:274    .text.spiStop:0000005c $t
-     /tmp/ccieCIld.s:351    .text.spiSelect:00000048 $t
-     /tmp/ccieCIld.s:428    .text.spiUnselect:00000048 $t
-     /tmp/ccieCIld.s:515    .text.spiStartIgnore:00000058 $t
-     /tmp/ccieCIld.s:614    .text.spiStartExchange:0000006c $t
-     /tmp/ccieCIld.s:707    .text.spiStartSend:00000064 $t
-ARM GAS  /tmp/ccieCIld.s 			page 82
+     /tmp/cc9lOjYx.s:185    .text.spiStart:00000064 $t
+     /tmp/cc9lOjYx.s:274    .text.spiStop:0000005c $t
+     /tmp/cc9lOjYx.s:351    .text.spiSelect:00000048 $t
+     /tmp/cc9lOjYx.s:428    .text.spiUnselect:00000048 $t
+     /tmp/cc9lOjYx.s:515    .text.spiStartIgnore:00000058 $t
+     /tmp/cc9lOjYx.s:614    .text.spiStartExchange:0000006c $t
+     /tmp/cc9lOjYx.s:707    .text.spiStartSend:00000064 $t
+ARM GAS  /tmp/cc9lOjYx.s 			page 82
 
 
-     /tmp/ccieCIld.s:800    .text.spiStartReceive:00000064 $t
-     /tmp/ccieCIld.s:1053   .text.spiExchange:000000a4 $t
-     /tmp/ccieCIld.s:1178   .text.spiSend:0000009c $t
-     /tmp/ccieCIld.s:1303   .text.spiReceive:0000009c $t
-     /tmp/ccieCIld.s:1351   .text.spiAcquireBus:00000028 $t
+     /tmp/cc9lOjYx.s:800    .text.spiStartReceive:00000064 $t
+     /tmp/cc9lOjYx.s:1053   .text.spiExchange:000000a4 $t
+     /tmp/cc9lOjYx.s:1178   .text.spiSend:0000009c $t
+     /tmp/cc9lOjYx.s:1303   .text.spiReceive:0000009c $t
+     /tmp/cc9lOjYx.s:1351   .text.spiAcquireBus:00000028 $t
 
 UNDEFINED SYMBOLS
 spi_lld_init

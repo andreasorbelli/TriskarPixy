@@ -71,7 +71,6 @@ build/obj/pal.o: /home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/pal.c \
  /home/ergae/r2p-sdk/core/ChibiOS/os/hal/include/spi.h \
  /home/ergae/r2p-sdk/core/ChibiOS/os/hal/platforms/STM32/SPIv2/spi_lld.h \
  /home/ergae/r2p-sdk/core/ChibiOS/os/hal/include/uart.h \
- /home/ergae/r2p-sdk/core/ChibiOS/os/hal/platforms/STM32/USARTv2/uart_lld.h \
  /home/ergae/r2p-sdk/core/ChibiOS/os/hal/include/usb.h \
  /home/ergae/r2p-sdk/core/ChibiOS/os/hal/platforms/STM32/USBv1/usb_lld.h \
  /home/ergae/r2p-sdk/core/ChibiOS/os/hal/platforms/STM32/USBv1/stm32_usb.h \
@@ -221,8 +220,6 @@ build/obj/pal.o: /home/ergae/r2p-sdk/core/ChibiOS/os/hal/src/pal.c \
 /home/ergae/r2p-sdk/core/ChibiOS/os/hal/platforms/STM32/SPIv2/spi_lld.h:
 
 /home/ergae/r2p-sdk/core/ChibiOS/os/hal/include/uart.h:
-
-/home/ergae/r2p-sdk/core/ChibiOS/os/hal/platforms/STM32/USARTv2/uart_lld.h:
 
 /home/ergae/r2p-sdk/core/ChibiOS/os/hal/include/usb.h:
 

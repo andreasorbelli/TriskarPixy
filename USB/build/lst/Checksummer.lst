@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccBCdeXM.s 			page 1
+ARM GAS  /tmp/cc1kMflJ.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccBCdeXM.s 			page 1
   55              		.size	_ZN3r2p11Checksummer3addEh, .-_ZN3r2p11Checksummer3addEh
   56 001e 00BF     		.section	.text._ZN3r2p11Checksummer3addEPKhj,"ax",%progbits
   57              		.align	2
-ARM GAS  /tmp/ccBCdeXM.s 			page 2
+ARM GAS  /tmp/cc1kMflJ.s 			page 2
 
 
   58              		.p2align 4,,15
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccBCdeXM.s 			page 1
  110              	.Letext0:
  111              		.file 3 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/lib/gcc/arm-none-eabi/4.9.3/includ
  112              		.file 4 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/machine/_def
-ARM GAS  /tmp/ccBCdeXM.s 			page 3
+ARM GAS  /tmp/cc1kMflJ.s 			page 3
 
 
  113              		.file 5 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/c++/4.9.3/cs
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccBCdeXM.s 			page 1
  167 0066 04       		.byte	0x4
  168 0067 05       		.byte	0x5
  169 0068 A4000000 		.4byte	.LASF7
-ARM GAS  /tmp/ccBCdeXM.s 			page 4
+ARM GAS  /tmp/cc1kMflJ.s 			page 4
 
 
  170 006c 04       		.uleb128 0x4
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccBCdeXM.s 			page 1
  224 00cf 06       		.byte	0x6
  225 00d0 1D       		.byte	0x1d
  226 00d1 25000000 		.4byte	0x25
-ARM GAS  /tmp/ccBCdeXM.s 			page 5
+ARM GAS  /tmp/cc1kMflJ.s 			page 5
 
 
  227 00d5 E4000000 		.4byte	0xe4
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccBCdeXM.s 			page 1
  281 0150 C6030000 		.4byte	0x3c6
  282 0154 5C010000 		.4byte	0x15c
  283 0158 67010000 		.4byte	0x167
-ARM GAS  /tmp/ccBCdeXM.s 			page 6
+ARM GAS  /tmp/cc1kMflJ.s 			page 6
 
 
  284 015c 0E       		.uleb128 0xe
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccBCdeXM.s 			page 1
  338 01d4 DE010000 		.4byte	0x1de
  339 01d8 0E       		.uleb128 0xe
  340 01d9 EF030000 		.4byte	0x3ef
-ARM GAS  /tmp/ccBCdeXM.s 			page 7
+ARM GAS  /tmp/cc1kMflJ.s 			page 7
 
 
  341 01dd 00       		.byte	0
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccBCdeXM.s 			page 1
  395 025e 1C       		.byte	0x1c
  396 025f AD000000 		.4byte	.LASF28
  397 0263 01       		.byte	0x1
-ARM GAS  /tmp/ccBCdeXM.s 			page 8
+ARM GAS  /tmp/cc1kMflJ.s 			page 8
 
 
  398 0264 6C020000 		.4byte	0x26c
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccBCdeXM.s 			page 1
  452 02e8 02040000 		.4byte	0x402
  453 02ec 01       		.byte	0x1
  454 02ed F5020000 		.4byte	0x2f5
-ARM GAS  /tmp/ccBCdeXM.s 			page 9
+ARM GAS  /tmp/cc1kMflJ.s 			page 9
 
 
  455 02f1 00030000 		.4byte	0x300
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccBCdeXM.s 			page 1
  509 0375 0B       		.uleb128 0xb
  510 0376 D2030000 		.4byte	0x3d2
  511 037a 00       		.byte	0
-ARM GAS  /tmp/ccBCdeXM.s 			page 10
+ARM GAS  /tmp/cc1kMflJ.s 			page 10
 
 
  512 037b 0F       		.uleb128 0xf
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccBCdeXM.s 			page 1
  566 03f0 04       		.byte	0x4
  567 03f1 C0030000 		.4byte	0x3c0
  568 03f5 06       		.uleb128 0x6
-ARM GAS  /tmp/ccBCdeXM.s 			page 11
+ARM GAS  /tmp/cc1kMflJ.s 			page 11
 
 
  569 03f6 04       		.byte	0x4
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccBCdeXM.s 			page 1
  623 0468 E4030000 		.4byte	0x3e4
  624 046c 02       		.uleb128 0x2
  625 046d 91       		.byte	0x91
-ARM GAS  /tmp/ccBCdeXM.s 			page 12
+ARM GAS  /tmp/cc1kMflJ.s 			page 12
 
 
  626 046e 70       		.sleb128 -16
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccBCdeXM.s 			page 1
  680 0029 00       		.byte	0
  681 002a 00       		.byte	0
  682 002b 04       		.uleb128 0x4
-ARM GAS  /tmp/ccBCdeXM.s 			page 13
+ARM GAS  /tmp/cc1kMflJ.s 			page 13
 
 
  683 002c 24       		.uleb128 0x24
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccBCdeXM.s 			page 1
  737 0062 13       		.uleb128 0x13
  738 0063 00       		.byte	0
  739 0064 00       		.byte	0
-ARM GAS  /tmp/ccBCdeXM.s 			page 14
+ARM GAS  /tmp/cc1kMflJ.s 			page 14
 
 
  740 0065 0A       		.uleb128 0xa
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccBCdeXM.s 			page 1
  794 009b 3C       		.uleb128 0x3c
  795 009c 19       		.uleb128 0x19
  796 009d 64       		.uleb128 0x64
-ARM GAS  /tmp/ccBCdeXM.s 			page 15
+ARM GAS  /tmp/cc1kMflJ.s 			page 15
 
 
  797 009e 13       		.uleb128 0x13
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccBCdeXM.s 			page 1
  851 00d4 64       		.uleb128 0x64
  852 00d5 13       		.uleb128 0x13
  853 00d6 00       		.byte	0
-ARM GAS  /tmp/ccBCdeXM.s 			page 16
+ARM GAS  /tmp/cc1kMflJ.s 			page 16
 
 
  854 00d7 00       		.byte	0
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccBCdeXM.s 			page 1
  908 010d 19       		.uleb128 0x19
  909 010e 03       		.uleb128 0x3
  910 010f 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccBCdeXM.s 			page 17
+ARM GAS  /tmp/cc1kMflJ.s 			page 17
 
 
  911 0110 3A       		.uleb128 0x3a
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccBCdeXM.s 			page 1
  965 0146 2E       		.uleb128 0x2e
  966 0147 01       		.byte	0x1
  967 0148 47       		.uleb128 0x47
-ARM GAS  /tmp/ccBCdeXM.s 			page 18
+ARM GAS  /tmp/cc1kMflJ.s 			page 18
 
 
  968 0149 13       		.uleb128 0x13
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccBCdeXM.s 			page 1
  1022 0180 11       		.uleb128 0x11
  1023 0181 01       		.uleb128 0x1
  1024 0182 12       		.uleb128 0x12
-ARM GAS  /tmp/ccBCdeXM.s 			page 19
+ARM GAS  /tmp/cc1kMflJ.s 			page 19
 
 
  1025 0183 06       		.uleb128 0x6
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccBCdeXM.s 			page 1
  1067      31314368 
  1067      65636B73 
  1067      756D6D65 
-ARM GAS  /tmp/ccBCdeXM.s 			page 20
+ARM GAS  /tmp/cc1kMflJ.s 			page 20
 
 
  1068              	.LASF2:
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccBCdeXM.s 			page 1
  1090      00
  1091              	.LASF38:
  1092 0140 74686973 		.ascii	"this\000"
-ARM GAS  /tmp/ccBCdeXM.s 			page 21
+ARM GAS  /tmp/cc1kMflJ.s 			page 21
 
 
  1092      00
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccBCdeXM.s 			page 1
  1114      33203230 
  1114      31343131 
  1115 021c 6272616E 		.ascii	"branch revision 218278] -mcpu=cortex-m4 -mfloat-abi"
-ARM GAS  /tmp/ccBCdeXM.s 			page 22
+ARM GAS  /tmp/cc1kMflJ.s 			page 22
 
 
  1115      63682072 
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccBCdeXM.s 			page 1
  1132      6D756C61 
  1132      746F7200 
  1133              	.LASF21:
-ARM GAS  /tmp/ccBCdeXM.s 			page 23
+ARM GAS  /tmp/cc1kMflJ.s 			page 23
 
 
  1134 03a6 636F6D70 		.ascii	"compute_checksum\000"
@@ -1378,22 +1378,22 @@ ARM GAS  /tmp/ccBCdeXM.s 			page 1
  1159              	.LASF35:
  1160 0449 5F5A4E33 		.ascii	"_ZN3r2p11ChecksummerpLEh\000"
  1160      72327031 
-ARM GAS  /tmp/ccBCdeXM.s 			page 24
+ARM GAS  /tmp/cc1kMflJ.s 			page 24
 
 
  1160      31436865 
  1160      636B7375 
  1160      6D6D6572 
  1161              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccBCdeXM.s 			page 25
+ARM GAS  /tmp/cc1kMflJ.s 			page 25
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 Checksummer.cpp
-     /tmp/ccBCdeXM.s:21     .text._ZN3r2p11Checksummer3addEh:00000000 $t
-     /tmp/ccBCdeXM.s:27     .text._ZN3r2p11Checksummer3addEh:00000000 _ZN3r2p11Checksummer3addEh
-     /tmp/ccBCdeXM.s:57     .text._ZN3r2p11Checksummer3addEPKhj:00000000 $t
-     /tmp/ccBCdeXM.s:63     .text._ZN3r2p11Checksummer3addEPKhj:00000000 _ZN3r2p11Checksummer3addEPKhj
+     /tmp/cc1kMflJ.s:21     .text._ZN3r2p11Checksummer3addEh:00000000 $t
+     /tmp/cc1kMflJ.s:27     .text._ZN3r2p11Checksummer3addEh:00000000 _ZN3r2p11Checksummer3addEh
+     /tmp/cc1kMflJ.s:57     .text._ZN3r2p11Checksummer3addEPKhj:00000000 $t
+     /tmp/cc1kMflJ.s:63     .text._ZN3r2p11Checksummer3addEPKhj:00000000 _ZN3r2p11Checksummer3addEPKhj
                      .debug_frame:00000010 $d
 
 NO UNDEFINED SYMBOLS

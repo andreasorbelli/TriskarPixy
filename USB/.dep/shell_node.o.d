@@ -83,7 +83,6 @@ build/obj/shell_node.o: nodes/shell_node.cpp \
  /home/ergae/r2p-sdk/core/ChibiOS/os/hal/include/spi.h \
  /home/ergae/r2p-sdk/core/ChibiOS/os/hal/platforms/STM32/SPIv2/spi_lld.h \
  /home/ergae/r2p-sdk/core/ChibiOS/os/hal/include/uart.h \
- /home/ergae/r2p-sdk/core/ChibiOS/os/hal/platforms/STM32/USARTv2/uart_lld.h \
  /home/ergae/r2p-sdk/core/ChibiOS/os/hal/include/usb.h \
  /home/ergae/r2p-sdk/core/ChibiOS/os/hal/platforms/STM32/USBv1/usb_lld.h \
  /home/ergae/r2p-sdk/core/ChibiOS/os/hal/platforms/STM32/USBv1/stm32_usb.h \
@@ -161,7 +160,9 @@ build/obj/shell_node.o: nodes/shell_node.cpp \
  /home/ergae/r2p-sdk/core/Middleware/include/r2p/transport/RTCANSubscriber.hpp \
  /home/ergae/r2p-sdk/core/Middleware/include/r2p/msg/motor.hpp \
  /home/ergae/r2p-sdk/core/Middleware/include/r2p/msg/time.hpp \
- /home/ergae/r2p-sdk/core/Middleware/include/r2p/msg/pixy.hpp
+ /home/ergae/r2p-sdk/core/Middleware/include/r2p/msg/pixy.hpp \
+ /home/ergae/r2p-sdk/core/Middleware/include/r2p/msg/pixyBuffer.hpp \
+ /home/ergae/r2p-sdk/core/Middleware/include/r2p/msg/proximity.hpp
 
 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/stdlib.h:
 
@@ -331,8 +332,6 @@ build/obj/shell_node.o: nodes/shell_node.cpp \
 
 /home/ergae/r2p-sdk/core/ChibiOS/os/hal/include/uart.h:
 
-/home/ergae/r2p-sdk/core/ChibiOS/os/hal/platforms/STM32/USARTv2/uart_lld.h:
-
 /home/ergae/r2p-sdk/core/ChibiOS/os/hal/include/usb.h:
 
 /home/ergae/r2p-sdk/core/ChibiOS/os/hal/platforms/STM32/USBv1/usb_lld.h:
@@ -488,3 +487,7 @@ build/obj/shell_node.o: nodes/shell_node.cpp \
 /home/ergae/r2p-sdk/core/Middleware/include/r2p/msg/time.hpp:
 
 /home/ergae/r2p-sdk/core/Middleware/include/r2p/msg/pixy.hpp:
+
+/home/ergae/r2p-sdk/core/Middleware/include/r2p/msg/pixyBuffer.hpp:
+
+/home/ergae/r2p-sdk/core/Middleware/include/r2p/msg/proximity.hpp:

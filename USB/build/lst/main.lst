@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccKaTwIo.s 			page 1
+ARM GAS  /tmp/cc596bob.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
   55              		.thumb_func
   56              		.type	_ZNK3r2p4Time8to_s_rawEv, %function
   57              	_ZNK3r2p4Time8to_s_rawEv:
-ARM GAS  /tmp/ccKaTwIo.s 			page 2
+ARM GAS  /tmp/cc596bob.s 			page 2
 
 
   58              	.LFB256:
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  112              		.loc 2 134 0
  113 000e 019B     		ldr	r3, [sp, #4]
  114              		.loc 2 135 0
-ARM GAS  /tmp/ccKaTwIo.s 			page 3
+ARM GAS  /tmp/cc596bob.s 			page 3
 
 
  115 0010 1846     		mov	r0, r3
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  164              		.thumb_func
  165              		.type	_ZN3r2p7Thread_11create_heapEPvjmPFlS1_ES1_PKc, %function
  166              	_ZN3r2p7Thread_11create_heapEPvjmPFlS1_ES1_PKc:
-ARM GAS  /tmp/ccKaTwIo.s 			page 4
+ARM GAS  /tmp/cc596bob.s 			page 4
 
 
  167              	.LFB334:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  219              		.type	_ZN3r2p7Thread_5sleepERKNS_4TimeE, %function
  220              	_ZN3r2p7Thread_5sleepERKNS_4TimeE:
  221              	.LFB340:
-ARM GAS  /tmp/ccKaTwIo.s 			page 5
+ARM GAS  /tmp/cc596bob.s 			page 5
 
 
  222              		.loc 3 180 0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  276              	.L21:
  277              		.align	2
  278              	.L20:
-ARM GAS  /tmp/ccKaTwIo.s 			page 6
+ARM GAS  /tmp/cc596bob.s 			page 6
 
 
  279 005c 3F420F00 		.word	999999
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  330              		.weak	_ZN3r2p6Thread5sleepERKNS_4TimeE
  331              		.thumb
  332              		.thumb_func
-ARM GAS  /tmp/ccKaTwIo.s 			page 7
+ARM GAS  /tmp/cc596bob.s 			page 7
 
 
  333              		.type	_ZN3r2p6Thread5sleepERKNS_4TimeE, %function
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  384              		.cfi_endproc
  385              	.LFE353:
  386              		.size	_ZNK3r2p10SpinEvent_10get_threadEv, .-_ZNK3r2p10SpinEvent_10get_threadEv
-ARM GAS  /tmp/ccKaTwIo.s 			page 8
+ARM GAS  /tmp/cc596bob.s 			page 8
 
 
  387 000e 00BF     		.section	.rodata
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  438              		@ sp needed
  439 0034 5DF804FB 		ldr	pc, [sp], #4
  440              	.L31:
-ARM GAS  /tmp/ccKaTwIo.s 			page 9
+ARM GAS  /tmp/cc596bob.s 			page 9
 
 
  441              		.align	2
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  494 0000 00B5     		push	{lr}
  495              		.cfi_def_cfa_offset 4
  496              		.cfi_offset 14, -4
-ARM GAS  /tmp/ccKaTwIo.s 			page 10
+ARM GAS  /tmp/cc596bob.s 			page 10
 
 
  497 0002 83B0     		sub	sp, sp, #12
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  550 0020 5DF804FB 		ldr	pc, [sp], #4
  551              		.cfi_endproc
  552              	.LFE380:
-ARM GAS  /tmp/ccKaTwIo.s 			page 11
+ARM GAS  /tmp/cc596bob.s 			page 11
 
 
  553              		.size	_ZNK3r2p4Node11get_enabledEv, .-_ZNK3r2p4Node11get_enabledEv
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  604              		.cfi_offset 14, -4
  605 0002 83B0     		sub	sp, sp, #12
  606              		.cfi_def_cfa_offset 16
-ARM GAS  /tmp/ccKaTwIo.s 			page 12
+ARM GAS  /tmp/cc596bob.s 			page 12
 
 
  607 0004 0190     		str	r0, [sp, #4]
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  660 002a FFF7FEFF 		bl	_ZN3r2p4TimeaSERKS0_
  661              		.loc 8 75 0
  662 002e 0123     		movs	r3, #1
-ARM GAS  /tmp/ccKaTwIo.s 			page 13
+ARM GAS  /tmp/cc596bob.s 			page 13
 
 
  663 0030 00E0     		b	.L42
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  717 002e 00E0     		b	.L45
  718              	.L44:
  719              		.loc 8 86 0 discriminator 4
-ARM GAS  /tmp/ccKaTwIo.s 			page 14
+ARM GAS  /tmp/cc596bob.s 			page 14
 
 
  720 0030 0023     		movs	r3, #0
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  772 0008 FFF7FEFF 		bl	_ZN3r2p10UncopyableD2Ev
  773              	.LBE11:
  774 000c 019B     		ldr	r3, [sp, #4]
-ARM GAS  /tmp/ccKaTwIo.s 			page 15
+ARM GAS  /tmp/cc596bob.s 			page 15
 
 
  775 000e 1846     		mov	r0, r3
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  827              		.type	_ZL7wa_info, %object
  828              		.size	_ZL7wa_info, 1368
  829              	_ZL7wa_info:
-ARM GAS  /tmp/ccKaTwIo.s 			page 16
+ARM GAS  /tmp/cc596bob.s 			page 16
 
 
  830 0000 00000000 		.space	1368
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  872              		.loc 11 27 0
  873              		.cfi_startproc
  874              		@ args = 0, pretend = 0, frame = 16
-ARM GAS  /tmp/ccKaTwIo.s 			page 17
+ARM GAS  /tmp/cc596bob.s 			page 17
 
 
  875              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -979,20 +979,20 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  890 0012 0193     		str	r3, [sp, #4]
  891 0014 0223     		movs	r3, #2
  892 0016 0293     		str	r3, [sp, #8]
- 893 0018 3248     		ldr	r0, .L56
- 894 001a 3349     		ldr	r1, .L56+4
+ 893 0018 3148     		ldr	r0, .L56
+ 894 001a 3249     		ldr	r1, .L56+4
  895 001c 4FF4AB62 		mov	r2, #1368
- 896 0020 0223     		movs	r3, #2
+ 896 0020 7E23     		movs	r3, #126
  897 0022 FFF7FEFF 		bl	_ZN3r2p10Middleware10initializeEPvjmS1_jm
  898              		.loc 11 33 0
- 899 0026 3148     		ldr	r0, .L56+8
- 900 0028 3149     		ldr	r1, .L56+12
+ 899 0026 3048     		ldr	r0, .L56+8
+ 900 0028 3049     		ldr	r1, .L56+12
  901 002a FFF7FEFF 		bl	_ZN3r2p14RTCANTransport10initializeERK11RTCANConfig
  902              		.loc 11 34 0
- 903 002e 2D48     		ldr	r0, .L56
+ 903 002e 2C48     		ldr	r0, .L56
  904 0030 FFF7FEFF 		bl	_ZN3r2p10Middleware5startEv
  905              		.loc 11 36 0
- 906 0034 2F4A     		ldr	r2, .L56+16
+ 906 0034 2E4A     		ldr	r2, .L56+16
  907 0036 05AB     		add	r3, sp, #20
  908 0038 92E80300 		ldmia	r2, {r0, r1}
  909 003c 83E80300 		stmia	r3, {r0, r1}
@@ -1010,15 +1010,15 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  921 0056 0020     		movs	r0, #0
  922 0058 1146     		mov	r1, r2
  923 005a 4022     		movs	r2, #64
- 924 005c 264B     		ldr	r3, .L56+20
+ 924 005c 254B     		ldr	r3, .L56+20
  925 005e FFF7FEFF 		bl	_ZN3r2p6Thread11create_heapEPvjmPFlS1_ES1_PKc
- 926              		.loc 11 39 0
- 927 0062 264B     		ldr	r3, .L56+24
+ 926              		.loc 11 38 0
+ 927 0062 254B     		ldr	r3, .L56+24
  928 0064 0493     		str	r3, [sp, #16]
- 929              		.loc 11 40 0
+ 929              		.loc 11 39 0
  930 0066 B023     		movs	r3, #176
  931 0068 6833     		adds	r3, r3, #104
-ARM GAS  /tmp/ccKaTwIo.s 			page 18
+ARM GAS  /tmp/cc596bob.s 			page 18
 
 
  932 006a 03F23F23 		addw	r3, r3, #575
@@ -1032,9 +1032,9 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  940 007c 0020     		movs	r0, #0
  941 007e 1146     		mov	r1, r2
  942 0080 4022     		movs	r2, #64
- 943 0082 1F4B     		ldr	r3, .L56+28
+ 943 0082 1E4B     		ldr	r3, .L56+28
  944 0084 FFF7FEFF 		bl	_ZN3r2p6Thread11create_heapEPvjmPFlS1_ES1_PKc
- 945              		.loc 11 42 0
+ 945              		.loc 11 41 0
  946 0088 B023     		movs	r3, #176
  947 008a 6833     		adds	r3, r3, #104
  948 008c 03F23F23 		addw	r3, r3, #575
@@ -1048,9 +1048,9 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  956 009e 0020     		movs	r0, #0
  957 00a0 1146     		mov	r1, r2
  958 00a2 4022     		movs	r2, #64
- 959 00a4 174B     		ldr	r3, .L56+32
+ 959 00a4 164B     		ldr	r3, .L56+32
  960 00a6 FFF7FEFF 		bl	_ZN3r2p6Thread11create_heapEPvjmPFlS1_ES1_PKc
- 961              		.loc 11 43 0
+ 961              		.loc 11 42 0
  962 00aa B023     		movs	r3, #176
  963 00ac 6833     		adds	r3, r3, #104
  964 00ae 03F23F23 		addw	r3, r3, #575
@@ -1064,40 +1064,41 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  972 00c0 0020     		movs	r0, #0
  973 00c2 1146     		mov	r1, r2
  974 00c4 4022     		movs	r2, #64
- 975 00c6 104B     		ldr	r3, .L56+36
+ 975 00c6 0F4B     		ldr	r3, .L56+36
  976 00c8 FFF7FEFF 		bl	_ZN3r2p6Thread11create_heapEPvjmPFlS1_ES1_PKc
  977              	.L55:
- 978              		.loc 11 46 0 discriminator 1
+ 978              		.loc 11 45 0 discriminator 1
  979 00cc 07AB     		add	r3, sp, #28
  980 00ce 1846     		mov	r0, r3
- 981 00d0 4FF4FA71 		mov	r1, #500
- 982 00d4 FFF7FEFF 		bl	_ZN3r2p4Time2msEl
- 983 00d8 07AB     		add	r3, sp, #28
- 984 00da 1846     		mov	r0, r3
- 985 00dc FFF7FEFF 		bl	_ZN3r2p6Thread5sleepERKNS_4TimeE
+ 981 00d0 3221     		movs	r1, #50
+ 982 00d2 FFF7FEFF 		bl	_ZN3r2p4Time2msEl
+ 983 00d6 07AB     		add	r3, sp, #28
+ 984 00d8 1846     		mov	r0, r3
+ 985 00da FFF7FEFF 		bl	_ZN3r2p6Thread5sleepERKNS_4TimeE
  986              		.loc 11 49 0 discriminator 1
- 987 00e0 F4E7     		b	.L55
+ 987 00de F5E7     		b	.L55
  988              	.L57:
-ARM GAS  /tmp/ccKaTwIo.s 			page 19
+ARM GAS  /tmp/cc596bob.s 			page 19
 
 
- 989 00e2 00BF     		.align	2
+ 989              		.align	2
  990              	.L56:
- 991 00e4 00000000 		.word	_ZN3r2p10Middleware8instanceE
- 992 00e8 00000000 		.word	_ZL7wa_info
- 993 00ec 00000000 		.word	_ZL8rtcantra
- 994 00f0 00000000 		.word	rtcan_config
- 995 00f4 14000000 		.word	.LC3
- 996 00f8 00000000 		.word	_ZN3r2p11ledpub_nodeEPv
- 997 00fc 10000000 		.word	.LC0
- 998 0100 00000000 		.word	_ZN3r2p11ledsub_nodeEPv
- 999 0104 00000000 		.word	_Z10shell_nodePv
- 1000 0108 00000000 		.word	_Z9pixy_nodePv
+ 991 00e0 00000000 		.word	_ZN3r2p10Middleware8instanceE
+ 992 00e4 00000000 		.word	_ZL7wa_info
+ 993 00e8 00000000 		.word	_ZL8rtcantra
+ 994 00ec 00000000 		.word	rtcan_config
+ 995 00f0 14000000 		.word	.LC3
+ 996 00f4 00000000 		.word	_ZN3r2p11ledpub_nodeEPv
+ 997 00f8 10000000 		.word	.LC0
+ 998 00fc 00000000 		.word	_ZN3r2p11ledsub_nodeEPv
+ 999 0100 00000000 		.word	_Z10shell_nodePv
+ 1000 0104 00000000 		.word	_Z9pixy_nodePv
  1001              	.LBE13:
  1002              		.cfi_endproc
  1003              	.LFE596:
  1004              		.size	main, .-main
- 1005 010c AFF30080 		.section	.text._ZN3r2p4TimeC2IlEET_,"axG",%progbits,_ZN3r2p4TimeC5IlEET_,comdat
+ 1005 0108 AFF30080 		.section	.text._ZN3r2p4TimeC2IlEET_,"axG",%progbits,_ZN3r2p4TimeC5IlEET_,comdat
+ 1005      AFF30080 
  1006              		.align	2
  1007              		.p2align 4,,15
  1008              		.weak	_ZN3r2p4TimeC2IlEET_
@@ -1137,10 +1138,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  1041      AFF30080 
  1041      AFF30080 
  1042              		.align	2
+ARM GAS  /tmp/cc596bob.s 			page 20
+
+
  1043              		.p2align 4,,15
-ARM GAS  /tmp/ccKaTwIo.s 			page 20
-
-
  1044              		.weak	_ZNK3r2p10ArrayQueueIPNS_7MessageEE10get_lengthEv
  1045              		.thumb
  1046              		.thumb_func
@@ -1197,10 +1198,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  1097 0012 5A1E     		subs	r2, r3, #1
  1098 0014 019B     		ldr	r3, [sp, #4]
  1099 0016 9A60     		str	r2, [r3, #8]
+ARM GAS  /tmp/cc596bob.s 			page 21
+
+
  1100              		.loc 12 56 0
-ARM GAS  /tmp/ccKaTwIo.s 			page 21
-
-
  1101 0018 019B     		ldr	r3, [sp, #4]
  1102 001a DB68     		ldr	r3, [r3, #12]
  1103 001c 1A68     		ldr	r2, [r3]
@@ -1257,10 +1258,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  1154              		.thumb_func
  1155              		.type	_ZN3r2p10ArrayQueueIPNS_7MessageEE11post_unsafeES2_, %function
  1156              	_ZN3r2p10ArrayQueueIPNS_7MessageEE11post_unsafeES2_:
+ARM GAS  /tmp/cc596bob.s 			page 22
+
+
  1157              	.LFB608:
-ARM GAS  /tmp/ccKaTwIo.s 			page 22
-
-
  1158              		.loc 12 37 0
  1159              		.cfi_startproc
  1160              		@ args = 0, pretend = 0, frame = 8
@@ -1317,10 +1318,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  1211              	.L69:
  1212              		.loc 12 45 0
  1213 0054 0123     		movs	r3, #1
+ARM GAS  /tmp/cc596bob.s 			page 23
+
+
  1214 0056 00E0     		b	.L70
-ARM GAS  /tmp/ccKaTwIo.s 			page 23
-
-
  1215              	.L68:
  1216              		.loc 12 47 0
  1217 0058 0023     		movs	r3, #0
@@ -1377,10 +1378,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  1268              		.cfi_def_cfa_offset 4
  1269              		.cfi_offset 14, -4
  1270 0002 83B0     		sub	sp, sp, #12
+ARM GAS  /tmp/cc596bob.s 			page 24
+
+
  1271              		.cfi_def_cfa_offset 16
-ARM GAS  /tmp/ccKaTwIo.s 			page 24
-
-
  1272 0004 0190     		str	r0, [sp, #4]
  1273              	.LBB15:
  1274              		.loc 13 15 0
@@ -1437,10 +1438,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  1323              		.thumb_set _ZN3r2p10StaticListINS_5TopicEED1Ev,_ZN3r2p10StaticListINS_5TopicEED2Ev
  1324 0016 00BFAFF3 		.section	.text._ZN3r2p10StaticListINS_9TransportEED2Ev,"axG",%progbits,_ZN3r2p10StaticListINS_9Tra
  1324      0080AFF3 
+ARM GAS  /tmp/cc596bob.s 			page 25
+
+
  1324      0080
-ARM GAS  /tmp/ccKaTwIo.s 			page 25
-
-
  1325              		.align	2
  1326              		.p2align 4,,15
  1327              		.weak	_ZN3r2p10StaticListINS_9TransportEED2Ev
@@ -1497,10 +1498,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  1376 0002 83B0     		sub	sp, sp, #12
  1377              		.cfi_def_cfa_offset 16
  1378 0004 0190     		str	r0, [sp, #4]
+ARM GAS  /tmp/cc596bob.s 			page 26
+
+
  1379              	.LBB18:
-ARM GAS  /tmp/ccKaTwIo.s 			page 26
-
-
  1380              		.loc 14 9 0
  1381 0006 019B     		ldr	r3, [sp, #4]
  1382 0008 0433     		adds	r3, r3, #4
@@ -1557,10 +1558,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  1433              		.weak	_ZN3r2p11MemoryPool_D1Ev
  1434              		.thumb_set _ZN3r2p11MemoryPool_D1Ev,_ZN3r2p11MemoryPool_D2Ev
  1435 0016 00BFAFF3 		.section	.text._ZN3r2p10StaticListINS_15LocalSubscriberEED2Ev,"axG",%progbits,_ZN3r2p10StaticListI
+ARM GAS  /tmp/cc596bob.s 			page 27
+
+
  1435      0080AFF3 
-ARM GAS  /tmp/ccKaTwIo.s 			page 27
-
-
  1435      0080
  1436              		.align	2
  1437              		.p2align 4,,15
@@ -1617,10 +1618,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  1486 0002 83B0     		sub	sp, sp, #12
  1487              		.cfi_def_cfa_offset 16
  1488 0004 0190     		str	r0, [sp, #4]
+ARM GAS  /tmp/cc596bob.s 			page 28
+
+
  1489              	.LBB21:
-ARM GAS  /tmp/ccKaTwIo.s 			page 28
-
-
  1490              		.loc 13 15 0
  1491 0006 0198     		ldr	r0, [sp, #4]
  1492 0008 FFF7FEFF 		bl	_ZN3r2p10UncopyableD2Ev
@@ -1677,10 +1678,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  1541              	.LBE22:
  1542 002a 019B     		ldr	r3, [sp, #4]
  1543 002c 1846     		mov	r0, r3
+ARM GAS  /tmp/cc596bob.s 			page 29
+
+
  1544 002e 03B0     		add	sp, sp, #12
-ARM GAS  /tmp/ccKaTwIo.s 			page 29
-
-
  1545              		.cfi_def_cfa_offset 4
  1546              		@ sp needed
  1547 0030 5DF804FB 		ldr	pc, [sp], #4
@@ -1737,10 +1738,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  1596 003a 0C33     		adds	r3, r3, #12
  1597 003c 1846     		mov	r0, r3
  1598 003e FFF7FEFF 		bl	_ZN3r2p10StaticListINS_9TransportEED1Ev
+ARM GAS  /tmp/cc596bob.s 			page 30
+
+
  1599 0042 019B     		ldr	r3, [sp, #4]
-ARM GAS  /tmp/ccKaTwIo.s 			page 30
-
-
  1600 0044 0833     		adds	r3, r3, #8
  1601 0046 1846     		mov	r0, r3
  1602 0048 FFF7FEFF 		bl	_ZN3r2p10StaticListINS_5TopicEED1Ev
@@ -1797,10 +1798,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  1649 000a 012B     		cmp	r3, #1
  1650 000c 1AD1     		bne	.L98
  1651              		.loc 11 51 0 is_stmt 0 discriminator 1
+ARM GAS  /tmp/cc596bob.s 			page 31
+
+
  1652 000e 029B     		ldr	r3, [sp, #8]
-ARM GAS  /tmp/ccKaTwIo.s 			page 31
-
-
  1653 0010 4FF6FF72 		movw	r2, #65535
  1654 0014 9342     		cmp	r3, r2
  1655 0016 15D1     		bne	.L98
@@ -1857,10 +1858,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  1706              		.loc 18 54 0
  1707              		.cfi_startproc
  1708              		@ args = 0, pretend = 0, frame = 8
+ARM GAS  /tmp/cc596bob.s 			page 32
+
+
  1709              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/ccKaTwIo.s 			page 32
-
-
  1710 0000 00B5     		push	{lr}
  1711              		.cfi_def_cfa_offset 4
  1712              		.cfi_offset 14, -4
@@ -1917,10 +1918,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  1763              		.cfi_offset 14, -4
  1764 0002 83B0     		sub	sp, sp, #12
  1765              		.cfi_def_cfa_offset 16
+ARM GAS  /tmp/cc596bob.s 			page 33
+
+
  1766 0004 0190     		str	r0, [sp, #4]
-ARM GAS  /tmp/ccKaTwIo.s 			page 33
-
-
  1767              		.loc 18 57 0
  1768 0006 0198     		ldr	r0, [sp, #4]
  1769 0008 FFF7FEFF 		bl	_ZN3r2p9PublisherINS_7MgmtMsgEED1Ev
@@ -1977,10 +1978,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  1820 0024 03B0     		add	sp, sp, #12
  1821              		.cfi_def_cfa_offset 4
  1822              		@ sp needed
+ARM GAS  /tmp/cc596bob.s 			page 34
+
+
  1823 0026 5DF804FB 		ldr	pc, [sp], #4
-ARM GAS  /tmp/ccKaTwIo.s 			page 34
-
-
  1824              	.L116:
  1825 002a 00BF     		.align	2
  1826              	.L115:
@@ -2037,10 +2038,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  1877              		@ frame_needed = 0, uses_anonymous_args = 0
  1878 0000 08B5     		push	{r3, lr}
  1879              		.cfi_def_cfa_offset 8
+ARM GAS  /tmp/cc596bob.s 			page 35
+
+
  1880              		.cfi_offset 3, -8
-ARM GAS  /tmp/ccKaTwIo.s 			page 35
-
-
  1881              		.cfi_offset 14, -4
  1882              		.loc 11 51 0
  1883 0002 0120     		movs	r0, #1
@@ -2097,10 +2098,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  1934 000c BD0A0000 		.4byte	.LASF1017
  1935 0010 04       		.byte	0x4
  1936 0011 6F190000 		.4byte	.LASF1018
+ARM GAS  /tmp/cc596bob.s 			page 36
+
+
  1937 0015 1B670000 		.4byte	.LASF1019
-ARM GAS  /tmp/ccKaTwIo.s 			page 36
-
-
  1938 0019 00000000 		.4byte	.Ldebug_ranges0+0
  1939 001d 00000000 		.4byte	0
  1940 0021 00000000 		.4byte	.Ldebug_line0
@@ -2157,10 +2158,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  1991 0087 14       		.byte	0x14
  1992 0088 5B       		.byte	0x5b
  1993 0089 8D000000 		.4byte	0x8d
+ARM GAS  /tmp/cc596bob.s 			page 37
+
+
  1994 008d 02       		.uleb128 0x2
-ARM GAS  /tmp/ccKaTwIo.s 			page 37
-
-
  1995 008e 08       		.byte	0x8
  1996 008f 07       		.byte	0x7
  1997 0090 C25A0000 		.4byte	.LASF12
@@ -2217,10 +2218,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  2048 00fc 02       		.byte	0x2
  2049 00fd 8C0A0000 		.4byte	.LASF22
  2050 0101 03       		.uleb128 0x3
+ARM GAS  /tmp/cc596bob.s 			page 38
+
+
  2051 0102 F0300000 		.4byte	.LASF23
-ARM GAS  /tmp/ccKaTwIo.s 			page 38
-
-
  2052 0106 17       		.byte	0x17
  2053 0107 2C       		.byte	0x2c
  2054 0108 A2000000 		.4byte	0xa2
@@ -2277,10 +2278,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  2105 0174 A5010000 		.4byte	0x1a5
  2106 0178 07       		.uleb128 0x7
  2107 0179 64290000 		.4byte	.LASF32
+ARM GAS  /tmp/cc596bob.s 			page 39
+
+
  2108 017d 19       		.byte	0x19
-ARM GAS  /tmp/ccKaTwIo.s 			page 39
-
-
  2109 017e 9D       		.byte	0x9d
  2110 017f 38010000 		.4byte	0x138
  2111 0183 07       		.uleb128 0x7
@@ -2337,10 +2338,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  2162 01ec 14       		.byte	0x14
  2163 01ed 08       		.uleb128 0x8
  2164 01ee F85F0000 		.4byte	.LASF42
+ARM GAS  /tmp/cc596bob.s 			page 40
+
+
  2165 01f2 19       		.byte	0x19
-ARM GAS  /tmp/ccKaTwIo.s 			page 40
-
-
  2166 01f3 6E       		.byte	0x6e
  2167 01f4 6C060000 		.4byte	0x66c
  2168 01f8 18       		.byte	0x18
@@ -2397,10 +2398,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  2219 025e 19       		.byte	0x19
  2220 025f BF       		.byte	0xbf
  2221 0260 CD020000 		.4byte	0x2cd
+ARM GAS  /tmp/cc596bob.s 			page 41
+
+
  2222 0264 30       		.byte	0x30
-ARM GAS  /tmp/ccKaTwIo.s 			page 41
-
-
  2223 0265 08       		.uleb128 0x8
  2224 0266 8C160000 		.4byte	.LASF51
  2225 026a 19       		.byte	0x19
@@ -2457,10 +2458,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  2276 02cd 03       		.uleb128 0x3
  2277 02ce C0230000 		.4byte	.LASF56
  2278 02d2 18       		.byte	0x18
+ARM GAS  /tmp/cc596bob.s 			page 42
+
+
  2279 02d3 66       		.byte	0x66
-ARM GAS  /tmp/ccKaTwIo.s 			page 42
-
-
  2280 02d4 A2020000 		.4byte	0x2a2
  2281 02d8 0A       		.uleb128 0xa
  2282 02d9 04       		.byte	0x4
@@ -2517,10 +2518,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  2333 0343 FC020000 		.4byte	0x2fc
  2334 0347 08       		.byte	0x8
  2335 0348 0E       		.uleb128 0xe
+ARM GAS  /tmp/cc596bob.s 			page 43
+
+
  2336 0349 73313900 		.ascii	"s19\000"
-ARM GAS  /tmp/ccKaTwIo.s 			page 43
-
-
  2337 034d 1A       		.byte	0x1a
  2338 034e 1101     		.2byte	0x111
  2339 0350 FC020000 		.4byte	0x2fc
@@ -2577,10 +2578,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  2390 03be 73323800 		.ascii	"s28\000"
  2391 03c2 1A       		.byte	0x1a
  2392 03c3 1A01     		.2byte	0x11a
+ARM GAS  /tmp/cc596bob.s 			page 44
+
+
  2393 03c5 FC020000 		.4byte	0x2fc
-ARM GAS  /tmp/ccKaTwIo.s 			page 44
-
-
  2394 03c9 30       		.byte	0x30
  2395 03ca 0E       		.uleb128 0xe
  2396 03cb 73323900 		.ascii	"s29\000"
@@ -2637,10 +2638,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  2447 0434 FC020000 		.4byte	0x2fc
  2448 0438 54       		.byte	0x54
  2449 0439 0E       		.uleb128 0xe
+ARM GAS  /tmp/cc596bob.s 			page 45
+
+
  2450 043a 72313000 		.ascii	"r10\000"
-ARM GAS  /tmp/ccKaTwIo.s 			page 45
-
-
  2451 043e 1A       		.byte	0x1a
  2452 043f 2501     		.2byte	0x125
  2453 0441 FC020000 		.4byte	0x2fc
@@ -2697,10 +2698,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  2504 04aa F7040000 		.4byte	0x4f7
  2505 04ae 08       		.uleb128 0x8
  2506 04af 03480000 		.4byte	.LASF66
+ARM GAS  /tmp/cc596bob.s 			page 46
+
+
  2507 04b3 1B       		.byte	0x1b
-ARM GAS  /tmp/ccKaTwIo.s 			page 46
-
-
  2508 04b4 5F       		.byte	0x5f
  2509 04b5 CD020000 		.4byte	0x2cd
  2510 04b9 00       		.byte	0
@@ -2757,10 +2758,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  2561 051f 1C       		.byte	0x1c
  2562 0520 2F       		.byte	0x2f
  2563 0521 C7020000 		.4byte	0x2c7
+ARM GAS  /tmp/cc596bob.s 			page 47
+
+
  2564 0525 08       		.byte	0x8
-ARM GAS  /tmp/ccKaTwIo.s 			page 47
-
-
  2565 0526 08       		.uleb128 0x8
  2566 0527 BF040000 		.4byte	.LASF76
  2567 052b 1C       		.byte	0x1c
@@ -2817,10 +2818,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  2618 0594 BD4D0000 		.4byte	.LASF82
  2619 0598 1E       		.byte	0x1e
  2620 0599 4C       		.byte	0x4c
+ARM GAS  /tmp/cc596bob.s 			page 48
+
+
  2621 059a 39050000 		.4byte	0x539
-ARM GAS  /tmp/ccKaTwIo.s 			page 48
-
-
  2622 059e 10       		.byte	0x10
  2623 059f 00       		.byte	0
  2624 05a0 14       		.uleb128 0x14
@@ -2877,10 +2878,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  2675 05ff 0B       		.uleb128 0xb
  2676 0600 04       		.byte	0x4
  2677 0601 A0050000 		.4byte	0x5a0
+ARM GAS  /tmp/cc596bob.s 			page 49
+
+
  2678 0605 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccKaTwIo.s 			page 49
-
-
  2679 0606 04       		.byte	0x4
  2680 0607 64050000 		.4byte	0x564
  2681 060b 05       		.uleb128 0x5
@@ -2937,10 +2938,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  2732 066e 72060000 		.4byte	0x672
  2733 0672 17       		.uleb128 0x17
  2734 0673 77060000 		.4byte	0x677
+ARM GAS  /tmp/cc596bob.s 			page 50
+
+
  2735 0677 02       		.uleb128 0x2
-ARM GAS  /tmp/ccKaTwIo.s 			page 50
-
-
  2736 0678 01       		.byte	0x1
  2737 0679 08       		.byte	0x8
  2738 067a D5470000 		.4byte	.LASF94
@@ -2997,10 +2998,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  2789 06ec 19       		.uleb128 0x19
  2790 06ed 3A400000 		.4byte	.LASF97
  2791 06f1 20       		.byte	0x20
+ARM GAS  /tmp/cc596bob.s 			page 51
+
+
  2792 06f2 7001     		.2byte	0x170
-ARM GAS  /tmp/ccKaTwIo.s 			page 51
-
-
  2793 06f4 81040000 		.4byte	0x481
  2794 06f8 08       		.byte	0x8
  2795 06f9 19       		.uleb128 0x19
@@ -3057,10 +3058,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  2846 0764 8301     		.2byte	0x183
  2847 0766 254C0000 		.4byte	.LASF106
  2848 076a 89070000 		.4byte	0x789
+ARM GAS  /tmp/cc596bob.s 			page 52
+
+
  2849 076e 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccKaTwIo.s 			page 52
-
-
  2850 076f 46523100 		.ascii	"FR1\000"
  2851 0773 20       		.byte	0x20
  2852 0774 8401     		.2byte	0x184
@@ -3117,10 +3118,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  2903 07e4 0E       		.uleb128 0xe
  2904 07e5 49455200 		.ascii	"IER\000"
  2905 07e9 20       		.byte	0x20
+ARM GAS  /tmp/cc596bob.s 			page 53
+
+
  2906 07ea 9201     		.2byte	0x192
-ARM GAS  /tmp/ccKaTwIo.s 			page 53
-
-
  2907 07ec 81040000 		.4byte	0x481
  2908 07f0 14       		.byte	0x14
  2909 07f1 0E       		.uleb128 0xe
@@ -3177,10 +3178,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  2960 0864 9B01     		.2byte	0x19b
  2961 0866 C3000000 		.4byte	0xc3
  2962 086a 0802     		.2byte	0x208
+ARM GAS  /tmp/cc596bob.s 			page 54
+
+
  2963 086c 1C       		.uleb128 0x1c
-ARM GAS  /tmp/ccKaTwIo.s 			page 54
-
-
  2964 086d E85E0000 		.4byte	.LASF116
  2965 0871 20       		.byte	0x20
  2966 0872 9C01     		.2byte	0x19c
@@ -3237,10 +3238,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  3017 08e9 96040000 		.4byte	0x496
  3018 08ed 02       		.byte	0x2
  3019 08ee 00       		.byte	0
+ARM GAS  /tmp/cc596bob.s 			page 55
+
+
  3020 08ef 10       		.uleb128 0x10
-ARM GAS  /tmp/ccKaTwIo.s 			page 55
-
-
  3021 08f0 55070000 		.4byte	0x755
  3022 08f4 FF080000 		.4byte	0x8ff
  3023 08f8 11       		.uleb128 0x11
@@ -3297,10 +3298,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  3074 0967 81040000 		.4byte	0x481
  3075 096b 08       		.byte	0x8
  3076 096c 19       		.uleb128 0x19
+ARM GAS  /tmp/cc596bob.s 			page 56
+
+
  3077 096d D41A0000 		.4byte	.LASF126
-ARM GAS  /tmp/ccKaTwIo.s 			page 56
-
-
  3078 0971 20       		.byte	0x20
  3079 0972 E602     		.2byte	0x2e6
  3080 0974 81040000 		.4byte	0x481
@@ -3357,10 +3358,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  3131 09e1 41525200 		.ascii	"ARR\000"
  3132 09e5 20       		.byte	0x20
  3133 09e6 EF02     		.2byte	0x2ef
+ARM GAS  /tmp/cc596bob.s 			page 57
+
+
  3134 09e8 81040000 		.4byte	0x481
-ARM GAS  /tmp/ccKaTwIo.s 			page 57
-
-
  3135 09ec 2C       		.byte	0x2c
  3136 09ed 0E       		.uleb128 0xe
  3137 09ee 52435200 		.ascii	"RCR\000"
@@ -3417,10 +3418,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  3188 0a5d AD000000 		.4byte	0xad
  3189 0a61 4A       		.byte	0x4a
  3190 0a62 19       		.uleb128 0x19
+ARM GAS  /tmp/cc596bob.s 			page 58
+
+
  3191 0a63 CB3D0000 		.4byte	.LASF138
-ARM GAS  /tmp/ccKaTwIo.s 			page 58
-
-
  3192 0a67 20       		.byte	0x20
  3193 0a68 F902     		.2byte	0x2f9
  3194 0a6a BB060000 		.4byte	0x6bb
@@ -3477,10 +3478,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  3245 0adb 11       		.uleb128 0x11
  3246 0adc 96040000 		.4byte	0x496
  3247 0ae0 17       		.byte	0x17
+ARM GAS  /tmp/cc596bob.s 			page 59
+
+
  3248 0ae1 00       		.byte	0
-ARM GAS  /tmp/ccKaTwIo.s 			page 59
-
-
  3249 0ae2 1E       		.uleb128 0x1e
  3250 0ae3 73746400 		.ascii	"std\000"
  3251 0ae7 23       		.byte	0x23
@@ -3537,10 +3538,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  3302 0b53 20       		.uleb128 0x20
  3303 0b54 3A300000 		.4byte	.LASF147
  3304 0b58 22       		.byte	0x22
+ARM GAS  /tmp/cc596bob.s 			page 60
+
+
  3305 0b59 2C       		.byte	0x2c
-ARM GAS  /tmp/ccKaTwIo.s 			page 60
-
-
  3306 0b5a EF000000 		.4byte	0xef
  3307 0b5e 720B0000 		.4byte	0xb72
  3308 0b62 13       		.uleb128 0x13
@@ -3597,10 +3598,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  3359 0bd7 94000000 		.4byte	0x94
  3360 0bdb 00       		.byte	0
  3361 0bdc 00       		.byte	0
+ARM GAS  /tmp/cc596bob.s 			page 61
+
+
  3362 0bdd 17       		.uleb128 0x17
-ARM GAS  /tmp/ccKaTwIo.s 			page 61
-
-
  3363 0bde 7D0B0000 		.4byte	0xb7d
  3364 0be2 05       		.uleb128 0x5
  3365 0be3 B55D0000 		.4byte	.LASF150
@@ -3657,10 +3658,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  3416 0c37 7D0B0000 		.4byte	0xb7d
  3417 0c3b 00       		.byte	0
  3418 0c3c 08       		.uleb128 0x8
+ARM GAS  /tmp/cc596bob.s 			page 62
+
+
  3419 0c3d 5B1E0000 		.4byte	.LASF155
-ARM GAS  /tmp/ccKaTwIo.s 			page 62
-
-
  3420 0c41 0F       		.byte	0xf
  3421 0c42 0E       		.byte	0xe
  3422 0c43 5B060000 		.4byte	0x65b
@@ -3717,10 +3718,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  3473 0cbe CD0C0000 		.4byte	0xccd
  3474 0cc2 23       		.uleb128 0x23
  3475 0cc3 06590000 		.4byte	0x5906
+ARM GAS  /tmp/cc596bob.s 			page 63
+
+
  3476 0cc7 13       		.uleb128 0x13
-ARM GAS  /tmp/ccKaTwIo.s 			page 63
-
-
  3477 0cc8 07030000 		.4byte	0x307
  3478 0ccc 00       		.byte	0
  3479 0ccd 2A       		.uleb128 0x2a
@@ -3777,10 +3778,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  3530 0d4b 00       		.byte	0
  3531 0d4c 24       		.uleb128 0x24
  3532 0d4d 12630000 		.4byte	.LASF154
+ARM GAS  /tmp/cc596bob.s 			page 64
+
+
  3533 0d51 0F       		.byte	0xf
-ARM GAS  /tmp/ccKaTwIo.s 			page 64
-
-
  3534 0d52 1E       		.byte	0x1e
  3535 0d53 06590000 		.4byte	0x5906
  3536 0d57 01       		.byte	0x1
@@ -3837,10 +3838,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  3587 0dd2 07030000 		.4byte	0x307
  3588 0dd6 13       		.uleb128 0x13
  3589 0dd7 EF000000 		.4byte	0xef
+ARM GAS  /tmp/cc596bob.s 			page 65
+
+
  3590 0ddb 13       		.uleb128 0x13
-ARM GAS  /tmp/ccKaTwIo.s 			page 65
-
-
  3591 0ddc EF000000 		.4byte	0xef
  3592 0de0 13       		.uleb128 0x13
  3593 0de1 480C0000 		.4byte	0xc48
@@ -3897,10 +3898,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  3644 0e4d 01       		.byte	0x1
  3645 0e4e 2A       		.uleb128 0x2a
  3646 0e4f 5A290000 		.4byte	.LASF179
+ARM GAS  /tmp/cc596bob.s 			page 66
+
+
  3647 0e53 02       		.byte	0x2
-ARM GAS  /tmp/ccKaTwIo.s 			page 66
-
-
  3648 0e54 1E       		.byte	0x1e
  3649 0e55 53680000 		.4byte	.LASF180
  3650 0e59 110E0000 		.4byte	0xe11
@@ -3957,10 +3958,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  3701 0eda E40E0000 		.4byte	0xee4
  3702 0ede 23       		.uleb128 0x23
  3703 0edf 12590000 		.4byte	0x5912
+ARM GAS  /tmp/cc596bob.s 			page 67
+
+
  3704 0ee3 00       		.byte	0
-ARM GAS  /tmp/ccKaTwIo.s 			page 67
-
-
  3705 0ee4 2A       		.uleb128 0x2a
  3706 0ee5 72310000 		.4byte	.LASF189
  3707 0ee9 02       		.byte	0x2
@@ -4017,10 +4018,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  3758 0f67 29       		.byte	0x29
  3759 0f68 2C5F0000 		.4byte	.LASF198
  3760 0f6c 1F590000 		.4byte	0x591f
+ARM GAS  /tmp/cc596bob.s 			page 68
+
+
  3761 0f70 01       		.byte	0x1
-ARM GAS  /tmp/ccKaTwIo.s 			page 68
-
-
  3762 0f71 790F0000 		.4byte	0xf79
  3763 0f75 840F0000 		.4byte	0xf84
  3764 0f79 23       		.uleb128 0x23
@@ -4077,10 +4078,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  3815 0ff4 23       		.uleb128 0x23
  3816 0ff5 25590000 		.4byte	0x5925
  3817 0ff9 13       		.uleb128 0x13
+ARM GAS  /tmp/cc596bob.s 			page 69
+
+
  3818 0ffa 2B590000 		.4byte	0x592b
-ARM GAS  /tmp/ccKaTwIo.s 			page 69
-
-
  3819 0ffe 00       		.byte	0
  3820 0fff 30       		.uleb128 0x30
  3821 1000 757300   		.ascii	"us\000"
@@ -4137,10 +4138,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  3872 1074 13       		.uleb128 0x13
  3873 1075 18590000 		.4byte	0x5918
  3874 1079 00       		.byte	0
+ARM GAS  /tmp/cc596bob.s 			page 70
+
+
  3875 107a 31       		.uleb128 0x31
-ARM GAS  /tmp/ccKaTwIo.s 			page 70
-
-
  3876 107b 6E6F7700 		.ascii	"now\000"
  3877 107f 02       		.byte	0x2
  3878 1080 38       		.byte	0x38
@@ -4197,10 +4198,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  3929 10ed 04       		.byte	0x4
  3930 10ee 34       		.uleb128 0x34
  3931 10ef 53620000 		.4byte	.LASF210
+ARM GAS  /tmp/cc596bob.s 			page 71
+
+
  3932 10f3 0D       		.byte	0xd
-ARM GAS  /tmp/ccKaTwIo.s 			page 71
-
-
  3933 10f4 15       		.byte	0x15
  3934 10f5 31590000 		.4byte	0x5931
  3935 10f9 FD100000 		.4byte	0x10fd
@@ -4257,10 +4258,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  3986 1169 71110000 		.4byte	0x1171
  3987 116d 7C110000 		.4byte	0x117c
  3988 1171 23       		.uleb128 0x23
+ARM GAS  /tmp/cc596bob.s 			page 72
+
+
  3989 1172 24600000 		.4byte	0x6024
-ARM GAS  /tmp/ccKaTwIo.s 			page 72
-
-
  3990 1176 13       		.uleb128 0x13
  3991 1177 2A600000 		.4byte	0x602a
  3992 117b 00       		.byte	0
@@ -4317,10 +4318,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  4043 11f9 0D470000 		.4byte	.LASF222
  4044 11fd 0D       		.byte	0xd
  4045 11fe DC       		.byte	0xdc
+ARM GAS  /tmp/cc596bob.s 			page 73
+
+
  4046 11ff 614C0000 		.4byte	.LASF223
-ARM GAS  /tmp/ccKaTwIo.s 			page 73
-
-
  4047 1203 9C590000 		.4byte	0x599c
  4048 1207 01       		.byte	0x1
  4049 1208 10120000 		.4byte	0x1210
@@ -4377,10 +4378,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  4100 1286 C9100000 		.4byte	.LASF230
  4101 128a FA000000 		.4byte	0xfa
  4102 128e 01       		.byte	0x1
+ARM GAS  /tmp/cc596bob.s 			page 74
+
+
  4103 128f 93120000 		.4byte	0x1293
-ARM GAS  /tmp/ccKaTwIo.s 			page 74
-
-
  4104 1293 23       		.uleb128 0x23
  4105 1294 36600000 		.4byte	0x6036
  4106 1298 00       		.byte	0
@@ -4437,10 +4438,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  4157 1315 404F0000 		.4byte	.LASF239
  4158 1319 0D       		.byte	0xd
  4159 131a 9701     		.2byte	0x197
+ARM GAS  /tmp/cc596bob.s 			page 75
+
+
  4160 131c 511F0000 		.4byte	.LASF241
-ARM GAS  /tmp/ccKaTwIo.s 			page 75
-
-
  4161 1320 01       		.byte	0x1
  4162 1321 29130000 		.4byte	0x1329
  4163 1325 34130000 		.4byte	0x1334
@@ -4497,10 +4498,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  4214 13a4 63490000 		.4byte	.LASF248
  4215 13a8 FA000000 		.4byte	0xfa
  4216 13ac 01       		.byte	0x1
+ARM GAS  /tmp/cc596bob.s 			page 76
+
+
  4217 13ad B5130000 		.4byte	0x13b5
-ARM GAS  /tmp/ccKaTwIo.s 			page 76
-
-
  4218 13b1 C0130000 		.4byte	0x13c0
  4219 13b5 23       		.uleb128 0x23
  4220 13b6 72590000 		.4byte	0x5972
@@ -4557,10 +4558,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  4271 1437 B701     		.2byte	0x1b7
  4272 1439 86340000 		.4byte	.LASF255
  4273 143d 2C140000 		.4byte	0x142c
+ARM GAS  /tmp/cc596bob.s 			page 77
+
+
  4274 1441 01       		.byte	0x1
-ARM GAS  /tmp/ccKaTwIo.s 			page 77
-
-
  4275 1442 4A140000 		.4byte	0x144a
  4276 1446 50140000 		.4byte	0x1450
  4277 144a 23       		.uleb128 0x23
@@ -4617,10 +4618,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  4328 14c9 72590000 		.4byte	0x5972
  4329 14cd 13       		.uleb128 0x13
  4330 14ce 90590000 		.4byte	0x5990
+ARM GAS  /tmp/cc596bob.s 			page 78
+
+
  4331 14d2 00       		.byte	0
-ARM GAS  /tmp/ccKaTwIo.s 			page 78
-
-
  4332 14d3 3A       		.uleb128 0x3a
  4333 14d4 D3620000 		.4byte	.LASF261
  4334 14d8 0D       		.byte	0xd
@@ -4677,10 +4678,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  4385 1558 3E410000 		.4byte	.LASF270
  4386 155c FA000000 		.4byte	0xfa
  4387 1560 01       		.byte	0x1
+ARM GAS  /tmp/cc596bob.s 			page 79
+
+
  4388 1561 69150000 		.4byte	0x1569
-ARM GAS  /tmp/ccKaTwIo.s 			page 79
-
-
  4389 1565 74150000 		.4byte	0x1574
  4390 1569 23       		.uleb128 0x23
  4391 156a 78590000 		.4byte	0x5978
@@ -4737,10 +4738,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  4442 15ec 84590000 		.4byte	0x5984
  4443 15f0 01       		.byte	0x1
  4444 15f1 F9150000 		.4byte	0x15f9
+ARM GAS  /tmp/cc596bob.s 			page 80
+
+
  4445 15f5 09160000 		.4byte	0x1609
-ARM GAS  /tmp/ccKaTwIo.s 			page 80
-
-
  4446 15f9 23       		.uleb128 0x23
  4447 15fa 72590000 		.4byte	0x5972
  4448 15fe 13       		.uleb128 0x13
@@ -4797,10 +4798,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  4499 167d 85160000 		.4byte	0x1685
  4500 1681 8B160000 		.4byte	0x168b
  4501 1685 23       		.uleb128 0x23
+ARM GAS  /tmp/cc596bob.s 			page 81
+
+
  4502 1686 72590000 		.4byte	0x5972
-ARM GAS  /tmp/ccKaTwIo.s 			page 81
-
-
  4503 168a 00       		.byte	0
  4504 168b 17       		.uleb128 0x17
  4505 168c 2A110000 		.4byte	0x112a
@@ -4857,10 +4858,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  4556 170d 0B1E0000 		.4byte	.LASF288
  4557 1711 1B170000 		.4byte	0x171b
  4558 1715 00       		.byte	0
+ARM GAS  /tmp/cc596bob.s 			page 82
+
+
  4559 1716 17       		.uleb128 0x17
-ARM GAS  /tmp/ccKaTwIo.s 			page 82
-
-
  4560 1717 1B170000 		.4byte	0x171b
  4561 171b 40       		.uleb128 0x40
  4562 171c 326A0000 		.4byte	.LASF805
@@ -4917,10 +4918,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  4613 1791 01       		.byte	0x1
  4614 1792 96170000 		.4byte	0x1796
  4615 1796 23       		.uleb128 0x23
+ARM GAS  /tmp/cc596bob.s 			page 83
+
+
  4616 1797 84590000 		.4byte	0x5984
-ARM GAS  /tmp/ccKaTwIo.s 			page 83
-
-
  4617 179b 13       		.uleb128 0x13
  4618 179c A05A0000 		.4byte	0x5aa0
  4619 17a0 13       		.uleb128 0x13
@@ -4977,10 +4978,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  4670 180a 00       		.byte	0
  4671 180b 36       		.uleb128 0x36
  4672 180c 06220000 		.4byte	.LASF212
+ARM GAS  /tmp/cc596bob.s 			page 84
+
+
  4673 1810 36       		.uleb128 0x36
-ARM GAS  /tmp/ccKaTwIo.s 			page 84
-
-
  4674 1811 30330000 		.4byte	.LASF213
  4675 1815 36       		.uleb128 0x36
  4676 1816 985A0000 		.4byte	.LASF214
@@ -5037,10 +5038,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  4727 1899 3B       		.uleb128 0x3b
  4728 189a 404F0000 		.4byte	.LASF239
  4729 189e 0D       		.byte	0xd
+ARM GAS  /tmp/cc596bob.s 			page 85
+
+
  4730 189f 9701     		.2byte	0x197
-ARM GAS  /tmp/ccKaTwIo.s 			page 85
-
-
  4731 18a1 97630000 		.4byte	.LASF297
  4732 18a5 01       		.byte	0x1
  4733 18a6 AE180000 		.4byte	0x18ae
@@ -5097,10 +5098,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  4784 1927 2C02     		.2byte	0x22c
  4785 1929 5F3E0000 		.4byte	.LASF301
  4786 192d FA000000 		.4byte	0xfa
+ARM GAS  /tmp/cc596bob.s 			page 86
+
+
  4787 1931 01       		.byte	0x1
-ARM GAS  /tmp/ccKaTwIo.s 			page 86
-
-
  4788 1932 3A190000 		.4byte	0x193a
  4789 1936 45190000 		.4byte	0x1945
  4790 193a 23       		.uleb128 0x23
@@ -5157,10 +5158,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  4841 19bb 0D       		.byte	0xd
  4842 19bc B701     		.2byte	0x1b7
  4843 19be 7E080000 		.4byte	.LASF305
+ARM GAS  /tmp/cc596bob.s 			page 87
+
+
  4844 19c2 B1190000 		.4byte	0x19b1
-ARM GAS  /tmp/ccKaTwIo.s 			page 87
-
-
  4845 19c6 01       		.byte	0x1
  4846 19c7 CF190000 		.4byte	0x19cf
  4847 19cb D5190000 		.4byte	0x19d5
@@ -5217,10 +5218,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  4898 1a4d 23       		.uleb128 0x23
  4899 1a4e E3590000 		.4byte	0x59e3
  4900 1a52 13       		.uleb128 0x13
+ARM GAS  /tmp/cc596bob.s 			page 88
+
+
  4901 1a53 015A0000 		.4byte	0x5a01
-ARM GAS  /tmp/ccKaTwIo.s 			page 88
-
-
  4902 1a57 00       		.byte	0
  4903 1a58 3A       		.uleb128 0x3a
  4904 1a59 D3620000 		.4byte	.LASF261
@@ -5277,10 +5278,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  4955 1adb 8002     		.2byte	0x280
  4956 1add C72B0000 		.4byte	.LASF314
  4957 1ae1 FA000000 		.4byte	0xfa
+ARM GAS  /tmp/cc596bob.s 			page 89
+
+
  4958 1ae5 01       		.byte	0x1
-ARM GAS  /tmp/ccKaTwIo.s 			page 89
-
-
  4959 1ae6 EE1A0000 		.4byte	0x1aee
  4960 1aea F91A0000 		.4byte	0x1af9
  4961 1aee 23       		.uleb128 0x23
@@ -5337,10 +5338,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  5012 1b6d 54520000 		.4byte	.LASF318
  5013 1b71 F5590000 		.4byte	0x59f5
  5014 1b75 01       		.byte	0x1
+ARM GAS  /tmp/cc596bob.s 			page 90
+
+
  5015 1b76 7E1B0000 		.4byte	0x1b7e
-ARM GAS  /tmp/ccKaTwIo.s 			page 90
-
-
  5016 1b7a 8E1B0000 		.4byte	0x1b8e
  5017 1b7e 23       		.uleb128 0x23
  5018 1b7f E3590000 		.4byte	0x59e3
@@ -5397,10 +5398,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  5069 1c01 01       		.byte	0x1
  5070 1c02 0A1C0000 		.4byte	0x1c0a
  5071 1c06 101C0000 		.4byte	0x1c10
+ARM GAS  /tmp/cc596bob.s 			page 91
+
+
  5072 1c0a 23       		.uleb128 0x23
-ARM GAS  /tmp/ccKaTwIo.s 			page 91
-
-
  5073 1c0b E3590000 		.4byte	0x59e3
  5074 1c0f 00       		.byte	0
  5075 1c10 17       		.uleb128 0x17
@@ -5457,10 +5458,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  5126 1c91 9B1C0000 		.4byte	0x1c9b
  5127 1c95 00       		.byte	0
  5128 1c96 17       		.uleb128 0x17
+ARM GAS  /tmp/cc596bob.s 			page 92
+
+
  5129 1c97 9B1C0000 		.4byte	0x1c9b
-ARM GAS  /tmp/ccKaTwIo.s 			page 92
-
-
  5130 1c9b 36       		.uleb128 0x36
  5131 1c9c 46590000 		.4byte	.LASF325
  5132 1ca0 17       		.uleb128 0x17
@@ -5517,10 +5518,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  5183 1d0a 30330000 		.4byte	.LASF213
  5184 1d0e 36       		.uleb128 0x36
  5185 1d0f 985A0000 		.4byte	.LASF214
+ARM GAS  /tmp/cc596bob.s 			page 93
+
+
  5186 1d13 36       		.uleb128 0x36
-ARM GAS  /tmp/ccKaTwIo.s 			page 93
-
-
  5187 1d14 E0420000 		.4byte	.LASF216
  5188 1d18 1A       		.uleb128 0x1a
  5189 1d19 781C0000 		.4byte	.LASF231
@@ -5577,10 +5578,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  5240 1d9a 47540000 		.4byte	.LASF330
  5241 1d9e 01       		.byte	0x1
  5242 1d9f A71D0000 		.4byte	0x1da7
+ARM GAS  /tmp/cc596bob.s 			page 94
+
+
  5243 1da3 B21D0000 		.4byte	0x1db2
-ARM GAS  /tmp/ccKaTwIo.s 			page 94
-
-
  5244 1da7 23       		.uleb128 0x23
  5245 1da8 5A5A0000 		.4byte	0x5a5a
  5246 1dac 13       		.uleb128 0x13
@@ -5637,10 +5638,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  5297 1e2b 331E0000 		.4byte	0x1e33
  5298 1e2f 3E1E0000 		.4byte	0x1e3e
  5299 1e33 23       		.uleb128 0x23
+ARM GAS  /tmp/cc596bob.s 			page 95
+
+
  5300 1e34 545A0000 		.4byte	0x5a54
-ARM GAS  /tmp/ccKaTwIo.s 			page 95
-
-
  5301 1e38 13       		.uleb128 0x13
  5302 1e39 2E5A0000 		.4byte	0x5a2e
  5303 1e3d 00       		.byte	0
@@ -5697,10 +5698,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  5354 1ebf 01       		.byte	0x1
  5355 1ec0 C81E0000 		.4byte	0x1ec8
  5356 1ec4 CE1E0000 		.4byte	0x1ece
+ARM GAS  /tmp/cc596bob.s 			page 96
+
+
  5357 1ec8 23       		.uleb128 0x23
-ARM GAS  /tmp/ccKaTwIo.s 			page 96
-
-
  5358 1ec9 5A5A0000 		.4byte	0x5a5a
  5359 1ecd 00       		.byte	0
  5360 1ece 3B       		.uleb128 0x3b
@@ -5757,10 +5758,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  5411 1f50 00       		.byte	0
  5412 1f51 3A       		.uleb128 0x3a
  5413 1f52 D3620000 		.4byte	.LASF261
+ARM GAS  /tmp/cc596bob.s 			page 97
+
+
  5414 1f56 0D       		.byte	0xd
-ARM GAS  /tmp/ccKaTwIo.s 			page 97
-
-
  5415 1f57 5302     		.2byte	0x253
  5416 1f59 324B0000 		.4byte	.LASF343
  5417 1f5d 4E5A0000 		.4byte	0x5a4e
@@ -5817,10 +5818,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  5468 1fdf E71F0000 		.4byte	0x1fe7
  5469 1fe3 F21F0000 		.4byte	0x1ff2
  5470 1fe7 23       		.uleb128 0x23
+ARM GAS  /tmp/cc596bob.s 			page 98
+
+
  5471 1fe8 5A5A0000 		.4byte	0x5a5a
-ARM GAS  /tmp/ccKaTwIo.s 			page 98
-
-
  5472 1fec 13       		.uleb128 0x13
  5473 1fed 605A0000 		.4byte	0x5a60
  5474 1ff1 00       		.byte	0
@@ -5877,10 +5878,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  5525 2073 87200000 		.4byte	0x2087
  5526 2077 23       		.uleb128 0x23
  5527 2078 545A0000 		.4byte	0x5a54
+ARM GAS  /tmp/cc596bob.s 			page 99
+
+
  5528 207c 13       		.uleb128 0x13
-ARM GAS  /tmp/ccKaTwIo.s 			page 99
-
-
  5529 207d 241D0000 		.4byte	0x1d24
  5530 2081 13       		.uleb128 0x13
  5531 2082 F9580000 		.4byte	0x58f9
@@ -5937,10 +5938,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  5582 2104 545A0000 		.4byte	0x5a54
  5583 2108 00       		.byte	0
  5584 2109 17       		.uleb128 0x17
+ARM GAS  /tmp/cc596bob.s 			page 100
+
+
  5585 210a 131D0000 		.4byte	0x1d13
-ARM GAS  /tmp/ccKaTwIo.s 			page 100
-
-
  5586 210e 3C       		.uleb128 0x3c
  5587 210f 656E6400 		.ascii	"end\000"
  5588 2113 0D       		.byte	0xd
@@ -5997,10 +5998,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  5639 2194 21       		.uleb128 0x21
  5640 2195 EE1C0000 		.4byte	.LASF358
  5641 2199 30       		.byte	0x30
+ARM GAS  /tmp/cc596bob.s 			page 101
+
+
  5642 219a 10       		.byte	0x10
-ARM GAS  /tmp/ccKaTwIo.s 			page 101
-
-
  5643 219b 17       		.byte	0x17
  5644 219c 21270000 		.4byte	0x2721
  5645 21a0 28       		.uleb128 0x28
@@ -6057,10 +6058,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  5696 2206 08       		.uleb128 0x8
  5697 2207 815E0000 		.4byte	.LASF367
  5698 220b 10       		.byte	0x10
+ARM GAS  /tmp/cc596bob.s 			page 102
+
+
  5699 220c 27       		.byte	0x27
-ARM GAS  /tmp/ccKaTwIo.s 			page 102
-
-
  5700 220d B71C0000 		.4byte	0x1cb7
  5701 2211 28       		.byte	0x28
  5702 2212 2A       		.uleb128 0x2a
@@ -6117,10 +6118,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  5753 2290 2E       		.byte	0x2e
  5754 2291 5A5F0000 		.4byte	.LASF377
  5755 2295 EF000000 		.4byte	0xef
+ARM GAS  /tmp/cc596bob.s 			page 103
+
+
  5756 2299 01       		.byte	0x1
-ARM GAS  /tmp/ccKaTwIo.s 			page 103
-
-
  5757 229a A2220000 		.4byte	0x22a2
  5758 229e A8220000 		.4byte	0x22a8
  5759 22a2 23       		.uleb128 0x23
@@ -6177,10 +6178,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  5810 2320 2A       		.uleb128 0x2a
  5811 2321 21420000 		.4byte	.LASF386
  5812 2325 10       		.byte	0x10
+ARM GAS  /tmp/cc596bob.s 			page 104
+
+
  5813 2326 34       		.byte	0x34
-ARM GAS  /tmp/ccKaTwIo.s 			page 104
-
-
  5814 2327 A53F0000 		.4byte	.LASF387
  5815 232b FA000000 		.4byte	0xfa
  5816 232f 01       		.byte	0x1
@@ -6237,10 +6238,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  5867 23b0 23       		.uleb128 0x23
  5868 23b1 945A0000 		.4byte	0x5a94
  5869 23b5 00       		.byte	0
+ARM GAS  /tmp/cc596bob.s 			page 105
+
+
  5870 23b6 2A       		.uleb128 0x2a
-ARM GAS  /tmp/ccKaTwIo.s 			page 105
-
-
  5871 23b7 65480000 		.4byte	.LASF396
  5872 23bb 10       		.byte	0x10
  5873 23bc 3A       		.byte	0x3a
@@ -6297,10 +6298,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  5924 243d 10       		.byte	0x10
  5925 243e 3F       		.byte	0x3f
  5926 243f BB440000 		.4byte	.LASF402
+ARM GAS  /tmp/cc596bob.s 			page 106
+
+
  5927 2443 01       		.byte	0x1
-ARM GAS  /tmp/ccKaTwIo.s 			page 106
-
-
  5928 2444 4C240000 		.4byte	0x244c
  5929 2448 57240000 		.4byte	0x2457
  5930 244c 23       		.uleb128 0x23
@@ -6357,10 +6358,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  5981 24ca 2B590000 		.4byte	0x592b
  5982 24ce 00       		.byte	0
  5983 24cf 2A       		.uleb128 0x2a
+ARM GAS  /tmp/cc596bob.s 			page 107
+
+
  5984 24d0 192B0000 		.4byte	.LASF409
-ARM GAS  /tmp/ccKaTwIo.s 			page 107
-
-
  5985 24d4 10       		.byte	0x10
  5986 24d5 45       		.byte	0x45
  5987 24d6 3E570000 		.4byte	.LASF410
@@ -6417,10 +6418,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  6038 2557 4A       		.byte	0x4a
  6039 2558 F9430000 		.4byte	.LASF415
  6040 255c 01       		.byte	0x1
+ARM GAS  /tmp/cc596bob.s 			page 108
+
+
  6041 255d 65250000 		.4byte	0x2565
-ARM GAS  /tmp/ccKaTwIo.s 			page 108
-
-
  6042 2561 70250000 		.4byte	0x2570
  6043 2565 23       		.uleb128 0x23
  6044 2566 665A0000 		.4byte	0x5a66
@@ -6477,10 +6478,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  6095 25e7 00       		.byte	0
  6096 25e8 2B       		.uleb128 0x2b
  6097 25e9 BF080000 		.4byte	.LASF422
+ARM GAS  /tmp/cc596bob.s 			page 109
+
+
  6098 25ed 10       		.byte	0x10
-ARM GAS  /tmp/ccKaTwIo.s 			page 109
-
-
  6099 25ee 4E       		.byte	0x4e
  6100 25ef E64E0000 		.4byte	.LASF423
  6101 25f3 01       		.byte	0x1
@@ -6537,10 +6538,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  6152 266e B85A0000 		.4byte	0x5ab8
  6153 2672 13       		.uleb128 0x13
  6154 2673 EF000000 		.4byte	0xef
+ARM GAS  /tmp/cc596bob.s 			page 110
+
+
  6155 2677 00       		.byte	0
-ARM GAS  /tmp/ccKaTwIo.s 			page 110
-
-
  6156 2678 2B       		.uleb128 0x2b
  6157 2679 6D680000 		.4byte	.LASF427
  6158 267d 10       		.byte	0x10
@@ -6597,10 +6598,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  6209 26f8 07270000 		.4byte	0x2707
  6210 26fc 13       		.uleb128 0x13
  6211 26fd 2E5A0000 		.4byte	0x5a2e
+ARM GAS  /tmp/cc596bob.s 			page 111
+
+
  6212 2701 13       		.uleb128 0x13
-ARM GAS  /tmp/ccKaTwIo.s 			page 111
-
-
  6213 2702 6C060000 		.4byte	0x66c
  6214 2706 00       		.byte	0
  6215 2707 2C       		.uleb128 0x2c
@@ -6657,10 +6658,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  6266 277c 23       		.uleb128 0x23
  6267 277d 9A5A0000 		.4byte	0x5a9a
  6268 2781 00       		.byte	0
+ARM GAS  /tmp/cc596bob.s 			page 112
+
+
  6269 2782 2A       		.uleb128 0x2a
-ARM GAS  /tmp/ccKaTwIo.s 			page 112
-
-
  6270 2783 D22A0000 		.4byte	.LASF400
  6271 2787 25       		.byte	0x25
  6272 2788 27       		.byte	0x27
@@ -6717,10 +6718,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  6323 2806 23       		.uleb128 0x23
  6324 2807 9A5A0000 		.4byte	0x5a9a
  6325 280b 00       		.byte	0
+ARM GAS  /tmp/cc596bob.s 			page 113
+
+
  6326 280c 24       		.uleb128 0x24
-ARM GAS  /tmp/ccKaTwIo.s 			page 113
-
-
  6327 280d DE500000 		.4byte	.LASF434
  6328 2811 25       		.byte	0x25
  6329 2812 2F       		.byte	0x2f
@@ -6777,10 +6778,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  6380 288a 13       		.uleb128 0x13
  6381 288b EF000000 		.4byte	0xef
  6382 288f 00       		.byte	0
+ARM GAS  /tmp/cc596bob.s 			page 114
+
+
  6383 2890 00       		.byte	0
-ARM GAS  /tmp/ccKaTwIo.s 			page 114
-
-
  6384 2891 17       		.uleb128 0x17
  6385 2892 26270000 		.4byte	0x2726
  6386 2896 47       		.uleb128 0x47
@@ -6837,10 +6838,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  6437 290b 94000000 		.4byte	0x94
  6438 290f 00       		.byte	0
  6439 2910 00       		.byte	0
+ARM GAS  /tmp/cc596bob.s 			page 115
+
+
  6440 2911 36       		.uleb128 0x36
-ARM GAS  /tmp/ccKaTwIo.s 			page 115
-
-
  6441 2912 C5010000 		.4byte	.LASF459
  6442 2916 36       		.uleb128 0x36
  6443 2917 18470000 		.4byte	.LASF460
@@ -6897,10 +6898,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  6494 2984 36       		.uleb128 0x36
  6495 2985 30330000 		.4byte	.LASF213
  6496 2989 36       		.uleb128 0x36
+ARM GAS  /tmp/cc596bob.s 			page 116
+
+
  6497 298a 985A0000 		.4byte	.LASF214
-ARM GAS  /tmp/ccKaTwIo.s 			page 116
-
-
  6498 298e 37       		.uleb128 0x37
  6499 298f E0420000 		.4byte	.LASF216
  6500 2993 04       		.byte	0x4
@@ -6957,10 +6958,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  6551 2a05 77560000 		.4byte	.LASF463
  6552 2a09 3B5B0000 		.4byte	0x5b3b
  6553 2a0d 152A0000 		.4byte	0x2a15
+ARM GAS  /tmp/cc596bob.s 			page 117
+
+
  6554 2a11 202A0000 		.4byte	0x2a20
-ARM GAS  /tmp/ccKaTwIo.s 			page 117
-
-
  6555 2a15 23       		.uleb128 0x23
  6556 2a16 06600000 		.4byte	0x6006
  6557 2a1a 13       		.uleb128 0x13
@@ -7017,10 +7018,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  6608 2a98 94000000 		.4byte	0x94
  6609 2a9c 00       		.byte	0
  6610 2a9d 2A       		.uleb128 0x2a
+ARM GAS  /tmp/cc596bob.s 			page 118
+
+
  6611 2a9e 576A0000 		.4byte	.LASF225
-ARM GAS  /tmp/ccKaTwIo.s 			page 118
-
-
  6612 2aa2 0D       		.byte	0xd
  6613 2aa3 EB       		.byte	0xeb
  6614 2aa4 AB610000 		.4byte	.LASF468
@@ -7077,10 +7078,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  6665 2b22 0B5B0000 		.4byte	0x5b0b
  6666 2b26 01       		.byte	0x1
  6667 2b27 2F2B0000 		.4byte	0x2b2f
+ARM GAS  /tmp/cc596bob.s 			page 119
+
+
  6668 2b2b 352B0000 		.4byte	0x2b35
-ARM GAS  /tmp/ccKaTwIo.s 			page 119
-
-
  6669 2b2f 23       		.uleb128 0x23
  6670 2b30 115B0000 		.4byte	0x5b11
  6671 2b34 00       		.byte	0
@@ -7137,10 +7138,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  6722 2bb3 1D5B0000 		.4byte	0x5b1d
  6723 2bb7 00       		.byte	0
  6724 2bb8 3A       		.uleb128 0x3a
+ARM GAS  /tmp/cc596bob.s 			page 120
+
+
  6725 2bb9 1F2C0000 		.4byte	.LASF243
-ARM GAS  /tmp/ccKaTwIo.s 			page 120
-
-
  6726 2bbd 0D       		.byte	0xd
  6727 2bbe 0E02     		.2byte	0x20e
  6728 2bc0 83240000 		.4byte	.LASF476
@@ -7197,10 +7198,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  6779 2c47 00       		.byte	0
  6780 2c48 3A       		.uleb128 0x3a
  6781 2c49 4D380000 		.4byte	.LASF249
+ARM GAS  /tmp/cc596bob.s 			page 121
+
+
  6782 2c4d 0D       		.byte	0xd
-ARM GAS  /tmp/ccKaTwIo.s 			page 121
-
-
  6783 2c4e 4402     		.2byte	0x244
  6784 2c50 DE1F0000 		.4byte	.LASF480
  6785 2c54 235B0000 		.4byte	0x5b23
@@ -7257,10 +7258,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  6836 2cd5 0F110000 		.4byte	.LASF252
  6837 2cd9 0D       		.byte	0xd
  6838 2cda BF01     		.2byte	0x1bf
+ARM GAS  /tmp/cc596bob.s 			page 122
+
+
  6839 2cdc 62690000 		.4byte	.LASF484
-ARM GAS  /tmp/ccKaTwIo.s 			page 122
-
-
  6840 2ce0 F32C0000 		.4byte	0x2cf3
  6841 2ce4 01       		.byte	0x1
  6842 2ce5 ED2C0000 		.4byte	0x2ced
@@ -7317,10 +7318,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  6893 2d67 6F2D0000 		.4byte	0x2d6f
  6894 2d6b 752D0000 		.4byte	0x2d75
  6895 2d6f 23       		.uleb128 0x23
+ARM GAS  /tmp/cc596bob.s 			page 123
+
+
  6896 2d70 115B0000 		.4byte	0x5b11
-ARM GAS  /tmp/ccKaTwIo.s 			page 123
-
-
  6897 2d74 00       		.byte	0
  6898 2d75 3A       		.uleb128 0x3a
  6899 2d76 BE380000 		.4byte	.LASF265
@@ -7377,10 +7378,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  6950 2dfb 00       		.byte	0
  6951 2dfc 3A       		.uleb128 0x3a
  6952 2dfd E2270000 		.4byte	.LASF273
+ARM GAS  /tmp/cc596bob.s 			page 124
+
+
  6953 2e01 0D       		.byte	0xd
-ARM GAS  /tmp/ccKaTwIo.s 			page 124
-
-
  6954 2e02 9B02     		.2byte	0x29b
  6955 2e04 120A0000 		.4byte	.LASF493
  6956 2e08 FA000000 		.4byte	0xfa
@@ -7437,10 +7438,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  7007 2e8c 17       		.uleb128 0x17
  7008 2e8d 89290000 		.4byte	0x2989
  7009 2e91 3C       		.uleb128 0x3c
+ARM GAS  /tmp/cc596bob.s 			page 125
+
+
  7010 2e92 656E6400 		.ascii	"end\000"
-ARM GAS  /tmp/ccKaTwIo.s 			page 125
-
-
  7011 2e96 0D       		.byte	0xd
  7012 2e97 E401     		.2byte	0x1e4
  7013 2e99 A74A0000 		.4byte	.LASF497
@@ -7497,10 +7498,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  7064 2f1b 693C0000 		.4byte	.LASF501
  7065 2f1f 01       		.byte	0x1
  7066 2f20 282F0000 		.4byte	0x2f28
+ARM GAS  /tmp/cc596bob.s 			page 126
+
+
  7067 2f24 332F0000 		.4byte	0x2f33
-ARM GAS  /tmp/ccKaTwIo.s 			page 126
-
-
  7068 2f28 23       		.uleb128 0x23
  7069 2f29 115B0000 		.4byte	0x5b11
  7070 2f2d 13       		.uleb128 0x13
@@ -7557,10 +7558,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  7121 2f9d 08       		.uleb128 0x8
  7122 2f9e EA150000 		.4byte	.LASF211
  7123 2fa2 0C       		.byte	0xc
+ARM GAS  /tmp/cc596bob.s 			page 127
+
+
  7124 2fa3 0E       		.byte	0xe
-ARM GAS  /tmp/ccKaTwIo.s 			page 127
-
-
  7125 2fa4 465B0000 		.4byte	0x5b46
  7126 2fa8 0C       		.byte	0xc
  7127 2fa9 08       		.uleb128 0x8
@@ -7617,10 +7618,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  7178 3024 EF000000 		.4byte	0xef
  7179 3028 01       		.byte	0x1
  7180 3029 31300000 		.4byte	0x3031
+ARM GAS  /tmp/cc596bob.s 			page 128
+
+
  7181 302d 37300000 		.4byte	0x3037
-ARM GAS  /tmp/ccKaTwIo.s 			page 128
-
-
  7182 3031 23       		.uleb128 0x23
  7183 3032 585B0000 		.4byte	0x5b58
  7184 3036 00       		.byte	0
@@ -7677,10 +7678,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  7235 30b4 4C5B0000 		.4byte	0x5b4c
  7236 30b8 00       		.byte	0
  7237 30b9 24       		.uleb128 0x24
+ARM GAS  /tmp/cc596bob.s 			page 129
+
+
  7238 30ba 0C5C0000 		.4byte	.LASF521
-ARM GAS  /tmp/ccKaTwIo.s 			page 129
-
-
  7239 30be 0C       		.byte	0xc
  7240 30bf 7D       		.byte	0x7d
  7241 30c0 4C5B0000 		.4byte	0x5b4c
@@ -7737,10 +7738,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  7292 312f 03       		.byte	0x3
  7293 3130 1A       		.byte	0x1a
  7294 3131 01       		.byte	0x1
+ARM GAS  /tmp/cc596bob.s 			page 130
+
+
  7295 3132 3C310000 		.4byte	0x313c
-ARM GAS  /tmp/ccKaTwIo.s 			page 130
-
-
  7296 3136 4C       		.uleb128 0x4c
  7297 3137 4F4B00   		.ascii	"OK\000"
  7298 313a 00       		.sleb128 0
@@ -7797,10 +7798,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  7349 31a6 AE310000 		.4byte	0x31ae
  7350 31aa B4310000 		.4byte	0x31b4
  7351 31ae 23       		.uleb128 0x23
+ARM GAS  /tmp/cc596bob.s 			page 131
+
+
  7352 31af 6F5B0000 		.4byte	0x5b6f
-ARM GAS  /tmp/ccKaTwIo.s 			page 131
-
-
  7353 31b3 00       		.byte	0
  7354 31b4 22       		.uleb128 0x22
  7355 31b5 FE360000 		.4byte	.LASF522
@@ -7857,10 +7858,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  7406 3233 13       		.uleb128 0x13
  7407 3234 EF000000 		.4byte	0xef
  7408 3238 13       		.uleb128 0x13
+ARM GAS  /tmp/cc596bob.s 			page 132
+
+
  7409 3239 48310000 		.4byte	0x3148
-ARM GAS  /tmp/ccKaTwIo.s 			page 132
-
-
  7410 323d 13       		.uleb128 0x13
  7411 323e 54310000 		.4byte	0x3154
  7412 3242 13       		.uleb128 0x13
@@ -7917,10 +7918,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  7463 32b7 38       		.byte	0x38
  7464 32b8 683D0000 		.4byte	.LASF562
  7465 32bc 01       		.byte	0x1
+ARM GAS  /tmp/cc596bob.s 			page 133
+
+
  7466 32bd 45       		.uleb128 0x45
-ARM GAS  /tmp/ccKaTwIo.s 			page 133
-
-
  7467 32be 425D0000 		.4byte	.LASF549
  7468 32c2 03       		.byte	0x3
  7469 32c3 39       		.byte	0x39
@@ -7977,10 +7978,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  7520 332f 00       		.byte	0
  7521 3330 28       		.uleb128 0x28
  7522 3331 7D0B0000 		.4byte	0xb7d
+ARM GAS  /tmp/cc596bob.s 			page 134
+
+
  7523 3335 00       		.byte	0
-ARM GAS  /tmp/ccKaTwIo.s 			page 134
-
-
  7524 3336 08       		.uleb128 0x8
  7525 3337 5B1E0000 		.4byte	.LASF155
  7526 333b 04       		.byte	0x4
@@ -8037,10 +8038,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  7577 33aa F11A0000 		.4byte	.LASF535
  7578 33ae 04       		.byte	0x4
  7579 33af 29       		.byte	0x29
+ARM GAS  /tmp/cc596bob.s 			page 135
+
+
  7580 33b0 103D0000 		.4byte	.LASF555
-ARM GAS  /tmp/ccKaTwIo.s 			page 135
-
-
  7581 33b4 EF000000 		.4byte	0xef
  7582 33b8 01       		.byte	0x1
  7583 33b9 C3330000 		.4byte	0x33c3
@@ -8097,10 +8098,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  7634 3434 8D5B0000 		.4byte	0x5b8d
  7635 3438 01       		.byte	0x1
  7636 3439 4D       		.uleb128 0x4d
+ARM GAS  /tmp/cc596bob.s 			page 136
+
+
  7637 343a A6490000 		.4byte	.LASF544
-ARM GAS  /tmp/ccKaTwIo.s 			page 136
-
-
  7638 343e 04       		.byte	0x4
  7639 343f 37       		.byte	0x37
  7640 3440 34280000 		.4byte	.LASF559
@@ -8157,10 +8158,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  7691 34af 13       		.byte	0x13
  7692 34b0 875B0000 		.4byte	0x5b87
  7693 34b4 00       		.byte	0
+ARM GAS  /tmp/cc596bob.s 			page 137
+
+
  7694 34b5 29       		.uleb128 0x29
-ARM GAS  /tmp/ccKaTwIo.s 			page 137
-
-
  7695 34b6 60480000 		.4byte	.LASF568
  7696 34ba 05       		.byte	0x5
  7697 34bb 0D       		.byte	0xd
@@ -8217,10 +8218,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  7748 3533 01       		.byte	0x1
  7749 3534 3C350000 		.4byte	0x353c
  7750 3538 47350000 		.4byte	0x3547
+ARM GAS  /tmp/cc596bob.s 			page 138
+
+
  7751 353c 23       		.uleb128 0x23
-ARM GAS  /tmp/ccKaTwIo.s 			page 138
-
-
  7752 353d 995B0000 		.4byte	0x5b99
  7753 3541 13       		.uleb128 0x13
  7754 3542 9B000000 		.4byte	0x9b
@@ -8277,10 +8278,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  7805 35b4 01       		.byte	0x1
  7806 35b5 2A       		.uleb128 0x2a
  7807 35b6 3F020000 		.4byte	.LASF570
+ARM GAS  /tmp/cc596bob.s 			page 139
+
+
  7808 35ba 06       		.byte	0x6
-ARM GAS  /tmp/ccKaTwIo.s 			page 139
-
-
  7809 35bb 15       		.byte	0x15
  7810 35bc 64010000 		.4byte	.LASF581
  7811 35c0 875B0000 		.4byte	0x5b87
@@ -8337,10 +8338,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  7862 363b A9350000 		.4byte	0x35a9
  7863 363f 01       		.byte	0x1
  7864 3640 48360000 		.4byte	0x3648
+ARM GAS  /tmp/cc596bob.s 			page 140
+
+
  7865 3644 53360000 		.4byte	0x3653
-ARM GAS  /tmp/ccKaTwIo.s 			page 140
-
-
  7866 3648 23       		.uleb128 0x23
  7867 3649 A55B0000 		.4byte	0x5ba5
  7868 364d 13       		.uleb128 0x13
@@ -8397,10 +8398,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  7919 36b0 C20A0000 		.4byte	0xac2
  7920 36b4 07       		.byte	0x7
  7921 36b5 08       		.uleb128 0x8
+ARM GAS  /tmp/cc596bob.s 			page 141
+
+
  7922 36b6 EF4F0000 		.4byte	.LASF591
-ARM GAS  /tmp/ccKaTwIo.s 			page 141
-
-
  7923 36ba 27       		.byte	0x27
  7924 36bb 25       		.byte	0x25
  7925 36bc BB5B0000 		.4byte	0x5bbb
@@ -8457,10 +8458,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  7976 371c 15       		.uleb128 0x15
  7977 371d 01       		.byte	0x1
  7978 371e 27       		.byte	0x27
+ARM GAS  /tmp/cc596bob.s 			page 142
+
+
  7979 371f 34       		.byte	0x34
-ARM GAS  /tmp/ccKaTwIo.s 			page 142
-
-
  7980 3720 61370000 		.4byte	0x3761
  7981 3724 50       		.uleb128 0x50
  7982 3725 52290000 		.4byte	.LASF598
@@ -8517,10 +8518,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  8033 377f 39       		.byte	0x39
  8034 3780 1C370000 		.4byte	0x371c
  8035 3784 08       		.byte	0x8
+ARM GAS  /tmp/cc596bob.s 			page 143
+
+
  8036 3785 00       		.byte	0
-ARM GAS  /tmp/ccKaTwIo.s 			page 143
-
-
  8037 3786 51       		.uleb128 0x51
  8038 3787 1F       		.byte	0x1f
  8039 3788 27       		.byte	0x27
@@ -8577,10 +8578,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  8090 37eb 53620000 		.4byte	.LASF210
  8091 37ef 08       		.byte	0x8
  8092 37f0 0D       		.byte	0xd
+ARM GAS  /tmp/cc596bob.s 			page 144
+
+
  8093 37f1 11       		.byte	0x11
-ARM GAS  /tmp/ccKaTwIo.s 			page 144
-
-
  8094 37f2 01       		.byte	0x1
  8095 37f3 2A380000 		.4byte	0x382a
  8096 37f7 08       		.uleb128 0x8
@@ -8637,10 +8638,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  8147 3864 24       		.uleb128 0x24
  8148 3865 E0420000 		.4byte	.LASF216
  8149 3869 0D       		.byte	0xd
+ARM GAS  /tmp/cc596bob.s 			page 145
+
+
  8150 386a C7       		.byte	0xc7
-ARM GAS  /tmp/ccKaTwIo.s 			page 145
-
-
  8151 386b EE5F0000 		.4byte	0x5fee
  8152 386f 01       		.byte	0x1
  8153 3870 78380000 		.4byte	0x3878
@@ -8697,10 +8698,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  8204 38f1 FB380000 		.4byte	0x38fb
  8205 38f5 23       		.uleb128 0x23
  8206 38f6 FA5F0000 		.4byte	0x5ffa
+ARM GAS  /tmp/cc596bob.s 			page 146
+
+
  8207 38fa 00       		.byte	0
-ARM GAS  /tmp/ccKaTwIo.s 			page 146
-
-
  8208 38fb 2A       		.uleb128 0x2a
  8209 38fc 14160000 		.4byte	.LASF220
  8210 3900 0D       		.byte	0xd
@@ -8757,10 +8758,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  8261 397e D9340000 		.4byte	.LASF227
  8262 3982 0D       		.byte	0xd
  8263 3983 EF       		.byte	0xef
+ARM GAS  /tmp/cc596bob.s 			page 147
+
+
  8264 3984 57590000 		.4byte	.LASF615
-ARM GAS  /tmp/ccKaTwIo.s 			page 147
-
-
  8265 3988 FA000000 		.4byte	0xfa
  8266 398c 01       		.byte	0x1
  8267 398d 95390000 		.4byte	0x3995
@@ -8817,10 +8818,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  8318 3a0c 163A0000 		.4byte	0x3a16
  8319 3a10 23       		.uleb128 0x23
  8320 3a11 2C5C0000 		.4byte	0x5c2c
+ARM GAS  /tmp/cc596bob.s 			page 148
+
+
  8321 3a15 00       		.byte	0
-ARM GAS  /tmp/ccKaTwIo.s 			page 148
-
-
  8322 3a16 3A       		.uleb128 0x3a
  8323 3a17 26210000 		.4byte	.LASF237
  8324 3a1b 0D       		.byte	0xd
@@ -8877,10 +8878,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  8375 3a9a 303C0000 		.4byte	.LASF245
  8376 3a9e 0D       		.byte	0xd
  8377 3a9f 1F02     		.2byte	0x21f
+ARM GAS  /tmp/cc596bob.s 			page 149
+
+
  8378 3aa1 13030000 		.4byte	.LASF623
-ARM GAS  /tmp/ccKaTwIo.s 			page 149
-
-
  8379 3aa5 94000000 		.4byte	0x94
  8380 3aa9 01       		.byte	0x1
  8381 3aaa B23A0000 		.4byte	0x3ab2
@@ -8937,10 +8938,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  8432 3b2e 3A       		.uleb128 0x3a
  8433 3b2f 0F110000 		.4byte	.LASF252
  8434 3b33 0D       		.byte	0xd
+ARM GAS  /tmp/cc596bob.s 			page 150
+
+
  8435 3b34 B301     		.2byte	0x1b3
-ARM GAS  /tmp/ccKaTwIo.s 			page 150
-
-
  8436 3b36 B00D0000 		.4byte	.LASF627
  8437 3b3a 4D3B0000 		.4byte	0x3b4d
  8438 3b3e 01       		.byte	0x1
@@ -8997,10 +8998,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  8489 3bbd 4A220000 		.4byte	.LASF631
  8490 3bc1 B03B0000 		.4byte	0x3bb0
  8491 3bc5 01       		.byte	0x1
+ARM GAS  /tmp/cc596bob.s 			page 151
+
+
  8492 3bc6 CE3B0000 		.4byte	0x3bce
-ARM GAS  /tmp/ccKaTwIo.s 			page 151
-
-
  8493 3bca D43B0000 		.4byte	0x3bd4
  8494 3bce 23       		.uleb128 0x23
  8495 3bcf 2C5C0000 		.4byte	0x5c2c
@@ -9057,10 +9058,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  8546 3c51 3B       		.uleb128 0x3b
  8547 3c52 33210000 		.4byte	.LASF267
  8548 3c56 0D       		.byte	0xd
+ARM GAS  /tmp/cc596bob.s 			page 152
+
+
  8549 3c57 7602     		.2byte	0x276
-ARM GAS  /tmp/ccKaTwIo.s 			page 152
-
-
  8550 3c59 6C670000 		.4byte	.LASF636
  8551 3c5d 01       		.byte	0x1
  8552 3c5e 663C0000 		.4byte	0x3c66
@@ -9117,10 +9118,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  8603 3ce2 0D       		.byte	0xd
  8604 3ce3 AC02     		.2byte	0x2ac
  8605 3ce5 ED5E0000 		.4byte	.LASF640
+ARM GAS  /tmp/cc596bob.s 			page 153
+
+
  8606 3ce9 3E5C0000 		.4byte	0x5c3e
-ARM GAS  /tmp/ccKaTwIo.s 			page 153
-
-
  8607 3ced 01       		.byte	0x1
  8608 3cee F63C0000 		.4byte	0x3cf6
  8609 3cf2 013D0000 		.4byte	0x3d01
@@ -9177,10 +9178,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  8660 3d73 E801     		.2byte	0x1e8
  8661 3d75 885C0000 		.4byte	.LASF644
  8662 3d79 01       		.byte	0x1
+ARM GAS  /tmp/cc596bob.s 			page 154
+
+
  8663 3d7a 823D0000 		.4byte	0x3d82
-ARM GAS  /tmp/ccKaTwIo.s 			page 154
-
-
  8664 3d7e 8D3D0000 		.4byte	0x3d8d
  8665 3d82 23       		.uleb128 0x23
  8666 3d83 325C0000 		.4byte	0x5c32
@@ -9237,10 +9238,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  8717 3e05 23       		.uleb128 0x23
  8718 3e06 325C0000 		.4byte	0x5c32
  8719 3e0a 00       		.byte	0
+ARM GAS  /tmp/cc596bob.s 			page 155
+
+
  8720 3e0b 17       		.uleb128 0x17
-ARM GAS  /tmp/ccKaTwIo.s 			page 155
-
-
  8721 3e0c 37380000 		.4byte	0x3837
  8722 3e10 3E       		.uleb128 0x3e
  8723 3e11 ED430000 		.4byte	.LASF287
@@ -9297,10 +9298,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  8774 3e83 07       		.byte	0x7
  8775 3e84 1D       		.byte	0x1d
  8776 3e85 050E0000 		.4byte	0xe05
+ARM GAS  /tmp/cc596bob.s 			page 156
+
+
  8777 3e89 10       		.byte	0x10
-ARM GAS  /tmp/ccKaTwIo.s 			page 156
-
-
  8778 3e8a 08       		.uleb128 0x8
  8779 3e8b 815E0000 		.4byte	.LASF367
  8780 3e8f 07       		.byte	0x7
@@ -9357,10 +9358,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  8831 3f0d 00       		.byte	0
  8832 3f0e 2B       		.uleb128 0x2b
  8833 3f0f 543C0000 		.4byte	.LASF660
+ARM GAS  /tmp/cc596bob.s 			page 157
+
+
  8834 3f13 07       		.byte	0x7
-ARM GAS  /tmp/ccKaTwIo.s 			page 157
-
-
  8835 3f14 26       		.byte	0x26
  8836 3f15 7D210000 		.4byte	.LASF661
  8837 3f19 01       		.byte	0x1
@@ -9417,10 +9418,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  8888 3f91 993F0000 		.4byte	0x3f99
  8889 3f95 9F3F0000 		.4byte	0x3f9f
  8890 3f99 23       		.uleb128 0x23
+ARM GAS  /tmp/cc596bob.s 			page 158
+
+
  8891 3f9a 3E5C0000 		.4byte	0x5c3e
-ARM GAS  /tmp/ccKaTwIo.s 			page 158
-
-
  8892 3f9e 00       		.byte	0
  8893 3f9f 2A       		.uleb128 0x2a
  8894 3fa0 4C4F0000 		.4byte	.LASF670
@@ -9477,10 +9478,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  8945 4024 24       		.uleb128 0x24
  8946 4025 251C0000 		.4byte	.LASF648
  8947 4029 07       		.byte	0x7
+ARM GAS  /tmp/cc596bob.s 			page 159
+
+
  8948 402a 41       		.byte	0x41
-ARM GAS  /tmp/ccKaTwIo.s 			page 159
-
-
  8949 402b 3E5C0000 		.4byte	0x5c3e
  8950 402f 01       		.byte	0x1
  8951 4030 38400000 		.4byte	0x4038
@@ -9537,10 +9538,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  9002 40a5 00       		.byte	0
  9003 40a6 2B       		.uleb128 0x2b
  9004 40a7 68510000 		.4byte	.LASF677
+ARM GAS  /tmp/cc596bob.s 			page 160
+
+
  9005 40ab 09       		.byte	0x9
-ARM GAS  /tmp/ccKaTwIo.s 			page 160
-
-
  9006 40ac 0E       		.byte	0xe
  9007 40ad 03280000 		.4byte	.LASF678
  9008 40b1 01       		.byte	0x1
@@ -9597,10 +9598,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  9059 4129 20280000 		.4byte	.LASF170
  9060 412d 09       		.byte	0x9
  9061 412e 16       		.byte	0x16
+ARM GAS  /tmp/cc596bob.s 			page 161
+
+
  9062 412f 23600000 		.4byte	.LASF683
-ARM GAS  /tmp/ccKaTwIo.s 			page 161
-
-
  9063 4133 845C0000 		.4byte	0x5c84
  9064 4137 01       		.byte	0x1
  9065 4138 40410000 		.4byte	0x4140
@@ -9657,10 +9658,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  9116 41b0 0A       		.byte	0xa
  9117 41b1 0B       		.byte	0xb
  9118 41b2 88400000 		.4byte	0x4088
+ARM GAS  /tmp/cc596bob.s 			page 162
+
+
  9119 41b6 04       		.byte	0x4
-ARM GAS  /tmp/ccKaTwIo.s 			page 162
-
-
  9120 41b7 2B       		.uleb128 0x2b
  9121 41b8 68510000 		.4byte	.LASF677
  9122 41bc 0A       		.byte	0xa
@@ -9717,10 +9718,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  9173 4234 8A5C0000 		.4byte	0x5c8a
  9174 4238 00       		.byte	0
  9175 4239 24       		.uleb128 0x24
+ARM GAS  /tmp/cc596bob.s 			page 163
+
+
  9176 423a D81F0000 		.4byte	.LASF73
-ARM GAS  /tmp/ccKaTwIo.s 			page 163
-
-
  9177 423e 0A       		.byte	0xa
  9178 423f 17       		.byte	0x17
  9179 4240 8A5C0000 		.4byte	0x5c8a
@@ -9777,10 +9778,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  9230 42b5 04       		.byte	0x4
  9231 42b6 2B       		.uleb128 0x2b
  9232 42b7 68510000 		.4byte	.LASF677
+ARM GAS  /tmp/cc596bob.s 			page 164
+
+
  9233 42bb 0E       		.byte	0xe
-ARM GAS  /tmp/ccKaTwIo.s 			page 164
-
-
  9234 42bc 0F       		.byte	0xf
  9235 42bd 66120000 		.4byte	.LASF694
  9236 42c1 01       		.byte	0x1
@@ -9837,10 +9838,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  9287 4339 5B490000 		.4byte	.LASF691
  9288 433d 0E       		.byte	0xe
  9289 433e 18       		.byte	0x18
+ARM GAS  /tmp/cc596bob.s 			page 165
+
+
  9290 433f 905C0000 		.4byte	0x5c90
-ARM GAS  /tmp/ccKaTwIo.s 			page 165
-
-
  9291 4343 01       		.byte	0x1
  9292 4344 4C430000 		.4byte	0x434c
  9293 4348 52430000 		.4byte	0x4352
@@ -9897,10 +9898,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  9344 43b7 721C0000 		.4byte	.LASF209
  9345 43bb 0D       		.byte	0xd
  9346 43bc 13       		.byte	0x13
+ARM GAS  /tmp/cc596bob.s 			page 166
+
+
  9347 43bd 075D0000 		.4byte	0x5d07
-ARM GAS  /tmp/ccKaTwIo.s 			page 166
-
-
  9348 43c1 04       		.byte	0x4
  9349 43c2 34       		.uleb128 0x34
  9350 43c3 53620000 		.4byte	.LASF210
@@ -9957,10 +9958,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  9401 443f 0D       		.byte	0xd
  9402 4440 9101     		.2byte	0x191
  9403 4442 C3000000 		.4byte	.LASF702
+ARM GAS  /tmp/cc596bob.s 			page 167
+
+
  9404 4446 FA000000 		.4byte	0xfa
-ARM GAS  /tmp/ccKaTwIo.s 			page 167
-
-
  9405 444a 01       		.byte	0x1
  9406 444b 53440000 		.4byte	0x4453
  9407 444f 59440000 		.4byte	0x4459
@@ -10017,10 +10018,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  9458 44d1 23       		.uleb128 0x23
  9459 44d2 DD5C0000 		.4byte	0x5cdd
  9460 44d6 13       		.uleb128 0x13
+ARM GAS  /tmp/cc596bob.s 			page 168
+
+
  9461 44d7 E35C0000 		.4byte	0x5ce3
-ARM GAS  /tmp/ccKaTwIo.s 			page 168
-
-
  9462 44db 00       		.byte	0
  9463 44dc 3A       		.uleb128 0x3a
  9464 44dd 303C0000 		.4byte	.LASF245
@@ -10077,10 +10078,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  9515 4562 D75C0000 		.4byte	0x5cd7
  9516 4566 13       		.uleb128 0x13
  9517 4567 0A440000 		.4byte	0x440a
+ARM GAS  /tmp/cc596bob.s 			page 169
+
+
  9518 456b 13       		.uleb128 0x13
-ARM GAS  /tmp/ccKaTwIo.s 			page 169
-
-
  9519 456c F9580000 		.4byte	0x58f9
  9520 4570 00       		.byte	0
  9521 4571 3A       		.uleb128 0x3a
@@ -10137,10 +10138,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  9572 45f3 17       		.uleb128 0x17
  9573 45f4 EF430000 		.4byte	0x43ef
  9574 45f8 3A       		.uleb128 0x3a
+ARM GAS  /tmp/cc596bob.s 			page 170
+
+
  9575 45f9 E4340000 		.4byte	.LASF254
-ARM GAS  /tmp/ccKaTwIo.s 			page 170
-
-
  9576 45fd 0D       		.byte	0xd
  9577 45fe C301     		.2byte	0x1c3
  9578 4600 C55F0000 		.4byte	.LASF715
@@ -10197,10 +10198,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  9629 4685 01       		.byte	0x1
  9630 4686 8E460000 		.4byte	0x468e
  9631 468a 94460000 		.4byte	0x4694
+ARM GAS  /tmp/cc596bob.s 			page 171
+
+
  9632 468e 23       		.uleb128 0x23
-ARM GAS  /tmp/ccKaTwIo.s 			page 171
-
-
  9633 468f D75C0000 		.4byte	0x5cd7
  9634 4693 00       		.byte	0
  9635 4694 3B       		.uleb128 0x3b
@@ -10257,10 +10258,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  9686 4716 D75C0000 		.4byte	0x5cd7
  9687 471a 13       		.uleb128 0x13
  9688 471b B15C0000 		.4byte	0x5cb1
+ARM GAS  /tmp/cc596bob.s 			page 172
+
+
  9689 471f 00       		.byte	0
-ARM GAS  /tmp/ccKaTwIo.s 			page 172
-
-
  9690 4720 3A       		.uleb128 0x3a
  9691 4721 7C410000 		.4byte	.LASF275
  9692 4725 0D       		.byte	0xd
@@ -10317,10 +10318,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  9743 47aa 23       		.uleb128 0x23
  9744 47ab DD5C0000 		.4byte	0x5cdd
  9745 47af 00       		.byte	0
+ARM GAS  /tmp/cc596bob.s 			page 173
+
+
  9746 47b0 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccKaTwIo.s 			page 173
-
-
  9747 47b1 13140000 		.4byte	.LASF280
  9748 47b5 0D       		.byte	0xd
  9749 47b6 E801     		.2byte	0x1e8
@@ -10377,10 +10378,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  9800 4838 0D       		.byte	0xd
  9801 4839 FA01     		.2byte	0x1fa
  9802 483b DD5C0000 		.4byte	0x5cdd
+ARM GAS  /tmp/cc596bob.s 			page 174
+
+
  9803 483f 01       		.byte	0x1
-ARM GAS  /tmp/ccKaTwIo.s 			page 174
-
-
  9804 4840 48480000 		.4byte	0x4848
  9805 4844 4E480000 		.4byte	0x484e
  9806 4848 23       		.uleb128 0x23
@@ -10437,10 +10438,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  9857 48b7 28       		.byte	0x28
  9858 48b8 18       		.byte	0x18
  9859 48b9 A2000000 		.4byte	0xa2
+ARM GAS  /tmp/cc596bob.s 			page 175
+
+
  9860 48bd 03       		.byte	0x3
-ARM GAS  /tmp/ccKaTwIo.s 			page 175
-
-
  9861 48be 08       		.uleb128 0x8
  9862 48bf 80540000 		.4byte	.LASF735
  9863 48c3 28       		.byte	0x28
@@ -10497,10 +10498,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  9914 4926 27       		.uleb128 0x27
  9915 4927 AC030000 		.4byte	.LASF741
  9916 492b 18       		.sleb128 24
+ARM GAS  /tmp/cc596bob.s 			page 176
+
+
  9917 492c 00       		.byte	0
-ARM GAS  /tmp/ccKaTwIo.s 			page 176
-
-
  9918 492d 06       		.uleb128 0x6
  9919 492e 18       		.byte	0x18
  9920 492f 28       		.byte	0x28
@@ -10557,10 +10558,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  9971 4998 00       		.byte	0
  9972 4999 08       		.uleb128 0x8
  9973 499a C3300000 		.4byte	.LASF747
+ARM GAS  /tmp/cc596bob.s 			page 177
+
+
  9974 499e 28       		.byte	0x28
-ARM GAS  /tmp/ccKaTwIo.s 			page 177
-
-
  9975 499f 52       		.byte	0x52
  9976 49a0 AD000000 		.4byte	0xad
  9977 49a4 00       		.byte	0
@@ -10617,10 +10618,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  10028 4a07 65       		.byte	0x65
  10029 4a08 D0490000 		.4byte	0x49d0
  10030 4a0c 08       		.byte	0x8
+ARM GAS  /tmp/cc596bob.s 			page 178
+
+
  10031 4a0d 08       		.uleb128 0x8
-ARM GAS  /tmp/ccKaTwIo.s 			page 178
-
-
  10032 4a0e 4B520000 		.4byte	.LASF755
  10033 4a12 28       		.byte	0x28
  10034 4a13 66       		.byte	0x66
@@ -10677,10 +10678,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  10085 4a76 C4490000 		.4byte	0x49c4
  10086 4a7a 10       		.byte	0x10
  10087 4a7b 08       		.uleb128 0x8
+ARM GAS  /tmp/cc596bob.s 			page 179
+
+
  10088 4a7c CA350000 		.4byte	.LASF762
-ARM GAS  /tmp/ccKaTwIo.s 			page 179
-
-
  10089 4a80 28       		.byte	0x28
  10090 4a81 71       		.byte	0x71
  10091 4a82 C4490000 		.4byte	0x49c4
@@ -10737,10 +10738,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  10142 4ae8 18       		.byte	0x18
  10143 4ae9 00       		.byte	0
  10144 4aea 33       		.uleb128 0x33
+ARM GAS  /tmp/cc596bob.s 			page 180
+
+
  10145 4aeb AD680000 		.4byte	.LASF771
-ARM GAS  /tmp/ccKaTwIo.s 			page 180
-
-
  10146 4aef 18       		.byte	0x18
  10147 4af0 28       		.byte	0x28
  10148 4af1 7E       		.byte	0x7e
@@ -10797,10 +10798,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  10199 4b54 D0490000 		.4byte	0x49d0
  10200 4b58 00       		.byte	0
  10201 4b59 08       		.uleb128 0x8
+ARM GAS  /tmp/cc596bob.s 			page 181
+
+
  10202 4b5a D5230000 		.4byte	.LASF779
-ARM GAS  /tmp/ccKaTwIo.s 			page 181
-
-
  10203 4b5e 28       		.byte	0x28
  10204 4b5f 89       		.byte	0x89
  10205 4b60 C20A0000 		.4byte	0xac2
@@ -10857,10 +10858,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  10256 4bc0 97       		.byte	0x97
  10257 4bc1 7F480000 		.4byte	0x487f
  10258 4bc5 07       		.uleb128 0x7
+ARM GAS  /tmp/cc596bob.s 			page 182
+
+
  10259 4bc6 DC150000 		.4byte	.LASF783
-ARM GAS  /tmp/ccKaTwIo.s 			page 182
-
-
  10260 4bca 28       		.byte	0x28
  10261 4bcb 98       		.byte	0x98
  10262 4bcc DC490000 		.4byte	0x49dc
@@ -10917,10 +10918,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  10313 4c35 7D0B0000 		.4byte	0xb7d
  10314 4c39 00       		.byte	0
  10315 4c3a 56       		.uleb128 0x56
+ARM GAS  /tmp/cc596bob.s 			page 183
+
+
  10316 4c3b CA3B0000 		.4byte	.LASF790
-ARM GAS  /tmp/ccKaTwIo.s 			page 183
-
-
  10317 4c3f D6600000 		.4byte	0x60d6
  10318 4c43 00       		.byte	0
  10319 4c44 01       		.byte	0x1
@@ -10977,10 +10978,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  10370 4cb9 F4680000 		.4byte	.LASF796
  10371 4cbd 01       		.byte	0x1
  10372 4cbe C64C0000 		.4byte	0x4cc6
+ARM GAS  /tmp/cc596bob.s 			page 184
+
+
  10373 4cc2 D14C0000 		.4byte	0x4cd1
-ARM GAS  /tmp/ccKaTwIo.s 			page 184
-
-
  10374 4cc6 23       		.uleb128 0x23
  10375 4cc7 325D0000 		.4byte	0x5d32
  10376 4ccb 13       		.uleb128 0x13
@@ -11037,10 +11038,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  10427 4d40 01       		.byte	0x1
  10428 4d41 494D0000 		.4byte	0x4d49
  10429 4d45 544D0000 		.4byte	0x4d54
+ARM GAS  /tmp/cc596bob.s 			page 185
+
+
  10430 4d49 23       		.uleb128 0x23
-ARM GAS  /tmp/ccKaTwIo.s 			page 185
-
-
  10431 4d4a 325D0000 		.4byte	0x5d32
  10432 4d4e 13       		.uleb128 0x13
  10433 4d4f A05A0000 		.4byte	0x5aa0
@@ -11097,10 +11098,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  10484 4dc4 CC4D0000 		.4byte	0x4dcc
  10485 4dc8 D74D0000 		.4byte	0x4dd7
  10486 4dcc 23       		.uleb128 0x23
+ARM GAS  /tmp/cc596bob.s 			page 186
+
+
  10487 4dcd 325D0000 		.4byte	0x5d32
-ARM GAS  /tmp/ccKaTwIo.s 			page 186
-
-
  10488 4dd1 13       		.uleb128 0x13
  10489 4dd2 A05A0000 		.4byte	0x5aa0
  10490 4dd6 00       		.byte	0
@@ -11157,10 +11158,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  10541 4e45 00       		.byte	0
  10542 4e46 40       		.uleb128 0x40
  10543 4e47 78220000 		.4byte	.LASF808
+ARM GAS  /tmp/cc596bob.s 			page 187
+
+
  10544 4e4b 5B4E0000 		.4byte	0x4e5b
-ARM GAS  /tmp/ccKaTwIo.s 			page 187
-
-
  10545 4e4f 26       		.uleb128 0x26
  10546 4e50 01       		.byte	0x1
  10547 4e51 2B       		.byte	0x2b
@@ -11217,10 +11218,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  10598 4eb2 EF4F0000 		.4byte	.LASF591
  10599 4eb6 11       		.byte	0x11
  10600 4eb7 2B       		.byte	0x2b
+ARM GAS  /tmp/cc596bob.s 			page 188
+
+
  10601 4eb8 BB5B0000 		.4byte	0x5bbb
-ARM GAS  /tmp/ccKaTwIo.s 			page 188
-
-
  10602 4ebc 10       		.byte	0x10
  10603 4ebd 08       		.uleb128 0x8
  10604 4ebe ED350000 		.4byte	.LASF607
@@ -11277,10 +11278,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  10655 4f21 39       		.byte	0x39
  10656 4f22 94210000 		.4byte	0x2194
  10657 4f26 28       		.byte	0x28
+ARM GAS  /tmp/cc596bob.s 			page 189
+
+
  10658 4f27 08       		.uleb128 0x8
-ARM GAS  /tmp/ccKaTwIo.s 			page 189
-
-
  10659 4f28 61270000 		.4byte	.LASF819
  10660 4f2c 11       		.byte	0x11
  10661 4f2d 3A       		.byte	0x3a
@@ -11337,10 +11338,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  10712 4f93 59       		.uleb128 0x59
  10713 4f94 AB230000 		.4byte	.LASF828
  10714 4f98 11       		.byte	0x11
+ARM GAS  /tmp/cc596bob.s 			page 190
+
+
  10715 4f99 56       		.byte	0x56
-ARM GAS  /tmp/ccKaTwIo.s 			page 190
-
-
  10716 4f9a 4B380000 		.4byte	0x384b
  10717 4f9e 4802     		.2byte	0x248
  10718 4fa0 59       		.uleb128 0x59
@@ -11397,10 +11398,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  10769 500b 65       		.byte	0x65
  10770 500c EE420000 		.4byte	.LASF837
  10771 5010 6C060000 		.4byte	0x66c
+ARM GAS  /tmp/cc596bob.s 			page 191
+
+
  10772 5014 01       		.byte	0x1
-ARM GAS  /tmp/ccKaTwIo.s 			page 191
-
-
  10773 5015 1D500000 		.4byte	0x501d
  10774 5019 23500000 		.4byte	0x5023
  10775 501d 23       		.uleb128 0x23
@@ -11457,10 +11458,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  10826 509b 2A       		.uleb128 0x2a
  10827 509c 5D100000 		.4byte	.LASF846
  10828 50a0 11       		.byte	0x11
+ARM GAS  /tmp/cc596bob.s 			page 192
+
+
  10829 50a1 6A       		.byte	0x6a
-ARM GAS  /tmp/ccKaTwIo.s 			page 192
-
-
  10830 50a2 30370000 		.4byte	.LASF847
  10831 50a6 895A0000 		.4byte	0x5a89
  10832 50aa 01       		.byte	0x1
@@ -11517,10 +11518,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  10883 5128 00       		.byte	0
  10884 5129 2B       		.uleb128 0x2b
  10885 512a 04180000 		.4byte	.LASF853
+ARM GAS  /tmp/cc596bob.s 			page 193
+
+
  10886 512e 11       		.byte	0x11
-ARM GAS  /tmp/ccKaTwIo.s 			page 193
-
-
  10887 512f 72       		.byte	0x72
  10888 5130 97180000 		.4byte	.LASF854
  10889 5134 01       		.byte	0x1
@@ -11577,10 +11578,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  10940 51af B7510000 		.4byte	0x51b7
  10941 51b3 C7510000 		.4byte	0x51c7
  10942 51b7 23       		.uleb128 0x23
+ARM GAS  /tmp/cc596bob.s 			page 194
+
+
  10943 51b8 7A600000 		.4byte	0x607a
-ARM GAS  /tmp/ccKaTwIo.s 			page 194
-
-
  10944 51bc 13       		.uleb128 0x13
  10945 51bd 6C060000 		.4byte	0x66c
  10946 51c1 13       		.uleb128 0x13
@@ -11637,10 +11638,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  10997 523c 23       		.uleb128 0x23
  10998 523d 7A600000 		.4byte	0x607a
  10999 5241 13       		.uleb128 0x13
+ARM GAS  /tmp/cc596bob.s 			page 195
+
+
  11000 5242 AC5A0000 		.4byte	0x5aac
-ARM GAS  /tmp/ccKaTwIo.s 			page 195
-
-
  11001 5246 13       		.uleb128 0x13
  11002 5247 6C060000 		.4byte	0x66c
  11003 524b 13       		.uleb128 0x13
@@ -11697,10 +11698,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  11054 52c6 C7570000 		.4byte	.LASF869
  11055 52ca FA000000 		.4byte	0xfa
  11056 52ce 01       		.byte	0x1
+ARM GAS  /tmp/cc596bob.s 			page 196
+
+
  11057 52cf D7520000 		.4byte	0x52d7
-ARM GAS  /tmp/ccKaTwIo.s 			page 196
-
-
  11058 52d3 F6520000 		.4byte	0x52f6
  11059 52d7 23       		.uleb128 0x23
  11060 52d8 7A600000 		.4byte	0x607a
@@ -11757,10 +11758,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  11111 5356 6C060000 		.4byte	0x66c
  11112 535a 00       		.byte	0
  11113 535b 38       		.uleb128 0x38
+ARM GAS  /tmp/cc596bob.s 			page 197
+
+
  11114 535c 29500000 		.4byte	.LASF876
-ARM GAS  /tmp/ccKaTwIo.s 			page 197
-
-
  11115 5360 11       		.byte	0x11
  11116 5361 8E       		.byte	0x8e
  11117 5362 E2080000 		.4byte	.LASF877
@@ -11817,10 +11818,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  11168 53e6 11       		.byte	0x11
  11169 53e7 97       		.byte	0x97
  11170 53e8 D9670000 		.4byte	.LASF883
+ARM GAS  /tmp/cc596bob.s 			page 198
+
+
  11171 53ec F4530000 		.4byte	0x53f4
-ARM GAS  /tmp/ccKaTwIo.s 			page 198
-
-
  11172 53f0 FF530000 		.4byte	0x53ff
  11173 53f4 23       		.uleb128 0x23
  11174 53f5 7A600000 		.4byte	0x607a
@@ -11877,10 +11878,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  11225 5473 00       		.byte	0
  11226 5474 00       		.byte	0
  11227 5475 47       		.uleb128 0x47
+ARM GAS  /tmp/cc596bob.s 			page 199
+
+
  11228 5476 22300000 		.4byte	.LASF893
-ARM GAS  /tmp/ccKaTwIo.s 			page 199
-
-
  11229 547a 10       		.byte	0x10
  11230 547b 12       		.byte	0x12
  11231 547c 0C       		.byte	0xc
@@ -11937,10 +11938,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  11282 54fa FA000000 		.4byte	0xfa
  11283 54fe 01       		.byte	0x1
  11284 54ff 07550000 		.4byte	0x5507
+ARM GAS  /tmp/cc596bob.s 			page 200
+
+
  11285 5503 12550000 		.4byte	0x5512
-ARM GAS  /tmp/ccKaTwIo.s 			page 200
-
-
  11286 5507 23       		.uleb128 0x23
  11287 5508 BF600000 		.4byte	0x60bf
  11288 550c 13       		.uleb128 0x13
@@ -11997,10 +11998,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  11339 557e 456D0000 		.4byte	.LASF904
  11340 5582 9B600000 		.4byte	0x609b
  11341 5586 01       		.byte	0x1
+ARM GAS  /tmp/cc596bob.s 			page 201
+
+
  11342 5587 8F550000 		.4byte	0x558f
-ARM GAS  /tmp/ccKaTwIo.s 			page 201
-
-
  11343 558b 9A550000 		.4byte	0x559a
  11344 558f 23       		.uleb128 0x23
  11345 5590 9B600000 		.4byte	0x609b
@@ -12057,10 +12058,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  11396 560e FA000000 		.4byte	0xfa
  11397 5612 01       		.byte	0x1
  11398 5613 1B560000 		.4byte	0x561b
+ARM GAS  /tmp/cc596bob.s 			page 202
+
+
  11399 5617 26560000 		.4byte	0x5626
-ARM GAS  /tmp/ccKaTwIo.s 			page 202
-
-
  11400 561b 23       		.uleb128 0x23
  11401 561c 9B600000 		.4byte	0x609b
  11402 5620 13       		.uleb128 0x13
@@ -12117,10 +12118,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  11453 5698 2C       		.byte	0x2c
  11454 5699 0A       		.byte	0xa
  11455 569a 6C060000 		.4byte	0x66c
+ARM GAS  /tmp/cc596bob.s 			page 203
+
+
  11456 569e 00       		.byte	0
-ARM GAS  /tmp/ccKaTwIo.s 			page 203
-
-
  11457 569f 09       		.uleb128 0x9
  11458 56a0 6C656400 		.ascii	"led\000"
  11459 56a4 2C       		.byte	0x2c
@@ -12177,10 +12178,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  11510 5713 13       		.uleb128 0x13
  11511 5714 F8600000 		.4byte	0x60f8
  11512 5718 00       		.byte	0
+ARM GAS  /tmp/cc596bob.s 			page 204
+
+
  11513 5719 2A       		.uleb128 0x2a
-ARM GAS  /tmp/ccKaTwIo.s 			page 204
-
-
  11514 571a 550E0000 		.4byte	.LASF792
  11515 571e 2D       		.byte	0x2d
  11516 571f 30       		.byte	0x30
@@ -12237,10 +12238,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  11567 579d C7130000 		.4byte	.LASF921
  11568 57a1 2D       		.byte	0x2d
  11569 57a2 17       		.byte	0x17
+ARM GAS  /tmp/cc596bob.s 			page 205
+
+
  11570 57a3 F7110000 		.4byte	.LASF922
-ARM GAS  /tmp/ccKaTwIo.s 			page 205
-
-
  11571 57a7 FA000000 		.4byte	0xfa
  11572 57ab 01       		.byte	0x1
  11573 57ac B4570000 		.4byte	0x57b4
@@ -12297,10 +12298,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  11624 582d 2D       		.byte	0x2d
  11625 582e 54       		.byte	0x54
  11626 582f 21440000 		.4byte	.LASF928
+ARM GAS  /tmp/cc596bob.s 			page 206
+
+
  11627 5833 FA000000 		.4byte	0xfa
-ARM GAS  /tmp/ccKaTwIo.s 			page 206
-
-
  11628 5837 01       		.byte	0x1
  11629 5838 40580000 		.4byte	0x5840
  11630 583c 4B580000 		.4byte	0x584b
@@ -12357,10 +12358,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  11681 58b7 FA000000 		.4byte	0xfa
  11682 58bb 01       		.byte	0x1
  11683 58bc 13       		.uleb128 0x13
+ARM GAS  /tmp/cc596bob.s 			page 207
+
+
  11684 58bd F8600000 		.4byte	0x60f8
-ARM GAS  /tmp/ccKaTwIo.s 			page 207
-
-
  11685 58c1 13       		.uleb128 0x13
  11686 58c2 6C060000 		.4byte	0x66c
  11687 58c6 00       		.byte	0
@@ -12417,10 +12418,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  11738 592c 04       		.byte	0x4
  11739 592d B2100000 		.4byte	0x10b2
  11740 5931 0B       		.uleb128 0xb
+ARM GAS  /tmp/cc596bob.s 			page 208
+
+
  11741 5932 04       		.byte	0x4
-ARM GAS  /tmp/ccKaTwIo.s 			page 208
-
-
  11742 5933 C9100000 		.4byte	0x10c9
  11743 5937 0B       		.uleb128 0xb
  11744 5938 04       		.byte	0x4
@@ -12477,10 +12478,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  11795 59a4 BE170000 		.4byte	0x17be
  11796 59a8 0B       		.uleb128 0xb
  11797 59a9 04       		.byte	0x4
+ARM GAS  /tmp/cc596bob.s 			page 209
+
+
  11798 59aa AE590000 		.4byte	0x59ae
-ARM GAS  /tmp/ccKaTwIo.s 			page 209
-
-
  11799 59ae 12       		.uleb128 0x12
  11800 59af FA000000 		.4byte	0xfa
  11801 59b3 BD590000 		.4byte	0x59bd
@@ -12537,10 +12538,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  11852 5a1f 12       		.uleb128 0x12
  11853 5a20 FA000000 		.4byte	0xfa
  11854 5a24 2E5A0000 		.4byte	0x5a2e
+ARM GAS  /tmp/cc596bob.s 			page 210
+
+
  11855 5a28 13       		.uleb128 0x13
-ARM GAS  /tmp/ccKaTwIo.s 			page 210
-
-
  11856 5a29 2E5A0000 		.4byte	0x5a2e
  11857 5a2d 00       		.byte	0
  11858 5a2e 5D       		.uleb128 0x5d
@@ -12597,10 +12598,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  11909 5a9a 0B       		.uleb128 0xb
  11910 5a9b 04       		.byte	0x4
  11911 5a9c 26270000 		.4byte	0x2726
+ARM GAS  /tmp/cc596bob.s 			page 211
+
+
  11912 5aa0 5D       		.uleb128 0x5d
-ARM GAS  /tmp/ccKaTwIo.s 			page 211
-
-
  11913 5aa1 04       		.byte	0x4
  11914 5aa2 26270000 		.4byte	0x2726
  11915 5aa6 5D       		.uleb128 0x5d
@@ -12657,10 +12658,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  11966 5b12 04       		.byte	0x4
  11967 5b13 622F0000 		.4byte	0x2f62
  11968 5b17 0B       		.uleb128 0xb
+ARM GAS  /tmp/cc596bob.s 			page 212
+
+
  11969 5b18 04       		.byte	0x4
-ARM GAS  /tmp/ccKaTwIo.s 			page 212
-
-
  11970 5b19 1B290000 		.4byte	0x291b
  11971 5b1d 5D       		.uleb128 0x5d
  11972 5b1e 04       		.byte	0x4
@@ -12717,10 +12718,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  12023 5b87 0B       		.uleb128 0xb
  12024 5b88 04       		.byte	0x4
  12025 5b89 EF320000 		.4byte	0x32ef
+ARM GAS  /tmp/cc596bob.s 			page 213
+
+
  12026 5b8d 5D       		.uleb128 0x5d
-ARM GAS  /tmp/ccKaTwIo.s 			page 213
-
-
  12027 5b8e 04       		.byte	0x4
  12028 5b8f EF320000 		.4byte	0x32ef
  12029 5b93 0B       		.uleb128 0xb
@@ -12777,10 +12778,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  12080 5c05 00       		.byte	0
  12081 5c06 5D       		.uleb128 0x5d
  12082 5c07 04       		.byte	0x4
+ARM GAS  /tmp/cc596bob.s 			page 214
+
+
  12083 5c08 373E0000 		.4byte	0x3e37
-ARM GAS  /tmp/ccKaTwIo.s 			page 214
-
-
  12084 5c0c 0B       		.uleb128 0xb
  12085 5c0d 04       		.byte	0x4
  12086 5c0e 125C0000 		.4byte	0x5c12
@@ -12837,10 +12838,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  12137 5c7a F5590000 		.4byte	0x59f5
  12138 5c7e 0B       		.uleb128 0xb
  12139 5c7f 04       		.byte	0x4
+ARM GAS  /tmp/cc596bob.s 			page 215
+
+
  12140 5c80 88400000 		.4byte	0x4088
-ARM GAS  /tmp/ccKaTwIo.s 			page 215
-
-
  12141 5c84 5D       		.uleb128 0x5d
  12142 5c85 04       		.byte	0x4
  12143 5c86 39050000 		.4byte	0x539
@@ -12897,10 +12898,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  12194 5cf5 5D       		.uleb128 0x5d
  12195 5cf6 04       		.byte	0x4
  12196 5cf7 EF430000 		.4byte	0x43ef
+ARM GAS  /tmp/cc596bob.s 			page 216
+
+
  12197 5cfb 5D       		.uleb128 0x5d
-ARM GAS  /tmp/ccKaTwIo.s 			page 216
-
-
  12198 5cfc 04       		.byte	0x4
  12199 5cfd F4430000 		.4byte	0x43f4
  12200 5d01 5D       		.uleb128 0x5d
@@ -12957,10 +12958,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  12251 5d6a 00       		.byte	0
  12252 5d6b 00       		.byte	0
  12253 5d6c 15       		.uleb128 0x15
+ARM GAS  /tmp/cc596bob.s 			page 217
+
+
  12254 5d6d 04       		.byte	0x4
-ARM GAS  /tmp/ccKaTwIo.s 			page 217
-
-
  12255 5d6e 2E       		.byte	0x2e
  12256 5d6f C2       		.byte	0xc2
  12257 5d70 8D5D0000 		.4byte	0x5d8d
@@ -13017,10 +13018,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  12308 5dd8 11       		.byte	0x11
  12309 5dd9 08       		.uleb128 0x8
  12310 5dda 01220000 		.4byte	.LASF85
+ARM GAS  /tmp/cc596bob.s 			page 218
+
+
  12311 5dde 2E       		.byte	0x2e
-ARM GAS  /tmp/ccKaTwIo.s 			page 218
-
-
  12312 5ddf C8       		.byte	0xc8
  12313 5de0 AD000000 		.4byte	0xad
  12314 5de4 13       		.byte	0x13
@@ -13077,10 +13078,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  12365 5e47 27       		.uleb128 0x27
  12366 5e48 32130000 		.4byte	.LASF947
  12367 5e4c 02       		.sleb128 2
+ARM GAS  /tmp/cc596bob.s 			page 219
+
+
  12368 5e4d 27       		.uleb128 0x27
-ARM GAS  /tmp/ccKaTwIo.s 			page 219
-
-
  12369 5e4e 6E160000 		.4byte	.LASF948
  12370 5e52 03       		.sleb128 3
  12371 5e53 27       		.uleb128 0x27
@@ -13137,10 +13138,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  12422 5eb9 83       		.byte	0x83
  12423 5eba AD000000 		.4byte	0xad
  12424 5ebe 0A       		.uleb128 0xa
+ARM GAS  /tmp/cc596bob.s 			page 220
+
+
  12425 5ebf 04       		.byte	0x4
-ARM GAS  /tmp/ccKaTwIo.s 			page 220
-
-
  12426 5ec0 2F       		.byte	0x2f
  12427 5ec1 1F       		.byte	0x1f
  12428 5ec2 76240000 		.4byte	.LASF964
@@ -13197,10 +13198,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  12479 5f2e 2E       		.byte	0x2e
  12480 5f2f F7       		.byte	0xf7
  12481 5f30 AB5F0000 		.4byte	0x5fab
+ARM GAS  /tmp/cc596bob.s 			page 221
+
+
  12482 5f34 10       		.byte	0x10
-ARM GAS  /tmp/ccKaTwIo.s 			page 221
-
-
  12483 5f35 08       		.uleb128 0x8
  12484 5f36 2E510000 		.4byte	.LASF971
  12485 5f3a 2E       		.byte	0x2e
@@ -13257,10 +13258,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  12536 5fa0 03       		.uleb128 0x3
  12537 5fa1 19020000 		.4byte	.LASF977
  12538 5fa5 2E       		.byte	0x2e
+ARM GAS  /tmp/cc596bob.s 			page 222
+
+
  12539 5fa6 DE       		.byte	0xde
-ARM GAS  /tmp/ccKaTwIo.s 			page 222
-
-
  12540 5fa7 6F5F0000 		.4byte	0x5f6f
  12541 5fab 10       		.uleb128 0x10
  12542 5fac 295E0000 		.4byte	0x5e29
@@ -13317,10 +13318,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  12593 6018 0B       		.uleb128 0xb
  12594 6019 04       		.byte	0x4
  12595 601a EF2E0000 		.4byte	0x2eef
+ARM GAS  /tmp/cc596bob.s 			page 223
+
+
  12596 601e 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccKaTwIo.s 			page 223
-
-
  12597 601f 04       		.byte	0x4
  12598 6020 EA160000 		.4byte	0x16ea
  12599 6024 0B       		.uleb128 0xb
@@ -13377,10 +13378,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  12650 608d FA000000 		.4byte	0xfa
  12651 6091 9B600000 		.4byte	0x609b
  12652 6095 13       		.uleb128 0x13
+ARM GAS  /tmp/cc596bob.s 			page 224
+
+
  12653 6096 80600000 		.4byte	0x6080
-ARM GAS  /tmp/ccKaTwIo.s 			page 224
-
-
  12654 609a 00       		.byte	0
  12655 609b 0B       		.uleb128 0xb
  12656 609c 04       		.byte	0x4
@@ -13437,10 +13438,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  12707 6105 D2580000 		.4byte	0x58d2
  12708 6109 03       		.byte	0x3
  12709 610a 37610000 		.4byte	0x6137
+ARM GAS  /tmp/cc596bob.s 			page 225
+
+
  12710 610e 3F       		.uleb128 0x3f
-ARM GAS  /tmp/ccKaTwIo.s 			page 225
-
-
  12711 610f FE2D0000 		.4byte	.LASF933
  12712 6113 74360000 		.4byte	0x3674
  12713 6117 3F       		.uleb128 0x3f
@@ -13497,10 +13498,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  12764 6193 91       		.byte	0x91
  12765 6194 7C       		.sleb128 -4
  12766 6195 00       		.byte	0
+ARM GAS  /tmp/cc596bob.s 			page 226
+
+
  12767 6196 6B       		.uleb128 0x6b
-ARM GAS  /tmp/ccKaTwIo.s 			page 226
-
-
  12768 6197 8A0E0000 		.4byte	0xe8a
  12769 619b 59       		.byte	0x59
  12770 619c 00000000 		.4byte	.LFB256
@@ -13557,10 +13558,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  12821 6211 6F       		.uleb128 0x6f
  12822 6212 F6270000 		.4byte	.LASF980
  12823 6216 02       		.byte	0x2
+ARM GAS  /tmp/cc596bob.s 			page 227
+
+
  12824 6217 B8       		.byte	0xb8
-ARM GAS  /tmp/ccKaTwIo.s 			page 227
-
-
  12825 6218 8A100000 		.4byte	0x108a
  12826 621c 02       		.uleb128 0x2
  12827 621d 91       		.byte	0x91
@@ -13617,10 +13618,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  12878 627a 6F       		.uleb128 0x6f
  12879 627b E5200000 		.4byte	.LASF359
  12880 627f 03       		.byte	0x3
+ARM GAS  /tmp/cc596bob.s 			page 228
+
+
  12881 6280 73       		.byte	0x73
-ARM GAS  /tmp/ccKaTwIo.s 			page 228
-
-
  12882 6281 6C060000 		.4byte	0x66c
  12883 6285 02       		.uleb128 0x2
  12884 6286 91       		.byte	0x91
@@ -13677,10 +13678,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  12935 62ec 4B520000 		.4byte	.LASF755
  12936 62f0 04       		.byte	0x4
  12937 62f1 5A       		.byte	0x5a
+ARM GAS  /tmp/cc596bob.s 			page 229
+
+
  12938 62f2 EF000000 		.4byte	0xef
-ARM GAS  /tmp/ccKaTwIo.s 			page 229
-
-
  12939 62f6 02       		.uleb128 0x2
  12940 62f7 91       		.byte	0x91
  12941 62f8 70       		.sleb128 -16
@@ -13737,10 +13738,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  12992 6355 17       		.uleb128 0x17
  12993 6356 2B590000 		.4byte	0x592b
  12994 635a 6B       		.uleb128 0x6b
+ARM GAS  /tmp/cc596bob.s 			page 230
+
+
  12995 635b CC340000 		.4byte	0x34cc
-ARM GAS  /tmp/ccKaTwIo.s 			page 230
-
-
  12996 635f 24       		.byte	0x24
  12997 6360 00000000 		.4byte	.LFB353
  12998 6364 0E000000 		.4byte	.LFE353-.LFB353
@@ -13797,10 +13798,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  13049 63d9 E1630000 		.4byte	0x63e1
  13050 63dd 02       		.uleb128 0x2
  13051 63de 91       		.byte	0x91
+ARM GAS  /tmp/cc596bob.s 			page 231
+
+
  13052 63df 74       		.sleb128 -12
-ARM GAS  /tmp/ccKaTwIo.s 			page 231
-
-
  13053 63e0 00       		.byte	0
  13054 63e1 17       		.uleb128 0x17
  13055 63e2 9F5B0000 		.4byte	0x5b9f
@@ -13857,10 +13858,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  13106 6457 9C       		.byte	0x9c
  13107 6458 60640000 		.4byte	0x6460
  13108 645c 7B640000 		.4byte	0x647b
+ARM GAS  /tmp/cc596bob.s 			page 232
+
+
  13109 6460 6C       		.uleb128 0x6c
-ARM GAS  /tmp/ccKaTwIo.s 			page 232
-
-
  13110 6461 F3370000 		.4byte	.LASF978
  13111 6465 5C5C0000 		.4byte	0x5c5c
  13112 6469 02       		.uleb128 0x2
@@ -13917,10 +13918,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  13163 64d5 6F       		.uleb128 0x6f
  13164 64d6 9F2A0000 		.4byte	.LASF811
  13165 64da 08       		.byte	0x8
+ARM GAS  /tmp/cc596bob.s 			page 233
+
+
  13166 64db 47       		.byte	0x47
-ARM GAS  /tmp/ccKaTwIo.s 			page 233
-
-
  13167 64dc E9640000 		.4byte	0x64e9
  13168 64e0 02       		.uleb128 0x2
  13169 64e1 91       		.byte	0x91
@@ -13977,10 +13978,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  13220 654d 5B650000 		.4byte	0x655b
  13221 6551 68       		.uleb128 0x68
  13222 6552 9B280000 		.4byte	.LASF979
+ARM GAS  /tmp/cc596bob.s 			page 234
+
+
  13223 6556 60650000 		.4byte	0x6560
-ARM GAS  /tmp/ccKaTwIo.s 			page 234
-
-
  13224 655a 00       		.byte	0
  13225 655b 17       		.uleb128 0x17
  13226 655c 7E5C0000 		.4byte	0x5c7e
@@ -14037,19 +14038,19 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  13277 65da 76       		.uleb128 0x76
  13278 65db A6690000 		.4byte	.LASF991
  13279 65df 0B       		.byte	0xb
+ARM GAS  /tmp/cc596bob.s 			page 235
+
+
  13280 65e0 1B       		.byte	0x1b
-ARM GAS  /tmp/ccKaTwIo.s 			page 235
-
-
  13281 65e1 94000000 		.4byte	0x94
  13282 65e5 00000000 		.4byte	.LFB596
- 13283 65e9 0C010000 		.4byte	.LFE596-.LFB596
+ 13283 65e9 08010000 		.4byte	.LFE596-.LFB596
  13284 65ed 01       		.uleb128 0x1
  13285 65ee 9C       		.byte	0x9c
  13286 65ef 1A660000 		.4byte	0x661a
  13287 65f3 70       		.uleb128 0x70
  13288 65f4 04000000 		.4byte	.LBB13
- 13289 65f8 08010000 		.4byte	.LBE13-.LBB13
+ 13289 65f8 04010000 		.4byte	.LBE13-.LBB13
  13290 65fc 71       		.uleb128 0x71
  13291 65fd 4C270000 		.4byte	.LASF911
  13292 6601 0B       		.byte	0xb
@@ -14061,7 +14062,7 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  13298 660a 71       		.uleb128 0x71
  13299 660b 89610000 		.4byte	.LASF912
  13300 660f 0B       		.byte	0xb
- 13301 6610 27       		.byte	0x27
+ 13301 6610 26       		.byte	0x26
  13302 6611 AC560000 		.4byte	0x56ac
  13303 6615 02       		.uleb128 0x2
  13304 6616 91       		.byte	0x91
@@ -14097,10 +14098,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  13334 665f 32       		.uleb128 0x32
  13335 6660 5400     		.ascii	"T\000"
  13336 6662 62000000 		.4byte	0x62
+ARM GAS  /tmp/cc596bob.s 			page 236
+
+
  13337 6666 6A       		.uleb128 0x6a
-ARM GAS  /tmp/ccKaTwIo.s 			page 236
-
-
  13338 6667 2F660000 		.4byte	0x662f
  13339 666b 02       		.uleb128 0x2
  13340 666c 91       		.byte	0x91
@@ -14157,10 +14158,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  13391 66d8 525B0000 		.4byte	0x5b52
  13392 66dc 78       		.uleb128 0x78
  13393 66dd B52F0000 		.4byte	0x2fb5
+ARM GAS  /tmp/cc596bob.s 			page 237
+
+
  13394 66e1 00000000 		.4byte	.LFB608
-ARM GAS  /tmp/ccKaTwIo.s 			page 237
-
-
  13395 66e5 60000000 		.4byte	.LFE608-.LFB608
  13396 66e9 01       		.uleb128 0x1
  13397 66ea 9C       		.byte	0x9c
@@ -14217,10 +14218,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  13448 675f 74       		.uleb128 0x74
  13449 6760 68210000 		.4byte	0x2168
  13450 6764 0D       		.byte	0xd
+ARM GAS  /tmp/cc596bob.s 			page 238
+
+
  13451 6765 0F       		.byte	0xf
-ARM GAS  /tmp/ccKaTwIo.s 			page 238
-
-
  13452 6766 02       		.byte	0x2
  13453 6767 6F670000 		.4byte	0x676f
  13454 676b 82670000 		.4byte	0x6782
@@ -14277,10 +14278,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  13505 67ef 9C       		.byte	0x9c
  13506 67f0 F8670000 		.4byte	0x67f8
  13507 67f4 01680000 		.4byte	0x6801
+ARM GAS  /tmp/cc596bob.s 			page 239
+
+
  13508 67f8 6A       		.uleb128 0x6a
-ARM GAS  /tmp/ccKaTwIo.s 			page 239
-
-
  13509 67f9 C0670000 		.4byte	0x67c0
  13510 67fd 02       		.uleb128 0x2
  13511 67fe 91       		.byte	0x91
@@ -14337,10 +14338,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  13562 6876 06590000 		.4byte	0x5906
  13563 687a 17       		.uleb128 0x17
  13564 687b 94000000 		.4byte	0x94
+ARM GAS  /tmp/cc596bob.s 			page 240
+
+
  13565 687f 75       		.uleb128 0x75
-ARM GAS  /tmp/ccKaTwIo.s 			page 240
-
-
  13566 6880 52680000 		.4byte	0x6852
  13567 6884 1F260000 		.4byte	.LASF999
  13568 6888 00000000 		.4byte	.LFB634
@@ -14397,10 +14398,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  13619 6900 17690000 		.4byte	0x6917
  13620 6904 68       		.uleb128 0x68
  13621 6905 F3370000 		.4byte	.LASF978
+ARM GAS  /tmp/cc596bob.s 			page 241
+
+
  13622 6909 17690000 		.4byte	0x6917
-ARM GAS  /tmp/ccKaTwIo.s 			page 241
-
-
  13623 690d 68       		.uleb128 0x68
  13624 690e 9B280000 		.4byte	.LASF979
  13625 6912 1C690000 		.4byte	0x691c
@@ -14457,10 +14458,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  13676 6990 00       		.byte	0
  13677 6991 74       		.uleb128 0x74
  13678 6992 5B540000 		.4byte	0x545b
+ARM GAS  /tmp/cc596bob.s 			page 242
+
+
  13679 6996 11       		.byte	0x11
-ARM GAS  /tmp/ccKaTwIo.s 			page 242
-
-
  13680 6997 22       		.byte	0x22
  13681 6998 02       		.byte	0x2
  13682 6999 A1690000 		.4byte	0x69a1
@@ -14517,10 +14518,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  13733 6a11 00       		.byte	0
  13734 6a12 67       		.uleb128 0x67
  13735 6a13 2C550000 		.4byte	0x552c
+ARM GAS  /tmp/cc596bob.s 			page 243
+
+
  13736 6a17 02       		.byte	0x2
-ARM GAS  /tmp/ccKaTwIo.s 			page 243
-
-
  13737 6a18 206A0000 		.4byte	0x6a20
  13738 6a1c 336A0000 		.4byte	0x6a33
  13739 6a20 68       		.uleb128 0x68
@@ -14577,10 +14578,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  13790 6aa1 AB6A0000 		.4byte	0x6aab
  13791 6aa5 00       		.byte	0
  13792 6aa6 17       		.uleb128 0x17
+ARM GAS  /tmp/cc596bob.s 			page 244
+
+
  13793 6aa7 9B600000 		.4byte	0x609b
-ARM GAS  /tmp/ccKaTwIo.s 			page 244
-
-
  13794 6aab 17       		.uleb128 0x17
  13795 6aac 94000000 		.4byte	0x94
  13796 6ab0 75       		.uleb128 0x75
@@ -14637,10 +14638,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  13847 6b29 10       		.uleb128 0x10
  13848 6b2a 8D000000 		.4byte	0x8d
  13849 6b2e 396B0000 		.4byte	0x6b39
+ARM GAS  /tmp/cc596bob.s 			page 245
+
+
  13850 6b32 11       		.uleb128 0x11
-ARM GAS  /tmp/ccKaTwIo.s 			page 245
-
-
  13851 6b33 96040000 		.4byte	0x496
  13852 6b37 AA       		.byte	0xaa
  13853 6b38 00       		.byte	0
@@ -14697,10 +14698,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  13904 000c 17       		.uleb128 0x17
  13905 000d 11       		.uleb128 0x11
  13906 000e 01       		.uleb128 0x1
+ARM GAS  /tmp/cc596bob.s 			page 246
+
+
  13907 000f 10       		.uleb128 0x10
-ARM GAS  /tmp/ccKaTwIo.s 			page 246
-
-
  13908 0010 17       		.uleb128 0x17
  13909 0011 00       		.byte	0
  13910 0012 00       		.byte	0
@@ -14757,10 +14758,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  13961 0045 06       		.uleb128 0x6
  13962 0046 17       		.uleb128 0x17
  13963 0047 01       		.byte	0x1
+ARM GAS  /tmp/cc596bob.s 			page 247
+
+
  13964 0048 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccKaTwIo.s 			page 247
-
-
  13965 0049 0B       		.uleb128 0xb
  13966 004a 3A       		.uleb128 0x3a
  13967 004b 0B       		.uleb128 0xb
@@ -14817,10 +14818,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  14018 007e 13       		.uleb128 0x13
  14019 007f 01       		.byte	0x1
  14020 0080 0B       		.uleb128 0xb
+ARM GAS  /tmp/cc596bob.s 			page 248
+
+
  14021 0081 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccKaTwIo.s 			page 248
-
-
  14022 0082 3A       		.uleb128 0x3a
  14023 0083 0B       		.uleb128 0xb
  14024 0084 3B       		.uleb128 0x3b
@@ -14877,10 +14878,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  14075 00b7 0B       		.uleb128 0xb
  14076 00b8 00       		.byte	0
  14077 00b9 00       		.byte	0
+ARM GAS  /tmp/cc596bob.s 			page 249
+
+
  14078 00ba 0F       		.uleb128 0xf
-ARM GAS  /tmp/ccKaTwIo.s 			page 249
-
-
  14079 00bb 35       		.uleb128 0x35
  14080 00bc 00       		.byte	0
  14081 00bd 49       		.uleb128 0x49
@@ -14937,10 +14938,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  14132 00f0 00       		.byte	0
  14133 00f1 00       		.byte	0
  14134 00f2 15       		.uleb128 0x15
+ARM GAS  /tmp/cc596bob.s 			page 250
+
+
  14135 00f3 13       		.uleb128 0x13
-ARM GAS  /tmp/ccKaTwIo.s 			page 250
-
-
  14136 00f4 01       		.byte	0x1
  14137 00f5 0B       		.uleb128 0xb
  14138 00f6 0B       		.uleb128 0xb
@@ -14997,10 +14998,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  14189 0129 3B       		.uleb128 0x3b
  14190 012a 05       		.uleb128 0x5
  14191 012b 49       		.uleb128 0x49
+ARM GAS  /tmp/cc596bob.s 			page 251
+
+
  14192 012c 13       		.uleb128 0x13
-ARM GAS  /tmp/ccKaTwIo.s 			page 251
-
-
  14193 012d 38       		.uleb128 0x38
  14194 012e 0B       		.uleb128 0xb
  14195 012f 00       		.byte	0
@@ -15057,10 +15058,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  14246 0162 0B       		.uleb128 0xb
  14247 0163 3B       		.uleb128 0x3b
  14248 0164 05       		.uleb128 0x5
+ARM GAS  /tmp/cc596bob.s 			page 252
+
+
  14249 0165 49       		.uleb128 0x49
-ARM GAS  /tmp/ccKaTwIo.s 			page 252
-
-
  14250 0166 13       		.uleb128 0x13
  14251 0167 38       		.uleb128 0x38
  14252 0168 05       		.uleb128 0x5
@@ -15117,10 +15118,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  14303 019b 0B       		.uleb128 0xb
  14304 019c 0B       		.uleb128 0xb
  14305 019d 3A       		.uleb128 0x3a
+ARM GAS  /tmp/cc596bob.s 			page 253
+
+
  14306 019e 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccKaTwIo.s 			page 253
-
-
  14307 019f 3B       		.uleb128 0x3b
  14308 01a0 0B       		.uleb128 0xb
  14309 01a1 01       		.uleb128 0x1
@@ -15177,10 +15178,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  14360 01d4 64       		.uleb128 0x64
  14361 01d5 13       		.uleb128 0x13
  14362 01d6 01       		.uleb128 0x1
+ARM GAS  /tmp/cc596bob.s 			page 254
+
+
  14363 01d7 13       		.uleb128 0x13
-ARM GAS  /tmp/ccKaTwIo.s 			page 254
-
-
  14364 01d8 00       		.byte	0
  14365 01d9 00       		.byte	0
  14366 01da 25       		.uleb128 0x25
@@ -15237,10 +15238,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  14417 020d 16       		.uleb128 0x16
  14418 020e 00       		.byte	0
  14419 020f 03       		.uleb128 0x3
+ARM GAS  /tmp/cc596bob.s 			page 255
+
+
  14420 0210 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccKaTwIo.s 			page 255
-
-
  14421 0211 3A       		.uleb128 0x3a
  14422 0212 0B       		.uleb128 0xb
  14423 0213 3B       		.uleb128 0x3b
@@ -15297,10 +15298,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  14474 0246 13       		.uleb128 0x13
  14475 0247 01       		.uleb128 0x1
  14476 0248 13       		.uleb128 0x13
+ARM GAS  /tmp/cc596bob.s 			page 256
+
+
  14477 0249 00       		.byte	0
-ARM GAS  /tmp/ccKaTwIo.s 			page 256
-
-
  14478 024a 00       		.byte	0
  14479 024b 2C       		.uleb128 0x2c
  14480 024c 2E       		.uleb128 0x2e
@@ -15357,10 +15358,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  14531 027f 19       		.uleb128 0x19
  14532 0280 00       		.byte	0
  14533 0281 00       		.byte	0
+ARM GAS  /tmp/cc596bob.s 			page 257
+
+
  14534 0282 2F       		.uleb128 0x2f
-ARM GAS  /tmp/ccKaTwIo.s 			page 257
-
-
  14535 0283 2E       		.uleb128 0x2e
  14536 0284 01       		.byte	0x1
  14537 0285 3F       		.uleb128 0x3f
@@ -15417,10 +15418,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  14588 02b8 08       		.uleb128 0x8
  14589 02b9 3A       		.uleb128 0x3a
  14590 02ba 0B       		.uleb128 0xb
+ARM GAS  /tmp/cc596bob.s 			page 258
+
+
  14591 02bb 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccKaTwIo.s 			page 258
-
-
  14592 02bc 0B       		.uleb128 0xb
  14593 02bd 6E       		.uleb128 0x6e
  14594 02be 0E       		.uleb128 0xe
@@ -15477,10 +15478,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  14645 02f1 13       		.uleb128 0x13
  14646 02f2 00       		.byte	0
  14647 02f3 00       		.byte	0
+ARM GAS  /tmp/cc596bob.s 			page 259
+
+
  14648 02f4 35       		.uleb128 0x35
-ARM GAS  /tmp/ccKaTwIo.s 			page 259
-
-
  14649 02f5 13       		.uleb128 0x13
  14650 02f6 00       		.byte	0
  14651 02f7 03       		.uleb128 0x3
@@ -15537,10 +15538,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  14702 032a 01       		.uleb128 0x1
  14703 032b 13       		.uleb128 0x13
  14704 032c 00       		.byte	0
+ARM GAS  /tmp/cc596bob.s 			page 260
+
+
  14705 032d 00       		.byte	0
-ARM GAS  /tmp/ccKaTwIo.s 			page 260
-
-
  14706 032e 39       		.uleb128 0x39
  14707 032f 2E       		.uleb128 0x2e
  14708 0330 01       		.byte	0x1
@@ -15597,10 +15598,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  14759 0363 03       		.uleb128 0x3
  14760 0364 0E       		.uleb128 0xe
  14761 0365 3A       		.uleb128 0x3a
+ARM GAS  /tmp/cc596bob.s 			page 261
+
+
  14762 0366 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccKaTwIo.s 			page 261
-
-
  14763 0367 3B       		.uleb128 0x3b
  14764 0368 05       		.uleb128 0x5
  14765 0369 6E       		.uleb128 0x6e
@@ -15657,10 +15658,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  14816 039c 0B       		.uleb128 0xb
  14817 039d 3C       		.uleb128 0x3c
  14818 039e 19       		.uleb128 0x19
+ARM GAS  /tmp/cc596bob.s 			page 262
+
+
  14819 039f 64       		.uleb128 0x64
-ARM GAS  /tmp/ccKaTwIo.s 			page 262
-
-
  14820 03a0 13       		.uleb128 0x13
  14821 03a1 01       		.uleb128 0x1
  14822 03a2 13       		.uleb128 0x13
@@ -15717,10 +15718,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  14873 03d5 3A       		.uleb128 0x3a
  14874 03d6 0B       		.uleb128 0xb
  14875 03d7 3B       		.uleb128 0x3b
+ARM GAS  /tmp/cc596bob.s 			page 263
+
+
  14876 03d8 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccKaTwIo.s 			page 263
-
-
  14877 03d9 6E       		.uleb128 0x6e
  14878 03da 0E       		.uleb128 0xe
  14879 03db 49       		.uleb128 0x49
@@ -15777,10 +15778,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  14930 040e 19       		.uleb128 0x19
  14931 040f 03       		.uleb128 0x3
  14932 0410 0E       		.uleb128 0xe
+ARM GAS  /tmp/cc596bob.s 			page 264
+
+
  14933 0411 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccKaTwIo.s 			page 264
-
-
  14934 0412 0B       		.uleb128 0xb
  14935 0413 3B       		.uleb128 0x3b
  14936 0414 0B       		.uleb128 0xb
@@ -15837,10 +15838,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  14987 0447 01       		.uleb128 0x1
  14988 0448 13       		.uleb128 0x13
  14989 0449 00       		.byte	0
+ARM GAS  /tmp/cc596bob.s 			page 265
+
+
  14990 044a 00       		.byte	0
-ARM GAS  /tmp/ccKaTwIo.s 			page 265
-
-
  14991 044b 46       		.uleb128 0x46
  14992 044c 2E       		.uleb128 0x2e
  14993 044d 01       		.byte	0x1
@@ -15897,10 +15898,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  15044 0480 19       		.uleb128 0x19
  15045 0481 03       		.uleb128 0x3
  15046 0482 0E       		.uleb128 0xe
+ARM GAS  /tmp/cc596bob.s 			page 266
+
+
  15047 0483 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccKaTwIo.s 			page 266
-
-
  15048 0484 0B       		.uleb128 0xb
  15049 0485 3B       		.uleb128 0x3b
  15050 0486 0B       		.uleb128 0xb
@@ -15957,10 +15958,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  15101 04b9 08       		.uleb128 0x8
  15102 04ba 1C       		.uleb128 0x1c
  15103 04bb 0D       		.uleb128 0xd
+ARM GAS  /tmp/cc596bob.s 			page 267
+
+
  15104 04bc 00       		.byte	0
-ARM GAS  /tmp/ccKaTwIo.s 			page 267
-
-
  15105 04bd 00       		.byte	0
  15106 04be 4D       		.uleb128 0x4d
  15107 04bf 2E       		.uleb128 0x2e
@@ -16017,10 +16018,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  15158 04f2 00       		.byte	0
  15159 04f3 50       		.uleb128 0x50
  15160 04f4 0D       		.uleb128 0xd
+ARM GAS  /tmp/cc596bob.s 			page 268
+
+
  15161 04f5 00       		.byte	0
-ARM GAS  /tmp/ccKaTwIo.s 			page 268
-
-
  15162 04f6 03       		.uleb128 0x3
  15163 04f7 0E       		.uleb128 0xe
  15164 04f8 3A       		.uleb128 0x3a
@@ -16077,10 +16078,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  15215 052b 49       		.uleb128 0x49
  15216 052c 13       		.uleb128 0x13
  15217 052d 38       		.uleb128 0x38
+ARM GAS  /tmp/cc596bob.s 			page 269
+
+
  15218 052e 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccKaTwIo.s 			page 269
-
-
  15219 052f 32       		.uleb128 0x32
  15220 0530 0B       		.uleb128 0xb
  15221 0531 00       		.byte	0
@@ -16137,10 +16138,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  15272 0564 19       		.uleb128 0x19
  15273 0565 03       		.uleb128 0x3
  15274 0566 0E       		.uleb128 0xe
+ARM GAS  /tmp/cc596bob.s 			page 270
+
+
  15275 0567 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccKaTwIo.s 			page 270
-
-
  15276 0568 0B       		.uleb128 0xb
  15277 0569 3B       		.uleb128 0x3b
  15278 056a 0B       		.uleb128 0xb
@@ -16197,10 +16198,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  15329 059d 19       		.uleb128 0x19
  15330 059e 03       		.uleb128 0x3
  15331 059f 08       		.uleb128 0x8
+ARM GAS  /tmp/cc596bob.s 			page 271
+
+
  15332 05a0 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccKaTwIo.s 			page 271
-
-
  15333 05a1 0B       		.uleb128 0xb
  15334 05a2 3B       		.uleb128 0x3b
  15335 05a3 0B       		.uleb128 0xb
@@ -16257,10 +16258,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  15386 05d6 00       		.byte	0
  15387 05d7 0B       		.uleb128 0xb
  15388 05d8 0B       		.uleb128 0xb
+ARM GAS  /tmp/cc596bob.s 			page 272
+
+
  15389 05d9 49       		.uleb128 0x49
-ARM GAS  /tmp/ccKaTwIo.s 			page 272
-
-
  15390 05da 13       		.uleb128 0x13
  15391 05db 00       		.byte	0
  15392 05dc 00       		.byte	0
@@ -16317,10 +16318,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  15443 060f 64       		.uleb128 0x64
  15444 0610 2E       		.uleb128 0x2e
  15445 0611 01       		.byte	0x1
+ARM GAS  /tmp/cc596bob.s 			page 273
+
+
  15446 0612 47       		.uleb128 0x47
-ARM GAS  /tmp/ccKaTwIo.s 			page 273
-
-
  15447 0613 13       		.uleb128 0x13
  15448 0614 20       		.uleb128 0x20
  15449 0615 0B       		.uleb128 0xb
@@ -16377,10 +16378,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  15500 0648 13       		.uleb128 0x13
  15501 0649 6E       		.uleb128 0x6e
  15502 064a 0E       		.uleb128 0xe
+ARM GAS  /tmp/cc596bob.s 			page 274
+
+
  15503 064b 11       		.uleb128 0x11
-ARM GAS  /tmp/ccKaTwIo.s 			page 274
-
-
  15504 064c 01       		.uleb128 0x1
  15505 064d 12       		.uleb128 0x12
  15506 064e 06       		.uleb128 0x6
@@ -16437,10 +16438,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  15557 0683 18       		.uleb128 0x18
  15558 0684 00       		.byte	0
  15559 0685 00       		.byte	0
+ARM GAS  /tmp/cc596bob.s 			page 275
+
+
  15560 0686 6D       		.uleb128 0x6d
-ARM GAS  /tmp/ccKaTwIo.s 			page 275
-
-
  15561 0687 05       		.uleb128 0x5
  15562 0688 00       		.byte	0
  15563 0689 03       		.uleb128 0x3
@@ -16497,10 +16498,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  15614 06bd 12       		.uleb128 0x12
  15615 06be 06       		.uleb128 0x6
  15616 06bf 00       		.byte	0
+ARM GAS  /tmp/cc596bob.s 			page 276
+
+
  15617 06c0 00       		.byte	0
-ARM GAS  /tmp/ccKaTwIo.s 			page 276
-
-
  15618 06c1 71       		.uleb128 0x71
  15619 06c2 34       		.uleb128 0x34
  15620 06c3 00       		.byte	0
@@ -16557,10 +16558,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  15671 06f8 00       		.byte	0
  15672 06f9 00       		.byte	0
  15673 06fa 74       		.uleb128 0x74
+ARM GAS  /tmp/cc596bob.s 			page 277
+
+
  15674 06fb 2E       		.uleb128 0x2e
-ARM GAS  /tmp/ccKaTwIo.s 			page 277
-
-
  15675 06fc 01       		.byte	0x1
  15676 06fd 47       		.uleb128 0x47
  15677 06fe 13       		.uleb128 0x13
@@ -16617,10 +16618,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  15728 0732 40       		.uleb128 0x40
  15729 0733 18       		.uleb128 0x18
  15730 0734 9642     		.uleb128 0x2116
+ARM GAS  /tmp/cc596bob.s 			page 278
+
+
  15731 0736 19       		.uleb128 0x19
-ARM GAS  /tmp/ccKaTwIo.s 			page 278
-
-
  15732 0737 01       		.uleb128 0x1
  15733 0738 13       		.uleb128 0x13
  15734 0739 00       		.byte	0
@@ -16677,10 +16678,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  15785 076e 00       		.byte	0
  15786 076f 00       		.byte	0
  15787 0770 7A       		.uleb128 0x7a
+ARM GAS  /tmp/cc596bob.s 			page 279
+
+
  15788 0771 2E       		.uleb128 0x2e
-ARM GAS  /tmp/ccKaTwIo.s 			page 279
-
-
  15789 0772 00       		.byte	0
  15790 0773 03       		.uleb128 0x3
  15791 0774 0E       		.uleb128 0xe
@@ -16737,10 +16738,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  15842 07a8 0E       		.uleb128 0xe
  15843 07a9 3A       		.uleb128 0x3a
  15844 07aa 0B       		.uleb128 0xb
+ARM GAS  /tmp/cc596bob.s 			page 280
+
+
  15845 07ab 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccKaTwIo.s 			page 280
-
-
  15846 07ac 0B       		.uleb128 0xb
  15847 07ad 49       		.uleb128 0x49
  15848 07ae 13       		.uleb128 0x13
@@ -16797,10 +16798,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  15899 0024 16000000 		.4byte	.LFE262-.LFB262
  15900 0028 00000000 		.4byte	.LFB276
  15901 002c 22000000 		.4byte	.LFE276-.LFB276
+ARM GAS  /tmp/cc596bob.s 			page 281
+
+
  15902 0030 00000000 		.4byte	.LFB334
-ARM GAS  /tmp/ccKaTwIo.s 			page 281
-
-
  15903 0034 34000000 		.4byte	.LFE334-.LFB334
  15904 0038 00000000 		.4byte	.LFB340
  15905 003c 64000000 		.4byte	.LFE340-.LFB340
@@ -16831,7 +16832,7 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  15930 00a0 00000000 		.4byte	.LFB473
  15931 00a4 20000000 		.4byte	.LFE473-.LFB473
  15932 00a8 00000000 		.4byte	.LFB596
- 15933 00ac 0C010000 		.4byte	.LFE596-.LFB596
+ 15933 00ac 08010000 		.4byte	.LFE596-.LFB596
  15934 00b0 00000000 		.4byte	.LFB598
  15935 00b4 14000000 		.4byte	.LFE598-.LFB598
  15936 00b8 00000000 		.4byte	.LFB606
@@ -16857,10 +16858,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  15956 0108 00000000 		.4byte	.LFB642
  15957 010c 34000000 		.4byte	.LFE642-.LFB642
  15958 0110 00000000 		.4byte	.LFB644
+ARM GAS  /tmp/cc596bob.s 			page 282
+
+
  15959 0114 66000000 		.4byte	.LFE644-.LFB644
-ARM GAS  /tmp/ccKaTwIo.s 			page 282
-
-
  15960 0118 00000000 		.4byte	.LFB618
  15961 011c 6C000000 		.4byte	.LFE618-.LFB618
  15962 0120 00000000 		.4byte	.LFB647
@@ -16916,11 +16917,11 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16012 0090 00000000 		.4byte	.LFB473
  16013 0094 20000000 		.4byte	.LFE473
  16014 0098 00000000 		.4byte	.LFB596
- 16015 009c 0C010000 		.4byte	.LFE596
+ 16015 009c 08010000 		.4byte	.LFE596
+ARM GAS  /tmp/cc596bob.s 			page 283
+
+
  16016 00a0 00000000 		.4byte	.LFB598
-ARM GAS  /tmp/ccKaTwIo.s 			page 283
-
-
  16017 00a4 14000000 		.4byte	.LFE598
  16018 00a8 00000000 		.4byte	.LFB606
  16019 00ac 0E000000 		.4byte	.LFE606
@@ -16977,10 +16978,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16062      31304968 
  16062      65785265 
  16062      636F7264 
+ARM GAS  /tmp/cc596bob.s 			page 284
+
+
  16063              	.LASF379:
-ARM GAS  /tmp/ccKaTwIo.s 			page 284
-
-
  16064 0033 5F5A4E4B 		.ascii	"_ZNK3r2p5Topic13is_forwardingEv\000"
  16064      33723270 
  16064      35546F70 
@@ -17037,10 +17038,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16085 0164 5F5A4E4B 		.ascii	"_ZNK3r2p9SpinEvent10get_threadEv\000"
  16085      33723270 
  16085      39537069 
+ARM GAS  /tmp/cc596bob.s 			page 285
+
+
  16085      6E457665 
-ARM GAS  /tmp/ccKaTwIo.s 			page 285
-
-
  16085      6E743130 
  16086              	.LASF454:
  16087 0185 5F5A4E33 		.ascii	"_ZN3r2p7Message16get_payload_sizeEj\000"
@@ -17097,10 +17098,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16106      32726573 
  16107              	.LASF492:
  16108 026a 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_14LocalPublisherEE8index_of"
+ARM GAS  /tmp/cc596bob.s 			page 286
+
+
  16108      33723270 
-ARM GAS  /tmp/ccKaTwIo.s 			page 286
-
-
  16108      31305374 
  16108      61746963 
  16108      4C697374 
@@ -17157,10 +17158,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16128      54455854 
  16128      5F4C454E 
  16128      47544800 
+ARM GAS  /tmp/cc596bob.s 			page 287
+
+
  16129              	.LASF77:
-ARM GAS  /tmp/ccKaTwIo.s 			page 287
-
-
  16130 03bc 6D656D67 		.ascii	"memgetfunc_t\000"
  16130      65746675 
  16130      6E635F74 
@@ -17217,10 +17218,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16150              	.LASF588:
  16151 04c6 50617468 		.ascii	"Path\000"
  16151      00
+ARM GAS  /tmp/cc596bob.s 			page 288
+
+
  16152              	.LASF632:
-ARM GAS  /tmp/ccKaTwIo.s 			page 288
-
-
  16153 04cb 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_4NodeEE14restart_unsafeERNS"
  16153      33723270 
  16153      31305374 
@@ -17277,10 +17278,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16172      696D6545 
  16172      00
  16173              	.LASF15:
+ARM GAS  /tmp/cc596bob.s 			page 289
+
+
  16174 05f9 75696E74 		.ascii	"uint16_t\000"
-ARM GAS  /tmp/ccKaTwIo.s 			page 289
-
-
  16174      31365F74 
  16174      00
  16175              	.LASF624:
@@ -17337,10 +17338,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16196      33723270 
  16196      3454696D 
  16196      6535746F 
+ARM GAS  /tmp/cc596bob.s 			page 290
+
+
  16196      5F757345 
-ARM GAS  /tmp/ccKaTwIo.s 			page 290
-
-
  16197              	.LASF924:
  16198 0722 5F5A4E33 		.ascii	"_ZN3r2p13BasePublisher23publish_remotely_unsafeERNS"
  16198      72327031 
@@ -17397,10 +17398,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16217              	.LASF490:
  16218 0843 5F5A4E33 		.ascii	"_ZN3r2p10StaticListINS_14LocalPublisherEE4linkERNS2"
  16218      72327031 
+ARM GAS  /tmp/cc596bob.s 			page 291
+
+
  16218      30537461 
-ARM GAS  /tmp/ccKaTwIo.s 			page 291
-
-
  16218      7469634C 
  16218      69737449 
  16219 0876 5F344C69 		.ascii	"_4LinkE\000"
@@ -17457,10 +17458,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16238              	.LASF307:
  16239 098b 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_16RemoteSubscriberEE12begin"
  16239      33723270 
+ARM GAS  /tmp/cc596bob.s 			page 292
+
+
  16239      31305374 
-ARM GAS  /tmp/ccKaTwIo.s 			page 292
-
-
  16239      61746963 
  16239      4C697374 
  16240 09be 5F756E73 		.ascii	"_unsafeEv\000"
@@ -17517,10 +17518,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16258      33203230 
  16258      31343131 
  16259 0af0 6272616E 		.ascii	"branch revision 218278] -mcpu=cortex-m4 -mfloat-abi"
+ARM GAS  /tmp/cc596bob.s 			page 293
+
+
  16259      63682072 
-ARM GAS  /tmp/ccKaTwIo.s 			page 293
-
-
  16259      65766973 
  16259      696F6E20 
  16259      32313832 
@@ -17577,10 +17578,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16277 0c71 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_4NodeEE17find_first_unsafeE"
  16277      33723270 
  16277      31305374 
+ARM GAS  /tmp/cc596bob.s 			page 294
+
+
  16277      61746963 
-ARM GAS  /tmp/ccKaTwIo.s 			page 294
-
-
  16277      4C697374 
  16278 0ca4 50466252 		.ascii	"PFbRKS1_E\000"
  16278      4B53315F 
@@ -17637,10 +17638,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16300 0d7a 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_14LocalPublisherEE8is_empty"
  16300      33723270 
  16300      31305374 
+ARM GAS  /tmp/cc596bob.s 			page 295
+
+
  16300      61746963 
-ARM GAS  /tmp/ccKaTwIo.s 			page 295
-
-
  16300      4C697374 
  16301 0dad 457600   		.ascii	"Ev\000"
  16302              	.LASF627:
@@ -17697,10 +17698,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16320      31305374 
  16320      61746963 
  16320      4C697374 
+ARM GAS  /tmp/cc596bob.s 			page 296
+
+
  16321 0f10 33436F6E 		.ascii	"3ConstIteratorE\000"
-ARM GAS  /tmp/ccKaTwIo.s 			page 296
-
-
  16321      73744974 
  16321      65726174 
  16321      6F724500 
@@ -17757,10 +17758,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16343              	.LASF389:
  16344 100b 5F5A4E4B 		.ascii	"_ZNK3r2p5Topic22has_remote_subscribersEv\000"
  16344      33723270 
+ARM GAS  /tmp/cc596bob.s 			page 297
+
+
  16344      35546F70 
-ARM GAS  /tmp/ccKaTwIo.s 			page 297
-
-
  16344      69633232 
  16344      6861735F 
  16345              	.LASF363:
@@ -17817,10 +17818,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16362      00
  16363              	.LASF391:
  16364 1129 5F5A4E4B 		.ascii	"_ZNK3r2p5Topic15has_subscribersEv\000"
+ARM GAS  /tmp/cc596bob.s 			page 298
+
+
  16364      33723270 
-ARM GAS  /tmp/ccKaTwIo.s 			page 298
-
-
  16364      35546F70 
  16364      69633135 
  16364      6861735F 
@@ -17877,10 +17878,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16385      696C426F 
  16385      785F5479 
  16385      70654465 
+ARM GAS  /tmp/cc596bob.s 			page 299
+
+
  16386              	.LASF1010:
-ARM GAS  /tmp/ccKaTwIo.s 			page 299
-
-
  16387 124a 726C6973 		.ascii	"rlist\000"
  16387      7400
  16388              	.LASF412:
@@ -17937,10 +17938,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16408      74657200 
  16409              	.LASF947:
  16410 1332 52544341 		.ascii	"RTCAN_STARTING\000"
+ARM GAS  /tmp/cc596bob.s 			page 300
+
+
  16410      4E5F5354 
-ARM GAS  /tmp/ccKaTwIo.s 			page 300
-
-
  16410      41525449 
  16410      4E4700
  16411              	.LASF456:
@@ -17997,10 +17998,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16433      72327031 
  16433      33426173 
  16433      65507562 
+ARM GAS  /tmp/cc596bob.s 			page 301
+
+
  16433      6C697368 
-ARM GAS  /tmp/ccKaTwIo.s 			page 301
-
-
  16434 1457 4500     		.ascii	"E\000"
  16435              	.LASF703:
  16436 1459 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_9TransportEE12count_unsafeE"
@@ -18057,10 +18058,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16459 1534 5F5A4E33 		.ascii	"_ZN3r2p10ArrayQueueIPNS_7MessageEE11skip_unsafeEv\000"
  16459      72327031 
  16459      30417272 
+ARM GAS  /tmp/cc596bob.s 			page 302
+
+
  16459      61795175 
-ARM GAS  /tmp/ccKaTwIo.s 			page 302
-
-
  16459      65756549 
  16460              	.LASF944:
  16461 1566 72746361 		.ascii	"rtcan_msgcallback_t\000"
@@ -18117,10 +18118,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16484      61746F72 
  16484      2A00
  16485              	.LASF914:
+ARM GAS  /tmp/cc596bob.s 			page 303
+
+
  16486 161e 5F767074 		.ascii	"_vptr.BasePublisher\000"
-ARM GAS  /tmp/ccKaTwIo.s 			page 303
-
-
  16486      722E4261 
  16486      73655075 
  16486      626C6973 
@@ -18177,10 +18178,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16509      61746F72 
  16509      556E7361 
  16509      66654500 
+ARM GAS  /tmp/cc596bob.s 			page 304
+
+
  16510              	.LASF215:
-ARM GAS  /tmp/ccKaTwIo.s 			page 304
-
-
  16511 16e9 63757270 		.ascii	"curp\000"
  16511      00
  16512              	.LASF563:
@@ -18237,10 +18238,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16532 17ef 5F5A4E4B 		.ascii	"_ZNK3r2p4Time4to_sEv\000"
  16532      33723270 
  16532      3454696D 
+ARM GAS  /tmp/cc596bob.s 			page 305
+
+
  16532      6534746F 
-ARM GAS  /tmp/ccKaTwIo.s 			page 305
-
-
  16532      5F734576 
  16533              	.LASF853:
  16534 1804 73746F70 		.ascii	"stop\000"
@@ -18297,10 +18298,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16556      4E6F6465 
  16556      39616476 
  16556      65727469 
+ARM GAS  /tmp/cc596bob.s 			page 306
+
+
  16557 18f0 5F345469 		.ascii	"_4TimeEj\000"
-ARM GAS  /tmp/ccKaTwIo.s 			page 306
-
-
  16557      6D65456A 
  16557      00
  16558              	.LASF277:
@@ -18357,10 +18358,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16578      33723270 
  16578      31305374 
  16578      61746963 
+ARM GAS  /tmp/cc596bob.s 			page 307
+
+
  16578      4C697374 
-ARM GAS  /tmp/ccKaTwIo.s 			page 307
-
-
  16579              	.LASF440:
  16580 19fc 5F5A4E33 		.ascii	"_ZN3r2p7Message14acquire_unsafeEv\000"
  16580      72327037 
@@ -18417,10 +18418,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16600      78376163 
  16600      71756972 
  16601              	.LASF535:
+ARM GAS  /tmp/cc596bob.s 			page 308
+
+
  16602 1af1 636F6D70 		.ascii	"compute_stack_size\000"
-ARM GAS  /tmp/ccKaTwIo.s 			page 308
-
-
  16602      7574655F 
  16602      73746163 
  16602      6B5F7369 
@@ -18477,10 +18478,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16624 1be3 5F5A4E33 		.ascii	"_ZN3r2p10StaticListINS_15LocalSubscriberEE13ConstIt"
  16624      72327031 
  16624      30537461 
+ARM GAS  /tmp/cc596bob.s 			page 309
+
+
  16624      7469634C 
-ARM GAS  /tmp/ccKaTwIo.s 			page 309
-
-
  16624      69737449 
  16625 1c16 65726174 		.ascii	"eratoraSERKS3_\000"
  16625      6F726153 
@@ -18537,10 +18538,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16649      31304D69 
  16649      64646C65 
  16649      77617265 
+ARM GAS  /tmp/cc596bob.s 			page 310
+
+
  16650              	.LASF376:
-ARM GAS  /tmp/ccKaTwIo.s 			page 310
-
-
  16651 1cd9 6765745F 		.ascii	"get_max_queue_length\000"
  16651      6D61785F 
  16651      71756575 
@@ -18597,10 +18598,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16674      4C697374 
  16675 1db7 65726174 		.ascii	"eratorneERKS3_\000"
  16675      6F726E65 
+ARM GAS  /tmp/cc596bob.s 			page 311
+
+
  16675      45524B53 
-ARM GAS  /tmp/ccKaTwIo.s 			page 311
-
-
  16675      335F00
  16676              	.LASF491:
  16677 1dc6 5F5A4E33 		.ascii	"_ZN3r2p10StaticListINS_14LocalPublisherEE6unlinkERN"
@@ -18657,10 +18658,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16699              	.LASF524:
  16700 1e95 49444C45 		.ascii	"IDLE\000"
  16700      00
+ARM GAS  /tmp/cc596bob.s 			page 312
+
+
  16701              	.LASF159:
-ARM GAS  /tmp/ccKaTwIo.s 			page 312
-
-
  16702 1e9a 5F5A4E4B 		.ascii	"_ZNK3r2p11MemoryPool_13get_allocatorEv\000"
  16702      33723270 
  16702      31314D65 
@@ -18717,10 +18718,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16719      7800
  16720              	.LASF480:
  16721 1fde 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_14LocalPublisherEE17find_fi"
+ARM GAS  /tmp/cc596bob.s 			page 313
+
+
  16721      33723270 
-ARM GAS  /tmp/ccKaTwIo.s 			page 313
-
-
  16721      31305374 
  16721      61746963 
  16721      4C697374 
@@ -18777,10 +18778,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16740              	.LASF237:
  16741 2126 636F756E 		.ascii	"count_unsafe\000"
  16741      745F756E 
+ARM GAS  /tmp/cc596bob.s 			page 314
+
+
  16741      73616665 
-ARM GAS  /tmp/ccKaTwIo.s 			page 314
-
-
  16741      00
  16742              	.LASF267:
  16743 2133 6C696E6B 		.ascii	"link\000"
@@ -18837,10 +18838,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16765      61746F72 
  16765      556E7361 
  16765      666500
+ARM GAS  /tmp/cc596bob.s 			page 315
+
+
  16766              	.LASF628:
-ARM GAS  /tmp/ccKaTwIo.s 			page 315
-
-
  16767 2215 5F5A4E33 		.ascii	"_ZN3r2p10StaticListINS_4NodeEE10end_unsafeEv\000"
  16767      72327031 
  16767      30537461 
@@ -18897,10 +18898,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16789      4D657373 
  16789      61676531 
  16789      33676574 
+ARM GAS  /tmp/cc596bob.s 			page 316
+
+
  16790              	.LASF717:
-ARM GAS  /tmp/ccKaTwIo.s 			page 316
-
-
  16791 2340 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_9TransportEE8get_headEv\000"
  16791      33723270 
  16791      31305374 
@@ -18957,10 +18958,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16815              	.LASF432:
  16816 2430 5F5A4E33 		.ascii	"_ZN3r2p5Topic8has_nameERKS0_PKc\000"
  16816      72327035 
+ARM GAS  /tmp/cc596bob.s 			page 317
+
+
  16816      546F7069 
-ARM GAS  /tmp/ccKaTwIo.s 			page 317
-
-
  16816      63386861 
  16816      735F6E61 
  16817              	.LASF353:
@@ -19017,10 +19018,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16835              	.LASF634:
  16836 256f 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_4NodeEE8is_emptyEv\000"
  16836      33723270 
+ARM GAS  /tmp/cc596bob.s 			page 318
+
+
  16836      31305374 
-ARM GAS  /tmp/ccKaTwIo.s 			page 318
-
-
  16836      61746963 
  16836      4C697374 
  16837              	.LASF777:
@@ -19077,10 +19078,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16857      72327035 
  16857      546F7069 
  16857      6331346E 
+ARM GAS  /tmp/cc596bob.s 			page 319
+
+
  16857      6F746966 
-ARM GAS  /tmp/ccKaTwIo.s 			page 319
-
-
  16858 26c7 6D654500 		.ascii	"meE\000"
  16859              	.LASF896:
  16860 26cb 7075626C 		.ascii	"publish\000"
@@ -19137,10 +19138,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16883      69737449 
  16884 27ac 73616665 		.ascii	"safeEv\000"
  16884      457600
+ARM GAS  /tmp/cc596bob.s 			page 320
+
+
  16885              	.LASF65:
-ARM GAS  /tmp/ccKaTwIo.s 			page 320
-
-
  16886 27b3 39526561 		.ascii	"9ReadyList\000"
  16886      64794C69 
  16886      737400
@@ -19197,10 +19198,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16910      6F727950 
  16910      6F6F6C5F 
  16911              	.LASF878:
+ARM GAS  /tmp/cc596bob.s 			page 321
+
+
  16912 2870 6D676D74 		.ascii	"mgmt_threadf\000"
-ARM GAS  /tmp/ccKaTwIo.s 			page 321
-
-
  16912      5F746872 
  16912      65616466 
  16912      00
@@ -19257,10 +19258,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16938 2936 46756E63 		.ascii	"Function\000"
  16938      74696F6E 
  16938      00
+ARM GAS  /tmp/cc596bob.s 			page 322
+
+
  16939              	.LASF664:
-ARM GAS  /tmp/ccKaTwIo.s 			page 322
-
-
  16940 293f 6E6F7469 		.ascii	"notify_stop_unsafe\000"
  16940      66795F73 
  16940      746F705F 
@@ -19317,10 +19318,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16962      72327031 
  16962      30537461 
  16962      7469634C 
+ARM GAS  /tmp/cc596bob.s 			page 323
+
+
  16962      69737449 
-ARM GAS  /tmp/ccKaTwIo.s 			page 323
-
-
  16963 2a3a 53325F34 		.ascii	"S2_4LinkE\000"
  16963      4C696E6B 
  16963      4500
@@ -19377,10 +19378,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  16984      6F756E74 
  16984      00
  16985              	.LASF11:
+ARM GAS  /tmp/cc596bob.s 			page 324
+
+
  16986 2b33 5F5F7569 		.ascii	"__uint64_t\000"
-ARM GAS  /tmp/ccKaTwIo.s 			page 324
-
-
  16986      6E743634 
  16986      5F7400
  16987              	.LASF932:
@@ -19437,10 +19438,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17007      72696265 
  17007      5F726571 
  17008              	.LASF243:
+ARM GAS  /tmp/cc596bob.s 			page 325
+
+
  17009 2c1f 756E6C69 		.ascii	"unlink_unsafe\000"
-ARM GAS  /tmp/ccKaTwIo.s 			page 325
-
-
  17009      6E6B5F75 
  17009      6E736166 
  17009      6500
@@ -19497,10 +19498,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17028      72327039 
  17028      5075626C 
  17028      69736865 
+ARM GAS  /tmp/cc596bob.s 			page 326
+
+
  17028      72494E53 
-ARM GAS  /tmp/ccKaTwIo.s 			page 326
-
-
  17029              	.LASF36:
  17030 2d5f 705F6E65 		.ascii	"p_next\000"
  17030      787400
@@ -19557,10 +19558,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17049      5F504B76 
  17049      4553365F 
  17049      00
+ARM GAS  /tmp/cc596bob.s 			page 327
+
+
  17050              	.LASF414:
-ARM GAS  /tmp/ccKaTwIo.s 			page 327
-
-
  17051 2e91 5F5A4E33 		.ascii	"_ZN3r2p5Topic7releaseERNS_7MessageE\000"
  17051      72327035 
  17051      546F7069 
@@ -19617,10 +19618,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17070      30537461 
  17070      7469634C 
  17070      69737449 
+ARM GAS  /tmp/cc596bob.s 			page 328
+
+
  17071 3005 5F756E73 		.ascii	"_unsafeERNS2_4LinkE\000"
-ARM GAS  /tmp/ccKaTwIo.s 			page 328
-
-
  17071      61666545 
  17071      524E5332 
  17071      5F344C69 
@@ -19677,10 +19678,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17095              	.LASF600:
  17096 30e6 626F6F74 		.ascii	"boot_mode\000"
  17096      5F6D6F64 
+ARM GAS  /tmp/cc596bob.s 			page 329
+
+
  17096      6500
-ARM GAS  /tmp/ccKaTwIo.s 			page 329
-
-
  17097              	.LASF23:
  17098 30f0 746D6F64 		.ascii	"tmode_t\000"
  17098      655F7400 
@@ -19737,10 +19738,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17121 31e2 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_5TopicEE10find_firstEPFbRKS"
  17121      33723270 
  17121      31305374 
+ARM GAS  /tmp/cc596bob.s 			page 330
+
+
  17121      61746963 
-ARM GAS  /tmp/ccKaTwIo.s 			page 330
-
-
  17121      4C697374 
  17122 3215 315F4500 		.ascii	"1_E\000"
  17123              	.LASF682:
@@ -19797,10 +19798,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17143      7475735F 
  17143      7400
  17144              	.LASF213:
+ARM GAS  /tmp/cc596bob.s 			page 331
+
+
  17145 3330 436F6E73 		.ascii	"ConstIteratorUnsafe\000"
-ARM GAS  /tmp/ccKaTwIo.s 			page 331
-
-
  17145      74497465 
  17145      7261746F 
  17145      72556E73 
@@ -19857,10 +19858,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17164              	.LASF885:
  17165 3449 5F5A4E33 		.ascii	"_ZN3r2p10Middleware24do_cmd_subscribe_requestERKNS_"
  17165      72327031 
+ARM GAS  /tmp/cc596bob.s 			page 332
+
+
  17165      304D6964 
-ARM GAS  /tmp/ccKaTwIo.s 			page 332
-
-
  17165      646C6577 
  17165      61726532 
  17166 347c 374D676D 		.ascii	"7MgmtMsgE\000"
@@ -19917,10 +19918,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17188      33723270 
  17188      31305374 
  17188      61746963 
+ARM GAS  /tmp/cc596bob.s 			page 333
+
+
  17188      4C697374 
-ARM GAS  /tmp/ccKaTwIo.s 			page 333
-
-
  17189 35a0 7445524E 		.ascii	"tERNS2_13ConstIteratorE\000"
  17189      53325F31 
  17189      33436F6E 
@@ -19977,10 +19978,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17211      6365735F 
  17211      7400
  17212              	.LASF442:
+ARM GAS  /tmp/cc596bob.s 			page 334
+
+
  17213 3689 72657365 		.ascii	"reset_unsafe\000"
-ARM GAS  /tmp/ccKaTwIo.s 			page 334
-
-
  17213      745F756E 
  17213      73616665 
  17213      00
@@ -20037,10 +20038,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17234      63726962 
  17234      65727300 
  17235              	.LASF448:
+ARM GAS  /tmp/cc596bob.s 			page 335
+
+
  17236 3770 5F5A4E33 		.ascii	"_ZN3r2p7Message5resetEv\000"
-ARM GAS  /tmp/ccKaTwIo.s 			page 335
-
-
  17236      72327037 
  17236      4D657373 
  17236      61676535 
@@ -20097,10 +20098,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17260      31305374 
  17260      61746963 
  17260      4C697374 
+ARM GAS  /tmp/cc596bob.s 			page 336
+
+
  17261 3842 00       		.ascii	"\000"
-ARM GAS  /tmp/ccKaTwIo.s 			page 336
-
-
  17262              	.LASF803:
  17263 3843 6861735F 		.ascii	"has_topic\000"
  17263      746F7069 
@@ -20157,10 +20158,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17282      546F7069 
  17282      6332306E 
  17282      6F746966 
+ARM GAS  /tmp/cc596bob.s 			page 337
+
+
  17283 3978 4E535F34 		.ascii	"NS_4TimeE\000"
-ARM GAS  /tmp/ccKaTwIo.s 			page 337
-
-
  17283      54696D65 
  17283      4500
  17284              	.LASF782:
@@ -20217,10 +20218,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17303      69737449 
  17304 3ab9 45524E53 		.ascii	"ERNS2_14IteratorUnsafeE\000"
  17304      325F3134 
+ARM GAS  /tmp/cc596bob.s 			page 338
+
+
  17304      49746572 
-ARM GAS  /tmp/ccKaTwIo.s 			page 338
-
-
  17304      61746F72 
  17304      556E7361 
  17305              	.LASF300:
@@ -20277,10 +20278,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17323      62736372 
  17323      69626572 
  17324              	.LASF335:
+ARM GAS  /tmp/cc596bob.s 			page 339
+
+
  17325 3bdf 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_5TopicEE17find_first_unsafe"
-ARM GAS  /tmp/ccKaTwIo.s 			page 339
-
-
  17325      33723270 
  17325      31305374 
  17325      61746963 
@@ -20337,10 +20338,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17345      31305374 
  17345      61746963 
  17345      4C697374 
+ARM GAS  /tmp/cc596bob.s 			page 340
+
+
  17346 3cf2 645F756E 		.ascii	"d_unsafeEv\000"
-ARM GAS  /tmp/ccKaTwIo.s 			page 340
-
-
  17346      73616665 
  17346      457600
  17347              	.LASF104:
@@ -20397,10 +20398,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17366      69737449 
  17367 3e10 6E736166 		.ascii	"nsafeEv\000"
  17367      65457600 
+ARM GAS  /tmp/cc596bob.s 			page 341
+
+
  17368              	.LASF776:
-ARM GAS  /tmp/ccKaTwIo.s 			page 341
-
-
  17369 3e18 72616D73 		.ascii	"ramstartadr\000"
  17369      74617274 
  17369      61647200 
@@ -20457,10 +20458,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17388 3f21 4D676D74 		.ascii	"MgmtMsg\000"
  17388      4D736700 
  17389              	.LASF90:
+ARM GAS  /tmp/cc596bob.s 			page 342
+
+
  17390 3f29 6D705F6E 		.ascii	"mp_next\000"
-ARM GAS  /tmp/ccKaTwIo.s 			page 342
-
-
  17390      65787400 
  17391              	.LASF880:
  17392 3f31 646F5F6D 		.ascii	"do_mgmt_thread\000"
@@ -20517,10 +20518,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17414      31305374 
  17414      61746963 
  17414      4C697374 
+ARM GAS  /tmp/cc596bob.s 			page 343
+
+
  17415 4000 00       		.ascii	"\000"
-ARM GAS  /tmp/ccKaTwIo.s 			page 343
-
-
  17416              	.LASF46:
  17417 4001 705F7265 		.ascii	"p_refs\000"
  17417      667300
@@ -20577,10 +20578,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17438              	.LASF221:
  17439 40f9 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_15LocalSubscriberEE13ConstI"
  17439      33723270 
+ARM GAS  /tmp/cc596bob.s 			page 344
+
+
  17439      31305374 
-ARM GAS  /tmp/ccKaTwIo.s 			page 344
-
-
  17439      61746963 
  17439      4C697374 
  17440 412c 74657261 		.ascii	"teratordeEv\000"
@@ -20637,10 +20638,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17461 4221 6861735F 		.ascii	"has_local_subscribers\000"
  17461      6C6F6361 
  17461      6C5F7375 
+ARM GAS  /tmp/cc596bob.s 			page 345
+
+
  17461      62736372 
-ARM GAS  /tmp/ccKaTwIo.s 			page 345
-
-
  17461      69626572 
  17462              	.LASF457:
  17463 4237 62795F6E 		.ascii	"by_node\000"
@@ -20697,10 +20698,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17486      746800
  17487              	.LASF539:
  17488 431d 63726561 		.ascii	"create_heap\000"
+ARM GAS  /tmp/cc596bob.s 			page 346
+
+
  17488      74655F68 
-ARM GAS  /tmp/ccKaTwIo.s 			page 346
-
-
  17488      65617000 
  17489              	.LASF196:
  17490 4329 5F5A4E33 		.ascii	"_ZN3r2p4TimeaSERKS0_\000"
@@ -20757,10 +20758,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17510      65507562 
  17510      6C697368 
  17511 4454 654500   		.ascii	"eE\000"
+ARM GAS  /tmp/cc596bob.s 			page 347
+
+
  17512              	.LASF60:
-ARM GAS  /tmp/ccKaTwIo.s 			page 347
-
-
  17513 4457 72656761 		.ascii	"regarm_t\000"
  17513      726D5F74 
  17513      00
@@ -20817,10 +20818,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17536 4544 6C6F6E67 		.ascii	"long unsigned int\000"
  17536      20756E73 
  17536      69676E65 
+ARM GAS  /tmp/cc596bob.s 			page 348
+
+
  17536      6420696E 
-ARM GAS  /tmp/ccKaTwIo.s 			page 348
-
-
  17536      7400
  17537              	.LASF172:
  17538 4556 7E4D656D 		.ascii	"~MemoryPool_\000"
@@ -20877,10 +20878,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17555      6332316E 
  17555      6F746966 
  17556 466b 4B4E535F 		.ascii	"KNS_4TimeE\000"
+ARM GAS  /tmp/cc596bob.s 			page 349
+
+
  17556      3454696D 
-ARM GAS  /tmp/ccKaTwIo.s 			page 349
-
-
  17556      654500
  17557              	.LASF748:
  17558 4676 72656173 		.ascii	"reason\000"
@@ -20937,10 +20938,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17577 4779 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_14LocalPublisherEE17find_fi"
  17577      33723270 
  17577      31305374 
+ARM GAS  /tmp/cc596bob.s 			page 350
+
+
  17577      61746963 
-ARM GAS  /tmp/ccKaTwIo.s 			page 350
-
-
  17577      4C697374 
  17578 47ac 7273745F 		.ascii	"rst_unsafeEPFbRKS1_E\000"
  17578      756E7361 
@@ -20997,10 +20998,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17603 4865 636F6D70 		.ascii	"compute_deadline_unsafe\000"
  17603      7574655F 
  17603      64656164 
+ARM GAS  /tmp/cc596bob.s 			page 351
+
+
  17603      6C696E65 
-ARM GAS  /tmp/ccKaTwIo.s 			page 351
-
-
  17603      5F756E73 
  17604              	.LASF856:
  17605 487d 5F5A4E33 		.ascii	"_ZN3r2p10Middleware6rebootEv\000"
@@ -21057,10 +21058,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17621      00
  17622              	.LASF199:
  17623 49b3 6F706572 		.ascii	"operator-=\000"
+ARM GAS  /tmp/cc596bob.s 			page 352
+
+
  17623      61746F72 
-ARM GAS  /tmp/ccKaTwIo.s 			page 352
-
-
  17623      2D3D00
  17624              	.LASF218:
  17625 49be 6F706572 		.ascii	"operator->\000"
@@ -21117,10 +21118,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17645 4ae4 5F5A4E33 		.ascii	"_ZN3r2p10StaticListINS_15LocalSubscriberEED2Ev\000"
  17645      72327031 
  17645      30537461 
+ARM GAS  /tmp/cc596bob.s 			page 353
+
+
  17645      7469634C 
-ARM GAS  /tmp/ccKaTwIo.s 			page 353
-
-
  17645      69737449 
  17646              	.LASF698:
  17647 4b13 5F5A4E33 		.ascii	"_ZN3r2p7ReMutex7releaseEv\000"
@@ -21177,10 +21178,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17666      6C746572 
  17666      52656769 
  17666      73746572 
+ARM GAS  /tmp/cc596bob.s 			page 354
+
+
  17667              	.LASF737:
-ARM GAS  /tmp/ccKaTwIo.s 			page 354
-
-
  17668 4c42 636F6D70 		.ascii	"compute_checksum\000"
  17668      7574655F 
  17668      63686563 
@@ -21237,10 +21238,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17687      63397375 
  17687      62736372 
  17688              	.LASF403:
+ARM GAS  /tmp/cc596bob.s 			page 355
+
+
  17689 4d7a 6E6F7469 		.ascii	"notify_locals_unsafe\000"
-ARM GAS  /tmp/ccKaTwIo.s 			page 355
-
-
  17689      66795F6C 
  17689      6F63616C 
  17689      735F756E 
@@ -21297,10 +21298,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17707      344C696E 
  17707      6B4500
  17708              	.LASF296:
+ARM GAS  /tmp/cc596bob.s 			page 356
+
+
  17709 4e9a 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_16RemoteSubscriberEE12count"
-ARM GAS  /tmp/ccKaTwIo.s 			page 356
-
-
  17709      33723270 
  17709      31305374 
  17709      61746963 
@@ -21357,10 +21358,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17729      00
  17730              	.LASF429:
  17731 4fbe 5F5A4E33 		.ascii	"_ZN3r2p5Topic9subscribeERNS_16RemoteSubscriberEj\000"
+ARM GAS  /tmp/cc596bob.s 			page 357
+
+
  17731      72327035 
-ARM GAS  /tmp/ccKaTwIo.s 			page 357
-
-
  17731      546F7069 
  17731      63397375 
  17731      62736372 
@@ -21417,10 +21418,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17754      4649464F 
  17754      4D61696C 
  17754      426F785F 
+ARM GAS  /tmp/cc596bob.s 			page 358
+
+
  17754      54797065 
-ARM GAS  /tmp/ccKaTwIo.s 			page 358
-
-
  17755              	.LASF434:
  17756 50de 4D657373 		.ascii	"Message\000"
  17756      61676500 
@@ -21477,10 +21478,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17777      74725F74 
  17777      79706500 
  17778              	.LASF203:
+ARM GAS  /tmp/cc596bob.s 			page 359
+
+
  17779 51d6 5F5A4E33 		.ascii	"_ZN3r2p4Time1sEl\000"
-ARM GAS  /tmp/ccKaTwIo.s 			page 359
-
-
  17779      72327034 
  17779      54696D65 
  17779      3173456C 
@@ -21537,10 +21538,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17801      00
  17802              	.LASF642:
  17803 52c8 5F5A4E33 		.ascii	"_ZN3r2p10StaticListINS_4NodeEE5beginEv\000"
+ARM GAS  /tmp/cc596bob.s 			page 360
+
+
  17803      72327031 
-ARM GAS  /tmp/ccKaTwIo.s 			page 360
-
-
  17803      30537461 
  17803      7469634C 
  17803      69737449 
@@ -21597,10 +21598,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17825      33723270 
  17825      35546F70 
  17825      69633235 
+ARM GAS  /tmp/cc596bob.s 			page 361
+
+
  17825      69735F61 
-ARM GAS  /tmp/ccKaTwIo.s 			page 361
-
-
  17826              	.LASF8:
  17827 53fe 5F5F7569 		.ascii	"__uint32_t\000"
  17827      6E743332 
@@ -21657,10 +21658,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17847 551f 69746572 		.ascii	"iter_subscribers\000"
  17847      5F737562 
  17847      73637269 
+ARM GAS  /tmp/cc596bob.s 			page 362
+
+
  17847      62657273 
-ARM GAS  /tmp/ccKaTwIo.s 			page 362
-
-
  17847      00
  17848              	.LASF994:
  17849 5530 6974656D 		.ascii	"item\000"
@@ -21717,10 +21718,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17867      65756549 
  17868              	.LASF515:
  17869 5672 706F7374 		.ascii	"post\000"
+ARM GAS  /tmp/cc596bob.s 			page 363
+
+
  17869      00
-ARM GAS  /tmp/ccKaTwIo.s 			page 363
-
-
  17870              	.LASF463:
  17871 5677 5F5A4E33 		.ascii	"_ZN3r2p10StaticListINS_14LocalPublisherEE13ConstIte"
  17871      72327031 
@@ -21777,10 +21778,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17891      636F6D70 
  17892              	.LASF130:
  17893 576b 52455345 		.ascii	"RESERVED9\000"
+ARM GAS  /tmp/cc596bob.s 			page 364
+
+
  17893      52564544 
-ARM GAS  /tmp/ccKaTwIo.s 			page 364
-
-
  17893      3900
  17894              	.LASF1015:
  17895 5775 72746361 		.ascii	"rtcan_config\000"
@@ -21837,10 +21838,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17913 589e 5F5A4E33 		.ascii	"_ZN3r2p4TimeC2IlEET_\000"
  17913      72327034 
  17913      54696D65 
+ARM GAS  /tmp/cc596bob.s 			page 365
+
+
  17913      4332496C 
-ARM GAS  /tmp/ccKaTwIo.s 			page 365
-
-
  17913      4545545F 
  17914              	.LASF466:
  17915 58b3 5F5A4E33 		.ascii	"_ZN3r2p10StaticListINS_14LocalPublisherEE13ConstIte"
@@ -21897,10 +21898,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17933      72327031 
  17933      30537461 
  17933      7469634C 
+ARM GAS  /tmp/cc596bob.s 			page 366
+
+
  17933      69737449 
-ARM GAS  /tmp/ccKaTwIo.s 			page 366
-
-
  17934              	.LASF333:
  17935 59e4 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_5TopicEE15index_of_unsafeER"
  17935      33723270 
@@ -21957,10 +21958,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17956      33723270 
  17956      31305374 
  17956      61746963 
+ARM GAS  /tmp/cc596bob.s 			page 367
+
+
  17956      4C697374 
-ARM GAS  /tmp/ccKaTwIo.s 			page 367
-
-
  17957 5b0c 53335F00 		.ascii	"S3_\000"
  17958              	.LASF357:
  17959 5b10 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_5TopicEE7restartERNS2_13Con"
@@ -22017,10 +22018,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  17981      646C6577 
  17981      61726532 
  17982              	.LASF521:
+ARM GAS  /tmp/cc596bob.s 			page 368
+
+
  17983 5c0c 41727261 		.ascii	"ArrayQueue\000"
-ARM GAS  /tmp/ccKaTwIo.s 			page 368
-
-
  17983      79517565 
  17983      756500
  17984              	.LASF312:
@@ -22077,10 +22078,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  18006      33723270 
  18006      31304D69 
  18006      64646C65 
+ARM GAS  /tmp/cc596bob.s 			page 369
+
+
  18006      77617265 
-ARM GAS  /tmp/ccKaTwIo.s 			page 369
-
-
  18007              	.LASF35:
  18008 5d6f 65776D61 		.ascii	"ewmask\000"
  18008      736B00
@@ -22137,10 +22138,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  18029      65776172 
  18029      6500
  18030              	.LASF53:
+ARM GAS  /tmp/cc596bob.s 			page 370
+
+
  18031 5e8f 705F6D74 		.ascii	"p_mtxlist\000"
-ARM GAS  /tmp/ccKaTwIo.s 			page 370
-
-
  18031      786C6973 
  18031      7400
  18032              	.LASF186:
@@ -22197,10 +22198,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  18053      72327031 
  18053      30537461 
  18053      7469634C 
+ARM GAS  /tmp/cc596bob.s 			page 371
+
+
  18053      69737449 
-ARM GAS  /tmp/ccKaTwIo.s 			page 371
-
-
  18054              	.LASF690:
  18055 5fbe 7E4D7574 		.ascii	"~Mutex\000"
  18055      657800
@@ -22257,10 +22258,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  18073              	.LASF669:
  18074 60dc 5F5A4E33 		.ascii	"_ZN3r2p4Node11notify_stopEv\000"
  18074      72327034 
+ARM GAS  /tmp/cc596bob.s 			page 372
+
+
  18074      4E6F6465 
-ARM GAS  /tmp/ccKaTwIo.s 			page 372
-
-
  18074      31316E6F 
  18074      74696679 
  18075              	.LASF393:
@@ -22317,10 +22318,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  18092      61746963 
  18092      4C697374 
  18093 6243 66697273 		.ascii	"firstEPFbRKS1_E\000"
+ARM GAS  /tmp/cc596bob.s 			page 373
+
+
  18093      74455046 
-ARM GAS  /tmp/ccKaTwIo.s 			page 373
-
-
  18093      62524B53 
  18093      315F4500 
  18094              	.LASF210:
@@ -22377,10 +22378,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  18115              	.LASF10:
  18116 631e 6C6F6E67 		.ascii	"long long int\000"
  18116      206C6F6E 
+ARM GAS  /tmp/cc596bob.s 			page 374
+
+
  18116      6720696E 
-ARM GAS  /tmp/ccKaTwIo.s 			page 374
-
-
  18116      7400
  18117              	.LASF528:
  18118 632c 494E5445 		.ascii	"INTERRUPT\000"
@@ -22437,10 +22438,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  18133      7145524B 
  18133      53335F00 
  18134              	.LASF618:
+ARM GAS  /tmp/cc596bob.s 			page 375
+
+
  18135 647a 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_4NodeEE15is_empty_unsafeEv\000"
-ARM GAS  /tmp/ccKaTwIo.s 			page 375
-
-
  18135      33723270 
  18135      31305374 
  18135      61746963 
@@ -22497,10 +22498,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  18153 658e 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_5TopicEE10find_firstEPFbRKS"
  18153      33723270 
  18153      31305374 
+ARM GAS  /tmp/cc596bob.s 			page 376
+
+
  18153      61746963 
-ARM GAS  /tmp/ccKaTwIo.s 			page 376
-
-
  18153      4C697374 
  18154 65c1 315F504B 		.ascii	"1_PKvES6_\000"
  18154      76455336 
@@ -22557,10 +22558,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  18174      69737449 
  18175 66ff 74657261 		.ascii	"teratorE\000"
  18175      746F7245 
+ARM GAS  /tmp/cc596bob.s 			page 377
+
+
  18175      00
-ARM GAS  /tmp/ccKaTwIo.s 			page 377
-
-
  18176              	.LASF1022:
  18177 6708 5F5A4E33 		.ascii	"_ZN3r2p4Time3nowEv\000"
  18177      72327034 
@@ -22617,10 +22618,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  18196      6F61645F 
  18196      73697A65 
  18196      00
+ARM GAS  /tmp/cc596bob.s 			page 378
+
+
  18197              	.LASF405:
-ARM GAS  /tmp/ccKaTwIo.s 			page 378
-
-
  18198 6826 6E6F7469 		.ascii	"notify_remotes_unsafe\000"
  18198      66795F72 
  18198      656D6F74 
@@ -22677,10 +22678,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  18218      33723270 
  18218      31305374 
  18218      61746963 
+ARM GAS  /tmp/cc596bob.s 			page 379
+
+
  18218      4C697374 
-ARM GAS  /tmp/ccKaTwIo.s 			page 379
-
-
  18219 695e 64457600 		.ascii	"dEv\000"
  18220              	.LASF484:
  18221 6962 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_14LocalPublisherEE12begin_u"
@@ -22737,10 +22738,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  18241      65727300 
  18242              	.LASF191:
  18243 6a52 746F5F73 		.ascii	"to_s\000"
+ARM GAS  /tmp/cc596bob.s 			page 380
+
+
  18243      00
-ARM GAS  /tmp/ccKaTwIo.s 			page 380
-
-
  18244              	.LASF225:
  18245 6a57 6F706572 		.ascii	"operator==\000"
  18245      61746F72 
@@ -22797,10 +22798,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  18268      72327034 
  18268      4E6F6465 
  18268      39737562 
+ARM GAS  /tmp/cc596bob.s 			page 381
+
+
  18268      73637269 
-ARM GAS  /tmp/ccKaTwIo.s 			page 381
-
-
  18269 6b75 5F374D65 		.ascii	"_7MessageEj\000"
  18269      73736167 
  18269      65456A00 
@@ -22857,10 +22858,10 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  18289      73655375 
  18289      62736372 
  18290              	.LASF984:
+ARM GAS  /tmp/cc596bob.s 			page 382
+
+
  18291 6c9a 61726770 		.ascii	"argp\000"
-ARM GAS  /tmp/ccKaTwIo.s 			page 382
-
-
  18291      00
  18292              	.LASF495:
  18293 6c9f 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_14LocalPublisherEE10find_fi"
@@ -22917,145 +22918,145 @@ ARM GAS  /tmp/ccKaTwIo.s 			page 1
  18314 6d64 6D676D74 		.ascii	"mgmt_queue_buf\000"
  18314      5F717565 
  18314      75655F62 
+ARM GAS  /tmp/cc596bob.s 			page 383
+
+
  18314      756600
-ARM GAS  /tmp/ccKaTwIo.s 			page 383
-
-
  18315              	.LASF851:
  18316 6d73 73746172 		.ascii	"start\000"
  18316      7400
  18317              		.hidden	__dso_handle
  18318              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccKaTwIo.s 			page 384
+ARM GAS  /tmp/cc596bob.s 			page 384
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 main.cpp
-     /tmp/ccKaTwIo.s:21     .text._ZN3r2p10UncopyableD2Ev:00000000 $t
-     /tmp/ccKaTwIo.s:27     .text._ZN3r2p10UncopyableD2Ev:00000000 _ZN3r2p10UncopyableD2Ev
-     /tmp/ccKaTwIo.s:27     .text._ZN3r2p10UncopyableD2Ev:00000000 _ZN3r2p10UncopyableD1Ev
-     /tmp/ccKaTwIo.s:51     .text._ZNK3r2p4Time8to_s_rawEv:00000000 $t
-     /tmp/ccKaTwIo.s:57     .text._ZNK3r2p4Time8to_s_rawEv:00000000 _ZNK3r2p4Time8to_s_rawEv
-     /tmp/ccKaTwIo.s:85     .text._ZNK3r2p4Time8to_s_rawEv:0000001c $d
-     /tmp/ccKaTwIo.s:90     .text._ZN3r2p4TimeaSERKS0_:00000000 $t
-     /tmp/ccKaTwIo.s:96     .text._ZN3r2p4TimeaSERKS0_:00000000 _ZN3r2p4TimeaSERKS0_
-     /tmp/ccKaTwIo.s:124    .text._ZN3r2p4Time2msEl:00000000 $t
-     /tmp/ccKaTwIo.s:130    .text._ZN3r2p4Time2msEl:00000000 _ZN3r2p4Time2msEl
-     /tmp/ccKaTwIo.s:1012   .text._ZN3r2p4TimeC2IlEET_:00000000 _ZN3r2p4TimeC1IlEET_
-     /tmp/ccKaTwIo.s:160    .text._ZN3r2p7Thread_11create_heapEPvjmPFlS1_ES1_PKc:00000000 $t
-     /tmp/ccKaTwIo.s:166    .text._ZN3r2p7Thread_11create_heapEPvjmPFlS1_ES1_PKc:00000000 _ZN3r2p7Thread_11create_heapEPvjmPFlS1_ES1_PKc
-     /tmp/ccKaTwIo.s:214    .text._ZN3r2p7Thread_5sleepERKNS_4TimeE:00000000 $t
-     /tmp/ccKaTwIo.s:220    .text._ZN3r2p7Thread_5sleepERKNS_4TimeE:00000000 _ZN3r2p7Thread_5sleepERKNS_4TimeE
-     /tmp/ccKaTwIo.s:279    .text._ZN3r2p7Thread_5sleepERKNS_4TimeE:0000005c $d
-     /tmp/ccKaTwIo.s:285    .text._ZN3r2p6Thread11create_heapEPvjmPFlS1_ES1_PKc:00000000 $t
-     /tmp/ccKaTwIo.s:291    .text._ZN3r2p6Thread11create_heapEPvjmPFlS1_ES1_PKc:00000000 _ZN3r2p6Thread11create_heapEPvjmPFlS1_ES1_PKc
-     /tmp/ccKaTwIo.s:328    .text._ZN3r2p6Thread5sleepERKNS_4TimeE:00000000 $t
-     /tmp/ccKaTwIo.s:334    .text._ZN3r2p6Thread5sleepERKNS_4TimeE:00000000 _ZN3r2p6Thread5sleepERKNS_4TimeE
-     /tmp/ccKaTwIo.s:358    .text._ZNK3r2p10SpinEvent_10get_threadEv:00000000 $t
-     /tmp/ccKaTwIo.s:364    .text._ZNK3r2p10SpinEvent_10get_threadEv:00000000 _ZNK3r2p10SpinEvent_10get_threadEv
-     /tmp/ccKaTwIo.s:388    .rodata:00000000 $d
-     /tmp/ccKaTwIo.s:392    .text._ZN3r2p10SpinEvent_13signal_unsafeEj:00000000 $t
-     /tmp/ccKaTwIo.s:398    .text._ZN3r2p10SpinEvent_13signal_unsafeEj:00000000 _ZN3r2p10SpinEvent_13signal_unsafeEj
-     /tmp/ccKaTwIo.s:443    .text._ZN3r2p10SpinEvent_13signal_unsafeEj:00000038 $d
-     /tmp/ccKaTwIo.s:448    .text._ZNK3r2p9SpinEvent10get_threadEv:00000000 $t
-     /tmp/ccKaTwIo.s:454    .text._ZNK3r2p9SpinEvent10get_threadEv:00000000 _ZNK3r2p9SpinEvent10get_threadEv
-     /tmp/ccKaTwIo.s:482    .text._ZN3r2p9SpinEvent13signal_unsafeEj:00000000 $t
-     /tmp/ccKaTwIo.s:488    .text._ZN3r2p9SpinEvent13signal_unsafeEj:00000000 _ZN3r2p9SpinEvent13signal_unsafeEj
-     /tmp/ccKaTwIo.s:515    .text._ZNK3r2p4Node11get_enabledEv:00000000 $t
-     /tmp/ccKaTwIo.s:521    .text._ZNK3r2p4Node11get_enabledEv:00000000 _ZNK3r2p4Node11get_enabledEv
-     /tmp/ccKaTwIo.s:555    .text._ZN3r2p4Node13notify_unsafeEj:00000000 $t
-     /tmp/ccKaTwIo.s:561    .text._ZN3r2p4Node13notify_unsafeEj:00000000 _ZN3r2p4Node13notify_unsafeEj
-     /tmp/ccKaTwIo.s:589    .text._ZNK3r2p15LocalSubscriber16get_queue_lengthEv:00000000 $t
-     /tmp/ccKaTwIo.s:595    .text._ZNK3r2p15LocalSubscriber16get_queue_lengthEv:00000000 _ZNK3r2p15LocalSubscriber16get_queue_lengthEv
-     /tmp/ccKaTwIo.s:1048   .text._ZNK3r2p10ArrayQueueIPNS_7MessageEE10get_lengthEv:00000000 _ZNK3r2p10ArrayQueueIPNS_7MessageEE10get_lengthEv
-     /tmp/ccKaTwIo.s:624    .text._ZN3r2p15LocalSubscriber12fetch_unsafeERPNS_7MessageERNS_4TimeE:00000000 $t
-     /tmp/ccKaTwIo.s:630    .text._ZN3r2p15LocalSubscriber12fetch_unsafeERPNS_7MessageERNS_4TimeE:00000000 _ZN3r2p15LocalSubscriber12fetch_unsafeERPNS_7MessageERNS_4TimeE
-     /tmp/ccKaTwIo.s:1078   .text._ZN3r2p10ArrayQueueIPNS_7MessageEE12fetch_unsafeERS2_:00000000 _ZN3r2p10ArrayQueueIPNS_7MessageEE12fetch_unsafeERS2_
-     /tmp/ccKaTwIo.s:678    .text._ZN3r2p15LocalSubscriber13notify_unsafeERNS_7MessageERKNS_4TimeE:00000000 $t
-     /tmp/ccKaTwIo.s:684    .text._ZN3r2p15LocalSubscriber13notify_unsafeERNS_7MessageERKNS_4TimeE:00000000 _ZN3r2p15LocalSubscriber13notify_unsafeERNS_7MessageERKNS_4TimeE
-     /tmp/ccKaTwIo.s:1156   .text._ZN3r2p10ArrayQueueIPNS_7MessageEE11post_unsafeES2_:00000000 _ZN3r2p10ArrayQueueIPNS_7MessageEE11post_unsafeES2_
-     /tmp/ccKaTwIo.s:750    .text._ZN3r2p6Mutex_D2Ev:00000000 $t
-     /tmp/ccKaTwIo.s:756    .text._ZN3r2p6Mutex_D2Ev:00000000 _ZN3r2p6Mutex_D2Ev
-     /tmp/ccKaTwIo.s:756    .text._ZN3r2p6Mutex_D2Ev:00000000 _ZN3r2p6Mutex_D1Ev
-     /tmp/ccKaTwIo.s:786    .text._ZN3r2p5MutexD2Ev:00000000 $t
-     /tmp/ccKaTwIo.s:792    .text._ZN3r2p5MutexD2Ev:00000000 _ZN3r2p5MutexD2Ev
-     /tmp/ccKaTwIo.s:792    .text._ZN3r2p5MutexD2Ev:00000000 _ZN3r2p5MutexD1Ev
-     /tmp/ccKaTwIo.s:826    .bss._ZL7wa_info:00000000 $d
-     /tmp/ccKaTwIo.s:829    .bss._ZL7wa_info:00000000 _ZL7wa_info
-     /tmp/ccKaTwIo.s:832    .bss._ZL8rtcantra:00000000 $d
-     /tmp/ccKaTwIo.s:835    .bss._ZL8rtcantra:00000000 _ZL8rtcantra
-     /tmp/ccKaTwIo.s:842    .data.rtcan_config:00000000 rtcan_config
-     /tmp/ccKaTwIo.s:839    .data.rtcan_config:00000000 $d
-ARM GAS  /tmp/ccKaTwIo.s 			page 385
+     /tmp/cc596bob.s:21     .text._ZN3r2p10UncopyableD2Ev:00000000 $t
+     /tmp/cc596bob.s:27     .text._ZN3r2p10UncopyableD2Ev:00000000 _ZN3r2p10UncopyableD2Ev
+     /tmp/cc596bob.s:27     .text._ZN3r2p10UncopyableD2Ev:00000000 _ZN3r2p10UncopyableD1Ev
+     /tmp/cc596bob.s:51     .text._ZNK3r2p4Time8to_s_rawEv:00000000 $t
+     /tmp/cc596bob.s:57     .text._ZNK3r2p4Time8to_s_rawEv:00000000 _ZNK3r2p4Time8to_s_rawEv
+     /tmp/cc596bob.s:85     .text._ZNK3r2p4Time8to_s_rawEv:0000001c $d
+     /tmp/cc596bob.s:90     .text._ZN3r2p4TimeaSERKS0_:00000000 $t
+     /tmp/cc596bob.s:96     .text._ZN3r2p4TimeaSERKS0_:00000000 _ZN3r2p4TimeaSERKS0_
+     /tmp/cc596bob.s:124    .text._ZN3r2p4Time2msEl:00000000 $t
+     /tmp/cc596bob.s:130    .text._ZN3r2p4Time2msEl:00000000 _ZN3r2p4Time2msEl
+     /tmp/cc596bob.s:1012   .text._ZN3r2p4TimeC2IlEET_:00000000 _ZN3r2p4TimeC1IlEET_
+     /tmp/cc596bob.s:160    .text._ZN3r2p7Thread_11create_heapEPvjmPFlS1_ES1_PKc:00000000 $t
+     /tmp/cc596bob.s:166    .text._ZN3r2p7Thread_11create_heapEPvjmPFlS1_ES1_PKc:00000000 _ZN3r2p7Thread_11create_heapEPvjmPFlS1_ES1_PKc
+     /tmp/cc596bob.s:214    .text._ZN3r2p7Thread_5sleepERKNS_4TimeE:00000000 $t
+     /tmp/cc596bob.s:220    .text._ZN3r2p7Thread_5sleepERKNS_4TimeE:00000000 _ZN3r2p7Thread_5sleepERKNS_4TimeE
+     /tmp/cc596bob.s:279    .text._ZN3r2p7Thread_5sleepERKNS_4TimeE:0000005c $d
+     /tmp/cc596bob.s:285    .text._ZN3r2p6Thread11create_heapEPvjmPFlS1_ES1_PKc:00000000 $t
+     /tmp/cc596bob.s:291    .text._ZN3r2p6Thread11create_heapEPvjmPFlS1_ES1_PKc:00000000 _ZN3r2p6Thread11create_heapEPvjmPFlS1_ES1_PKc
+     /tmp/cc596bob.s:328    .text._ZN3r2p6Thread5sleepERKNS_4TimeE:00000000 $t
+     /tmp/cc596bob.s:334    .text._ZN3r2p6Thread5sleepERKNS_4TimeE:00000000 _ZN3r2p6Thread5sleepERKNS_4TimeE
+     /tmp/cc596bob.s:358    .text._ZNK3r2p10SpinEvent_10get_threadEv:00000000 $t
+     /tmp/cc596bob.s:364    .text._ZNK3r2p10SpinEvent_10get_threadEv:00000000 _ZNK3r2p10SpinEvent_10get_threadEv
+     /tmp/cc596bob.s:388    .rodata:00000000 $d
+     /tmp/cc596bob.s:392    .text._ZN3r2p10SpinEvent_13signal_unsafeEj:00000000 $t
+     /tmp/cc596bob.s:398    .text._ZN3r2p10SpinEvent_13signal_unsafeEj:00000000 _ZN3r2p10SpinEvent_13signal_unsafeEj
+     /tmp/cc596bob.s:443    .text._ZN3r2p10SpinEvent_13signal_unsafeEj:00000038 $d
+     /tmp/cc596bob.s:448    .text._ZNK3r2p9SpinEvent10get_threadEv:00000000 $t
+     /tmp/cc596bob.s:454    .text._ZNK3r2p9SpinEvent10get_threadEv:00000000 _ZNK3r2p9SpinEvent10get_threadEv
+     /tmp/cc596bob.s:482    .text._ZN3r2p9SpinEvent13signal_unsafeEj:00000000 $t
+     /tmp/cc596bob.s:488    .text._ZN3r2p9SpinEvent13signal_unsafeEj:00000000 _ZN3r2p9SpinEvent13signal_unsafeEj
+     /tmp/cc596bob.s:515    .text._ZNK3r2p4Node11get_enabledEv:00000000 $t
+     /tmp/cc596bob.s:521    .text._ZNK3r2p4Node11get_enabledEv:00000000 _ZNK3r2p4Node11get_enabledEv
+     /tmp/cc596bob.s:555    .text._ZN3r2p4Node13notify_unsafeEj:00000000 $t
+     /tmp/cc596bob.s:561    .text._ZN3r2p4Node13notify_unsafeEj:00000000 _ZN3r2p4Node13notify_unsafeEj
+     /tmp/cc596bob.s:589    .text._ZNK3r2p15LocalSubscriber16get_queue_lengthEv:00000000 $t
+     /tmp/cc596bob.s:595    .text._ZNK3r2p15LocalSubscriber16get_queue_lengthEv:00000000 _ZNK3r2p15LocalSubscriber16get_queue_lengthEv
+     /tmp/cc596bob.s:1048   .text._ZNK3r2p10ArrayQueueIPNS_7MessageEE10get_lengthEv:00000000 _ZNK3r2p10ArrayQueueIPNS_7MessageEE10get_lengthEv
+     /tmp/cc596bob.s:624    .text._ZN3r2p15LocalSubscriber12fetch_unsafeERPNS_7MessageERNS_4TimeE:00000000 $t
+     /tmp/cc596bob.s:630    .text._ZN3r2p15LocalSubscriber12fetch_unsafeERPNS_7MessageERNS_4TimeE:00000000 _ZN3r2p15LocalSubscriber12fetch_unsafeERPNS_7MessageERNS_4TimeE
+     /tmp/cc596bob.s:1078   .text._ZN3r2p10ArrayQueueIPNS_7MessageEE12fetch_unsafeERS2_:00000000 _ZN3r2p10ArrayQueueIPNS_7MessageEE12fetch_unsafeERS2_
+     /tmp/cc596bob.s:678    .text._ZN3r2p15LocalSubscriber13notify_unsafeERNS_7MessageERKNS_4TimeE:00000000 $t
+     /tmp/cc596bob.s:684    .text._ZN3r2p15LocalSubscriber13notify_unsafeERNS_7MessageERKNS_4TimeE:00000000 _ZN3r2p15LocalSubscriber13notify_unsafeERNS_7MessageERKNS_4TimeE
+     /tmp/cc596bob.s:1156   .text._ZN3r2p10ArrayQueueIPNS_7MessageEE11post_unsafeES2_:00000000 _ZN3r2p10ArrayQueueIPNS_7MessageEE11post_unsafeES2_
+     /tmp/cc596bob.s:750    .text._ZN3r2p6Mutex_D2Ev:00000000 $t
+     /tmp/cc596bob.s:756    .text._ZN3r2p6Mutex_D2Ev:00000000 _ZN3r2p6Mutex_D2Ev
+     /tmp/cc596bob.s:756    .text._ZN3r2p6Mutex_D2Ev:00000000 _ZN3r2p6Mutex_D1Ev
+     /tmp/cc596bob.s:786    .text._ZN3r2p5MutexD2Ev:00000000 $t
+     /tmp/cc596bob.s:792    .text._ZN3r2p5MutexD2Ev:00000000 _ZN3r2p5MutexD2Ev
+     /tmp/cc596bob.s:792    .text._ZN3r2p5MutexD2Ev:00000000 _ZN3r2p5MutexD1Ev
+     /tmp/cc596bob.s:826    .bss._ZL7wa_info:00000000 $d
+     /tmp/cc596bob.s:829    .bss._ZL7wa_info:00000000 _ZL7wa_info
+     /tmp/cc596bob.s:832    .bss._ZL8rtcantra:00000000 $d
+     /tmp/cc596bob.s:835    .bss._ZL8rtcantra:00000000 _ZL8rtcantra
+     /tmp/cc596bob.s:842    .data.rtcan_config:00000000 rtcan_config
+     /tmp/cc596bob.s:839    .data.rtcan_config:00000000 $d
+ARM GAS  /tmp/cc596bob.s 			page 385
 
 
-     /tmp/ccKaTwIo.s:851    .bss._ZN3r2p10Middleware8instanceE:00000000 _ZN3r2p10Middleware8instanceE
-     /tmp/ccKaTwIo.s:848    .bss._ZN3r2p10Middleware8instanceE:00000000 $d
-     /tmp/ccKaTwIo.s:863    .text.main:00000000 $t
-     /tmp/ccKaTwIo.s:869    .text.main:00000000 main
-     /tmp/ccKaTwIo.s:991    .text.main:000000e4 $d
-     /tmp/ccKaTwIo.s:1006   .text._ZN3r2p4TimeC2IlEET_:00000000 $t
-     /tmp/ccKaTwIo.s:1012   .text._ZN3r2p4TimeC2IlEET_:00000000 _ZN3r2p4TimeC2IlEET_
-     /tmp/ccKaTwIo.s:1042   .text._ZNK3r2p10ArrayQueueIPNS_7MessageEE10get_lengthEv:00000000 $t
-     /tmp/ccKaTwIo.s:1072   .text._ZN3r2p10ArrayQueueIPNS_7MessageEE12fetch_unsafeERS2_:00000000 $t
-     /tmp/ccKaTwIo.s:1150   .text._ZN3r2p10ArrayQueueIPNS_7MessageEE11post_unsafeES2_:00000000 $t
-     /tmp/ccKaTwIo.s:1233   .rodata._ZTVN3r2p16SubscriberExtBufINS_7MgmtMsgEEE:00000000 _ZTVN3r2p16SubscriberExtBufINS_7MgmtMsgEEE
-     /tmp/ccKaTwIo.s:1230   .rodata._ZTVN3r2p16SubscriberExtBufINS_7MgmtMsgEEE:00000000 $d
-     /tmp/ccKaTwIo.s:1788   .text._ZN3r2p16SubscriberExtBufINS_7MgmtMsgEED2Ev:00000000 _ZN3r2p16SubscriberExtBufINS_7MgmtMsgEED1Ev
-     /tmp/ccKaTwIo.s:1840   .text._ZN3r2p16SubscriberExtBufINS_7MgmtMsgEED0Ev:00000000 _ZN3r2p16SubscriberExtBufINS_7MgmtMsgEED0Ev
-     /tmp/ccKaTwIo.s:1248   .rodata._ZTVN3r2p9PublisherINS_7MgmtMsgEEE:00000000 _ZTVN3r2p9PublisherINS_7MgmtMsgEEE
-     /tmp/ccKaTwIo.s:1245   .rodata._ZTVN3r2p9PublisherINS_7MgmtMsgEEE:00000000 $d
-     /tmp/ccKaTwIo.s:1703   .text._ZN3r2p9PublisherINS_7MgmtMsgEED2Ev:00000000 _ZN3r2p9PublisherINS_7MgmtMsgEED1Ev
-     /tmp/ccKaTwIo.s:1755   .text._ZN3r2p9PublisherINS_7MgmtMsgEED0Ev:00000000 _ZN3r2p9PublisherINS_7MgmtMsgEED0Ev
-     /tmp/ccKaTwIo.s:1254   .text._ZN3r2p10StaticListINS_4NodeEED2Ev:00000000 $t
-     /tmp/ccKaTwIo.s:1260   .text._ZN3r2p10StaticListINS_4NodeEED2Ev:00000000 _ZN3r2p10StaticListINS_4NodeEED2Ev
-     /tmp/ccKaTwIo.s:1260   .text._ZN3r2p10StaticListINS_4NodeEED2Ev:00000000 _ZN3r2p10StaticListINS_4NodeEED1Ev
-     /tmp/ccKaTwIo.s:1290   .text._ZN3r2p10StaticListINS_5TopicEED2Ev:00000000 $t
-     /tmp/ccKaTwIo.s:1296   .text._ZN3r2p10StaticListINS_5TopicEED2Ev:00000000 _ZN3r2p10StaticListINS_5TopicEED2Ev
-     /tmp/ccKaTwIo.s:1296   .text._ZN3r2p10StaticListINS_5TopicEED2Ev:00000000 _ZN3r2p10StaticListINS_5TopicEED1Ev
-     /tmp/ccKaTwIo.s:1325   .text._ZN3r2p10StaticListINS_9TransportEED2Ev:00000000 $t
-     /tmp/ccKaTwIo.s:1331   .text._ZN3r2p10StaticListINS_9TransportEED2Ev:00000000 _ZN3r2p10StaticListINS_9TransportEED2Ev
-     /tmp/ccKaTwIo.s:1331   .text._ZN3r2p10StaticListINS_9TransportEED2Ev:00000000 _ZN3r2p10StaticListINS_9TransportEED1Ev
-     /tmp/ccKaTwIo.s:1360   .text._ZN3r2p7ReMutexD2Ev:00000000 $t
-     /tmp/ccKaTwIo.s:1366   .text._ZN3r2p7ReMutexD2Ev:00000000 _ZN3r2p7ReMutexD2Ev
-     /tmp/ccKaTwIo.s:1366   .text._ZN3r2p7ReMutexD2Ev:00000000 _ZN3r2p7ReMutexD1Ev
-     /tmp/ccKaTwIo.s:1400   .text._ZN3r2p11MemoryPool_D2Ev:00000000 $t
-     /tmp/ccKaTwIo.s:1406   .text._ZN3r2p11MemoryPool_D2Ev:00000000 _ZN3r2p11MemoryPool_D2Ev
-     /tmp/ccKaTwIo.s:1406   .text._ZN3r2p11MemoryPool_D2Ev:00000000 _ZN3r2p11MemoryPool_D1Ev
-     /tmp/ccKaTwIo.s:1436   .text._ZN3r2p10StaticListINS_15LocalSubscriberEED2Ev:00000000 $t
-     /tmp/ccKaTwIo.s:1442   .text._ZN3r2p10StaticListINS_15LocalSubscriberEED2Ev:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEED2Ev
-     /tmp/ccKaTwIo.s:1442   .text._ZN3r2p10StaticListINS_15LocalSubscriberEED2Ev:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEED1Ev
-     /tmp/ccKaTwIo.s:1471   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEED2Ev:00000000 $t
-     /tmp/ccKaTwIo.s:1477   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEED2Ev:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEED2Ev
-     /tmp/ccKaTwIo.s:1477   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEED2Ev:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEED1Ev
-     /tmp/ccKaTwIo.s:1506   .text._ZN3r2p5TopicD2Ev:00000000 $t
-     /tmp/ccKaTwIo.s:1512   .text._ZN3r2p5TopicD2Ev:00000000 _ZN3r2p5TopicD2Ev
-     /tmp/ccKaTwIo.s:1512   .text._ZN3r2p5TopicD2Ev:00000000 _ZN3r2p5TopicD1Ev
-     /tmp/ccKaTwIo.s:1554   .text._ZN3r2p10MiddlewareD2Ev:00000000 $t
-     /tmp/ccKaTwIo.s:1560   .text._ZN3r2p10MiddlewareD2Ev:00000000 _ZN3r2p10MiddlewareD2Ev
-     /tmp/ccKaTwIo.s:1560   .text._ZN3r2p10MiddlewareD2Ev:00000000 _ZN3r2p10MiddlewareD1Ev
-     /tmp/ccKaTwIo.s:1629   .text._Z41__static_initialization_and_destruction_0ii:00000000 $t
-     /tmp/ccKaTwIo.s:1634   .text._Z41__static_initialization_and_destruction_0ii:00000000 _Z41__static_initialization_and_destruction_0ii
-     /tmp/ccKaTwIo.s:1685   .text._Z41__static_initialization_and_destruction_0ii:0000004c $d
-     /tmp/ccKaTwIo.s:1697   .text._ZN3r2p9PublisherINS_7MgmtMsgEED2Ev:00000000 $t
-     /tmp/ccKaTwIo.s:1703   .text._ZN3r2p9PublisherINS_7MgmtMsgEED2Ev:00000000 _ZN3r2p9PublisherINS_7MgmtMsgEED2Ev
-     /tmp/ccKaTwIo.s:1742   .text._ZN3r2p9PublisherINS_7MgmtMsgEED2Ev:0000002c $d
-     /tmp/ccKaTwIo.s:1749   .text._ZN3r2p9PublisherINS_7MgmtMsgEED0Ev:00000000 $t
-     /tmp/ccKaTwIo.s:1782   .text._ZN3r2p16SubscriberExtBufINS_7MgmtMsgEED2Ev:00000000 $t
-     /tmp/ccKaTwIo.s:1788   .text._ZN3r2p16SubscriberExtBufINS_7MgmtMsgEED2Ev:00000000 _ZN3r2p16SubscriberExtBufINS_7MgmtMsgEED2Ev
-     /tmp/ccKaTwIo.s:1827   .text._ZN3r2p16SubscriberExtBufINS_7MgmtMsgEED2Ev:0000002c $d
-     /tmp/ccKaTwIo.s:1834   .text._ZN3r2p16SubscriberExtBufINS_7MgmtMsgEED0Ev:00000000 $t
-     /tmp/ccKaTwIo.s:1867   .text._GLOBAL__sub_I_rtcan_config:00000000 $t
-ARM GAS  /tmp/ccKaTwIo.s 			page 386
+     /tmp/cc596bob.s:851    .bss._ZN3r2p10Middleware8instanceE:00000000 _ZN3r2p10Middleware8instanceE
+     /tmp/cc596bob.s:848    .bss._ZN3r2p10Middleware8instanceE:00000000 $d
+     /tmp/cc596bob.s:863    .text.main:00000000 $t
+     /tmp/cc596bob.s:869    .text.main:00000000 main
+     /tmp/cc596bob.s:991    .text.main:000000e0 $d
+     /tmp/cc596bob.s:1006   .text._ZN3r2p4TimeC2IlEET_:00000000 $t
+     /tmp/cc596bob.s:1012   .text._ZN3r2p4TimeC2IlEET_:00000000 _ZN3r2p4TimeC2IlEET_
+     /tmp/cc596bob.s:1042   .text._ZNK3r2p10ArrayQueueIPNS_7MessageEE10get_lengthEv:00000000 $t
+     /tmp/cc596bob.s:1072   .text._ZN3r2p10ArrayQueueIPNS_7MessageEE12fetch_unsafeERS2_:00000000 $t
+     /tmp/cc596bob.s:1150   .text._ZN3r2p10ArrayQueueIPNS_7MessageEE11post_unsafeES2_:00000000 $t
+     /tmp/cc596bob.s:1233   .rodata._ZTVN3r2p16SubscriberExtBufINS_7MgmtMsgEEE:00000000 _ZTVN3r2p16SubscriberExtBufINS_7MgmtMsgEEE
+     /tmp/cc596bob.s:1230   .rodata._ZTVN3r2p16SubscriberExtBufINS_7MgmtMsgEEE:00000000 $d
+     /tmp/cc596bob.s:1788   .text._ZN3r2p16SubscriberExtBufINS_7MgmtMsgEED2Ev:00000000 _ZN3r2p16SubscriberExtBufINS_7MgmtMsgEED1Ev
+     /tmp/cc596bob.s:1840   .text._ZN3r2p16SubscriberExtBufINS_7MgmtMsgEED0Ev:00000000 _ZN3r2p16SubscriberExtBufINS_7MgmtMsgEED0Ev
+     /tmp/cc596bob.s:1248   .rodata._ZTVN3r2p9PublisherINS_7MgmtMsgEEE:00000000 _ZTVN3r2p9PublisherINS_7MgmtMsgEEE
+     /tmp/cc596bob.s:1245   .rodata._ZTVN3r2p9PublisherINS_7MgmtMsgEEE:00000000 $d
+     /tmp/cc596bob.s:1703   .text._ZN3r2p9PublisherINS_7MgmtMsgEED2Ev:00000000 _ZN3r2p9PublisherINS_7MgmtMsgEED1Ev
+     /tmp/cc596bob.s:1755   .text._ZN3r2p9PublisherINS_7MgmtMsgEED0Ev:00000000 _ZN3r2p9PublisherINS_7MgmtMsgEED0Ev
+     /tmp/cc596bob.s:1254   .text._ZN3r2p10StaticListINS_4NodeEED2Ev:00000000 $t
+     /tmp/cc596bob.s:1260   .text._ZN3r2p10StaticListINS_4NodeEED2Ev:00000000 _ZN3r2p10StaticListINS_4NodeEED2Ev
+     /tmp/cc596bob.s:1260   .text._ZN3r2p10StaticListINS_4NodeEED2Ev:00000000 _ZN3r2p10StaticListINS_4NodeEED1Ev
+     /tmp/cc596bob.s:1290   .text._ZN3r2p10StaticListINS_5TopicEED2Ev:00000000 $t
+     /tmp/cc596bob.s:1296   .text._ZN3r2p10StaticListINS_5TopicEED2Ev:00000000 _ZN3r2p10StaticListINS_5TopicEED2Ev
+     /tmp/cc596bob.s:1296   .text._ZN3r2p10StaticListINS_5TopicEED2Ev:00000000 _ZN3r2p10StaticListINS_5TopicEED1Ev
+     /tmp/cc596bob.s:1325   .text._ZN3r2p10StaticListINS_9TransportEED2Ev:00000000 $t
+     /tmp/cc596bob.s:1331   .text._ZN3r2p10StaticListINS_9TransportEED2Ev:00000000 _ZN3r2p10StaticListINS_9TransportEED2Ev
+     /tmp/cc596bob.s:1331   .text._ZN3r2p10StaticListINS_9TransportEED2Ev:00000000 _ZN3r2p10StaticListINS_9TransportEED1Ev
+     /tmp/cc596bob.s:1360   .text._ZN3r2p7ReMutexD2Ev:00000000 $t
+     /tmp/cc596bob.s:1366   .text._ZN3r2p7ReMutexD2Ev:00000000 _ZN3r2p7ReMutexD2Ev
+     /tmp/cc596bob.s:1366   .text._ZN3r2p7ReMutexD2Ev:00000000 _ZN3r2p7ReMutexD1Ev
+     /tmp/cc596bob.s:1400   .text._ZN3r2p11MemoryPool_D2Ev:00000000 $t
+     /tmp/cc596bob.s:1406   .text._ZN3r2p11MemoryPool_D2Ev:00000000 _ZN3r2p11MemoryPool_D2Ev
+     /tmp/cc596bob.s:1406   .text._ZN3r2p11MemoryPool_D2Ev:00000000 _ZN3r2p11MemoryPool_D1Ev
+     /tmp/cc596bob.s:1436   .text._ZN3r2p10StaticListINS_15LocalSubscriberEED2Ev:00000000 $t
+     /tmp/cc596bob.s:1442   .text._ZN3r2p10StaticListINS_15LocalSubscriberEED2Ev:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEED2Ev
+     /tmp/cc596bob.s:1442   .text._ZN3r2p10StaticListINS_15LocalSubscriberEED2Ev:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEED1Ev
+     /tmp/cc596bob.s:1471   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEED2Ev:00000000 $t
+     /tmp/cc596bob.s:1477   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEED2Ev:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEED2Ev
+     /tmp/cc596bob.s:1477   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEED2Ev:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEED1Ev
+     /tmp/cc596bob.s:1506   .text._ZN3r2p5TopicD2Ev:00000000 $t
+     /tmp/cc596bob.s:1512   .text._ZN3r2p5TopicD2Ev:00000000 _ZN3r2p5TopicD2Ev
+     /tmp/cc596bob.s:1512   .text._ZN3r2p5TopicD2Ev:00000000 _ZN3r2p5TopicD1Ev
+     /tmp/cc596bob.s:1554   .text._ZN3r2p10MiddlewareD2Ev:00000000 $t
+     /tmp/cc596bob.s:1560   .text._ZN3r2p10MiddlewareD2Ev:00000000 _ZN3r2p10MiddlewareD2Ev
+     /tmp/cc596bob.s:1560   .text._ZN3r2p10MiddlewareD2Ev:00000000 _ZN3r2p10MiddlewareD1Ev
+     /tmp/cc596bob.s:1629   .text._Z41__static_initialization_and_destruction_0ii:00000000 $t
+     /tmp/cc596bob.s:1634   .text._Z41__static_initialization_and_destruction_0ii:00000000 _Z41__static_initialization_and_destruction_0ii
+     /tmp/cc596bob.s:1685   .text._Z41__static_initialization_and_destruction_0ii:0000004c $d
+     /tmp/cc596bob.s:1697   .text._ZN3r2p9PublisherINS_7MgmtMsgEED2Ev:00000000 $t
+     /tmp/cc596bob.s:1703   .text._ZN3r2p9PublisherINS_7MgmtMsgEED2Ev:00000000 _ZN3r2p9PublisherINS_7MgmtMsgEED2Ev
+     /tmp/cc596bob.s:1742   .text._ZN3r2p9PublisherINS_7MgmtMsgEED2Ev:0000002c $d
+     /tmp/cc596bob.s:1749   .text._ZN3r2p9PublisherINS_7MgmtMsgEED0Ev:00000000 $t
+     /tmp/cc596bob.s:1782   .text._ZN3r2p16SubscriberExtBufINS_7MgmtMsgEED2Ev:00000000 $t
+     /tmp/cc596bob.s:1788   .text._ZN3r2p16SubscriberExtBufINS_7MgmtMsgEED2Ev:00000000 _ZN3r2p16SubscriberExtBufINS_7MgmtMsgEED2Ev
+     /tmp/cc596bob.s:1827   .text._ZN3r2p16SubscriberExtBufINS_7MgmtMsgEED2Ev:0000002c $d
+     /tmp/cc596bob.s:1834   .text._ZN3r2p16SubscriberExtBufINS_7MgmtMsgEED0Ev:00000000 $t
+     /tmp/cc596bob.s:1867   .text._GLOBAL__sub_I_rtcan_config:00000000 $t
+ARM GAS  /tmp/cc596bob.s 			page 386
 
 
-     /tmp/ccKaTwIo.s:1872   .text._GLOBAL__sub_I_rtcan_config:00000000 _GLOBAL__sub_I_rtcan_config
-     /tmp/ccKaTwIo.s:1891   .init_array:00000000 $d
+     /tmp/cc596bob.s:1872   .text._GLOBAL__sub_I_rtcan_config:00000000 _GLOBAL__sub_I_rtcan_config
+     /tmp/cc596bob.s:1891   .init_array:00000000 $d
                      .debug_frame:00000010 $d
-     /tmp/ccKaTwIo.s:284    .text._ZN3r2p7Thread_5sleepERKNS_4TimeE:00000064 $t
-     /tmp/ccKaTwIo.s:447    .text._ZN3r2p10SpinEvent_13signal_unsafeEj:0000003c $t
-     /tmp/ccKaTwIo.s:1005   .text.main:0000010c $t
-     /tmp/ccKaTwIo.s:1696   .text._Z41__static_initialization_and_destruction_0ii:0000006c $t
+     /tmp/cc596bob.s:284    .text._ZN3r2p7Thread_5sleepERKNS_4TimeE:00000064 $t
+     /tmp/cc596bob.s:447    .text._ZN3r2p10SpinEvent_13signal_unsafeEj:0000003c $t
+     /tmp/cc596bob.s:1005   .text.main:00000108 $t
+     /tmp/cc596bob.s:1696   .text._Z41__static_initialization_and_destruction_0ii:0000006c $t
                            .group:00000000 _ZN3r2p10UncopyableD5Ev
                            .group:00000000 _ZN3r2p6Mutex_D5Ev
                            .group:00000000 _ZN3r2p5MutexD5Ev
