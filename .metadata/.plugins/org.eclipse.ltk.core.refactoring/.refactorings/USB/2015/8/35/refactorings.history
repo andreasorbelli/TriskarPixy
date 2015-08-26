@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;USB/nodes/follower_node.hpp&apos; to &apos;follow_node.hpp&apos;" description="Rename resource &apos;follower_node.hpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="nodes/follower_node.hpp" name="follow_node.hpp" stamp="1440594140559" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;USB/nodes/follower_node.cpp&apos; to &apos;follow_node.cpp&apos;" description="Rename resource &apos;follower_node.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="nodes/follower_node.cpp" name="follow_node.cpp" stamp="1440594145823" updateReferences="true"/>
+</session>

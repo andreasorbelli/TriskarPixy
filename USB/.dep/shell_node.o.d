@@ -162,7 +162,8 @@ build/obj/shell_node.o: nodes/shell_node.cpp \
  /home/ergae/r2p-sdk/core/Middleware/include/r2p/msg/time.hpp \
  /home/ergae/r2p-sdk/core/Middleware/include/r2p/msg/pixy.hpp \
  /home/ergae/r2p-sdk/core/Middleware/include/r2p/msg/pixyBuffer.hpp \
- /home/ergae/r2p-sdk/core/Middleware/include/r2p/msg/proximity.hpp
+ /home/ergae/r2p-sdk/core/Middleware/include/r2p/msg/proximity.hpp \
+ /home/ergae/r2p-sdk/core/Middleware/include/r2p/msg/follow.hpp
 
 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/stdlib.h:
 
@@ -491,3 +492,5 @@ build/obj/shell_node.o: nodes/shell_node.cpp \
 /home/ergae/r2p-sdk/core/Middleware/include/r2p/msg/pixyBuffer.hpp:
 
 /home/ergae/r2p-sdk/core/Middleware/include/r2p/msg/proximity.hpp:
+
+/home/ergae/r2p-sdk/core/Middleware/include/r2p/msg/follow.hpp:

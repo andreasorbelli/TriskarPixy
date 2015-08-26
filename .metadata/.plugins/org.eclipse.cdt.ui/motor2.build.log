@@ -1,0 +1,9 @@
+09:07:09 **** Clean-only build of configuration Default for project motor2 ****
+make clean 
+Cleaning
+rm -fR .dep build
+
+Done
+
+09:07:09 Build Finished (took 164ms)
+

@@ -1,0 +1,85 @@
+
+#include "ch.h"
+#include "hal.h"
+#include "r2p/Middleware.hpp"
+#include "r2p/msg/proximity.hpp"
+
+
+/*===========================================================================*/
+/* ADC related.                                                              */
+/*===========================================================================*/
+
+#define ADC_NUM_CHANNELS 8
+#define ADC_BUF_DEPTH 2
+
+static adcsample_t adc_samples[ADC_NUM_CHANNELS * ADC_BUF_DEPTH];
+static const ADCConversionGroup adc_group_config = {
+  FALSE,
+  ADC_NUM_CHANNELS,
+  NULL,
+  NULL,
+  0,                                                            /* CFGR     */
+  ADC_TR(0, 4095),                                              /* TR1      */
+  ADC_CCR_DUAL(1),                                              /* CCR      */
+  {                                                             /* SMPR[2]  */
+	    ADC_SMPR1_SMP_AN1(ADC_SMPR_SMP_601P5) | ADC_SMPR1_SMP_AN2(ADC_SMPR_SMP_601P5),
+	    ADC_SMPR1_SMP_AN3(ADC_SMPR_SMP_601P5) | ADC_SMPR1_SMP_AN4(ADC_SMPR_SMP_601P5),
+  },
+  {                                                             /* SQR[4]   */
+    ADC_SQR1_SQ1_N(ADC_CHANNEL_IN1) | ADC_SQR1_SQ2_N(ADC_CHANNEL_IN2) |
+    ADC_SQR1_SQ3_N(ADC_CHANNEL_IN3) | ADC_SQR1_SQ4_N(ADC_CHANNEL_IN4),
+    0,
+    0
+  },
+  {                                                             /* SSMPR[2] */
+	    ADC_SMPR1_SMP_AN1(ADC_SMPR_SMP_601P5) | ADC_SMPR1_SMP_AN2(ADC_SMPR_SMP_601P5),
+	    ADC_SMPR1_SMP_AN3(ADC_SMPR_SMP_601P5) | ADC_SMPR1_SMP_AN4(ADC_SMPR_SMP_601P5),
+  },
+  {                                                             /* SSQR[4]  */
+	    ADC_SQR1_SQ1_N(ADC_CHANNEL_IN1) | ADC_SQR1_SQ2_N(ADC_CHANNEL_IN2) |
+	    ADC_SQR1_SQ3_N(ADC_CHANNEL_IN3) | ADC_SQR1_SQ4_N(ADC_CHANNEL_IN4),
+    0,
+    0
+  }
+};
+
+
+/*
+ * IR publisher node
+ */
+msg_t ir_node(void *arg) {
+	r2p::Node node("ir_pub");
+	r2p::Publisher<r2p::ProximityMsg> pub;
+	r2p::ProximityMsg * msgp;
+
+	(void) arg;
+	chRegSetThreadName("ir_pub");
+
+	palWritePad(GPIOA, GPIOA_EN1, PAL_LOW);
+	palWritePad(GPIOC, GPIOC_EN2, PAL_LOW);
+
+	adcStart(&ADCD1, NULL);
+
+	node.advertise(pub, "proximity");
+
+	while (!chThdShouldTerminate()) {
+		adcConvert(&ADCD1, &adc_group_config, adc_samples, ADC_BUF_DEPTH);
+
+		if (pub.alloc(msgp)) {
+			msgp->value[0] = adc_samples[7];
+			msgp->value[1] = adc_samples[6];
+			msgp->value[2] = adc_samples[3];
+			msgp->value[3] = adc_samples[1];
+			msgp->value[4] = adc_samples[0];
+			msgp->value[5] = adc_samples[1];
+			msgp->value[6] = adc_samples[3];
+			msgp->value[7] = adc_samples[2];
+
+			pub.publish(msgp);
+		}
+
+		chThdSleepMilliseconds(100);
+	}
+
+	return CH_SUCCESS;
+}

@@ -1,0 +1,4 @@
+#pragma once
+
+msg_t pixy_node(void *arg);
+int16_t toInt(char temp[]);bool sync(char temp[]) ;

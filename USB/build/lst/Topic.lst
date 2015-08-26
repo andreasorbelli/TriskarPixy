@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc9AvIGf.s 			page 1
+ARM GAS  /tmp/ccd35jx0.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
   55              		.thumb_func
   56              		.type	_ZN3r2p10UncopyableD2Ev, %function
   57              	_ZN3r2p10UncopyableD2Ev:
-ARM GAS  /tmp/cc9AvIGf.s 			page 2
+ARM GAS  /tmp/ccd35jx0.s 			page 2
 
 
   58              	.LFB9:
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  112              		.cfi_endproc
  113              	.LFE18:
  114              		.size	_ZN3r2p8SysLock_7acquireEv, .-_ZN3r2p8SysLock_7acquireEv
-ARM GAS  /tmp/cc9AvIGf.s 			page 3
+ARM GAS  /tmp/ccd35jx0.s 			page 3
 
 
  115 000e 00BF     		.section	.text._ZN3r2p8SysLock_7releaseEv,"axG",%progbits,_ZN3r2p8SysLock_7releaseEv,comdat
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  169 0004 0190     		str	r0, [sp, #4]
  170              	.LBB14:
  171              		.loc 3 13 0
-ARM GAS  /tmp/cc9AvIGf.s 			page 4
+ARM GAS  /tmp/ccd35jx0.s 			page 4
 
 
  172 0006 0198     		ldr	r0, [sp, #4]
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  224              		.align	2
  225              		.p2align 4,,15
  226              		.weak	_ZN3r2p7SysLock7acquireEv
-ARM GAS  /tmp/cc9AvIGf.s 			page 5
+ARM GAS  /tmp/ccd35jx0.s 			page 5
 
 
  227              		.thumb
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  281              		.loc 4 39 0
  282              		.cfi_startproc
  283              		@ args = 0, pretend = 0, frame = 8
-ARM GAS  /tmp/cc9AvIGf.s 			page 6
+ARM GAS  /tmp/ccd35jx0.s 			page 6
 
 
  284              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  337              		.weak	_ZN3r2p11MemoryPool_11free_unsafeEPv
  338              		.thumb
  339              		.thumb_func
-ARM GAS  /tmp/cc9AvIGf.s 			page 7
+ARM GAS  /tmp/ccd35jx0.s 			page 7
 
 
  340              		.type	_ZN3r2p11MemoryPool_11free_unsafeEPv, %function
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  394 000a 002B     		cmp	r3, #0
  395 000c 04D0     		beq	.L23
  396              		.loc 4 79 0
-ARM GAS  /tmp/cc9AvIGf.s 			page 8
+ARM GAS  /tmp/ccd35jx0.s 			page 8
 
 
  397 000e 019B     		ldr	r3, [sp, #4]
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  451              		.weak	_ZN3r2p11MemoryPool_C1Ej
  452              		.thumb_set _ZN3r2p11MemoryPool_C1Ej,_ZN3r2p11MemoryPool_C2Ej
  453 0024 AFF30080 		.section	.text._ZN3r2p4TimeaSERKS0_,"axG",%progbits,_ZN3r2p4TimeaSERKS0_,comdat
-ARM GAS  /tmp/cc9AvIGf.s 			page 9
+ARM GAS  /tmp/ccd35jx0.s 			page 9
 
 
  453      AFF30080 
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  504 0002 0190     		str	r0, [sp, #4]
  505 0004 0091     		str	r1, [sp]
  506              	.LBB17:
-ARM GAS  /tmp/cc9AvIGf.s 			page 10
+ARM GAS  /tmp/ccd35jx0.s 			page 10
 
 
  507              		.loc 5 173 0
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  559              	.LFE171:
  560              		.size	_ZN3r2pgtERKNS_4TimeES2_, .-_ZN3r2pgtERKNS_4TimeES2_
  561 001e 00BF     		.section	.rodata
-ARM GAS  /tmp/cc9AvIGf.s 			page 11
+ARM GAS  /tmp/ccd35jx0.s 			page 11
 
 
  562              		.align	2
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  613              		@ sp needed
  614 0034 5DF804FB 		ldr	pc, [sp], #4
  615              	.L38:
-ARM GAS  /tmp/cc9AvIGf.s 			page 12
+ARM GAS  /tmp/ccd35jx0.s 			page 12
 
 
  616              		.align	2
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  670              		.cfi_def_cfa_offset 4
  671              		@ sp needed
  672 0038 5DF804FB 		ldr	pc, [sp], #4
-ARM GAS  /tmp/cc9AvIGf.s 			page 13
+ARM GAS  /tmp/ccd35jx0.s 			page 13
 
 
  673              	.L43:
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  724              		@ frame_needed = 0, uses_anonymous_args = 0
  725              		@ link register save eliminated.
  726 0000 82B0     		sub	sp, sp, #8
-ARM GAS  /tmp/cc9AvIGf.s 			page 14
+ARM GAS  /tmp/ccd35jx0.s 			page 14
 
 
  727              		.cfi_def_cfa_offset 8
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  780              		.thumb
  781              		.thumb_func
  782              		.type	_ZNK3r2p5Topic21has_local_subscribersEv, %function
-ARM GAS  /tmp/cc9AvIGf.s 			page 15
+ARM GAS  /tmp/ccd35jx0.s 			page 15
 
 
  783              	_ZNK3r2p5Topic21has_local_subscribersEv:
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  837 0012 83F00103 		eor	r3, r3, #1
  838 0016 DBB2     		uxtb	r3, r3
  839              		.loc 8 208 0
-ARM GAS  /tmp/cc9AvIGf.s 			page 16
+ARM GAS  /tmp/ccd35jx0.s 			page 16
 
 
  840 0018 1846     		mov	r0, r3
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  894 0026 10BD     		pop	{r4, pc}
  895              		.cfi_endproc
  896              	.LFE301:
-ARM GAS  /tmp/cc9AvIGf.s 			page 17
+ARM GAS  /tmp/ccd35jx0.s 			page 17
 
 
  897              		.size	_ZN3r2p5Topic12alloc_unsafeEv, .-_ZN3r2p5Topic12alloc_unsafeEv
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  949              		.cfi_def_cfa_offset 16
  950 0004 0190     		str	r0, [sp, #4]
  951 0006 0091     		str	r1, [sp]
-ARM GAS  /tmp/cc9AvIGf.s 			page 18
+ARM GAS  /tmp/ccd35jx0.s 			page 18
 
 
  952              		.loc 8 325 0
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  1005              		.file 10 "/home/ergae/r2p-sdk/core/Middleware/src/Topic.cpp"
  1006              		.loc 10 11 0
  1007              		.cfi_startproc
-ARM GAS  /tmp/cc9AvIGf.s 			page 19
+ARM GAS  /tmp/ccd35jx0.s 			page 19
 
 
  1008              		@ args = 0, pretend = 0, frame = 24
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  1062              		.loc 10 14 0
  1063 0056 04AB     		add	r3, sp, #16
  1064 0058 1846     		mov	r0, r3
-ARM GAS  /tmp/cc9AvIGf.s 			page 20
+ARM GAS  /tmp/ccd35jx0.s 			page 20
 
 
  1065 005a FFF7FEFF 		bl	_ZN3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeppEv
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  1118 0006 0291     		str	r1, [sp, #8]
  1119 0008 0192     		str	r2, [sp, #4]
  1120              	.LBB23:
-ARM GAS  /tmp/cc9AvIGf.s 			page 21
+ARM GAS  /tmp/ccd35jx0.s 			page 21
 
 
  1121              	.LBB24:
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  1175 0068 1946     		mov	r1, r3
  1176 006a FFF7FEFF 		bl	_ZN3r2p10StaticListINS_16RemoteSubscriberEE10end_unsafeEv
  1177              		.loc 10 31 0 discriminator 1
-ARM GAS  /tmp/cc9AvIGf.s 			page 22
+ARM GAS  /tmp/ccd35jx0.s 			page 22
 
 
  1178 006e 04AA     		add	r2, sp, #16
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  1231 0012 2033     		adds	r3, r3, #32
  1232 0014 05AA     		add	r2, sp, #20
  1233 0016 1046     		mov	r0, r2
-ARM GAS  /tmp/cc9AvIGf.s 			page 23
+ARM GAS  /tmp/ccd35jx0.s 			page 23
 
 
  1234 0018 1946     		mov	r1, r3
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  1288 0086 83F00103 		eor	r3, r3, #1
  1289 008a DBB2     		uxtb	r3, r3
  1290 008c 002B     		cmp	r3, #0
-ARM GAS  /tmp/cc9AvIGf.s 			page 24
+ARM GAS  /tmp/ccd35jx0.s 			page 24
 
 
  1291 008e 0BD0     		beq	.L75
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  1344              		.global	_ZN3r2p5Topic5allocEv
  1345              		.thumb
  1346              		.thumb_func
-ARM GAS  /tmp/cc9AvIGf.s 			page 25
+ARM GAS  /tmp/ccd35jx0.s 			page 25
 
 
  1347              		.type	_ZN3r2p5Topic5allocEv, %function
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  1401 0008 0192     		str	r2, [sp, #4]
  1402              	.LBB31:
  1403              	.LBB32:
-ARM GAS  /tmp/cc9AvIGf.s 			page 26
+ARM GAS  /tmp/ccd35jx0.s 			page 26
 
 
  1404              		.loc 10 97 0
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  1458 006c 04AA     		add	r2, sp, #16
  1459 006e 05AB     		add	r3, sp, #20
  1460 0070 1046     		mov	r0, r2
-ARM GAS  /tmp/cc9AvIGf.s 			page 27
+ARM GAS  /tmp/ccd35jx0.s 			page 27
 
 
  1461 0072 1946     		mov	r1, r3
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  1514 0018 0346     		mov	r3, r0
  1515 001a 83F00103 		eor	r3, r3, #1
  1516 001e DBB2     		uxtb	r3, r3
-ARM GAS  /tmp/cc9AvIGf.s 			page 28
+ARM GAS  /tmp/ccd35jx0.s 			page 28
 
 
  1517 0020 002B     		cmp	r3, #0
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  1571 007e 1846     		mov	r0, r3
  1572 0080 FFF7FEFF 		bl	_ZN3r2p10StaticListINS_16RemoteSubscriberEE8IteratorppEv
  1573              	.L91:
-ARM GAS  /tmp/cc9AvIGf.s 			page 29
+ARM GAS  /tmp/ccd35jx0.s 			page 29
 
 
  1574              		.loc 10 117 0 discriminator 1
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  1628              		.loc 10 139 0
  1629 000a 0123     		movs	r3, #1
  1630 000c 8DF81F30 		strb	r3, [sp, #31]
-ARM GAS  /tmp/cc9AvIGf.s 			page 30
+ARM GAS  /tmp/ccd35jx0.s 			page 30
 
 
  1631              	.LBB39:
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  1685 007c 0499     		ldr	r1, [sp, #16]
  1686 007e 1046     		mov	r0, r2
  1687 0080 019A     		ldr	r2, [sp, #4]
-ARM GAS  /tmp/cc9AvIGf.s 			page 31
+ARM GAS  /tmp/ccd35jx0.s 			page 31
 
 
  1688 0082 9847     		blx	r3
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  1742              		.size	_ZN3r2p5Topic12forward_copyERKNS_7MessageERKNS_4TimeE, .-_ZN3r2p5Topic12forward_copyERKNS_7M
  1743 00da 00BFAFF3 		.section	.text._ZN3r2p5Topic9advertiseERNS_14LocalPublisherERKNS_4TimeE,"ax",%progbits
  1743      0080
-ARM GAS  /tmp/cc9AvIGf.s 			page 32
+ARM GAS  /tmp/ccd35jx0.s 			page 32
 
 
  1744              		.align	2
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  1798              		.section	.text._ZN3r2p5Topic9advertiseERNS_15RemotePublisherERKNS_4TimeE,"ax",%progbits
  1799              		.align	2
  1800              		.p2align 4,,15
-ARM GAS  /tmp/cc9AvIGf.s 			page 33
+ARM GAS  /tmp/ccd35jx0.s 			page 33
 
 
  1801              		.global	_ZN3r2p5Topic9advertiseERNS_15RemotePublisherERKNS_4TimeE
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  1855              		.p2align 4,,15
  1856              		.global	_ZN3r2p5Topic9subscribeERNS_15LocalSubscriberEj
  1857              		.thumb
-ARM GAS  /tmp/cc9AvIGf.s 			page 34
+ARM GAS  /tmp/ccd35jx0.s 			page 34
 
 
  1858              		.thumb_func
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  1911              		.type	_ZN3r2p5Topic9subscribeERNS_16RemoteSubscriberEj, %function
  1912              	_ZN3r2p5Topic9subscribeERNS_16RemoteSubscriberEj:
  1913              	.LFB606:
-ARM GAS  /tmp/cc9AvIGf.s 			page 35
+ARM GAS  /tmp/ccd35jx0.s 			page 35
 
 
  1914              		.loc 10 204 0
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  1967              		.cfi_startproc
  1968              		@ args = 0, pretend = 0, frame = 24
  1969              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/cc9AvIGf.s 			page 36
+ARM GAS  /tmp/ccd35jx0.s 			page 36
 
 
  1970 0000 00B5     		push	{lr}
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  2024 0056 9847     		blx	r3
  2025              	.L114:
  2026              		.loc 10 230 0
-ARM GAS  /tmp/cc9AvIGf.s 			page 37
+ARM GAS  /tmp/ccd35jx0.s 			page 37
 
 
  2027 0058 00BF     		nop
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  2081 002a 1846     		mov	r0, r3
  2082 002c 0199     		ldr	r1, [sp, #4]
  2083 002e FFF7FEFF 		bl	_ZN3r2p11MemoryPool_C1Ej
-ARM GAS  /tmp/cc9AvIGf.s 			page 38
+ARM GAS  /tmp/ccd35jx0.s 			page 38
 
 
  2084 0032 039B     		ldr	r3, [sp, #12]
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  2138              		.align	2
  2139              		.p2align 4,,15
  2140              		.weak	_ZNK3r2p10StaticListINS_15LocalSubscriberEE15is_empty_unsafeEv
-ARM GAS  /tmp/cc9AvIGf.s 			page 39
+ARM GAS  /tmp/ccd35jx0.s 			page 39
 
 
  2141              		.thumb
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  2194 000c 0123     		moveq	r3, #1
  2195 000e 0023     		movne	r3, #0
  2196 0010 DBB2     		uxtb	r3, r3
-ARM GAS  /tmp/cc9AvIGf.s 			page 40
+ARM GAS  /tmp/ccd35jx0.s 			page 40
 
 
  2197              		.loc 11 403 0
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  2250              	.LFB645:
  2251              		.loc 11 439 0
  2252              		.cfi_startproc
-ARM GAS  /tmp/cc9AvIGf.s 			page 41
+ARM GAS  /tmp/ccd35jx0.s 			page 41
 
 
  2253              		@ args = 0, pretend = 0, frame = 8
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  2306              		.cfi_def_cfa_offset 0
  2307              		@ sp needed
  2308 001c 7047     		bx	lr
-ARM GAS  /tmp/cc9AvIGf.s 			page 42
+ARM GAS  /tmp/ccd35jx0.s 			page 42
 
 
  2309              		.cfi_endproc
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  2361              		.cfi_def_cfa_offset 8
  2362 0002 0190     		str	r0, [sp, #4]
  2363              		.loc 11 53 0
-ARM GAS  /tmp/cc9AvIGf.s 			page 43
+ARM GAS  /tmp/ccd35jx0.s 			page 43
 
 
  2364 0004 019B     		ldr	r3, [sp, #4]
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  2418              		.type	_ZN3r2p10StaticListINS_16RemoteSubscriberEE10end_unsafeEv, %function
  2419              	_ZN3r2p10StaticListINS_16RemoteSubscriberEE10end_unsafeEv:
  2420              	.LFB653:
-ARM GAS  /tmp/cc9AvIGf.s 			page 44
+ARM GAS  /tmp/ccd35jx0.s 			page 44
 
 
  2421              		.loc 11 439 0
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  2474 0018 1846     		mov	r0, r3
  2475 001a 02B0     		add	sp, sp, #8
  2476              		.cfi_def_cfa_offset 0
-ARM GAS  /tmp/cc9AvIGf.s 			page 45
+ARM GAS  /tmp/ccd35jx0.s 			page 45
 
 
  2477              		@ sp needed
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  2529              		@ link register save eliminated.
  2530 0000 82B0     		sub	sp, sp, #8
  2531              		.cfi_def_cfa_offset 8
-ARM GAS  /tmp/cc9AvIGf.s 			page 46
+ARM GAS  /tmp/ccd35jx0.s 			page 46
 
 
  2532 0002 0190     		str	r0, [sp, #4]
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  2586              	.LFE657:
  2587              		.size	_ZN3r2p5Topic12alloc_unsafeINS_7MessageEEEbRPT_, .-_ZN3r2p5Topic12alloc_unsafeINS_7MessageEE
  2588 002a 00BFAFF3 		.section	.text._ZN3r2p10StaticListINS_15LocalSubscriberEE5beginEv,"axG",%progbits,_ZN3r2p10StaticL
-ARM GAS  /tmp/cc9AvIGf.s 			page 47
+ARM GAS  /tmp/ccd35jx0.s 			page 47
 
 
  2588      0080
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  2642 0004 0190     		str	r0, [sp, #4]
  2643 0006 0091     		str	r1, [sp]
  2644              		.loc 11 485 0
-ARM GAS  /tmp/cc9AvIGf.s 			page 48
+ARM GAS  /tmp/ccd35jx0.s 			page 48
 
 
  2645 0008 0198     		ldr	r0, [sp, #4]
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  2698              		.thumb
  2699              		.thumb_func
  2700              		.type	_ZN3r2p10StaticListINS_15LocalSubscriberEE8IteratorppEv, %function
-ARM GAS  /tmp/cc9AvIGf.s 			page 49
+ARM GAS  /tmp/ccd35jx0.s 			page 49
 
 
  2701              	_ZN3r2p10StaticListINS_15LocalSubscriberEE8IteratorppEv:
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  2752 0004 019B     		ldr	r3, [sp, #4]
  2753 0006 1B68     		ldr	r3, [r3]
  2754 0008 5B68     		ldr	r3, [r3, #4]
-ARM GAS  /tmp/cc9AvIGf.s 			page 50
+ARM GAS  /tmp/ccd35jx0.s 			page 50
 
 
  2755              		.loc 11 158 0
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  2809              		.loc 11 484 0
  2810              		.cfi_startproc
  2811              		@ args = 0, pretend = 0, frame = 8
-ARM GAS  /tmp/cc9AvIGf.s 			page 51
+ARM GAS  /tmp/ccd35jx0.s 			page 51
 
 
  2812              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  2865              		@ sp needed
  2866 001c 7047     		bx	lr
  2867              		.cfi_endproc
-ARM GAS  /tmp/cc9AvIGf.s 			page 52
+ARM GAS  /tmp/ccd35jx0.s 			page 52
 
 
  2868              	.LFE671:
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  2919              		.loc 11 156 0
  2920              		.cfi_startproc
  2921              		@ args = 0, pretend = 0, frame = 8
-ARM GAS  /tmp/cc9AvIGf.s 			page 53
+ARM GAS  /tmp/ccd35jx0.s 			page 53
 
 
  2922              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  2976              		.cfi_def_cfa_offset 4
  2977              		@ sp needed
  2978 0026 5DF804FB 		ldr	pc, [sp], #4
-ARM GAS  /tmp/cc9AvIGf.s 			page 54
+ARM GAS  /tmp/ccd35jx0.s 			page 54
 
 
  2979              		.cfi_endproc
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  3032 0038 03B0     		add	sp, sp, #12
  3033              		.cfi_def_cfa_offset 4
  3034              		@ sp needed
-ARM GAS  /tmp/cc9AvIGf.s 			page 55
+ARM GAS  /tmp/ccd35jx0.s 			page 55
 
 
  3035 003a 5DF804FB 		ldr	pc, [sp], #4
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  3087 0030 1A60     		str	r2, [r3]
  3088              		.loc 11 412 0
  3089 0032 019B     		ldr	r3, [sp, #4]
-ARM GAS  /tmp/cc9AvIGf.s 			page 56
+ARM GAS  /tmp/ccd35jx0.s 			page 56
 
 
  3090 0034 009A     		ldr	r2, [sp]
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  3142 001c AFF30080 		.section	.text._ZN3r2p10StaticListINS_16RemoteSubscriberEEC2Ev,"axG",%progbits,_ZN3r2p10StaticList
  3143              		.align	2
  3144              		.p2align 4,,15
-ARM GAS  /tmp/cc9AvIGf.s 			page 57
+ARM GAS  /tmp/ccd35jx0.s 			page 57
 
 
  3145              		.weak	_ZN3r2p10StaticListINS_16RemoteSubscriberEEC2Ev
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  3199              		.loc 11 21 0
  3200 0006 019B     		ldr	r3, [sp, #4]
  3201 0008 0022     		movs	r2, #0
-ARM GAS  /tmp/cc9AvIGf.s 			page 58
+ARM GAS  /tmp/ccd35jx0.s 			page 58
 
 
  3202 000a 1A60     		str	r2, [r3]
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  3255              	.LFB688:
  3256              		.loc 11 43 0
  3257              		.cfi_startproc
-ARM GAS  /tmp/cc9AvIGf.s 			page 59
+ARM GAS  /tmp/ccd35jx0.s 			page 59
 
 
  3258              		@ args = 0, pretend = 0, frame = 8
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  3310              		.size	_ZNK3r2p10StaticListINS_16RemoteSubscriberEE15get_head_unsafeEv, .-_ZNK3r2p10StaticListINS_1
  3311 000e 00BF     		.section	.text._ZN3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeC2EPKNS2_4LinkE,"axG",%p
  3312              		.align	2
-ARM GAS  /tmp/cc9AvIGf.s 			page 60
+ARM GAS  /tmp/ccd35jx0.s 			page 60
 
 
  3313              		.p2align 4,,15
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  3365              	.LBB51:
  3366              		.loc 11 597 0
  3367 0006 FFF7FEFF 		bl	_ZN3r2p7SysLock7acquireEv
-ARM GAS  /tmp/cc9AvIGf.s 			page 61
+ARM GAS  /tmp/ccd35jx0.s 			page 61
 
 
  3368              		.loc 11 598 0
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  3421      AFF30080 
  3421      AFF30080 
  3422              		.align	2
-ARM GAS  /tmp/cc9AvIGf.s 			page 62
+ARM GAS  /tmp/ccd35jx0.s 			page 62
 
 
  3423              		.p2align 4,,15
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  3477 0002 0190     		str	r0, [sp, #4]
  3478 0004 0091     		str	r1, [sp]
  3479              	.LBB54:
-ARM GAS  /tmp/cc9AvIGf.s 			page 63
+ARM GAS  /tmp/ccd35jx0.s 			page 63
 
 
  3480              		.loc 11 147 0
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  3532 001e 04D0     		beq	.L212
  3533              		.loc 11 532 0 is_stmt 0 discriminator 1
  3534 0020 039B     		ldr	r3, [sp, #12]
-ARM GAS  /tmp/cc9AvIGf.s 			page 64
+ARM GAS  /tmp/ccd35jx0.s 			page 64
 
 
  3535 0022 1A68     		ldr	r2, [r3]
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  3589              		.cfi_startproc
  3590              		@ args = 0, pretend = 0, frame = 16
  3591              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/cc9AvIGf.s 			page 65
+ARM GAS  /tmp/ccd35jx0.s 			page 65
 
 
  3592              		@ link register save eliminated.
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  3646 0048 002B     		cmp	r3, #0
  3647 004a E2D1     		bne	.L222
  3648              	.LBE58:
-ARM GAS  /tmp/cc9AvIGf.s 			page 66
+ARM GAS  /tmp/ccd35jx0.s 			page 66
 
 
  3649              		.loc 11 538 0 is_stmt 1
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  3703 0025 02       		.uleb128 0x2
  3704 0026 04       		.byte	0x4
  3705 0027 05       		.byte	0x5
-ARM GAS  /tmp/cc9AvIGf.s 			page 67
+ARM GAS  /tmp/ccd35jx0.s 			page 67
 
 
  3706 0028 696E7400 		.ascii	"int\000"
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  3760 0094 04       		.uleb128 0x4
  3761 0095 08       		.byte	0x8
  3762 0096 05       		.byte	0x5
-ARM GAS  /tmp/cc9AvIGf.s 			page 68
+ARM GAS  /tmp/ccd35jx0.s 			page 68
 
 
  3763 0097 C15B0000 		.4byte	.LASF12
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  3817 0100 5C       		.byte	0x5c
  3818 0101 4F010000 		.4byte	0x14f
  3819 0105 00       		.byte	0
-ARM GAS  /tmp/cc9AvIGf.s 			page 69
+ARM GAS  /tmp/ccd35jx0.s 			page 69
 
 
  3820 0106 0C       		.uleb128 0xc
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  3874 0181 D9010000 		.4byte	0x1d9
  3875 0185 0F       		.uleb128 0xf
  3876 0186 122D0000 		.4byte	.LASF21
-ARM GAS  /tmp/cc9AvIGf.s 			page 70
+ARM GAS  /tmp/ccd35jx0.s 			page 70
 
 
  3877 018a 01       		.byte	0x1
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  3931 0208 00       		.byte	0
  3932 0209 14       		.uleb128 0x14
  3933 020a BA1F0000 		.4byte	.LASF24
-ARM GAS  /tmp/cc9AvIGf.s 			page 71
+ARM GAS  /tmp/ccd35jx0.s 			page 71
 
 
  3934 020e 02       		.byte	0x2
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  3988 027d 0F       		.uleb128 0xf
  3989 027e 83540000 		.4byte	.LASF28
  3990 0282 03       		.byte	0x3
-ARM GAS  /tmp/cc9AvIGf.s 			page 72
+ARM GAS  /tmp/ccd35jx0.s 			page 72
 
 
  3991 0283 12       		.byte	0x12
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  4045 02f8 1D280000 		.4byte	.LASF35
  4046 02fc 04       		.byte	0x4
  4047 02fd 12       		.byte	0x12
-ARM GAS  /tmp/cc9AvIGf.s 			page 73
+ARM GAS  /tmp/ccd35jx0.s 			page 73
 
 
  4048 02fe 811C0000 		.4byte	.LASF37
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  4102 0385 994C0000 		.4byte	0x4c99
  4103 0389 0D       		.uleb128 0xd
  4104 038a B4000000 		.4byte	0xb4
-ARM GAS  /tmp/cc9AvIGf.s 			page 74
+ARM GAS  /tmp/ccd35jx0.s 			page 74
 
 
  4105 038e 00       		.byte	0
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  4159 040f 2C000000 		.4byte	0x2c
  4160 0413 0D       		.uleb128 0xd
  4161 0414 2C000000 		.4byte	0x2c
-ARM GAS  /tmp/cc9AvIGf.s 			page 75
+ARM GAS  /tmp/ccd35jx0.s 			page 75
 
 
  4162 0418 00       		.byte	0
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  4216 0490 00       		.byte	0
  4217 0491 01       		.byte	0x1
  4218 0492 1B       		.uleb128 0x1b
-ARM GAS  /tmp/cc9AvIGf.s 			page 76
+ARM GAS  /tmp/ccd35jx0.s 			page 76
 
 
  4219 0493 06210000 		.4byte	.LASF53
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  4273 0511 DF110000 		.4byte	.LASF62
  4274 0515 05       		.byte	0x5
  4275 0516 21       		.byte	0x21
-ARM GAS  /tmp/cc9AvIGf.s 			page 77
+ARM GAS  /tmp/ccd35jx0.s 			page 77
 
 
  4276 0517 503C0000 		.4byte	.LASF63
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  4330 05a1 AC4C0000 		.4byte	0x4cac
  4331 05a5 00       		.byte	0
  4332 05a6 18       		.uleb128 0x18
-ARM GAS  /tmp/cc9AvIGf.s 			page 78
+ARM GAS  /tmp/ccd35jx0.s 			page 78
 
 
  4333 05a7 FD130000 		.4byte	.LASF72
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  4387 062e 05       		.byte	0x5
  4388 062f 2F       		.byte	0x2f
  4389 0630 BF4C0000 		.4byte	0x4cbf
-ARM GAS  /tmp/cc9AvIGf.s 			page 79
+ARM GAS  /tmp/ccd35jx0.s 			page 79
 
 
  4390 0634 01       		.byte	0x1
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  4444 06b1 1D       		.uleb128 0x1d
  4445 06b2 6D00     		.ascii	"m\000"
  4446 06b4 05       		.byte	0x5
-ARM GAS  /tmp/cc9AvIGf.s 			page 80
+ARM GAS  /tmp/ccd35jx0.s 			page 80
 
 
  4447 06b5 36       		.byte	0x36
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  4501 0729 13       		.byte	0x13
  4502 072a E64E0000 		.4byte	0x4ee6
  4503 072e 04       		.byte	0x4
-ARM GAS  /tmp/cc9AvIGf.s 			page 81
+ARM GAS  /tmp/ccd35jx0.s 			page 81
 
 
  4504 072f 20       		.uleb128 0x20
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  4558 07a8 0D       		.uleb128 0xd
  4559 07a9 43510000 		.4byte	0x5143
  4560 07ad 00       		.byte	0
-ARM GAS  /tmp/cc9AvIGf.s 			page 82
+ARM GAS  /tmp/ccd35jx0.s 			page 82
 
 
  4561 07ae 0F       		.uleb128 0xf
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  4615 0835 244D0000 		.4byte	0x4d24
  4616 0839 01       		.byte	0x1
  4617 083a 42080000 		.4byte	0x842
-ARM GAS  /tmp/cc9AvIGf.s 			page 83
+ARM GAS  /tmp/ccd35jx0.s 			page 83
 
 
  4618 083e 48080000 		.4byte	0x848
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  4672 08c5 10       		.uleb128 0x10
  4673 08c6 49510000 		.4byte	0x5149
  4674 08ca 00       		.byte	0
-ARM GAS  /tmp/cc9AvIGf.s 			page 84
+ARM GAS  /tmp/ccd35jx0.s 			page 84
 
 
  4675 08cb 00       		.byte	0
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  4729 0946 0B       		.byte	0xb
  4730 0947 96       		.byte	0x96
  4731 0948 053A0000 		.4byte	.LASF106
-ARM GAS  /tmp/cc9AvIGf.s 			page 85
+ARM GAS  /tmp/ccd35jx0.s 			page 85
 
 
  4732 094c 304D0000 		.4byte	0x4d30
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  4786 09d6 61510000 		.4byte	0x5161
  4787 09da 0D       		.uleb128 0xd
  4788 09db 25000000 		.4byte	0x25
-ARM GAS  /tmp/cc9AvIGf.s 			page 86
+ARM GAS  /tmp/ccd35jx0.s 			page 86
 
 
  4789 09df 00       		.byte	0
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  4843 0a5a 11       		.uleb128 0x11
  4844 0a5b 2A3F0000 		.4byte	.LASF114
  4845 0a5f 0B       		.byte	0xb
-ARM GAS  /tmp/cc9AvIGf.s 			page 87
+ARM GAS  /tmp/ccd35jx0.s 			page 87
 
 
  4846 0a60 C7       		.byte	0xc7
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  4900 0ae7 F10A0000 		.4byte	0xaf1
  4901 0aeb 10       		.uleb128 0x10
  4902 0aec ED500000 		.4byte	0x50ed
-ARM GAS  /tmp/cc9AvIGf.s 			page 88
+ARM GAS  /tmp/ccd35jx0.s 			page 88
 
 
  4903 0af0 00       		.byte	0
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  4957 0b74 67300000 		.4byte	.LASF101
  4958 0b78 0B       		.byte	0xb
  4959 0b79 EF       		.byte	0xef
-ARM GAS  /tmp/cc9AvIGf.s 			page 89
+ARM GAS  /tmp/ccd35jx0.s 			page 89
 
 
  4960 0b7a 51340000 		.4byte	.LASF121
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  5014 0c02 0C0C0000 		.4byte	0xc0c
  5015 0c06 10       		.uleb128 0x10
  5016 0c07 0C4D0000 		.4byte	0x4d0c
-ARM GAS  /tmp/cc9AvIGf.s 			page 90
+ARM GAS  /tmp/ccd35jx0.s 			page 90
 
 
  5017 0c0b 00       		.byte	0
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  5071 0c90 11380000 		.4byte	.LASF137
  5072 0c94 0B       		.byte	0xb
  5073 0c95 1F02     		.2byte	0x21f
-ARM GAS  /tmp/cc9AvIGf.s 			page 91
+ARM GAS  /tmp/ccd35jx0.s 			page 91
 
 
  5074 0c97 A2410000 		.4byte	.LASF138
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  5128 0d24 27       		.uleb128 0x27
  5129 0d25 C20F0000 		.4byte	.LASF144
  5130 0d29 0B       		.byte	0xb
-ARM GAS  /tmp/cc9AvIGf.s 			page 92
+ARM GAS  /tmp/ccd35jx0.s 			page 92
 
 
  5131 0d2a B301     		.2byte	0x1b3
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  5185 0db3 112E0000 		.4byte	.LASF151
  5186 0db7 A60D0000 		.4byte	0xda6
  5187 0dbb 01       		.byte	0x1
-ARM GAS  /tmp/cc9AvIGf.s 			page 93
+ARM GAS  /tmp/ccd35jx0.s 			page 93
 
 
  5188 0dbc C40D0000 		.4byte	0xdc4
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  5242 0e47 28       		.uleb128 0x28
  5243 0e48 0C1F0000 		.4byte	.LASF159
  5244 0e4c 0B       		.byte	0xb
-ARM GAS  /tmp/cc9AvIGf.s 			page 94
+ARM GAS  /tmp/ccd35jx0.s 			page 94
 
 
  5245 0e4d 7602     		.2byte	0x276
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  5299 0ed8 0B       		.byte	0xb
  5300 0ed9 AC02     		.2byte	0x2ac
  5301 0edb D5530000 		.4byte	.LASF168
-ARM GAS  /tmp/cc9AvIGf.s 			page 95
+ARM GAS  /tmp/ccd35jx0.s 			page 95
 
 
  5302 0edf 1E4D0000 		.4byte	0x4d1e
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  5356 0f69 E801     		.2byte	0x1e8
  5357 0f6b 7D300000 		.4byte	.LASF173
  5358 0f6f 01       		.byte	0x1
-ARM GAS  /tmp/cc9AvIGf.s 			page 96
+ARM GAS  /tmp/ccd35jx0.s 			page 96
 
 
  5359 0f70 780F0000 		.4byte	0xf78
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  5413 0ffb 10       		.uleb128 0x10
  5414 0ffc 124D0000 		.4byte	0x4d12
  5415 1000 00       		.byte	0
-ARM GAS  /tmp/cc9AvIGf.s 			page 97
+ARM GAS  /tmp/ccd35jx0.s 			page 97
 
 
  5416 1001 07       		.uleb128 0x7
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  5470 1076 0B       		.byte	0xb
  5471 1077 8A01     		.2byte	0x18a
  5472 1079 3C4D0000 		.4byte	0x4d3c
-ARM GAS  /tmp/cc9AvIGf.s 			page 98
+ARM GAS  /tmp/ccd35jx0.s 			page 98
 
 
  5473 107d 00       		.byte	0
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  5527 10f5 6E110000 		.4byte	.LASF182
  5528 10f9 954D0000 		.4byte	0x4d95
  5529 10fd 05110000 		.4byte	0x1105
-ARM GAS  /tmp/cc9AvIGf.s 			page 99
+ARM GAS  /tmp/ccd35jx0.s 			page 99
 
 
  5530 1101 10110000 		.4byte	0x1110
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  5584 1188 25000000 		.4byte	0x25
  5585 118c 00       		.byte	0
  5586 118d 18       		.uleb128 0x18
-ARM GAS  /tmp/cc9AvIGf.s 			page 100
+ARM GAS  /tmp/ccd35jx0.s 			page 100
 
 
  5587 118e 31620000 		.4byte	.LASF99
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  5641 120c 11       		.uleb128 0x11
  5642 120d 0E530000 		.4byte	.LASF105
  5643 1211 0B       		.byte	0xb
-ARM GAS  /tmp/cc9AvIGf.s 			page 101
+ARM GAS  /tmp/ccd35jx0.s 			page 101
 
 
  5644 1212 8F       		.byte	0x8f
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  5698 1299 A3120000 		.4byte	0x12a3
  5699 129d 10       		.uleb128 0x10
  5700 129e 7F510000 		.4byte	0x517f
-ARM GAS  /tmp/cc9AvIGf.s 			page 102
+ARM GAS  /tmp/ccd35jx0.s 			page 102
 
 
  5701 12a2 00       		.byte	0
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  5755 1326 67300000 		.4byte	.LASF101
  5756 132a 0B       		.byte	0xb
  5757 132b B7       		.byte	0xb7
-ARM GAS  /tmp/cc9AvIGf.s 			page 103
+ARM GAS  /tmp/ccd35jx0.s 			page 103
 
 
  5758 132c 93630000 		.4byte	.LASF196
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  5812 13b4 01       		.byte	0x1
  5813 13b5 BD130000 		.4byte	0x13bd
  5814 13b9 C3130000 		.4byte	0x13c3
-ARM GAS  /tmp/cc9AvIGf.s 			page 104
+ARM GAS  /tmp/ccd35jx0.s 			page 104
 
 
  5815 13bd 10       		.uleb128 0x10
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  5869 1445 00       		.byte	0
  5870 1446 27       		.uleb128 0x27
  5871 1447 11380000 		.4byte	.LASF137
-ARM GAS  /tmp/cc9AvIGf.s 			page 105
+ARM GAS  /tmp/ccd35jx0.s 			page 105
 
 
  5872 144b 0B       		.byte	0xb
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  5926 14d6 A54C0000 		.4byte	0x4ca5
  5927 14da 00       		.byte	0
  5928 14db 27       		.uleb128 0x27
-ARM GAS  /tmp/cc9AvIGf.s 			page 106
+ARM GAS  /tmp/ccd35jx0.s 			page 106
 
 
  5929 14dc C20F0000 		.4byte	.LASF144
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  5983 1567 0B       		.byte	0xb
  5984 1568 C301     		.2byte	0x1c3
  5985 156a C41E0000 		.4byte	.LASF212
-ARM GAS  /tmp/cc9AvIGf.s 			page 107
+ARM GAS  /tmp/ccd35jx0.s 			page 107
 
 
  5986 156e 5D150000 		.4byte	0x155d
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  6040 15f9 7D4D0000 		.4byte	0x4d7d
  6041 15fd 00       		.byte	0
  6042 15fe 28       		.uleb128 0x28
-ARM GAS  /tmp/cc9AvIGf.s 			page 108
+ARM GAS  /tmp/ccd35jx0.s 			page 108
 
 
  6043 15ff 0C1F0000 		.4byte	.LASF159
@@ -6478,7 +6478,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  6097 168a 27       		.uleb128 0x27
  6098 168b 0D3E0000 		.4byte	.LASF167
  6099 168f 0B       		.byte	0xb
-ARM GAS  /tmp/cc9AvIGf.s 			page 109
+ARM GAS  /tmp/ccd35jx0.s 			page 109
 
 
  6100 1690 AC02     		.2byte	0x2ac
@@ -6538,7 +6538,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  6154 171b D7110000 		.4byte	.LASF172
  6155 171f 0B       		.byte	0xb
  6156 1720 E801     		.2byte	0x1e8
-ARM GAS  /tmp/cc9AvIGf.s 			page 110
+ARM GAS  /tmp/ccd35jx0.s 			page 110
 
 
  6157 1722 6B180000 		.4byte	.LASF225
@@ -6598,7 +6598,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  6211 17aa B2170000 		.4byte	0x17b2
  6212 17ae B8170000 		.4byte	0x17b8
  6213 17b2 10       		.uleb128 0x10
-ARM GAS  /tmp/cc9AvIGf.s 			page 111
+ARM GAS  /tmp/ccd35jx0.s 			page 111
 
 
  6214 17b3 834D0000 		.4byte	0x4d83
@@ -6658,7 +6658,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  6268 1828 F45A0000 		.4byte	.LASF87
  6269 182c 0B       		.byte	0xb
  6270 182d 15       		.byte	0x15
-ARM GAS  /tmp/cc9AvIGf.s 			page 112
+ARM GAS  /tmp/ccd35jx0.s 			page 112
 
 
  6271 182e AD4D0000 		.4byte	0x4dad
@@ -6718,7 +6718,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  6325 18b4 BE180000 		.4byte	0x18be
  6326 18b8 10       		.uleb128 0x10
  6327 18b9 EE4D0000 		.4byte	0x4dee
-ARM GAS  /tmp/cc9AvIGf.s 			page 113
+ARM GAS  /tmp/ccd35jx0.s 			page 113
 
 
  6328 18bd 00       		.byte	0
@@ -6778,7 +6778,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  6382 1942 11380000 		.4byte	.LASF137
  6383 1946 0B       		.byte	0xb
  6384 1947 1F02     		.2byte	0x21f
-ARM GAS  /tmp/cc9AvIGf.s 			page 114
+ARM GAS  /tmp/ccd35jx0.s 			page 114
 
 
  6385 1949 8E520000 		.4byte	.LASF239
@@ -6838,7 +6838,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  6439 19d6 27       		.uleb128 0x27
  6440 19d7 C20F0000 		.4byte	.LASF144
  6441 19db 0B       		.byte	0xb
-ARM GAS  /tmp/cc9AvIGf.s 			page 115
+ARM GAS  /tmp/ccd35jx0.s 			page 115
 
 
  6442 19dc B301     		.2byte	0x1b3
@@ -6898,7 +6898,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  6496 1a65 A04E0000 		.4byte	.LASF247
  6497 1a69 581A0000 		.4byte	0x1a58
  6498 1a6d 01       		.byte	0x1
-ARM GAS  /tmp/cc9AvIGf.s 			page 116
+ARM GAS  /tmp/ccd35jx0.s 			page 116
 
 
  6499 1a6e 761A0000 		.4byte	0x1a76
@@ -6958,7 +6958,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  6553 1af9 28       		.uleb128 0x28
  6554 1afa 0C1F0000 		.4byte	.LASF159
  6555 1afe 0B       		.byte	0xb
-ARM GAS  /tmp/cc9AvIGf.s 			page 117
+ARM GAS  /tmp/ccd35jx0.s 			page 117
 
 
  6556 1aff 7602     		.2byte	0x276
@@ -7018,7 +7018,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  6610 1b8a 0B       		.byte	0xb
  6611 1b8b AC02     		.2byte	0x2ac
  6612 1b8d 4B2D0000 		.4byte	.LASF256
-ARM GAS  /tmp/cc9AvIGf.s 			page 118
+ARM GAS  /tmp/ccd35jx0.s 			page 118
 
 
  6613 1b91 004E0000 		.4byte	0x4e00
@@ -7078,7 +7078,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  6667 1c1b E801     		.2byte	0x1e8
  6668 1c1d 1B0D0000 		.4byte	.LASF260
  6669 1c21 01       		.byte	0x1
-ARM GAS  /tmp/cc9AvIGf.s 			page 119
+ARM GAS  /tmp/ccd35jx0.s 			page 119
 
 
  6670 1c22 2A1C0000 		.4byte	0x1c2a
@@ -7138,7 +7138,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  6724 1cad 10       		.uleb128 0x10
  6725 1cae F44D0000 		.4byte	0x4df4
  6726 1cb2 00       		.byte	0
-ARM GAS  /tmp/cc9AvIGf.s 			page 120
+ARM GAS  /tmp/ccd35jx0.s 			page 120
 
 
  6727 1cb3 2B       		.uleb128 0x2b
@@ -7198,7 +7198,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  6781 1d22 21       		.byte	0x21
  6782 1d23 1F100000 		.4byte	0x101f
  6783 1d27 20       		.byte	0x20
-ARM GAS  /tmp/cc9AvIGf.s 			page 121
+ARM GAS  /tmp/ccd35jx0.s 			page 121
 
 
  6784 1d28 16       		.uleb128 0x16
@@ -7258,7 +7258,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  6838 1da9 01       		.byte	0x1
  6839 1daa B21D0000 		.4byte	0x1db2
  6840 1dae B81D0000 		.4byte	0x1db8
-ARM GAS  /tmp/cc9AvIGf.s 			page 122
+ARM GAS  /tmp/ccd35jx0.s 			page 122
 
 
  6841 1db2 10       		.uleb128 0x10
@@ -7318,7 +7318,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  6895 1e36 33       		.byte	0x33
  6896 1e37 59450000 		.4byte	.LASF291
  6897 1e3b 9D470000 		.4byte	0x479d
-ARM GAS  /tmp/cc9AvIGf.s 			page 123
+ARM GAS  /tmp/ccd35jx0.s 			page 123
 
 
  6898 1e3f 01       		.byte	0x1
@@ -7378,7 +7378,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  6952 1ec6 18       		.uleb128 0x18
  6953 1ec7 842F0000 		.4byte	.LASF300
  6954 1ecb 08       		.byte	0x8
-ARM GAS  /tmp/cc9AvIGf.s 			page 124
+ARM GAS  /tmp/ccd35jx0.s 			page 124
 
 
  6955 1ecc 38       		.byte	0x38
@@ -7438,7 +7438,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  7009 1f53 5B1F0000 		.4byte	0x1f5b
  7010 1f57 661F0000 		.4byte	0x1f66
  7011 1f5b 10       		.uleb128 0x10
-ARM GAS  /tmp/cc9AvIGf.s 			page 125
+ARM GAS  /tmp/ccd35jx0.s 			page 125
 
 
  7012 1f5c 004E0000 		.4byte	0x4e00
@@ -7498,7 +7498,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  7066 1fe0 9D470000 		.4byte	0x479d
  7067 1fe4 01       		.byte	0x1
  7068 1fe5 ED1F0000 		.4byte	0x1fed
-ARM GAS  /tmp/cc9AvIGf.s 			page 126
+ARM GAS  /tmp/ccd35jx0.s 			page 126
 
 
  7069 1fe9 FD1F0000 		.4byte	0x1ffd
@@ -7558,7 +7558,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  7123 2070 7F200000 		.4byte	0x207f
  7124 2074 10       		.uleb128 0x10
  7125 2075 004E0000 		.4byte	0x4e00
-ARM GAS  /tmp/cc9AvIGf.s 			page 127
+ARM GAS  /tmp/ccd35jx0.s 			page 127
 
 
  7126 2079 0D       		.uleb128 0xd
@@ -7618,7 +7618,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  7180 20fd 01       		.byte	0x1
  7181 20fe 06210000 		.4byte	0x2106
  7182 2102 16210000 		.4byte	0x2116
-ARM GAS  /tmp/cc9AvIGf.s 			page 128
+ARM GAS  /tmp/ccd35jx0.s 			page 128
 
 
  7183 2106 10       		.uleb128 0x10
@@ -7678,7 +7678,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  7237 2187 08       		.byte	0x8
  7238 2188 52       		.byte	0x52
  7239 2189 00000000 		.4byte	.LASF333
-ARM GAS  /tmp/cc9AvIGf.s 			page 129
+ARM GAS  /tmp/ccd35jx0.s 			page 129
 
 
  7240 218d 01       		.byte	0x1
@@ -7738,7 +7738,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  7294 2211 9D470000 		.4byte	0x479d
  7295 2215 00       		.byte	0
  7296 2216 2E       		.uleb128 0x2e
-ARM GAS  /tmp/cc9AvIGf.s 			page 130
+ARM GAS  /tmp/ccd35jx0.s 			page 130
 
 
  7297 2217 034D0000 		.4byte	.LASF336
@@ -7798,7 +7798,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  7351 229d 17       		.uleb128 0x17
  7352 229e 8B080000 		.4byte	.LASF344
  7353 22a2 06       		.byte	0x6
-ARM GAS  /tmp/cc9AvIGf.s 			page 131
+ARM GAS  /tmp/ccd35jx0.s 			page 131
 
 
  7354 22a3 16       		.byte	0x16
@@ -7858,7 +7858,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  7408 2324 00       		.byte	0
  7409 2325 19       		.uleb128 0x19
  7410 2326 BA1F0000 		.4byte	.LASF24
-ARM GAS  /tmp/cc9AvIGf.s 			page 132
+ARM GAS  /tmp/ccd35jx0.s 			page 132
 
 
  7411 232a 06       		.byte	0x6
@@ -7918,7 +7918,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  7465 23ab 0D       		.uleb128 0xd
  7466 23ac 2C000000 		.4byte	0x2c
  7467 23b0 00       		.byte	0
-ARM GAS  /tmp/cc9AvIGf.s 			page 133
+ARM GAS  /tmp/ccd35jx0.s 			page 133
 
 
  7468 23b1 2E       		.uleb128 0x2e
@@ -7978,7 +7978,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  7522 2429 11       		.byte	0x11
  7523 242a 01       		.byte	0x1
  7524 242b 62240000 		.4byte	0x2462
-ARM GAS  /tmp/cc9AvIGf.s 			page 134
+ARM GAS  /tmp/ccd35jx0.s 			page 134
 
 
  7525 242f 16       		.uleb128 0x16
@@ -8038,7 +8038,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  7579 24a2 C7       		.byte	0xc7
  7580 24a3 BD500000 		.4byte	0x50bd
  7581 24a7 01       		.byte	0x1
-ARM GAS  /tmp/cc9AvIGf.s 			page 135
+ARM GAS  /tmp/ccd35jx0.s 			page 135
 
 
  7582 24a8 B0240000 		.4byte	0x24b0
@@ -8098,7 +8098,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  7636 2532 00       		.byte	0
  7637 2533 18       		.uleb128 0x18
  7638 2534 B8130000 		.4byte	.LASF94
-ARM GAS  /tmp/cc9AvIGf.s 			page 136
+ARM GAS  /tmp/ccd35jx0.s 			page 136
 
 
  7639 2538 0B       		.byte	0xb
@@ -8158,7 +8158,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  7693 25bc B61B0000 		.4byte	.LASF375
  7694 25c0 9D470000 		.4byte	0x479d
  7695 25c4 01       		.byte	0x1
-ARM GAS  /tmp/cc9AvIGf.s 			page 137
+ARM GAS  /tmp/ccd35jx0.s 			page 137
 
 
  7696 25c5 CD250000 		.4byte	0x25cd
@@ -8218,7 +8218,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  7750 264d 00       		.byte	0
  7751 264e 27       		.uleb128 0x27
  7752 264f FF1E0000 		.4byte	.LASF129
-ARM GAS  /tmp/cc9AvIGf.s 			page 138
+ARM GAS  /tmp/ccd35jx0.s 			page 138
 
 
  7753 2653 0B       		.byte	0xb
@@ -8278,7 +8278,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  7807 26d9 31400000 		.4byte	.LASF383
  7808 26dd 25000000 		.4byte	0x25
  7809 26e1 01       		.byte	0x1
-ARM GAS  /tmp/cc9AvIGf.s 			page 139
+ARM GAS  /tmp/ccd35jx0.s 			page 139
 
 
  7810 26e2 EA260000 		.4byte	0x26ea
@@ -8338,7 +8338,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  7864 276c B301     		.2byte	0x1b3
  7865 276e 0E240000 		.4byte	.LASF387
  7866 2772 85270000 		.4byte	0x2785
-ARM GAS  /tmp/cc9AvIGf.s 			page 140
+ARM GAS  /tmp/ccd35jx0.s 			page 140
 
 
  7867 2776 01       		.byte	0x1
@@ -8398,7 +8398,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  7921 27fe 06280000 		.4byte	0x2806
  7922 2802 0C280000 		.4byte	0x280c
  7923 2806 10       		.uleb128 0x10
-ARM GAS  /tmp/cc9AvIGf.s 			page 141
+ARM GAS  /tmp/ccd35jx0.s 			page 141
 
 
  7924 2807 AB4E0000 		.4byte	0x4eab
@@ -8458,7 +8458,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  7978 288f 7602     		.2byte	0x276
  7979 2891 72070000 		.4byte	.LASF396
  7980 2895 01       		.byte	0x1
-ARM GAS  /tmp/cc9AvIGf.s 			page 142
+ARM GAS  /tmp/ccd35jx0.s 			page 142
 
 
  7981 2896 9E280000 		.4byte	0x289e
@@ -8518,7 +8518,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  8035 2921 BD4E0000 		.4byte	0x4ebd
  8036 2925 01       		.byte	0x1
  8037 2926 2E290000 		.4byte	0x292e
-ARM GAS  /tmp/cc9AvIGf.s 			page 143
+ARM GAS  /tmp/ccd35jx0.s 			page 143
 
 
  8038 292a 39290000 		.4byte	0x2939
@@ -8578,7 +8578,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  8092 29b2 BA290000 		.4byte	0x29ba
  8093 29b6 C5290000 		.4byte	0x29c5
  8094 29ba 10       		.uleb128 0x10
-ARM GAS  /tmp/cc9AvIGf.s 			page 144
+ARM GAS  /tmp/ccd35jx0.s 			page 144
 
 
  8095 29bb B14E0000 		.4byte	0x4eb1
@@ -8638,7 +8638,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  8149 2a43 07       		.uleb128 0x7
  8150 2a44 6F240000 		.4byte	0x246f
  8151 2a48 2B       		.uleb128 0x2b
-ARM GAS  /tmp/cc9AvIGf.s 			page 145
+ARM GAS  /tmp/ccd35jx0.s 			page 145
 
 
  8152 2a49 351C0000 		.4byte	.LASF229
@@ -8698,7 +8698,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  8206 2ac1 00       		.byte	0
  8207 2ac2 18       		.uleb128 0x18
  8208 2ac3 E4240000 		.4byte	.LASF48
-ARM GAS  /tmp/cc9AvIGf.s 			page 146
+ARM GAS  /tmp/ccd35jx0.s 			page 146
 
 
  8209 2ac7 11       		.byte	0x11
@@ -8758,7 +8758,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  8263 2b4b 11       		.byte	0x11
  8264 2b4c 2F       		.byte	0x2f
  8265 2b4d 305C0000 		.4byte	.LASF420
-ARM GAS  /tmp/cc9AvIGf.s 			page 147
+ARM GAS  /tmp/ccd35jx0.s 			page 147
 
 
  8266 2b51 F74E0000 		.4byte	0x4ef7
@@ -8818,7 +8818,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  8320 2bd2 01       		.byte	0x1
  8321 2bd3 DD2B0000 		.4byte	0x2bdd
  8322 2bd7 0D       		.uleb128 0xd
-ARM GAS  /tmp/cc9AvIGf.s 			page 148
+ARM GAS  /tmp/ccd35jx0.s 			page 148
 
 
  8323 2bd8 742A0000 		.4byte	0x2a74
@@ -8878,7 +8878,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  8377 2c4a 12       		.byte	0x12
  8378 2c4b 1A       		.byte	0x1a
  8379 2c4c 802A0000 		.4byte	0x2a80
-ARM GAS  /tmp/cc9AvIGf.s 			page 149
+ARM GAS  /tmp/ccd35jx0.s 			page 149
 
 
  8380 2c50 01       		.byte	0x1
@@ -8938,7 +8938,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  8434 2cce 0D       		.uleb128 0xd
  8435 2ccf B4000000 		.4byte	0xb4
  8436 2cd3 0D       		.uleb128 0xd
-ARM GAS  /tmp/cc9AvIGf.s 			page 150
+ARM GAS  /tmp/ccd35jx0.s 			page 150
 
 
  8437 2cd4 2C000000 		.4byte	0x2c
@@ -8998,7 +8998,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  8491 2d55 00       		.byte	0
  8492 2d56 14       		.uleb128 0x14
  8493 2d57 ED240000 		.4byte	.LASF429
-ARM GAS  /tmp/cc9AvIGf.s 			page 151
+ARM GAS  /tmp/ccd35jx0.s 			page 151
 
 
  8494 2d5b 12       		.byte	0x12
@@ -9058,7 +9058,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  8548 2dd0 10       		.uleb128 0x10
  8549 2dd1 1B4F0000 		.4byte	0x4f1b
  8550 2dd5 00       		.byte	0
-ARM GAS  /tmp/cc9AvIGf.s 			page 152
+ARM GAS  /tmp/ccd35jx0.s 			page 152
 
 
  8551 2dd6 19       		.uleb128 0x19
@@ -9118,7 +9118,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  8605 2e57 CC180000 		.4byte	.LASF446
  8606 2e5b 13       		.byte	0x13
  8607 2e5c 1F       		.byte	0x1f
-ARM GAS  /tmp/cc9AvIGf.s 			page 153
+ARM GAS  /tmp/ccd35jx0.s 			page 153
 
 
  8608 2e5d 214F0000 		.4byte	0x4f21
@@ -9178,7 +9178,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  8662 2ed8 0D       		.uleb128 0xd
  8663 2ed9 0F4F0000 		.4byte	0x4f0f
  8664 2edd 00       		.byte	0
-ARM GAS  /tmp/cc9AvIGf.s 			page 154
+ARM GAS  /tmp/ccd35jx0.s 			page 154
 
 
  8665 2ede 19       		.uleb128 0x19
@@ -9238,7 +9238,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  8719 2f5c 772E0000 		.4byte	0x2e77
  8720 2f60 0E       		.uleb128 0xe
  8721 2f61 533B0000 		.4byte	.LASF465
-ARM GAS  /tmp/cc9AvIGf.s 			page 155
+ARM GAS  /tmp/ccd35jx0.s 			page 155
 
 
  8722 2f65 22       		.byte	0x22
@@ -9298,7 +9298,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  8776 2fce 15       		.byte	0x15
  8777 2fcf 24       		.byte	0x24
  8778 2fd0 CE000000 		.4byte	0xce
-ARM GAS  /tmp/cc9AvIGf.s 			page 156
+ARM GAS  /tmp/ccd35jx0.s 			page 156
 
 
  8779 2fd4 07       		.byte	0x7
@@ -9358,7 +9358,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  8833 303a 15       		.byte	0x15
  8834 303b 35       		.byte	0x35
  8835 303c 37000000 		.4byte	0x37
-ARM GAS  /tmp/cc9AvIGf.s 			page 157
+ARM GAS  /tmp/ccd35jx0.s 			page 157
 
 
  8836 3040 04       		.byte	0x4
@@ -9418,7 +9418,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  8890 309a 3D       		.byte	0x3d
  8891 309b 01       		.byte	0x1
  8892 309c CD300000 		.4byte	0x30cd
-ARM GAS  /tmp/cc9AvIGf.s 			page 158
+ARM GAS  /tmp/ccd35jx0.s 			page 158
 
 
  8893 30a0 39       		.uleb128 0x39
@@ -9478,7 +9478,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  8947 3109 1D2D0000 		.4byte	.LASF85
  8948 310d 0B       		.byte	0xb
  8949 310e 12       		.byte	0x12
-ARM GAS  /tmp/cc9AvIGf.s 			page 159
+ARM GAS  /tmp/ccd35jx0.s 			page 159
 
 
  8950 310f 734F0000 		.4byte	0x4f73
@@ -9538,7 +9538,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  9004 3185 8F310000 		.4byte	0x318f
  9005 3189 10       		.uleb128 0x10
  9006 318a A5500000 		.4byte	0x50a5
-ARM GAS  /tmp/cc9AvIGf.s 			page 160
+ARM GAS  /tmp/ccd35jx0.s 			page 160
 
 
  9007 318e 00       		.byte	0
@@ -9598,7 +9598,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  9061 3212 D8       		.byte	0xd8
  9062 3213 D8020000 		.4byte	.LASF496
  9063 3217 8E4F0000 		.4byte	0x4f8e
-ARM GAS  /tmp/cc9AvIGf.s 			page 161
+ARM GAS  /tmp/ccd35jx0.s 			page 161
 
 
  9064 321b 01       		.byte	0x1
@@ -9658,7 +9658,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  9118 32a2 B1320000 		.4byte	0x32b1
  9119 32a6 10       		.uleb128 0x10
  9120 32a7 B1500000 		.4byte	0x50b1
-ARM GAS  /tmp/cc9AvIGf.s 			page 162
+ARM GAS  /tmp/ccd35jx0.s 			page 162
 
 
  9121 32ab 0D       		.uleb128 0xd
@@ -9718,7 +9718,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  9175 332d 0302     		.2byte	0x203
  9176 332f 83370000 		.4byte	.LASF504
  9177 3333 2C000000 		.4byte	0x2c
-ARM GAS  /tmp/cc9AvIGf.s 			page 163
+ARM GAS  /tmp/ccd35jx0.s 			page 163
 
 
  9178 3337 01       		.byte	0x1
@@ -9778,7 +9778,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  9232 33bf CE330000 		.4byte	0x33ce
  9233 33c3 10       		.uleb128 0x10
  9234 33c4 B44F0000 		.4byte	0x4fb4
-ARM GAS  /tmp/cc9AvIGf.s 			page 164
+ARM GAS  /tmp/ccd35jx0.s 			page 164
 
 
  9235 33c8 0D       		.uleb128 0xd
@@ -9838,7 +9838,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  9289 3450 58340000 		.4byte	0x3458
  9290 3454 5E340000 		.4byte	0x345e
  9291 3458 10       		.uleb128 0x10
-ARM GAS  /tmp/cc9AvIGf.s 			page 165
+ARM GAS  /tmp/ccd35jx0.s 			page 165
 
 
  9292 3459 BA4F0000 		.4byte	0x4fba
@@ -9898,7 +9898,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  9346 34e4 00       		.byte	0
  9347 34e5 28       		.uleb128 0x28
  9348 34e6 C4640000 		.4byte	.LASF148
-ARM GAS  /tmp/cc9AvIGf.s 			page 166
+ARM GAS  /tmp/ccd35jx0.s 			page 166
 
 
  9349 34ea 0B       		.byte	0xb
@@ -9958,7 +9958,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  9403 3573 82350000 		.4byte	0x3582
  9404 3577 10       		.uleb128 0x10
  9405 3578 BA4F0000 		.4byte	0x4fba
-ARM GAS  /tmp/cc9AvIGf.s 			page 167
+ARM GAS  /tmp/ccd35jx0.s 			page 167
 
 
  9406 357c 0D       		.uleb128 0xd
@@ -10018,7 +10018,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  9460 3607 10       		.uleb128 0x10
  9461 3608 B44F0000 		.4byte	0x4fb4
  9462 360c 0D       		.uleb128 0xd
-ARM GAS  /tmp/cc9AvIGf.s 			page 168
+ARM GAS  /tmp/ccd35jx0.s 			page 168
 
 
  9463 360d CC320000 		.4byte	0x32cc
@@ -10078,7 +10078,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  9517 3698 0D       		.uleb128 0xd
  9518 3699 D84F0000 		.4byte	0x4fd8
  9519 369d 00       		.byte	0
-ARM GAS  /tmp/cc9AvIGf.s 			page 169
+ARM GAS  /tmp/ccd35jx0.s 			page 169
 
 
  9520 369e 27       		.uleb128 0x27
@@ -10138,7 +10138,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  9574 3726 30370000 		.4byte	0x3730
  9575 372a 00       		.byte	0
  9576 372b 07       		.uleb128 0x7
-ARM GAS  /tmp/cc9AvIGf.s 			page 170
+ARM GAS  /tmp/ccd35jx0.s 			page 170
 
 
  9577 372c 30370000 		.4byte	0x3730
@@ -10198,7 +10198,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  9631 379e A8370000 		.4byte	0x37a8
  9632 37a2 10       		.uleb128 0x10
  9633 37a3 EF4F0000 		.4byte	0x4fef
-ARM GAS  /tmp/cc9AvIGf.s 			page 171
+ARM GAS  /tmp/ccd35jx0.s 			page 171
 
 
  9634 37a7 00       		.byte	0
@@ -10258,7 +10258,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  9688 3828 73170000 		.4byte	.LASF548
  9689 382c 01       		.byte	0x1
  9690 382d 35380000 		.4byte	0x3835
-ARM GAS  /tmp/cc9AvIGf.s 			page 172
+ARM GAS  /tmp/ccd35jx0.s 			page 172
 
 
  9691 3831 40380000 		.4byte	0x3840
@@ -10318,7 +10318,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  9745 38b5 00       		.byte	0
  9746 38b6 23       		.uleb128 0x23
  9747 38b7 9A480000 		.4byte	.LASF329
-ARM GAS  /tmp/cc9AvIGf.s 			page 173
+ARM GAS  /tmp/ccd35jx0.s 			page 173
 
 
  9748 38bb 16       		.byte	0x16
@@ -10378,7 +10378,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  9802 3942 42       		.byte	0x42
  9803 3943 B4000000 		.4byte	0xb4
  9804 3947 01       		.byte	0x1
-ARM GAS  /tmp/cc9AvIGf.s 			page 174
+ARM GAS  /tmp/ccd35jx0.s 			page 174
 
 
  9805 3948 50390000 		.4byte	0x3950
@@ -10438,7 +10438,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  9859 39c0 C8390000 		.4byte	0x39c8
  9860 39c4 CE390000 		.4byte	0x39ce
  9861 39c8 10       		.uleb128 0x10
-ARM GAS  /tmp/cc9AvIGf.s 			page 175
+ARM GAS  /tmp/ccd35jx0.s 			page 175
 
 
  9862 39c9 06500000 		.4byte	0x5006
@@ -10498,7 +10498,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  9916 3a4a 543A0000 		.4byte	0x3a54
  9917 3a4e 10       		.uleb128 0x10
  9918 3a4f 06500000 		.4byte	0x5006
-ARM GAS  /tmp/cc9AvIGf.s 			page 176
+ARM GAS  /tmp/ccd35jx0.s 			page 176
 
 
  9919 3a53 00       		.byte	0
@@ -10558,7 +10558,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  9973 3ac8 11       		.byte	0x11
  9974 3ac9 D5470000 		.4byte	.LASF572
  9975 3acd 01       		.byte	0x1
-ARM GAS  /tmp/cc9AvIGf.s 			page 177
+ARM GAS  /tmp/ccd35jx0.s 			page 177
 
 
  9976 3ace D63A0000 		.4byte	0x3ad6
@@ -10618,7 +10618,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  10030 3b4c 19       		.byte	0x19
  10031 3b4d 09       		.byte	0x9
  10032 3b4e 283C0000 		.4byte	0x3c28
-ARM GAS  /tmp/cc9AvIGf.s 			page 178
+ARM GAS  /tmp/ccd35jx0.s 			page 178
 
 
  10033 3b52 13       		.uleb128 0x13
@@ -10678,7 +10678,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  10087 3bca D23B0000 		.4byte	0x3bd2
  10088 3bce D83B0000 		.4byte	0x3bd8
  10089 3bd2 10       		.uleb128 0x10
-ARM GAS  /tmp/cc9AvIGf.s 			page 179
+ARM GAS  /tmp/ccd35jx0.s 			page 179
 
 
  10090 3bd3 18500000 		.4byte	0x5018
@@ -10738,7 +10738,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  10144 3c48 1D2D0000 		.4byte	.LASF85
  10145 3c4c 0B       		.byte	0xb
  10146 3c4d 12       		.byte	0x12
-ARM GAS  /tmp/cc9AvIGf.s 			page 180
+ARM GAS  /tmp/ccd35jx0.s 			page 180
 
 
  10147 3c4e 1E500000 		.4byte	0x501e
@@ -10798,7 +10798,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  10201 3ccd 5F500000 		.4byte	0x505f
  10202 3cd1 00       		.byte	0
  10203 3cd2 07       		.uleb128 0x7
-ARM GAS  /tmp/cc9AvIGf.s 			page 181
+ARM GAS  /tmp/ccd35jx0.s 			page 181
 
 
  10204 3cd3 3A3C0000 		.4byte	0x3c3a
@@ -10858,7 +10858,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  10258 3d5b 0E02     		.2byte	0x20e
  10259 3d5d 1D070000 		.4byte	.LASF589
  10260 3d61 9D470000 		.4byte	0x479d
-ARM GAS  /tmp/cc9AvIGf.s 			page 182
+ARM GAS  /tmp/ccd35jx0.s 			page 182
 
 
  10261 3d65 01       		.byte	0x1
@@ -10918,7 +10918,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  10315 3ded 43080000 		.4byte	.LASF593
  10316 3df1 71500000 		.4byte	0x5071
  10317 3df5 01       		.byte	0x1
-ARM GAS  /tmp/cc9AvIGf.s 			page 183
+ARM GAS  /tmp/ccd35jx0.s 			page 183
 
 
  10318 3df6 FE3D0000 		.4byte	0x3dfe
@@ -10978,7 +10978,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  10372 3e81 01       		.byte	0x1
  10373 3e82 8A3E0000 		.4byte	0x3e8a
  10374 3e86 903E0000 		.4byte	0x3e90
-ARM GAS  /tmp/cc9AvIGf.s 			page 184
+ARM GAS  /tmp/ccd35jx0.s 			page 184
 
 
  10375 3e8a 10       		.uleb128 0x10
@@ -11038,7 +11038,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  10429 3f12 27       		.uleb128 0x27
  10430 3f13 4B340000 		.4byte	.LASF157
  10431 3f17 0B       		.byte	0xb
-ARM GAS  /tmp/cc9AvIGf.s 			page 185
+ARM GAS  /tmp/ccd35jx0.s 			page 185
 
 
  10432 3f18 6702     		.2byte	0x267
@@ -11098,7 +11098,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  10486 3fa1 F2360000 		.4byte	.LASF606
  10487 3fa5 9D470000 		.4byte	0x479d
  10488 3fa9 01       		.byte	0x1
-ARM GAS  /tmp/cc9AvIGf.s 			page 186
+ARM GAS  /tmp/ccd35jx0.s 			page 186
 
 
  10489 3faa B23F0000 		.4byte	0x3fb2
@@ -11158,7 +11158,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  10543 4034 E401     		.2byte	0x1e4
  10544 4036 64520000 		.4byte	.LASF610
  10545 403a 29400000 		.4byte	0x4029
-ARM GAS  /tmp/cc9AvIGf.s 			page 187
+ARM GAS  /tmp/ccd35jx0.s 			page 187
 
 
  10546 403e 01       		.byte	0x1
@@ -11218,7 +11218,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  10600 40c6 5F500000 		.4byte	0x505f
  10601 40ca 0D       		.uleb128 0xd
  10602 40cb 89500000 		.4byte	0x5089
-ARM GAS  /tmp/cc9AvIGf.s 			page 188
+ARM GAS  /tmp/ccd35jx0.s 			page 188
 
 
  10603 40cf 00       		.byte	0
@@ -11278,7 +11278,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  10657 4143 29       		.byte	0x29
  10658 4144 71470000 		.4byte	0x4771
  10659 4148 0C       		.byte	0xc
-ARM GAS  /tmp/cc9AvIGf.s 			page 189
+ARM GAS  /tmp/ccd35jx0.s 			page 189
 
 
  10660 4149 16       		.uleb128 0x16
@@ -11338,7 +11338,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  10714 41b5 09       		.byte	0x9
  10715 41b6 39       		.byte	0x39
  10716 41b7 C21C0000 		.4byte	0x1cc2
-ARM GAS  /tmp/cc9AvIGf.s 			page 190
+ARM GAS  /tmp/ccd35jx0.s 			page 190
 
 
  10717 41bb 28       		.byte	0x28
@@ -11398,7 +11398,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  10771 4227 F4       		.byte	0xf4
  10772 4228 3F       		.uleb128 0x3f
  10773 4229 FB200000 		.4byte	.LASF634
-ARM GAS  /tmp/cc9AvIGf.s 			page 191
+ARM GAS  /tmp/ccd35jx0.s 			page 191
 
 
  10774 422d 09       		.byte	0x9
@@ -11458,7 +11458,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  10828 429f 09       		.byte	0x9
  10829 42a0 65       		.byte	0x65
  10830 42a1 383F0000 		.4byte	.LASF643
-ARM GAS  /tmp/cc9AvIGf.s 			page 192
+ARM GAS  /tmp/ccd35jx0.s 			page 192
 
 
  10831 42a5 C3000000 		.4byte	0xc3
@@ -11518,7 +11518,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  10885 432f 00       		.byte	0
  10886 4330 18       		.uleb128 0x18
  10887 4331 240F0000 		.4byte	.LASF652
-ARM GAS  /tmp/cc9AvIGf.s 			page 193
+ARM GAS  /tmp/ccd35jx0.s 			page 193
 
 
  10888 4335 09       		.byte	0x9
@@ -11578,7 +11578,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  10942 43b9 31510000 		.4byte	0x5131
  10943 43bd 00       		.byte	0
  10944 43be 19       		.uleb128 0x19
-ARM GAS  /tmp/cc9AvIGf.s 			page 194
+ARM GAS  /tmp/ccd35jx0.s 			page 194
 
 
  10945 43bf D1150000 		.4byte	.LASF659
@@ -11638,7 +11638,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  10999 4443 01       		.byte	0x1
  11000 4444 4C440000 		.4byte	0x444c
  11001 4448 5C440000 		.4byte	0x445c
-ARM GAS  /tmp/cc9AvIGf.s 			page 195
+ARM GAS  /tmp/ccd35jx0.s 			page 195
 
 
  11002 444c 10       		.uleb128 0x10
@@ -11698,7 +11698,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  11056 44cd EB440000 		.4byte	0x44eb
  11057 44d1 10       		.uleb128 0x10
  11058 44d2 31510000 		.4byte	0x5131
-ARM GAS  /tmp/cc9AvIGf.s 			page 196
+ARM GAS  /tmp/ccd35jx0.s 			page 196
 
 
  11059 44d6 0D       		.uleb128 0xd
@@ -11758,7 +11758,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  11113 455a 84       		.byte	0x84
  11114 455b 8C500000 		.4byte	.LASF675
  11115 455f 9D470000 		.4byte	0x479d
-ARM GAS  /tmp/cc9AvIGf.s 			page 197
+ARM GAS  /tmp/ccd35jx0.s 			page 197
 
 
  11116 4563 01       		.byte	0x1
@@ -11818,7 +11818,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  11170 45ea 0D       		.uleb128 0xd
  11171 45eb C3000000 		.4byte	0xc3
  11172 45ef 00       		.byte	0
-ARM GAS  /tmp/cc9AvIGf.s 			page 198
+ARM GAS  /tmp/ccd35jx0.s 			page 198
 
 
  11173 45f0 23       		.uleb128 0x23
@@ -11878,7 +11878,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  11227 4677 EB280000 		.4byte	.LASF688
  11228 467b 09       		.byte	0x9
  11229 467c 97       		.byte	0x97
-ARM GAS  /tmp/cc9AvIGf.s 			page 199
+ARM GAS  /tmp/ccd35jx0.s 			page 199
 
 
  11230 467d E95F0000 		.4byte	.LASF689
@@ -11938,7 +11938,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  11284 4704 2C       		.uleb128 0x2c
  11285 4705 174C0000 		.4byte	.LASF700
  11286 4709 17470000 		.4byte	0x4717
-ARM GAS  /tmp/cc9AvIGf.s 			page 200
+ARM GAS  /tmp/ccd35jx0.s 			page 200
 
 
  11287 470d 2B       		.uleb128 0x2b
@@ -11998,7 +11998,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  11341 4788 EB0A0000 		.4byte	.LASF707
  11342 478c 1A       		.byte	0x1a
  11343 478d 2D       		.byte	0x2d
-ARM GAS  /tmp/cc9AvIGf.s 			page 201
+ARM GAS  /tmp/ccd35jx0.s 			page 201
 
 
  11344 478e 82000000 		.4byte	0x82
@@ -12058,7 +12058,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  11398 4803 07480000 		.4byte	0x4807
  11399 4807 45       		.uleb128 0x45
  11400 4808 7D1A0000 		.4byte	.LASF435
-ARM GAS  /tmp/cc9AvIGf.s 			page 202
+ARM GAS  /tmp/ccd35jx0.s 			page 202
 
 
  11401 480c 4C       		.byte	0x4c
@@ -12118,7 +12118,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  11455 4878 16       		.uleb128 0x16
  11456 4879 C4180000 		.4byte	.LASF726
  11457 487d 1D       		.byte	0x1d
-ARM GAS  /tmp/cc9AvIGf.s 			page 203
+ARM GAS  /tmp/ccd35jx0.s 			page 203
 
 
  11458 487e 66       		.byte	0x66
@@ -12178,7 +12178,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  11512 48ea B4       		.byte	0xb4
  11513 48eb 13480000 		.4byte	0x4813
  11514 48ef 28       		.byte	0x28
-ARM GAS  /tmp/cc9AvIGf.s 			page 204
+ARM GAS  /tmp/ccd35jx0.s 			page 204
 
 
  11515 48f0 16       		.uleb128 0x16
@@ -12238,7 +12238,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  11569 495c 00       		.byte	0
  11570 495d 16       		.uleb128 0x16
  11571 495e 45210000 		.4byte	.LASF723
-ARM GAS  /tmp/cc9AvIGf.s 			page 205
+ARM GAS  /tmp/ccd35jx0.s 			page 205
 
 
  11572 4962 1C       		.byte	0x1c
@@ -12298,7 +12298,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  11626 49d0 73313700 		.ascii	"s17\000"
  11627 49d4 1E       		.byte	0x1e
  11628 49d5 0F01     		.2byte	0x10f
-ARM GAS  /tmp/cc9AvIGf.s 			page 206
+ARM GAS  /tmp/ccd35jx0.s 			page 206
 
 
  11629 49d7 9F490000 		.4byte	0x499f
@@ -12358,7 +12358,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  11683 4a4c 9F490000 		.4byte	0x499f
  11684 4a50 28       		.byte	0x28
  11685 4a51 4A       		.uleb128 0x4a
-ARM GAS  /tmp/cc9AvIGf.s 			page 207
+ARM GAS  /tmp/ccd35jx0.s 			page 207
 
 
  11686 4a52 73323700 		.ascii	"s27\000"
@@ -12418,7 +12418,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  11740 4ac3 723800   		.ascii	"r8\000"
  11741 4ac6 1E       		.byte	0x1e
  11742 4ac7 2301     		.2byte	0x123
-ARM GAS  /tmp/cc9AvIGf.s 			page 208
+ARM GAS  /tmp/ccd35jx0.s 			page 208
 
 
  11743 4ac9 9F490000 		.4byte	0x499f
@@ -12478,7 +12478,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  11797 4b39 5F       		.byte	0x5f
  11798 4b3a 70490000 		.4byte	0x4970
  11799 4b3e 00       		.byte	0
-ARM GAS  /tmp/cc9AvIGf.s 			page 209
+ARM GAS  /tmp/ccd35jx0.s 			page 209
 
 
  11800 4b3f 16       		.uleb128 0x16
@@ -12538,7 +12538,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  11854 4bab 16       		.uleb128 0x16
  11855 4bac BE040000 		.4byte	.LASF760
  11856 4bb0 20       		.byte	0x20
-ARM GAS  /tmp/cc9AvIGf.s 			page 210
+ARM GAS  /tmp/ccd35jx0.s 			page 210
 
 
  11857 4bb1 31       		.byte	0x31
@@ -12598,7 +12598,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  11911 4c20 16       		.uleb128 0x16
  11912 4c21 0F300000 		.4byte	.LASF766
  11913 4c25 22       		.byte	0x22
-ARM GAS  /tmp/cc9AvIGf.s 			page 211
+ARM GAS  /tmp/ccd35jx0.s 			page 211
 
 
  11914 4c26 36       		.byte	0x36
@@ -12658,7 +12658,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  11968 4c95 68040000 		.4byte	0x468
  11969 4c99 06       		.uleb128 0x6
  11970 4c9a 04       		.byte	0x4
-ARM GAS  /tmp/cc9AvIGf.s 			page 212
+ARM GAS  /tmp/ccd35jx0.s 			page 212
 
 
  11971 4c9b AF020000 		.4byte	0x2af
@@ -12718,7 +12718,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  12025 4d0d 04       		.byte	0x4
  12026 4d0e 1A100000 		.4byte	0x101a
  12027 4d12 06       		.uleb128 0x6
-ARM GAS  /tmp/cc9AvIGf.s 			page 213
+ARM GAS  /tmp/ccd35jx0.s 			page 213
 
 
  12028 4d13 04       		.byte	0x4
@@ -12778,7 +12778,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  12082 4d85 1F100000 		.4byte	0x101f
  12083 4d89 44       		.uleb128 0x44
  12084 4d8a 04       		.byte	0x4
-ARM GAS  /tmp/cc9AvIGf.s 			page 214
+ARM GAS  /tmp/ccd35jx0.s 			page 214
 
 
  12085 4d8b 31100000 		.4byte	0x1031
@@ -12838,7 +12838,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  12139 4e00 06       		.uleb128 0x6
  12140 4e01 04       		.byte	0x4
  12141 4e02 C21C0000 		.4byte	0x1cc2
-ARM GAS  /tmp/cc9AvIGf.s 			page 215
+ARM GAS  /tmp/ccd35jx0.s 			page 215
 
 
  12142 4e06 44       		.uleb128 0x44
@@ -12898,7 +12898,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  12196 4e72 764E0000 		.4byte	0x4e76
  12197 4e76 4C       		.uleb128 0x4c
  12198 4e77 9D470000 		.4byte	0x479d
-ARM GAS  /tmp/cc9AvIGf.s 			page 216
+ARM GAS  /tmp/ccd35jx0.s 			page 216
 
 
  12199 4e7b 854E0000 		.4byte	0x4e85
@@ -12958,7 +12958,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  12253 4eed 162C0000 		.4byte	0x2c16
  12254 4ef1 44       		.uleb128 0x44
  12255 4ef2 04       		.byte	0x4
-ARM GAS  /tmp/cc9AvIGf.s 			page 217
+ARM GAS  /tmp/ccd35jx0.s 			page 217
 
 
  12256 4ef3 FC470000 		.4byte	0x47fc
@@ -13018,7 +13018,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  12310 4f68 734F0000 		.4byte	0x4f73
  12311 4f6c 09       		.uleb128 0x9
  12312 4f6d AD000000 		.4byte	0xad
-ARM GAS  /tmp/cc9AvIGf.s 			page 218
+ARM GAS  /tmp/ccd35jx0.s 			page 218
 
 
  12313 4f71 1E       		.byte	0x1e
@@ -13078,7 +13078,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  12367 4fe0 5C310000 		.4byte	0x315c
  12368 4fe4 07       		.uleb128 0x7
  12369 4fe5 C64F0000 		.4byte	0x4fc6
-ARM GAS  /tmp/cc9AvIGf.s 			page 219
+ARM GAS  /tmp/ccd35jx0.s 			page 219
 
 
  12370 4fe9 44       		.uleb128 0x44
@@ -13138,7 +13138,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  12424 505b D23C0000 		.4byte	0x3cd2
  12425 505f 06       		.uleb128 0x6
  12426 5060 04       		.byte	0x4
-ARM GAS  /tmp/cc9AvIGf.s 			page 220
+ARM GAS  /tmp/ccd35jx0.s 			page 220
 
 
  12427 5061 FA400000 		.4byte	0x40fa
@@ -13198,7 +13198,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  12481 50d0 04       		.byte	0x4
  12482 50d1 E4290000 		.4byte	0x29e4
  12483 50d5 06       		.uleb128 0x6
-ARM GAS  /tmp/cc9AvIGf.s 			page 221
+ARM GAS  /tmp/ccd35jx0.s 			page 221
 
 
  12484 50d6 04       		.byte	0x4
@@ -13258,7 +13258,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  12538 5145 430D0000 		.4byte	0xd43
  12539 5149 06       		.uleb128 0x6
  12540 514a 04       		.byte	0x4
-ARM GAS  /tmp/cc9AvIGf.s 			page 222
+ARM GAS  /tmp/ccd35jx0.s 			page 222
 
 
  12541 514b 430D0000 		.4byte	0xd43
@@ -13318,7 +13318,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  12595 51be A3010000 		.4byte	0x1a3
  12596 51c2 02       		.byte	0x2
  12597 51c3 CB510000 		.4byte	0x51cb
-ARM GAS  /tmp/cc9AvIGf.s 			page 223
+ARM GAS  /tmp/ccd35jx0.s 			page 223
 
 
  12598 51c7 D5510000 		.4byte	0x51d5
@@ -13378,7 +13378,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  12652 524e 00000000 		.4byte	.LFB18
  12653 5252 0E000000 		.4byte	.LFE18-.LFB18
  12654 5256 01       		.uleb128 0x1
-ARM GAS  /tmp/cc9AvIGf.s 			page 224
+ARM GAS  /tmp/ccd35jx0.s 			page 224
 
 
  12655 5257 9C       		.byte	0x9c
@@ -13438,7 +13438,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  12709 52d8 54       		.uleb128 0x54
  12710 52d9 AE520000 		.4byte	0x52ae
  12711 52dd 02       		.uleb128 0x2
-ARM GAS  /tmp/cc9AvIGf.s 			page 225
+ARM GAS  /tmp/ccd35jx0.s 			page 225
 
 
  12712 52de 91       		.byte	0x91
@@ -13498,7 +13498,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  12766 535f 70530000 		.4byte	0x5370
  12767 5363 5B       		.uleb128 0x5b
  12768 5364 9C290000 		.4byte	.LASF771
-ARM GAS  /tmp/cc9AvIGf.s 			page 226
+ARM GAS  /tmp/ccd35jx0.s 			page 226
 
 
  12769 5368 70530000 		.4byte	0x5370
@@ -13558,7 +13558,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  12823 53e0 01       		.uleb128 0x1
  12824 53e1 9C       		.byte	0x9c
  12825 53e2 EA530000 		.4byte	0x53ea
-ARM GAS  /tmp/cc9AvIGf.s 			page 227
+ARM GAS  /tmp/ccd35jx0.s 			page 227
 
 
  12826 53e6 05540000 		.4byte	0x5405
@@ -13618,7 +13618,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  12880 545b 00000000 		.4byte	.LFB151
  12881 545f 16000000 		.4byte	.LFE151-.LFB151
  12882 5463 01       		.uleb128 0x1
-ARM GAS  /tmp/cc9AvIGf.s 			page 228
+ARM GAS  /tmp/ccd35jx0.s 			page 228
 
 
  12883 5464 9C       		.byte	0x9c
@@ -13678,7 +13678,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  12937 54df AA540000 		.4byte	0x54aa
  12938 54e3 02       		.uleb128 0x2
  12939 54e4 91       		.byte	0x91
-ARM GAS  /tmp/cc9AvIGf.s 			page 229
+ARM GAS  /tmp/ccd35jx0.s 			page 229
 
 
  12940 54e5 78       		.sleb128 -8
@@ -13738,7 +13738,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  12994 555a 9C       		.byte	0x9c
  12995 555b 63550000 		.4byte	0x5563
  12996 555f 70550000 		.4byte	0x5570
-ARM GAS  /tmp/cc9AvIGf.s 			page 230
+ARM GAS  /tmp/ccd35jx0.s 			page 230
 
 
  12997 5563 5B       		.uleb128 0x5b
@@ -13798,7 +13798,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  13051 55e1 E9550000 		.4byte	0x55e9
  13052 55e5 02       		.uleb128 0x2
  13053 55e6 91       		.byte	0x91
-ARM GAS  /tmp/cc9AvIGf.s 			page 231
+ARM GAS  /tmp/ccd35jx0.s 			page 231
 
 
  13054 55e7 74       		.sleb128 -12
@@ -13858,7 +13858,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  13108 5665 64       		.uleb128 0x64
  13109 5666 2F410000 		.4byte	.LASF781
  13110 566a 08       		.byte	0x8
-ARM GAS  /tmp/cc9AvIGf.s 			page 232
+ARM GAS  /tmp/ccd35jx0.s 			page 232
 
 
  13111 566b FC       		.byte	0xfc
@@ -13918,7 +13918,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  13165 56e1 70       		.sleb128 -16
  13166 56e2 00       		.byte	0
  13167 56e3 07       		.uleb128 0x7
-ARM GAS  /tmp/cc9AvIGf.s 			page 233
+ARM GAS  /tmp/ccd35jx0.s 			page 233
 
 
  13168 56e4 3A4E0000 		.4byte	0x4e3a
@@ -13978,7 +13978,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  13222 575c 57       		.uleb128 0x57
  13223 575d 6900     		.ascii	"i\000"
  13224 575f 0A       		.byte	0xa
-ARM GAS  /tmp/cc9AvIGf.s 			page 234
+ARM GAS  /tmp/ccd35jx0.s 			page 234
 
 
  13225 5760 0E       		.byte	0xe
@@ -14038,7 +14038,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  13279 57ca 00       		.byte	0
  13280 57cb 00       		.byte	0
  13281 57cc 07       		.uleb128 0x7
-ARM GAS  /tmp/cc9AvIGf.s 			page 235
+ARM GAS  /tmp/ccd35jx0.s 			page 235
 
 
  13282 57cd 3A4E0000 		.4byte	0x4e3a
@@ -14098,7 +14098,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  13336 5840 02       		.uleb128 0x2
  13337 5841 91       		.byte	0x91
  13338 5842 6C       		.sleb128 -20
-ARM GAS  /tmp/cc9AvIGf.s 			page 236
+ARM GAS  /tmp/ccd35jx0.s 			page 236
 
 
  13339 5843 56       		.uleb128 0x56
@@ -14158,7 +14158,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  13393 58b5 01       		.uleb128 0x1
  13394 58b6 9C       		.byte	0x9c
  13395 58b7 BF580000 		.4byte	0x58bf
-ARM GAS  /tmp/cc9AvIGf.s 			page 237
+ARM GAS  /tmp/ccd35jx0.s 			page 237
 
 
  13396 58bb FE580000 		.4byte	0x58fe
@@ -14218,7 +14218,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  13450 592b 91       		.byte	0x91
  13451 592c 5C       		.sleb128 -36
  13452 592d 60       		.uleb128 0x60
-ARM GAS  /tmp/cc9AvIGf.s 			page 238
+ARM GAS  /tmp/ccd35jx0.s 			page 238
 
 
  13453 592e 6D736700 		.ascii	"msg\000"
@@ -14278,7 +14278,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  13507 599b 0E5A0000 		.4byte	0x5a0e
  13508 599f 5B       		.uleb128 0x5b
  13509 59a0 9C290000 		.4byte	.LASF771
-ARM GAS  /tmp/cc9AvIGf.s 			page 239
+ARM GAS  /tmp/ccd35jx0.s 			page 239
 
 
  13510 59a4 1E4E0000 		.4byte	0x4e1e
@@ -14338,7 +14338,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  13564 5a0b 00       		.byte	0
  13565 5a0c 00       		.byte	0
  13566 5a0d 00       		.byte	0
-ARM GAS  /tmp/cc9AvIGf.s 			page 240
+ARM GAS  /tmp/ccd35jx0.s 			page 240
 
 
  13567 5a0e 07       		.uleb128 0x7
@@ -14398,7 +14398,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  13621 5a86 02       		.uleb128 0x2
  13622 5a87 91       		.byte	0x91
  13623 5a88 74       		.sleb128 -12
-ARM GAS  /tmp/cc9AvIGf.s 			page 241
+ARM GAS  /tmp/ccd35jx0.s 			page 241
 
 
  13624 5a89 60       		.uleb128 0x60
@@ -14458,7 +14458,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  13678 5af2 07       		.uleb128 0x7
  13679 5af3 524E0000 		.4byte	0x4e52
  13680 5af7 67       		.uleb128 0x67
-ARM GAS  /tmp/cc9AvIGf.s 			page 242
+ARM GAS  /tmp/ccd35jx0.s 			page 242
 
 
  13681 5af8 A6210000 		.4byte	0x21a6
@@ -14518,7 +14518,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  13735 5b6a B05B0000 		.4byte	0x5bb0
  13736 5b6e 02       		.uleb128 0x2
  13737 5b6f 91       		.byte	0x91
-ARM GAS  /tmp/cc9AvIGf.s 			page 243
+ARM GAS  /tmp/ccd35jx0.s 			page 243
 
 
  13738 5b70 68       		.sleb128 -24
@@ -14578,7 +14578,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  13792 5bdf BE1E0000 		.4byte	.LASF265
  13793 5be3 0A       		.byte	0xa
  13794 5be4 EC       		.byte	0xec
-ARM GAS  /tmp/cc9AvIGf.s 			page 244
+ARM GAS  /tmp/ccd35jx0.s 			page 244
 
 
  13795 5be5 C3000000 		.4byte	0xc3
@@ -14638,7 +14638,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  13849 5c5d 91       		.byte	0x91
  13850 5c5e 7C       		.sleb128 -4
  13851 5c5f 00       		.byte	0
-ARM GAS  /tmp/cc9AvIGf.s 			page 245
+ARM GAS  /tmp/ccd35jx0.s 			page 245
 
 
  13852 5c60 07       		.uleb128 0x7
@@ -14698,7 +14698,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  13906 5ce4 1E000000 		.4byte	.LFE646-.LFB646
  13907 5ce8 01       		.uleb128 0x1
  13908 5ce9 9C       		.byte	0x9c
-ARM GAS  /tmp/cc9AvIGf.s 			page 246
+ARM GAS  /tmp/ccd35jx0.s 			page 246
 
 
  13909 5cea F25C0000 		.4byte	0x5cf2
@@ -14758,7 +14758,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  13963 5d65 DB140000 		.4byte	0x14db
  13964 5d69 00000000 		.4byte	.LFB649
  13965 5d6d 20000000 		.4byte	.LFE649-.LFB649
-ARM GAS  /tmp/cc9AvIGf.s 			page 247
+ARM GAS  /tmp/ccd35jx0.s 			page 247
 
 
  13966 5d71 01       		.uleb128 0x1
@@ -14818,7 +14818,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  14020 5de9 55510000 		.4byte	0x5155
  14021 5ded 63       		.uleb128 0x63
  14022 5dee 4C110000 		.4byte	0x114c
-ARM GAS  /tmp/cc9AvIGf.s 			page 248
+ARM GAS  /tmp/ccd35jx0.s 			page 248
 
 
  14023 5df2 00000000 		.4byte	.LFB655
@@ -14878,7 +14878,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  14077 5e74 70       		.sleb128 -16
  14078 5e75 00       		.byte	0
  14079 5e76 07       		.uleb128 0x7
-ARM GAS  /tmp/cc9AvIGf.s 			page 249
+ARM GAS  /tmp/ccd35jx0.s 			page 249
 
 
  14080 5e77 E04E0000 		.4byte	0x4ee0
@@ -14938,7 +14938,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  14134 5ef5 07       		.uleb128 0x7
  14135 5ef6 6D510000 		.4byte	0x516d
  14136 5efa 07       		.uleb128 0x7
-ARM GAS  /tmp/cc9AvIGf.s 			page 250
+ARM GAS  /tmp/ccd35jx0.s 			page 250
 
 
  14137 5efb 67510000 		.4byte	0x5167
@@ -14998,7 +14998,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  14191 5f7f 875F0000 		.4byte	0x5f87
  14192 5f83 945F0000 		.4byte	0x5f94
  14193 5f87 5B       		.uleb128 0x5b
-ARM GAS  /tmp/cc9AvIGf.s 			page 251
+ARM GAS  /tmp/ccd35jx0.s 			page 251
 
 
  14194 5f88 9C290000 		.4byte	.LASF771
@@ -15058,7 +15058,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  14248 6006 01       		.uleb128 0x1
  14249 6007 9C       		.byte	0x9c
  14250 6008 10600000 		.4byte	0x6010
-ARM GAS  /tmp/cc9AvIGf.s 			page 252
+ARM GAS  /tmp/ccd35jx0.s 			page 252
 
 
  14251 600c 1D600000 		.4byte	0x601d
@@ -15118,7 +15118,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  14305 6089 91600000 		.4byte	0x6091
  14306 608d 02       		.uleb128 0x2
  14307 608e 91       		.byte	0x91
-ARM GAS  /tmp/cc9AvIGf.s 			page 253
+ARM GAS  /tmp/ccd35jx0.s 			page 253
 
 
  14308 608f 70       		.sleb128 -16
@@ -15178,7 +15178,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  14362 610b 9D170000 		.4byte	0x179d
  14363 610f 02       		.byte	0x2
  14364 6110 18610000 		.4byte	0x6118
-ARM GAS  /tmp/cc9AvIGf.s 			page 254
+ARM GAS  /tmp/ccd35jx0.s 			page 254
 
 
  14365 6114 22610000 		.4byte	0x6122
@@ -15238,7 +15238,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  14419 619b 02       		.uleb128 0x2
  14420 619c 91       		.byte	0x91
  14421 619d 78       		.sleb128 -8
-ARM GAS  /tmp/cc9AvIGf.s 			page 255
+ARM GAS  /tmp/ccd35jx0.s 			page 255
 
 
  14422 619e 00       		.byte	0
@@ -15298,7 +15298,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  14476 621f 01       		.uleb128 0x1
  14477 6220 9C       		.byte	0x9c
  14478 6221 29620000 		.4byte	0x6229
-ARM GAS  /tmp/cc9AvIGf.s 			page 256
+ARM GAS  /tmp/ccd35jx0.s 			page 256
 
 
  14479 6225 36620000 		.4byte	0x6236
@@ -15358,7 +15358,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  14533 62a6 91       		.byte	0x91
  14534 62a7 6C       		.sleb128 -20
  14535 62a8 56       		.uleb128 0x56
-ARM GAS  /tmp/cc9AvIGf.s 			page 257
+ARM GAS  /tmp/ccd35jx0.s 			page 257
 
 
  14536 62a9 06000000 		.4byte	.LBB51
@@ -15418,7 +15418,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  14590 6328 5B       		.uleb128 0x5b
  14591 6329 9C290000 		.4byte	.LASF771
  14592 632d 895C0000 		.4byte	0x5c89
-ARM GAS  /tmp/cc9AvIGf.s 			page 258
+ARM GAS  /tmp/ccd35jx0.s 			page 258
 
 
  14593 6331 02       		.uleb128 0x2
@@ -15478,7 +15478,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  14647 63aa 01       		.uleb128 0x1
  14648 63ab 9C       		.byte	0x9c
  14649 63ac B4630000 		.4byte	0x63b4
-ARM GAS  /tmp/cc9AvIGf.s 			page 259
+ARM GAS  /tmp/ccd35jx0.s 			page 259
 
 
  14650 63b0 F8630000 		.4byte	0x63f8
@@ -15538,7 +15538,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  14704 6425 0B       		.byte	0xb
  14705 6426 0E02     		.2byte	0x20e
  14706 6428 58640000 		.4byte	0x6458
-ARM GAS  /tmp/cc9AvIGf.s 			page 260
+ARM GAS  /tmp/ccd35jx0.s 			page 260
 
 
  14707 642c 02       		.uleb128 0x2
@@ -15598,7 +15598,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  14761 000f 10       		.uleb128 0x10
  14762 0010 17       		.uleb128 0x17
  14763 0011 00       		.byte	0
-ARM GAS  /tmp/cc9AvIGf.s 			page 261
+ARM GAS  /tmp/ccd35jx0.s 			page 261
 
 
  14764 0012 00       		.byte	0
@@ -15658,7 +15658,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  14818 0048 00       		.byte	0
  14819 0049 49       		.uleb128 0x49
  14820 004a 13       		.uleb128 0x13
-ARM GAS  /tmp/cc9AvIGf.s 			page 262
+ARM GAS  /tmp/ccd35jx0.s 			page 262
 
 
  14821 004b 00       		.byte	0
@@ -15718,7 +15718,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  14875 0081 0B       		.uleb128 0xb
  14876 0082 49       		.uleb128 0x49
  14877 0083 13       		.uleb128 0x13
-ARM GAS  /tmp/cc9AvIGf.s 			page 263
+ARM GAS  /tmp/ccd35jx0.s 			page 263
 
 
  14878 0084 3C       		.uleb128 0x3c
@@ -15778,7 +15778,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  14932 00ba 34       		.uleb128 0x34
  14933 00bb 19       		.uleb128 0x19
  14934 00bc 00       		.byte	0
-ARM GAS  /tmp/cc9AvIGf.s 			page 264
+ARM GAS  /tmp/ccd35jx0.s 			page 264
 
 
  14935 00bd 00       		.byte	0
@@ -15838,7 +15838,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  14989 00f3 14       		.uleb128 0x14
  14990 00f4 2E       		.uleb128 0x2e
  14991 00f5 00       		.byte	0
-ARM GAS  /tmp/cc9AvIGf.s 			page 265
+ARM GAS  /tmp/ccd35jx0.s 			page 265
 
 
  14992 00f6 3F       		.uleb128 0x3f
@@ -15898,7 +15898,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  15046 012c 0B       		.uleb128 0xb
  15047 012d 3B       		.uleb128 0x3b
  15048 012e 0B       		.uleb128 0xb
-ARM GAS  /tmp/cc9AvIGf.s 			page 266
+ARM GAS  /tmp/ccd35jx0.s 			page 266
 
 
  15049 012f 49       		.uleb128 0x49
@@ -15958,7 +15958,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  15103 0165 1A       		.uleb128 0x1a
  15104 0166 0D       		.uleb128 0xd
  15105 0167 00       		.byte	0
-ARM GAS  /tmp/cc9AvIGf.s 			page 267
+ARM GAS  /tmp/ccd35jx0.s 			page 267
 
 
  15106 0168 03       		.uleb128 0x3
@@ -16018,7 +16018,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  15160 019e 01       		.uleb128 0x1
  15161 019f 13       		.uleb128 0x13
  15162 01a0 00       		.byte	0
-ARM GAS  /tmp/cc9AvIGf.s 			page 268
+ARM GAS  /tmp/ccd35jx0.s 			page 268
 
 
  15163 01a1 00       		.byte	0
@@ -16078,7 +16078,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  15217 01d7 3B       		.uleb128 0x3b
  15218 01d8 0B       		.uleb128 0xb
  15219 01d9 32       		.uleb128 0x32
-ARM GAS  /tmp/cc9AvIGf.s 			page 269
+ARM GAS  /tmp/ccd35jx0.s 			page 269
 
 
  15220 01da 0B       		.uleb128 0xb
@@ -16138,7 +16138,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  15274 0210 0E       		.uleb128 0xe
  15275 0211 3A       		.uleb128 0x3a
  15276 0212 0B       		.uleb128 0xb
-ARM GAS  /tmp/cc9AvIGf.s 			page 270
+ARM GAS  /tmp/ccd35jx0.s 			page 270
 
 
  15277 0213 3B       		.uleb128 0x3b
@@ -16198,7 +16198,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  15331 0249 05       		.uleb128 0x5
  15332 024a 49       		.uleb128 0x49
  15333 024b 13       		.uleb128 0x13
-ARM GAS  /tmp/cc9AvIGf.s 			page 271
+ARM GAS  /tmp/ccd35jx0.s 			page 271
 
 
  15334 024c 00       		.byte	0
@@ -16258,7 +16258,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  15388 0282 19       		.uleb128 0x19
  15389 0283 03       		.uleb128 0x3
  15390 0284 08       		.uleb128 0x8
-ARM GAS  /tmp/cc9AvIGf.s 			page 272
+ARM GAS  /tmp/ccd35jx0.s 			page 272
 
 
  15391 0285 3A       		.uleb128 0x3a
@@ -16318,7 +16318,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  15445 02bb 0E       		.uleb128 0xe
  15446 02bc 3C       		.uleb128 0x3c
  15447 02bd 19       		.uleb128 0x19
-ARM GAS  /tmp/cc9AvIGf.s 			page 273
+ARM GAS  /tmp/ccd35jx0.s 			page 273
 
 
  15448 02be 01       		.uleb128 0x1
@@ -16378,7 +16378,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  15502 02f4 0E       		.uleb128 0xe
  15503 02f5 3A       		.uleb128 0x3a
  15504 02f6 0B       		.uleb128 0xb
-ARM GAS  /tmp/cc9AvIGf.s 			page 274
+ARM GAS  /tmp/ccd35jx0.s 			page 274
 
 
  15505 02f7 3B       		.uleb128 0x3b
@@ -16438,7 +16438,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  15559 032d 00       		.byte	0
  15560 032e 00       		.byte	0
  15561 032f 32       		.uleb128 0x32
-ARM GAS  /tmp/cc9AvIGf.s 			page 275
+ARM GAS  /tmp/ccd35jx0.s 			page 275
 
 
  15562 0330 2E       		.uleb128 0x2e
@@ -16498,7 +16498,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  15616 0366 00       		.byte	0
  15617 0367 36       		.uleb128 0x36
  15618 0368 13       		.uleb128 0x13
-ARM GAS  /tmp/cc9AvIGf.s 			page 276
+ARM GAS  /tmp/ccd35jx0.s 			page 276
 
 
  15619 0369 01       		.byte	0x1
@@ -16558,7 +16558,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  15673 039f 3B       		.uleb128 0x3b
  15674 03a0 0B       		.uleb128 0xb
  15675 03a1 49       		.uleb128 0x49
-ARM GAS  /tmp/cc9AvIGf.s 			page 277
+ARM GAS  /tmp/ccd35jx0.s 			page 277
 
 
  15676 03a2 13       		.uleb128 0x13
@@ -16618,7 +16618,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  15730 03d8 13       		.uleb128 0x13
  15731 03d9 32       		.uleb128 0x32
  15732 03da 0B       		.uleb128 0xb
-ARM GAS  /tmp/cc9AvIGf.s 			page 278
+ARM GAS  /tmp/ccd35jx0.s 			page 278
 
 
  15733 03db 3C       		.uleb128 0x3c
@@ -16678,7 +16678,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  15787 0411 19       		.uleb128 0x19
  15788 0412 64       		.uleb128 0x64
  15789 0413 13       		.uleb128 0x13
-ARM GAS  /tmp/cc9AvIGf.s 			page 279
+ARM GAS  /tmp/ccd35jx0.s 			page 279
 
 
  15790 0414 01       		.uleb128 0x1
@@ -16738,7 +16738,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  15844 044a 0E       		.uleb128 0xe
  15845 044b 49       		.uleb128 0x49
  15846 044c 13       		.uleb128 0x13
-ARM GAS  /tmp/cc9AvIGf.s 			page 280
+ARM GAS  /tmp/ccd35jx0.s 			page 280
 
 
  15847 044d 3C       		.uleb128 0x3c
@@ -16798,7 +16798,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  15901 0483 00       		.byte	0
  15902 0484 00       		.byte	0
  15903 0485 48       		.uleb128 0x48
-ARM GAS  /tmp/cc9AvIGf.s 			page 281
+ARM GAS  /tmp/ccd35jx0.s 			page 281
 
 
  15904 0486 13       		.uleb128 0x13
@@ -16858,7 +16858,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  15958 04bc 49       		.uleb128 0x49
  15959 04bd 13       		.uleb128 0x13
  15960 04be 01       		.uleb128 0x1
-ARM GAS  /tmp/cc9AvIGf.s 			page 282
+ARM GAS  /tmp/ccd35jx0.s 			page 282
 
 
  15961 04bf 13       		.uleb128 0x13
@@ -16918,7 +16918,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  16015 04f5 0E       		.uleb128 0xe
  16016 04f6 49       		.uleb128 0x49
  16017 04f7 13       		.uleb128 0x13
-ARM GAS  /tmp/cc9AvIGf.s 			page 283
+ARM GAS  /tmp/ccd35jx0.s 			page 283
 
 
  16018 04f8 34       		.uleb128 0x34
@@ -16978,7 +16978,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  16072 0530 0B       		.uleb128 0xb
  16073 0531 01       		.byte	0x1
  16074 0532 11       		.uleb128 0x11
-ARM GAS  /tmp/cc9AvIGf.s 			page 284
+ARM GAS  /tmp/ccd35jx0.s 			page 284
 
 
  16075 0533 01       		.uleb128 0x1
@@ -17038,7 +17038,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  16129 056a 9642     		.uleb128 0x2116
  16130 056c 19       		.uleb128 0x19
  16131 056d 00       		.byte	0
-ARM GAS  /tmp/cc9AvIGf.s 			page 285
+ARM GAS  /tmp/ccd35jx0.s 			page 285
 
 
  16132 056e 00       		.byte	0
@@ -17098,7 +17098,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  16186 05a6 00       		.byte	0
  16187 05a7 00       		.byte	0
  16188 05a8 5D       		.uleb128 0x5d
-ARM GAS  /tmp/cc9AvIGf.s 			page 286
+ARM GAS  /tmp/ccd35jx0.s 			page 286
 
 
  16189 05a9 05       		.uleb128 0x5
@@ -17158,7 +17158,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  16243 05df 18       		.uleb128 0x18
  16244 05e0 00       		.byte	0
  16245 05e1 00       		.byte	0
-ARM GAS  /tmp/cc9AvIGf.s 			page 287
+ARM GAS  /tmp/ccd35jx0.s 			page 287
 
 
  16246 05e2 61       		.uleb128 0x61
@@ -17218,7 +17218,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  16300 061a 3A       		.uleb128 0x3a
  16301 061b 0B       		.uleb128 0xb
  16302 061c 3B       		.uleb128 0x3b
-ARM GAS  /tmp/cc9AvIGf.s 			page 288
+ARM GAS  /tmp/ccd35jx0.s 			page 288
 
 
  16303 061d 0B       		.uleb128 0xb
@@ -17278,7 +17278,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  16357 0654 12       		.uleb128 0x12
  16358 0655 06       		.uleb128 0x6
  16359 0656 40       		.uleb128 0x40
-ARM GAS  /tmp/cc9AvIGf.s 			page 289
+ARM GAS  /tmp/ccd35jx0.s 			page 289
 
 
  16360 0657 18       		.uleb128 0x18
@@ -17338,7 +17338,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  16414 068f 00       		.byte	0
  16415 0690 00       		.byte	0
  16416 0691 6B       		.uleb128 0x6b
-ARM GAS  /tmp/cc9AvIGf.s 			page 290
+ARM GAS  /tmp/ccd35jx0.s 			page 290
 
 
  16417 0692 05       		.uleb128 0x5
@@ -17398,7 +17398,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  16471 06c8 05       		.uleb128 0x5
  16472 06c9 49       		.uleb128 0x49
  16473 06ca 13       		.uleb128 0x13
-ARM GAS  /tmp/cc9AvIGf.s 			page 291
+ARM GAS  /tmp/ccd35jx0.s 			page 291
 
 
  16474 06cb 3F       		.uleb128 0x3f
@@ -17458,7 +17458,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  16528 00ac 0E000000 		.4byte	.LFE284-.LFB284
  16529 00b0 00000000 		.4byte	.LFB287
  16530 00b4 1A000000 		.4byte	.LFE287-.LFB287
-ARM GAS  /tmp/cc9AvIGf.s 			page 292
+ARM GAS  /tmp/ccd35jx0.s 			page 292
 
 
  16531 00b8 00000000 		.4byte	.LFB294
@@ -17518,7 +17518,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  16585 0190 00000000 		.4byte	.LFB653
  16586 0194 18000000 		.4byte	.LFE653-.LFB653
  16587 0198 00000000 		.4byte	.LFB654
-ARM GAS  /tmp/cc9AvIGf.s 			page 293
+ARM GAS  /tmp/ccd35jx0.s 			page 293
 
 
  16588 019c 1E000000 		.4byte	.LFE654-.LFB654
@@ -17578,7 +17578,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  16642 0274 14000000 		.4byte	.LFE701-.LFB701
  16643 0278 00000000 		.4byte	.LFB703
  16644 027c 54000000 		.4byte	.LFE703-.LFB703
-ARM GAS  /tmp/cc9AvIGf.s 			page 294
+ARM GAS  /tmp/ccd35jx0.s 			page 294
 
 
  16645 0280 00000000 		.4byte	.LFB704
@@ -17638,7 +17638,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  16699 00c0 00000000 		.4byte	.LFB304
  16700 00c4 1A000000 		.4byte	.LFE304
  16701 00c8 00000000 		.4byte	.LFB309
-ARM GAS  /tmp/cc9AvIGf.s 			page 295
+ARM GAS  /tmp/ccd35jx0.s 			page 295
 
 
  16702 00cc 1A000000 		.4byte	.LFE309
@@ -17698,7 +17698,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  16756 01a4 2A000000 		.4byte	.LFE657
  16757 01a8 00000000 		.4byte	.LFB658
  16758 01ac 20000000 		.4byte	.LFE658
-ARM GAS  /tmp/cc9AvIGf.s 			page 296
+ARM GAS  /tmp/ccd35jx0.s 			page 296
 
 
  16759 01b0 00000000 		.4byte	.LFB662
@@ -17758,7 +17758,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  16813 0000 240C0000 		.section	.debug_str,"MS",%progbits,1
  16813      0200C504 
  16813      00000201 
-ARM GAS  /tmp/cc9AvIGf.s 			page 297
+ARM GAS  /tmp/ccd35jx0.s 			page 297
 
 
  16813      FB0E0D00 
@@ -17818,7 +17818,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  16837      31305374 
  16837      61746963 
  16837      4C697374 
-ARM GAS  /tmp/cc9AvIGf.s 			page 298
+ARM GAS  /tmp/ccd35jx0.s 			page 298
 
 
  16838 013d 69727374 		.ascii	"irst_unsafeEPFbRKS1_E\000"
@@ -17878,7 +17878,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  16857      72696265 
  16857      5F726573 
  16858              	.LASF449:
-ARM GAS  /tmp/cc9AvIGf.s 			page 299
+ARM GAS  /tmp/ccd35jx0.s 			page 299
 
 
  16859 0244 6765745F 		.ascii	"get_thread\000"
@@ -17938,7 +17938,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  16878      7600
  16879              	.LASF658:
  16880 03b0 5F5A4E33 		.ascii	"_ZN3r2p10Middleware5startEv\000"
-ARM GAS  /tmp/cc9AvIGf.s 			page 300
+ARM GAS  /tmp/ccd35jx0.s 			page 300
 
 
  16880      72327031 
@@ -17998,7 +17998,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  16901 04be 6D5F6E65 		.ascii	"m_next\000"
  16901      787400
  16902              	.LASF517:
-ARM GAS  /tmp/cc9AvIGf.s 			page 301
+ARM GAS  /tmp/ccd35jx0.s 			page 301
 
 
  16903 04c5 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_4NodeEE14restart_unsafeERNS"
@@ -18058,7 +18058,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  16923              	.LASF206:
  16924 05f5 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_16RemoteSubscriberEE17find_"
  16924      33723270 
-ARM GAS  /tmp/cc9AvIGf.s 			page 302
+ARM GAS  /tmp/ccd35jx0.s 			page 302
 
 
  16924      31305374 
@@ -18118,7 +18118,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  16942      5F344C69 
  16942      6E6B4500 
  16943              	.LASF288:
-ARM GAS  /tmp/cc9AvIGf.s 			page 303
+ARM GAS  /tmp/ccd35jx0.s 			page 303
 
 
  16944 075c 6861735F 		.ascii	"has_remote_publishers\000"
@@ -18178,7 +18178,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  16963      4553365F 
  16964              	.LASF344:
  16965 088b 52656663 		.ascii	"RefcountType\000"
-ARM GAS  /tmp/cc9AvIGf.s 			page 304
+ARM GAS  /tmp/ccd35jx0.s 			page 304
 
 
  16965      6F756E74 
@@ -18238,7 +18238,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  16983 09d1 6272616E 		.ascii	"branch revision 218278] -mcpu=cortex-m4 -mfloat-abi"
  16983      63682072 
  16983      65766973 
-ARM GAS  /tmp/cc9AvIGf.s 			page 305
+ARM GAS  /tmp/ccd35jx0.s 			page 305
 
 
  16983      696F6E20 
@@ -18298,7 +18298,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17001 0b77 6E6F6465 		.ascii	"nodes\000"
  17001      7300
  17002              	.LASF510:
-ARM GAS  /tmp/cc9AvIGf.s 			page 306
+ARM GAS  /tmp/ccd35jx0.s 			page 306
 
 
  17003 0b7d 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_4NodeEE17find_first_unsafeE"
@@ -18358,7 +18358,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17022      4C697374 
  17023 0cab 457600   		.ascii	"Ev\000"
  17024              	.LASF512:
-ARM GAS  /tmp/cc9AvIGf.s 			page 307
+ARM GAS  /tmp/ccd35jx0.s 			page 307
 
 
  17025 0cae 5F5A4E33 		.ascii	"_ZN3r2p10StaticListINS_4NodeEE12begin_unsafeEv\000"
@@ -18418,7 +18418,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17043      33723270 
  17043      31305374 
  17043      61746963 
-ARM GAS  /tmp/cc9AvIGf.s 			page 308
+ARM GAS  /tmp/ccd35jx0.s 			page 308
 
 
  17043      4C697374 
@@ -18478,7 +18478,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17064              	.LASF685:
  17065 0f65 5F5A4E33 		.ascii	"_ZN3r2p10Middleware12mgmt_threadfEPv\000"
  17065      72327031 
-ARM GAS  /tmp/cc9AvIGf.s 			page 309
+ARM GAS  /tmp/ccd35jx0.s 			page 309
 
 
  17065      304D6964 
@@ -18538,7 +18538,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17088 106b 53746174 		.ascii	"StaticList<r2p::Transport>\000"
  17088      69634C69 
  17088      73743C72 
-ARM GAS  /tmp/cc9AvIGf.s 			page 310
+ARM GAS  /tmp/ccd35jx0.s 			page 310
 
 
  17088      32703A3A 
@@ -18598,7 +18598,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17109      69737449 
  17110 11a1 6F72556E 		.ascii	"orUnsafeaSERKS3_\000"
  17110      73616665 
-ARM GAS  /tmp/cc9AvIGf.s 			page 311
+ARM GAS  /tmp/ccd35jx0.s 			page 311
 
 
  17110      61534552 
@@ -18658,7 +18658,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17132      00
  17133              	.LASF124:
  17134 12ae 4D617463 		.ascii	"Matches\000"
-ARM GAS  /tmp/cc9AvIGf.s 			page 312
+ARM GAS  /tmp/ccd35jx0.s 			page 312
 
 
  17134      68657300 
@@ -18718,7 +18718,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17156      6E6B00
  17157              	.LASF94:
  17158 13b8 6F706572 		.ascii	"operator*\000"
-ARM GAS  /tmp/cc9AvIGf.s 			page 313
+ARM GAS  /tmp/ccd35jx0.s 			page 313
 
 
  17158      61746F72 
@@ -18778,7 +18778,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17180      556E7361 
  17180      66654500 
  17181              	.LASF90:
-ARM GAS  /tmp/cc9AvIGf.s 			page 314
+ARM GAS  /tmp/ccd35jx0.s 			page 314
 
 
  17182 14a9 63757270 		.ascii	"curp\000"
@@ -18838,7 +18838,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17201              	.LASF224:
  17202 15d6 5F5A4E33 		.ascii	"_ZN3r2p10StaticListINS_16RemoteSubscriberEE3endEv\000"
  17202      72327031 
-ARM GAS  /tmp/cc9AvIGf.s 			page 315
+ARM GAS  /tmp/ccd35jx0.s 			page 315
 
 
  17202      30537461 
@@ -18898,7 +18898,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17225      6D65456A 
  17225      00
  17226              	.LASF169:
-ARM GAS  /tmp/cc9AvIGf.s 			page 316
+ARM GAS  /tmp/ccd35jx0.s 			page 316
 
 
  17227 16eb 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_15LocalSubscriberEE10find_f"
@@ -18958,7 +18958,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17245 1815 5F5A4E33 		.ascii	"_ZN3r2p7Message14acquire_unsafeEv\000"
  17245      72327037 
  17245      4D657373 
-ARM GAS  /tmp/cc9AvIGf.s 			page 317
+ARM GAS  /tmp/ccd35jx0.s 			page 317
 
 
  17245      61676531 
@@ -19018,7 +19018,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17266 193b 726E6545 		.ascii	"rneERKS3_\000"
  17266      524B5333 
  17266      5F00
-ARM GAS  /tmp/cc9AvIGf.s 			page 318
+ARM GAS  /tmp/ccd35jx0.s 			page 318
 
 
  17267              	.LASF553:
@@ -19078,7 +19078,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17292 1a41 5F5A4E4B 		.ascii	"_ZNK3r2p10Middleware9get_nodesEv\000"
  17292      33723270 
  17292      31304D69 
-ARM GAS  /tmp/cc9AvIGf.s 			page 319
+ARM GAS  /tmp/ccd35jx0.s 			page 319
 
 
  17292      64646C65 
@@ -19138,7 +19138,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17313      616C7072 
  17313      696F00
  17314              	.LASF535:
-ARM GAS  /tmp/cc9AvIGf.s 			page 320
+ARM GAS  /tmp/ccd35jx0.s 			page 320
 
 
  17315 1b6c 73756273 		.ascii	"subscribers\000"
@@ -19198,7 +19198,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17336      33723270 
  17336      31314D65 
  17336      6D6F7279 
-ARM GAS  /tmp/cc9AvIGf.s 			page 321
+ARM GAS  /tmp/ccd35jx0.s 			page 321
 
 
  17336      506F6F6C 
@@ -19258,7 +19258,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17354      4662524B 
  17354      53315F50 
  17355              	.LASF591:
-ARM GAS  /tmp/cc9AvIGf.s 			page 322
+ARM GAS  /tmp/ccd35jx0.s 			page 322
 
 
  17356 1de8 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_9TransportEE15contains_unsa"
@@ -19318,7 +19318,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17377      33723270 
  17377      3454696D 
  17377      6539746F 
-ARM GAS  /tmp/cc9AvIGf.s 			page 323
+ARM GAS  /tmp/ccd35jx0.s 			page 323
 
 
  17377      5F6D735F 
@@ -19378,7 +19378,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17398      7469634C 
  17398      69737449 
  17399              	.LASF361:
-ARM GAS  /tmp/cc9AvIGf.s 			page 324
+ARM GAS  /tmp/ccd35jx0.s 			page 324
 
 
  17400 203d 5F5A4E33 		.ascii	"_ZN3r2p7Message21get_msg_from_raw_dataEPKh\000"
@@ -19438,7 +19438,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17423 2145 705F7072 		.ascii	"p_prev\000"
  17423      657600
  17424              	.LASF679:
-ARM GAS  /tmp/cc9AvIGf.s 			page 325
+ARM GAS  /tmp/ccd35jx0.s 			page 325
 
 
  17425 214c 5F5A4E33 		.ascii	"_ZN3r2p10Middleware10find_topicEPKc\000"
@@ -19498,7 +19498,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17443      4C697374 
  17444              	.LASF613:
  17445 22a2 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_9TransportEE3endEv\000"
-ARM GAS  /tmp/cc9AvIGf.s 			page 326
+ARM GAS  /tmp/ccd35jx0.s 			page 326
 
 
  17445      33723270 
@@ -19558,7 +19558,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17464      32736574 
  17465              	.LASF267:
  17466 23f9 6D73675F 		.ascii	"msg_pool\000"
-ARM GAS  /tmp/cc9AvIGf.s 			page 327
+ARM GAS  /tmp/ccd35jx0.s 			page 327
 
 
  17466      706F6F6C 
@@ -19618,7 +19618,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17488      6400
  17489              	.LASF441:
  17490 24f3 5F5A4E33 		.ascii	"_ZN3r2p6Thread12get_priorityEv\000"
-ARM GAS  /tmp/cc9AvIGf.s 			page 328
+ARM GAS  /tmp/ccd35jx0.s 			page 328
 
 
  17490      72327036 
@@ -19678,7 +19678,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17509      666500
  17510              	.LASF483:
  17511 260a 73746F70 		.ascii	"stopped\000"
-ARM GAS  /tmp/cc9AvIGf.s 			page 329
+ARM GAS  /tmp/ccd35jx0.s 			page 329
 
 
  17511      70656400 
@@ -19738,7 +19738,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17531      69737449 
  17532 2746 72556E73 		.ascii	"rUnsafeaSERKS3_\000"
  17532      61666561 
-ARM GAS  /tmp/cc9AvIGf.s 			page 330
+ARM GAS  /tmp/ccd35jx0.s 			page 330
 
 
  17532      5345524B 
@@ -19798,7 +19798,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17554              	.LASF368:
  17555 282b 436F6E73 		.ascii	"ConstLink\000"
  17555      744C696E 
-ARM GAS  /tmp/cc9AvIGf.s 			page 331
+ARM GAS  /tmp/ccd35jx0.s 			page 331
 
 
  17555      6B00
@@ -19858,7 +19858,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17575              	.LASF436:
  17576 293e 5F5A4E4B 		.ascii	"_ZNK3r2p6Thread8get_nameEv\000"
  17576      33723270 
-ARM GAS  /tmp/cc9AvIGf.s 			page 332
+ARM GAS  /tmp/ccd35jx0.s 			page 332
 
 
  17576      36546872 
@@ -19918,7 +19918,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17596      61746963 
  17596      4C697374 
  17597 2a85 45504662 		.ascii	"EPFbRKS1_PKvES6_\000"
-ARM GAS  /tmp/cc9AvIGf.s 			page 333
+ARM GAS  /tmp/ccd35jx0.s 			page 333
 
 
  17597      524B5331 
@@ -19978,7 +19978,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17616      723C7232 
  17616      703A3A4D 
  17616      676D744D 
-ARM GAS  /tmp/cc9AvIGf.s 			page 334
+ARM GAS  /tmp/ccd35jx0.s 			page 334
 
 
  17617              	.LASF20:
@@ -20038,7 +20038,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17639              	.LASF350:
  17640 2ccf 5F5A4E33 		.ascii	"_ZN3r2p7Message14release_unsafeEv\000"
  17640      72327037 
-ARM GAS  /tmp/cc9AvIGf.s 			page 335
+ARM GAS  /tmp/ccd35jx0.s 			page 335
 
 
  17640      4D657373 
@@ -20098,7 +20098,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17663 2e11 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_15LocalSubscriberEE10end_un"
  17663      33723270 
  17663      31305374 
-ARM GAS  /tmp/cc9AvIGf.s 			page 336
+ARM GAS  /tmp/ccd35jx0.s 			page 336
 
 
  17663      61746963 
@@ -20158,7 +20158,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17683 2f7a 41445645 		.ascii	"ADVERTISE\000"
  17683      52544953 
  17683      4500
-ARM GAS  /tmp/cc9AvIGf.s 			page 337
+ARM GAS  /tmp/ccd35jx0.s 			page 337
 
 
  17684              	.LASF300:
@@ -20218,7 +20218,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17706      7469634C 
  17706      69737449 
  17707 30b0 524E5332 		.ascii	"RNS2_8IteratorE\000"
-ARM GAS  /tmp/cc9AvIGf.s 			page 338
+ARM GAS  /tmp/ccd35jx0.s 			page 338
 
 
  17707      5F384974 
@@ -20278,7 +20278,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17728              	.LASF775:
  17729 31c1 5F5A4E33 		.ascii	"_ZN3r2p7SysLock5ScopeC2Ev\000"
  17729      72327037 
-ARM GAS  /tmp/cc9AvIGf.s 			page 339
+ARM GAS  /tmp/ccd35jx0.s 			page 339
 
 
  17729      5379734C 
@@ -20338,7 +20338,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17751              	.LASF541:
  17752 32bc 6765745F 		.ascii	"get_subscribers\000"
  17752      73756273 
-ARM GAS  /tmp/cc9AvIGf.s 			page 340
+ARM GAS  /tmp/ccd35jx0.s 			page 340
 
 
  17752      63726962 
@@ -20398,7 +20398,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17776 33a2 6C697374 		.ascii	"lists_lock\000"
  17776      735F6C6F 
  17776      636B00
-ARM GAS  /tmp/cc9AvIGf.s 			page 341
+ARM GAS  /tmp/ccd35jx0.s 			page 341
 
 
  17777              	.LASF233:
@@ -20458,7 +20458,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17796      54696D65 
  17796      4500
  17797              	.LASF599:
-ARM GAS  /tmp/cc9AvIGf.s 			page 342
+ARM GAS  /tmp/ccd35jx0.s 			page 342
 
 
  17798 34ec 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_9TransportEE14restart_unsaf"
@@ -20518,7 +20518,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17816 3652 45524E53 		.ascii	"ERNS2_14IteratorUnsafeE\000"
  17816      325F3134 
  17816      49746572 
-ARM GAS  /tmp/cc9AvIGf.s 			page 343
+ARM GAS  /tmp/ccd35jx0.s 			page 343
 
 
  17816      61746F72 
@@ -20578,7 +20578,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17835      72327037 
  17835      4D657373 
  17835      61676534 
-ARM GAS  /tmp/cc9AvIGf.s 			page 344
+ARM GAS  /tmp/ccd35jx0.s 			page 344
 
 
  17835      636F7079 
@@ -20638,7 +20638,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17856      72327036 
  17856      54687265 
  17856      61643138 
-ARM GAS  /tmp/cc9AvIGf.s 			page 345
+ARM GAS  /tmp/ccd35jx0.s 			page 345
 
 
  17856      636F6D70 
@@ -20698,7 +20698,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17876 3a38 61534552 		.ascii	"aSERKS3_\000"
  17876      4B53335F 
  17876      00
-ARM GAS  /tmp/cc9AvIGf.s 			page 346
+ARM GAS  /tmp/ccd35jx0.s 			page 346
 
 
  17877              	.LASF73:
@@ -20758,7 +20758,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17897 3b5b 6D705F6E 		.ascii	"mp_next\000"
  17897      65787400 
  17898              	.LASF335:
-ARM GAS  /tmp/cc9AvIGf.s 			page 347
+ARM GAS  /tmp/ccd35jx0.s 			page 347
 
 
  17899 3b63 70617463 		.ascii	"patch_pubsub_msg\000"
@@ -20818,7 +20818,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17918              	.LASF530:
  17919 3c69 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_4NodeEE5beginEv\000"
  17919      33723270 
-ARM GAS  /tmp/cc9AvIGf.s 			page 348
+ARM GAS  /tmp/ccd35jx0.s 			page 348
 
 
  17919      31305374 
@@ -20878,7 +20878,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17941 3dc5 4E53325F 		.ascii	"NS2_4LinkE\000"
  17941      344C696E 
  17941      6B4500
-ARM GAS  /tmp/cc9AvIGf.s 			page 349
+ARM GAS  /tmp/ccd35jx0.s 			page 349
 
 
  17942              	.LASF111:
@@ -20938,7 +20938,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17963 3f13 7345524B 		.ascii	"sERKS1_\000"
  17963      53315F00 
  17964              	.LASF686:
-ARM GAS  /tmp/cc9AvIGf.s 			page 350
+ARM GAS  /tmp/ccd35jx0.s 			page 350
 
 
  17965 3f1b 646F5F6D 		.ascii	"do_mgmt_thread\000"
@@ -20998,7 +20998,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  17985      726D5F74 
  17985      00
  17986              	.LASF798:
-ARM GAS  /tmp/cc9AvIGf.s 			page 351
+ARM GAS  /tmp/ccd35jx0.s 			page 351
 
 
  17987 402b 70726576 		.ascii	"prevp\000"
@@ -21058,7 +21058,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18008              	.LASF542:
  18009 4134 5F5A4E4B 		.ascii	"_ZNK3r2p4Node15get_subscribersEv\000"
  18009      33723270 
-ARM GAS  /tmp/cc9AvIGf.s 			page 352
+ARM GAS  /tmp/ccd35jx0.s 			page 352
 
 
  18009      344E6F64 
@@ -21118,7 +21118,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18028 4268 756E7361 		.ascii	"unsafeERNS2_14IteratorUnsafeE\000"
  18028      66654552 
  18028      4E53325F 
-ARM GAS  /tmp/cc9AvIGf.s 			page 353
+ARM GAS  /tmp/ccd35jx0.s 			page 353
 
 
  18028      31344974 
@@ -21178,7 +21178,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18051      6E677468 
  18051      00
  18052              	.LASF646:
-ARM GAS  /tmp/cc9AvIGf.s 			page 354
+ARM GAS  /tmp/ccd35jx0.s 			page 354
 
 
  18053 436d 6765745F 		.ascii	"get_topics\000"
@@ -21238,7 +21238,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18072              	.LASF424:
  18073 4494 6765745F 		.ascii	"get_priority\000"
  18073      7072696F 
-ARM GAS  /tmp/cc9AvIGf.s 			page 355
+ARM GAS  /tmp/ccd35jx0.s 			page 355
 
 
  18073      72697479 
@@ -21298,7 +21298,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18094              	.LASF476:
  18095 45d3 6E6F6465 		.ascii	"node\000"
  18095      00
-ARM GAS  /tmp/cc9AvIGf.s 			page 356
+ARM GAS  /tmp/ccd35jx0.s 			page 356
 
 
  18096              	.LASF249:
@@ -21358,7 +21358,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18114      00
  18115              	.LASF423:
  18116 4741 73656C66 		.ascii	"self\000"
-ARM GAS  /tmp/cc9AvIGf.s 			page 357
+ARM GAS  /tmp/ccd35jx0.s 			page 357
 
 
  18116      00
@@ -21418,7 +21418,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18137      61645F35 
  18137      736C6565 
  18138              	.LASF136:
-ARM GAS  /tmp/cc9AvIGf.s 			page 358
+ARM GAS  /tmp/ccd35jx0.s 			page 358
 
 
  18139 4854 5F5A4E33 		.ascii	"_ZN3r2p10StaticListINS_15LocalSubscriberEE13unlink_"
@@ -21478,7 +21478,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18160              	.LASF454:
  18161 4975 5F5A4E33 		.ascii	"_ZN3r2p10SpinEvent_13signal_unsafeEj\000"
  18161      72327031 
-ARM GAS  /tmp/cc9AvIGf.s 			page 359
+ARM GAS  /tmp/ccd35jx0.s 			page 359
 
 
  18161      30537069 
@@ -21538,7 +21538,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18182      31305374 
  18182      61746963 
  18182      4C697374 
-ARM GAS  /tmp/cc9AvIGf.s 			page 360
+ARM GAS  /tmp/ccd35jx0.s 			page 360
 
 
  18183 4ad6 62524B53 		.ascii	"bRKS1_PKvES6_\000"
@@ -21598,7 +21598,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18205      6F7400
  18206              	.LASF770:
  18207 4bad 646F7562 		.ascii	"double\000"
-ARM GAS  /tmp/cc9AvIGf.s 			page 361
+ARM GAS  /tmp/ccd35jx0.s 			page 361
 
 
  18207      6C6500
@@ -21658,7 +21658,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18227      6500
  18228              	.LASF393:
  18229 4ccd 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_14LocalPublisherEE8get_head"
-ARM GAS  /tmp/cc9AvIGf.s 			page 362
+ARM GAS  /tmp/ccd35jx0.s 			page 362
 
 
  18229      33723270 
@@ -21718,7 +21718,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18250      30537461 
  18250      7469634C 
  18250      69737449 
-ARM GAS  /tmp/cc9AvIGf.s 			page 363
+ARM GAS  /tmp/ccd35jx0.s 			page 363
 
 
  18251 4e28 66654552 		.ascii	"feERNS2_4LinkE\000"
@@ -21778,7 +21778,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18271 4f3b 5F5A4E33 		.ascii	"_ZN3r2p10StaticListINS_14LocalPublisherEE13ConstIte"
  18271      72327031 
  18271      30537461 
-ARM GAS  /tmp/cc9AvIGf.s 			page 364
+ARM GAS  /tmp/ccd35jx0.s 			page 364
 
 
  18271      7469634C 
@@ -21838,7 +21838,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18289      72327031 
  18289      304D6964 
  18289      646C6577 
-ARM GAS  /tmp/cc9AvIGf.s 			page 365
+ARM GAS  /tmp/ccd35jx0.s 			page 365
 
 
  18289      61726539 
@@ -21898,7 +21898,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18307      73743C72 
  18307      32703A3A 
  18307      52656D6F 
-ARM GAS  /tmp/cc9AvIGf.s 			page 366
+ARM GAS  /tmp/ccd35jx0.s 			page 366
 
 
  18308              	.LASF698:
@@ -21958,7 +21958,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18328              	.LASF764:
  18329 5324 31304D65 		.ascii	"10MemoryPool\000"
  18329      6D6F7279 
-ARM GAS  /tmp/cc9AvIGf.s 			page 367
+ARM GAS  /tmp/ccd35jx0.s 			page 367
 
 
  18329      506F6F6C 
@@ -22018,7 +22018,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18351              	.LASF796:
  18352 5439 5F5A4E33 		.ascii	"_ZN3r2p10StaticListINS_15LocalSubscriberEE8Iterator"
  18352      72327031 
-ARM GAS  /tmp/cc9AvIGf.s 			page 368
+ARM GAS  /tmp/ccd35jx0.s 			page 368
 
 
  18352      30537461 
@@ -22078,7 +22078,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18373      7469634C 
  18373      69737449 
  18374 55b8 756E7361 		.ascii	"unsafeEv\000"
-ARM GAS  /tmp/cc9AvIGf.s 			page 369
+ARM GAS  /tmp/ccd35jx0.s 			page 369
 
 
  18374      66654576 
@@ -22138,7 +22138,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18397              	.LASF739:
  18398 56e7 705F6D74 		.ascii	"p_mtxlist\000"
  18398      786C6973 
-ARM GAS  /tmp/cc9AvIGf.s 			page 370
+ARM GAS  /tmp/ccd35jx0.s 			page 370
 
 
  18398      7400
@@ -22198,7 +22198,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18420      30537461 
  18420      7469634C 
  18420      69737449 
-ARM GAS  /tmp/cc9AvIGf.s 			page 371
+ARM GAS  /tmp/ccd35jx0.s 			page 371
 
 
  18421              	.LASF773:
@@ -22258,7 +22258,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18438      35546F70 
  18438      69633139 
  18438      6765745F 
-ARM GAS  /tmp/cc9AvIGf.s 			page 372
+ARM GAS  /tmp/ccd35jx0.s 			page 372
 
 
  18439              	.LASF61:
@@ -22318,7 +22318,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18458 5a8e 5F5A4E33 		.ascii	"_ZN3r2p10Middleware3addERNS_4NodeE\000"
  18458      72327031 
  18458      304D6964 
-ARM GAS  /tmp/cc9AvIGf.s 			page 373
+ARM GAS  /tmp/ccd35jx0.s 			page 373
 
 
  18458      646C6577 
@@ -22378,7 +22378,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18478      7279506F 
  18478      6F6C5F00 
  18479              	.LASF12:
-ARM GAS  /tmp/cc9AvIGf.s 			page 374
+ARM GAS  /tmp/ccd35jx0.s 			page 374
 
 
  18480 5bc1 6C6F6E67 		.ascii	"long long int\000"
@@ -22438,7 +22438,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18498      69634C69 
  18498      73743C72 
  18498      32703A3A 
-ARM GAS  /tmp/cc9AvIGf.s 			page 375
+ARM GAS  /tmp/ccd35jx0.s 			page 375
 
 
  18498      4E6F6465 
@@ -22498,7 +22498,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18518              	.LASF515:
  18519 5e0f 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_4NodeEE12begin_unsafeEv\000"
  18519      33723270 
-ARM GAS  /tmp/cc9AvIGf.s 			page 376
+ARM GAS  /tmp/ccd35jx0.s 			page 376
 
 
  18519      31305374 
@@ -22558,7 +22558,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18538      54696D65 
  18538      32687A45 
  18538      6400
-ARM GAS  /tmp/cc9AvIGf.s 			page 377
+ARM GAS  /tmp/ccd35jx0.s 			page 377
 
 
  18539              	.LASF126:
@@ -22618,7 +22618,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18559      5F75735F 
  18560              	.LASF332:
  18561 6076 73756273 		.ascii	"subscribe\000"
-ARM GAS  /tmp/cc9AvIGf.s 			page 378
+ARM GAS  /tmp/ccd35jx0.s 			page 378
 
 
  18561      63726962 
@@ -22678,7 +22678,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18581              	.LASF416:
  18582 61e1 5F5A4E33 		.ascii	"_ZN3r2p7Thread_18compute_stack_sizeEj\000"
  18582      72327037 
-ARM GAS  /tmp/cc9AvIGf.s 			page 379
+ARM GAS  /tmp/ccd35jx0.s 			page 379
 
 
  18582      54687265 
@@ -22738,7 +22738,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18605 62e5 5F5A4E33 		.ascii	"_ZN3r2p10StaticListINS_4NodeEE13ConstIteratorppEv\000"
  18605      72327031 
  18605      30537461 
-ARM GAS  /tmp/cc9AvIGf.s 			page 380
+ARM GAS  /tmp/ccd35jx0.s 			page 380
 
 
  18605      7469634C 
@@ -22798,7 +22798,7 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18625      63726561 
  18626              	.LASF401:
  18627 6443 5F5A4E4B 		.ascii	"_ZNK3r2p10StaticListINS_14LocalPublisherEE10find_fi"
-ARM GAS  /tmp/cc9AvIGf.s 			page 381
+ARM GAS  /tmp/ccd35jx0.s 			page 381
 
 
  18627      33723270 
@@ -22847,204 +22847,204 @@ ARM GAS  /tmp/cc9AvIGf.s 			page 1
  18644      734C6973 
  18644      7400
  18645              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/cc9AvIGf.s 			page 382
+ARM GAS  /tmp/ccd35jx0.s 			page 382
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 Topic.cpp
-     /tmp/cc9AvIGf.s:21     .text._ZN3r2p10UncopyableC2Ev:00000000 $t
-     /tmp/cc9AvIGf.s:27     .text._ZN3r2p10UncopyableC2Ev:00000000 _ZN3r2p10UncopyableC2Ev
-     /tmp/cc9AvIGf.s:27     .text._ZN3r2p10UncopyableC2Ev:00000000 _ZN3r2p10UncopyableC1Ev
-     /tmp/cc9AvIGf.s:51     .text._ZN3r2p10UncopyableD2Ev:00000000 $t
-     /tmp/cc9AvIGf.s:57     .text._ZN3r2p10UncopyableD2Ev:00000000 _ZN3r2p10UncopyableD2Ev
-     /tmp/cc9AvIGf.s:57     .text._ZN3r2p10UncopyableD2Ev:00000000 _ZN3r2p10UncopyableD1Ev
-     /tmp/cc9AvIGf.s:80     .text._ZN3r2p8SysLock_7acquireEv:00000000 $t
-     /tmp/cc9AvIGf.s:86     .text._ZN3r2p8SysLock_7acquireEv:00000000 _ZN3r2p8SysLock_7acquireEv
-     /tmp/cc9AvIGf.s:116    .text._ZN3r2p8SysLock_7releaseEv:00000000 $t
-     /tmp/cc9AvIGf.s:122    .text._ZN3r2p8SysLock_7releaseEv:00000000 _ZN3r2p8SysLock_7releaseEv
-     /tmp/cc9AvIGf.s:151    .text._ZN3r2p7SysLock5ScopeC2Ev:00000000 $t
-     /tmp/cc9AvIGf.s:157    .text._ZN3r2p7SysLock5ScopeC2Ev:00000000 _ZN3r2p7SysLock5ScopeC2Ev
-     /tmp/cc9AvIGf.s:230    .text._ZN3r2p7SysLock7acquireEv:00000000 _ZN3r2p7SysLock7acquireEv
-     /tmp/cc9AvIGf.s:157    .text._ZN3r2p7SysLock5ScopeC2Ev:00000000 _ZN3r2p7SysLock5ScopeC1Ev
-     /tmp/cc9AvIGf.s:188    .text._ZN3r2p7SysLock5ScopeD2Ev:00000000 $t
-     /tmp/cc9AvIGf.s:194    .text._ZN3r2p7SysLock5ScopeD2Ev:00000000 _ZN3r2p7SysLock5ScopeD2Ev
-     /tmp/cc9AvIGf.s:254    .text._ZN3r2p7SysLock7releaseEv:00000000 _ZN3r2p7SysLock7releaseEv
-     /tmp/cc9AvIGf.s:194    .text._ZN3r2p7SysLock5ScopeD2Ev:00000000 _ZN3r2p7SysLock5ScopeD1Ev
-     /tmp/cc9AvIGf.s:224    .text._ZN3r2p7SysLock7acquireEv:00000000 $t
-     /tmp/cc9AvIGf.s:248    .text._ZN3r2p7SysLock7releaseEv:00000000 $t
-     /tmp/cc9AvIGf.s:272    .text._ZNK3r2p11MemoryPool_13get_item_sizeEv:00000000 $t
-     /tmp/cc9AvIGf.s:278    .text._ZNK3r2p11MemoryPool_13get_item_sizeEv:00000000 _ZNK3r2p11MemoryPool_13get_item_sizeEv
-     /tmp/cc9AvIGf.s:302    .text._ZN3r2p11MemoryPool_12alloc_unsafeEv:00000000 $t
-     /tmp/cc9AvIGf.s:308    .text._ZN3r2p11MemoryPool_12alloc_unsafeEv:00000000 _ZN3r2p11MemoryPool_12alloc_unsafeEv
-     /tmp/cc9AvIGf.s:335    .text._ZN3r2p11MemoryPool_11free_unsafeEPv:00000000 $t
-     /tmp/cc9AvIGf.s:341    .text._ZN3r2p11MemoryPool_11free_unsafeEPv:00000000 _ZN3r2p11MemoryPool_11free_unsafeEPv
-     /tmp/cc9AvIGf.s:373    .text._ZN3r2p11MemoryPool_4freeEPv:00000000 $t
-     /tmp/cc9AvIGf.s:379    .text._ZN3r2p11MemoryPool_4freeEPv:00000000 _ZN3r2p11MemoryPool_4freeEPv
-     /tmp/cc9AvIGf.s:411    .text._ZN3r2p11MemoryPool_C2Ej:00000000 $t
-     /tmp/cc9AvIGf.s:417    .text._ZN3r2p11MemoryPool_C2Ej:00000000 _ZN3r2p11MemoryPool_C2Ej
-     /tmp/cc9AvIGf.s:417    .text._ZN3r2p11MemoryPool_C2Ej:00000000 _ZN3r2p11MemoryPool_C1Ej
-     /tmp/cc9AvIGf.s:454    .text._ZN3r2p4TimeaSERKS0_:00000000 $t
-     /tmp/cc9AvIGf.s:460    .text._ZN3r2p4TimeaSERKS0_:00000000 _ZN3r2p4TimeaSERKS0_
-     /tmp/cc9AvIGf.s:489    .text._ZN3r2p4TimeC2ERKS0_:00000000 $t
-     /tmp/cc9AvIGf.s:495    .text._ZN3r2p4TimeC2ERKS0_:00000000 _ZN3r2p4TimeC2ERKS0_
-     /tmp/cc9AvIGf.s:495    .text._ZN3r2p4TimeC2ERKS0_:00000000 _ZN3r2p4TimeC1ERKS0_
-     /tmp/cc9AvIGf.s:525    .text._ZN3r2pgtERKNS_4TimeES2_:00000000 $t
-     /tmp/cc9AvIGf.s:531    .text._ZN3r2pgtERKNS_4TimeES2_:00000000 _ZN3r2pgtERKNS_4TimeES2_
-     /tmp/cc9AvIGf.s:562    .rodata:00000000 $d
-     /tmp/cc9AvIGf.s:566    .text._ZN3r2p7Message14acquire_unsafeEv:00000000 $t
-     /tmp/cc9AvIGf.s:572    .text._ZN3r2p7Message14acquire_unsafeEv:00000000 _ZN3r2p7Message14acquire_unsafeEv
-     /tmp/cc9AvIGf.s:618    .text._ZN3r2p7Message14acquire_unsafeEv:00000038 $d
-     /tmp/cc9AvIGf.s:623    .text._ZN3r2p7Message14release_unsafeEv:00000000 $t
-     /tmp/cc9AvIGf.s:629    .text._ZN3r2p7Message14release_unsafeEv:00000000 _ZN3r2p7Message14release_unsafeEv
-     /tmp/cc9AvIGf.s:676    .text._ZN3r2p7Message14release_unsafeEv:0000003c $d
-     /tmp/cc9AvIGf.s:681    .text._ZN3r2p7Message12reset_unsafeEv:00000000 $t
-     /tmp/cc9AvIGf.s:687    .text._ZN3r2p7Message12reset_unsafeEv:00000000 _ZN3r2p7Message12reset_unsafeEv
-     /tmp/cc9AvIGf.s:712    .text._ZNK3r2p16RemoteSubscriber13get_transportEv:00000000 $t
-     /tmp/cc9AvIGf.s:718    .text._ZNK3r2p16RemoteSubscriber13get_transportEv:00000000 _ZNK3r2p16RemoteSubscriber13get_transportEv
-     /tmp/cc9AvIGf.s:742    .text._ZNK3r2p5Topic13get_type_sizeEv:00000000 $t
-     /tmp/cc9AvIGf.s:748    .text._ZNK3r2p5Topic13get_type_sizeEv:00000000 _ZNK3r2p5Topic13get_type_sizeEv
-     /tmp/cc9AvIGf.s:777    .text._ZNK3r2p5Topic21has_local_subscribersEv:00000000 $t
-     /tmp/cc9AvIGf.s:783    .text._ZNK3r2p5Topic21has_local_subscribersEv:00000000 _ZNK3r2p5Topic21has_local_subscribersEv
-     /tmp/cc9AvIGf.s:2144   .text._ZNK3r2p10StaticListINS_15LocalSubscriberEE15is_empty_unsafeEv:00000000 _ZNK3r2p10StaticListINS_15LocalSubscriberEE15is_empty_unsafeEv
-     /tmp/cc9AvIGf.s:813    .text._ZNK3r2p5Topic22has_remote_subscribersEv:00000000 $t
-ARM GAS  /tmp/cc9AvIGf.s 			page 383
+     /tmp/ccd35jx0.s:21     .text._ZN3r2p10UncopyableC2Ev:00000000 $t
+     /tmp/ccd35jx0.s:27     .text._ZN3r2p10UncopyableC2Ev:00000000 _ZN3r2p10UncopyableC2Ev
+     /tmp/ccd35jx0.s:27     .text._ZN3r2p10UncopyableC2Ev:00000000 _ZN3r2p10UncopyableC1Ev
+     /tmp/ccd35jx0.s:51     .text._ZN3r2p10UncopyableD2Ev:00000000 $t
+     /tmp/ccd35jx0.s:57     .text._ZN3r2p10UncopyableD2Ev:00000000 _ZN3r2p10UncopyableD2Ev
+     /tmp/ccd35jx0.s:57     .text._ZN3r2p10UncopyableD2Ev:00000000 _ZN3r2p10UncopyableD1Ev
+     /tmp/ccd35jx0.s:80     .text._ZN3r2p8SysLock_7acquireEv:00000000 $t
+     /tmp/ccd35jx0.s:86     .text._ZN3r2p8SysLock_7acquireEv:00000000 _ZN3r2p8SysLock_7acquireEv
+     /tmp/ccd35jx0.s:116    .text._ZN3r2p8SysLock_7releaseEv:00000000 $t
+     /tmp/ccd35jx0.s:122    .text._ZN3r2p8SysLock_7releaseEv:00000000 _ZN3r2p8SysLock_7releaseEv
+     /tmp/ccd35jx0.s:151    .text._ZN3r2p7SysLock5ScopeC2Ev:00000000 $t
+     /tmp/ccd35jx0.s:157    .text._ZN3r2p7SysLock5ScopeC2Ev:00000000 _ZN3r2p7SysLock5ScopeC2Ev
+     /tmp/ccd35jx0.s:230    .text._ZN3r2p7SysLock7acquireEv:00000000 _ZN3r2p7SysLock7acquireEv
+     /tmp/ccd35jx0.s:157    .text._ZN3r2p7SysLock5ScopeC2Ev:00000000 _ZN3r2p7SysLock5ScopeC1Ev
+     /tmp/ccd35jx0.s:188    .text._ZN3r2p7SysLock5ScopeD2Ev:00000000 $t
+     /tmp/ccd35jx0.s:194    .text._ZN3r2p7SysLock5ScopeD2Ev:00000000 _ZN3r2p7SysLock5ScopeD2Ev
+     /tmp/ccd35jx0.s:254    .text._ZN3r2p7SysLock7releaseEv:00000000 _ZN3r2p7SysLock7releaseEv
+     /tmp/ccd35jx0.s:194    .text._ZN3r2p7SysLock5ScopeD2Ev:00000000 _ZN3r2p7SysLock5ScopeD1Ev
+     /tmp/ccd35jx0.s:224    .text._ZN3r2p7SysLock7acquireEv:00000000 $t
+     /tmp/ccd35jx0.s:248    .text._ZN3r2p7SysLock7releaseEv:00000000 $t
+     /tmp/ccd35jx0.s:272    .text._ZNK3r2p11MemoryPool_13get_item_sizeEv:00000000 $t
+     /tmp/ccd35jx0.s:278    .text._ZNK3r2p11MemoryPool_13get_item_sizeEv:00000000 _ZNK3r2p11MemoryPool_13get_item_sizeEv
+     /tmp/ccd35jx0.s:302    .text._ZN3r2p11MemoryPool_12alloc_unsafeEv:00000000 $t
+     /tmp/ccd35jx0.s:308    .text._ZN3r2p11MemoryPool_12alloc_unsafeEv:00000000 _ZN3r2p11MemoryPool_12alloc_unsafeEv
+     /tmp/ccd35jx0.s:335    .text._ZN3r2p11MemoryPool_11free_unsafeEPv:00000000 $t
+     /tmp/ccd35jx0.s:341    .text._ZN3r2p11MemoryPool_11free_unsafeEPv:00000000 _ZN3r2p11MemoryPool_11free_unsafeEPv
+     /tmp/ccd35jx0.s:373    .text._ZN3r2p11MemoryPool_4freeEPv:00000000 $t
+     /tmp/ccd35jx0.s:379    .text._ZN3r2p11MemoryPool_4freeEPv:00000000 _ZN3r2p11MemoryPool_4freeEPv
+     /tmp/ccd35jx0.s:411    .text._ZN3r2p11MemoryPool_C2Ej:00000000 $t
+     /tmp/ccd35jx0.s:417    .text._ZN3r2p11MemoryPool_C2Ej:00000000 _ZN3r2p11MemoryPool_C2Ej
+     /tmp/ccd35jx0.s:417    .text._ZN3r2p11MemoryPool_C2Ej:00000000 _ZN3r2p11MemoryPool_C1Ej
+     /tmp/ccd35jx0.s:454    .text._ZN3r2p4TimeaSERKS0_:00000000 $t
+     /tmp/ccd35jx0.s:460    .text._ZN3r2p4TimeaSERKS0_:00000000 _ZN3r2p4TimeaSERKS0_
+     /tmp/ccd35jx0.s:489    .text._ZN3r2p4TimeC2ERKS0_:00000000 $t
+     /tmp/ccd35jx0.s:495    .text._ZN3r2p4TimeC2ERKS0_:00000000 _ZN3r2p4TimeC2ERKS0_
+     /tmp/ccd35jx0.s:495    .text._ZN3r2p4TimeC2ERKS0_:00000000 _ZN3r2p4TimeC1ERKS0_
+     /tmp/ccd35jx0.s:525    .text._ZN3r2pgtERKNS_4TimeES2_:00000000 $t
+     /tmp/ccd35jx0.s:531    .text._ZN3r2pgtERKNS_4TimeES2_:00000000 _ZN3r2pgtERKNS_4TimeES2_
+     /tmp/ccd35jx0.s:562    .rodata:00000000 $d
+     /tmp/ccd35jx0.s:566    .text._ZN3r2p7Message14acquire_unsafeEv:00000000 $t
+     /tmp/ccd35jx0.s:572    .text._ZN3r2p7Message14acquire_unsafeEv:00000000 _ZN3r2p7Message14acquire_unsafeEv
+     /tmp/ccd35jx0.s:618    .text._ZN3r2p7Message14acquire_unsafeEv:00000038 $d
+     /tmp/ccd35jx0.s:623    .text._ZN3r2p7Message14release_unsafeEv:00000000 $t
+     /tmp/ccd35jx0.s:629    .text._ZN3r2p7Message14release_unsafeEv:00000000 _ZN3r2p7Message14release_unsafeEv
+     /tmp/ccd35jx0.s:676    .text._ZN3r2p7Message14release_unsafeEv:0000003c $d
+     /tmp/ccd35jx0.s:681    .text._ZN3r2p7Message12reset_unsafeEv:00000000 $t
+     /tmp/ccd35jx0.s:687    .text._ZN3r2p7Message12reset_unsafeEv:00000000 _ZN3r2p7Message12reset_unsafeEv
+     /tmp/ccd35jx0.s:712    .text._ZNK3r2p16RemoteSubscriber13get_transportEv:00000000 $t
+     /tmp/ccd35jx0.s:718    .text._ZNK3r2p16RemoteSubscriber13get_transportEv:00000000 _ZNK3r2p16RemoteSubscriber13get_transportEv
+     /tmp/ccd35jx0.s:742    .text._ZNK3r2p5Topic13get_type_sizeEv:00000000 $t
+     /tmp/ccd35jx0.s:748    .text._ZNK3r2p5Topic13get_type_sizeEv:00000000 _ZNK3r2p5Topic13get_type_sizeEv
+     /tmp/ccd35jx0.s:777    .text._ZNK3r2p5Topic21has_local_subscribersEv:00000000 $t
+     /tmp/ccd35jx0.s:783    .text._ZNK3r2p5Topic21has_local_subscribersEv:00000000 _ZNK3r2p5Topic21has_local_subscribersEv
+     /tmp/ccd35jx0.s:2144   .text._ZNK3r2p10StaticListINS_15LocalSubscriberEE15is_empty_unsafeEv:00000000 _ZNK3r2p10StaticListINS_15LocalSubscriberEE15is_empty_unsafeEv
+     /tmp/ccd35jx0.s:813    .text._ZNK3r2p5Topic22has_remote_subscribersEv:00000000 $t
+ARM GAS  /tmp/ccd35jx0.s 			page 383
 
 
-     /tmp/cc9AvIGf.s:819    .text._ZNK3r2p5Topic22has_remote_subscribersEv:00000000 _ZNK3r2p5Topic22has_remote_subscribersEv
-     /tmp/cc9AvIGf.s:2179   .text._ZNK3r2p10StaticListINS_16RemoteSubscriberEE15is_empty_unsafeEv:00000000 _ZNK3r2p10StaticListINS_16RemoteSubscriberEE15is_empty_unsafeEv
-     /tmp/cc9AvIGf.s:849    .text._ZN3r2p5Topic12alloc_unsafeEv:00000000 $t
-     /tmp/cc9AvIGf.s:855    .text._ZN3r2p5Topic12alloc_unsafeEv:00000000 _ZN3r2p5Topic12alloc_unsafeEv
-     /tmp/cc9AvIGf.s:899    .text._ZN3r2p5Topic11free_unsafeERNS_7MessageE:00000000 $t
-     /tmp/cc9AvIGf.s:905    .text._ZN3r2p5Topic11free_unsafeERNS_7MessageE:00000000 _ZN3r2p5Topic11free_unsafeERNS_7MessageE
-     /tmp/cc9AvIGf.s:933    .text._ZN3r2p5Topic4freeERNS_7MessageE:00000000 $t
-     /tmp/cc9AvIGf.s:939    .text._ZN3r2p5Topic4freeERNS_7MessageE:00000000 _ZN3r2p5Topic4freeERNS_7MessageE
-     /tmp/cc9AvIGf.s:967    .text._ZN3r2p10Middleware14get_mgmt_topicEv:00000000 $t
-     /tmp/cc9AvIGf.s:973    .text._ZN3r2p10Middleware14get_mgmt_topicEv:00000000 _ZN3r2p10Middleware14get_mgmt_topicEv
-     /tmp/cc9AvIGf.s:997    .text._ZN3r2p5Topic20notify_locals_unsafeERNS_7MessageERKNS_4TimeE:00000000 $t
-     /tmp/cc9AvIGf.s:1003   .text._ZN3r2p5Topic20notify_locals_unsafeERNS_7MessageERKNS_4TimeE:00000000 _ZN3r2p5Topic20notify_locals_unsafeERNS_7MessageERKNS_4TimeE
-     /tmp/cc9AvIGf.s:2213   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE12begin_unsafeEv:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEE12begin_unsafeEv
-     /tmp/cc9AvIGf.s:2353   .text._ZNK3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeptEv:00000000 _ZNK3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeptEv
-     /tmp/cc9AvIGf.s:2319   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeppEv:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeppEv
-     /tmp/cc9AvIGf.s:2249   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE10end_unsafeEv:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEE10end_unsafeEv
-     /tmp/cc9AvIGf.s:2282   .text._ZNK3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeneERKS3_:00000000 _ZNK3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeneERKS3_
-     /tmp/cc9AvIGf.s:1100   .text._ZN3r2p5Topic21notify_remotes_unsafeERNS_7MessageERKNS_4TimeE:00000000 $t
-     /tmp/cc9AvIGf.s:1106   .text._ZN3r2p5Topic21notify_remotes_unsafeERNS_7MessageERKNS_4TimeE:00000000 _ZN3r2p5Topic21notify_remotes_unsafeERNS_7MessageERKNS_4TimeE
-     /tmp/cc9AvIGf.s:2383   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE12begin_unsafeEv:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEE12begin_unsafeEv
-     /tmp/cc9AvIGf.s:2523   .text._ZNK3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeptEv:00000000 _ZNK3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeptEv
-     /tmp/cc9AvIGf.s:2489   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeppEv:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeppEv
-     /tmp/cc9AvIGf.s:2419   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE10end_unsafeEv:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEE10end_unsafeEv
-     /tmp/cc9AvIGf.s:2452   .text._ZNK3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeneERKS3_:00000000 _ZNK3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeneERKS3_
-     /tmp/cc9AvIGf.s:1203   .text._ZN3r2p5Topic19forward_copy_unsafeERKNS_7MessageERKNS_4TimeE:00000000 $t
-     /tmp/cc9AvIGf.s:1209   .text._ZN3r2p5Topic19forward_copy_unsafeERKNS_7MessageERKNS_4TimeE:00000000 _ZN3r2p5Topic19forward_copy_unsafeERKNS_7MessageERKNS_4TimeE
-     /tmp/cc9AvIGf.s:2553   .text._ZN3r2p5Topic12alloc_unsafeINS_7MessageEEEbRPT_:00000000 _ZN3r2p5Topic12alloc_unsafeINS_7MessageEEEbRPT_
-     /tmp/cc9AvIGf.s:1964   .text._ZNK3r2p5Topic16patch_pubsub_msgERNS_7MessageERNS_9TransportE:00000000 _ZNK3r2p5Topic16patch_pubsub_msgERNS_7MessageERNS_9TransportE
-     /tmp/cc9AvIGf.s:1342   .text._ZN3r2p5Topic5allocEv:00000000 $t
-     /tmp/cc9AvIGf.s:1348   .text._ZN3r2p5Topic5allocEv:00000000 _ZN3r2p5Topic5allocEv
-     /tmp/cc9AvIGf.s:1382   .text._ZN3r2p5Topic13notify_localsERNS_7MessageERKNS_4TimeE:00000000 $t
-     /tmp/cc9AvIGf.s:1388   .text._ZN3r2p5Topic13notify_localsERNS_7MessageERKNS_4TimeE:00000000 _ZN3r2p5Topic13notify_localsERNS_7MessageERKNS_4TimeE
-     /tmp/cc9AvIGf.s:2595   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE5beginEv:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEE5beginEv
-     /tmp/cc9AvIGf.s:2741   .text._ZNK3r2p10StaticListINS_15LocalSubscriberEE8IteratorptEv:00000000 _ZNK3r2p10StaticListINS_15LocalSubscriberEE8IteratorptEv
-     /tmp/cc9AvIGf.s:2701   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE8IteratorppEv:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEE8IteratorppEv
-     /tmp/cc9AvIGf.s:2631   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE3endEv:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEE3endEv
-     /tmp/cc9AvIGf.s:2664   .text._ZNK3r2p10StaticListINS_15LocalSubscriberEE8IteratorneERKS3_:00000000 _ZNK3r2p10StaticListINS_15LocalSubscriberEE8IteratorneERKS3_
-     /tmp/cc9AvIGf.s:1483   .text._ZN3r2p5Topic14notify_remotesERNS_7MessageERKNS_4TimeE:00000000 $t
-     /tmp/cc9AvIGf.s:1489   .text._ZN3r2p5Topic14notify_remotesERNS_7MessageERKNS_4TimeE:00000000 _ZN3r2p5Topic14notify_remotesERNS_7MessageERKNS_4TimeE
-     /tmp/cc9AvIGf.s:2771   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE5beginEv:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEE5beginEv
-     /tmp/cc9AvIGf.s:2917   .text._ZNK3r2p10StaticListINS_16RemoteSubscriberEE8IteratorptEv:00000000 _ZNK3r2p10StaticListINS_16RemoteSubscriberEE8IteratorptEv
-     /tmp/cc9AvIGf.s:2877   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE8IteratorppEv:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEE8IteratorppEv
-     /tmp/cc9AvIGf.s:2807   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE3endEv:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEE3endEv
-     /tmp/cc9AvIGf.s:2840   .text._ZNK3r2p10StaticListINS_16RemoteSubscriberEE8IteratorneERKS3_:00000000 _ZNK3r2p10StaticListINS_16RemoteSubscriberEE8IteratorneERKS3_
-     /tmp/cc9AvIGf.s:1606   .text._ZN3r2p5Topic12forward_copyERKNS_7MessageERKNS_4TimeE:00000000 $t
-     /tmp/cc9AvIGf.s:1612   .text._ZN3r2p5Topic12forward_copyERKNS_7MessageERKNS_4TimeE:00000000 _ZN3r2p5Topic12forward_copyERKNS_7MessageERKNS_4TimeE
-     /tmp/cc9AvIGf.s:2947   .text._ZN3r2p5Topic5allocINS_7MessageEEEbRPT_:00000000 _ZN3r2p5Topic5allocINS_7MessageEEEbRPT_
-     /tmp/cc9AvIGf.s:1744   .text._ZN3r2p5Topic9advertiseERNS_14LocalPublisherERKNS_4TimeE:00000000 $t
-     /tmp/cc9AvIGf.s:1750   .text._ZN3r2p5Topic9advertiseERNS_14LocalPublisherERKNS_4TimeE:00000000 _ZN3r2p5Topic9advertiseERNS_14LocalPublisherERKNS_4TimeE
-     /tmp/cc9AvIGf.s:1799   .text._ZN3r2p5Topic9advertiseERNS_15RemotePublisherERKNS_4TimeE:00000000 $t
-     /tmp/cc9AvIGf.s:1805   .text._ZN3r2p5Topic9advertiseERNS_15RemotePublisherERKNS_4TimeE:00000000 _ZN3r2p5Topic9advertiseERNS_15RemotePublisherERKNS_4TimeE
-     /tmp/cc9AvIGf.s:1854   .text._ZN3r2p5Topic9subscribeERNS_15LocalSubscriberEj:00000000 $t
-     /tmp/cc9AvIGf.s:1860   .text._ZN3r2p5Topic9subscribeERNS_15LocalSubscriberEj:00000000 _ZN3r2p5Topic9subscribeERNS_15LocalSubscriberEj
-     /tmp/cc9AvIGf.s:2989   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE11link_unsafeERNS2_4LinkE:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEE11link_unsafeERNS2_4LinkE
-     /tmp/cc9AvIGf.s:1906   .text._ZN3r2p5Topic9subscribeERNS_16RemoteSubscriberEj:00000000 $t
-     /tmp/cc9AvIGf.s:1912   .text._ZN3r2p5Topic9subscribeERNS_16RemoteSubscriberEj:00000000 _ZN3r2p5Topic9subscribeERNS_16RemoteSubscriberEj
-     /tmp/cc9AvIGf.s:3050   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE11link_unsafeERNS2_4LinkE:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEE11link_unsafeERNS2_4LinkE
-ARM GAS  /tmp/cc9AvIGf.s 			page 384
+     /tmp/ccd35jx0.s:819    .text._ZNK3r2p5Topic22has_remote_subscribersEv:00000000 _ZNK3r2p5Topic22has_remote_subscribersEv
+     /tmp/ccd35jx0.s:2179   .text._ZNK3r2p10StaticListINS_16RemoteSubscriberEE15is_empty_unsafeEv:00000000 _ZNK3r2p10StaticListINS_16RemoteSubscriberEE15is_empty_unsafeEv
+     /tmp/ccd35jx0.s:849    .text._ZN3r2p5Topic12alloc_unsafeEv:00000000 $t
+     /tmp/ccd35jx0.s:855    .text._ZN3r2p5Topic12alloc_unsafeEv:00000000 _ZN3r2p5Topic12alloc_unsafeEv
+     /tmp/ccd35jx0.s:899    .text._ZN3r2p5Topic11free_unsafeERNS_7MessageE:00000000 $t
+     /tmp/ccd35jx0.s:905    .text._ZN3r2p5Topic11free_unsafeERNS_7MessageE:00000000 _ZN3r2p5Topic11free_unsafeERNS_7MessageE
+     /tmp/ccd35jx0.s:933    .text._ZN3r2p5Topic4freeERNS_7MessageE:00000000 $t
+     /tmp/ccd35jx0.s:939    .text._ZN3r2p5Topic4freeERNS_7MessageE:00000000 _ZN3r2p5Topic4freeERNS_7MessageE
+     /tmp/ccd35jx0.s:967    .text._ZN3r2p10Middleware14get_mgmt_topicEv:00000000 $t
+     /tmp/ccd35jx0.s:973    .text._ZN3r2p10Middleware14get_mgmt_topicEv:00000000 _ZN3r2p10Middleware14get_mgmt_topicEv
+     /tmp/ccd35jx0.s:997    .text._ZN3r2p5Topic20notify_locals_unsafeERNS_7MessageERKNS_4TimeE:00000000 $t
+     /tmp/ccd35jx0.s:1003   .text._ZN3r2p5Topic20notify_locals_unsafeERNS_7MessageERKNS_4TimeE:00000000 _ZN3r2p5Topic20notify_locals_unsafeERNS_7MessageERKNS_4TimeE
+     /tmp/ccd35jx0.s:2213   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE12begin_unsafeEv:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEE12begin_unsafeEv
+     /tmp/ccd35jx0.s:2353   .text._ZNK3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeptEv:00000000 _ZNK3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeptEv
+     /tmp/ccd35jx0.s:2319   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeppEv:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeppEv
+     /tmp/ccd35jx0.s:2249   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE10end_unsafeEv:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEE10end_unsafeEv
+     /tmp/ccd35jx0.s:2282   .text._ZNK3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeneERKS3_:00000000 _ZNK3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeneERKS3_
+     /tmp/ccd35jx0.s:1100   .text._ZN3r2p5Topic21notify_remotes_unsafeERNS_7MessageERKNS_4TimeE:00000000 $t
+     /tmp/ccd35jx0.s:1106   .text._ZN3r2p5Topic21notify_remotes_unsafeERNS_7MessageERKNS_4TimeE:00000000 _ZN3r2p5Topic21notify_remotes_unsafeERNS_7MessageERKNS_4TimeE
+     /tmp/ccd35jx0.s:2383   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE12begin_unsafeEv:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEE12begin_unsafeEv
+     /tmp/ccd35jx0.s:2523   .text._ZNK3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeptEv:00000000 _ZNK3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeptEv
+     /tmp/ccd35jx0.s:2489   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeppEv:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeppEv
+     /tmp/ccd35jx0.s:2419   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE10end_unsafeEv:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEE10end_unsafeEv
+     /tmp/ccd35jx0.s:2452   .text._ZNK3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeneERKS3_:00000000 _ZNK3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeneERKS3_
+     /tmp/ccd35jx0.s:1203   .text._ZN3r2p5Topic19forward_copy_unsafeERKNS_7MessageERKNS_4TimeE:00000000 $t
+     /tmp/ccd35jx0.s:1209   .text._ZN3r2p5Topic19forward_copy_unsafeERKNS_7MessageERKNS_4TimeE:00000000 _ZN3r2p5Topic19forward_copy_unsafeERKNS_7MessageERKNS_4TimeE
+     /tmp/ccd35jx0.s:2553   .text._ZN3r2p5Topic12alloc_unsafeINS_7MessageEEEbRPT_:00000000 _ZN3r2p5Topic12alloc_unsafeINS_7MessageEEEbRPT_
+     /tmp/ccd35jx0.s:1964   .text._ZNK3r2p5Topic16patch_pubsub_msgERNS_7MessageERNS_9TransportE:00000000 _ZNK3r2p5Topic16patch_pubsub_msgERNS_7MessageERNS_9TransportE
+     /tmp/ccd35jx0.s:1342   .text._ZN3r2p5Topic5allocEv:00000000 $t
+     /tmp/ccd35jx0.s:1348   .text._ZN3r2p5Topic5allocEv:00000000 _ZN3r2p5Topic5allocEv
+     /tmp/ccd35jx0.s:1382   .text._ZN3r2p5Topic13notify_localsERNS_7MessageERKNS_4TimeE:00000000 $t
+     /tmp/ccd35jx0.s:1388   .text._ZN3r2p5Topic13notify_localsERNS_7MessageERKNS_4TimeE:00000000 _ZN3r2p5Topic13notify_localsERNS_7MessageERKNS_4TimeE
+     /tmp/ccd35jx0.s:2595   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE5beginEv:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEE5beginEv
+     /tmp/ccd35jx0.s:2741   .text._ZNK3r2p10StaticListINS_15LocalSubscriberEE8IteratorptEv:00000000 _ZNK3r2p10StaticListINS_15LocalSubscriberEE8IteratorptEv
+     /tmp/ccd35jx0.s:2701   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE8IteratorppEv:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEE8IteratorppEv
+     /tmp/ccd35jx0.s:2631   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE3endEv:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEE3endEv
+     /tmp/ccd35jx0.s:2664   .text._ZNK3r2p10StaticListINS_15LocalSubscriberEE8IteratorneERKS3_:00000000 _ZNK3r2p10StaticListINS_15LocalSubscriberEE8IteratorneERKS3_
+     /tmp/ccd35jx0.s:1483   .text._ZN3r2p5Topic14notify_remotesERNS_7MessageERKNS_4TimeE:00000000 $t
+     /tmp/ccd35jx0.s:1489   .text._ZN3r2p5Topic14notify_remotesERNS_7MessageERKNS_4TimeE:00000000 _ZN3r2p5Topic14notify_remotesERNS_7MessageERKNS_4TimeE
+     /tmp/ccd35jx0.s:2771   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE5beginEv:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEE5beginEv
+     /tmp/ccd35jx0.s:2917   .text._ZNK3r2p10StaticListINS_16RemoteSubscriberEE8IteratorptEv:00000000 _ZNK3r2p10StaticListINS_16RemoteSubscriberEE8IteratorptEv
+     /tmp/ccd35jx0.s:2877   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE8IteratorppEv:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEE8IteratorppEv
+     /tmp/ccd35jx0.s:2807   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE3endEv:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEE3endEv
+     /tmp/ccd35jx0.s:2840   .text._ZNK3r2p10StaticListINS_16RemoteSubscriberEE8IteratorneERKS3_:00000000 _ZNK3r2p10StaticListINS_16RemoteSubscriberEE8IteratorneERKS3_
+     /tmp/ccd35jx0.s:1606   .text._ZN3r2p5Topic12forward_copyERKNS_7MessageERKNS_4TimeE:00000000 $t
+     /tmp/ccd35jx0.s:1612   .text._ZN3r2p5Topic12forward_copyERKNS_7MessageERKNS_4TimeE:00000000 _ZN3r2p5Topic12forward_copyERKNS_7MessageERKNS_4TimeE
+     /tmp/ccd35jx0.s:2947   .text._ZN3r2p5Topic5allocINS_7MessageEEEbRPT_:00000000 _ZN3r2p5Topic5allocINS_7MessageEEEbRPT_
+     /tmp/ccd35jx0.s:1744   .text._ZN3r2p5Topic9advertiseERNS_14LocalPublisherERKNS_4TimeE:00000000 $t
+     /tmp/ccd35jx0.s:1750   .text._ZN3r2p5Topic9advertiseERNS_14LocalPublisherERKNS_4TimeE:00000000 _ZN3r2p5Topic9advertiseERNS_14LocalPublisherERKNS_4TimeE
+     /tmp/ccd35jx0.s:1799   .text._ZN3r2p5Topic9advertiseERNS_15RemotePublisherERKNS_4TimeE:00000000 $t
+     /tmp/ccd35jx0.s:1805   .text._ZN3r2p5Topic9advertiseERNS_15RemotePublisherERKNS_4TimeE:00000000 _ZN3r2p5Topic9advertiseERNS_15RemotePublisherERKNS_4TimeE
+     /tmp/ccd35jx0.s:1854   .text._ZN3r2p5Topic9subscribeERNS_15LocalSubscriberEj:00000000 $t
+     /tmp/ccd35jx0.s:1860   .text._ZN3r2p5Topic9subscribeERNS_15LocalSubscriberEj:00000000 _ZN3r2p5Topic9subscribeERNS_15LocalSubscriberEj
+     /tmp/ccd35jx0.s:2989   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE11link_unsafeERNS2_4LinkE:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEE11link_unsafeERNS2_4LinkE
+     /tmp/ccd35jx0.s:1906   .text._ZN3r2p5Topic9subscribeERNS_16RemoteSubscriberEj:00000000 $t
+     /tmp/ccd35jx0.s:1912   .text._ZN3r2p5Topic9subscribeERNS_16RemoteSubscriberEj:00000000 _ZN3r2p5Topic9subscribeERNS_16RemoteSubscriberEj
+     /tmp/ccd35jx0.s:3050   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE11link_unsafeERNS2_4LinkE:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEE11link_unsafeERNS2_4LinkE
+ARM GAS  /tmp/ccd35jx0.s 			page 384
 
 
-     /tmp/cc9AvIGf.s:1958   .text._ZNK3r2p5Topic16patch_pubsub_msgERNS_7MessageERNS_9TransportE:00000000 $t
-     /tmp/cc9AvIGf.s:2041   .text._ZNK3r2p5Topic16patch_pubsub_msgERNS_7MessageERNS_9TransportE:00000060 $d
-     /tmp/cc9AvIGf.s:2046   .text._ZN3r2p5TopicC2EPKcjb:00000000 $t
-     /tmp/cc9AvIGf.s:2052   .text._ZN3r2p5TopicC2EPKcjb:00000000 _ZN3r2p5TopicC2EPKcjb
-     /tmp/cc9AvIGf.s:3111   .text._ZN3r2p10StaticListINS_15LocalSubscriberEEC2Ev:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEEC1Ev
-     /tmp/cc9AvIGf.s:3149   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEEC2Ev:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEEC1Ev
-     /tmp/cc9AvIGf.s:3187   .text._ZN3r2p10StaticListINS_5TopicEE4LinkC2ERS1_:00000000 _ZN3r2p10StaticListINS_5TopicEE4LinkC1ERS1_
-     /tmp/cc9AvIGf.s:2130   .text._ZN3r2p5TopicC2EPKcjb:00000088 $d
-     /tmp/cc9AvIGf.s:2052   .text._ZN3r2p5TopicC2EPKcjb:00000000 _ZN3r2p5TopicC1EPKcjb
-     /tmp/cc9AvIGf.s:2138   .text._ZNK3r2p10StaticListINS_15LocalSubscriberEE15is_empty_unsafeEv:00000000 $t
-     /tmp/cc9AvIGf.s:2173   .text._ZNK3r2p10StaticListINS_16RemoteSubscriberEE15is_empty_unsafeEv:00000000 $t
-     /tmp/cc9AvIGf.s:2207   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE12begin_unsafeEv:00000000 $t
-     /tmp/cc9AvIGf.s:3225   .text._ZNK3r2p10StaticListINS_15LocalSubscriberEE15get_head_unsafeEv:00000000 _ZNK3r2p10StaticListINS_15LocalSubscriberEE15get_head_unsafeEv
-     /tmp/cc9AvIGf.s:3254   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeC2EPKNS2_4LinkE:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeC1EPKNS2_4LinkE
-     /tmp/cc9AvIGf.s:2243   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE10end_unsafeEv:00000000 $t
-     /tmp/cc9AvIGf.s:2276   .text._ZNK3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeneERKS3_:00000000 $t
-     /tmp/cc9AvIGf.s:2313   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeppEv:00000000 $t
-     /tmp/cc9AvIGf.s:2347   .text._ZNK3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeptEv:00000000 $t
-     /tmp/cc9AvIGf.s:2377   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE12begin_unsafeEv:00000000 $t
-     /tmp/cc9AvIGf.s:3289   .text._ZNK3r2p10StaticListINS_16RemoteSubscriberEE15get_head_unsafeEv:00000000 _ZNK3r2p10StaticListINS_16RemoteSubscriberEE15get_head_unsafeEv
-     /tmp/cc9AvIGf.s:3318   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeC2EPKNS2_4LinkE:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeC1EPKNS2_4LinkE
-     /tmp/cc9AvIGf.s:2413   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE10end_unsafeEv:00000000 $t
-     /tmp/cc9AvIGf.s:2446   .text._ZNK3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeneERKS3_:00000000 $t
-     /tmp/cc9AvIGf.s:2483   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeppEv:00000000 $t
-     /tmp/cc9AvIGf.s:2517   .text._ZNK3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeptEv:00000000 $t
-     /tmp/cc9AvIGf.s:2547   .text._ZN3r2p5Topic12alloc_unsafeINS_7MessageEEEbRPT_:00000000 $t
-     /tmp/cc9AvIGf.s:2589   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE5beginEv:00000000 $t
-     /tmp/cc9AvIGf.s:3353   .text._ZNK3r2p10StaticListINS_15LocalSubscriberEE8get_headEv:00000000 _ZNK3r2p10StaticListINS_15LocalSubscriberEE8get_headEv
-     /tmp/cc9AvIGf.s:3393   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE8IteratorC2EPKNS2_4LinkE:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEE8IteratorC1EPKNS2_4LinkE
-     /tmp/cc9AvIGf.s:2625   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE3endEv:00000000 $t
-     /tmp/cc9AvIGf.s:2658   .text._ZNK3r2p10StaticListINS_15LocalSubscriberEE8IteratorneERKS3_:00000000 $t
-     /tmp/cc9AvIGf.s:2695   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE8IteratorppEv:00000000 $t
-     /tmp/cc9AvIGf.s:2735   .text._ZNK3r2p10StaticListINS_15LocalSubscriberEE8IteratorptEv:00000000 $t
-     /tmp/cc9AvIGf.s:2765   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE5beginEv:00000000 $t
-     /tmp/cc9AvIGf.s:3428   .text._ZNK3r2p10StaticListINS_16RemoteSubscriberEE8get_headEv:00000000 _ZNK3r2p10StaticListINS_16RemoteSubscriberEE8get_headEv
-     /tmp/cc9AvIGf.s:3468   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE8IteratorC2EPKNS2_4LinkE:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEE8IteratorC1EPKNS2_4LinkE
-     /tmp/cc9AvIGf.s:2801   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE3endEv:00000000 $t
-     /tmp/cc9AvIGf.s:2834   .text._ZNK3r2p10StaticListINS_16RemoteSubscriberEE8IteratorneERKS3_:00000000 $t
-     /tmp/cc9AvIGf.s:2871   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE8IteratorppEv:00000000 $t
-     /tmp/cc9AvIGf.s:2911   .text._ZNK3r2p10StaticListINS_16RemoteSubscriberEE8IteratorptEv:00000000 $t
-     /tmp/cc9AvIGf.s:2941   .text._ZN3r2p5Topic5allocINS_7MessageEEEbRPT_:00000000 $t
-     /tmp/cc9AvIGf.s:2983   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE11link_unsafeERNS2_4LinkE:00000000 $t
-     /tmp/cc9AvIGf.s:3503   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE13unlink_unsafeERNS2_4LinkE:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEE13unlink_unsafeERNS2_4LinkE
-     /tmp/cc9AvIGf.s:3039   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE11link_unsafeERNS2_4LinkE:00000040 $d
-     /tmp/cc9AvIGf.s:3044   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE11link_unsafeERNS2_4LinkE:00000000 $t
-     /tmp/cc9AvIGf.s:3586   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE13unlink_unsafeERNS2_4LinkE:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEE13unlink_unsafeERNS2_4LinkE
-     /tmp/cc9AvIGf.s:3100   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE11link_unsafeERNS2_4LinkE:00000040 $d
-     /tmp/cc9AvIGf.s:3105   .text._ZN3r2p10StaticListINS_15LocalSubscriberEEC2Ev:00000000 $t
-     /tmp/cc9AvIGf.s:3111   .text._ZN3r2p10StaticListINS_15LocalSubscriberEEC2Ev:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEEC2Ev
-     /tmp/cc9AvIGf.s:3143   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEEC2Ev:00000000 $t
-     /tmp/cc9AvIGf.s:3149   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEEC2Ev:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEEC2Ev
-     /tmp/cc9AvIGf.s:3181   .text._ZN3r2p10StaticListINS_5TopicEE4LinkC2ERS1_:00000000 $t
-     /tmp/cc9AvIGf.s:3187   .text._ZN3r2p10StaticListINS_5TopicEE4LinkC2ERS1_:00000000 _ZN3r2p10StaticListINS_5TopicEE4LinkC2ERS1_
-     /tmp/cc9AvIGf.s:3219   .text._ZNK3r2p10StaticListINS_15LocalSubscriberEE15get_head_unsafeEv:00000000 $t
-     /tmp/cc9AvIGf.s:3248   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeC2EPKNS2_4LinkE:00000000 $t
-     /tmp/cc9AvIGf.s:3254   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeC2EPKNS2_4LinkE:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeC2EPKNS2_4LinkE
-     /tmp/cc9AvIGf.s:3283   .text._ZNK3r2p10StaticListINS_16RemoteSubscriberEE15get_head_unsafeEv:00000000 $t
-ARM GAS  /tmp/cc9AvIGf.s 			page 385
+     /tmp/ccd35jx0.s:1958   .text._ZNK3r2p5Topic16patch_pubsub_msgERNS_7MessageERNS_9TransportE:00000000 $t
+     /tmp/ccd35jx0.s:2041   .text._ZNK3r2p5Topic16patch_pubsub_msgERNS_7MessageERNS_9TransportE:00000060 $d
+     /tmp/ccd35jx0.s:2046   .text._ZN3r2p5TopicC2EPKcjb:00000000 $t
+     /tmp/ccd35jx0.s:2052   .text._ZN3r2p5TopicC2EPKcjb:00000000 _ZN3r2p5TopicC2EPKcjb
+     /tmp/ccd35jx0.s:3111   .text._ZN3r2p10StaticListINS_15LocalSubscriberEEC2Ev:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEEC1Ev
+     /tmp/ccd35jx0.s:3149   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEEC2Ev:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEEC1Ev
+     /tmp/ccd35jx0.s:3187   .text._ZN3r2p10StaticListINS_5TopicEE4LinkC2ERS1_:00000000 _ZN3r2p10StaticListINS_5TopicEE4LinkC1ERS1_
+     /tmp/ccd35jx0.s:2130   .text._ZN3r2p5TopicC2EPKcjb:00000088 $d
+     /tmp/ccd35jx0.s:2052   .text._ZN3r2p5TopicC2EPKcjb:00000000 _ZN3r2p5TopicC1EPKcjb
+     /tmp/ccd35jx0.s:2138   .text._ZNK3r2p10StaticListINS_15LocalSubscriberEE15is_empty_unsafeEv:00000000 $t
+     /tmp/ccd35jx0.s:2173   .text._ZNK3r2p10StaticListINS_16RemoteSubscriberEE15is_empty_unsafeEv:00000000 $t
+     /tmp/ccd35jx0.s:2207   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE12begin_unsafeEv:00000000 $t
+     /tmp/ccd35jx0.s:3225   .text._ZNK3r2p10StaticListINS_15LocalSubscriberEE15get_head_unsafeEv:00000000 _ZNK3r2p10StaticListINS_15LocalSubscriberEE15get_head_unsafeEv
+     /tmp/ccd35jx0.s:3254   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeC2EPKNS2_4LinkE:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeC1EPKNS2_4LinkE
+     /tmp/ccd35jx0.s:2243   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE10end_unsafeEv:00000000 $t
+     /tmp/ccd35jx0.s:2276   .text._ZNK3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeneERKS3_:00000000 $t
+     /tmp/ccd35jx0.s:2313   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeppEv:00000000 $t
+     /tmp/ccd35jx0.s:2347   .text._ZNK3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeptEv:00000000 $t
+     /tmp/ccd35jx0.s:2377   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE12begin_unsafeEv:00000000 $t
+     /tmp/ccd35jx0.s:3289   .text._ZNK3r2p10StaticListINS_16RemoteSubscriberEE15get_head_unsafeEv:00000000 _ZNK3r2p10StaticListINS_16RemoteSubscriberEE15get_head_unsafeEv
+     /tmp/ccd35jx0.s:3318   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeC2EPKNS2_4LinkE:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeC1EPKNS2_4LinkE
+     /tmp/ccd35jx0.s:2413   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE10end_unsafeEv:00000000 $t
+     /tmp/ccd35jx0.s:2446   .text._ZNK3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeneERKS3_:00000000 $t
+     /tmp/ccd35jx0.s:2483   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeppEv:00000000 $t
+     /tmp/ccd35jx0.s:2517   .text._ZNK3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeptEv:00000000 $t
+     /tmp/ccd35jx0.s:2547   .text._ZN3r2p5Topic12alloc_unsafeINS_7MessageEEEbRPT_:00000000 $t
+     /tmp/ccd35jx0.s:2589   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE5beginEv:00000000 $t
+     /tmp/ccd35jx0.s:3353   .text._ZNK3r2p10StaticListINS_15LocalSubscriberEE8get_headEv:00000000 _ZNK3r2p10StaticListINS_15LocalSubscriberEE8get_headEv
+     /tmp/ccd35jx0.s:3393   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE8IteratorC2EPKNS2_4LinkE:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEE8IteratorC1EPKNS2_4LinkE
+     /tmp/ccd35jx0.s:2625   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE3endEv:00000000 $t
+     /tmp/ccd35jx0.s:2658   .text._ZNK3r2p10StaticListINS_15LocalSubscriberEE8IteratorneERKS3_:00000000 $t
+     /tmp/ccd35jx0.s:2695   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE8IteratorppEv:00000000 $t
+     /tmp/ccd35jx0.s:2735   .text._ZNK3r2p10StaticListINS_15LocalSubscriberEE8IteratorptEv:00000000 $t
+     /tmp/ccd35jx0.s:2765   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE5beginEv:00000000 $t
+     /tmp/ccd35jx0.s:3428   .text._ZNK3r2p10StaticListINS_16RemoteSubscriberEE8get_headEv:00000000 _ZNK3r2p10StaticListINS_16RemoteSubscriberEE8get_headEv
+     /tmp/ccd35jx0.s:3468   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE8IteratorC2EPKNS2_4LinkE:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEE8IteratorC1EPKNS2_4LinkE
+     /tmp/ccd35jx0.s:2801   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE3endEv:00000000 $t
+     /tmp/ccd35jx0.s:2834   .text._ZNK3r2p10StaticListINS_16RemoteSubscriberEE8IteratorneERKS3_:00000000 $t
+     /tmp/ccd35jx0.s:2871   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE8IteratorppEv:00000000 $t
+     /tmp/ccd35jx0.s:2911   .text._ZNK3r2p10StaticListINS_16RemoteSubscriberEE8IteratorptEv:00000000 $t
+     /tmp/ccd35jx0.s:2941   .text._ZN3r2p5Topic5allocINS_7MessageEEEbRPT_:00000000 $t
+     /tmp/ccd35jx0.s:2983   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE11link_unsafeERNS2_4LinkE:00000000 $t
+     /tmp/ccd35jx0.s:3503   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE13unlink_unsafeERNS2_4LinkE:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEE13unlink_unsafeERNS2_4LinkE
+     /tmp/ccd35jx0.s:3039   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE11link_unsafeERNS2_4LinkE:00000040 $d
+     /tmp/ccd35jx0.s:3044   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE11link_unsafeERNS2_4LinkE:00000000 $t
+     /tmp/ccd35jx0.s:3586   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE13unlink_unsafeERNS2_4LinkE:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEE13unlink_unsafeERNS2_4LinkE
+     /tmp/ccd35jx0.s:3100   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE11link_unsafeERNS2_4LinkE:00000040 $d
+     /tmp/ccd35jx0.s:3105   .text._ZN3r2p10StaticListINS_15LocalSubscriberEEC2Ev:00000000 $t
+     /tmp/ccd35jx0.s:3111   .text._ZN3r2p10StaticListINS_15LocalSubscriberEEC2Ev:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEEC2Ev
+     /tmp/ccd35jx0.s:3143   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEEC2Ev:00000000 $t
+     /tmp/ccd35jx0.s:3149   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEEC2Ev:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEEC2Ev
+     /tmp/ccd35jx0.s:3181   .text._ZN3r2p10StaticListINS_5TopicEE4LinkC2ERS1_:00000000 $t
+     /tmp/ccd35jx0.s:3187   .text._ZN3r2p10StaticListINS_5TopicEE4LinkC2ERS1_:00000000 _ZN3r2p10StaticListINS_5TopicEE4LinkC2ERS1_
+     /tmp/ccd35jx0.s:3219   .text._ZNK3r2p10StaticListINS_15LocalSubscriberEE15get_head_unsafeEv:00000000 $t
+     /tmp/ccd35jx0.s:3248   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeC2EPKNS2_4LinkE:00000000 $t
+     /tmp/ccd35jx0.s:3254   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeC2EPKNS2_4LinkE:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeC2EPKNS2_4LinkE
+     /tmp/ccd35jx0.s:3283   .text._ZNK3r2p10StaticListINS_16RemoteSubscriberEE15get_head_unsafeEv:00000000 $t
+ARM GAS  /tmp/ccd35jx0.s 			page 385
 
 
-     /tmp/cc9AvIGf.s:3312   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeC2EPKNS2_4LinkE:00000000 $t
-     /tmp/cc9AvIGf.s:3318   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeC2EPKNS2_4LinkE:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeC2EPKNS2_4LinkE
-     /tmp/cc9AvIGf.s:3347   .text._ZNK3r2p10StaticListINS_15LocalSubscriberEE8get_headEv:00000000 $t
-     /tmp/cc9AvIGf.s:3387   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE8IteratorC2EPKNS2_4LinkE:00000000 $t
-     /tmp/cc9AvIGf.s:3393   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE8IteratorC2EPKNS2_4LinkE:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEE8IteratorC2EPKNS2_4LinkE
-     /tmp/cc9AvIGf.s:3422   .text._ZNK3r2p10StaticListINS_16RemoteSubscriberEE8get_headEv:00000000 $t
-     /tmp/cc9AvIGf.s:3462   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE8IteratorC2EPKNS2_4LinkE:00000000 $t
-     /tmp/cc9AvIGf.s:3468   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE8IteratorC2EPKNS2_4LinkE:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEE8IteratorC2EPKNS2_4LinkE
-     /tmp/cc9AvIGf.s:3497   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE13unlink_unsafeERNS2_4LinkE:00000000 $t
-     /tmp/cc9AvIGf.s:3580   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE13unlink_unsafeERNS2_4LinkE:00000000 $t
+     /tmp/ccd35jx0.s:3312   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeC2EPKNS2_4LinkE:00000000 $t
+     /tmp/ccd35jx0.s:3318   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeC2EPKNS2_4LinkE:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEE14IteratorUnsafeC2EPKNS2_4LinkE
+     /tmp/ccd35jx0.s:3347   .text._ZNK3r2p10StaticListINS_15LocalSubscriberEE8get_headEv:00000000 $t
+     /tmp/ccd35jx0.s:3387   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE8IteratorC2EPKNS2_4LinkE:00000000 $t
+     /tmp/ccd35jx0.s:3393   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE8IteratorC2EPKNS2_4LinkE:00000000 _ZN3r2p10StaticListINS_15LocalSubscriberEE8IteratorC2EPKNS2_4LinkE
+     /tmp/ccd35jx0.s:3422   .text._ZNK3r2p10StaticListINS_16RemoteSubscriberEE8get_headEv:00000000 $t
+     /tmp/ccd35jx0.s:3462   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE8IteratorC2EPKNS2_4LinkE:00000000 $t
+     /tmp/ccd35jx0.s:3468   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE8IteratorC2EPKNS2_4LinkE:00000000 _ZN3r2p10StaticListINS_16RemoteSubscriberEE8IteratorC2EPKNS2_4LinkE
+     /tmp/ccd35jx0.s:3497   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE13unlink_unsafeERNS2_4LinkE:00000000 $t
+     /tmp/ccd35jx0.s:3580   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE13unlink_unsafeERNS2_4LinkE:00000000 $t
                      .debug_frame:00000010 $d
-     /tmp/cc9AvIGf.s:622    .text._ZN3r2p7Message14acquire_unsafeEv:0000003c $t
-     /tmp/cc9AvIGf.s:18645  .text._ZNK3r2p5Topic16patch_pubsub_msgERNS_7MessageERNS_9TransportE:00000064 $t
-     /tmp/cc9AvIGf.s:3043   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE11link_unsafeERNS2_4LinkE:00000044 $t
-     /tmp/cc9AvIGf.s:3104   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE11link_unsafeERNS2_4LinkE:00000044 $t
+     /tmp/ccd35jx0.s:622    .text._ZN3r2p7Message14acquire_unsafeEv:0000003c $t
+     /tmp/ccd35jx0.s:18645  .text._ZNK3r2p5Topic16patch_pubsub_msgERNS_7MessageERNS_9TransportE:00000064 $t
+     /tmp/ccd35jx0.s:3043   .text._ZN3r2p10StaticListINS_15LocalSubscriberEE11link_unsafeERNS2_4LinkE:00000044 $t
+     /tmp/ccd35jx0.s:3104   .text._ZN3r2p10StaticListINS_16RemoteSubscriberEE11link_unsafeERNS2_4LinkE:00000044 $t
                            .group:00000000 _ZN3r2p10UncopyableC5Ev
                            .group:00000000 _ZN3r2p10UncopyableD5Ev
                            .group:00000000 _ZN3r2p7SysLock5ScopeC5Ev

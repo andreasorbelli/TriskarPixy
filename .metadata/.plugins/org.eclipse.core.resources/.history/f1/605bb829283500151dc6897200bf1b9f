@@ -1,0 +1,15 @@
+#pragma once
+
+namespace r2p {
+class PixyMsg: public Message {
+public:
+	int checksum;
+	int signature;
+	int x_center;
+	int y_center;
+	int width;
+	int height;
+	int pack_number;
+
+}R2P_PACKED;
+} /* namespace r2p */

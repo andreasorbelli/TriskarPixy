@@ -1,0 +1,8 @@
+#pragma once
+
+namespace r2p {
+class PixyBufferMsg: public Message {
+public:
+	int buffer[9];
+}R2P_PACKED;
+}

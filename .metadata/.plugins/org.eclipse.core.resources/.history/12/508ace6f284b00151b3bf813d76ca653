@@ -1,0 +1,6 @@
+#pragma once
+
+msg_t pixy_node(void *arg);
+PixyMsg * getBlocks(PixyMsg * block);
+int getStart(void);
+uint16_t getWord(void);

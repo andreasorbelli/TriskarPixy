@@ -1,0 +1,145 @@
+
+#include "ch.h"
+#include "hal.h"
+#include "r2p/Middleware.hpp"
+#include <r2p/msg/pixy.hpp>
+#include <r2p/msg/proximity.hpp>
+#include <stdlib.h>
+#include <cstdlib>
+
+
+/*
+ * UART driver configuration structure.
+ */
+/*
+static UARTConfig uart_cfg_1 = {
+  NULL,
+  NULL,
+  NULL,
+  NULL,
+  NULL,
+  19200,
+  0,
+  USART_CR2_LINEN,
+  0
+};
+ */
+
+enum {UNSYNC, START, ONGOING, READY} sync = UNSYNC;
+
+
+bool check_sync(char ch) {
+	static char last_ch = 0x00;
+
+	if (sync == READY) return true;
+
+	switch (ch) {
+	case 0xAA:
+		// Wrong sequence -> ERROR!
+		if (sync == START) {
+			sync = UNSYNC;
+			last_ch = 0x00;
+			break;
+		}
+		// first byte of SYNC packet, start syncing
+		if (sync == UNSYNC) sync = START;
+		// SYNC ongoing, save last received character
+		if (sync == ONGOING) last_ch = ch;
+		break;
+	case 0x55:
+		// SYNC ongoing and last character is 0xAA -> SYNC completed
+		if ((sync == ONGOING) && (last_ch == 0xAA)) sync = READY;
+		// If SYNC ongoing, save last character, otherwise this is not a SYNC packet
+		if (sync == START) {
+			sync = ONGOING;
+			last_ch = ch;
+		} else {
+			sync = UNSYNC;
+		}
+		break;
+	default:
+		sync = UNSYNC;
+	}
+
+	return false;
+}
+
+
+
+int toInt(char temp[]) {
+	int first;
+	int second;
+
+	first = (int)temp[0];
+	first = first *16 *16;
+	second  = (int)temp[1];
+
+	return first + second;
+}
+
+
+msg_t pixy_node(void *arg) {
+	r2p::Publisher<r2p::PixyMsg> pixy_pub;
+
+	r2p::Node node("pixy");
+	r2p::PixyMsg * msgp;
+	sdStart(&SD3, NULL);
+
+	node.advertise(pixy_pub,"pixy");
+
+	char ch = sdGetTimeout(&SD3, MS2ST(100));
+
+	for (;;) {
+		node.spin();
+		if (check_sync(ch)){
+
+				char check_temp[2];
+				check_temp[1]=sdGetTimeout(&SD3, MS2ST(100));
+				check_temp[0]=sdGetTimeout(&SD3, MS2ST(100));
+
+				char Sig_temp[2];
+				Sig_temp[1]=sdGetTimeout(&SD3, MS2ST(100));
+				Sig_temp[0]=sdGetTimeout(&SD3, MS2ST(100));
+
+				char x_temp[2];
+				x_temp[1]=sdGetTimeout(&SD3, MS2ST(100));
+				x_temp[0]=sdGetTimeout(&SD3, MS2ST(100));
+
+				char y_temp[2];
+				y_temp[1]=sdGetTimeout(&SD3, MS2ST(100));
+				y_temp[0]=sdGetTimeout(&SD3, MS2ST(100));
+
+				char width_temp[2];
+				width_temp[1]=sdGetTimeout(&SD3, MS2ST(100));
+				width_temp[0]=sdGetTimeout(&SD3, MS2ST(100));
+
+				char height_temp[2];
+				height_temp[1]=sdGetTimeout(&SD3, MS2ST(100));
+				height_temp[0]=sdGetTimeout(&SD3, MS2ST(100));
+
+			if (pixy_pub.alloc(msgp)) {
+				int check = toInt(check_temp);
+				int sig = toInt(Sig_temp);
+				int x = toInt(x_temp);
+				int y = toInt(y_temp);
+				int width = toInt(width_temp);
+				int height = toInt(height_temp);
+				msgp->checksum=check;
+				msgp->signature=sig;
+				msgp->x_center = x;
+				msgp->y_center = y;
+				msgp->width = width;
+				msgp->height = height;
+				pixy_pub.publish(*msgp);
+			}
+			sync = UNSYNC;
+		}
+		r2p::Thread::sleep(r2p::Time::ms(200));
+	}
+	return CH_SUCCESS;
+}
+
+
+
+
+

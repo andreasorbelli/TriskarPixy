@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccXieJSO.s 			page 1
+ARM GAS  /tmp/ccEs3Eil.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
   55 001a 0346     		mov	r3, r0
   56              		.loc 1 8 0 is_stmt 1 discriminator 4
   57 001c 1846     		mov	r0, r3
-ARM GAS  /tmp/ccXieJSO.s 			page 2
+ARM GAS  /tmp/ccEs3Eil.s 			page 2
 
 
   58 001e 03B0     		add	sp, sp, #12
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  110              		.section	.text._Znaj,"ax",%progbits
  111              		.align	2
  112              		.p2align 4,,15
-ARM GAS  /tmp/ccXieJSO.s 			page 3
+ARM GAS  /tmp/ccEs3Eil.s 			page 3
 
 
  113              		.global	_Znaj
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  165              		@ args = 0, pretend = 0, frame = 8
  166              		@ frame_needed = 0, uses_anonymous_args = 0
  167 0000 00B5     		push	{lr}
-ARM GAS  /tmp/ccXieJSO.s 			page 4
+ARM GAS  /tmp/ccEs3Eil.s 			page 4
 
 
  168              		.cfi_def_cfa_offset 4
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  222              		.loc 1 32 0
  223 000c 0198     		ldr	r0, [sp, #4]
  224 000e FFF7FEFF 		bl	chHeapFree
-ARM GAS  /tmp/ccXieJSO.s 			page 5
+ARM GAS  /tmp/ccEs3Eil.s 			page 5
 
 
  225              	.L17:
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  277              	_ZdaPv:
  278              	.LFB13:
  279              		.loc 1 46 0
-ARM GAS  /tmp/ccXieJSO.s 			page 6
+ARM GAS  /tmp/ccEs3Eil.s 			page 6
 
 
  280              		.cfi_startproc
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  333              		.loc 1 60 0
  334 0014 03B0     		add	sp, sp, #12
  335              		.cfi_def_cfa_offset 4
-ARM GAS  /tmp/ccXieJSO.s 			page 7
+ARM GAS  /tmp/ccEs3Eil.s 			page 7
 
 
  336              		@ sp needed
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  389 004d 01       		.byte	0x1
  390 004e 08       		.byte	0x8
  391 004f B2030000 		.4byte	.LASF4
-ARM GAS  /tmp/ccXieJSO.s 			page 8
+ARM GAS  /tmp/ccEs3Eil.s 			page 8
 
 
  392 0053 04       		.uleb128 0x4
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  446 00bf 03       		.uleb128 0x3
  447 00c0 14000000 		.4byte	.LASF17
  448 00c4 04       		.byte	0x4
-ARM GAS  /tmp/ccXieJSO.s 			page 9
+ARM GAS  /tmp/ccEs3Eil.s 			page 9
 
 
  449 00c5 39       		.byte	0x39
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  503 013a 07       		.byte	0x7
  504 013b 5E       		.byte	0x5e
  505 013c 72020000 		.4byte	0x272
-ARM GAS  /tmp/ccXieJSO.s 			page 10
+ARM GAS  /tmp/ccEs3Eil.s 			page 10
 
 
  506 0140 06       		.uleb128 0x6
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  560 01ac 66050000 		.4byte	0x566
  561 01b0 10       		.byte	0x10
  562 01b1 08       		.uleb128 0x8
-ARM GAS  /tmp/ccXieJSO.s 			page 11
+ARM GAS  /tmp/ccEs3Eil.s 			page 11
 
 
  563 01b2 45030000 		.4byte	.LASF37
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  617 021e F0040000 		.4byte	.LASF45
  618 0222 07       		.byte	0x7
  619 0223 B9       		.byte	0xb9
-ARM GAS  /tmp/ccXieJSO.s 			page 12
+ARM GAS  /tmp/ccEs3Eil.s 			page 12
 
 
  620 0224 C1020000 		.4byte	0x2c1
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  674 0290 64       		.byte	0x64
  675 0291 97020000 		.4byte	0x297
  676 0295 04       		.byte	0x4
-ARM GAS  /tmp/ccXieJSO.s 			page 13
+ARM GAS  /tmp/ccEs3Eil.s 			page 13
 
 
  677 0296 00       		.byte	0
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  731 0304 0F01     		.2byte	0x10f
  732 0306 CC020000 		.4byte	0x2cc
  733 030a 04       		.byte	0x4
-ARM GAS  /tmp/ccXieJSO.s 			page 14
+ARM GAS  /tmp/ccEs3Eil.s 			page 14
 
 
  734 030b 0E       		.uleb128 0xe
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  788 0380 0E       		.uleb128 0xe
  789 0381 73323700 		.ascii	"s27\000"
  790 0385 08       		.byte	0x8
-ARM GAS  /tmp/ccXieJSO.s 			page 15
+ARM GAS  /tmp/ccEs3Eil.s 			page 15
 
 
  791 0386 1901     		.2byte	0x119
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  845 03f6 2301     		.2byte	0x123
  846 03f8 CC020000 		.4byte	0x2cc
  847 03fc 50       		.byte	0x50
-ARM GAS  /tmp/ccXieJSO.s 			page 16
+ARM GAS  /tmp/ccEs3Eil.s 			page 16
 
 
  848 03fd 0E       		.uleb128 0xe
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  902 046a A5000000 		.4byte	.LASF62
  903 046e 09       		.byte	0x9
  904 046f 2D       		.byte	0x2d
-ARM GAS  /tmp/ccXieJSO.s 			page 17
+ARM GAS  /tmp/ccEs3Eil.s 			page 17
 
 
  905 0470 9D020000 		.4byte	0x29d
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  959 04e2 08       		.uleb128 0x8
  960 04e3 64000000 		.4byte	.LASF69
  961 04e7 0B       		.byte	0xb
-ARM GAS  /tmp/ccXieJSO.s 			page 18
+ARM GAS  /tmp/ccEs3Eil.s 			page 18
 
 
  962 04e8 4A       		.byte	0x4a
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  1016 054c D9020000 		.4byte	0x2d9
  1017 0550 14       		.uleb128 0x14
  1018 0551 6800     		.ascii	"h\000"
-ARM GAS  /tmp/ccXieJSO.s 			page 19
+ARM GAS  /tmp/ccEs3Eil.s 			page 19
 
 
  1019 0553 0B       		.byte	0xb
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  1073 05c5 00000000 		.4byte	.LFB8
  1074 05c9 26000000 		.4byte	.LFE8-.LFB8
  1075 05cd 01       		.uleb128 0x1
-ARM GAS  /tmp/ccXieJSO.s 			page 20
+ARM GAS  /tmp/ccEs3Eil.s 			page 20
 
 
  1076 05ce 9C       		.byte	0x9c
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  1130 0640 28000000 		.4byte	0x28
  1131 0644 02       		.uleb128 0x2
  1132 0645 91       		.byte	0x91
-ARM GAS  /tmp/ccXieJSO.s 			page 21
+ARM GAS  /tmp/ccEs3Eil.s 			page 21
 
 
  1133 0646 74       		.sleb128 -12
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  1187 06b2 70       		.sleb128 -16
  1188 06b3 00       		.byte	0
  1189 06b4 18       		.uleb128 0x18
-ARM GAS  /tmp/ccXieJSO.s 			page 22
+ARM GAS  /tmp/ccEs3Eil.s 			page 22
 
 
  1190 06b5 18040000 		.4byte	.LASF87
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  1244 0007 03       		.uleb128 0x3
  1245 0008 0E       		.uleb128 0xe
  1246 0009 55       		.uleb128 0x55
-ARM GAS  /tmp/ccXieJSO.s 			page 23
+ARM GAS  /tmp/ccEs3Eil.s 			page 23
 
 
  1247 000a 17       		.uleb128 0x17
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  1301 0040 13       		.uleb128 0x13
  1302 0041 00       		.byte	0
  1303 0042 00       		.byte	0
-ARM GAS  /tmp/ccXieJSO.s 			page 24
+ARM GAS  /tmp/ccEs3Eil.s 			page 24
 
 
  1304 0043 06       		.uleb128 0x6
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  1358 0079 00       		.byte	0
  1359 007a 00       		.byte	0
  1360 007b 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccXieJSO.s 			page 25
+ARM GAS  /tmp/ccEs3Eil.s 			page 25
 
 
  1361 007c 13       		.uleb128 0x13
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  1415 00b2 49       		.uleb128 0x49
  1416 00b3 13       		.uleb128 0x13
  1417 00b4 38       		.uleb128 0x38
-ARM GAS  /tmp/ccXieJSO.s 			page 26
+ARM GAS  /tmp/ccEs3Eil.s 			page 26
 
 
  1418 00b5 0B       		.uleb128 0xb
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  1472 00eb 14       		.uleb128 0x14
  1473 00ec 0D       		.uleb128 0xd
  1474 00ed 00       		.byte	0
-ARM GAS  /tmp/ccXieJSO.s 			page 27
+ARM GAS  /tmp/ccEs3Eil.s 			page 27
 
 
  1475 00ee 03       		.uleb128 0x3
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  1529 0125 13       		.uleb128 0x13
  1530 0126 02       		.uleb128 0x2
  1531 0127 18       		.uleb128 0x18
-ARM GAS  /tmp/ccXieJSO.s 			page 28
+ARM GAS  /tmp/ccEs3Eil.s 			page 28
 
 
  1532 0128 00       		.byte	0
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  1586 0006 00000000 		.4byte	.Ldebug_info0
  1587 000a 04       		.byte	0x4
  1588 000b 00       		.byte	0
-ARM GAS  /tmp/ccXieJSO.s 			page 29
+ARM GAS  /tmp/ccEs3Eil.s 			page 29
 
 
  1589 000c 0000     		.2byte	0
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  1637 000d 7264796D 		.ascii	"rdymsg\000"
  1637      736700
  1638              	.LASF17:
-ARM GAS  /tmp/ccXieJSO.s 			page 30
+ARM GAS  /tmp/ccEs3Eil.s 			page 30
 
 
  1639 0014 75696E74 		.ascii	"uint64_t\000"
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  1666              	.LASF62:
  1667 00a5 6D5F7175 		.ascii	"m_queue\000"
  1667      65756500 
-ARM GAS  /tmp/ccXieJSO.s 			page 31
+ARM GAS  /tmp/ccEs3Eil.s 			page 31
 
 
  1668              	.LASF22:
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  1689      6374696F 
  1689      6E2D7365 
  1689      6374696F 
-ARM GAS  /tmp/ccXieJSO.s 			page 32
+ARM GAS  /tmp/ccEs3Eil.s 			page 32
 
 
  1690 01f8 2D667369 		.ascii	"-fsingle-precision-constant -fno-rtti -fno-exceptio"
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  1712              	.LASF19:
  1713 02dd 746D6F64 		.ascii	"tmode_t\000"
  1713      655F7400 
-ARM GAS  /tmp/ccXieJSO.s 			page 33
+ARM GAS  /tmp/ccEs3Eil.s 			page 33
 
 
  1714              	.LASF18:
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  1742              	.LASF12:
  1743 0374 5F5F7569 		.ascii	"__uint64_t\000"
  1743      6E743634 
-ARM GAS  /tmp/ccXieJSO.s 			page 34
+ARM GAS  /tmp/ccEs3Eil.s 			page 34
 
 
  1743      5F7400
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  1773 040b 705F666C 		.ascii	"p_flags\000"
  1773      61677300 
  1774              	.LASF83:
-ARM GAS  /tmp/ccXieJSO.s 			page 35
+ARM GAS  /tmp/ccEs3Eil.s 			page 35
 
 
  1775 0413 6F626A70 		.ascii	"objp\000"
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  1803      67717565 
  1803      756500
  1804              	.LASF42:
-ARM GAS  /tmp/ccXieJSO.s 			page 36
+ARM GAS  /tmp/ccEs3Eil.s 			page 36
 
 
  1805 04a3 705F7265 		.ascii	"p_refs\000"
@@ -2138,27 +2138,27 @@ ARM GAS  /tmp/ccXieJSO.s 			page 1
  1823      72795F68 
  1823      65617000 
  1824              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccXieJSO.s 			page 37
+ARM GAS  /tmp/ccEs3Eil.s 			page 37
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chnew.cpp
-     /tmp/ccXieJSO.s:21     .text._Znwj:00000000 $t
-     /tmp/ccXieJSO.s:27     .text._Znwj:00000000 _Znwj
-     /tmp/ccXieJSO.s:66     .text._ZnwjP11memory_heap:00000000 $t
-     /tmp/ccXieJSO.s:72     .text._ZnwjP11memory_heap:00000000 _ZnwjP11memory_heap
-     /tmp/ccXieJSO.s:111    .text._Znaj:00000000 $t
-     /tmp/ccXieJSO.s:117    .text._Znaj:00000000 _Znaj
-     /tmp/ccXieJSO.s:155    .text._ZnajP11memory_heap:00000000 $t
-     /tmp/ccXieJSO.s:161    .text._ZnajP11memory_heap:00000000 _ZnajP11memory_heap
-     /tmp/ccXieJSO.s:200    .text._ZdlPv:00000000 $t
-     /tmp/ccXieJSO.s:206    .text._ZdlPv:00000000 _ZdlPv
-     /tmp/ccXieJSO.s:235    .text._ZdlPvP11memory_heap:00000000 $t
-     /tmp/ccXieJSO.s:241    .text._ZdlPvP11memory_heap:00000000 _ZdlPvP11memory_heap
-     /tmp/ccXieJSO.s:271    .text._ZdaPv:00000000 $t
-     /tmp/ccXieJSO.s:277    .text._ZdaPv:00000000 _ZdaPv
-     /tmp/ccXieJSO.s:306    .text._ZdaPvP11memory_heap:00000000 $t
-     /tmp/ccXieJSO.s:312    .text._ZdaPvP11memory_heap:00000000 _ZdaPvP11memory_heap
+     /tmp/ccEs3Eil.s:21     .text._Znwj:00000000 $t
+     /tmp/ccEs3Eil.s:27     .text._Znwj:00000000 _Znwj
+     /tmp/ccEs3Eil.s:66     .text._ZnwjP11memory_heap:00000000 $t
+     /tmp/ccEs3Eil.s:72     .text._ZnwjP11memory_heap:00000000 _ZnwjP11memory_heap
+     /tmp/ccEs3Eil.s:111    .text._Znaj:00000000 $t
+     /tmp/ccEs3Eil.s:117    .text._Znaj:00000000 _Znaj
+     /tmp/ccEs3Eil.s:155    .text._ZnajP11memory_heap:00000000 $t
+     /tmp/ccEs3Eil.s:161    .text._ZnajP11memory_heap:00000000 _ZnajP11memory_heap
+     /tmp/ccEs3Eil.s:200    .text._ZdlPv:00000000 $t
+     /tmp/ccEs3Eil.s:206    .text._ZdlPv:00000000 _ZdlPv
+     /tmp/ccEs3Eil.s:235    .text._ZdlPvP11memory_heap:00000000 $t
+     /tmp/ccEs3Eil.s:241    .text._ZdlPvP11memory_heap:00000000 _ZdlPvP11memory_heap
+     /tmp/ccEs3Eil.s:271    .text._ZdaPv:00000000 $t
+     /tmp/ccEs3Eil.s:277    .text._ZdaPv:00000000 _ZdaPv
+     /tmp/ccEs3Eil.s:306    .text._ZdaPvP11memory_heap:00000000 $t
+     /tmp/ccEs3Eil.s:312    .text._ZdaPvP11memory_heap:00000000 _ZdaPvP11memory_heap
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

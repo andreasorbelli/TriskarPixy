@@ -153,7 +153,7 @@ build/obj/main.o: main.cpp \
  /home/ergae/r2p-sdk/core/Middleware/include/r2p/transport/RTCANPublisher.hpp \
  /home/ergae/r2p-sdk/core/Middleware/include/r2p/transport/RTCANSubscriber.hpp \
  /home/ergae/r2p-sdk/core/Middleware/include/r2p/node/led.hpp \
- nodes/shell_node.hpp nodes/pixy_node.hpp
+ nodes/follow_node.hpp nodes/shell_node.hpp nodes/pixy_node.hpp
 
 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h:
 
@@ -462,6 +462,8 @@ build/obj/main.o: main.cpp \
 /home/ergae/r2p-sdk/core/Middleware/include/r2p/transport/RTCANSubscriber.hpp:
 
 /home/ergae/r2p-sdk/core/Middleware/include/r2p/node/led.hpp:
+
+nodes/follow_node.hpp:
 
 nodes/shell_node.hpp:
 

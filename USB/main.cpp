@@ -7,10 +7,9 @@
 
 #include <r2p/Middleware.hpp>
 #include <r2p/node/led.hpp>
-
+#include "nodes/follow_node.hpp"
 #include "nodes/shell_node.hpp"
 #include "nodes/pixy_node.hpp"
-
 
 static WORKING_AREA(wa_info, 1024);
 static r2p::RTCANTransport rtcantra(RTCAND1);
@@ -40,6 +39,7 @@ int main(void) {
 
 	r2p::Thread::create_heap(NULL, THD_WA_SIZE(512), NORMALPRIO, shell_node, NULL);
 	r2p::Thread::create_heap(NULL, THD_WA_SIZE(512), NORMALPRIO, pixy_node, NULL);
+	r2p::Thread::create_heap(NULL, THD_WA_SIZE(512), NORMALPRIO, follow_node, NULL);
 
 	for (;;) {
 		r2p::Thread::sleep(r2p::Time::ms(50));

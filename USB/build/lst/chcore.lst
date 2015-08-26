@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc3QY7Fd.s 			page 1
+ARM GAS  /tmp/ccPntseT.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc3QY7Fd.s 			page 1
   53 000a 04       		.byte	0x4
   54 000b 01       		.uleb128 0x1
   55 000c 1B000000 		.4byte	.LASF12
-ARM GAS  /tmp/cc3QY7Fd.s 			page 2
+ARM GAS  /tmp/ccPntseT.s 			page 2
 
 
   56 0010 01       		.byte	0x1
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc3QY7Fd.s 			page 1
  110 0076 01       		.byte	0x1
  111 0077 08       		.byte	0x8
  112 0078 A9010000 		.4byte	.LASF11
-ARM GAS  /tmp/cc3QY7Fd.s 			page 3
+ARM GAS  /tmp/ccPntseT.s 			page 3
 
 
  113 007c 04       		.uleb128 0x4
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc3QY7Fd.s 			page 1
  167 002b 19       		.uleb128 0x19
  168 002c 03       		.uleb128 0x3
  169 002d 0E       		.uleb128 0xe
-ARM GAS  /tmp/cc3QY7Fd.s 			page 4
+ARM GAS  /tmp/ccPntseT.s 			page 4
 
 
  170 002e 3A       		.uleb128 0x3a
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc3QY7Fd.s 			page 1
  213      4320342E 
  213      392E3320 
  213      32303134 
-ARM GAS  /tmp/cc3QY7Fd.s 			page 5
+ARM GAS  /tmp/ccPntseT.s 			page 5
 
 
  213      31313139 
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc3QY7Fd.s 			page 1
  229      00
  230              	.LASF5:
  231 01ae 6C6F6E67 		.ascii	"long int\000"
-ARM GAS  /tmp/cc3QY7Fd.s 			page 6
+ARM GAS  /tmp/ccPntseT.s 			page 6
 
 
  231      20696E74 
@@ -329,13 +329,13 @@ ARM GAS  /tmp/cc3QY7Fd.s 			page 1
  243      74797065 
  243      00
  244              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/cc3QY7Fd.s 			page 7
+ARM GAS  /tmp/ccPntseT.s 			page 7
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chcore.c
-     /tmp/cc3QY7Fd.s:21     .text.port_halt:00000000 $t
-     /tmp/cc3QY7Fd.s:27     .text.port_halt:00000000 port_halt
+     /tmp/ccPntseT.s:21     .text.port_halt:00000000 $t
+     /tmp/ccPntseT.s:27     .text.port_halt:00000000 port_halt
                      .debug_frame:00000010 $d
 
 NO UNDEFINED SYMBOLS

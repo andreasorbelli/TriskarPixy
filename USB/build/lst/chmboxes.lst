@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc0rEfZ5.s 			page 1
+ARM GAS  /tmp/ccs0rrtC.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
   52 0012 002B     		cmp	r3, #0
   53 0014 02D0     		beq	.L2
   54              		.loc 1 74 0 discriminator 4
-ARM GAS  /tmp/cc0rEfZ5.s 			page 2
+ARM GAS  /tmp/ccs0rrtC.s 			page 2
 
 
   55 0016 019B     		ldr	r3, [sp, #4]
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  108              	.LC1:
  109 0010 2263684D 		.ascii	"\"chMBReset\"()\000"
  109      42526573 
-ARM GAS  /tmp/cc0rEfZ5.s 			page 3
+ARM GAS  /tmp/ccs0rrtC.s 			page 3
 
 
  109      65742228 
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  162 003a 1B68     		ldr	r3, [r3]
  163 003c CB1A     		subs	r3, r1, r3
  164 003e 9B10     		asrs	r3, r3, #2
-ARM GAS  /tmp/cc0rEfZ5.s 			page 4
+ARM GAS  /tmp/ccs0rrtC.s 			page 4
 
 
  165 0040 1046     		mov	r0, r2
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  219              		.loc 1 125 0
  220 000a 2023     		movs	r3, #32
  221              	@ 125 "/home/ergae/r2p-sdk/core/ChibiOS/os/kernel/src/chmboxes.c" 1
-ARM GAS  /tmp/cc0rEfZ5.s 			page 5
+ARM GAS  /tmp/ccs0rrtC.s 			page 5
 
 
  222 000c 83F31188 		msr     BASEPRI, r3
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  271              		.cfi_def_cfa_offset 4
  272              		.cfi_offset 14, -4
  273 0002 87B0     		sub	sp, sp, #28
-ARM GAS  /tmp/cc0rEfZ5.s 			page 6
+ARM GAS  /tmp/ccs0rrtC.s 			page 6
 
 
  274              		.cfi_def_cfa_offset 32
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  328              		.loc 1 164 0
  329 005e 059B     		ldr	r3, [sp, #20]
  330              		.loc 1 165 0
-ARM GAS  /tmp/cc0rEfZ5.s 			page 7
+ARM GAS  /tmp/ccs0rrtC.s 			page 7
 
 
  331 0060 1846     		mov	r0, r3
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  382              		.loc 1 187 0
  383 0020 4FF0FF33 		mov	r3, #-1
  384 0024 1BE0     		b	.L22
-ARM GAS  /tmp/cc0rEfZ5.s 			page 8
+ARM GAS  /tmp/ccs0rrtC.s 			page 8
 
 
  385              	.L21:
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  439              		.thumb_func
  440              		.type	chMBPostAhead, %function
  441              	chMBPostAhead:
-ARM GAS  /tmp/cc0rEfZ5.s 			page 9
+ARM GAS  /tmp/ccs0rrtC.s 			page 9
 
 
  442              	.LFB12:
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  493      42506F73 
  493      74416865 
  493      61645322 
-ARM GAS  /tmp/cc0rEfZ5.s 			page 10
+ARM GAS  /tmp/ccs0rrtC.s 			page 10
 
 
  493      282900
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  547 0042 04D2     		bcs	.L31
  548              		.loc 1 252 0
  549 0044 039B     		ldr	r3, [sp, #12]
-ARM GAS  /tmp/cc0rEfZ5.s 			page 11
+ARM GAS  /tmp/ccs0rrtC.s 			page 11
 
 
  550 0046 5B68     		ldr	r3, [r3, #4]
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  598              		@ args = 0, pretend = 0, frame = 8
  599              		@ frame_needed = 0, uses_anonymous_args = 0
  600 0000 00B5     		push	{lr}
-ARM GAS  /tmp/cc0rEfZ5.s 			page 12
+ARM GAS  /tmp/ccs0rrtC.s 			page 12
 
 
  601              		.cfi_def_cfa_offset 4
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  655 0056 1A60     		str	r2, [r3]
  656              		.loc 1 285 0
  657 0058 019B     		ldr	r3, [sp, #4]
-ARM GAS  /tmp/cc0rEfZ5.s 			page 13
+ARM GAS  /tmp/ccs0rrtC.s 			page 13
 
 
  658 005a 1033     		adds	r3, r3, #16
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  712 001e 0590     		str	r0, [sp, #20]
  713              		.loc 1 313 0
  714 0020 FFF7FEFF 		bl	dbg_check_unlock
-ARM GAS  /tmp/cc0rEfZ5.s 			page 14
+ARM GAS  /tmp/ccs0rrtC.s 			page 14
 
 
  715              	.LBB9:
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  764              		.loc 1 340 0 is_stmt 0 discriminator 2
  765 0014 029B     		ldr	r3, [sp, #8]
  766 0016 002B     		cmp	r3, #0
-ARM GAS  /tmp/cc0rEfZ5.s 			page 15
+ARM GAS  /tmp/ccs0rrtC.s 			page 15
 
 
  767 0018 02D1     		bne	.L46
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  821 006c 5DF804FB 		ldr	pc, [sp], #4
  822              	.L51:
  823              		.align	2
-ARM GAS  /tmp/cc0rEfZ5.s 			page 16
+ARM GAS  /tmp/ccs0rrtC.s 			page 16
 
 
  824              	.L50:
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  873              		.loc 1 373 0
  874 0026 4FF0FF33 		mov	r3, #-1
  875 002a 1CE0     		b	.L56
-ARM GAS  /tmp/cc0rEfZ5.s 			page 17
+ARM GAS  /tmp/ccs0rrtC.s 			page 17
 
 
  876              	.L55:
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  928              		.file 2 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/machine/_def
  929              		.file 3 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/stdint.h"
  930              		.file 4 "/home/ergae/r2p-sdk/core/ChibiOS/os/ports/GCC/ARMCMx/chtypes.h"
-ARM GAS  /tmp/cc0rEfZ5.s 			page 18
+ARM GAS  /tmp/ccs0rrtC.s 			page 18
 
 
  931              		.file 5 "/home/ergae/r2p-sdk/core/ChibiOS/os/kernel/include/chlists.h"
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  985 0062 04       		.byte	0x4
  986 0063 05       		.byte	0x5
  987 0064 EF000000 		.4byte	.LASF7
-ARM GAS  /tmp/cc0rEfZ5.s 			page 19
+ARM GAS  /tmp/ccs0rrtC.s 			page 19
 
 
  988 0068 04       		.uleb128 0x4
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  1042 00d7 2D       		.byte	0x2d
  1043 00d8 93000000 		.4byte	0x93
  1044 00dc 04       		.uleb128 0x4
-ARM GAS  /tmp/cc0rEfZ5.s 			page 20
+ARM GAS  /tmp/ccs0rrtC.s 			page 20
 
 
  1045 00dd 31020000 		.4byte	.LASF20
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  1099 0152 61       		.byte	0x61
  1100 0153 5E020000 		.4byte	0x25e
  1101 0157 04       		.byte	0x4
-ARM GAS  /tmp/cc0rEfZ5.s 			page 21
+ARM GAS  /tmp/ccs0rrtC.s 			page 21
 
 
  1102 0158 06       		.uleb128 0x6
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  1156 01c4 06       		.uleb128 0x6
  1157 01c5 87020000 		.4byte	.LASF39
  1158 01c9 06       		.byte	0x6
-ARM GAS  /tmp/cc0rEfZ5.s 			page 22
+ARM GAS  /tmp/ccs0rrtC.s 			page 22
 
 
  1159 01ca 88       		.byte	0x88
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  1213 0236 DA       		.byte	0xda
  1214 0237 9A020000 		.4byte	0x29a
  1215 023b 48       		.byte	0x48
-ARM GAS  /tmp/cc0rEfZ5.s 			page 23
+ARM GAS  /tmp/ccs0rrtC.s 			page 23
 
 
  1216 023c 00       		.byte	0
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  1270 02a2 EB       		.byte	0xeb
  1271 02a3 B4000000 		.4byte	0xb4
  1272 02a7 0B       		.uleb128 0xb
-ARM GAS  /tmp/cc0rEfZ5.s 			page 24
+ARM GAS  /tmp/ccs0rrtC.s 			page 24
 
 
  1273 02a8 0B030000 		.4byte	.LASF52
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  1327 031d 73323400 		.ascii	"s24\000"
  1328 0321 07       		.byte	0x7
  1329 0322 1601     		.2byte	0x116
-ARM GAS  /tmp/cc0rEfZ5.s 			page 25
+ARM GAS  /tmp/ccs0rrtC.s 			page 25
 
 
  1330 0324 8F020000 		.4byte	0x28f
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  1384 0397 8F020000 		.4byte	0x28f
  1385 039b 44       		.byte	0x44
  1386 039c 0C       		.uleb128 0xc
-ARM GAS  /tmp/cc0rEfZ5.s 			page 26
+ARM GAS  /tmp/ccs0rrtC.s 			page 26
 
 
  1387 039d 723600   		.ascii	"r6\000"
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  1441 040d 00       		.byte	0
  1442 040e 09       		.uleb128 0x9
  1443 040f 04       		.byte	0x4
-ARM GAS  /tmp/cc0rEfZ5.s 			page 27
+ARM GAS  /tmp/ccs0rrtC.s 			page 27
 
 
  1444 0410 A7020000 		.4byte	0x2a7
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  1498 047f 0C       		.byte	0xc
  1499 0480 00       		.byte	0
  1500 0481 09       		.uleb128 0x9
-ARM GAS  /tmp/cc0rEfZ5.s 			page 28
+ARM GAS  /tmp/ccs0rrtC.s 			page 28
 
 
  1501 0482 04       		.byte	0x4
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  1555 04ee 0A       		.byte	0xa
  1556 04ef 3E       		.byte	0x3e
  1557 04f0 92040000 		.4byte	0x492
-ARM GAS  /tmp/cc0rEfZ5.s 			page 29
+ARM GAS  /tmp/ccs0rrtC.s 			page 29
 
 
  1558 04f4 0E       		.uleb128 0xe
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  1612 0563 85050000 		.4byte	0x585
  1613 0567 02       		.uleb128 0x2
  1614 0568 91       		.byte	0x91
-ARM GAS  /tmp/cc0rEfZ5.s 			page 30
+ARM GAS  /tmp/ccs0rrtC.s 			page 30
 
 
  1615 0569 74       		.sleb128 -12
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  1669 05d3 746D7000 		.ascii	"tmp\000"
  1670 05d7 01       		.byte	0x1
  1671 05d8 64       		.byte	0x64
-ARM GAS  /tmp/cc0rEfZ5.s 			page 31
+ARM GAS  /tmp/ccs0rrtC.s 			page 31
 
 
  1672 05d9 A9000000 		.4byte	0xa9
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  1726 0645 7D       		.byte	0x7d
  1727 0646 A9000000 		.4byte	0xa9
  1728 064a 01       		.uleb128 0x1
-ARM GAS  /tmp/cc0rEfZ5.s 			page 32
+ARM GAS  /tmp/ccs0rrtC.s 			page 32
 
 
  1729 064b 53       		.byte	0x53
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  1783 06b4 91       		.byte	0x91
  1784 06b5 74       		.sleb128 -12
  1785 06b6 00       		.byte	0
-ARM GAS  /tmp/cc0rEfZ5.s 			page 33
+ARM GAS  /tmp/ccs0rrtC.s 			page 33
 
 
  1786 06b7 16       		.uleb128 0x16
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  1840 0723 21020000 		.4byte	.LASF76
  1841 0727 01       		.byte	0x1
  1842 0728 D7       		.byte	0xd7
-ARM GAS  /tmp/cc0rEfZ5.s 			page 34
+ARM GAS  /tmp/ccs0rrtC.s 			page 34
 
 
  1843 0729 13010000 		.4byte	0x113
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  1897 0798 12       		.uleb128 0x12
  1898 0799 6D736700 		.ascii	"msg\000"
  1899 079d 01       		.byte	0x1
-ARM GAS  /tmp/cc0rEfZ5.s 			page 35
+ARM GAS  /tmp/ccs0rrtC.s 			page 35
 
 
  1900 079e F3       		.byte	0xf3
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  1954 0808 00000000 		.4byte	.LFB15
  1955 080c 34000000 		.4byte	.LFE15-.LFB15
  1956 0810 01       		.uleb128 0x1
-ARM GAS  /tmp/cc0rEfZ5.s 			page 36
+ARM GAS  /tmp/ccs0rrtC.s 			page 36
 
 
  1957 0811 9C       		.byte	0x9c
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  2011 0883 01       		.uleb128 0x1
  2012 0884 53       		.byte	0x53
  2013 0885 00       		.byte	0
-ARM GAS  /tmp/cc0rEfZ5.s 			page 37
+ARM GAS  /tmp/ccs0rrtC.s 			page 37
 
 
  2014 0886 00       		.byte	0
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  2068 08f5 6D627000 		.ascii	"mbp\000"
  2069 08f9 01       		.byte	0x1
  2070 08fa 6F01     		.2byte	0x16f
-ARM GAS  /tmp/cc0rEfZ5.s 			page 38
+ARM GAS  /tmp/ccs0rrtC.s 			page 38
 
 
  2071 08fc 85050000 		.4byte	0x585
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  2125 0026 00       		.byte	0
  2126 0027 04       		.uleb128 0x4
  2127 0028 16       		.uleb128 0x16
-ARM GAS  /tmp/cc0rEfZ5.s 			page 39
+ARM GAS  /tmp/ccs0rrtC.s 			page 39
 
 
  2128 0029 00       		.byte	0
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  2182 005f 00       		.byte	0
  2183 0060 00       		.byte	0
  2184 0061 08       		.uleb128 0x8
-ARM GAS  /tmp/cc0rEfZ5.s 			page 40
+ARM GAS  /tmp/ccs0rrtC.s 			page 40
 
 
  2185 0062 13       		.uleb128 0x13
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  2239 0098 38       		.uleb128 0x38
  2240 0099 0B       		.uleb128 0xb
  2241 009a 00       		.byte	0
-ARM GAS  /tmp/cc0rEfZ5.s 			page 41
+ARM GAS  /tmp/ccs0rrtC.s 			page 41
 
 
  2242 009b 00       		.byte	0
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  2296 00d1 11       		.uleb128 0x11
  2297 00d2 01       		.uleb128 0x1
  2298 00d3 12       		.uleb128 0x12
-ARM GAS  /tmp/cc0rEfZ5.s 			page 42
+ARM GAS  /tmp/ccs0rrtC.s 			page 42
 
 
  2299 00d4 06       		.uleb128 0x6
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  2353 010b 01       		.uleb128 0x1
  2354 010c 12       		.uleb128 0x12
  2355 010d 06       		.uleb128 0x6
-ARM GAS  /tmp/cc0rEfZ5.s 			page 43
+ARM GAS  /tmp/ccs0rrtC.s 			page 43
 
 
  2356 010e 00       		.byte	0
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  2410 0145 13       		.uleb128 0x13
  2411 0146 02       		.uleb128 0x2
  2412 0147 18       		.uleb128 0x18
-ARM GAS  /tmp/cc0rEfZ5.s 			page 44
+ARM GAS  /tmp/ccs0rrtC.s 			page 44
 
 
  2413 0148 00       		.byte	0
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  2467 017f 13       		.uleb128 0x13
  2468 0180 02       		.uleb128 0x2
  2469 0181 18       		.uleb128 0x18
-ARM GAS  /tmp/cc0rEfZ5.s 			page 45
+ARM GAS  /tmp/ccs0rrtC.s 			page 45
 
 
  2470 0182 00       		.byte	0
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  2524 01b9 19       		.uleb128 0x19
  2525 01ba 00       		.byte	0
  2526 01bb 00       		.byte	0
-ARM GAS  /tmp/cc0rEfZ5.s 			page 46
+ARM GAS  /tmp/ccs0rrtC.s 			page 46
 
 
  2527 01bc 00       		.byte	0
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  2581 004c 74000000 		.4byte	.LFE16
  2582 0050 00000000 		.4byte	.LFB17
  2583 0054 74000000 		.4byte	.LFE17
-ARM GAS  /tmp/cc0rEfZ5.s 			page 47
+ARM GAS  /tmp/ccs0rrtC.s 			page 47
 
 
  2584 0058 00000000 		.4byte	0
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  2611 009c 63684D42 		.ascii	"chMBPostAheadS\000"
  2611      506F7374 
  2611      41686561 
-ARM GAS  /tmp/cc0rEfZ5.s 			page 48
+ARM GAS  /tmp/ccs0rrtC.s 			page 48
 
 
  2611      645300
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  2641 012e 636E745F 		.ascii	"cnt_t\000"
  2641      7400
  2642              	.LASF35:
-ARM GAS  /tmp/cc0rEfZ5.s 			page 49
+ARM GAS  /tmp/ccs0rrtC.s 			page 49
 
 
  2643 0134 705F7374 		.ascii	"p_stklimit\000"
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  2669      746D6173 
  2669      6B5F7400 
  2670              	.LASF58:
-ARM GAS  /tmp/cc0rEfZ5.s 			page 50
+ARM GAS  /tmp/ccs0rrtC.s 			page 50
 
 
  2671 01d0 4D757465 		.ascii	"Mutex\000"
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  2701      325F7400 
  2702              	.LASF2:
  2703 0256 756E7369 		.ascii	"unsigned char\000"
-ARM GAS  /tmp/cc0rEfZ5.s 			page 51
+ARM GAS  /tmp/ccs0rrtC.s 			page 51
 
 
  2703      676E6564 
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  2733      7400
  2734              	.LASF46:
  2735 02e1 705F7265 		.ascii	"p_realprio\000"
-ARM GAS  /tmp/cc0rEfZ5.s 			page 52
+ARM GAS  /tmp/ccs0rrtC.s 			page 52
 
 
  2735      616C7072 
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  2764 0394 616E6368 		.ascii	"anch revision 218278] -mcpu=cortex-m4 -mfloat-abi=h"
  2764      20726576 
  2764      6973696F 
-ARM GAS  /tmp/cc0rEfZ5.s 			page 53
+ARM GAS  /tmp/ccs0rrtC.s 			page 53
 
 
  2764      6E203231 
@@ -3151,50 +3151,50 @@ ARM GAS  /tmp/cc0rEfZ5.s 			page 1
  2772      6974696E 
  2772      6700
  2773              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/cc0rEfZ5.s 			page 54
+ARM GAS  /tmp/ccs0rrtC.s 			page 54
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chmboxes.c
-     /tmp/cc0rEfZ5.s:21     .rodata:00000000 $d
-     /tmp/cc0rEfZ5.s:25     .text.chMBInit:00000000 $t
-     /tmp/cc0rEfZ5.s:31     .text.chMBInit:00000000 chMBInit
-     /tmp/cc0rEfZ5.s:102    .text.chMBInit:00000064 $d
-     /tmp/cc0rEfZ5.s:111    .text.chMBReset:00000000 $t
-     /tmp/cc0rEfZ5.s:117    .text.chMBReset:00000000 chMBReset
-     /tmp/cc0rEfZ5.s:193    .text.chMBReset:00000068 $d
-     /tmp/cc0rEfZ5.s:198    .text.chMBPost:00000000 $t
-     /tmp/cc0rEfZ5.s:204    .text.chMBPost:00000000 chMBPost
-     /tmp/cc0rEfZ5.s:264    .text.chMBPostS:00000000 chMBPostS
-     /tmp/cc0rEfZ5.s:258    .text.chMBPostS:00000000 $t
-     /tmp/cc0rEfZ5.s:339    .text.chMBPostS:00000068 $d
-     /tmp/cc0rEfZ5.s:348    .text.chMBPostI:00000000 $t
-     /tmp/cc0rEfZ5.s:354    .text.chMBPostI:00000000 chMBPostI
-     /tmp/cc0rEfZ5.s:430    .text.chMBPostI:00000068 $d
-     /tmp/cc0rEfZ5.s:435    .text.chMBPostAhead:00000000 $t
-     /tmp/cc0rEfZ5.s:441    .text.chMBPostAhead:00000000 chMBPostAhead
-     /tmp/cc0rEfZ5.s:501    .text.chMBPostAheadS:00000000 chMBPostAheadS
-     /tmp/cc0rEfZ5.s:495    .text.chMBPostAheadS:00000000 $t
-     /tmp/cc0rEfZ5.s:579    .text.chMBPostAheadS:00000070 $d
-     /tmp/cc0rEfZ5.s:588    .text.chMBPostAheadI:00000000 $t
-     /tmp/cc0rEfZ5.s:594    .text.chMBPostAheadI:00000000 chMBPostAheadI
-     /tmp/cc0rEfZ5.s:673    .text.chMBPostAheadI:0000006c $d
-     /tmp/cc0rEfZ5.s:678    .text.chMBFetch:00000000 $t
-     /tmp/cc0rEfZ5.s:684    .text.chMBFetch:00000000 chMBFetch
-     /tmp/cc0rEfZ5.s:744    .text.chMBFetchS:00000000 chMBFetchS
-     /tmp/cc0rEfZ5.s:738    .text.chMBFetchS:00000000 $t
-     /tmp/cc0rEfZ5.s:825    .text.chMBFetchS:00000070 $d
-     /tmp/cc0rEfZ5.s:834    .text.chMBFetchI:00000000 $t
-     /tmp/cc0rEfZ5.s:840    .text.chMBFetchI:00000000 chMBFetchI
-     /tmp/cc0rEfZ5.s:922    .text.chMBFetchI:00000070 $d
+     /tmp/ccs0rrtC.s:21     .rodata:00000000 $d
+     /tmp/ccs0rrtC.s:25     .text.chMBInit:00000000 $t
+     /tmp/ccs0rrtC.s:31     .text.chMBInit:00000000 chMBInit
+     /tmp/ccs0rrtC.s:102    .text.chMBInit:00000064 $d
+     /tmp/ccs0rrtC.s:111    .text.chMBReset:00000000 $t
+     /tmp/ccs0rrtC.s:117    .text.chMBReset:00000000 chMBReset
+     /tmp/ccs0rrtC.s:193    .text.chMBReset:00000068 $d
+     /tmp/ccs0rrtC.s:198    .text.chMBPost:00000000 $t
+     /tmp/ccs0rrtC.s:204    .text.chMBPost:00000000 chMBPost
+     /tmp/ccs0rrtC.s:264    .text.chMBPostS:00000000 chMBPostS
+     /tmp/ccs0rrtC.s:258    .text.chMBPostS:00000000 $t
+     /tmp/ccs0rrtC.s:339    .text.chMBPostS:00000068 $d
+     /tmp/ccs0rrtC.s:348    .text.chMBPostI:00000000 $t
+     /tmp/ccs0rrtC.s:354    .text.chMBPostI:00000000 chMBPostI
+     /tmp/ccs0rrtC.s:430    .text.chMBPostI:00000068 $d
+     /tmp/ccs0rrtC.s:435    .text.chMBPostAhead:00000000 $t
+     /tmp/ccs0rrtC.s:441    .text.chMBPostAhead:00000000 chMBPostAhead
+     /tmp/ccs0rrtC.s:501    .text.chMBPostAheadS:00000000 chMBPostAheadS
+     /tmp/ccs0rrtC.s:495    .text.chMBPostAheadS:00000000 $t
+     /tmp/ccs0rrtC.s:579    .text.chMBPostAheadS:00000070 $d
+     /tmp/ccs0rrtC.s:588    .text.chMBPostAheadI:00000000 $t
+     /tmp/ccs0rrtC.s:594    .text.chMBPostAheadI:00000000 chMBPostAheadI
+     /tmp/ccs0rrtC.s:673    .text.chMBPostAheadI:0000006c $d
+     /tmp/ccs0rrtC.s:678    .text.chMBFetch:00000000 $t
+     /tmp/ccs0rrtC.s:684    .text.chMBFetch:00000000 chMBFetch
+     /tmp/ccs0rrtC.s:744    .text.chMBFetchS:00000000 chMBFetchS
+     /tmp/ccs0rrtC.s:738    .text.chMBFetchS:00000000 $t
+     /tmp/ccs0rrtC.s:825    .text.chMBFetchS:00000070 $d
+     /tmp/ccs0rrtC.s:834    .text.chMBFetchI:00000000 $t
+     /tmp/ccs0rrtC.s:840    .text.chMBFetchI:00000000 chMBFetchI
+     /tmp/ccs0rrtC.s:922    .text.chMBFetchI:00000070 $d
                      .debug_frame:00000010 $d
-     /tmp/cc0rEfZ5.s:106    .text.chMBInit:00000068 $t
-     /tmp/cc0rEfZ5.s:197    .text.chMBReset:0000006c $t
-     /tmp/cc0rEfZ5.s:343    .text.chMBPostS:0000006c $t
-     /tmp/cc0rEfZ5.s:434    .text.chMBPostI:0000006c $t
-     /tmp/cc0rEfZ5.s:583    .text.chMBPostAheadS:00000074 $t
-     /tmp/cc0rEfZ5.s:829    .text.chMBFetchS:00000074 $t
-     /tmp/cc0rEfZ5.s:926    .text.chMBFetchI:00000074 $t
+     /tmp/ccs0rrtC.s:106    .text.chMBInit:00000068 $t
+     /tmp/ccs0rrtC.s:197    .text.chMBReset:0000006c $t
+     /tmp/ccs0rrtC.s:343    .text.chMBPostS:0000006c $t
+     /tmp/ccs0rrtC.s:434    .text.chMBPostI:0000006c $t
+     /tmp/ccs0rrtC.s:583    .text.chMBPostAheadS:00000074 $t
+     /tmp/ccs0rrtC.s:829    .text.chMBFetchS:00000074 $t
+     /tmp/ccs0rrtC.s:926    .text.chMBFetchI:00000074 $t
 
 UNDEFINED SYMBOLS
 chDbgPanic

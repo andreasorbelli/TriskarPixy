@@ -55,6 +55,9 @@ msg_t ir_node(void *arg) {
 	(void) arg;
 	chRegSetThreadName("ir_pub");
 
+	palWritePad(GPIOA, GPIOA_EN1, PAL_LOW);
+	palWritePad(GPIOC, GPIOC_EN2, PAL_LOW);
+
 	adcStart(&ADCD1, NULL);
 
 	node.advertise(pub, "proximity");
@@ -63,14 +66,14 @@ msg_t ir_node(void *arg) {
 		adcConvert(&ADCD1, &adc_group_config, adc_samples, ADC_BUF_DEPTH);
 
 		if (pub.alloc(msgp)) {
-			msgp->value[0] = adc_samples[0];
-			msgp->value[1] = adc_samples[1];
-			msgp->value[2] = adc_samples[2];
-			msgp->value[3] = adc_samples[3];
-			msgp->value[4] = adc_samples[4];
-			msgp->value[5] = adc_samples[5];
+			msgp->value[0] = adc_samples[7];
+			msgp->value[1] = adc_samples[5];
+			msgp->value[2] = adc_samples[3];
+			msgp->value[3] = adc_samples[1];
+			msgp->value[4] = adc_samples[0];
+			msgp->value[5] = adc_samples[2];
 			msgp->value[6] = adc_samples[6];
-			msgp->value[7] = adc_samples[7];
+			msgp->value[7] = adc_samples[4];
 
 			pub.publish(msgp);
 		}

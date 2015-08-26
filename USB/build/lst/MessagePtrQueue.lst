@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccJCBOo8.s 			page 1
+ARM GAS  /tmp/cc1fXCOG.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccJCBOo8.s 			page 1
   55              		.thumb_func
   56              		.type	_ZN3r2p15MessagePtrQueueC2EPPNS_7MessageEj, %function
   57              	_ZN3r2p15MessagePtrQueueC2EPPNS_7MessageEj:
-ARM GAS  /tmp/ccJCBOo8.s 			page 2
+ARM GAS  /tmp/cc1fXCOG.s 			page 2
 
 
   58              	.LFB49:
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccJCBOo8.s 			page 1
  109              		@ frame_needed = 0, uses_anonymous_args = 0
  110 0000 00B5     		push	{lr}
  111              		.cfi_def_cfa_offset 4
-ARM GAS  /tmp/ccJCBOo8.s 			page 3
+ARM GAS  /tmp/cc1fXCOG.s 			page 3
 
 
  112              		.cfi_offset 14, -4
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccJCBOo8.s 			page 1
  166              	.LFE52:
  167              		.size	_ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j, .-_ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j
  168              		.weak	_ZN3r2p10ArrayQueueIPNS_7MessageEEC1EPS2_j
-ARM GAS  /tmp/ccJCBOo8.s 			page 4
+ARM GAS  /tmp/cc1fXCOG.s 			page 4
 
 
  169              		.thumb_set _ZN3r2p10ArrayQueueIPNS_7MessageEEC1EPS2_j,_ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccJCBOo8.s 			page 1
  221 005b 04       		.byte	0x4
  222 005c 05       		.byte	0x5
  223 005d 32000000 		.4byte	.LASF5
-ARM GAS  /tmp/ccJCBOo8.s 			page 5
+ARM GAS  /tmp/cc1fXCOG.s 			page 5
 
 
  224 0061 04       		.uleb128 0x4
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccJCBOo8.s 			page 1
  278 00c4 05       		.byte	0x5
  279 00c5 1D       		.byte	0x1d
  280 00c6 25000000 		.4byte	0x25
-ARM GAS  /tmp/ccJCBOo8.s 			page 6
+ARM GAS  /tmp/cc1fXCOG.s 			page 6
 
 
  281 00ca D9000000 		.4byte	0xd9
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccJCBOo8.s 			page 1
  335 0145 52030000 		.4byte	0x352
  336 0149 51010000 		.4byte	0x151
  337 014d 5C010000 		.4byte	0x15c
-ARM GAS  /tmp/ccJCBOo8.s 			page 7
+ARM GAS  /tmp/cc1fXCOG.s 			page 7
 
 
  338 0151 0E       		.uleb128 0xe
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccJCBOo8.s 			page 1
  392 01c6 03       		.byte	0x3
  393 01c7 0D       		.byte	0xd
  394 01c8 2C000000 		.4byte	0x2c
-ARM GAS  /tmp/ccJCBOo8.s 			page 8
+ARM GAS  /tmp/cc1fXCOG.s 			page 8
 
 
  395 01cc 08       		.byte	0x8
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccJCBOo8.s 			page 1
  449 024a 07050000 		.4byte	.LASF29
  450 024e 03       		.byte	0x3
  451 024f 51       		.byte	0x51
-ARM GAS  /tmp/ccJCBOo8.s 			page 9
+ARM GAS  /tmp/cc1fXCOG.s 			page 9
 
 
  452 0250 29010000 		.4byte	.LASF30
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccJCBOo8.s 			page 1
  506 02da 01       		.byte	0x1
  507 02db E3020000 		.4byte	0x2e3
  508 02df E9020000 		.4byte	0x2e9
-ARM GAS  /tmp/ccJCBOo8.s 			page 10
+ARM GAS  /tmp/cc1fXCOG.s 			page 10
 
 
  509 02e3 0E       		.uleb128 0xe
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccJCBOo8.s 			page 1
  563 0358 18       		.uleb128 0x18
  564 0359 04       		.byte	0x4
  565 035a 92010000 		.4byte	0x192
-ARM GAS  /tmp/ccJCBOo8.s 			page 11
+ARM GAS  /tmp/cc1fXCOG.s 			page 11
 
 
  566 035e 04       		.uleb128 0x4
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccJCBOo8.s 			page 1
  620 03d6 FA030000 		.4byte	0x3fa
  621 03da 1A       		.uleb128 0x1a
  622 03db 24010000 		.4byte	.LASF42
-ARM GAS  /tmp/ccJCBOo8.s 			page 12
+ARM GAS  /tmp/cc1fXCOG.s 			page 12
 
 
  623 03df FA030000 		.4byte	0x3fa
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccJCBOo8.s 			page 1
  677 045a 03       		.byte	0x3
  678 045b 7D       		.byte	0x7d
  679 045c 2C000000 		.4byte	0x2c
-ARM GAS  /tmp/ccJCBOo8.s 			page 13
+ARM GAS  /tmp/cc1fXCOG.s 			page 13
 
 
  680 0460 00       		.byte	0
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccJCBOo8.s 			page 1
  734 0018 3E       		.uleb128 0x3e
  735 0019 0B       		.uleb128 0xb
  736 001a 03       		.uleb128 0x3
-ARM GAS  /tmp/ccJCBOo8.s 			page 14
+ARM GAS  /tmp/cc1fXCOG.s 			page 14
 
 
  737 001b 08       		.uleb128 0x8
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccJCBOo8.s 			page 1
  791 0051 08       		.uleb128 0x8
  792 0052 3A       		.uleb128 0x3a
  793 0053 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccJCBOo8.s 			page 15
+ARM GAS  /tmp/cc1fXCOG.s 			page 15
 
 
  794 0054 3B       		.uleb128 0x3b
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccJCBOo8.s 			page 1
  848 008a 01       		.uleb128 0x1
  849 008b 13       		.uleb128 0x13
  850 008c 00       		.byte	0
-ARM GAS  /tmp/ccJCBOo8.s 			page 16
+ARM GAS  /tmp/cc1fXCOG.s 			page 16
 
 
  851 008d 00       		.byte	0
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccJCBOo8.s 			page 1
  905 00c3 10       		.uleb128 0x10
  906 00c4 2E       		.uleb128 0x2e
  907 00c5 01       		.byte	0x1
-ARM GAS  /tmp/ccJCBOo8.s 			page 17
+ARM GAS  /tmp/cc1fXCOG.s 			page 17
 
 
  908 00c6 3F       		.uleb128 0x3f
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccJCBOo8.s 			page 1
  962 00fc 0E       		.uleb128 0xe
  963 00fd 49       		.uleb128 0x49
  964 00fe 13       		.uleb128 0x13
-ARM GAS  /tmp/ccJCBOo8.s 			page 18
+ARM GAS  /tmp/cc1fXCOG.s 			page 18
 
 
  965 00ff 32       		.uleb128 0x32
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccJCBOo8.s 			page 1
  1019 0135 00       		.byte	0
  1020 0136 0B       		.uleb128 0xb
  1021 0137 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccJCBOo8.s 			page 19
+ARM GAS  /tmp/cc1fXCOG.s 			page 19
 
 
  1022 0138 49       		.uleb128 0x49
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccJCBOo8.s 			page 1
  1076 016f 02       		.uleb128 0x2
  1077 0170 18       		.uleb128 0x18
  1078 0171 00       		.byte	0
-ARM GAS  /tmp/ccJCBOo8.s 			page 20
+ARM GAS  /tmp/cc1fXCOG.s 			page 20
 
 
  1079 0172 00       		.byte	0
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccJCBOo8.s 			page 1
  1133 01a9 01       		.byte	0x1
  1134 01aa 31       		.uleb128 0x31
  1135 01ab 13       		.uleb128 0x13
-ARM GAS  /tmp/ccJCBOo8.s 			page 21
+ARM GAS  /tmp/cc1fXCOG.s 			page 21
 
 
  1136 01ac 6E       		.uleb128 0x6e
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccJCBOo8.s 			page 1
  1184              	.LASF40:
  1185 000f 4D657373 		.ascii	"MessagePtrQueue\000"
  1185      61676550 
-ARM GAS  /tmp/ccJCBOo8.s 			page 22
+ARM GAS  /tmp/cc1fXCOG.s 			page 22
 
 
  1185      74725175 
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccJCBOo8.s 			page 1
  1211 0111 4974656D 		.ascii	"Item\000"
  1211      00
  1212              	.LASF2:
-ARM GAS  /tmp/ccJCBOo8.s 			page 23
+ARM GAS  /tmp/cc1fXCOG.s 			page 23
 
 
  1213 0116 756E7369 		.ascii	"unsigned char\000"
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccJCBOo8.s 			page 1
  1236      626C6500 
  1237              	.LASF0:
  1238 0211 756E7369 		.ascii	"unsigned int\000"
-ARM GAS  /tmp/ccJCBOo8.s 			page 24
+ARM GAS  /tmp/cc1fXCOG.s 			page 24
 
 
  1238      676E6564 
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccJCBOo8.s 			page 1
  1253              	.LASF48:
  1254 03a3 2F686F6D 		.ascii	"/home/ergae/r2p-sdk/workspace-triskarpixy/USB/\000"
  1254      652F6572 
-ARM GAS  /tmp/ccJCBOo8.s 			page 25
+ARM GAS  /tmp/cc1fXCOG.s 			page 25
 
 
  1254      6761652F 
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccJCBOo8.s 			page 1
  1277      61795175 
  1277      65756549 
  1278              	.LASF12:
-ARM GAS  /tmp/ccJCBOo8.s 			page 26
+ARM GAS  /tmp/cc1fXCOG.s 			page 26
 
 
  1279 04bc 73747265 		.ascii	"strerror\000"
@@ -1535,24 +1535,24 @@ ARM GAS  /tmp/ccJCBOo8.s 			page 1
  1294      636F756E 
  1294      7400
  1295              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccJCBOo8.s 			page 27
+ARM GAS  /tmp/cc1fXCOG.s 			page 27
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 MessagePtrQueue.cpp
-     /tmp/ccJCBOo8.s:21     .text._ZN3r2p10UncopyableC2Ev:00000000 $t
-     /tmp/ccJCBOo8.s:27     .text._ZN3r2p10UncopyableC2Ev:00000000 _ZN3r2p10UncopyableC2Ev
-     /tmp/ccJCBOo8.s:27     .text._ZN3r2p10UncopyableC2Ev:00000000 _ZN3r2p10UncopyableC1Ev
-     /tmp/ccJCBOo8.s:51     .text._ZN3r2p15MessagePtrQueueC2EPPNS_7MessageEj:00000000 $t
-     /tmp/ccJCBOo8.s:57     .text._ZN3r2p15MessagePtrQueueC2EPPNS_7MessageEj:00000000 _ZN3r2p15MessagePtrQueueC2EPPNS_7MessageEj
-     /tmp/ccJCBOo8.s:103    .text._ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j:00000000 _ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j
-     /tmp/ccJCBOo8.s:57     .text._ZN3r2p15MessagePtrQueueC2EPPNS_7MessageEj:00000000 _ZN3r2p15MessagePtrQueueC1EPPNS_7MessageEj
-     /tmp/ccJCBOo8.s:93     .rodata:00000000 $d
-     /tmp/ccJCBOo8.s:97     .text._ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j:00000000 $t
-     /tmp/ccJCBOo8.s:164    .text._ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j:00000050 $d
-     /tmp/ccJCBOo8.s:103    .text._ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j:00000000 _ZN3r2p10ArrayQueueIPNS_7MessageEEC1EPS2_j
+     /tmp/cc1fXCOG.s:21     .text._ZN3r2p10UncopyableC2Ev:00000000 $t
+     /tmp/cc1fXCOG.s:27     .text._ZN3r2p10UncopyableC2Ev:00000000 _ZN3r2p10UncopyableC2Ev
+     /tmp/cc1fXCOG.s:27     .text._ZN3r2p10UncopyableC2Ev:00000000 _ZN3r2p10UncopyableC1Ev
+     /tmp/cc1fXCOG.s:51     .text._ZN3r2p15MessagePtrQueueC2EPPNS_7MessageEj:00000000 $t
+     /tmp/cc1fXCOG.s:57     .text._ZN3r2p15MessagePtrQueueC2EPPNS_7MessageEj:00000000 _ZN3r2p15MessagePtrQueueC2EPPNS_7MessageEj
+     /tmp/cc1fXCOG.s:103    .text._ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j:00000000 _ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j
+     /tmp/cc1fXCOG.s:57     .text._ZN3r2p15MessagePtrQueueC2EPPNS_7MessageEj:00000000 _ZN3r2p15MessagePtrQueueC1EPPNS_7MessageEj
+     /tmp/cc1fXCOG.s:93     .rodata:00000000 $d
+     /tmp/cc1fXCOG.s:97     .text._ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j:00000000 $t
+     /tmp/cc1fXCOG.s:164    .text._ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j:00000050 $d
+     /tmp/cc1fXCOG.s:103    .text._ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j:00000000 _ZN3r2p10ArrayQueueIPNS_7MessageEEC1EPS2_j
                      .debug_frame:00000010 $d
-     /tmp/ccJCBOo8.s:170    .text._ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j:00000054 $t
+     /tmp/cc1fXCOG.s:170    .text._ZN3r2p10ArrayQueueIPNS_7MessageEEC2EPS2_j:00000054 $t
                            .group:00000000 _ZN3r2p10UncopyableC5Ev
                            .group:00000000 _ZN3r2p10ArrayQueueIPNS_7MessageEEC5EPS2_j
 

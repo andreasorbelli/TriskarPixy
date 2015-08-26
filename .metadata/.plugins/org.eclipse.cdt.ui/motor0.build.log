@@ -1,0 +1,9 @@
+09:07:08 **** Clean-only build of configuration Default for project motor0 ****
+make clean 
+Cleaning
+rm -fR .dep build
+
+Done
+
+09:07:08 Build Finished (took 168ms)
+

@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cchkt1lg.s 			page 1
+ARM GAS  /tmp/ccOOQQ9O.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cchkt1lg.s 			page 1
   55 0002 0733     		adds	r3, r3, #7
   56 0004 23F00703 		bic	r3, r3, #7
   57 0008 1A46     		mov	r2, r3
-ARM GAS  /tmp/cchkt1lg.s 			page 2
+ARM GAS  /tmp/ccOOQQ9O.s 			page 2
 
 
   58 000a 054B     		ldr	r3, .L2+4
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cchkt1lg.s 			page 1
  112              	.LBB3:
  113 001c 0023     		movs	r3, #0
  114              	@ 97 "/home/ergae/r2p-sdk/core/ChibiOS/os/kernel/src/chmemcore.c" 1
-ARM GAS  /tmp/cchkt1lg.s 			page 3
+ARM GAS  /tmp/ccOOQQ9O.s 			page 3
 
 
  115 001e 83F31188 		msr     BASEPRI, r3
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cchkt1lg.s 			page 1
  169 002a 09E0     		b	.L8
  170              	.L7:
  171              		.loc 1 121 0
-ARM GAS  /tmp/cchkt1lg.s 			page 4
+ARM GAS  /tmp/ccOOQQ9O.s 			page 4
 
 
  172 002c 074B     		ldr	r3, .L9+4
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cchkt1lg.s 			page 1
  226 0010 00000000 		.word	endmem
  227 0014 00000000 		.word	nextmem
  228              		.cfi_endproc
-ARM GAS  /tmp/cchkt1lg.s 			page 5
+ARM GAS  /tmp/ccOOQQ9O.s 			page 5
 
 
  229              	.LFE10:
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cchkt1lg.s 			page 1
  282              		.size	chCoreReserve, .-chCoreReserve
  283 002c AFF30080 		.section	.text.chCoreReserveI,"ax",%progbits
  284              		.align	2
-ARM GAS  /tmp/cchkt1lg.s 			page 6
+ARM GAS  /tmp/ccOOQQ9O.s 			page 6
 
 
  285              		.p2align 4,,15
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cchkt1lg.s 			page 1
  339              		.cfi_def_cfa_offset 4
  340              		@ sp needed
  341 0042 5DF804FB 		ldr	pc, [sp], #4
-ARM GAS  /tmp/cchkt1lg.s 			page 7
+ARM GAS  /tmp/ccOOQQ9O.s 			page 7
 
 
  342              	.L21:
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cchkt1lg.s 			page 1
  396              		.cfi_def_cfa_offset 4
  397              		@ sp needed
  398 0028 5DF804FB 		ldr	pc, [sp], #4
-ARM GAS  /tmp/cchkt1lg.s 			page 8
+ARM GAS  /tmp/ccOOQQ9O.s 			page 8
 
 
  399              		.cfi_endproc
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cchkt1lg.s 			page 1
  453              	.L26:
  454              		.loc 1 176 0
  455 003c 1846     		mov	r0, r3
-ARM GAS  /tmp/cchkt1lg.s 			page 9
+ARM GAS  /tmp/ccOOQQ9O.s 			page 9
 
 
  456 003e 03B0     		add	sp, sp, #12
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cchkt1lg.s 			page 1
  510 004e 08       		.byte	0x8
  511 004f E2010000 		.4byte	.LASF4
  512 0053 04       		.uleb128 0x4
-ARM GAS  /tmp/cchkt1lg.s 			page 10
+ARM GAS  /tmp/ccOOQQ9O.s 			page 10
 
 
  513 0054 02       		.byte	0x2
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cchkt1lg.s 			page 1
  567 00b7 88000000 		.4byte	0x88
  568 00bb 07       		.uleb128 0x7
  569 00bc FB010000 		.4byte	.LASF31
-ARM GAS  /tmp/cchkt1lg.s 			page 11
+ARM GAS  /tmp/ccOOQQ9O.s 			page 11
 
 
  570 00c0 01       		.byte	0x1
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cchkt1lg.s 			page 1
  624 0133 746D7000 		.ascii	"tmp\000"
  625 0137 01       		.byte	0x1
  626 0138 5F       		.byte	0x5f
-ARM GAS  /tmp/cchkt1lg.s 			page 12
+ARM GAS  /tmp/ccOOQQ9O.s 			page 12
 
 
  627 0139 93000000 		.4byte	0x93
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cchkt1lg.s 			page 1
  681 01a6 01       		.byte	0x1
  682 01a7 8A       		.byte	0x8a
  683 01a8 A5000000 		.4byte	0xa5
-ARM GAS  /tmp/cchkt1lg.s 			page 13
+ARM GAS  /tmp/ccOOQQ9O.s 			page 13
 
 
  684 01ac 00000000 		.4byte	.LFB11
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cchkt1lg.s 			page 1
  738 021c 2F020000 		.4byte	0x22f
  739 0220 0C       		.uleb128 0xc
  740 0221 50000000 		.4byte	.LASF21
-ARM GAS  /tmp/cchkt1lg.s 			page 14
+ARM GAS  /tmp/ccOOQQ9O.s 			page 14
 
 
  741 0225 01       		.byte	0x1
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cchkt1lg.s 			page 1
  795 0292 53       		.byte	0x53
  796 0293 00       		.byte	0
  797 0294 00       		.byte	0
-ARM GAS  /tmp/cchkt1lg.s 			page 15
+ARM GAS  /tmp/ccOOQQ9O.s 			page 15
 
 
  798 0295 0B       		.uleb128 0xb
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cchkt1lg.s 			page 1
  852              		.section	.debug_abbrev,"",%progbits
  853              	.Ldebug_abbrev0:
  854 0000 01       		.uleb128 0x1
-ARM GAS  /tmp/cchkt1lg.s 			page 16
+ARM GAS  /tmp/ccOOQQ9O.s 			page 16
 
 
  855 0001 11       		.uleb128 0x11
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cchkt1lg.s 			page 1
  909 0037 0B       		.uleb128 0xb
  910 0038 0B       		.uleb128 0xb
  911 0039 00       		.byte	0
-ARM GAS  /tmp/cchkt1lg.s 			page 17
+ARM GAS  /tmp/ccOOQQ9O.s 			page 17
 
 
  912 003a 00       		.byte	0
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cchkt1lg.s 			page 1
  966 0071 01       		.byte	0x1
  967 0072 49       		.uleb128 0x49
  968 0073 13       		.uleb128 0x13
-ARM GAS  /tmp/cchkt1lg.s 			page 18
+ARM GAS  /tmp/ccOOQQ9O.s 			page 18
 
 
  969 0074 01       		.uleb128 0x1
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cchkt1lg.s 			page 1
  1023 00ab 03       		.uleb128 0x3
  1024 00ac 08       		.uleb128 0x8
  1025 00ad 3A       		.uleb128 0x3a
-ARM GAS  /tmp/cchkt1lg.s 			page 19
+ARM GAS  /tmp/ccOOQQ9O.s 			page 19
 
 
  1026 00ae 0B       		.uleb128 0xb
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cchkt1lg.s 			page 1
  1080 00e5 11       		.uleb128 0x11
  1081 00e6 34       		.uleb128 0x34
  1082 00e7 00       		.byte	0
-ARM GAS  /tmp/cchkt1lg.s 			page 20
+ARM GAS  /tmp/ccOOQQ9O.s 			page 20
 
 
  1083 00e8 03       		.uleb128 0x3
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cchkt1lg.s 			page 1
  1137 0034 2C000000 		.4byte	.LFE13
  1138 0038 00000000 		.4byte	.LFB14
  1139 003c 4C000000 		.4byte	.LFE14
-ARM GAS  /tmp/cchkt1lg.s 			page 21
+ARM GAS  /tmp/ccOOQQ9O.s 			page 21
 
 
  1140 0040 00000000 		.4byte	0
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cchkt1lg.s 			page 1
  1165      7400
  1166              	.LASF32:
  1167 00a2 6368436F 		.ascii	"chCoreStatus\000"
-ARM GAS  /tmp/cchkt1lg.s 			page 22
+ARM GAS  /tmp/ccOOQQ9O.s 			page 22
 
 
  1167      72655374 
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cchkt1lg.s 			page 1
  1184 01fb 5F636F72 		.ascii	"_core_init\000"
  1184      655F696E 
  1184      697400
-ARM GAS  /tmp/cchkt1lg.s 			page 23
+ARM GAS  /tmp/ccOOQQ9O.s 			page 23
 
 
  1185              	.LASF0:
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cchkt1lg.s 			page 1
  1210 0297 7265616C 		.ascii	"realendmem\000"
  1210      656E646D 
  1210      656D00
-ARM GAS  /tmp/cchkt1lg.s 			page 24
+ARM GAS  /tmp/ccOOQQ9O.s 			page 24
 
 
  1211              	.LASF1:
@@ -1394,42 +1394,42 @@ ARM GAS  /tmp/cchkt1lg.s 			page 1
  1216      73657276 
  1216      6500
  1217              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/cchkt1lg.s 			page 25
+ARM GAS  /tmp/ccOOQQ9O.s 			page 25
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chmemcore.c
-     /tmp/cchkt1lg.s:21     .bss.nextmem:00000000 $d
-     /tmp/cchkt1lg.s:24     .bss.nextmem:00000000 nextmem
-     /tmp/cchkt1lg.s:27     .bss.endmem:00000000 $d
-     /tmp/cchkt1lg.s:30     .bss.endmem:00000000 endmem
-     /tmp/cchkt1lg.s:33     .bss.realendmem:00000000 $d
-     /tmp/cchkt1lg.s:36     .bss.realendmem:00000000 realendmem
-     /tmp/cchkt1lg.s:39     .text._core_init:00000000 $t
-     /tmp/cchkt1lg.s:45     .text._core_init:00000000 _core_init
-     /tmp/cchkt1lg.s:71     .text._core_init:0000001c $d
-     /tmp/cchkt1lg.s:79     .text.chCoreAlloc:00000000 $t
-     /tmp/cchkt1lg.s:85     .text.chCoreAlloc:00000000 chCoreAlloc
-     /tmp/cchkt1lg.s:137    .text.chCoreAllocI:00000000 chCoreAllocI
-     /tmp/cchkt1lg.s:131    .text.chCoreAllocI:00000000 $t
-     /tmp/cchkt1lg.s:194    .text.chCoreAllocI:00000048 $d
-     /tmp/cchkt1lg.s:200    .text.chCoreStatus:00000000 $t
-     /tmp/cchkt1lg.s:206    .text.chCoreStatus:00000000 chCoreStatus
-     /tmp/cchkt1lg.s:226    .text.chCoreStatus:00000010 $d
-     /tmp/cchkt1lg.s:232    .text.chCoreReserve:00000000 $t
-     /tmp/cchkt1lg.s:238    .text.chCoreReserve:00000000 chCoreReserve
-     /tmp/cchkt1lg.s:290    .text.chCoreReserveI:00000000 chCoreReserveI
-     /tmp/cchkt1lg.s:284    .text.chCoreReserveI:00000000 $t
-     /tmp/cchkt1lg.s:345    .text.chCoreReserveI:00000048 $d
-     /tmp/cchkt1lg.s:351    .text.chCoreUnreserve:00000000 $t
-     /tmp/cchkt1lg.s:357    .text.chCoreUnreserve:00000000 chCoreUnreserve
-     /tmp/cchkt1lg.s:409    .text.chCoreUnreserveI:00000000 chCoreUnreserveI
-     /tmp/cchkt1lg.s:403    .text.chCoreUnreserveI:00000000 $t
-     /tmp/cchkt1lg.s:463    .text.chCoreUnreserveI:00000044 $d
+     /tmp/ccOOQQ9O.s:21     .bss.nextmem:00000000 $d
+     /tmp/ccOOQQ9O.s:24     .bss.nextmem:00000000 nextmem
+     /tmp/ccOOQQ9O.s:27     .bss.endmem:00000000 $d
+     /tmp/ccOOQQ9O.s:30     .bss.endmem:00000000 endmem
+     /tmp/ccOOQQ9O.s:33     .bss.realendmem:00000000 $d
+     /tmp/ccOOQQ9O.s:36     .bss.realendmem:00000000 realendmem
+     /tmp/ccOOQQ9O.s:39     .text._core_init:00000000 $t
+     /tmp/ccOOQQ9O.s:45     .text._core_init:00000000 _core_init
+     /tmp/ccOOQQ9O.s:71     .text._core_init:0000001c $d
+     /tmp/ccOOQQ9O.s:79     .text.chCoreAlloc:00000000 $t
+     /tmp/ccOOQQ9O.s:85     .text.chCoreAlloc:00000000 chCoreAlloc
+     /tmp/ccOOQQ9O.s:137    .text.chCoreAllocI:00000000 chCoreAllocI
+     /tmp/ccOOQQ9O.s:131    .text.chCoreAllocI:00000000 $t
+     /tmp/ccOOQQ9O.s:194    .text.chCoreAllocI:00000048 $d
+     /tmp/ccOOQQ9O.s:200    .text.chCoreStatus:00000000 $t
+     /tmp/ccOOQQ9O.s:206    .text.chCoreStatus:00000000 chCoreStatus
+     /tmp/ccOOQQ9O.s:226    .text.chCoreStatus:00000010 $d
+     /tmp/ccOOQQ9O.s:232    .text.chCoreReserve:00000000 $t
+     /tmp/ccOOQQ9O.s:238    .text.chCoreReserve:00000000 chCoreReserve
+     /tmp/ccOOQQ9O.s:290    .text.chCoreReserveI:00000000 chCoreReserveI
+     /tmp/ccOOQQ9O.s:284    .text.chCoreReserveI:00000000 $t
+     /tmp/ccOOQQ9O.s:345    .text.chCoreReserveI:00000048 $d
+     /tmp/ccOOQQ9O.s:351    .text.chCoreUnreserve:00000000 $t
+     /tmp/ccOOQQ9O.s:357    .text.chCoreUnreserve:00000000 chCoreUnreserve
+     /tmp/ccOOQQ9O.s:409    .text.chCoreUnreserveI:00000000 chCoreUnreserveI
+     /tmp/ccOOQQ9O.s:403    .text.chCoreUnreserveI:00000000 $t
+     /tmp/ccOOQQ9O.s:463    .text.chCoreUnreserveI:00000044 $d
                      .debug_frame:00000010 $d
-     /tmp/cchkt1lg.s:78     .text._core_init:0000002c $t
-     /tmp/cchkt1lg.s:231    .text.chCoreStatus:00000018 $t
-     /tmp/cchkt1lg.s:1217   .text.chCoreUnreserveI:0000004c $t
+     /tmp/ccOOQQ9O.s:78     .text._core_init:0000002c $t
+     /tmp/ccOOQQ9O.s:231    .text.chCoreStatus:00000018 $t
+     /tmp/ccOOQQ9O.s:1217   .text.chCoreUnreserveI:0000004c $t
 
 UNDEFINED SYMBOLS
 __heap_base__

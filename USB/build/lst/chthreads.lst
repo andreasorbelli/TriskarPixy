@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccmRrK3u.s 			page 1
+ARM GAS  /tmp/ccJOyslb.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
   55 0018 AFF30080 		.section	.text.list_remove,"ax",%progbits
   55      AFF30080 
   56              		.align	2
-ARM GAS  /tmp/ccmRrK3u.s 			page 2
+ARM GAS  /tmp/ccJOyslb.s 			page 2
 
 
   57              		.p2align 4,,15
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  110              		.loc 2 78 0
  111 0006 019B     		ldr	r3, [sp, #4]
  112 0008 009A     		ldr	r2, [sp]
-ARM GAS  /tmp/ccmRrK3u.s 			page 3
+ARM GAS  /tmp/ccJOyslb.s 			page 3
 
 
  113 000a 9A60     		str	r2, [r3, #8]
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  167 0068 019B     		ldr	r3, [sp, #4]
  168 006a 03F12C02 		add	r2, r3, #44
  169 006e 019B     		ldr	r3, [sp, #4]
-ARM GAS  /tmp/ccmRrK3u.s 			page 4
+ARM GAS  /tmp/ccJOyslb.s 			page 4
 
 
  170 0070 DA62     		str	r2, [r3, #44]
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  224 000e 039B     		ldr	r3, [sp, #12]
  225 0010 5A1C     		adds	r2, r3, #1
  226 0012 0392     		str	r2, [sp, #12]
-ARM GAS  /tmp/ccmRrK3u.s 			page 5
+ARM GAS  /tmp/ccJOyslb.s 			page 5
 
 
  227 0014 9DF80720 		ldrb	r2, [sp, #7]
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  275 0014 039B     		ldr	r3, [sp, #12]
  276 0016 002B     		cmp	r3, #0
  277 0018 09D0     		beq	.L12
-ARM GAS  /tmp/ccmRrK3u.s 			page 6
+ARM GAS  /tmp/ccJOyslb.s 			page 6
 
 
  278              		.loc 2 164 0 is_stmt 0 discriminator 2
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  332              		.size	chThdCreateI, .-chThdCreateI
  333 0074 AFF30080 		.section	.text.chThdCreateStatic,"ax",%progbits
  333      AFF30080 
-ARM GAS  /tmp/ccmRrK3u.s 			page 7
+ARM GAS  /tmp/ccJOyslb.s 			page 7
 
 
  333      AFF30080 
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  387 0044 029B     		ldr	r3, [sp, #8]
  388 0046 FFF7FEFF 		bl	chThdCreateI
  389 004a 0790     		str	r0, [sp, #28]
-ARM GAS  /tmp/ccmRrK3u.s 			page 8
+ARM GAS  /tmp/ccJOyslb.s 			page 8
 
 
  390 004c 0798     		ldr	r0, [sp, #28]
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  439 000a 02D9     		bls	.L20
  440              		.loc 2 220 0 is_stmt 0 discriminator 1
  441 000c 1648     		ldr	r0, .L24
-ARM GAS  /tmp/ccmRrK3u.s 			page 9
+ARM GAS  /tmp/ccJOyslb.s 			page 9
 
 
  442 000e FFF7FEFF 		bl	chDbgPanic
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  496              	.LBE5:
  497              		.loc 2 234 0
  498 005e 039B     		ldr	r3, [sp, #12]
-ARM GAS  /tmp/ccmRrK3u.s 			page 10
+ARM GAS  /tmp/ccJOyslb.s 			page 10
 
 
  499              		.loc 2 235 0
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  549 0018 02D0     		beq	.L27
  550              		.loc 2 253 0 is_stmt 0 discriminator 1
  551 001a 0848     		ldr	r0, .L29
-ARM GAS  /tmp/ccmRrK3u.s 			page 11
+ARM GAS  /tmp/ccJOyslb.s 			page 11
 
 
  552 001c FFF7FEFF 		bl	chDbgPanic
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  606              	@ 0 "" 2
  607              		.thumb
  608              	.LBE8:
-ARM GAS  /tmp/ccmRrK3u.s 			page 12
+ARM GAS  /tmp/ccJOyslb.s 			page 12
 
 
  609 000c FFF7FEFF 		bl	dbg_check_lock
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  657              		.loc 2 294 0
  658 0006 019B     		ldr	r3, [sp, #4]
  659 0008 002B     		cmp	r3, #0
-ARM GAS  /tmp/ccmRrK3u.s 			page 13
+ARM GAS  /tmp/ccJOyslb.s 			page 13
 
 
  660 000a 02D1     		bne	.L33
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  713              		.cfi_def_cfa_offset 4
  714              		.cfi_offset 14, -4
  715 0002 83B0     		sub	sp, sp, #12
-ARM GAS  /tmp/ccmRrK3u.s 			page 14
+ARM GAS  /tmp/ccJOyslb.s 			page 14
 
 
  716              		.cfi_def_cfa_offset 16
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  770              	.LFB16:
  771              		.loc 2 324 0
  772              		.cfi_startproc
-ARM GAS  /tmp/ccmRrK3u.s 			page 15
+ARM GAS  /tmp/ccJOyslb.s 			page 15
 
 
  773              		@ args = 0, pretend = 0, frame = 0
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  827              		.loc 2 345 0
  828              		.cfi_startproc
  829              		@ args = 0, pretend = 0, frame = 8
-ARM GAS  /tmp/ccmRrK3u.s 			page 16
+ARM GAS  /tmp/ccJOyslb.s 			page 16
 
 
  830              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  880              		.loc 2 367 0
  881 0006 184B     		ldr	r3, .L49
  882 0008 9B69     		ldr	r3, [r3, #24]
-ARM GAS  /tmp/ccmRrK3u.s 			page 17
+ARM GAS  /tmp/ccJOyslb.s 			page 17
 
 
  883 000a 0393     		str	r3, [sp, #12]
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  937 0066 00BF     		.align	2
  938              	.L49:
  939 0068 00000000 		.word	rlist
-ARM GAS  /tmp/ccmRrK3u.s 			page 18
+ARM GAS  /tmp/ccJOyslb.s 			page 18
 
 
  940 006c 50000000 		.word	.LC4
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  985 0014 83F31188 		msr     BASEPRI, r3
  986              	@ 0 "" 2
  987              		.thumb
-ARM GAS  /tmp/ccmRrK3u.s 			page 19
+ARM GAS  /tmp/ccJOyslb.s 			page 19
 
 
  988              	.LBE17:
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  1042              		.loc 2 439 0
  1043 0072 039B     		ldr	r3, [sp, #12]
  1044              		.loc 2 440 0
-ARM GAS  /tmp/ccmRrK3u.s 			page 20
+ARM GAS  /tmp/ccJOyslb.s 			page 20
 
 
  1045 0074 1846     		mov	r0, r3
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  1099 003b 01       		.byte	0x1
  1100 003c 06       		.byte	0x6
  1101 003d 72000000 		.4byte	.LASF1
-ARM GAS  /tmp/ccmRrK3u.s 			page 21
+ARM GAS  /tmp/ccJOyslb.s 			page 21
 
 
  1102 0041 03       		.uleb128 0x3
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  1156 00aa C0020000 		.4byte	.LASF15
  1157 00ae 05       		.byte	0x5
  1158 00af 2C       		.byte	0x2c
-ARM GAS  /tmp/ccmRrK3u.s 			page 22
+ARM GAS  /tmp/ccJOyslb.s 			page 22
 
 
  1159 00b0 61000000 		.4byte	0x61
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  1213 0125 B4000000 		.4byte	0xb4
  1214 0129 03       		.uleb128 0x3
  1215 012a 29030000 		.4byte	.LASF27
-ARM GAS  /tmp/ccmRrK3u.s 			page 23
+ARM GAS  /tmp/ccJOyslb.s 			page 23
 
 
  1216 012e 07       		.byte	0x7
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  1270 019a 74       		.byte	0x74
  1271 019b BF050000 		.4byte	0x5bf
  1272 019f 1C       		.byte	0x1c
-ARM GAS  /tmp/ccmRrK3u.s 			page 24
+ARM GAS  /tmp/ccJOyslb.s 			page 24
 
 
  1273 01a0 06       		.uleb128 0x6
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  1327 020c 06       		.uleb128 0x6
  1328 020d 30030000 		.4byte	.LASF44
  1329 0211 08       		.byte	0x8
-ARM GAS  /tmp/ccmRrK3u.s 			page 25
+ARM GAS  /tmp/ccJOyslb.s 			page 25
 
 
  1330 0212 C9       		.byte	0xc9
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  1384 0278 0A030000 		.4byte	.LASF28
  1385 027c 07       		.byte	0x7
  1386 027d 6D       		.byte	0x6d
-ARM GAS  /tmp/ccmRrK3u.s 			page 26
+ARM GAS  /tmp/ccJOyslb.s 			page 26
 
 
  1387 027e 5E020000 		.4byte	0x25e
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  1441 02f0 8F020000 		.4byte	0x28f
  1442 02f4 10       		.byte	0x10
  1443 02f5 0C       		.uleb128 0xc
-ARM GAS  /tmp/ccmRrK3u.s 			page 27
+ARM GAS  /tmp/ccJOyslb.s 			page 27
 
 
  1444 02f6 73323100 		.ascii	"s21\000"
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  1498 036b 73333000 		.ascii	"s30\000"
  1499 036f 09       		.byte	0x9
  1500 0370 1C01     		.2byte	0x11c
-ARM GAS  /tmp/ccmRrK3u.s 			page 28
+ARM GAS  /tmp/ccJOyslb.s 			page 28
 
 
  1501 0372 8F020000 		.4byte	0x28f
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  1555 03e1 8F020000 		.4byte	0x28f
  1556 03e5 5C       		.byte	0x5c
  1557 03e6 0C       		.uleb128 0xc
-ARM GAS  /tmp/ccmRrK3u.s 			page 29
+ARM GAS  /tmp/ccJOyslb.s 			page 29
 
 
  1558 03e7 6C7200   		.ascii	"lr\000"
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  1612 0455 8B040000 		.4byte	0x48b
  1613 0459 00       		.byte	0
  1614 045a 06       		.uleb128 0x6
-ARM GAS  /tmp/ccmRrK3u.s 			page 30
+ARM GAS  /tmp/ccJOyslb.s 			page 30
 
 
  1615 045b 21010000 		.4byte	.LASF58
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  1669 04c4 CA040000 		.4byte	0x4ca
  1670 04c8 0C       		.byte	0xc
  1671 04c9 00       		.byte	0
-ARM GAS  /tmp/ccmRrK3u.s 			page 31
+ARM GAS  /tmp/ccJOyslb.s 			page 31
 
 
  1672 04ca 0F       		.uleb128 0xf
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  1726 0536 05       		.uleb128 0x5
  1727 0537 E7010000 		.4byte	.LASF71
  1728 053b 10       		.byte	0x10
-ARM GAS  /tmp/ccmRrK3u.s 			page 32
+ARM GAS  /tmp/ccJOyslb.s 			page 32
 
 
  1729 053c 0C       		.byte	0xc
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  1783 05a8 13010000 		.4byte	0x113
  1784 05ac 00       		.byte	0
  1785 05ad 09       		.uleb128 0x9
-ARM GAS  /tmp/ccmRrK3u.s 			page 33
+ARM GAS  /tmp/ccJOyslb.s 			page 33
 
 
  1786 05ae 04       		.byte	0x4
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  1840 061f 91       		.byte	0x91
  1841 0620 78       		.sleb128 -8
  1842 0621 00       		.byte	0
-ARM GAS  /tmp/ccmRrK3u.s 			page 34
+ARM GAS  /tmp/ccJOyslb.s 			page 34
 
 
  1843 0622 09       		.uleb128 0x9
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  1897 068f 91       		.byte	0x91
  1898 0690 78       		.sleb128 -8
  1899 0691 00       		.byte	0
-ARM GAS  /tmp/ccmRrK3u.s 			page 35
+ARM GAS  /tmp/ccJOyslb.s 			page 35
 
 
  1900 0692 1A       		.uleb128 0x1a
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  1954 06fc 02       		.byte	0x2
  1955 06fd 9D       		.byte	0x9d
  1956 06fe 28000000 		.4byte	0x28
-ARM GAS  /tmp/ccmRrK3u.s 			page 36
+ARM GAS  /tmp/ccJOyslb.s 			page 36
 
 
  1957 0702 02       		.uleb128 0x2
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  2011 0763 19       		.uleb128 0x19
  2012 0764 8A010000 		.4byte	.LASF86
  2013 0768 02       		.byte	0x2
-ARM GAS  /tmp/ccmRrK3u.s 			page 37
+ARM GAS  /tmp/ccJOyslb.s 			page 37
 
 
  2014 0769 BB       		.byte	0xbb
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  2068 07d0 02       		.byte	0x2
  2069 07d1 C9       		.byte	0xc9
  2070 07d2 B4000000 		.4byte	0xb4
-ARM GAS  /tmp/ccmRrK3u.s 			page 38
+ARM GAS  /tmp/ccJOyslb.s 			page 38
 
 
  2071 07d6 01       		.uleb128 0x1
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  2125 0842 1B       		.uleb128 0x1b
  2126 0843 2B020000 		.4byte	.LASF91
  2127 0847 02       		.byte	0x2
-ARM GAS  /tmp/ccmRrK3u.s 			page 39
+ARM GAS  /tmp/ccJOyslb.s 			page 39
 
 
  2128 0848 FA       		.byte	0xfa
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  2182 08be 91       		.byte	0x91
  2183 08bf 74       		.sleb128 -12
  2184 08c0 1C       		.uleb128 0x1c
-ARM GAS  /tmp/ccmRrK3u.s 			page 40
+ARM GAS  /tmp/ccJOyslb.s 			page 40
 
 
  2185 08c1 06000000 		.4byte	.LBB8
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  2239 093b 06000000 		.4byte	.LBE11-.LBB11
  2240 093f 1F       		.uleb128 0x1f
  2241 0940 746D7000 		.ascii	"tmp\000"
-ARM GAS  /tmp/ccmRrK3u.s 			page 41
+ARM GAS  /tmp/ccJOyslb.s 			page 41
 
 
  2242 0944 02       		.byte	0x2
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  2296 09b9 01       		.uleb128 0x1
  2297 09ba 9C       		.byte	0x9c
  2298 09bb F4090000 		.4byte	0x9f4
-ARM GAS  /tmp/ccmRrK3u.s 			page 42
+ARM GAS  /tmp/ccJOyslb.s 			page 42
 
 
  2299 09bf 1C       		.uleb128 0x1c
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  2353 0a33 3B000000 		.4byte	.LASF99
  2354 0a37 02       		.byte	0x2
  2355 0a38 6E01     		.2byte	0x16e
-ARM GAS  /tmp/ccmRrK3u.s 			page 43
+ARM GAS  /tmp/ccJOyslb.s 			page 43
 
 
  2356 0a3a 00000000 		.4byte	.LFB18
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  2410 0aaf 02       		.byte	0x2
  2411 0ab0 A901     		.2byte	0x1a9
  2412 0ab2 B4000000 		.4byte	0xb4
-ARM GAS  /tmp/ccmRrK3u.s 			page 44
+ARM GAS  /tmp/ccJOyslb.s 			page 44
 
 
  2413 0ab6 01       		.uleb128 0x1
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  2467 001a 00       		.byte	0
  2468 001b 00       		.byte	0
  2469 001c 03       		.uleb128 0x3
-ARM GAS  /tmp/ccmRrK3u.s 			page 45
+ARM GAS  /tmp/ccJOyslb.s 			page 45
 
 
  2470 001d 16       		.uleb128 0x16
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  2524 0053 0D       		.uleb128 0xd
  2525 0054 00       		.byte	0
  2526 0055 03       		.uleb128 0x3
-ARM GAS  /tmp/ccmRrK3u.s 			page 46
+ARM GAS  /tmp/ccJOyslb.s 			page 46
 
 
  2527 0056 08       		.uleb128 0x8
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  2581 008c 00       		.byte	0
  2582 008d 0C       		.uleb128 0xc
  2583 008e 0D       		.uleb128 0xd
-ARM GAS  /tmp/ccmRrK3u.s 			page 47
+ARM GAS  /tmp/ccJOyslb.s 			page 47
 
 
  2584 008f 00       		.byte	0
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  2638 00c5 3A       		.uleb128 0x3a
  2639 00c6 0B       		.uleb128 0xb
  2640 00c7 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccmRrK3u.s 			page 48
+ARM GAS  /tmp/ccJOyslb.s 			page 48
 
 
  2641 00c8 0B       		.uleb128 0xb
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  2695 00ff 0B       		.uleb128 0xb
  2696 0100 49       		.uleb128 0x49
  2697 0101 13       		.uleb128 0x13
-ARM GAS  /tmp/ccmRrK3u.s 			page 49
+ARM GAS  /tmp/ccJOyslb.s 			page 49
 
 
  2698 0102 02       		.uleb128 0x2
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  2752 0139 0B       		.uleb128 0xb
  2753 013a 27       		.uleb128 0x27
  2754 013b 19       		.uleb128 0x19
-ARM GAS  /tmp/ccmRrK3u.s 			page 50
+ARM GAS  /tmp/ccJOyslb.s 			page 50
 
 
  2755 013c 49       		.uleb128 0x49
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  2809 0174 1B       		.uleb128 0x1b
  2810 0175 2E       		.uleb128 0x2e
  2811 0176 01       		.byte	0x1
-ARM GAS  /tmp/ccmRrK3u.s 			page 51
+ARM GAS  /tmp/ccJOyslb.s 			page 51
 
 
  2812 0177 3F       		.uleb128 0x3f
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  2866 01ae 13       		.uleb128 0x13
  2867 01af 02       		.uleb128 0x2
  2868 01b0 18       		.uleb128 0x18
-ARM GAS  /tmp/ccmRrK3u.s 			page 52
+ARM GAS  /tmp/ccJOyslb.s 			page 52
 
 
  2869 01b1 00       		.byte	0
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  2923 01e8 18       		.uleb128 0x18
  2924 01e9 00       		.byte	0
  2925 01ea 00       		.byte	0
-ARM GAS  /tmp/ccmRrK3u.s 			page 53
+ARM GAS  /tmp/ccJOyslb.s 			page 53
 
 
  2926 01eb 22       		.uleb128 0x22
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  2980 0222 19       		.uleb128 0x19
  2981 0223 3C       		.uleb128 0x3c
  2982 0224 19       		.uleb128 0x19
-ARM GAS  /tmp/ccmRrK3u.s 			page 54
+ARM GAS  /tmp/ccJOyslb.s 			page 54
 
 
  2983 0225 00       		.byte	0
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  3037 0024 74000000 		.4byte	.LFE9
  3038 0028 00000000 		.4byte	.LFB10
  3039 002c 68000000 		.4byte	.LFE10
-ARM GAS  /tmp/ccmRrK3u.s 			page 55
+ARM GAS  /tmp/ccJOyslb.s 			page 55
 
 
  3040 0030 00000000 		.4byte	.LFB11
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  3080 003b 63685468 		.ascii	"chThdExitS\000"
  3080      64457869 
  3080      745300
-ARM GAS  /tmp/ccmRrK3u.s 			page 56
+ARM GAS  /tmp/ccJOyslb.s 			page 56
 
 
  3081              	.LASF13:
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  3107 00fc 72656164 		.ascii	"reads.c\000"
  3107      732E6300 
  3108              	.LASF76:
-ARM GAS  /tmp/ccmRrK3u.s 			page 57
+ARM GAS  /tmp/ccJOyslb.s 			page 57
 
 
  3109 0104 65786974 		.ascii	"exitcode\000"
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  3135 018f 73686F72 		.ascii	"short unsigned int\000"
  3135      7420756E 
  3135      7369676E 
-ARM GAS  /tmp/ccmRrK3u.s 			page 58
+ARM GAS  /tmp/ccJOyslb.s 			page 58
 
 
  3135      65642069 
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  3165 022b 63685468 		.ascii	"chThdResume\000"
  3165      64526573 
  3165      756D6500 
-ARM GAS  /tmp/ccmRrK3u.s 			page 59
+ARM GAS  /tmp/ccJOyslb.s 			page 59
 
 
  3166              	.LASF82:
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  3197 02c0 696E7433 		.ascii	"int32_t\000"
  3197      325F7400 
  3198              	.LASF4:
-ARM GAS  /tmp/ccmRrK3u.s 			page 60
+ARM GAS  /tmp/ccJOyslb.s 			page 60
 
 
  3199 02c8 756E7369 		.ascii	"unsigned char\000"
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  3227      65756500 
  3228              	.LASF79:
  3229 0359 63686172 		.ascii	"char\000"
-ARM GAS  /tmp/ccmRrK3u.s 			page 61
+ARM GAS  /tmp/ccJOyslb.s 			page 61
 
 
  3229      00
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  3261 03dd 63685468 		.ascii	"chThdYield\000"
  3261      64596965 
  3261      6C6400
-ARM GAS  /tmp/ccmRrK3u.s 			page 62
+ARM GAS  /tmp/ccJOyslb.s 			page 62
 
 
  3262              	.LASF77:
@@ -3716,57 +3716,57 @@ ARM GAS  /tmp/ccmRrK3u.s 			page 1
  3282      6974696E 
  3282      6700
  3283              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccmRrK3u.s 			page 63
+ARM GAS  /tmp/ccJOyslb.s 			page 63
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chthreads.c
-     /tmp/ccmRrK3u.s:21     .text.list_insert:00000000 $t
-     /tmp/ccmRrK3u.s:26     .text.list_insert:00000000 list_insert
-     /tmp/ccmRrK3u.s:56     .text.list_remove:00000000 $t
-     /tmp/ccmRrK3u.s:61     .text.list_remove:00000000 list_remove
-     /tmp/ccmRrK3u.s:92     .text._thread_init:00000000 $t
-     /tmp/ccmRrK3u.s:98     .text._thread_init:00000000 _thread_init
-     /tmp/ccmRrK3u.s:196    .text._thread_init:00000098 $d
-     /tmp/ccmRrK3u.s:201    .text._thread_memfill:00000000 $t
-     /tmp/ccmRrK3u.s:207    .text._thread_memfill:00000000 _thread_memfill
-     /tmp/ccmRrK3u.s:244    .rodata:00000000 $d
-     /tmp/ccmRrK3u.s:248    .text.chThdCreateI:00000000 $t
-     /tmp/ccmRrK3u.s:254    .text.chThdCreateI:00000000 chThdCreateI
-     /tmp/ccmRrK3u.s:328    .text.chThdCreateI:0000006c $d
-     /tmp/ccmRrK3u.s:334    .text.chThdCreateStatic:00000000 $t
-     /tmp/ccmRrK3u.s:340    .text.chThdCreateStatic:00000000 chThdCreateStatic
-     /tmp/ccmRrK3u.s:418    .text.chThdSetPriority:00000000 $t
-     /tmp/ccmRrK3u.s:424    .text.chThdSetPriority:00000000 chThdSetPriority
-     /tmp/ccmRrK3u.s:508    .text.chThdSetPriority:00000068 $d
-     /tmp/ccmRrK3u.s:518    .text.chThdResume:00000000 $t
-     /tmp/ccmRrK3u.s:524    .text.chThdResume:00000000 chThdResume
-     /tmp/ccmRrK3u.s:578    .text.chThdResume:0000003c $d
-     /tmp/ccmRrK3u.s:583    .text.chThdTerminate:00000000 $t
-     /tmp/ccmRrK3u.s:589    .text.chThdTerminate:00000000 chThdTerminate
-     /tmp/ccmRrK3u.s:639    .text.chThdSleep:00000000 $t
-     /tmp/ccmRrK3u.s:645    .text.chThdSleep:00000000 chThdSleep
-     /tmp/ccmRrK3u.s:695    .text.chThdSleep:00000034 $d
-     /tmp/ccmRrK3u.s:700    .text.chThdSleepUntil:00000000 $t
-     /tmp/ccmRrK3u.s:706    .text.chThdSleepUntil:00000000 chThdSleepUntil
-     /tmp/ccmRrK3u.s:758    .text.chThdSleepUntil:00000038 $d
-     /tmp/ccmRrK3u.s:763    .text.chThdYield:00000000 $t
-     /tmp/ccmRrK3u.s:769    .text.chThdYield:00000000 chThdYield
-     /tmp/ccmRrK3u.s:814    .text.chThdYield:0000002c $d
-     /tmp/ccmRrK3u.s:819    .text.chThdExit:00000000 $t
-     /tmp/ccmRrK3u.s:825    .text.chThdExit:00000000 chThdExit
-     /tmp/ccmRrK3u.s:868    .text.chThdExitS:00000000 chThdExitS
-     /tmp/ccmRrK3u.s:862    .text.chThdExitS:00000000 $t
-     /tmp/ccmRrK3u.s:939    .text.chThdExitS:00000068 $d
-     /tmp/ccmRrK3u.s:955    .text.chThdWait:00000000 $t
-     /tmp/ccmRrK3u.s:961    .text.chThdWait:00000000 chThdWait
-     /tmp/ccmRrK3u.s:1053   .text.chThdWait:0000007c $d
+     /tmp/ccJOyslb.s:21     .text.list_insert:00000000 $t
+     /tmp/ccJOyslb.s:26     .text.list_insert:00000000 list_insert
+     /tmp/ccJOyslb.s:56     .text.list_remove:00000000 $t
+     /tmp/ccJOyslb.s:61     .text.list_remove:00000000 list_remove
+     /tmp/ccJOyslb.s:92     .text._thread_init:00000000 $t
+     /tmp/ccJOyslb.s:98     .text._thread_init:00000000 _thread_init
+     /tmp/ccJOyslb.s:196    .text._thread_init:00000098 $d
+     /tmp/ccJOyslb.s:201    .text._thread_memfill:00000000 $t
+     /tmp/ccJOyslb.s:207    .text._thread_memfill:00000000 _thread_memfill
+     /tmp/ccJOyslb.s:244    .rodata:00000000 $d
+     /tmp/ccJOyslb.s:248    .text.chThdCreateI:00000000 $t
+     /tmp/ccJOyslb.s:254    .text.chThdCreateI:00000000 chThdCreateI
+     /tmp/ccJOyslb.s:328    .text.chThdCreateI:0000006c $d
+     /tmp/ccJOyslb.s:334    .text.chThdCreateStatic:00000000 $t
+     /tmp/ccJOyslb.s:340    .text.chThdCreateStatic:00000000 chThdCreateStatic
+     /tmp/ccJOyslb.s:418    .text.chThdSetPriority:00000000 $t
+     /tmp/ccJOyslb.s:424    .text.chThdSetPriority:00000000 chThdSetPriority
+     /tmp/ccJOyslb.s:508    .text.chThdSetPriority:00000068 $d
+     /tmp/ccJOyslb.s:518    .text.chThdResume:00000000 $t
+     /tmp/ccJOyslb.s:524    .text.chThdResume:00000000 chThdResume
+     /tmp/ccJOyslb.s:578    .text.chThdResume:0000003c $d
+     /tmp/ccJOyslb.s:583    .text.chThdTerminate:00000000 $t
+     /tmp/ccJOyslb.s:589    .text.chThdTerminate:00000000 chThdTerminate
+     /tmp/ccJOyslb.s:639    .text.chThdSleep:00000000 $t
+     /tmp/ccJOyslb.s:645    .text.chThdSleep:00000000 chThdSleep
+     /tmp/ccJOyslb.s:695    .text.chThdSleep:00000034 $d
+     /tmp/ccJOyslb.s:700    .text.chThdSleepUntil:00000000 $t
+     /tmp/ccJOyslb.s:706    .text.chThdSleepUntil:00000000 chThdSleepUntil
+     /tmp/ccJOyslb.s:758    .text.chThdSleepUntil:00000038 $d
+     /tmp/ccJOyslb.s:763    .text.chThdYield:00000000 $t
+     /tmp/ccJOyslb.s:769    .text.chThdYield:00000000 chThdYield
+     /tmp/ccJOyslb.s:814    .text.chThdYield:0000002c $d
+     /tmp/ccJOyslb.s:819    .text.chThdExit:00000000 $t
+     /tmp/ccJOyslb.s:825    .text.chThdExit:00000000 chThdExit
+     /tmp/ccJOyslb.s:868    .text.chThdExitS:00000000 chThdExitS
+     /tmp/ccJOyslb.s:862    .text.chThdExitS:00000000 $t
+     /tmp/ccJOyslb.s:939    .text.chThdExitS:00000068 $d
+     /tmp/ccJOyslb.s:955    .text.chThdWait:00000000 $t
+     /tmp/ccJOyslb.s:961    .text.chThdWait:00000000 chThdWait
+     /tmp/ccJOyslb.s:1053   .text.chThdWait:0000007c $d
                      .debug_frame:00000010 $d
-     /tmp/ccmRrK3u.s:200    .text._thread_init:0000009c $t
-     /tmp/ccmRrK3u.s:333    .text.chThdCreateI:00000074 $t
-     /tmp/ccmRrK3u.s:699    .text.chThdSleep:00000038 $t
-     /tmp/ccmRrK3u.s:762    .text.chThdSleepUntil:0000003c $t
-     /tmp/ccmRrK3u.s:1060   .text.chThdWait:0000008c $t
+     /tmp/ccJOyslb.s:200    .text._thread_init:0000009c $t
+     /tmp/ccJOyslb.s:333    .text.chThdCreateI:00000074 $t
+     /tmp/ccJOyslb.s:699    .text.chThdSleep:00000038 $t
+     /tmp/ccJOyslb.s:762    .text.chThdSleepUntil:0000003c $t
+     /tmp/ccJOyslb.s:1060   .text.chThdWait:0000008c $t
 
 UNDEFINED SYMBOLS
 rlist
@@ -3776,7 +3776,7 @@ _port_thread_start
 dbg_check_lock
 chSchWakeupS
 dbg_check_unlock
-ARM GAS  /tmp/ccmRrK3u.s 			page 64
+ARM GAS  /tmp/ccJOyslb.s 			page 64
 
 
 chSchRescheduleS

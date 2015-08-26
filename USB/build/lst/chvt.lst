@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccUPcstk.s 			page 1
+ARM GAS  /tmp/cc7vQgE7.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccUPcstk.s 			page 1
   52 0010 4FF0FF32 		mov	r2, #-1
   53 0014 9A60     		str	r2, [r3, #8]
   54              		.loc 1 54 0
-ARM GAS  /tmp/ccUPcstk.s 			page 2
+ARM GAS  /tmp/cc7vQgE7.s 			page 2
 
 
   55 0016 024B     		ldr	r3, .L2
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccUPcstk.s 			page 1
  104 001c 029B     		ldr	r3, [sp, #8]
  105 001e 002B     		cmp	r3, #0
  106 0020 02D1     		bne	.L6
-ARM GAS  /tmp/ccUPcstk.s 			page 3
+ARM GAS  /tmp/cc7vQgE7.s 			page 3
 
 
  107              	.L5:
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccUPcstk.s 			page 1
  161 0074 1A60     		str	r2, [r3]
  162              		.loc 1 93 0
  163 0076 039B     		ldr	r3, [sp, #12]
-ARM GAS  /tmp/ccUPcstk.s 			page 4
+ARM GAS  /tmp/cc7vQgE7.s 			page 4
 
 
  164 0078 029A     		ldr	r2, [sp, #8]
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccUPcstk.s 			page 1
  211              		@ frame_needed = 0, uses_anonymous_args = 0
  212 0000 00B5     		push	{lr}
  213              		.cfi_def_cfa_offset 4
-ARM GAS  /tmp/ccUPcstk.s 			page 5
+ARM GAS  /tmp/cc7vQgE7.s 			page 5
 
 
  214              		.cfi_offset 14, -4
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccUPcstk.s 			page 1
  268 0056 0022     		movs	r2, #0
  269 0058 DA60     		str	r2, [r3, #12]
  270              		.loc 1 119 0
-ARM GAS  /tmp/ccUPcstk.s 			page 6
+ARM GAS  /tmp/cc7vQgE7.s 			page 6
 
 
  271 005a 03B0     		add	sp, sp, #12
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccUPcstk.s 			page 1
  325 0046 07       		.byte	0x7
  326 0047 2E000000 		.4byte	.LASF4
  327 004b 03       		.uleb128 0x3
-ARM GAS  /tmp/ccUPcstk.s 			page 7
+ARM GAS  /tmp/cc7vQgE7.s 			page 7
 
 
  328 004c 04       		.byte	0x4
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccUPcstk.s 			page 1
  382 00b5 49000000 		.4byte	.LASF15
  383 00b9 05       		.byte	0x5
  384 00ba 5D       		.byte	0x5d
-ARM GAS  /tmp/ccUPcstk.s 			page 8
+ARM GAS  /tmp/cc7vQgE7.s 			page 8
 
 
  385 00bb BF000000 		.4byte	0xbf
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccUPcstk.s 			page 1
  439 0127 05       		.byte	0x5
  440 0128 79       		.byte	0x79
  441 0129 08010000 		.4byte	0x108
-ARM GAS  /tmp/ccUPcstk.s 			page 9
+ARM GAS  /tmp/cc7vQgE7.s 			page 9
 
 
  442 012d 04       		.byte	0x4
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccUPcstk.s 			page 1
  496 0199 84000000 		.4byte	0x84
  497 019d 02       		.uleb128 0x2
  498 019e 91       		.byte	0x91
-ARM GAS  /tmp/ccUPcstk.s 			page 10
+ARM GAS  /tmp/cc7vQgE7.s 			page 10
 
 
  499 019f 68       		.sleb128 -24
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccUPcstk.s 			page 1
  553              	.Ldebug_abbrev0:
  554 0000 01       		.uleb128 0x1
  555 0001 11       		.uleb128 0x11
-ARM GAS  /tmp/ccUPcstk.s 			page 11
+ARM GAS  /tmp/cc7vQgE7.s 			page 11
 
 
  556 0002 01       		.byte	0x1
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccUPcstk.s 			page 1
  610 0038 0B       		.uleb128 0xb
  611 0039 00       		.byte	0
  612 003a 00       		.byte	0
-ARM GAS  /tmp/ccUPcstk.s 			page 12
+ARM GAS  /tmp/cc7vQgE7.s 			page 12
 
 
  613 003b 06       		.uleb128 0x6
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccUPcstk.s 			page 1
  667 0071 00       		.byte	0
  668 0072 0B       		.uleb128 0xb
  669 0073 13       		.uleb128 0x13
-ARM GAS  /tmp/ccUPcstk.s 			page 13
+ARM GAS  /tmp/cc7vQgE7.s 			page 13
 
 
  670 0074 01       		.byte	0x1
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccUPcstk.s 			page 1
  724 00ab 11       		.uleb128 0x11
  725 00ac 01       		.uleb128 0x1
  726 00ad 12       		.uleb128 0x12
-ARM GAS  /tmp/ccUPcstk.s 			page 14
+ARM GAS  /tmp/cc7vQgE7.s 			page 14
 
 
  727 00ae 06       		.uleb128 0x6
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccUPcstk.s 			page 1
  781 00e5 12       		.uleb128 0x12
  782 00e6 34       		.uleb128 0x34
  783 00e7 00       		.byte	0
-ARM GAS  /tmp/ccUPcstk.s 			page 15
+ARM GAS  /tmp/cc7vQgE7.s 			page 15
 
 
  784 00e8 03       		.uleb128 0x3
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccUPcstk.s 			page 1
  831      696D655F 
  831      7400
  832              	.LASF14:
-ARM GAS  /tmp/ccUPcstk.s 			page 16
+ARM GAS  /tmp/cc7vQgE7.s 			page 16
 
 
  833 0013 76746675 		.ascii	"vtfunc_t\000"
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccUPcstk.s 			page 1
  851      756E6374 
  851      696F6E2D 
  851      73656374 
-ARM GAS  /tmp/ccUPcstk.s 			page 17
+ARM GAS  /tmp/cc7vQgE7.s 			page 17
 
 
  851      696F6E73 
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccUPcstk.s 			page 1
  877 0228 63686172 		.ascii	"char\000"
  877      00
  878              	.LASF20:
-ARM GAS  /tmp/ccUPcstk.s 			page 18
+ARM GAS  /tmp/cc7vQgE7.s 			page 18
 
 
  879 022d 76745F70 		.ascii	"vt_par\000"
@@ -1056,26 +1056,26 @@ ARM GAS  /tmp/ccUPcstk.s 			page 1
  897 027e 5F426F6F 		.ascii	"_Bool\000"
  897      6C00
  898              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccUPcstk.s 			page 19
+ARM GAS  /tmp/cc7vQgE7.s 			page 19
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chvt.c
-     /tmp/ccUPcstk.s:25     .bss.vtlist:00000000 vtlist
-     /tmp/ccUPcstk.s:22     .bss.vtlist:00000000 $d
-     /tmp/ccUPcstk.s:28     .text._vt_init:00000000 $t
-     /tmp/ccUPcstk.s:34     .text._vt_init:00000000 _vt_init
-     /tmp/ccUPcstk.s:63     .text._vt_init:00000020 $d
-     /tmp/ccUPcstk.s:68     .rodata:00000000 $d
-     /tmp/ccUPcstk.s:72     .text.chVTSetI:00000000 $t
-     /tmp/ccUPcstk.s:78     .text.chVTSetI:00000000 chVTSetI
-     /tmp/ccUPcstk.s:187    .text.chVTSetI:00000098 $d
-     /tmp/ccUPcstk.s:200    .text.chVTResetI:00000000 $t
-     /tmp/ccUPcstk.s:206    .text.chVTResetI:00000000 chVTResetI
-     /tmp/ccUPcstk.s:278    .text.chVTResetI:00000060 $d
+     /tmp/cc7vQgE7.s:25     .bss.vtlist:00000000 vtlist
+     /tmp/cc7vQgE7.s:22     .bss.vtlist:00000000 $d
+     /tmp/cc7vQgE7.s:28     .text._vt_init:00000000 $t
+     /tmp/cc7vQgE7.s:34     .text._vt_init:00000000 _vt_init
+     /tmp/cc7vQgE7.s:63     .text._vt_init:00000020 $d
+     /tmp/cc7vQgE7.s:68     .rodata:00000000 $d
+     /tmp/cc7vQgE7.s:72     .text.chVTSetI:00000000 $t
+     /tmp/cc7vQgE7.s:78     .text.chVTSetI:00000000 chVTSetI
+     /tmp/cc7vQgE7.s:187    .text.chVTSetI:00000098 $d
+     /tmp/cc7vQgE7.s:200    .text.chVTResetI:00000000 $t
+     /tmp/cc7vQgE7.s:206    .text.chVTResetI:00000000 chVTResetI
+     /tmp/cc7vQgE7.s:278    .text.chVTResetI:00000060 $d
                      .debug_frame:00000010 $d
-     /tmp/ccUPcstk.s:67     .text._vt_init:00000024 $t
-     /tmp/ccUPcstk.s:284    .text.chVTResetI:0000006c $t
+     /tmp/cc7vQgE7.s:67     .text._vt_init:00000024 $t
+     /tmp/cc7vQgE7.s:284    .text.chVTResetI:0000006c $t
 
 UNDEFINED SYMBOLS
 chDbgCheckClassI

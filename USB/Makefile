@@ -7,6 +7,7 @@ PRJ_CSRC =
 
 PRJ_CPPSRC = nodes/shell_node.cpp \
 	nodes/pixy_node.cpp \
+	nodes/follow_node.cpp \
 	main.cpp 
 	
 	

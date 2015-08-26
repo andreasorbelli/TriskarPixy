@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccvFfjnc.s 			page 1
+ARM GAS  /tmp/cc4HaRW0.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccvFfjnc.s 			page 1
   55 0020 51F82220 		ldr	r2, [r1, r2, lsl #2]
   56 0024 0399     		ldr	r1, [sp, #12]
   57 0026 FF20     		movs	r0, #255
-ARM GAS  /tmp/ccvFfjnc.s 			page 2
+ARM GAS  /tmp/cc4HaRW0.s 			page 2
 
 
   58 0028 00FA01F1 		lsl	r1, r0, r1
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccvFfjnc.s 			page 1
  112              		@ args = 0, pretend = 0, frame = 16
  113              		@ frame_needed = 0, uses_anonymous_args = 0
  114              		@ link register save eliminated.
-ARM GAS  /tmp/ccvFfjnc.s 			page 3
+ARM GAS  /tmp/cc4HaRW0.s 			page 3
 
 
  115 0000 10B4     		push	{r4}
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccvFfjnc.s 			page 1
  168              		.align	2
  169              		.p2align 4,,15
  170              		.global	nvicSetSystemHandlerPriority
-ARM GAS  /tmp/ccvFfjnc.s 			page 4
+ARM GAS  /tmp/cc4HaRW0.s 			page 4
 
 
  171              		.thumb
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccvFfjnc.s 			page 1
  225              	.L9:
  226              		.align	2
  227              	.L8:
-ARM GAS  /tmp/ccvFfjnc.s 			page 5
+ARM GAS  /tmp/cc4HaRW0.s 			page 5
 
 
  228 0048 00ED00E0 		.word	-536810240
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccvFfjnc.s 			page 1
  282 0059 5D000000 		.4byte	0x5d
  283 005d 03       		.uleb128 0x3
  284 005e 04       		.byte	0x4
-ARM GAS  /tmp/ccvFfjnc.s 			page 6
+ARM GAS  /tmp/cc4HaRW0.s 			page 6
 
 
  285 005f 07       		.byte	0x7
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccvFfjnc.s 			page 1
  339 00cc A0       		.byte	0xa0
  340 00cd 08       		.uleb128 0x8
  341 00ce 34020000 		.4byte	.LASF17
-ARM GAS  /tmp/ccvFfjnc.s 			page 7
+ARM GAS  /tmp/cc4HaRW0.s 			page 7
 
 
  342 00d2 04       		.byte	0x4
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccvFfjnc.s 			page 1
  396 0144 84000000 		.4byte	0x84
  397 0148 53010000 		.4byte	0x153
  398 014c 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccvFfjnc.s 			page 8
+ARM GAS  /tmp/cc4HaRW0.s 			page 8
 
 
  399 014d 53010000 		.4byte	0x153
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccvFfjnc.s 			page 1
  453 01cb 53010000 		.4byte	0x153
  454 01cf 8302     		.2byte	0x283
  455 01d1 00       		.byte	0
-ARM GAS  /tmp/ccvFfjnc.s 			page 9
+ARM GAS  /tmp/cc4HaRW0.s 			page 9
 
 
  456 01d2 05       		.uleb128 0x5
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccvFfjnc.s 			page 1
  510 023e 07       		.uleb128 0x7
  511 023f A7020000 		.4byte	.LASF32
  512 0243 04       		.byte	0x4
-ARM GAS  /tmp/ccvFfjnc.s 			page 10
+ARM GAS  /tmp/cc4HaRW0.s 			page 10
 
 
  513 0244 91       		.byte	0x91
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccvFfjnc.s 			page 1
  567 02b0 9A       		.byte	0x9a
  568 02b1 84000000 		.4byte	0x84
  569 02b5 4C       		.byte	0x4c
-ARM GAS  /tmp/ccvFfjnc.s 			page 11
+ARM GAS  /tmp/cc4HaRW0.s 			page 11
 
 
  570 02b6 07       		.uleb128 0x7
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccvFfjnc.s 			page 1
  624 032b 36030000 		.4byte	0x336
  625 032f 0B       		.uleb128 0xb
  626 0330 53010000 		.4byte	0x153
-ARM GAS  /tmp/ccvFfjnc.s 			page 12
+ARM GAS  /tmp/cc4HaRW0.s 			page 12
 
 
  627 0334 04       		.byte	0x4
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccvFfjnc.s 			page 1
  681 039a 58000000 		.4byte	.LFE8-.LFB8
  682 039e 01       		.uleb128 0x1
  683 039f 9C       		.byte	0x9c
-ARM GAS  /tmp/ccvFfjnc.s 			page 13
+ARM GAS  /tmp/cc4HaRW0.s 			page 13
 
 
  684 03a0 BE030000 		.4byte	0x3be
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccvFfjnc.s 			page 1
  738 0000 01       		.uleb128 0x1
  739 0001 11       		.uleb128 0x11
  740 0002 01       		.byte	0x1
-ARM GAS  /tmp/ccvFfjnc.s 			page 14
+ARM GAS  /tmp/cc4HaRW0.s 			page 14
 
 
  741 0003 25       		.uleb128 0x25
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccvFfjnc.s 			page 1
  795 0039 00       		.byte	0
  796 003a 00       		.byte	0
  797 003b 06       		.uleb128 0x6
-ARM GAS  /tmp/ccvFfjnc.s 			page 15
+ARM GAS  /tmp/cc4HaRW0.s 			page 15
 
 
  798 003c 13       		.uleb128 0x13
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccvFfjnc.s 			page 1
  852 0072 05       		.uleb128 0x5
  853 0073 00       		.byte	0
  854 0074 00       		.byte	0
-ARM GAS  /tmp/ccvFfjnc.s 			page 16
+ARM GAS  /tmp/cc4HaRW0.s 			page 16
 
 
  855 0075 0A       		.uleb128 0xa
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccvFfjnc.s 			page 1
  909 00ab 00       		.byte	0
  910 00ac 0F       		.uleb128 0xf
  911 00ad 2E       		.uleb128 0x2e
-ARM GAS  /tmp/ccvFfjnc.s 			page 17
+ARM GAS  /tmp/cc4HaRW0.s 			page 17
 
 
  912 00ae 01       		.byte	0x1
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccvFfjnc.s 			page 1
  966 00e5 34       		.uleb128 0x34
  967 00e6 00       		.byte	0
  968 00e7 03       		.uleb128 0x3
-ARM GAS  /tmp/ccvFfjnc.s 			page 18
+ARM GAS  /tmp/cc4HaRW0.s 			page 18
 
 
  969 00e8 08       		.uleb128 0x8
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccvFfjnc.s 			page 1
  1023 0004 7C000000 		.4byte	.LFE7
  1024 0008 00000000 		.4byte	.LFB8
  1025 000c 58000000 		.4byte	.LFE8
-ARM GAS  /tmp/ccvFfjnc.s 			page 19
+ARM GAS  /tmp/cc4HaRW0.s 			page 19
 
 
  1026 0010 00000000 		.4byte	.LFB9
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccvFfjnc.s 			page 1
  1055      47333200 
  1056              	.LASF2:
  1057 008b 756E7369 		.ascii	"unsigned char\000"
-ARM GAS  /tmp/ccvFfjnc.s 			page 20
+ARM GAS  /tmp/cc4HaRW0.s 			page 20
 
 
  1057      676E6564 
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccvFfjnc.s 			page 1
  1079      73656374 
  1079      696F6E73 
  1080 01e0 73696E67 		.ascii	"single-precision-constant\000"
-ARM GAS  /tmp/ccvFfjnc.s 			page 21
+ARM GAS  /tmp/cc4HaRW0.s 			page 21
 
 
  1080      6C652D70 
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccvFfjnc.s 			page 1
  1108      6C657200 
  1109              	.LASF25:
  1110 0275 73697A65 		.ascii	"sizetype\000"
-ARM GAS  /tmp/ccvFfjnc.s 			page 22
+ARM GAS  /tmp/cc4HaRW0.s 			page 22
 
 
  1110      74797065 
@@ -1317,23 +1317,23 @@ ARM GAS  /tmp/ccvFfjnc.s 			page 1
  1138      63746F72 
  1138      00
  1139              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccvFfjnc.s 			page 23
+ARM GAS  /tmp/cc4HaRW0.s 			page 23
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 nvic.c
-     /tmp/ccvFfjnc.s:21     .text.nvicEnableVector:00000000 $t
-     /tmp/ccvFfjnc.s:27     .text.nvicEnableVector:00000000 nvicEnableVector
-     /tmp/ccvFfjnc.s:97     .text.nvicEnableVector:00000078 $d
-     /tmp/ccvFfjnc.s:102    .text.nvicDisableVector:00000000 $t
-     /tmp/ccvFfjnc.s:108    .text.nvicDisableVector:00000000 nvicDisableVector
-     /tmp/ccvFfjnc.s:163    .text.nvicDisableVector:00000054 $d
-     /tmp/ccvFfjnc.s:168    .text.nvicSetSystemHandlerPriority:00000000 $t
-     /tmp/ccvFfjnc.s:174    .text.nvicSetSystemHandlerPriority:00000000 nvicSetSystemHandlerPriority
-     /tmp/ccvFfjnc.s:228    .text.nvicSetSystemHandlerPriority:00000048 $d
+     /tmp/cc4HaRW0.s:21     .text.nvicEnableVector:00000000 $t
+     /tmp/cc4HaRW0.s:27     .text.nvicEnableVector:00000000 nvicEnableVector
+     /tmp/cc4HaRW0.s:97     .text.nvicEnableVector:00000078 $d
+     /tmp/cc4HaRW0.s:102    .text.nvicDisableVector:00000000 $t
+     /tmp/cc4HaRW0.s:108    .text.nvicDisableVector:00000000 nvicDisableVector
+     /tmp/cc4HaRW0.s:163    .text.nvicDisableVector:00000054 $d
+     /tmp/cc4HaRW0.s:168    .text.nvicSetSystemHandlerPriority:00000000 $t
+     /tmp/cc4HaRW0.s:174    .text.nvicSetSystemHandlerPriority:00000000 nvicSetSystemHandlerPriority
+     /tmp/cc4HaRW0.s:228    .text.nvicSetSystemHandlerPriority:00000048 $d
                      .debug_frame:00000010 $d
-     /tmp/ccvFfjnc.s:101    .text.nvicEnableVector:0000007c $t
-     /tmp/ccvFfjnc.s:167    .text.nvicDisableVector:00000058 $t
-     /tmp/ccvFfjnc.s:232    .text.nvicSetSystemHandlerPriority:0000004c $t
+     /tmp/cc4HaRW0.s:101    .text.nvicEnableVector:0000007c $t
+     /tmp/cc4HaRW0.s:167    .text.nvicDisableVector:00000058 $t
+     /tmp/cc4HaRW0.s:232    .text.nvicSetSystemHandlerPriority:0000004c $t
 
 NO UNDEFINED SYMBOLS

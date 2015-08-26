@@ -1,0 +1,4 @@
+#pragma once
+
+msg_t follower_node(void *arg);
+

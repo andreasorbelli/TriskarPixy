@@ -1,0 +1,8 @@
+#pragma once
+
+namespace r2p {
+class FollowMsg: public Message {
+public:
+bool follow;
+}R2P_PACKED;
+} /* namespace r2p */

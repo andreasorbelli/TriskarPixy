@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 3 resources" deleteContents="false" description="Delete 3 resources" element1="/Proximity/nodes/pixy.hpp" element2="/Proximity/nodes/shell_node.cpp" element3="/Proximity/nodes/shell_node.hpp" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="3" stamp="1436968335183"/>
+</session>

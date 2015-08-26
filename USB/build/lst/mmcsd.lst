@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc6j5Hk3.s 			page 1
+ARM GAS  /tmp/cckwrf5A.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc6j5Hk3.s 			page 1
   51 0012 029A     		ldr	r2, [sp, #8]
   52 0014 019B     		ldr	r3, [sp, #4]
   53 0016 D31A     		subs	r3, r2, r3
-ARM GAS  /tmp/cc6j5Hk3.s 			page 2
+ARM GAS  /tmp/cckwrf5A.s 			page 2
 
 
   54 0018 1F2B     		cmp	r3, #31
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc6j5Hk3.s 			page 1
  108 0076 09E0     		b	.L5
  109              	.L4:
  110              		.loc 1 84 0
-ARM GAS  /tmp/cc6j5Hk3.s 			page 3
+ARM GAS  /tmp/cckwrf5A.s 			page 3
 
 
  111 0078 079B     		ldr	r3, [sp, #28]
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc6j5Hk3.s 			page 1
  164              	.LBB2:
  165              		.loc 1 106 0
  166 0018 0198     		ldr	r0, [sp, #4]
-ARM GAS  /tmp/cc6j5Hk3.s 			page 4
+ARM GAS  /tmp/cckwrf5A.s 			page 4
 
 
  167 001a 4921     		movs	r1, #73
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc6j5Hk3.s 			page 1
  220              		.file 3 "/home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/arm-none-eabi/include/stdint.h"
  221              		.file 4 "/home/ergae/r2p-sdk/core/ChibiOS/os/ports/common/ARMCMx/CMSIS/include/core_cm4.h"
  222              		.section	.debug_info,"",%progbits
-ARM GAS  /tmp/cc6j5Hk3.s 			page 5
+ARM GAS  /tmp/cckwrf5A.s 			page 5
 
 
  223              	.Ldebug_info0:
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc6j5Hk3.s 			page 1
  277 006f 03       		.uleb128 0x3
  278 0070 08       		.byte	0x8
  279 0071 05       		.byte	0x5
-ARM GAS  /tmp/cc6j5Hk3.s 			page 6
+ARM GAS  /tmp/cckwrf5A.s 			page 6
 
 
  280 0072 CD010000 		.4byte	.LASF9
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc6j5Hk3.s 			page 1
  334 00e1 60       		.sleb128 -32
  335 00e2 07       		.uleb128 0x7
  336 00e3 0A000000 		.4byte	.LASF17
-ARM GAS  /tmp/cc6j5Hk3.s 			page 7
+ARM GAS  /tmp/cckwrf5A.s 			page 7
 
 
  337 00e7 01       		.byte	0x1
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc6j5Hk3.s 			page 1
  391 014d 01       		.byte	0x1
  392 014e 64       		.byte	0x64
  393 014f 29010000 		.4byte	0x129
-ARM GAS  /tmp/cc6j5Hk3.s 			page 8
+ARM GAS  /tmp/cckwrf5A.s 			page 8
 
 
  394 0153 02       		.uleb128 0x2
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc6j5Hk3.s 			page 1
  448 000e 17       		.uleb128 0x17
  449 000f 00       		.byte	0
  450 0010 00       		.byte	0
-ARM GAS  /tmp/cc6j5Hk3.s 			page 9
+ARM GAS  /tmp/cckwrf5A.s 			page 9
 
 
  451 0011 02       		.uleb128 0x2
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc6j5Hk3.s 			page 1
  505 0047 13       		.uleb128 0x13
  506 0048 11       		.uleb128 0x11
  507 0049 01       		.uleb128 0x1
-ARM GAS  /tmp/cc6j5Hk3.s 			page 10
+ARM GAS  /tmp/cckwrf5A.s 			page 10
 
 
  508 004a 12       		.uleb128 0x12
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc6j5Hk3.s 			page 1
  562 0081 00       		.byte	0
  563 0082 0A       		.uleb128 0xa
  564 0083 0F       		.uleb128 0xf
-ARM GAS  /tmp/cc6j5Hk3.s 			page 11
+ARM GAS  /tmp/cckwrf5A.s 			page 11
 
 
  565 0084 00       		.byte	0
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc6j5Hk3.s 			page 1
  619 00bb 02       		.uleb128 0x2
  620 00bc 18       		.uleb128 0x18
  621 00bd 00       		.byte	0
-ARM GAS  /tmp/cc6j5Hk3.s 			page 12
+ARM GAS  /tmp/cckwrf5A.s 			page 12
 
 
  622 00be 00       		.byte	0
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc6j5Hk3.s 			page 1
  669      7400
  670              	.LASF4:
  671 0010 73686F72 		.ascii	"short unsigned int\000"
-ARM GAS  /tmp/cc6j5Hk3.s 			page 13
+ARM GAS  /tmp/cckwrf5A.s 			page 13
 
 
  671      7420756E 
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cc6j5Hk3.s 			page 1
  690      2D667261 
  691 013d 202D6666 		.ascii	" -ffunction-sections -fdata-sections -fno-common -f"
  691      756E6374 
-ARM GAS  /tmp/cc6j5Hk3.s 			page 14
+ARM GAS  /tmp/cckwrf5A.s 			page 14
 
 
  691      696F6E2D 
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cc6j5Hk3.s 			page 1
  716      64476574 
  716      43617061 
  716      63697479 
-ARM GAS  /tmp/cc6j5Hk3.s 			page 15
+ARM GAS  /tmp/cckwrf5A.s 			page 15
 
 
  716      00
@@ -863,19 +863,19 @@ ARM GAS  /tmp/cc6j5Hk3.s 			page 1
  725      7369676E 
  725      65642069 
  726              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/cc6j5Hk3.s 			page 16
+ARM GAS  /tmp/cckwrf5A.s 			page 16
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 mmcsd.c
-     /tmp/cc6j5Hk3.s:21     .rodata:00000000 $d
-     /tmp/cc6j5Hk3.s:25     .text.mmcsd_get_slice:00000000 $t
-     /tmp/cc6j5Hk3.s:30     .text.mmcsd_get_slice:00000000 mmcsd_get_slice
-     /tmp/cc6j5Hk3.s:130    .text.mmcsd_get_slice:00000094 $d
-     /tmp/cc6j5Hk3.s:135    .text.mmcsdGetCapacity:00000000 $t
-     /tmp/cc6j5Hk3.s:141    .text.mmcsdGetCapacity:00000000 mmcsdGetCapacity
+     /tmp/cckwrf5A.s:21     .rodata:00000000 $d
+     /tmp/cckwrf5A.s:25     .text.mmcsd_get_slice:00000000 $t
+     /tmp/cckwrf5A.s:30     .text.mmcsd_get_slice:00000000 mmcsd_get_slice
+     /tmp/cckwrf5A.s:130    .text.mmcsd_get_slice:00000094 $d
+     /tmp/cckwrf5A.s:135    .text.mmcsdGetCapacity:00000000 $t
+     /tmp/cckwrf5A.s:141    .text.mmcsdGetCapacity:00000000 mmcsdGetCapacity
                      .debug_frame:00000010 $d
-     /tmp/cc6j5Hk3.s:134    .text.mmcsd_get_slice:00000098 $t
+     /tmp/cckwrf5A.s:134    .text.mmcsd_get_slice:00000098 $t
 
 UNDEFINED SYMBOLS
 chDbgPanic

@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccXLZ6ci.s 			page 1
+ARM GAS  /tmp/ccJgfv4A.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
   55              		.cfi_def_cfa_offset 0
   56              		@ sp needed
   57 0020 7047     		bx	lr
-ARM GAS  /tmp/ccXLZ6ci.s 			page 2
+ARM GAS  /tmp/ccJgfv4A.s 			page 2
 
 
   58              		.cfi_endproc
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  100              		.thumb_func
  101              		.type	usb_pm_reset, %function
  102              	usb_pm_reset:
-ARM GAS  /tmp/ccXLZ6ci.s 			page 3
+ARM GAS  /tmp/ccJgfv4A.s 			page 3
 
 
  103              	.LFB118:
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  153 0010 019B     		ldr	r3, [sp, #4]
  154 0012 D3F88020 		ldr	r2, [r3, #128]
  155 0016 009B     		ldr	r3, [sp]
-ARM GAS  /tmp/ccXLZ6ci.s 			page 4
+ARM GAS  /tmp/ccJgfv4A.s 			page 4
 
 
  156 0018 1A44     		add	r2, r2, r3
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  210 001a 0133     		adds	r3, r3, #1
  211 001c 5B08     		lsrs	r3, r3, #1
  212 001e 0193     		str	r3, [sp, #4]
-ARM GAS  /tmp/ccXLZ6ci.s 			page 5
+ARM GAS  /tmp/ccJgfv4A.s 			page 5
 
 
  213              		.loc 2 134 0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  265              		.loc 2 156 0
  266 000a 039B     		ldr	r3, [sp, #12]
  267 000c 9B68     		ldr	r3, [r3, #8]
-ARM GAS  /tmp/ccXLZ6ci.s 			page 6
+ARM GAS  /tmp/ccJgfv4A.s 			page 6
 
 
  268 000e 03F10053 		add	r3, r3, #536870912
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  322 0068 1B69     		ldr	r3, [r3, #16]
  323 006a 9A42     		cmp	r2, r3
  324 006c 03D3     		bcc	.L15
-ARM GAS  /tmp/ccXLZ6ci.s 			page 7
+ARM GAS  /tmp/ccJgfv4A.s 			page 7
 
 
  325              		.loc 2 168 0
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  379 00bc 029B     		ldr	r3, [sp, #8]
  380 00be 9A68     		ldr	r2, [r3, #8]
  381 00c0 019B     		ldr	r3, [sp, #4]
-ARM GAS  /tmp/ccXLZ6ci.s 			page 8
+ARM GAS  /tmp/ccJgfv4A.s 			page 8
 
 
  382 00c2 1A44     		add	r2, r2, r3
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  435 0000 86B0     		sub	sp, sp, #24
  436              		.cfi_def_cfa_offset 24
  437 0002 0390     		str	r0, [sp, #12]
-ARM GAS  /tmp/ccXLZ6ci.s 			page 9
+ARM GAS  /tmp/ccJgfv4A.s 			page 9
 
 
  438 0004 0291     		str	r1, [sp, #8]
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  492              		.thumb_func
  493              		.type	usb_packet_write_from_queue, %function
  494              	usb_packet_write_from_queue:
-ARM GAS  /tmp/ccXLZ6ci.s 			page 10
+ARM GAS  /tmp/ccJgfv4A.s 			page 10
 
 
  495              	.LFB123:
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  549              		.loc 2 235 0
  550 004c 029B     		ldr	r3, [sp, #8]
  551 004e 9B69     		ldr	r3, [r3, #24]
-ARM GAS  /tmp/ccXLZ6ci.s 			page 11
+ARM GAS  /tmp/ccJgfv4A.s 			page 11
 
 
  552 0050 591C     		adds	r1, r3, #1
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  606 00a8 9A69     		ldr	r2, [r3, #24]
  607 00aa 029B     		ldr	r3, [sp, #8]
  608 00ac 1B69     		ldr	r3, [r3, #16]
-ARM GAS  /tmp/ccXLZ6ci.s 			page 12
+ARM GAS  /tmp/ccJgfv4A.s 			page 12
 
 
  609 00ae 9A42     		cmp	r2, r3
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  663              	@ 260 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/platforms/STM32/USBv1/usb_lld.c" 1
  664 00fc 83F31188 		msr     BASEPRI, r3
  665              	@ 0 "" 2
-ARM GAS  /tmp/ccXLZ6ci.s 			page 13
+ARM GAS  /tmp/ccJgfv4A.s 			page 13
 
 
  666              		.thumb
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  720 0000 00B5     		push	{lr}
  721              		.cfi_def_cfa_offset 4
  722              		.cfi_offset 14, -4
-ARM GAS  /tmp/ccXLZ6ci.s 			page 14
+ARM GAS  /tmp/ccJgfv4A.s 			page 14
 
 
  723 0002 8BB0     		sub	sp, sp, #44
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  777 005e 05D0     		beq	.L38
  778              		.loc 2 309 0 is_stmt 0 discriminator 1
  779 0060 079B     		ldr	r3, [sp, #28]
-ARM GAS  /tmp/ccXLZ6ci.s 			page 15
+ARM GAS  /tmp/ccJgfv4A.s 			page 15
 
 
  780 0062 5B68     		ldr	r3, [r3, #4]
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  834 00ba 03F40073 		and	r3, r3, #512
  835 00be 002B     		cmp	r3, #0
  836 00c0 0DD0     		beq	.L41
-ARM GAS  /tmp/ccXLZ6ci.s 			page 16
+ARM GAS  /tmp/ccJgfv4A.s 			page 16
 
 
  837              		.loc 2 335 0
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  891 0124 574B     		ldr	r3, .L56+4
  892 0126 1A6D     		ldr	r2, [r3, #80]
  893 0128 059B     		ldr	r3, [sp, #20]
-ARM GAS  /tmp/ccXLZ6ci.s 			page 17
+ARM GAS  /tmp/ccJgfv4A.s 			page 17
 
 
  894 012a DB00     		lsls	r3, r3, #3
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  948 018a 03F10053 		add	r3, r3, #536870912
  949 018e 03F54053 		add	r3, r3, #12288
  950 0192 5B00     		lsls	r3, r3, #1
-ARM GAS  /tmp/ccXLZ6ci.s 			page 18
+ARM GAS  /tmp/ccJgfv4A.s 			page 18
 
 
  951 0194 1A46     		mov	r2, r3
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  1005 01ee 1946     		mov	r1, r3
  1006 01f0 FFF7FEFF 		bl	usb_lld_start_in
  1007              		.loc 2 371 0
-ARM GAS  /tmp/ccXLZ6ci.s 			page 19
+ARM GAS  /tmp/ccJgfv4A.s 			page 19
 
 
  1008 01f4 FFF7FEFF 		bl	dbg_check_unlock_from_isr
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  1062              		.loc 2 381 0
  1063 025c 049B     		ldr	r3, [sp, #16]
  1064 025e 03F40063 		and	r3, r3, #2048
-ARM GAS  /tmp/ccXLZ6ci.s 			page 20
+ARM GAS  /tmp/ccJgfv4A.s 			page 20
 
 
  1065 0262 002B     		cmp	r3, #0
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  1119 02c4 0FE0     		b	.L52
  1120              	.L51:
  1121              		.loc 2 397 0
-ARM GAS  /tmp/ccXLZ6ci.s 			page 21
+ARM GAS  /tmp/ccJgfv4A.s 			page 21
 
 
  1122 02c6 039B     		ldr	r3, [sp, #12]
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  1176 0324 9B69     		ldr	r3, [r3, #24]
  1177 0326 1B8A     		ldrh	r3, [r3, #16]
  1178 0328 002B     		cmp	r3, #0
-ARM GAS  /tmp/ccXLZ6ci.s 			page 22
+ARM GAS  /tmp/ccJgfv4A.s 			page 22
 
 
  1179 032a 1CD1     		bne	.L54
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  1233 0390 7FF4A6AE 		bne	.L55
  1234              		.loc 2 421 0
  1235 0394 FFF7FEFF 		bl	dbg_check_leave_isr
-ARM GAS  /tmp/ccXLZ6ci.s 			page 23
+ARM GAS  /tmp/ccJgfv4A.s 			page 23
 
 
  1236 0398 FFF7FEFF 		bl	_port_irq_epilogue
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  1289              		@ args = 0, pretend = 0, frame = 8
  1290              		@ frame_needed = 0, uses_anonymous_args = 0
  1291 0000 00B5     		push	{lr}
-ARM GAS  /tmp/ccXLZ6ci.s 			page 24
+ARM GAS  /tmp/ccJgfv4A.s 			page 24
 
 
  1292              		.cfi_def_cfa_offset 4
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  1346              	.LFE127:
  1347              		.size	usb_lld_start, .-usb_lld_start
  1348 0058 AFF30080 		.section	.text.usb_lld_stop,"ax",%progbits
-ARM GAS  /tmp/ccXLZ6ci.s 			page 25
+ARM GAS  /tmp/ccJgfv4A.s 			page 25
 
 
  1348      AFF30080 
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  1402 003c 00000000 		.word	USBD1
  1403 0040 005C0040 		.word	1073765376
  1404 0044 00100240 		.word	1073876992
-ARM GAS  /tmp/ccXLZ6ci.s 			page 26
+ARM GAS  /tmp/ccJgfv4A.s 			page 26
 
 
  1405              		.cfi_endproc
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  1458 0036 0198     		ldr	r0, [sp, #4]
  1459 0038 FFF7FEFF 		bl	usb_pm_reset
  1460              		.loc 2 521 0
-ARM GAS  /tmp/ccXLZ6ci.s 			page 27
+ARM GAS  /tmp/ccJgfv4A.s 			page 27
 
 
  1461 003c 019B     		ldr	r3, [sp, #4]
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  1514              		.cfi_endproc
  1515              	.LFE130:
  1516              		.size	usb_lld_set_address, .-usb_lld_set_address
-ARM GAS  /tmp/ccXLZ6ci.s 			page 28
+ARM GAS  /tmp/ccJgfv4A.s 			page 28
 
 
  1517 001c AFF30080 		.section	.text.usb_lld_init_endpoint,"ax",%progbits
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  1571 0046 ADF81430 		strh	r3, [sp, #20]	@ movhi
  1572              		.loc 2 560 0
  1573 004a 03E0     		b	.L84
-ARM GAS  /tmp/ccXLZ6ci.s 			page 29
+ARM GAS  /tmp/ccJgfv4A.s 			page 29
 
 
  1574              	.L90:
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  1628 00c6 43F01F03 		orr	r3, r3, #31
  1629 00ca 0133     		adds	r3, r3, #1
  1630 00cc 002B     		cmp	r3, #0
-ARM GAS  /tmp/ccXLZ6ci.s 			page 30
+ARM GAS  /tmp/ccJgfv4A.s 			page 30
 
 
  1631 00ce 00DA     		bge	.L88
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  1685 013c 5B8A     		ldrh	r3, [r3, #18]
  1686 013e 0198     		ldr	r0, [sp, #4]
  1687 0140 1946     		mov	r1, r3
-ARM GAS  /tmp/ccXLZ6ci.s 			page 31
+ARM GAS  /tmp/ccJgfv4A.s 			page 31
 
 
  1688 0142 FFF7FEFF 		bl	usb_pm_alloc
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  1740 0024 039B     		ldr	r3, [sp, #12]
  1741 0026 0021     		movs	r1, #0
  1742 0028 42F82310 		str	r1, [r2, r3, lsl #2]
-ARM GAS  /tmp/ccXLZ6ci.s 			page 32
+ARM GAS  /tmp/ccJgfv4A.s 			page 32
 
 
  1743              		.loc 2 604 0 discriminator 3
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  1795 0024 0023     		movs	r3, #0
  1796 0026 02E0     		b	.L102
  1797              	.L101:
-ARM GAS  /tmp/ccXLZ6ci.s 			page 33
+ARM GAS  /tmp/ccJgfv4A.s 			page 33
 
 
  1798              		.loc 2 629 0
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  1851              	.L109:
  1852              		.loc 2 654 0
  1853 0026 0123     		movs	r3, #1
-ARM GAS  /tmp/ccXLZ6ci.s 			page 34
+ARM GAS  /tmp/ccJgfv4A.s 			page 34
 
 
  1854 0028 00E0     		b	.L110
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  1907 0030 5B00     		lsls	r3, r3, #1
  1908 0032 0793     		str	r3, [sp, #28]
  1909              		.loc 2 682 0
-ARM GAS  /tmp/ccXLZ6ci.s 			page 35
+ARM GAS  /tmp/ccJgfv4A.s 			page 35
 
 
  1910 0034 0023     		movs	r3, #0
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  1962              		.cfi_def_cfa_offset 16
  1963 0002 0190     		str	r0, [sp, #4]
  1964 0004 0B46     		mov	r3, r1
-ARM GAS  /tmp/ccXLZ6ci.s 			page 36
+ARM GAS  /tmp/ccJgfv4A.s 			page 36
 
 
  1965 0006 8DF80330 		strb	r3, [sp, #3]
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  2019              		.size	usb_lld_prepare_receive, .-usb_lld_prepare_receive
  2020 0062 00BFAFF3 		.section	.text.usb_lld_prepare_transmit,"ax",%progbits
  2020      0080AFF3 
-ARM GAS  /tmp/ccXLZ6ci.s 			page 37
+ARM GAS  /tmp/ccJgfv4A.s 			page 37
 
 
  2020      0080AFF3 
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  2073 004a 1B8A     		ldrh	r3, [r3, #16]
  2074 004c 0393     		str	r3, [sp, #12]
  2075              	.L123:
-ARM GAS  /tmp/ccXLZ6ci.s 			page 38
+ARM GAS  /tmp/ccJgfv4A.s 			page 38
 
 
  2076              		.loc 2 724 0
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  2130              		.p2align 4,,15
  2131              		.global	usb_lld_start_out
  2132              		.thumb
-ARM GAS  /tmp/ccXLZ6ci.s 			page 39
+ARM GAS  /tmp/ccJgfv4A.s 			page 39
 
 
  2133              		.thumb_func
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  2185 0002 0190     		str	r0, [sp, #4]
  2186 0004 0B46     		mov	r3, r1
  2187 0006 8DF80330 		strb	r3, [sp, #3]
-ARM GAS  /tmp/ccXLZ6ci.s 			page 40
+ARM GAS  /tmp/ccJgfv4A.s 			page 40
 
 
  2188              		.loc 2 759 0
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  2240 002a 02B0     		add	sp, sp, #8
  2241              		.cfi_def_cfa_offset 0
  2242              		@ sp needed
-ARM GAS  /tmp/ccXLZ6ci.s 			page 41
+ARM GAS  /tmp/ccJgfv4A.s 			page 41
 
 
  2243 002c 7047     		bx	lr
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  2293              		.align	2
  2294              		.p2align 4,,15
  2295              		.global	usb_lld_clear_out
-ARM GAS  /tmp/ccXLZ6ci.s 			page 42
+ARM GAS  /tmp/ccJgfv4A.s 			page 42
 
 
  2296              		.thumb
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  2349              	.LFB143:
  2350              		.loc 2 818 0
  2351              		.cfi_startproc
-ARM GAS  /tmp/ccXLZ6ci.s 			page 43
+ARM GAS  /tmp/ccJgfv4A.s 			page 43
 
 
  2352              		@ args = 0, pretend = 0, frame = 8
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  2404              		.file 15 "/home/ergae/r2p-sdk/core/ChibiOS/os/hal/platforms/STM32/USBv1/stm32_usb.h"
  2405              		.file 16 "/home/ergae/r2p-sdk/core/ChibiOS/os/kernel/include/chdebug.h"
  2406              		.file 17 "/home/ergae/r2p-sdk/core/ChibiOS/os/ports/common/ARMCMx/CMSIS/include/core_cm4.h"
-ARM GAS  /tmp/ccXLZ6ci.s 			page 44
+ARM GAS  /tmp/ccJgfv4A.s 			page 44
 
 
  2407              		.section	.debug_info,"",%progbits
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  2461 0071 04       		.byte	0x4
  2462 0072 3F       		.byte	0x3f
  2463 0073 77000000 		.4byte	0x77
-ARM GAS  /tmp/ccXLZ6ci.s 			page 45
+ARM GAS  /tmp/ccJgfv4A.s 			page 45
 
 
  2464 0077 04       		.uleb128 0x4
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  2518 00e0 2C       		.byte	0x2c
  2519 00e1 6C000000 		.4byte	0x6c
  2520 00e5 03       		.uleb128 0x3
-ARM GAS  /tmp/ccXLZ6ci.s 			page 46
+ARM GAS  /tmp/ccJgfv4A.s 			page 46
 
 
  2521 00e6 090A0000 		.4byte	.LASF20
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  2575 015b 29000000 		.4byte	.LASF31
  2576 015f 06       		.byte	0x6
  2577 0160 35       		.byte	0x35
-ARM GAS  /tmp/ccXLZ6ci.s 			page 47
+ARM GAS  /tmp/ccJgfv4A.s 			page 47
 
 
  2578 0161 E5000000 		.4byte	0xe5
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  2632 01d0 F40A0000 		.4byte	.LASF40
  2633 01d4 08       		.byte	0x8
  2634 01d5 6E       		.byte	0x6e
-ARM GAS  /tmp/ccXLZ6ci.s 			page 48
+ARM GAS  /tmp/ccJgfv4A.s 			page 48
 
 
  2635 01d6 B9000000 		.4byte	0xb9
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  2689 0242 AB020000 		.4byte	0x2ab
  2690 0246 30       		.byte	0x30
  2691 0247 09       		.uleb128 0x9
-ARM GAS  /tmp/ccXLZ6ci.s 			page 49
+ARM GAS  /tmp/ccJgfv4A.s 			page 49
 
 
  2692 0248 2E0B0000 		.4byte	.LASF49
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  2746 02b1 66       		.byte	0x66
  2747 02b2 84020000 		.4byte	0x284
  2748 02b6 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccXLZ6ci.s 			page 50
+ARM GAS  /tmp/ccJgfv4A.s 			page 50
 
 
  2749 02b7 04       		.byte	0x4
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  2803 0328 D6020000 		.4byte	0x2d6
  2804 032c 0C       		.byte	0xc
  2805 032d 0D       		.uleb128 0xd
-ARM GAS  /tmp/ccXLZ6ci.s 			page 51
+ARM GAS  /tmp/ccJgfv4A.s 			page 51
 
 
  2806 032e 73323000 		.ascii	"s20\000"
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  2860 03a3 73323900 		.ascii	"s29\000"
  2861 03a7 09       		.byte	0x9
  2862 03a8 1B01     		.2byte	0x11b
-ARM GAS  /tmp/ccXLZ6ci.s 			page 52
+ARM GAS  /tmp/ccJgfv4A.s 			page 52
 
 
  2863 03aa D6020000 		.4byte	0x2d6
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  2917 0419 D6020000 		.4byte	0x2d6
  2918 041d 58       		.byte	0x58
  2919 041e 0D       		.uleb128 0xd
-ARM GAS  /tmp/ccXLZ6ci.s 			page 53
+ARM GAS  /tmp/ccJgfv4A.s 			page 53
 
 
  2920 041f 72313100 		.ascii	"r11\000"
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  2974 048e 94040000 		.4byte	0x494
  2975 0492 0C       		.byte	0xc
  2976 0493 00       		.byte	0
-ARM GAS  /tmp/ccXLZ6ci.s 			page 54
+ARM GAS  /tmp/ccJgfv4A.s 			page 54
 
 
  2977 0494 06       		.uleb128 0x6
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  3031 0503 46       		.byte	0x46
  3032 0504 AB020000 		.4byte	0x2ab
  3033 0508 00       		.byte	0
-ARM GAS  /tmp/ccXLZ6ci.s 			page 55
+ARM GAS  /tmp/ccJgfv4A.s 			page 55
 
 
  3034 0509 09       		.uleb128 0x9
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  3088 0575 7A050000 		.4byte	0x57a
  3089 0579 00       		.byte	0
  3090 057a 06       		.uleb128 0x6
-ARM GAS  /tmp/ccXLZ6ci.s 			page 56
+ARM GAS  /tmp/ccJgfv4A.s 			page 56
 
 
  3091 057b 04       		.byte	0x4
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  3145 05f0 16       		.uleb128 0x16
  3146 05f1 36060000 		.4byte	.LASF81
  3147 05f5 0C       		.byte	0xc
-ARM GAS  /tmp/ccXLZ6ci.s 			page 57
+ARM GAS  /tmp/ccJgfv4A.s 			page 57
 
 
  3148 05f6 8A02     		.2byte	0x28a
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  3202 066b 9302     		.2byte	0x293
  3203 066d 59040000 		.4byte	0x459
  3204 0671 30       		.byte	0x30
-ARM GAS  /tmp/ccXLZ6ci.s 			page 58
+ARM GAS  /tmp/ccJgfv4A.s 			page 58
 
 
  3205 0672 00       		.byte	0
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  3259 06e6 770A0000 		.4byte	.LASF97
  3260 06ea 0E       		.byte	0xe
  3261 06eb 3D01     		.2byte	0x13d
-ARM GAS  /tmp/ccXLZ6ci.s 			page 59
+ARM GAS  /tmp/ccJgfv4A.s 			page 59
 
 
  3262 06ed 410C0000 		.4byte	0xc41
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  3316 0762 E5000000 		.4byte	0xe5
  3317 0766 80       		.byte	0x80
  3318 0767 00       		.byte	0
-ARM GAS  /tmp/ccXLZ6ci.s 			page 60
+ARM GAS  /tmp/ccJgfv4A.s 			page 60
 
 
  3319 0768 03       		.uleb128 0x3
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  3373 07cf 0701     		.2byte	0x107
  3374 07d1 00080000 		.4byte	0x800
  3375 07d5 19       		.uleb128 0x19
-ARM GAS  /tmp/ccXLZ6ci.s 			page 61
+ARM GAS  /tmp/ccJgfv4A.s 			page 61
 
 
  3376 07d6 CE010000 		.4byte	.LASF118
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  3430 0842 0C080000 		.4byte	0x80c
  3431 0846 15       		.uleb128 0x15
  3432 0847 08       		.byte	0x8
-ARM GAS  /tmp/ccXLZ6ci.s 			page 62
+ARM GAS  /tmp/ccJgfv4A.s 			page 62
 
 
  3433 0848 0D       		.byte	0xd
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  3487 08c0 0D       		.byte	0xd
  3488 08c1 4301     		.2byte	0x143
  3489 08c3 C7080000 		.4byte	0x8c7
-ARM GAS  /tmp/ccXLZ6ci.s 			page 63
+ARM GAS  /tmp/ccJgfv4A.s 			page 63
 
 
  3490 08c7 06       		.uleb128 0x6
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  3544 0941 0A       		.uleb128 0xa
  3545 0942 45505200 		.ascii	"EPR\000"
  3546 0946 0F       		.byte	0xf
-ARM GAS  /tmp/ccXLZ6ci.s 			page 64
+ARM GAS  /tmp/ccJgfv4A.s 			page 64
 
 
  3547 0947 2B       		.byte	0x2b
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  3601 09b3 09       		.uleb128 0x9
  3602 09b4 26060000 		.4byte	.LASF147
  3603 09b8 0F       		.byte	0xf
-ARM GAS  /tmp/ccXLZ6ci.s 			page 65
+ARM GAS  /tmp/ccJgfv4A.s 			page 65
 
 
  3604 09b9 4D       		.byte	0x4d
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  3658 0a1f 8A       		.byte	0x8a
  3659 0a20 310A0000 		.4byte	0xa31
  3660 0a24 09       		.uleb128 0x9
-ARM GAS  /tmp/ccXLZ6ci.s 			page 66
+ARM GAS  /tmp/ccJgfv4A.s 			page 66
 
 
  3661 0a25 69090000 		.4byte	.LASF155
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  3715 0a8e 00       		.byte	0
  3716 0a8f 03       		.uleb128 0x3
  3717 0a90 72040000 		.4byte	.LASF162
-ARM GAS  /tmp/ccXLZ6ci.s 			page 67
+ARM GAS  /tmp/ccJgfv4A.s 			page 67
 
 
  3718 0a94 0E       		.byte	0xe
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  3772 0af7 9B       		.byte	0x9b
  3773 0af8 FB000000 		.4byte	0xfb
  3774 0afc 00       		.byte	0
-ARM GAS  /tmp/ccXLZ6ci.s 			page 68
+ARM GAS  /tmp/ccJgfv4A.s 			page 68
 
 
  3775 0afd 09       		.uleb128 0x9
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  3829 0b66 27070000 		.4byte	.LASF173
  3830 0b6a 0E       		.byte	0xe
  3831 0b6b D8       		.byte	0xd8
-ARM GAS  /tmp/ccXLZ6ci.s 			page 69
+ARM GAS  /tmp/ccJgfv4A.s 			page 69
 
 
  3832 0b6c 99080000 		.4byte	0x899
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  3886 0bd6 0F0C0000 		.4byte	0xc0f
  3887 0bda 16       		.uleb128 0x16
  3888 0bdb F7050000 		.4byte	.LASF181
-ARM GAS  /tmp/ccXLZ6ci.s 			page 70
+ARM GAS  /tmp/ccJgfv4A.s 			page 70
 
 
  3889 0bdf 0E       		.byte	0xe
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  3943 0c56 610C0000 		.4byte	0xc61
  3944 0c5a 14       		.uleb128 0x14
  3945 0c5b A9000000 		.4byte	0xa9
-ARM GAS  /tmp/ccXLZ6ci.s 			page 71
+ARM GAS  /tmp/ccJgfv4A.s 			page 71
 
 
  3946 0c5f 07       		.byte	0x7
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  4000 0cc9 01       		.uleb128 0x1
  4001 0cca 9C       		.byte	0x9c
  4002 0ccb DE0C0000 		.4byte	0xcde
-ARM GAS  /tmp/ccXLZ6ci.s 			page 72
+ARM GAS  /tmp/ccJgfv4A.s 			page 72
 
 
  4003 0ccf 21       		.uleb128 0x21
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  4057 0d38 75647000 		.ascii	"udp\000"
  4058 0d3c 02       		.byte	0x2
  4059 0d3d 81       		.byte	0x81
-ARM GAS  /tmp/ccXLZ6ci.s 			page 73
+ARM GAS  /tmp/ccJgfv4A.s 			page 73
 
 
  4060 0d3e 6E0D0000 		.4byte	0xd6e
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  4114 0da2 02       		.byte	0x2
  4115 0da3 9A       		.byte	0x9a
  4116 0da4 C40A0000 		.4byte	0xac4
-ARM GAS  /tmp/ccXLZ6ci.s 			page 74
+ARM GAS  /tmp/ccJgfv4A.s 			page 74
 
 
  4117 0da8 02       		.uleb128 0x2
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  4171 0e0d 06000000 		.4byte	.LBE4-.LBB4
  4172 0e11 1F       		.uleb128 0x1f
  4173 0e12 746D7000 		.ascii	"tmp\000"
-ARM GAS  /tmp/ccXLZ6ci.s 			page 75
+ARM GAS  /tmp/ccJgfv4A.s 			page 75
 
 
  4174 0e16 02       		.byte	0x2
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  4228 0e77 0C010000 		.4byte	.LFE123-.LFB123
  4229 0e7b 01       		.uleb128 0x1
  4230 0e7c 9C       		.byte	0x9c
-ARM GAS  /tmp/ccXLZ6ci.s 			page 76
+ARM GAS  /tmp/ccJgfv4A.s 			page 76
 
 
  4231 0e7d 130F0000 		.4byte	0xf13
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  4285 0edf 25       		.uleb128 0x25
  4286 0ee0 BA000000 		.4byte	.LBB6
  4287 0ee4 06000000 		.4byte	.LBE6-.LBB6
-ARM GAS  /tmp/ccXLZ6ci.s 			page 77
+ARM GAS  /tmp/ccJgfv4A.s 			page 77
 
 
  4288 0ee8 FA0E0000 		.4byte	0xefa
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  4342 0f59 25       		.uleb128 0x25
  4343 0f5a 7E000000 		.4byte	.LBB8
  4344 0f5e 3A000000 		.4byte	.LBE8-.LBB8
-ARM GAS  /tmp/ccXLZ6ci.s 			page 78
+ARM GAS  /tmp/ccJgfv4A.s 			page 78
 
 
  4345 0f62 760F0000 		.4byte	0xf76
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  4399 0fd1 02       		.uleb128 0x2
  4400 0fd2 91       		.byte	0x91
  4401 0fd3 58       		.sleb128 -40
-ARM GAS  /tmp/ccXLZ6ci.s 			page 79
+ARM GAS  /tmp/ccJgfv4A.s 			page 79
 
 
  4402 0fd4 25       		.uleb128 0x25
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  4456 1048 5C100000 		.4byte	0x105c
  4457 104c 2B       		.uleb128 0x2b
  4458 104d 7E050000 		.4byte	.LASF186
-ARM GAS  /tmp/ccXLZ6ci.s 			page 80
+ARM GAS  /tmp/ccJgfv4A.s 			page 80
 
 
  4459 1051 02       		.byte	0x2
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  4513 10bd 1402     		.2byte	0x214
  4514 10bf 00000000 		.4byte	.LFB130
  4515 10c3 1C000000 		.4byte	.LFE130-.LFB130
-ARM GAS  /tmp/ccXLZ6ci.s 			page 81
+ARM GAS  /tmp/ccJgfv4A.s 			page 81
 
 
  4516 10c7 01       		.uleb128 0x1
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  4570 112f 647000   		.ascii	"dp\000"
  4571 1132 02       		.byte	0x2
  4572 1133 2302     		.2byte	0x223
-ARM GAS  /tmp/ccXLZ6ci.s 			page 82
+ARM GAS  /tmp/ccJgfv4A.s 			page 82
 
 
  4573 1135 6E0D0000 		.4byte	0xd6e
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  4627 11a5 02       		.uleb128 0x2
  4628 11a6 91       		.byte	0x91
  4629 11a7 7C       		.sleb128 -4
-ARM GAS  /tmp/ccXLZ6ci.s 			page 83
+ARM GAS  /tmp/ccJgfv4A.s 			page 83
 
 
  4630 11a8 2D       		.uleb128 0x2d
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  4684 1215 657000   		.ascii	"ep\000"
  4685 1218 02       		.byte	0x2
  4686 1219 A202     		.2byte	0x2a2
-ARM GAS  /tmp/ccXLZ6ci.s 			page 84
+ARM GAS  /tmp/ccJgfv4A.s 			page 84
 
 
  4687 121b 68070000 		.4byte	0x768
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  4741 1282 2D       		.uleb128 0x2d
  4742 1283 657000   		.ascii	"ep\000"
  4743 1286 02       		.byte	0x2
-ARM GAS  /tmp/ccXLZ6ci.s 			page 85
+ARM GAS  /tmp/ccJgfv4A.s 			page 85
 
 
  4744 1287 B802     		.2byte	0x2b8
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  4798 12ee 70       		.sleb128 -16
  4799 12ef 00       		.byte	0
  4800 12f0 2C       		.uleb128 0x2c
-ARM GAS  /tmp/ccXLZ6ci.s 			page 86
+ARM GAS  /tmp/ccJgfv4A.s 			page 86
 
 
  4801 12f1 ED060000 		.4byte	.LASF216
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  4855 135e 0203     		.2byte	0x302
  4856 1360 00000000 		.4byte	.LFB140
  4857 1364 34000000 		.4byte	.LFE140-.LFB140
-ARM GAS  /tmp/ccXLZ6ci.s 			page 87
+ARM GAS  /tmp/ccJgfv4A.s 			page 87
 
 
  4858 1368 01       		.uleb128 0x1
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  4912 13d2 F4130000 		.4byte	0x13f4
  4913 13d6 2B       		.uleb128 0x2b
  4914 13d7 7E050000 		.4byte	.LASF186
-ARM GAS  /tmp/ccXLZ6ci.s 			page 88
+ARM GAS  /tmp/ccJgfv4A.s 			page 88
 
 
  4915 13db 02       		.byte	0x2
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  4969 1444 05       		.uleb128 0x5
  4970 1445 03       		.byte	0x3
  4971 1446 00000000 		.4byte	ep0setup_buffer
-ARM GAS  /tmp/ccXLZ6ci.s 			page 89
+ARM GAS  /tmp/ccJgfv4A.s 			page 89
 
 
  4972 144a 23       		.uleb128 0x23
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  5026 0019 08       		.uleb128 0x8
  5027 001a 00       		.byte	0
  5028 001b 00       		.byte	0
-ARM GAS  /tmp/ccXLZ6ci.s 			page 90
+ARM GAS  /tmp/ccJgfv4A.s 			page 90
 
 
  5029 001c 03       		.uleb128 0x3
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  5083 0052 3A       		.uleb128 0x3a
  5084 0053 0B       		.uleb128 0xb
  5085 0054 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccXLZ6ci.s 			page 91
+ARM GAS  /tmp/ccJgfv4A.s 			page 91
 
 
  5086 0055 0B       		.uleb128 0xb
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  5140 008b 0B       		.uleb128 0xb
  5141 008c 3A       		.uleb128 0x3a
  5142 008d 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccXLZ6ci.s 			page 92
+ARM GAS  /tmp/ccJgfv4A.s 			page 92
 
 
  5143 008e 3B       		.uleb128 0x3b
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  5197 00c4 11       		.uleb128 0x11
  5198 00c5 15       		.uleb128 0x15
  5199 00c6 01       		.byte	0x1
-ARM GAS  /tmp/ccXLZ6ci.s 			page 93
+ARM GAS  /tmp/ccJgfv4A.s 			page 93
 
 
  5200 00c7 27       		.uleb128 0x27
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  5254 00fd 13       		.uleb128 0x13
  5255 00fe 38       		.uleb128 0x38
  5256 00ff 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccXLZ6ci.s 			page 94
+ARM GAS  /tmp/ccJgfv4A.s 			page 94
 
 
  5257 0100 00       		.byte	0
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  5311 0136 19       		.uleb128 0x19
  5312 0137 49       		.uleb128 0x49
  5313 0138 13       		.uleb128 0x13
-ARM GAS  /tmp/ccXLZ6ci.s 			page 95
+ARM GAS  /tmp/ccJgfv4A.s 			page 95
 
 
  5314 0139 01       		.uleb128 0x1
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  5368 0170 18       		.uleb128 0x18
  5369 0171 00       		.byte	0
  5370 0172 00       		.byte	0
-ARM GAS  /tmp/ccXLZ6ci.s 			page 96
+ARM GAS  /tmp/ccJgfv4A.s 			page 96
 
 
  5371 0173 1F       		.uleb128 0x1f
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  5425 01aa 2E       		.uleb128 0x2e
  5426 01ab 01       		.byte	0x1
  5427 01ac 03       		.uleb128 0x3
-ARM GAS  /tmp/ccXLZ6ci.s 			page 97
+ARM GAS  /tmp/ccJgfv4A.s 			page 97
 
 
  5428 01ad 0E       		.uleb128 0xe
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  5482 01e5 19       		.uleb128 0x19
  5483 01e6 01       		.uleb128 0x1
  5484 01e7 13       		.uleb128 0x13
-ARM GAS  /tmp/ccXLZ6ci.s 			page 98
+ARM GAS  /tmp/ccJgfv4A.s 			page 98
 
 
  5485 01e8 00       		.byte	0
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  5539 021e 40       		.uleb128 0x40
  5540 021f 18       		.uleb128 0x18
  5541 0220 9642     		.uleb128 0x2116
-ARM GAS  /tmp/ccXLZ6ci.s 			page 99
+ARM GAS  /tmp/ccJgfv4A.s 			page 99
 
 
  5542 0222 19       		.uleb128 0x19
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  5596 0259 02       		.uleb128 0x2
  5597 025a 18       		.uleb128 0x18
  5598 025b 00       		.byte	0
-ARM GAS  /tmp/ccXLZ6ci.s 			page 100
+ARM GAS  /tmp/ccJgfv4A.s 			page 100
 
 
  5599 025c 00       		.byte	0
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  5653 0293 49       		.uleb128 0x49
  5654 0294 13       		.uleb128 0x13
  5655 0295 11       		.uleb128 0x11
-ARM GAS  /tmp/ccXLZ6ci.s 			page 101
+ARM GAS  /tmp/ccJgfv4A.s 			page 101
 
 
  5656 0296 01       		.uleb128 0x1
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  5710 02cd 49       		.uleb128 0x49
  5711 02ce 13       		.uleb128 0x13
  5712 02cf 3F       		.uleb128 0x3f
-ARM GAS  /tmp/ccXLZ6ci.s 			page 102
+ARM GAS  /tmp/ccJgfv4A.s 			page 102
 
 
  5713 02d0 19       		.uleb128 0x19
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  5767 00b0 00000000 		.4byte	.LFB137
  5768 00b4 B0000000 		.4byte	.LFE137-.LFB137
  5769 00b8 00000000 		.4byte	.LFB138
-ARM GAS  /tmp/ccXLZ6ci.s 			page 103
+ARM GAS  /tmp/ccJgfv4A.s 			page 103
 
 
  5770 00bc 34000000 		.4byte	.LFE138-.LFB138
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  5824 009c 62000000 		.4byte	.LFE136
  5825 00a0 00000000 		.4byte	.LFB137
  5826 00a4 B0000000 		.4byte	.LFE137
-ARM GAS  /tmp/ccXLZ6ci.s 			page 104
+ARM GAS  /tmp/ccJgfv4A.s 			page 104
 
 
  5827 00a8 00000000 		.4byte	.LFB138
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  5861 0059 696E7433 		.ascii	"int32_t\000"
  5861      325F7400 
  5862              	.LASF215:
-ARM GAS  /tmp/ccXLZ6ci.s 			page 105
+ARM GAS  /tmp/ccJgfv4A.s 			page 105
 
 
  5863 0061 7573625F 		.ascii	"usb_lld_prepare_transmit\000"
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  5888              	.LASF65:
  5889 0108 65786974 		.ascii	"exitcode\000"
  5889      636F6465 
-ARM GAS  /tmp/ccXLZ6ci.s 			page 106
+ARM GAS  /tmp/ccJgfv4A.s 			page 106
 
 
  5889      00
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  5917      70747200 
  5918              	.LASF35:
  5919 0199 705F7072 		.ascii	"p_prev\000"
-ARM GAS  /tmp/ccXLZ6ci.s 			page 107
+ARM GAS  /tmp/ccJgfv4A.s 			page 107
 
 
  5919      657600
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  5945      746D6173 
  5945      6B5F7400 
  5946              	.LASF59:
-ARM GAS  /tmp/ccXLZ6ci.s 			page 108
+ARM GAS  /tmp/ccJgfv4A.s 			page 108
 
 
  5947 0239 636F6E74 		.ascii	"context\000"
@@ -6478,7 +6478,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  5971      5F736574 
  5971      757000
  5972              	.LASF16:
-ARM GAS  /tmp/ccXLZ6ci.s 			page 109
+ARM GAS  /tmp/ccJgfv4A.s 			page 109
 
 
  5973 02d6 63686172 		.ascii	"char\000"
@@ -6538,7 +6538,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  5992      6A7000
  5993              	.LASF172:
  5994 0429 696E5F63 		.ascii	"in_cb\000"
-ARM GAS  /tmp/ccXLZ6ci.s 			page 110
+ARM GAS  /tmp/ccJgfv4A.s 			page 110
 
 
  5994      6200
@@ -6598,7 +6598,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  6021              	.LASF50:
  6022 04b6 705F6570 		.ascii	"p_epending\000"
  6022      656E6469 
-ARM GAS  /tmp/ccXLZ6ci.s 			page 111
+ARM GAS  /tmp/ccJgfv4A.s 			page 111
 
 
  6022      6E6700
@@ -6658,7 +6658,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  6048      69676E65 
  6048      6420696E 
  6048      7400
-ARM GAS  /tmp/ccXLZ6ci.s 			page 112
+ARM GAS  /tmp/ccJgfv4A.s 			page 112
 
 
  6049              	.LASF142:
@@ -6718,7 +6718,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  6080      4556454E 
  6080      545F5741 
  6080      4B455550 
-ARM GAS  /tmp/ccXLZ6ci.s 			page 113
+ARM GAS  /tmp/ccJgfv4A.s 			page 113
 
 
  6080      00
@@ -6778,7 +6778,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  6108      6974696E 
  6108      6700
  6109              	.LASF43:
-ARM GAS  /tmp/ccXLZ6ci.s 			page 114
+ARM GAS  /tmp/ccJgfv4A.s 			page 114
 
 
  6110 0679 705F666C 		.ascii	"p_flags\000"
@@ -6838,7 +6838,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  6135              	.LASF149:
  6136 0712 5458434F 		.ascii	"TXCOUNT1\000"
  6136      554E5431 
-ARM GAS  /tmp/ccXLZ6ci.s 			page 115
+ARM GAS  /tmp/ccJgfv4A.s 			page 115
 
 
  6136      00
@@ -6898,7 +6898,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  6162      706D5F72 
  6162      65736574 
  6162      00
-ARM GAS  /tmp/ccXLZ6ci.s 			page 116
+ARM GAS  /tmp/ccJgfv4A.s 			page 116
 
 
  6163              	.LASF82:
@@ -6958,7 +6958,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  6190 084a 55534245 		.ascii	"USBEndpointConfig\000"
  6190      6E64706F 
  6190      696E7443 
-ARM GAS  /tmp/ccXLZ6ci.s 			page 117
+ARM GAS  /tmp/ccJgfv4A.s 			page 117
 
 
  6190      6F6E6669 
@@ -7018,7 +7018,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  6214              	.LASF140:
  6215 0918 75736267 		.ascii	"usbgetdescriptor_t\000"
  6215      65746465 
-ARM GAS  /tmp/ccXLZ6ci.s 			page 118
+ARM GAS  /tmp/ccJgfv4A.s 			page 118
 
 
  6215      73637269 
@@ -7078,7 +7078,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  6242              	.LASF202:
  6243 09b4 56656374 		.ascii	"Vector16C\000"
  6243      6F723136 
-ARM GAS  /tmp/ccXLZ6ci.s 			page 119
+ARM GAS  /tmp/ccJgfv4A.s 			page 119
 
 
  6243      4300
@@ -7138,7 +7138,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  6271 0a47 73686F72 		.ascii	"short unsigned int\000"
  6271      7420756E 
  6271      7369676E 
-ARM GAS  /tmp/ccXLZ6ci.s 			page 120
+ARM GAS  /tmp/ccJgfv4A.s 			page 120
 
 
  6271      65642069 
@@ -7198,7 +7198,7 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  6294              	.LASF190:
  6295 0afb 6E657874 		.ascii	"next\000"
  6295      00
-ARM GAS  /tmp/ccXLZ6ci.s 			page 121
+ARM GAS  /tmp/ccJgfv4A.s 			page 121
 
 
  6296              	.LASF63:
@@ -7226,117 +7226,117 @@ ARM GAS  /tmp/ccXLZ6ci.s 			page 1
  6309 0b34 705F7374 		.ascii	"p_state\000"
  6309      61746500 
  6310              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20141119 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccXLZ6ci.s 			page 122
+ARM GAS  /tmp/ccJgfv4A.s 			page 122
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 usb_lld.c
-     /tmp/ccXLZ6ci.s:21     .text.fifo_remove:00000000 $t
-     /tmp/ccXLZ6ci.s:26     .text.fifo_remove:00000000 fifo_remove
-     /tmp/ccXLZ6ci.s:66     .bss.USBD1:00000000 USBD1
-     /tmp/ccXLZ6ci.s:63     .bss.USBD1:00000000 $d
-     /tmp/ccXLZ6ci.s:69     .bss.ep0_state:00000000 $d
-     /tmp/ccXLZ6ci.s:72     .bss.ep0_state:00000000 ep0_state
-     /tmp/ccXLZ6ci.s:75     .bss.ep0setup_buffer:00000000 $d
-     /tmp/ccXLZ6ci.s:78     .bss.ep0setup_buffer:00000000 ep0setup_buffer
-     /tmp/ccXLZ6ci.s:81     .rodata.ep0config:00000000 $d
-     /tmp/ccXLZ6ci.s:84     .rodata.ep0config:00000000 ep0config
-     /tmp/ccXLZ6ci.s:97     .text.usb_pm_reset:00000000 $t
-     /tmp/ccXLZ6ci.s:102    .text.usb_pm_reset:00000000 usb_pm_reset
-     /tmp/ccXLZ6ci.s:126    .rodata:00000000 $d
-     /tmp/ccXLZ6ci.s:130    .text.usb_pm_alloc:00000000 $t
-     /tmp/ccXLZ6ci.s:135    .text.usb_pm_alloc:00000000 usb_pm_alloc
-     /tmp/ccXLZ6ci.s:179    .text.usb_pm_alloc:0000003c $d
-     /tmp/ccXLZ6ci.s:184    .text.usb_packet_read_to_buffer:00000000 $t
-     /tmp/ccXLZ6ci.s:189    .text.usb_packet_read_to_buffer:00000000 usb_packet_read_to_buffer
-     /tmp/ccXLZ6ci.s:246    .text.usb_packet_read_to_queue:00000000 $t
-     /tmp/ccXLZ6ci.s:251    .text.usb_packet_read_to_queue:00000000 usb_packet_read_to_queue
-     /tmp/ccXLZ6ci.s:423    .text.usb_packet_write_from_buffer:00000000 $t
-     /tmp/ccXLZ6ci.s:428    .text.usb_packet_write_from_buffer:00000000 usb_packet_write_from_buffer
-     /tmp/ccXLZ6ci.s:489    .text.usb_packet_write_from_queue:00000000 $t
-     /tmp/ccXLZ6ci.s:494    .text.usb_packet_write_from_queue:00000000 usb_packet_write_from_queue
-     /tmp/ccXLZ6ci.s:676    .text.usb_packet_write_from_queue:00000108 $d
-     /tmp/ccXLZ6ci.s:681    .text.Vector168:00000000 $t
-     /tmp/ccXLZ6ci.s:687    .text.Vector168:00000000 Vector168
-     /tmp/ccXLZ6ci.s:708    .text.Vector16C:00000000 $t
-     /tmp/ccXLZ6ci.s:714    .text.Vector16C:00000000 Vector16C
-     /tmp/ccXLZ6ci.s:2176   .text.usb_lld_start_in:00000000 usb_lld_start_in
-     /tmp/ccXLZ6ci.s:1084   .text.Vector16C:00000280 $d
-     /tmp/ccXLZ6ci.s:1089   .text.Vector16C:00000288 $t
-     /tmp/ccXLZ6ci.s:1245   .text.Vector16C:000003a4 $d
-     /tmp/ccXLZ6ci.s:1250   .text.usb_lld_init:00000000 $t
-     /tmp/ccXLZ6ci.s:1256   .text.usb_lld_init:00000000 usb_lld_init
-     /tmp/ccXLZ6ci.s:1274   .text.usb_lld_init:0000000c $d
-     /tmp/ccXLZ6ci.s:1279   .text.usb_lld_start:00000000 $t
-     /tmp/ccXLZ6ci.s:1285   .text.usb_lld_start:00000000 usb_lld_start
-     /tmp/ccXLZ6ci.s:1342   .text.usb_lld_start:0000004c $d
-     /tmp/ccXLZ6ci.s:1349   .text.usb_lld_stop:00000000 $t
-     /tmp/ccXLZ6ci.s:1355   .text.usb_lld_stop:00000000 usb_lld_stop
-     /tmp/ccXLZ6ci.s:1402   .text.usb_lld_stop:0000003c $d
-     /tmp/ccXLZ6ci.s:1409   .text.usb_lld_reset:00000000 $t
-     /tmp/ccXLZ6ci.s:1415   .text.usb_lld_reset:00000000 usb_lld_reset
-     /tmp/ccXLZ6ci.s:1524   .text.usb_lld_init_endpoint:00000000 usb_lld_init_endpoint
-     /tmp/ccXLZ6ci.s:1476   .text.usb_lld_reset:00000050 $d
-     /tmp/ccXLZ6ci.s:1482   .text.usb_lld_set_address:00000000 $t
-     /tmp/ccXLZ6ci.s:1488   .text.usb_lld_set_address:00000000 usb_lld_set_address
-     /tmp/ccXLZ6ci.s:1513   .text.usb_lld_set_address:00000018 $d
-     /tmp/ccXLZ6ci.s:1518   .text.usb_lld_init_endpoint:00000000 $t
-     /tmp/ccXLZ6ci.s:1700   .text.usb_lld_init_endpoint:00000150 $d
-     /tmp/ccXLZ6ci.s:1705   .text.usb_lld_disable_endpoints:00000000 $t
-     /tmp/ccXLZ6ci.s:1711   .text.usb_lld_disable_endpoints:00000000 usb_lld_disable_endpoints
-     /tmp/ccXLZ6ci.s:1760   .text.usb_lld_disable_endpoints:00000040 $d
-     /tmp/ccXLZ6ci.s:1765   .text.usb_lld_get_status_out:00000000 $t
-ARM GAS  /tmp/ccXLZ6ci.s 			page 123
+     /tmp/ccJgfv4A.s:21     .text.fifo_remove:00000000 $t
+     /tmp/ccJgfv4A.s:26     .text.fifo_remove:00000000 fifo_remove
+     /tmp/ccJgfv4A.s:66     .bss.USBD1:00000000 USBD1
+     /tmp/ccJgfv4A.s:63     .bss.USBD1:00000000 $d
+     /tmp/ccJgfv4A.s:69     .bss.ep0_state:00000000 $d
+     /tmp/ccJgfv4A.s:72     .bss.ep0_state:00000000 ep0_state
+     /tmp/ccJgfv4A.s:75     .bss.ep0setup_buffer:00000000 $d
+     /tmp/ccJgfv4A.s:78     .bss.ep0setup_buffer:00000000 ep0setup_buffer
+     /tmp/ccJgfv4A.s:81     .rodata.ep0config:00000000 $d
+     /tmp/ccJgfv4A.s:84     .rodata.ep0config:00000000 ep0config
+     /tmp/ccJgfv4A.s:97     .text.usb_pm_reset:00000000 $t
+     /tmp/ccJgfv4A.s:102    .text.usb_pm_reset:00000000 usb_pm_reset
+     /tmp/ccJgfv4A.s:126    .rodata:00000000 $d
+     /tmp/ccJgfv4A.s:130    .text.usb_pm_alloc:00000000 $t
+     /tmp/ccJgfv4A.s:135    .text.usb_pm_alloc:00000000 usb_pm_alloc
+     /tmp/ccJgfv4A.s:179    .text.usb_pm_alloc:0000003c $d
+     /tmp/ccJgfv4A.s:184    .text.usb_packet_read_to_buffer:00000000 $t
+     /tmp/ccJgfv4A.s:189    .text.usb_packet_read_to_buffer:00000000 usb_packet_read_to_buffer
+     /tmp/ccJgfv4A.s:246    .text.usb_packet_read_to_queue:00000000 $t
+     /tmp/ccJgfv4A.s:251    .text.usb_packet_read_to_queue:00000000 usb_packet_read_to_queue
+     /tmp/ccJgfv4A.s:423    .text.usb_packet_write_from_buffer:00000000 $t
+     /tmp/ccJgfv4A.s:428    .text.usb_packet_write_from_buffer:00000000 usb_packet_write_from_buffer
+     /tmp/ccJgfv4A.s:489    .text.usb_packet_write_from_queue:00000000 $t
+     /tmp/ccJgfv4A.s:494    .text.usb_packet_write_from_queue:00000000 usb_packet_write_from_queue
+     /tmp/ccJgfv4A.s:676    .text.usb_packet_write_from_queue:00000108 $d
+     /tmp/ccJgfv4A.s:681    .text.Vector168:00000000 $t
+     /tmp/ccJgfv4A.s:687    .text.Vector168:00000000 Vector168
+     /tmp/ccJgfv4A.s:708    .text.Vector16C:00000000 $t
+     /tmp/ccJgfv4A.s:714    .text.Vector16C:00000000 Vector16C
+     /tmp/ccJgfv4A.s:2176   .text.usb_lld_start_in:00000000 usb_lld_start_in
+     /tmp/ccJgfv4A.s:1084   .text.Vector16C:00000280 $d
+     /tmp/ccJgfv4A.s:1089   .text.Vector16C:00000288 $t
+     /tmp/ccJgfv4A.s:1245   .text.Vector16C:000003a4 $d
+     /tmp/ccJgfv4A.s:1250   .text.usb_lld_init:00000000 $t
+     /tmp/ccJgfv4A.s:1256   .text.usb_lld_init:00000000 usb_lld_init
+     /tmp/ccJgfv4A.s:1274   .text.usb_lld_init:0000000c $d
+     /tmp/ccJgfv4A.s:1279   .text.usb_lld_start:00000000 $t
+     /tmp/ccJgfv4A.s:1285   .text.usb_lld_start:00000000 usb_lld_start
+     /tmp/ccJgfv4A.s:1342   .text.usb_lld_start:0000004c $d
+     /tmp/ccJgfv4A.s:1349   .text.usb_lld_stop:00000000 $t
+     /tmp/ccJgfv4A.s:1355   .text.usb_lld_stop:00000000 usb_lld_stop
+     /tmp/ccJgfv4A.s:1402   .text.usb_lld_stop:0000003c $d
+     /tmp/ccJgfv4A.s:1409   .text.usb_lld_reset:00000000 $t
+     /tmp/ccJgfv4A.s:1415   .text.usb_lld_reset:00000000 usb_lld_reset
+     /tmp/ccJgfv4A.s:1524   .text.usb_lld_init_endpoint:00000000 usb_lld_init_endpoint
+     /tmp/ccJgfv4A.s:1476   .text.usb_lld_reset:00000050 $d
+     /tmp/ccJgfv4A.s:1482   .text.usb_lld_set_address:00000000 $t
+     /tmp/ccJgfv4A.s:1488   .text.usb_lld_set_address:00000000 usb_lld_set_address
+     /tmp/ccJgfv4A.s:1513   .text.usb_lld_set_address:00000018 $d
+     /tmp/ccJgfv4A.s:1518   .text.usb_lld_init_endpoint:00000000 $t
+     /tmp/ccJgfv4A.s:1700   .text.usb_lld_init_endpoint:00000150 $d
+     /tmp/ccJgfv4A.s:1705   .text.usb_lld_disable_endpoints:00000000 $t
+     /tmp/ccJgfv4A.s:1711   .text.usb_lld_disable_endpoints:00000000 usb_lld_disable_endpoints
+     /tmp/ccJgfv4A.s:1760   .text.usb_lld_disable_endpoints:00000040 $d
+     /tmp/ccJgfv4A.s:1765   .text.usb_lld_get_status_out:00000000 $t
+ARM GAS  /tmp/ccJgfv4A.s 			page 123
 
 
-     /tmp/ccXLZ6ci.s:1771   .text.usb_lld_get_status_out:00000000 usb_lld_get_status_out
-     /tmp/ccXLZ6ci.s:1814   .text.usb_lld_get_status_out:00000034 $d
-     /tmp/ccXLZ6ci.s:1819   .text.usb_lld_get_status_in:00000000 $t
-     /tmp/ccXLZ6ci.s:1825   .text.usb_lld_get_status_in:00000000 usb_lld_get_status_in
-     /tmp/ccXLZ6ci.s:1868   .text.usb_lld_get_status_in:00000034 $d
-     /tmp/ccXLZ6ci.s:1873   .text.usb_lld_read_setup:00000000 $t
-     /tmp/ccXLZ6ci.s:1879   .text.usb_lld_read_setup:00000000 usb_lld_read_setup
-     /tmp/ccXLZ6ci.s:1943   .text.usb_lld_read_setup:00000060 $d
-     /tmp/ccXLZ6ci.s:1948   .text.usb_lld_prepare_receive:00000000 $t
-     /tmp/ccXLZ6ci.s:1954   .text.usb_lld_prepare_receive:00000000 usb_lld_prepare_receive
-     /tmp/ccXLZ6ci.s:2021   .text.usb_lld_prepare_transmit:00000000 $t
-     /tmp/ccXLZ6ci.s:2027   .text.usb_lld_prepare_transmit:00000000 usb_lld_prepare_transmit
-     /tmp/ccXLZ6ci.s:2124   .text.usb_lld_prepare_transmit:000000ac $d
-     /tmp/ccXLZ6ci.s:2129   .text.usb_lld_start_out:00000000 $t
-     /tmp/ccXLZ6ci.s:2135   .text.usb_lld_start_out:00000000 usb_lld_start_out
-     /tmp/ccXLZ6ci.s:2165   .text.usb_lld_start_out:00000030 $d
-     /tmp/ccXLZ6ci.s:2170   .text.usb_lld_start_in:00000000 $t
-     /tmp/ccXLZ6ci.s:2206   .text.usb_lld_start_in:00000030 $d
-     /tmp/ccXLZ6ci.s:2211   .text.usb_lld_stall_out:00000000 $t
-     /tmp/ccXLZ6ci.s:2217   .text.usb_lld_stall_out:00000000 usb_lld_stall_out
-     /tmp/ccXLZ6ci.s:2247   .text.usb_lld_stall_out:00000030 $d
-     /tmp/ccXLZ6ci.s:2252   .text.usb_lld_stall_in:00000000 $t
-     /tmp/ccXLZ6ci.s:2258   .text.usb_lld_stall_in:00000000 usb_lld_stall_in
-     /tmp/ccXLZ6ci.s:2288   .text.usb_lld_stall_in:00000030 $d
-     /tmp/ccXLZ6ci.s:2293   .text.usb_lld_clear_out:00000000 $t
-     /tmp/ccXLZ6ci.s:2299   .text.usb_lld_clear_out:00000000 usb_lld_clear_out
-     /tmp/ccXLZ6ci.s:2337   .text.usb_lld_clear_out:00000044 $d
-     /tmp/ccXLZ6ci.s:2342   .text.usb_lld_clear_in:00000000 $t
-     /tmp/ccXLZ6ci.s:2348   .text.usb_lld_clear_in:00000000 usb_lld_clear_in
-     /tmp/ccXLZ6ci.s:2386   .text.usb_lld_clear_in:00000040 $d
+     /tmp/ccJgfv4A.s:1771   .text.usb_lld_get_status_out:00000000 usb_lld_get_status_out
+     /tmp/ccJgfv4A.s:1814   .text.usb_lld_get_status_out:00000034 $d
+     /tmp/ccJgfv4A.s:1819   .text.usb_lld_get_status_in:00000000 $t
+     /tmp/ccJgfv4A.s:1825   .text.usb_lld_get_status_in:00000000 usb_lld_get_status_in
+     /tmp/ccJgfv4A.s:1868   .text.usb_lld_get_status_in:00000034 $d
+     /tmp/ccJgfv4A.s:1873   .text.usb_lld_read_setup:00000000 $t
+     /tmp/ccJgfv4A.s:1879   .text.usb_lld_read_setup:00000000 usb_lld_read_setup
+     /tmp/ccJgfv4A.s:1943   .text.usb_lld_read_setup:00000060 $d
+     /tmp/ccJgfv4A.s:1948   .text.usb_lld_prepare_receive:00000000 $t
+     /tmp/ccJgfv4A.s:1954   .text.usb_lld_prepare_receive:00000000 usb_lld_prepare_receive
+     /tmp/ccJgfv4A.s:2021   .text.usb_lld_prepare_transmit:00000000 $t
+     /tmp/ccJgfv4A.s:2027   .text.usb_lld_prepare_transmit:00000000 usb_lld_prepare_transmit
+     /tmp/ccJgfv4A.s:2124   .text.usb_lld_prepare_transmit:000000ac $d
+     /tmp/ccJgfv4A.s:2129   .text.usb_lld_start_out:00000000 $t
+     /tmp/ccJgfv4A.s:2135   .text.usb_lld_start_out:00000000 usb_lld_start_out
+     /tmp/ccJgfv4A.s:2165   .text.usb_lld_start_out:00000030 $d
+     /tmp/ccJgfv4A.s:2170   .text.usb_lld_start_in:00000000 $t
+     /tmp/ccJgfv4A.s:2206   .text.usb_lld_start_in:00000030 $d
+     /tmp/ccJgfv4A.s:2211   .text.usb_lld_stall_out:00000000 $t
+     /tmp/ccJgfv4A.s:2217   .text.usb_lld_stall_out:00000000 usb_lld_stall_out
+     /tmp/ccJgfv4A.s:2247   .text.usb_lld_stall_out:00000030 $d
+     /tmp/ccJgfv4A.s:2252   .text.usb_lld_stall_in:00000000 $t
+     /tmp/ccJgfv4A.s:2258   .text.usb_lld_stall_in:00000000 usb_lld_stall_in
+     /tmp/ccJgfv4A.s:2288   .text.usb_lld_stall_in:00000030 $d
+     /tmp/ccJgfv4A.s:2293   .text.usb_lld_clear_out:00000000 $t
+     /tmp/ccJgfv4A.s:2299   .text.usb_lld_clear_out:00000000 usb_lld_clear_out
+     /tmp/ccJgfv4A.s:2337   .text.usb_lld_clear_out:00000044 $d
+     /tmp/ccJgfv4A.s:2342   .text.usb_lld_clear_in:00000000 $t
+     /tmp/ccJgfv4A.s:2348   .text.usb_lld_clear_in:00000000 usb_lld_clear_in
+     /tmp/ccJgfv4A.s:2386   .text.usb_lld_clear_in:00000040 $d
                      .debug_frame:00000010 $d
-     /tmp/ccXLZ6ci.s:680    .text.usb_packet_write_from_queue:0000010c $t
-     /tmp/ccXLZ6ci.s:1249   .text.Vector16C:000003a8 $t
-     /tmp/ccXLZ6ci.s:1348   .text.usb_lld_start:00000058 $t
-     /tmp/ccXLZ6ci.s:1408   .text.usb_lld_stop:00000048 $t
-     /tmp/ccXLZ6ci.s:1481   .text.usb_lld_reset:00000058 $t
-     /tmp/ccXLZ6ci.s:1517   .text.usb_lld_set_address:0000001c $t
-     /tmp/ccXLZ6ci.s:1704   .text.usb_lld_init_endpoint:00000154 $t
-     /tmp/ccXLZ6ci.s:1764   .text.usb_lld_disable_endpoints:00000044 $t
-     /tmp/ccXLZ6ci.s:1818   .text.usb_lld_get_status_out:00000038 $t
-     /tmp/ccXLZ6ci.s:1872   .text.usb_lld_get_status_in:00000038 $t
-     /tmp/ccXLZ6ci.s:1947   .text.usb_lld_read_setup:00000064 $t
-     /tmp/ccXLZ6ci.s:2169   .text.usb_lld_start_out:00000034 $t
-     /tmp/ccXLZ6ci.s:2210   .text.usb_lld_start_in:00000034 $t
-     /tmp/ccXLZ6ci.s:2251   .text.usb_lld_stall_out:00000034 $t
-     /tmp/ccXLZ6ci.s:2292   .text.usb_lld_stall_in:00000034 $t
-     /tmp/ccXLZ6ci.s:2341   .text.usb_lld_clear_out:00000048 $t
-     /tmp/ccXLZ6ci.s:2390   .text.usb_lld_clear_in:00000044 $t
+     /tmp/ccJgfv4A.s:680    .text.usb_packet_write_from_queue:0000010c $t
+     /tmp/ccJgfv4A.s:1249   .text.Vector16C:000003a8 $t
+     /tmp/ccJgfv4A.s:1348   .text.usb_lld_start:00000058 $t
+     /tmp/ccJgfv4A.s:1408   .text.usb_lld_stop:00000048 $t
+     /tmp/ccJgfv4A.s:1481   .text.usb_lld_reset:00000058 $t
+     /tmp/ccJgfv4A.s:1517   .text.usb_lld_set_address:0000001c $t
+     /tmp/ccJgfv4A.s:1704   .text.usb_lld_init_endpoint:00000154 $t
+     /tmp/ccJgfv4A.s:1764   .text.usb_lld_disable_endpoints:00000044 $t
+     /tmp/ccJgfv4A.s:1818   .text.usb_lld_get_status_out:00000038 $t
+     /tmp/ccJgfv4A.s:1872   .text.usb_lld_get_status_in:00000038 $t
+     /tmp/ccJgfv4A.s:1947   .text.usb_lld_read_setup:00000064 $t
+     /tmp/ccJgfv4A.s:2169   .text.usb_lld_start_out:00000034 $t
+     /tmp/ccJgfv4A.s:2210   .text.usb_lld_start_in:00000034 $t
+     /tmp/ccJgfv4A.s:2251   .text.usb_lld_stall_out:00000034 $t
+     /tmp/ccJgfv4A.s:2292   .text.usb_lld_stall_in:00000034 $t
+     /tmp/ccJgfv4A.s:2341   .text.usb_lld_clear_out:00000048 $t
+     /tmp/ccJgfv4A.s:2390   .text.usb_lld_clear_in:00000044 $t
 
 UNDEFINED SYMBOLS
 _usb_ep0setup
@@ -7346,7 +7346,7 @@ chDbgPanic
 dbg_check_lock_from_isr
 chSchReadyI
 dbg_check_unlock_from_isr
-ARM GAS  /tmp/ccXLZ6ci.s 			page 124
+ARM GAS  /tmp/ccJgfv4A.s 			page 124
 
 
 dbg_lock_cnt
