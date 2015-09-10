@@ -37,9 +37,9 @@ int main(void) {
 	r2p::ledsub_conf ledsub_conf = {"led"};
 	r2p::Thread::create_heap(NULL, THD_WA_SIZE(512), NORMALPRIO, r2p::ledsub_node, &ledsub_conf);
 
-	r2p::Thread::create_heap(NULL, THD_WA_SIZE(512), NORMALPRIO, shell_node, NULL);
+	r2p::Thread::create_heap(NULL, THD_WA_SIZE(2048), NORMALPRIO, shell_node, NULL);
 	r2p::Thread::create_heap(NULL, THD_WA_SIZE(512), NORMALPRIO, pixy_node, NULL);
-	r2p::Thread::create_heap(NULL, THD_WA_SIZE(512), NORMALPRIO, follow_node, NULL);
+	r2p::Thread::create_heap(NULL, THD_WA_SIZE(2048), NORMALPRIO, follow_node, NULL);
 
 	for (;;) {
 		r2p::Thread::sleep(r2p::Time::ms(50));

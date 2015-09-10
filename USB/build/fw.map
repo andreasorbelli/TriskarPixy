@@ -2278,11 +2278,6 @@ Discarded input sections
  .group         0x00000000        0x8 build/obj/follow_node.o
  .group         0x00000000        0x8 build/obj/follow_node.o
  .group         0x00000000        0x8 build/obj/follow_node.o
- .group         0x00000000        0x8 build/obj/follow_node.o
- .group         0x00000000        0x8 build/obj/follow_node.o
- .group         0x00000000        0x8 build/obj/follow_node.o
- .group         0x00000000        0x8 build/obj/follow_node.o
- .group         0x00000000        0x8 build/obj/follow_node.o
  .group         0x00000000        0xc build/obj/follow_node.o
  .group         0x00000000        0x8 build/obj/follow_node.o
  .group         0x00000000        0x8 build/obj/follow_node.o
@@ -2292,6 +2287,12 @@ Discarded input sections
  .group         0x00000000        0xc build/obj/follow_node.o
  .group         0x00000000        0x8 build/obj/follow_node.o
  .group         0x00000000        0x8 build/obj/follow_node.o
+ .group         0x00000000        0xc build/obj/follow_node.o
+ .group         0x00000000        0x8 build/obj/follow_node.o
+ .group         0x00000000        0x8 build/obj/follow_node.o
+ .group         0x00000000        0x8 build/obj/follow_node.o
+ .group         0x00000000        0x8 build/obj/follow_node.o
+ .group         0x00000000        0x8 build/obj/follow_node.o
  .group         0x00000000        0x8 build/obj/follow_node.o
  .group         0x00000000        0x8 build/obj/follow_node.o
  .group         0x00000000        0x8 build/obj/follow_node.o
@@ -2303,6 +2304,10 @@ Discarded input sections
  .group         0x00000000        0xc build/obj/follow_node.o
  .group         0x00000000        0x8 build/obj/follow_node.o
  .group         0x00000000        0xc build/obj/follow_node.o
+ .group         0x00000000        0x8 build/obj/follow_node.o
+ .group         0x00000000        0xc build/obj/follow_node.o
+ .group         0x00000000        0x8 build/obj/follow_node.o
+ .group         0x00000000        0x8 build/obj/follow_node.o
  .group         0x00000000        0x8 build/obj/follow_node.o
  .group         0x00000000        0x8 build/obj/follow_node.o
  .group         0x00000000        0x8 build/obj/follow_node.o
@@ -2335,29 +2340,19 @@ Discarded input sections
                 0x00000000       0x40 build/obj/follow_node.o
  .text._ZN3r2p13BasePublisher5allocERPNS_7MessageE
                 0x00000000       0x30 build/obj/follow_node.o
- .text._ZN3r2p7Thread_4selfEv
-                0x00000000       0x10 build/obj/follow_node.o
  .text._ZN3r2p7Thread_5sleepERKNS_4TimeE
                 0x00000000       0x70 build/obj/follow_node.o
- .text._ZN3r2p6Thread4selfEv
-                0x00000000       0x10 build/obj/follow_node.o
  .text._ZN3r2p6Thread5sleepERKNS_4TimeE
                 0x00000000       0x20 build/obj/follow_node.o
  .text._ZNK3r2p10SpinEvent_10get_threadEv
-                0x00000000       0x10 build/obj/follow_node.o
- .text._ZN3r2p10SpinEvent_10set_threadEPNS_6ThreadE
                 0x00000000       0x10 build/obj/follow_node.o
  .text._ZN3r2p10SpinEvent_13signal_unsafeEj
                 0x00000000       0x40 build/obj/follow_node.o
  .text._ZNK3r2p9SpinEvent10get_threadEv
                 0x00000000       0x20 build/obj/follow_node.o
- .text._ZN3r2p9SpinEvent10set_threadEPNS_6ThreadE
-                0x00000000       0x20 build/obj/follow_node.o
  .text._ZN3r2p9SpinEvent13signal_unsafeEj
                 0x00000000       0x20 build/obj/follow_node.o
  .text._ZNK3r2p4Node11get_enabledEv
-                0x00000000       0x30 build/obj/follow_node.o
- .text._ZN3r2p4Node11set_enabledEb
                 0x00000000       0x30 build/obj/follow_node.o
  .text._ZN3r2p4Node13notify_unsafeEj
                 0x00000000       0x20 build/obj/follow_node.o
@@ -2391,13 +2386,27 @@ Discarded input sections
                 0x00000000       0x30 build/obj/follow_node.o
  .text._ZN3r2p10SubscriberINS_7PixyMsgELj5EED0Ev
                 0x00000000       0x20 build/obj/follow_node.o
- .text._ZN3r2p4Node9subscribeINS_7PixyMsgELj5EEEbRNS_10SubscriberIT_XT0_EEEPKc
+ .text._ZN3r2p12ProximityMsgC2Ev
+                0x00000000       0x20 build/obj/follow_node.o
+ .text._ZN3r2p10SubscriberINS_12ProximityMsgELj5EEC2EPFbRKS1_E
+                0x00000000       0x50 build/obj/follow_node.o
+ .text._ZN3r2p10SubscriberINS_12ProximityMsgELj5EED2Ev
                 0x00000000       0x30 build/obj/follow_node.o
+ .text._ZN3r2p10SubscriberINS_12ProximityMsgELj5EED0Ev
+                0x00000000       0x20 build/obj/follow_node.o
  .text._ZN3r2p4Node9advertiseINS_9Speed3MsgEEEbRNS_9PublisherIT_EEPKcRKNS_4TimeE
+                0x00000000       0x30 build/obj/follow_node.o
+ .text._ZN3r2p4Node9subscribeINS_12ProximityMsgELj5EEEbRNS_10SubscriberIT_XT0_EEEPKc
+                0x00000000       0x30 build/obj/follow_node.o
+ .text._ZN3r2p4Node9subscribeINS_7PixyMsgELj5EEEbRNS_10SubscriberIT_XT0_EEEPKc
                 0x00000000       0x30 build/obj/follow_node.o
  .text._ZN3r2p16SubscriberExtBufINS_7PixyMsgEE5fetchERPS1_
                 0x00000000       0x20 build/obj/follow_node.o
  .text._ZN3r2p16SubscriberExtBufINS_7PixyMsgEE7releaseERS1_
+                0x00000000       0x20 build/obj/follow_node.o
+ .text._ZN3r2p16SubscriberExtBufINS_12ProximityMsgEE5fetchERPS1_
+                0x00000000       0x20 build/obj/follow_node.o
+ .text._ZN3r2p16SubscriberExtBufINS_12ProximityMsgEE7releaseERS1_
                 0x00000000       0x20 build/obj/follow_node.o
  .text._ZN3r2p9PublisherINS_9Speed3MsgEE5allocERPS1_
                 0x00000000       0x20 build/obj/follow_node.o
@@ -2409,6 +2418,16 @@ Discarded input sections
                 0x00000000       0x30 build/obj/follow_node.o
  .text._ZN3r2p16SubscriberExtBufINS_7PixyMsgEED0Ev
                 0x00000000       0x20 build/obj/follow_node.o
+ .text._ZN3r2p16SubscriberExtBufINS_12ProximityMsgEEC2EPPS1_jPFbRKS1_E
+                0x00000000       0x30 build/obj/follow_node.o
+ .text._ZN3r2p16SubscriberExtBufINS_12ProximityMsgEED2Ev
+                0x00000000       0x30 build/obj/follow_node.o
+ .text._ZN3r2p16SubscriberExtBufINS_12ProximityMsgEED0Ev
+                0x00000000       0x20 build/obj/follow_node.o
+ .rodata._ZTVN3r2p10SubscriberINS_12ProximityMsgELj5EEE
+                0x00000000       0x28 build/obj/follow_node.o
+ .rodata._ZTVN3r2p16SubscriberExtBufINS_12ProximityMsgEEE
+                0x00000000       0x28 build/obj/follow_node.o
  .rodata._ZTVN3r2p10SubscriberINS_7PixyMsgELj5EEE
                 0x00000000       0x28 build/obj/follow_node.o
  .rodata._ZTVN3r2p16SubscriberExtBufINS_7PixyMsgEEE
@@ -2790,7 +2809,7 @@ destructors     0x08000194        0x0
  *(SORT(.fini_array.*))
                 0x08000194                PROVIDE (__fini_array_end, .)
 
-.text           0x080001a0    0x1314c
+.text           0x080001a0    0x1316c
  *(.text.startup.*)
  *(.text)
  .text          0x080001a0      0x370 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/libgcc.a(_arm_addsubdf3.o)
@@ -5003,501 +5022,500 @@ destructors     0x08000194        0x0
                 0x0800e580       0x20 build/obj/pixy_node.o
                 0x0800e580                r2p::Publisher<r2p::PixyMsg>::publish(r2p::PixyMsg&)
  .text._Z11follow_nodePv
-                0x0800e5a0      0x440 build/obj/follow_node.o
+                0x0800e5a0      0x460 build/obj/follow_node.o
                 0x0800e5a0                follow_node(void*)
  .text._ZN3r2p9FollowMsgC2Ev
-                0x0800e9e0       0x20 build/obj/follow_node.o
-                0x0800e9e0                r2p::FollowMsg::FollowMsg()
-                0x0800e9e0                r2p::FollowMsg::FollowMsg()
+                0x0800ea00       0x20 build/obj/follow_node.o
+                0x0800ea00                r2p::FollowMsg::FollowMsg()
+                0x0800ea00                r2p::FollowMsg::FollowMsg()
  .text._ZN3r2p10SubscriberINS_9FollowMsgELj5EEC2EPFbRKS1_E
-                0x0800ea00       0x50 build/obj/follow_node.o
-                0x0800ea00                r2p::Subscriber<r2p::FollowMsg, 5u>::Subscriber(bool (*)(r2p::FollowMsg const&))
-                0x0800ea00                r2p::Subscriber<r2p::FollowMsg, 5u>::Subscriber(bool (*)(r2p::FollowMsg const&))
+                0x0800ea20       0x50 build/obj/follow_node.o
+                0x0800ea20                r2p::Subscriber<r2p::FollowMsg, 5u>::Subscriber(bool (*)(r2p::FollowMsg const&))
+                0x0800ea20                r2p::Subscriber<r2p::FollowMsg, 5u>::Subscriber(bool (*)(r2p::FollowMsg const&))
  .text._ZN3r2p10SubscriberINS_9FollowMsgELj5EED2Ev
-                0x0800ea50       0x30 build/obj/follow_node.o
-                0x0800ea50                r2p::Subscriber<r2p::FollowMsg, 5u>::~Subscriber()
-                0x0800ea50                r2p::Subscriber<r2p::FollowMsg, 5u>::~Subscriber()
+                0x0800ea70       0x30 build/obj/follow_node.o
+                0x0800ea70                r2p::Subscriber<r2p::FollowMsg, 5u>::~Subscriber()
+                0x0800ea70                r2p::Subscriber<r2p::FollowMsg, 5u>::~Subscriber()
  .text._ZN3r2p10SubscriberINS_9FollowMsgELj5EED0Ev
-                0x0800ea80       0x20 build/obj/follow_node.o
-                0x0800ea80                r2p::Subscriber<r2p::FollowMsg, 5u>::~Subscriber()
+                0x0800eaa0       0x20 build/obj/follow_node.o
+                0x0800eaa0                r2p::Subscriber<r2p::FollowMsg, 5u>::~Subscriber()
  .text._ZN3r2p4Node9subscribeINS_9FollowMsgELj5EEEbRNS_10SubscriberIT_XT0_EEEPKc
-                0x0800eaa0       0x30 build/obj/follow_node.o
-                0x0800eaa0                bool r2p::Node::subscribe<r2p::FollowMsg, 5u>(r2p::Subscriber<r2p::FollowMsg, 5u>&, char const*)
+                0x0800eac0       0x30 build/obj/follow_node.o
+                0x0800eac0                bool r2p::Node::subscribe<r2p::FollowMsg, 5u>(r2p::Subscriber<r2p::FollowMsg, 5u>&, char const*)
  .text._ZN3r2p16SubscriberExtBufINS_9FollowMsgEE5fetchERPS1_
-                0x0800ead0       0x20 build/obj/follow_node.o
-                0x0800ead0                r2p::SubscriberExtBuf<r2p::FollowMsg>::fetch(r2p::FollowMsg*&)
- .text._ZN3r2p16SubscriberExtBufINS_9FollowMsgEE7releaseERS1_
                 0x0800eaf0       0x20 build/obj/follow_node.o
-                0x0800eaf0                r2p::SubscriberExtBuf<r2p::FollowMsg>::release(r2p::FollowMsg&)
+                0x0800eaf0                r2p::SubscriberExtBuf<r2p::FollowMsg>::fetch(r2p::FollowMsg*&)
+ .text._ZN3r2p16SubscriberExtBufINS_9FollowMsgEE7releaseERS1_
+                0x0800eb10       0x20 build/obj/follow_node.o
+                0x0800eb10                r2p::SubscriberExtBuf<r2p::FollowMsg>::release(r2p::FollowMsg&)
  .text._Z5clampIfET_S0_S0_S0_
-                0x0800eb10       0x50 build/obj/follow_node.o
+                0x0800eb30       0x50 build/obj/follow_node.o
  .text._ZN3r2p16SubscriberExtBufINS_9FollowMsgEEC2EPPS1_jPFbRKS1_E
-                0x0800eb60       0x30 build/obj/follow_node.o
-                0x0800eb60                r2p::SubscriberExtBuf<r2p::FollowMsg>::SubscriberExtBuf(r2p::FollowMsg**, unsigned int, bool (*)(r2p::FollowMsg const&))
-                0x0800eb60                r2p::SubscriberExtBuf<r2p::FollowMsg>::SubscriberExtBuf(r2p::FollowMsg**, unsigned int, bool (*)(r2p::FollowMsg const&))
+                0x0800eb80       0x30 build/obj/follow_node.o
+                0x0800eb80                r2p::SubscriberExtBuf<r2p::FollowMsg>::SubscriberExtBuf(r2p::FollowMsg**, unsigned int, bool (*)(r2p::FollowMsg const&))
+                0x0800eb80                r2p::SubscriberExtBuf<r2p::FollowMsg>::SubscriberExtBuf(r2p::FollowMsg**, unsigned int, bool (*)(r2p::FollowMsg const&))
  .text._ZN3r2p16SubscriberExtBufINS_9FollowMsgEED2Ev
-                0x0800eb90       0x30 build/obj/follow_node.o
-                0x0800eb90                r2p::SubscriberExtBuf<r2p::FollowMsg>::~SubscriberExtBuf()
-                0x0800eb90                r2p::SubscriberExtBuf<r2p::FollowMsg>::~SubscriberExtBuf()
+                0x0800ebb0       0x30 build/obj/follow_node.o
+                0x0800ebb0                r2p::SubscriberExtBuf<r2p::FollowMsg>::~SubscriberExtBuf()
+                0x0800ebb0                r2p::SubscriberExtBuf<r2p::FollowMsg>::~SubscriberExtBuf()
  .text._ZN3r2p16SubscriberExtBufINS_9FollowMsgEED0Ev
-                0x0800ebc0       0x20 build/obj/follow_node.o
-                0x0800ebc0                r2p::SubscriberExtBuf<r2p::FollowMsg>::~SubscriberExtBuf()
+                0x0800ebe0       0x20 build/obj/follow_node.o
+                0x0800ebe0                r2p::SubscriberExtBuf<r2p::FollowMsg>::~SubscriberExtBuf()
  .text._ZN3r2p7Thread_11create_heapEPvjmPFlS1_ES1_PKc
-                0x0800ebe0       0x40 build/obj/main.o
-                0x0800ebe0                r2p::Thread_::create_heap(void*, unsigned int, unsigned long, long (*)(void*), void*, char const*)
+                0x0800ec00       0x40 build/obj/main.o
+                0x0800ec00                r2p::Thread_::create_heap(void*, unsigned int, unsigned long, long (*)(void*), void*, char const*)
  .text._ZN3r2p6Thread11create_heapEPvjmPFlS1_ES1_PKc
-                0x0800ec20       0x30 build/obj/main.o
-                0x0800ec20                r2p::Thread::create_heap(void*, unsigned int, unsigned long, long (*)(void*), void*, char const*)
- .text.main     0x0800ec50      0x130 build/obj/main.o
-                0x0800ec50                main
+                0x0800ec40       0x30 build/obj/main.o
+                0x0800ec40                r2p::Thread::create_heap(void*, unsigned int, unsigned long, long (*)(void*), void*, char const*)
+ .text.main     0x0800ec70      0x130 build/obj/main.o
+                0x0800ec70                main
  .text._ZN3r2p10StaticListINS_4NodeEED2Ev
-                0x0800ed80       0x20 build/obj/main.o
-                0x0800ed80                r2p::StaticList<r2p::Node>::~StaticList()
-                0x0800ed80                r2p::StaticList<r2p::Node>::~StaticList()
- .text._ZN3r2p10StaticListINS_5TopicEED2Ev
                 0x0800eda0       0x20 build/obj/main.o
-                0x0800eda0                r2p::StaticList<r2p::Topic>::~StaticList()
-                0x0800eda0                r2p::StaticList<r2p::Topic>::~StaticList()
- .text._ZN3r2p10StaticListINS_9TransportEED2Ev
+                0x0800eda0                r2p::StaticList<r2p::Node>::~StaticList()
+                0x0800eda0                r2p::StaticList<r2p::Node>::~StaticList()
+ .text._ZN3r2p10StaticListINS_5TopicEED2Ev
                 0x0800edc0       0x20 build/obj/main.o
-                0x0800edc0                r2p::StaticList<r2p::Transport>::~StaticList()
-                0x0800edc0                r2p::StaticList<r2p::Transport>::~StaticList()
- .text._ZN3r2p7ReMutexD2Ev
+                0x0800edc0                r2p::StaticList<r2p::Topic>::~StaticList()
+                0x0800edc0                r2p::StaticList<r2p::Topic>::~StaticList()
+ .text._ZN3r2p10StaticListINS_9TransportEED2Ev
                 0x0800ede0       0x20 build/obj/main.o
-                0x0800ede0                r2p::ReMutex::~ReMutex()
-                0x0800ede0                r2p::ReMutex::~ReMutex()
+                0x0800ede0                r2p::StaticList<r2p::Transport>::~StaticList()
+                0x0800ede0                r2p::StaticList<r2p::Transport>::~StaticList()
+ .text._ZN3r2p7ReMutexD2Ev
+                0x0800ee00       0x20 build/obj/main.o
+                0x0800ee00                r2p::ReMutex::~ReMutex()
+                0x0800ee00                r2p::ReMutex::~ReMutex()
  .text._ZN3r2p5TopicD2Ev
-                0x0800ee00       0x40 build/obj/main.o
-                0x0800ee00                r2p::Topic::~Topic()
-                0x0800ee00                r2p::Topic::~Topic()
+                0x0800ee20       0x40 build/obj/main.o
+                0x0800ee20                r2p::Topic::~Topic()
+                0x0800ee20                r2p::Topic::~Topic()
  .text._ZN3r2p10MiddlewareD2Ev
-                0x0800ee40       0x70 build/obj/main.o
-                0x0800ee40                r2p::Middleware::~Middleware()
-                0x0800ee40                r2p::Middleware::~Middleware()
+                0x0800ee60       0x70 build/obj/main.o
+                0x0800ee60                r2p::Middleware::~Middleware()
+                0x0800ee60                r2p::Middleware::~Middleware()
  .text._Z41__static_initialization_and_destruction_0ii
-                0x0800eeb0       0x70 build/obj/main.o
+                0x0800eed0       0x70 build/obj/main.o
  .text._GLOBAL__sub_I_rtcan_config
-                0x0800ef20       0x10 build/obj/main.o
+                0x0800ef40       0x10 build/obj/main.o
  .text.__aeabi_atexit
-                0x0800ef30        0xc /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-aeabi_atexit.o)
-                0x0800ef30                __aeabi_atexit
- *fill*         0x0800ef3c        0x4 
- .text.atof     0x0800ef40        0x8 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-atof.o)
-                0x0800ef40                atof
- *fill*         0x0800ef48        0x8 
+                0x0800ef50        0xc /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-aeabi_atexit.o)
+                0x0800ef50                __aeabi_atexit
+ *fill*         0x0800ef5c        0x4 
+ .text.atof     0x0800ef60        0x8 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-atof.o)
+                0x0800ef60                atof
+ *fill*         0x0800ef68        0x8 
  .text.__cxa_atexit
-                0x0800ef50       0x14 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-cxa_atexit.o)
-                0x0800ef50                __cxa_atexit
- *fill*         0x0800ef64        0xc 
- .text.memset   0x0800ef70       0x9c /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-memset.o)
-                0x0800ef70                memset
- *fill*         0x0800f00c        0x4 
+                0x0800ef70       0x14 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-cxa_atexit.o)
+                0x0800ef70                __cxa_atexit
+ *fill*         0x0800ef84        0xc 
+ .text.memset   0x0800ef90       0x9c /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-memset.o)
+                0x0800ef90                memset
+ *fill*         0x0800f02c        0x4 
  .text.strcasecmp
-                0x0800f010       0x44 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strcasecmp.o)
-                0x0800f010                strcasecmp
- *fill*         0x0800f054        0xc 
- .text.strncmp  0x0800f060       0x98 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strncmp.o)
-                0x0800f060                strncmp
- *fill*         0x0800f0f8        0x8 
- .text.strncpy  0x0800f100       0x68 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strncpy.o)
-                0x0800f100                strncpy
- *fill*         0x0800f168        0x8 
- .text.strpbrk  0x0800f170       0x48 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strpbrk.o)
-                0x0800f170                strpbrk
- *fill*         0x0800f1b8        0x8 
- .text.strspn   0x0800f1c0       0x34 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strspn.o)
-                0x0800f1c0                strspn
- *fill*         0x0800f1f4        0xc 
- .text.sulp     0x0800f200       0x40 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtod.o)
+                0x0800f030       0x44 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strcasecmp.o)
+                0x0800f030                strcasecmp
+ *fill*         0x0800f074        0xc 
+ .text.strncmp  0x0800f080       0x98 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strncmp.o)
+                0x0800f080                strncmp
+ *fill*         0x0800f118        0x8 
+ .text.strncpy  0x0800f120       0x68 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strncpy.o)
+                0x0800f120                strncpy
+ *fill*         0x0800f188        0x8 
+ .text.strpbrk  0x0800f190       0x48 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strpbrk.o)
+                0x0800f190                strpbrk
+ *fill*         0x0800f1d8        0x8 
+ .text.strspn   0x0800f1e0       0x34 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strspn.o)
+                0x0800f1e0                strspn
+ *fill*         0x0800f214        0xc 
+ .text.sulp     0x0800f220       0x40 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtod.o)
  .text._strtod_r
-                0x0800f240      0xf50 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtod.o)
-                0x0800f240                _strtod_r
- .text.strtod   0x08010190       0x10 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtod.o)
-                0x08010190                strtod
+                0x0800f260      0xf50 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtod.o)
+                0x0800f260                _strtod_r
+ .text.strtod   0x080101b0       0x10 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtod.o)
+                0x080101b0                strtod
  .text.__register_exitproc
-                0x080101a0       0xa4 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-__atexit.o)
-                0x080101a0                __register_exitproc
- *fill*         0x08010244        0xc 
- .text.rshift   0x08010250       0xa0 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-gdtoa-gethex.o)
+                0x080101c0       0xa4 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-__atexit.o)
+                0x080101c0                __register_exitproc
+ *fill*         0x08010264        0xc 
+ .text.rshift   0x08010270       0xa0 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-gdtoa-gethex.o)
  .text.__gethex
-                0x080102f0      0x514 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-gdtoa-gethex.o)
-                0x080102f0                __gethex
- *fill*         0x08010804        0xc 
+                0x08010310      0x514 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-gdtoa-gethex.o)
+                0x08010310                __gethex
+ *fill*         0x08010824        0xc 
  .text.__hexnan
-                0x08010810      0x184 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-gdtoa-hexnan.o)
-                0x08010810                __hexnan
- *fill*         0x08010994        0xc 
+                0x08010830      0x184 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-gdtoa-hexnan.o)
+                0x08010830                __hexnan
+ *fill*         0x080109b4        0xc 
  .text._localeconv_r
-                0x080109a0        0x8 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-locale.o)
-                0x080109a0                _localeconv_r
- *fill*         0x080109a8        0x8 
- .text._Balloc  0x080109b0       0x4c /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x080109b0                _Balloc
- *fill*         0x080109fc        0x4 
- .text._Bfree   0x08010a00       0x14 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x08010a00                _Bfree
- *fill*         0x08010a14        0xc 
+                0x080109c0        0x8 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-locale.o)
+                0x080109c0                _localeconv_r
+ *fill*         0x080109c8        0x8 
+ .text._Balloc  0x080109d0       0x4c /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x080109d0                _Balloc
+ *fill*         0x08010a1c        0x4 
+ .text._Bfree   0x08010a20       0x14 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x08010a20                _Bfree
+ *fill*         0x08010a34        0xc 
  .text.__multadd
-                0x08010a20       0x84 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x08010a20                __multadd
- *fill*         0x08010aa4        0xc 
- .text.__s2b    0x08010ab0       0x98 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x08010ab0                __s2b
- *fill*         0x08010b48        0x8 
+                0x08010a40       0x84 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x08010a40                __multadd
+ *fill*         0x08010ac4        0xc 
+ .text.__s2b    0x08010ad0       0x98 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x08010ad0                __s2b
+ *fill*         0x08010b68        0x8 
  .text.__hi0bits
-                0x08010b50       0x40 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x08010b50                __hi0bits
+                0x08010b70       0x40 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x08010b70                __hi0bits
  .text.__lo0bits
-                0x08010b90       0x5c /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x08010b90                __lo0bits
- *fill*         0x08010bec        0x4 
- .text.__i2b    0x08010bf0       0x14 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x08010bf0                __i2b
- *fill*         0x08010c04        0xc 
+                0x08010bb0       0x5c /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x08010bb0                __lo0bits
+ *fill*         0x08010c0c        0x4 
+ .text.__i2b    0x08010c10       0x14 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x08010c10                __i2b
+ *fill*         0x08010c24        0xc 
  .text.__multiply
-                0x08010c10      0x134 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x08010c10                __multiply
- *fill*         0x08010d44        0xc 
+                0x08010c30      0x134 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x08010c30                __multiply
+ *fill*         0x08010d64        0xc 
  .text.__pow5mult
-                0x08010d50       0xa0 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x08010d50                __pow5mult
+                0x08010d70       0xa0 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x08010d70                __pow5mult
  .text.__lshift
-                0x08010df0       0xac /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x08010df0                __lshift
- *fill*         0x08010e9c        0x4 
- .text.__mcmp   0x08010ea0       0x48 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x08010ea0                __mcmp
- *fill*         0x08010ee8        0x8 
- .text.__mdiff  0x08010ef0       0xd4 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x08010ef0                __mdiff
- *fill*         0x08010fc4        0xc 
- .text.__ulp    0x08010fd0       0x50 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x08010fd0                __ulp
- .text.__b2d    0x08011020       0xc4 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x08011020                __b2d
- *fill*         0x080110e4        0xc 
- .text.__d2b    0x080110f0       0xbc /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x080110f0                __d2b
- *fill*         0x080111ac        0x4 
- .text.__ratio  0x080111b0       0x60 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x080111b0                __ratio
+                0x08010e10       0xac /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x08010e10                __lshift
+ *fill*         0x08010ebc        0x4 
+ .text.__mcmp   0x08010ec0       0x48 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x08010ec0                __mcmp
+ *fill*         0x08010f08        0x8 
+ .text.__mdiff  0x08010f10       0xd4 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x08010f10                __mdiff
+ *fill*         0x08010fe4        0xc 
+ .text.__ulp    0x08010ff0       0x50 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x08010ff0                __ulp
+ .text.__b2d    0x08011040       0xc4 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x08011040                __b2d
+ *fill*         0x08011104        0xc 
+ .text.__d2b    0x08011110       0xbc /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x08011110                __d2b
+ *fill*         0x080111cc        0x4 
+ .text.__ratio  0x080111d0       0x60 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x080111d0                __ratio
  .text.__copybits
-                0x08011210       0x48 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x08011210                __copybits
- *fill*         0x08011258        0x8 
+                0x08011230       0x48 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x08011230                __copybits
+ *fill*         0x08011278        0x8 
  .text.__any_on
-                0x08011260       0x60 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x08011260                __any_on
- .text.strlen   0x080112c0       0x5c /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strlen.o)
-                0x080112c0                strlen
- *fill*         0x0801131c        0x4 
+                0x08011280       0x60 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x08011280                __any_on
+ .text.strlen   0x080112e0       0x5c /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strlen.o)
+                0x080112e0                strlen
+ *fill*         0x0801133c        0x4 
  .text._calloc_r
-                0x08011320       0x60 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-callocr.o)
-                0x08011320                _calloc_r
+                0x08011340       0x60 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-callocr.o)
+                0x08011340                _calloc_r
  .text._malloc_r
-                0x08011380      0x51c /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mallocr.o)
-                0x08011380                _malloc_r
- *fill*         0x0801189c        0x4 
+                0x080113a0      0x51c /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mallocr.o)
+                0x080113a0                _malloc_r
+ *fill*         0x080118bc        0x4 
  .text.__malloc_lock
-                0x080118a0        0x4 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mlock.o)
-                0x080118a0                __malloc_lock
- *fill*         0x080118a4        0xc 
+                0x080118c0        0x4 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mlock.o)
+                0x080118c0                __malloc_lock
+ *fill*         0x080118c4        0xc 
  .text.__malloc_unlock
-                0x080118b0        0x4 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mlock.o)
-                0x080118b0                __malloc_unlock
- *fill*         0x080118b4        0xc 
+                0x080118d0        0x4 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mlock.o)
+                0x080118d0                __malloc_unlock
+ *fill*         0x080118d4        0xc 
  .text._malloc_trim_r
-                0x080118c0       0x9c /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-freer.o)
-                0x080118c0                _malloc_trim_r
- *fill*         0x0801195c        0x4 
- .text._free_r  0x08011960      0x1b0 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-freer.o)
-                0x08011960                _free_r
+                0x080118e0       0x9c /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-freer.o)
+                0x080118e0                _malloc_trim_r
+ *fill*         0x0801197c        0x4 
+ .text._free_r  0x08011980      0x1b0 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-freer.o)
+                0x08011980                _free_r
  *(.rodata)
- .rodata        0x08011b10        0x8 build/obj/chsys.o
- *fill*         0x08011b18        0x8 
- .rodata        0x08011b20       0x58 build/obj/chdebug.o
- *fill*         0x08011b78        0x8 
- .rodata        0x08011b80       0x34 build/obj/chvt.o
- *fill*         0x08011bb4        0xc 
- .rodata        0x08011bc0       0x24 build/obj/chschd.o
- *fill*         0x08011be4        0xc 
- .rodata        0x08011bf0       0x94 build/obj/chthreads.o
- *fill*         0x08011c84        0xc 
- .rodata        0x08011c90       0x48 build/obj/chdynamic.o
- *fill*         0x08011cd8        0x8 
- .rodata        0x08011ce0       0xac build/obj/chmtx.o
- *fill*         0x08011d8c        0x4 
- .rodata        0x08011d90       0x90 build/obj/chevents.o
- .rodata        0x08011e20       0x2c build/obj/chqueues.o
- *fill*         0x08011e4c        0x4 
- .rodata        0x08011e50       0x34 build/obj/chheap.o
- *fill*         0x08011e84        0xc 
- .rodata        0x08011e90       0x48 build/obj/chmempools.o
- *fill*         0x08011ed8        0x8 
- .rodata        0x08011ee0       0x60 build/obj/serial.o
- .rodata        0x08011f40       0x3c build/obj/serial_usb.o
- *fill*         0x08011f7c        0x4 
- .rodata        0x08011f80      0x124 build/obj/usb.o
- *fill*         0x080120a4        0xc 
- .rodata        0x080120b0       0x14 build/obj/usb_lld.o
+ .rodata        0x08011b30        0x8 build/obj/chsys.o
+ *fill*         0x08011b38        0x8 
+ .rodata        0x08011b40       0x58 build/obj/chdebug.o
+ *fill*         0x08011b98        0x8 
+ .rodata        0x08011ba0       0x34 build/obj/chvt.o
+ *fill*         0x08011bd4        0xc 
+ .rodata        0x08011be0       0x24 build/obj/chschd.o
+ *fill*         0x08011c04        0xc 
+ .rodata        0x08011c10       0x94 build/obj/chthreads.o
+ *fill*         0x08011ca4        0xc 
+ .rodata        0x08011cb0       0x48 build/obj/chdynamic.o
+ *fill*         0x08011cf8        0x8 
+ .rodata        0x08011d00       0xac build/obj/chmtx.o
+ *fill*         0x08011dac        0x4 
+ .rodata        0x08011db0       0x90 build/obj/chevents.o
+ .rodata        0x08011e40       0x2c build/obj/chqueues.o
+ *fill*         0x08011e6c        0x4 
+ .rodata        0x08011e70       0x34 build/obj/chheap.o
+ *fill*         0x08011ea4        0xc 
+ .rodata        0x08011eb0       0x48 build/obj/chmempools.o
+ *fill*         0x08011ef8        0x8 
+ .rodata        0x08011f00       0x60 build/obj/serial.o
+ .rodata        0x08011f60       0x3c build/obj/serial_usb.o
+ *fill*         0x08011f9c        0x4 
+ .rodata        0x08011fa0      0x124 build/obj/usb.o
  *fill*         0x080120c4        0xc 
- .rodata        0x080120d0        0x8 build/obj/chprintf.o
- *fill*         0x080120d8        0x8 
- .rodata        0x080120e0      0x21c build/obj/shell.o
- *fill*         0x080122fc        0x4 
- .rodata        0x08012300        0xc build/obj/syscalls.o
- *fill*         0x0801230c        0x4 
- .rodata        0x08012310       0x44 build/obj/rtcan.o
- *fill*         0x08012354        0xc 
- .rodata        0x08012360       0x68 build/obj/msgqueue.o
- *fill*         0x080123c8        0x8 
- .rodata        0x080123d0       0x10 build/obj/BasePublisher.o
- .rodata        0x080123e0       0x10 build/obj/BaseSubscriber.o
- .rodata        0x080123f0       0x10 build/obj/LocalSubscriber.o
- .rodata        0x08012400       0x10 build/obj/MessagePtrQueue.o
- .rodata        0x08012410       0x10 build/obj/Message.o
- .rodata        0x08012420       0x20 build/obj/Middleware.o
- .rodata        0x08012440       0x10 build/obj/Node.o
- .rodata        0x08012450       0x10 build/obj/Topic.o
- .rodata        0x08012460       0x10 build/obj/Transport.o
- .rodata        0x08012470       0x24 build/obj/RTCANTransport.o
- *fill*         0x08012494        0xc 
- .rodata        0x080124a0       0x28 build/obj/led.o
- *fill*         0x080124c8        0x8 
- .rodata        0x080124d0      0x238 build/obj/shell_node.o
- *fill*         0x08012708        0x8 
- .rodata        0x08012710       0x18 build/obj/pixy_node.o
+ .rodata        0x080120d0       0x14 build/obj/usb_lld.o
+ *fill*         0x080120e4        0xc 
+ .rodata        0x080120f0        0x8 build/obj/chprintf.o
+ *fill*         0x080120f8        0x8 
+ .rodata        0x08012100      0x21c build/obj/shell.o
+ *fill*         0x0801231c        0x4 
+ .rodata        0x08012320        0xc build/obj/syscalls.o
+ *fill*         0x0801232c        0x4 
+ .rodata        0x08012330       0x44 build/obj/rtcan.o
+ *fill*         0x08012374        0xc 
+ .rodata        0x08012380       0x68 build/obj/msgqueue.o
+ *fill*         0x080123e8        0x8 
+ .rodata        0x080123f0       0x10 build/obj/BasePublisher.o
+ .rodata        0x08012400       0x10 build/obj/BaseSubscriber.o
+ .rodata        0x08012410       0x10 build/obj/LocalSubscriber.o
+ .rodata        0x08012420       0x10 build/obj/MessagePtrQueue.o
+ .rodata        0x08012430       0x10 build/obj/Message.o
+ .rodata        0x08012440       0x20 build/obj/Middleware.o
+ .rodata        0x08012460       0x10 build/obj/Node.o
+ .rodata        0x08012470       0x10 build/obj/Topic.o
+ .rodata        0x08012480       0x10 build/obj/Transport.o
+ .rodata        0x08012490       0x24 build/obj/RTCANTransport.o
+ *fill*         0x080124b4        0xc 
+ .rodata        0x080124c0       0x28 build/obj/led.o
+ *fill*         0x080124e8        0x8 
+ .rodata        0x080124f0      0x238 build/obj/shell_node.o
  *fill*         0x08012728        0x8 
- .rodata        0x08012730       0x34 build/obj/follow_node.o
- *fill*         0x08012764        0xc 
- .rodata        0x08012770       0x2c build/obj/main.o
+ .rodata        0x08012730       0x18 build/obj/pixy_node.o
+ *fill*         0x08012748        0x8 
+ .rodata        0x08012750       0x40 build/obj/follow_node.o
+ .rodata        0x08012790       0x2c build/obj/main.o
  *(.rodata.*)
- *fill*         0x0801279c        0x4 
+ *fill*         0x080127bc        0x4 
  .rodata.ch_debug
-                0x080127a0       0x18 build/obj/chregistry.o
-                0x080127a0                ch_debug
- *fill*         0x080127b8        0x8 
- .rodata.vmt    0x080127c0       0x20 build/obj/serial.o
- .rodata.vmt    0x080127e0       0x20 build/obj/serial_usb.o
+                0x080127c0       0x18 build/obj/chregistry.o
+                0x080127c0                ch_debug
+ *fill*         0x080127d8        0x8 
+ .rodata.vmt    0x080127e0       0x20 build/obj/serial.o
+ .rodata.vmt    0x08012800       0x20 build/obj/serial_usb.o
  .rodata.zero_status
-                0x08012800        0x4 build/obj/usb.o
- *fill*         0x08012804        0xc 
- .rodata.active_status
-                0x08012810        0x4 build/obj/usb.o
- *fill*         0x08012814        0xc 
- .rodata.halted_status
                 0x08012820        0x4 build/obj/usb.o
  *fill*         0x08012824        0xc 
+ .rodata.active_status
+                0x08012830        0x4 build/obj/usb.o
+ *fill*         0x08012834        0xc 
+ .rodata.halted_status
+                0x08012840        0x4 build/obj/usb.o
+ *fill*         0x08012844        0xc 
  .rodata._stm32_dma_streams
-                0x08012830       0x90 build/obj/stm32_dma.o
-                0x08012830                _stm32_dma_streams
+                0x08012850       0x90 build/obj/stm32_dma.o
+                0x08012850                _stm32_dma_streams
  .rodata.default_config
-                0x080128c0       0x10 build/obj/serial_lld.o
+                0x080128e0       0x10 build/obj/serial_lld.o
  .rodata.ep0config
-                0x080128d0       0x24 build/obj/usb_lld.o
- *fill*         0x080128f4        0xc 
+                0x080128f0       0x24 build/obj/usb_lld.o
+ *fill*         0x08012914        0xc 
  .rodata.pal_default_config
-                0x08012900       0xa8 build/obj/board.o
-                0x08012900                pal_default_config
- *fill*         0x080129a8        0x8 
+                0x08012920       0xa8 build/obj/board.o
+                0x08012920                pal_default_config
+ *fill*         0x080129c8        0x8 
  .rodata.vcom_device_descriptor_data
-                0x080129b0       0x14 build/obj/usbcfg.o
- *fill*         0x080129c4        0xc 
+                0x080129d0       0x14 build/obj/usbcfg.o
+ *fill*         0x080129e4        0xc 
  .rodata.vcom_device_descriptor
-                0x080129d0        0x8 build/obj/usbcfg.o
- *fill*         0x080129d8        0x8 
+                0x080129f0        0x8 build/obj/usbcfg.o
+ *fill*         0x080129f8        0x8 
  .rodata.vcom_configuration_descriptor_data
-                0x080129e0       0x44 build/obj/usbcfg.o
- *fill*         0x08012a24        0xc 
- .rodata.vcom_configuration_descriptor
-                0x08012a30        0x8 build/obj/usbcfg.o
- *fill*         0x08012a38        0x8 
- .rodata.vcom_string0
-                0x08012a40        0x4 build/obj/usbcfg.o
+                0x08012a00       0x44 build/obj/usbcfg.o
  *fill*         0x08012a44        0xc 
+ .rodata.vcom_configuration_descriptor
+                0x08012a50        0x8 build/obj/usbcfg.o
+ *fill*         0x08012a58        0x8 
+ .rodata.vcom_string0
+                0x08012a60        0x4 build/obj/usbcfg.o
+ *fill*         0x08012a64        0xc 
  .rodata.vcom_string1
-                0x08012a50       0x28 build/obj/usbcfg.o
- *fill*         0x08012a78        0x8 
+                0x08012a70       0x28 build/obj/usbcfg.o
+ *fill*         0x08012a98        0x8 
  .rodata.vcom_string2
-                0x08012a80       0x38 build/obj/usbcfg.o
- *fill*         0x08012ab8        0x8 
+                0x08012aa0       0x38 build/obj/usbcfg.o
+ *fill*         0x08012ad8        0x8 
  .rodata.vcom_string3
-                0x08012ac0        0x8 build/obj/usbcfg.o
- *fill*         0x08012ac8        0x8 
+                0x08012ae0        0x8 build/obj/usbcfg.o
+ *fill*         0x08012ae8        0x8 
  .rodata.vcom_strings
-                0x08012ad0       0x20 build/obj/usbcfg.o
+                0x08012af0       0x20 build/obj/usbcfg.o
  .rodata.ep1config
-                0x08012af0       0x24 build/obj/usbcfg.o
- *fill*         0x08012b14        0xc 
+                0x08012b10       0x24 build/obj/usbcfg.o
+ *fill*         0x08012b34        0xc 
  .rodata.ep2config
-                0x08012b20       0x24 build/obj/usbcfg.o
- *fill*         0x08012b44        0xc 
+                0x08012b40       0x24 build/obj/usbcfg.o
+ *fill*         0x08012b64        0xc 
  .rodata.usbcfg
-                0x08012b50       0x10 build/obj/usbcfg.o
-                0x08012b50                usbcfg
+                0x08012b70       0x10 build/obj/usbcfg.o
+                0x08012b70                usbcfg
  .rodata.serusbcfg
-                0x08012b60        0x8 build/obj/usbcfg.o
-                0x08012b60                serusbcfg
- *fill*         0x08012b68        0x8 
+                0x08012b80        0x8 build/obj/usbcfg.o
+                0x08012b80                serusbcfg
+ *fill*         0x08012b88        0x8 
  .rodata._ZTVN3r2p13BasePublisherE
-                0x08012b70       0x10 build/obj/BasePublisher.o
-                0x08012b70                vtable for r2p::BasePublisher
+                0x08012b90       0x10 build/obj/BasePublisher.o
+                0x08012b90                vtable for r2p::BasePublisher
  .rodata._ZTVN3r2p14BaseSubscriberE
-                0x08012b80       0x28 build/obj/BaseSubscriber.o
-                0x08012b80                vtable for r2p::BaseSubscriber
- *fill*         0x08012ba8        0x8 
+                0x08012ba0       0x28 build/obj/BaseSubscriber.o
+                0x08012ba0                vtable for r2p::BaseSubscriber
+ *fill*         0x08012bc8        0x8 
  .rodata._ZTVN3r2p14LocalPublisherE
-                0x08012bb0       0x10 build/obj/LocalPublisher.o
-                0x08012bb0                vtable for r2p::LocalPublisher
+                0x08012bd0       0x10 build/obj/LocalPublisher.o
+                0x08012bd0                vtable for r2p::LocalPublisher
  .rodata._ZTVN3r2p15LocalSubscriberE
-                0x08012bc0       0x28 build/obj/LocalSubscriber.o
-                0x08012bc0                vtable for r2p::LocalSubscriber
- *fill*         0x08012be8        0x8 
+                0x08012be0       0x28 build/obj/LocalSubscriber.o
+                0x08012be0                vtable for r2p::LocalSubscriber
+ *fill*         0x08012c08        0x8 
  .rodata._ZTVN3r2p16SubscriberExtBufINS_7MgmtMsgEEE
-                0x08012bf0       0x28 build/obj/Middleware.o
-                0x08012bf0                vtable for r2p::SubscriberExtBuf<r2p::MgmtMsg>
- *fill*         0x08012c18        0x8 
+                0x08012c10       0x28 build/obj/Middleware.o
+                0x08012c10                vtable for r2p::SubscriberExtBuf<r2p::MgmtMsg>
+ *fill*         0x08012c38        0x8 
  .rodata._ZTVN3r2p9PublisherINS_7MgmtMsgEEE
-                0x08012c20       0x10 build/obj/Middleware.o
-                0x08012c20                vtable for r2p::Publisher<r2p::MgmtMsg>
+                0x08012c40       0x10 build/obj/Middleware.o
+                0x08012c40                vtable for r2p::Publisher<r2p::MgmtMsg>
  .rodata._ZTVN3r2p15RemotePublisherE
-                0x08012c30       0x10 build/obj/RemotePublisher.o
-                0x08012c30                vtable for r2p::RemotePublisher
+                0x08012c50       0x10 build/obj/RemotePublisher.o
+                0x08012c50                vtable for r2p::RemotePublisher
  .rodata._ZTVN3r2p16RemoteSubscriberE
-                0x08012c40       0x28 build/obj/RemoteSubscriber.o
-                0x08012c40                vtable for r2p::RemoteSubscriber
- *fill*         0x08012c68        0x8 
+                0x08012c60       0x28 build/obj/RemoteSubscriber.o
+                0x08012c60                vtable for r2p::RemoteSubscriber
+ *fill*         0x08012c88        0x8 
  .rodata._ZTVN3r2p9TransportE
-                0x08012c70       0x20 build/obj/Transport.o
-                0x08012c70                vtable for r2p::Transport
+                0x08012c90       0x20 build/obj/Transport.o
+                0x08012c90                vtable for r2p::Transport
  .rodata._ZTVN3r2p14RTCANTransportE
-                0x08012c90       0x20 build/obj/RTCANTransport.o
-                0x08012c90                vtable for r2p::RTCANTransport
+                0x08012cb0       0x20 build/obj/RTCANTransport.o
+                0x08012cb0                vtable for r2p::RTCANTransport
  .rodata._ZTVN3r2p14RTCANPublisherE
-                0x08012cb0       0x10 build/obj/RTCANPublisher.o
-                0x08012cb0                vtable for r2p::RTCANPublisher
+                0x08012cd0       0x10 build/obj/RTCANPublisher.o
+                0x08012cd0                vtable for r2p::RTCANPublisher
  .rodata._ZTVN3r2p15RTCANSubscriberE
-                0x08012cc0       0x28 build/obj/RTCANSubscriber.o
-                0x08012cc0                vtable for r2p::RTCANSubscriber
- *fill*         0x08012ce8        0x8 
+                0x08012ce0       0x28 build/obj/RTCANSubscriber.o
+                0x08012ce0                vtable for r2p::RTCANSubscriber
+ *fill*         0x08012d08        0x8 
  .rodata._ZTVN3r2p10SubscriberINS_6LedMsgELj5EEE
-                0x08012cf0       0x28 build/obj/led.o
-                0x08012cf0                vtable for r2p::Subscriber<r2p::LedMsg, 5u>
- *fill*         0x08012d18        0x8 
+                0x08012d10       0x28 build/obj/led.o
+                0x08012d10                vtable for r2p::Subscriber<r2p::LedMsg, 5u>
+ *fill*         0x08012d38        0x8 
  .rodata._ZTVN3r2p16SubscriberExtBufINS_6LedMsgEEE
-                0x08012d20       0x28 build/obj/led.o
-                0x08012d20                vtable for r2p::SubscriberExtBuf<r2p::LedMsg>
- *fill*         0x08012d48        0x8 
+                0x08012d40       0x28 build/obj/led.o
+                0x08012d40                vtable for r2p::SubscriberExtBuf<r2p::LedMsg>
+ *fill*         0x08012d68        0x8 
  .rodata._ZTVN3r2p9PublisherINS_6LedMsgEEE
-                0x08012d50       0x10 build/obj/led.o
-                0x08012d50                vtable for r2p::Publisher<r2p::LedMsg>
+                0x08012d70       0x10 build/obj/led.o
+                0x08012d70                vtable for r2p::Publisher<r2p::LedMsg>
  .rodata._ZTVN3r2p10SubscriberINS_12ProximityMsgELj5EEE
-                0x08012d60       0x28 build/obj/shell_node.o
-                0x08012d60                vtable for r2p::Subscriber<r2p::ProximityMsg, 5u>
- *fill*         0x08012d88        0x8 
+                0x08012d80       0x28 build/obj/shell_node.o
+                0x08012d80                vtable for r2p::Subscriber<r2p::ProximityMsg, 5u>
+ *fill*         0x08012da8        0x8 
  .rodata._ZTVN3r2p16SubscriberExtBufINS_12ProximityMsgEEE
-                0x08012d90       0x28 build/obj/shell_node.o
-                0x08012d90                vtable for r2p::SubscriberExtBuf<r2p::ProximityMsg>
- *fill*         0x08012db8        0x8 
+                0x08012db0       0x28 build/obj/shell_node.o
+                0x08012db0                vtable for r2p::SubscriberExtBuf<r2p::ProximityMsg>
+ *fill*         0x08012dd8        0x8 
  .rodata._ZTVN3r2p9PublisherINS_9FollowMsgEEE
-                0x08012dc0       0x10 build/obj/shell_node.o
-                0x08012dc0                vtable for r2p::Publisher<r2p::FollowMsg>
+                0x08012de0       0x10 build/obj/shell_node.o
+                0x08012de0                vtable for r2p::Publisher<r2p::FollowMsg>
  .rodata._ZTVN3r2p10SubscriberINS_7PixyMsgELj5EEE
-                0x08012dd0       0x28 build/obj/shell_node.o
-                0x08012dd0                vtable for r2p::Subscriber<r2p::PixyMsg, 5u>
- *fill*         0x08012df8        0x8 
+                0x08012df0       0x28 build/obj/shell_node.o
+                0x08012df0                vtable for r2p::Subscriber<r2p::PixyMsg, 5u>
+ *fill*         0x08012e18        0x8 
  .rodata._ZTVN3r2p16SubscriberExtBufINS_7PixyMsgEEE
-                0x08012e00       0x28 build/obj/shell_node.o
-                0x08012e00                vtable for r2p::SubscriberExtBuf<r2p::PixyMsg>
- *fill*         0x08012e28        0x8 
+                0x08012e20       0x28 build/obj/shell_node.o
+                0x08012e20                vtable for r2p::SubscriberExtBuf<r2p::PixyMsg>
+ *fill*         0x08012e48        0x8 
  .rodata._ZTVN3r2p9PublisherINS_9PIDCfgMsgEEE
-                0x08012e30       0x10 build/obj/shell_node.o
-                0x08012e30                vtable for r2p::Publisher<r2p::PIDCfgMsg>
+                0x08012e50       0x10 build/obj/shell_node.o
+                0x08012e50                vtable for r2p::Publisher<r2p::PIDCfgMsg>
  .rodata._ZTVN3r2p9PublisherINS_9Speed3MsgEEE
-                0x08012e40       0x10 build/obj/shell_node.o
-                0x08012e40                vtable for r2p::Publisher<r2p::Speed3Msg>
+                0x08012e60       0x10 build/obj/shell_node.o
+                0x08012e60                vtable for r2p::Publisher<r2p::Speed3Msg>
  .rodata._ZL8commands
-                0x08012e50       0x50 build/obj/shell_node.o
+                0x08012e70       0x50 build/obj/shell_node.o
  .rodata._ZL13usb_shell_cfg
-                0x08012ea0        0x8 build/obj/shell_node.o
- *fill*         0x08012ea8        0x8 
+                0x08012ec0        0x8 build/obj/shell_node.o
+ *fill*         0x08012ec8        0x8 
  .rodata._ZTVN3r2p9PublisherINS_7PixyMsgEEE
-                0x08012eb0       0x10 build/obj/pixy_node.o
-                0x08012eb0                vtable for r2p::Publisher<r2p::PixyMsg>
+                0x08012ed0       0x10 build/obj/pixy_node.o
+                0x08012ed0                vtable for r2p::Publisher<r2p::PixyMsg>
  .rodata._ZTVN3r2p10SubscriberINS_9FollowMsgELj5EEE
-                0x08012ec0       0x28 build/obj/follow_node.o
-                0x08012ec0                vtable for r2p::Subscriber<r2p::FollowMsg, 5u>
- *fill*         0x08012ee8        0x8 
+                0x08012ee0       0x28 build/obj/follow_node.o
+                0x08012ee0                vtable for r2p::Subscriber<r2p::FollowMsg, 5u>
+ *fill*         0x08012f08        0x8 
  .rodata._ZTVN3r2p16SubscriberExtBufINS_9FollowMsgEEE
-                0x08012ef0       0x28 build/obj/follow_node.o
-                0x08012ef0                vtable for r2p::SubscriberExtBuf<r2p::FollowMsg>
- *fill*         0x08012f18        0x8 
+                0x08012f10       0x28 build/obj/follow_node.o
+                0x08012f10                vtable for r2p::SubscriberExtBuf<r2p::FollowMsg>
+ *fill*         0x08012f38        0x8 
  .rodata.fpi.5234
-                0x08012f20       0x14 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtod.o)
- *fill*         0x08012f34        0xc 
- .rodata.fpinan.5270
                 0x08012f40       0x14 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtod.o)
  *fill*         0x08012f54        0xc 
+ .rodata.fpinan.5270
+                0x08012f60       0x14 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtod.o)
+ *fill*         0x08012f74        0xc 
  .rodata.str1.4
-                0x08012f60        0xf /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtod.o)
+                0x08012f80        0xf /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtod.o)
                                  0x10 (size before relaxing)
- *fill*         0x08012f6f        0x1 
+ *fill*         0x08012f8f        0x1 
  .rodata.tinytens
-                0x08012f70       0x28 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtod.o)
- *fill*         0x08012f98        0x8 
+                0x08012f90       0x28 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtod.o)
+ *fill*         0x08012fb8        0x8 
  .rodata._ctype_
-                0x08012fa0      0x104 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-ctype_.o)
-                0x08012fa0                _ctype_
- *fill*         0x080130a4        0xc 
+                0x08012fc0      0x104 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-ctype_.o)
+                0x08012fc0                _ctype_
+ *fill*         0x080130c4        0xc 
  .rodata.__hexdig
-                0x080130b0      0x100 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-gdtoa-gethex.o)
-                0x080130b0                __hexdig
+                0x080130d0      0x100 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-gdtoa-gethex.o)
+                0x080130d0                __hexdig
  .rodata.str1.4
-                0x080131b0        0x2 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-impure.o)
+                0x080131d0        0x2 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-impure.o)
                                   0x4 (size before relaxing)
- *fill*         0x080131b2        0xe 
+ *fill*         0x080131d2        0xe 
  .rodata._global_impure_ptr
-                0x080131c0        0x4 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-impure.o)
-                0x080131c0                _global_impure_ptr
- *fill*         0x080131c4        0xc 
+                0x080131e0        0x4 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-impure.o)
+                0x080131e0                _global_impure_ptr
+ *fill*         0x080131e4        0xc 
  .rodata.str1.4
-                0x080131d0       0x10 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-locale.o)
+                0x080131f0       0x10 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-locale.o)
                                  0x14 (size before relaxing)
  .rodata.__mprec_tens
-                0x080131e0       0xc8 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x080131e0                __mprec_tens
- *fill*         0x080132a8        0x8 
+                0x08013200       0xc8 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x08013200                __mprec_tens
+ *fill*         0x080132c8        0x8 
  .rodata.__mprec_bigtens
-                0x080132b0       0x28 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
-                0x080132b0                __mprec_bigtens
- *fill*         0x080132d8        0x8 
+                0x080132d0       0x28 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x080132d0                __mprec_bigtens
+ *fill*         0x080132f8        0x8 
  .rodata.p05.5265
-                0x080132e0        0xc /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+                0x08013300        0xc /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
  *(.glue_7t)
  .glue_7t       0x00000000        0x0 linker stubs
  *(.glue_7)
  .glue_7        0x00000000        0x0 linker stubs
  *(.gcc*)
 
-.vfp11_veneer   0x080132ec        0x0
+.vfp11_veneer   0x0801330c        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x080132ec        0x0
+.v4_bx          0x0801330c        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x080132ec        0x0
+.iplt           0x0801330c        0x0
  .iplt          0x00000000        0x0 build/obj/crt0.o
 
-.rel.dyn        0x080132ec        0x0
+.rel.dyn        0x0801330c        0x0
  .rel.iplt      0x00000000        0x0 build/obj/crt0.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM.exidx      0x080132ec        0x0
-                0x080132ec                PROVIDE (__exidx_start, .)
+.ARM.exidx      0x0801330c        0x0
+                0x0801330c                PROVIDE (__exidx_start, .)
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x080132ec                PROVIDE (__exidx_end, .)
+                0x0801330c                PROVIDE (__exidx_end, .)
 
 .eh_frame_hdr
  *(.eh_frame_hdr)
@@ -5505,12 +5523,12 @@ destructors     0x08000194        0x0
 .eh_frame
  *(.eh_frame)
 
-.textalign      0x080132ec        0x4
-                0x080132f0                . = ALIGN (0x8)
- *fill*         0x080132ec        0x4 
-                0x080132f0                . = ALIGN (0x4)
-                0x080132f0                _etext = .
-                0x080132f0                _textdata = _etext
+.textalign      0x0801330c        0x4
+                0x08013310                . = ALIGN (0x8)
+ *fill*         0x0801330c        0x4 
+                0x08013310                . = ALIGN (0x4)
+                0x08013310                _etext = .
+                0x08013310                _textdata = _etext
 
 .stacks         0x20000000      0x800
                 0x20000000                . = ALIGN (0x8)
@@ -5527,7 +5545,7 @@ destructors     0x08000194        0x0
                 0x20000800                __process_stack_end__ = .
                 0x20000800                __main_thread_stack_end__ = .
 
-.data           0x20000800      0x8bc load address 0x080132f0
+.data           0x20000800      0x8bc load address 0x08013310
                 0x20000800                . = ALIGN (0x4)
                 0x20000800                PROVIDE (_data, .)
  *(.data)
@@ -5586,10 +5604,10 @@ destructors     0x08000194        0x0
                 0x200010bc                . = ALIGN (0x4)
                 0x200010bc                PROVIDE (_edata, .)
 
-.igot.plt       0x200010bc        0x0 load address 0x08013bac
+.igot.plt       0x200010bc        0x0 load address 0x08013bcc
  .igot.plt      0x00000000        0x0 build/obj/crt0.o
 
-.bss            0x200010c0     0x18f0 load address 0x08013bac
+.bss            0x200010c0     0x18f0 load address 0x08013bcc
                 0x200010c0                . = ALIGN (0x4)
                 0x200010c0                PROVIDE (_bss_start, .)
  *(.bss)
@@ -5737,7 +5755,7 @@ LOAD /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-n
 END GROUP
 OUTPUT(build/fw.elf elf32-littlearm)
 
-.debug_info     0x00000000    0x6e4ba
+.debug_info     0x00000000    0x6e9e4
  .debug_info    0x00000000      0x287 build/obj/crt0.o
  .debug_info    0x00000287      0x1c9 build/obj/vectors.o
  .debug_info    0x00000450       0x8e build/obj/chcore.o
@@ -5804,10 +5822,10 @@ OUTPUT(build/fw.elf elf32-littlearm)
  .debug_info    0x00051645     0x513f build/obj/led.o
  .debug_info    0x00056784     0x702e build/obj/shell_node.o
  .debug_info    0x0005d7b2     0x4894 build/obj/pixy_node.o
- .debug_info    0x00062046     0x58ed build/obj/follow_node.o
- .debug_info    0x00067933     0x6b87 build/obj/main.o
+ .debug_info    0x00062046     0x5e17 build/obj/follow_node.o
+ .debug_info    0x00067e5d     0x6b87 build/obj/main.o
 
-.debug_abbrev   0x00000000     0xc547
+.debug_abbrev   0x00000000     0xc535
  .debug_abbrev  0x00000000       0xc3 build/obj/crt0.o
  .debug_abbrev  0x000000c3       0xad build/obj/vectors.o
  .debug_abbrev  0x00000170       0x40 build/obj/chcore.o
@@ -5874,10 +5892,10 @@ OUTPUT(build/fw.elf elf32-littlearm)
  .debug_abbrev  0x0000a1ae      0x6c0 build/obj/led.o
  .debug_abbrev  0x0000a86e      0x816 build/obj/shell_node.o
  .debug_abbrev  0x0000b084      0x636 build/obj/pixy_node.o
- .debug_abbrev  0x0000b6ba      0x6b9 build/obj/follow_node.o
- .debug_abbrev  0x0000bd73      0x7d4 build/obj/main.o
+ .debug_abbrev  0x0000b6ba      0x6a7 build/obj/follow_node.o
+ .debug_abbrev  0x0000bd61      0x7d4 build/obj/main.o
 
-.debug_aranges  0x00000000     0x2b58
+.debug_aranges  0x00000000     0x2b80
  .debug_aranges
                 0x00000000       0x38 build/obj/crt0.o
  .debug_aranges
@@ -6011,11 +6029,11 @@ OUTPUT(build/fw.elf elf32-littlearm)
  .debug_aranges
                 0x00002758       0xb0 build/obj/pixy_node.o
  .debug_aranges
-                0x00002808      0x200 build/obj/follow_node.o
+                0x00002808      0x228 build/obj/follow_node.o
  .debug_aranges
-                0x00002a08      0x150 build/obj/main.o
+                0x00002a30      0x150 build/obj/main.o
 
-.debug_ranges   0x00000000     0x27f0
+.debug_ranges   0x00000000     0x2818
  .debug_ranges  0x00000000       0x28 build/obj/crt0.o
  .debug_ranges  0x00000028       0x10 build/obj/vectors.o
  .debug_ranges  0x00000038       0x10 build/obj/chcore.o
@@ -6082,10 +6100,10 @@ OUTPUT(build/fw.elf elf32-littlearm)
  .debug_ranges  0x00002008      0x158 build/obj/led.o
  .debug_ranges  0x00002160      0x2c0 build/obj/shell_node.o
  .debug_ranges  0x00002420       0xa0 build/obj/pixy_node.o
- .debug_ranges  0x000024c0      0x1f0 build/obj/follow_node.o
- .debug_ranges  0x000026b0      0x140 build/obj/main.o
+ .debug_ranges  0x000024c0      0x218 build/obj/follow_node.o
+ .debug_ranges  0x000026d8      0x140 build/obj/main.o
 
-.debug_line     0x00000000    0x149ba
+.debug_line     0x00000000    0x14a3d
  .debug_line    0x00000000      0x1aa build/obj/crt0.o
  .debug_line    0x000001aa      0x140 build/obj/vectors.o
  .debug_line    0x000002ea       0x73 build/obj/chcore.o
@@ -6150,12 +6168,12 @@ OUTPUT(build/fw.elf elf32-littlearm)
  .debug_line    0x00010d1b      0x32c build/obj/Time_.o
  .debug_line    0x00011047      0x31f build/obj/chnew.o
  .debug_line    0x00011366      0x9b4 build/obj/led.o
- .debug_line    0x00011d1a      0xfcb build/obj/shell_node.o
- .debug_line    0x00012ce5      0x7a7 build/obj/pixy_node.o
- .debug_line    0x0001348c      0xb30 build/obj/follow_node.o
- .debug_line    0x00013fbc      0x9fe build/obj/main.o
+ .debug_line    0x00011d1a      0xfcd build/obj/shell_node.o
+ .debug_line    0x00012ce7      0x7a7 build/obj/pixy_node.o
+ .debug_line    0x0001348e      0xbb1 build/obj/follow_node.o
+ .debug_line    0x0001403f      0x9fe build/obj/main.o
 
-.debug_str      0x00000000    0x100bb
+.debug_str      0x00000000    0x100c4
  .debug_str     0x00000000      0x2c0 build/obj/crt0.o
                                 0x30b (size before relaxing)
  .debug_str     0x000002c0      0x160 build/obj/vectors.o
@@ -6288,9 +6306,9 @@ OUTPUT(build/fw.elf elf32-littlearm)
                                0x65f3 (size before relaxing)
  .debug_str     0x0000f76b      0x25f build/obj/pixy_node.o
                                0x4ee5 (size before relaxing)
- .debug_str     0x0000f9ca      0x319 build/obj/follow_node.o
-                               0x5978 (size before relaxing)
- .debug_str     0x0000fce3      0x3d8 build/obj/main.o
+ .debug_str     0x0000f9ca      0x322 build/obj/follow_node.o
+                               0x5c95 (size before relaxing)
+ .debug_str     0x0000fcec      0x3d8 build/obj/main.o
                                0x6d79 (size before relaxing)
 
 .comment        0x00000000       0x70
@@ -6561,7 +6579,7 @@ OUTPUT(build/fw.elf elf32-littlearm)
  .ARM.attributes
                 0x00001466       0x22 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/libgcc.a(_arm_fixunsdfsi.o)
 
-.debug_frame    0x00000000     0x8a48
+.debug_frame    0x00000000     0x8aec
  .debug_frame   0x00000000       0x50 build/obj/crt0.o
  .debug_frame   0x00000050       0x20 build/obj/vectors.o
  .debug_frame   0x00000070       0x20 build/obj/chcore.o
@@ -6628,28 +6646,28 @@ OUTPUT(build/fw.elf elf32-littlearm)
  .debug_frame   0x00006758      0x494 build/obj/led.o
  .debug_frame   0x00006bec      0x9c0 build/obj/shell_node.o
  .debug_frame   0x000075ac      0x22c build/obj/pixy_node.o
- .debug_frame   0x000077d8      0x6a8 build/obj/follow_node.o
- .debug_frame   0x00007e80      0x434 build/obj/main.o
- .debug_frame   0x000082b4       0x20 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-aeabi_atexit.o)
- .debug_frame   0x000082d4       0x20 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-atof.o)
- .debug_frame   0x000082f4       0x2c /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-cxa_atexit.o)
- .debug_frame   0x00008320       0x34 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-memset.o)
- .debug_frame   0x00008354       0x2c /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strcasecmp.o)
- .debug_frame   0x00008380       0x54 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strncmp.o)
- .debug_frame   0x000083d4       0x34 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strncpy.o)
- .debug_frame   0x00008408       0x34 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strpbrk.o)
- .debug_frame   0x0000843c       0x34 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strspn.o)
- .debug_frame   0x00008470       0xa4 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtod.o)
- .debug_frame   0x00008514       0x34 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-__atexit.o)
- .debug_frame   0x00008548       0x6c /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-gdtoa-gethex.o)
- .debug_frame   0x000085b4       0x4c /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-gdtoa-hexnan.o)
- .debug_frame   0x00008600       0x9c /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-locale.o)
- .debug_frame   0x0000869c      0x268 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
- .debug_frame   0x00008904       0x20 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strlen.o)
- .debug_frame   0x00008924       0x28 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-callocr.o)
- .debug_frame   0x0000894c       0x58 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mallocr.o)
- .debug_frame   0x000089a4       0x30 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mlock.o)
- .debug_frame   0x000089d4       0x74 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-freer.o)
+ .debug_frame   0x000077d8      0x74c build/obj/follow_node.o
+ .debug_frame   0x00007f24      0x434 build/obj/main.o
+ .debug_frame   0x00008358       0x20 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-aeabi_atexit.o)
+ .debug_frame   0x00008378       0x20 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-atof.o)
+ .debug_frame   0x00008398       0x2c /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-cxa_atexit.o)
+ .debug_frame   0x000083c4       0x34 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-memset.o)
+ .debug_frame   0x000083f8       0x2c /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strcasecmp.o)
+ .debug_frame   0x00008424       0x54 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strncmp.o)
+ .debug_frame   0x00008478       0x34 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strncpy.o)
+ .debug_frame   0x000084ac       0x34 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strpbrk.o)
+ .debug_frame   0x000084e0       0x34 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strspn.o)
+ .debug_frame   0x00008514       0xa4 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strtod.o)
+ .debug_frame   0x000085b8       0x34 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-__atexit.o)
+ .debug_frame   0x000085ec       0x6c /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-gdtoa-gethex.o)
+ .debug_frame   0x00008658       0x4c /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-gdtoa-hexnan.o)
+ .debug_frame   0x000086a4       0x9c /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-locale.o)
+ .debug_frame   0x00008740      0x268 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mprec.o)
+ .debug_frame   0x000089a8       0x20 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-strlen.o)
+ .debug_frame   0x000089c8       0x28 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-callocr.o)
+ .debug_frame   0x000089f0       0x58 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mallocr.o)
+ .debug_frame   0x00008a48       0x30 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-mlock.o)
+ .debug_frame   0x00008a78       0x74 /home/ergae/r2p-sdk/tools/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a(lib_a-freer.o)
 
 Cross Reference Table
 
@@ -7056,6 +7074,7 @@ bool r2p::Node::subscribe<r2p::MgmtMsg>(r2p::SubscriberExtBuf<r2p::MgmtMsg>&, ch
 bool r2p::Node::subscribe<r2p::PixyMsg, 5u>(r2p::Subscriber<r2p::PixyMsg, 5u>&, char const*) build/obj/shell_node.o
                                                   build/obj/follow_node.o
 bool r2p::Node::subscribe<r2p::ProximityMsg, 5u>(r2p::Subscriber<r2p::ProximityMsg, 5u>&, char const*) build/obj/shell_node.o
+                                                  build/obj/follow_node.o
 bool r2p::Topic::alloc<r2p::Message>(r2p::Message*&) build/obj/Topic.o
                                                   build/obj/RTCANTransport.o
 bool r2p::Topic::alloc_unsafe<r2p::Message>(r2p::Message*&) build/obj/Topic.o
@@ -7990,7 +8009,6 @@ r2p::Node::notify_unsafe(unsigned int)            build/obj/LocalSubscriber.o
                                                   build/obj/led.o
                                                   build/obj/Middleware.o
 r2p::Node::set_enabled(bool)                      build/obj/Middleware.o
-                                                  build/obj/follow_node.o
                                                   build/obj/shell_node.o
 r2p::Node::spin(r2p::Time const&)                 build/obj/Node.o
                                                   build/obj/led.o
@@ -8009,7 +8027,9 @@ r2p::PixyMsg::PixyMsg()                           build/obj/shell_node.o
 r2p::PixyMsg::PixyMsg()                           build/obj/shell_node.o
                                                   build/obj/follow_node.o
 r2p::ProximityMsg::ProximityMsg()                 build/obj/shell_node.o
+                                                  build/obj/follow_node.o
 r2p::ProximityMsg::ProximityMsg()                 build/obj/shell_node.o
+                                                  build/obj/follow_node.o
 r2p::Publisher<r2p::FollowMsg>::Publisher()       build/obj/shell_node.o
 r2p::Publisher<r2p::FollowMsg>::Publisher()       build/obj/shell_node.o
 r2p::Publisher<r2p::FollowMsg>::alloc(r2p::FollowMsg*&) build/obj/shell_node.o
@@ -8146,7 +8166,6 @@ r2p::SpinEvent::get_thread() const                build/obj/LocalSubscriber.o
                                                   build/obj/led.o
                                                   build/obj/Middleware.o
 r2p::SpinEvent::set_thread(r2p::Thread*)          build/obj/Middleware.o
-                                                  build/obj/follow_node.o
                                                   build/obj/shell_node.o
 r2p::SpinEvent::signal(unsigned int)              build/obj/Middleware.o
 r2p::SpinEvent::signal_unsafe(unsigned int)       build/obj/LocalSubscriber.o
@@ -8167,7 +8186,6 @@ r2p::SpinEvent_::get_thread() const               build/obj/LocalSubscriber.o
                                                   build/obj/led.o
                                                   build/obj/Middleware.o
 r2p::SpinEvent_::set_thread(r2p::Thread*)         build/obj/Middleware.o
-                                                  build/obj/follow_node.o
                                                   build/obj/shell_node.o
 r2p::SpinEvent_::signal(unsigned int)             build/obj/Middleware.o
 r2p::SpinEvent_::signal_unsafe(unsigned int)      build/obj/LocalSubscriber.o
@@ -8425,10 +8443,15 @@ r2p::Subscriber<r2p::PixyMsg, 5u>::~Subscriber()  build/obj/shell_node.o
 r2p::Subscriber<r2p::PixyMsg, 5u>::~Subscriber()  build/obj/shell_node.o
                                                   build/obj/follow_node.o
 r2p::Subscriber<r2p::ProximityMsg, 5u>::Subscriber(bool (*)(r2p::ProximityMsg const&)) build/obj/shell_node.o
+                                                  build/obj/follow_node.o
 r2p::Subscriber<r2p::ProximityMsg, 5u>::Subscriber(bool (*)(r2p::ProximityMsg const&)) build/obj/shell_node.o
+                                                  build/obj/follow_node.o
 r2p::Subscriber<r2p::ProximityMsg, 5u>::~Subscriber() build/obj/shell_node.o
+                                                  build/obj/follow_node.o
 r2p::Subscriber<r2p::ProximityMsg, 5u>::~Subscriber() build/obj/shell_node.o
+                                                  build/obj/follow_node.o
 r2p::Subscriber<r2p::ProximityMsg, 5u>::~Subscriber() build/obj/shell_node.o
+                                                  build/obj/follow_node.o
 r2p::SubscriberExtBuf<r2p::FollowMsg>::SubscriberExtBuf(r2p::FollowMsg**, unsigned int, bool (*)(r2p::FollowMsg const&)) build/obj/follow_node.o
 r2p::SubscriberExtBuf<r2p::FollowMsg>::SubscriberExtBuf(r2p::FollowMsg**, unsigned int, bool (*)(r2p::FollowMsg const&)) build/obj/follow_node.o
 r2p::SubscriberExtBuf<r2p::FollowMsg>::fetch(r2p::FollowMsg*&) build/obj/follow_node.o
@@ -8466,12 +8489,19 @@ r2p::SubscriberExtBuf<r2p::PixyMsg>::~SubscriberExtBuf() build/obj/shell_node.o
 r2p::SubscriberExtBuf<r2p::PixyMsg>::~SubscriberExtBuf() build/obj/shell_node.o
                                                   build/obj/follow_node.o
 r2p::SubscriberExtBuf<r2p::ProximityMsg>::SubscriberExtBuf(r2p::ProximityMsg**, unsigned int, bool (*)(r2p::ProximityMsg const&)) build/obj/shell_node.o
+                                                  build/obj/follow_node.o
 r2p::SubscriberExtBuf<r2p::ProximityMsg>::SubscriberExtBuf(r2p::ProximityMsg**, unsigned int, bool (*)(r2p::ProximityMsg const&)) build/obj/shell_node.o
+                                                  build/obj/follow_node.o
 r2p::SubscriberExtBuf<r2p::ProximityMsg>::fetch(r2p::ProximityMsg*&) build/obj/shell_node.o
+                                                  build/obj/follow_node.o
 r2p::SubscriberExtBuf<r2p::ProximityMsg>::release(r2p::ProximityMsg&) build/obj/shell_node.o
+                                                  build/obj/follow_node.o
 r2p::SubscriberExtBuf<r2p::ProximityMsg>::~SubscriberExtBuf() build/obj/shell_node.o
+                                                  build/obj/follow_node.o
 r2p::SubscriberExtBuf<r2p::ProximityMsg>::~SubscriberExtBuf() build/obj/shell_node.o
+                                                  build/obj/follow_node.o
 r2p::SubscriberExtBuf<r2p::ProximityMsg>::~SubscriberExtBuf() build/obj/shell_node.o
+                                                  build/obj/follow_node.o
 r2p::SysLock::Scope::Scope()                      build/obj/Middleware.o
                                                   build/obj/Topic.o
 r2p::SysLock::Scope::Scope()                      build/obj/Middleware.o
@@ -8543,7 +8573,6 @@ r2p::SysLock_::release()                          build/obj/SimplePool_.o
 r2p::Thread::create_heap(void*, unsigned int, unsigned long, long (*)(void*), void*, char const*) build/obj/main.o
 r2p::Thread::create_static(void*, unsigned int, unsigned long, long (*)(void*), void*, char const*) build/obj/Middleware.o
 r2p::Thread::self()                               build/obj/Middleware.o
-                                                  build/obj/follow_node.o
                                                   build/obj/shell_node.o
                                                   build/obj/Node.o
 r2p::Thread::sleep(r2p::Time const&)              build/obj/Middleware.o
@@ -8553,7 +8582,6 @@ r2p::Thread::sleep(r2p::Time const&)              build/obj/Middleware.o
 r2p::Thread_::create_heap(void*, unsigned int, unsigned long, long (*)(void*), void*, char const*) build/obj/main.o
 r2p::Thread_::create_static(void*, unsigned int, unsigned long, long (*)(void*), void*, char const*) build/obj/Middleware.o
 r2p::Thread_::self()                              build/obj/Middleware.o
-                                                  build/obj/follow_node.o
                                                   build/obj/shell_node.o
                                                   build/obj/Node.o
 r2p::Thread_::sleep(r2p::Time const&)             build/obj/Middleware.o
@@ -8781,7 +8809,6 @@ r2p::operator==(r2p::Time const&, r2p::Time const&) build/obj/Node.o
 r2p::operator>(r2p::Time const&, r2p::Time const&) build/obj/Topic.o
 r2p::operator>=(r2p::Time const&, r2p::Time const&) build/obj/Middleware.o
 rlist                                             build/obj/chschd.o
-                                                  build/obj/follow_node.o
                                                   build/obj/shell_node.o
                                                   build/obj/Node.o
                                                   build/obj/Middleware.o
@@ -9050,6 +9077,7 @@ vtable for r2p::Subscriber<r2p::LedMsg, 5u>       build/obj/led.o
 vtable for r2p::Subscriber<r2p::PixyMsg, 5u>      build/obj/shell_node.o
                                                   build/obj/follow_node.o
 vtable for r2p::Subscriber<r2p::ProximityMsg, 5u> build/obj/shell_node.o
+                                                  build/obj/follow_node.o
 vtable for r2p::SubscriberExtBuf<r2p::FollowMsg>  build/obj/follow_node.o
 vtable for r2p::SubscriberExtBuf<r2p::LedMsg>     build/obj/led.o
 vtable for r2p::SubscriberExtBuf<r2p::MgmtMsg>    build/obj/Middleware.o
@@ -9057,6 +9085,7 @@ vtable for r2p::SubscriberExtBuf<r2p::MgmtMsg>    build/obj/Middleware.o
 vtable for r2p::SubscriberExtBuf<r2p::PixyMsg>    build/obj/shell_node.o
                                                   build/obj/follow_node.o
 vtable for r2p::SubscriberExtBuf<r2p::ProximityMsg> build/obj/shell_node.o
+                                                  build/obj/follow_node.o
 vtable for r2p::Transport                         build/obj/Transport.o
 vtlist                                            build/obj/chvt.o
                                                   build/obj/Time_.o

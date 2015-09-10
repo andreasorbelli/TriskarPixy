@@ -1,7 +1,7 @@
-17:35:25 **** Incremental Build of configuration Default for project USB ****
+13:02:26 **** Incremental Build of configuration Default for project USB ****
 make all 
 Compiling follow_node.cpp
-nodes/follow_node.cpp:35:25: warning: unused parameter 'arg' [-Wunused-parameter]
+nodes/follow_node.cpp:36:25: warning: unused parameter 'arg' [-Wunused-parameter]
  msg_t follow_node(void *arg) {
                          ^
 Linking build/fw.elf
@@ -10,16 +10,16 @@ Creating build/fw.bin
 Creating build/fw.dmp
 
    text	   data	    bss	    dec	    hex	filename
-  78156	   2640	   8436	  89232	  15c90	build/fw.elf
+  78172	   2640	   8436	  89248	  15ca0	build/fw.elf
 
 Done
-17:35:36 **** Incremental Build of configuration Default for project USB ****
+13:03:31 **** Incremental Build of configuration Default for project USB ****
 make all 
 make: Nessuna operazione da eseguire per "all".
-17:39:09 **** Incremental Build of configuration Default for project USB ****
+13:15:27 **** Incremental Build of configuration Default for project USB ****
 make all 
 Compiling follow_node.cpp
-nodes/follow_node.cpp:35:25: warning: unused parameter 'arg' [-Wunused-parameter]
+nodes/follow_node.cpp:36:25: warning: unused parameter 'arg' [-Wunused-parameter]
  msg_t follow_node(void *arg) {
                          ^
 Linking build/fw.elf
@@ -28,12 +28,51 @@ Creating build/fw.hex
 Creating build/fw.dmp
 
    text	   data	    bss	    dec	    hex	filename
-  78156	   2640	   8436	  89232	  15c90	build/fw.elf
+  78172	   2640	   8436	  89248	  15ca0	build/fw.elf
 
 Done
-17:40:14 **** Incremental Build of configuration Default for project USB ****
+13:20:32 **** Incremental Build of configuration Default for project USB ****
+make all 
+Compiling follow_node.cpp
+nodes/follow_node.cpp:36:25: warning: unused parameter 'arg' [-Wunused-parameter]
+ msg_t follow_node(void *arg) {
+                         ^
+Linking build/fw.elf
+Creating build/fw.bin
+Creating build/fw.hex
+Creating build/fw.dmp
+
+   text	   data	    bss	    dec	    hex	filename
+  78188	   2640	   8436	  89264	  15cb0	build/fw.elf
+
+Done
+13:20:56 **** Incremental Build of configuration Default for project USB ****
 make all 
 make: Nessuna operazione da eseguire per "all".
-17:40:29 **** Incremental Build of configuration Default for project USB ****
+13:57:49 **** Incremental Build of configuration Default for project USB ****
 make all 
 make: Nessuna operazione da eseguire per "all".
+13:58:03 **** Incremental Build of configuration Default for project USB ****
+make all 
+make: Nessuna operazione da eseguire per "all".
+14:02:48 **** Incremental Build of configuration Default for project USB ****
+make all 
+make: Nessuna operazione da eseguire per "all".
+14:07:03 **** Incremental Build of configuration Default for project USB ****
+make all 
+make: Nessuna operazione da eseguire per "all".
+14:11:39 **** Incremental Build of configuration Default for project USB ****
+make all 
+Compiling follow_node.cpp
+nodes/follow_node.cpp:36:25: warning: unused parameter 'arg' [-Wunused-parameter]
+ msg_t follow_node(void *arg) {
+                         ^
+Linking build/fw.elf
+Creating build/fw.hex
+Creating build/fw.bin
+Creating build/fw.dmp
+
+   text	   data	    bss	    dec	    hex	filename
+  78188	   2640	   8436	  89264	  15cb0	build/fw.elf
+
+Done

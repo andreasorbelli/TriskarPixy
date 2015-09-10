@@ -1,6 +1,6 @@
-08:57:54 **** Incremental Build of configuration Default for project Proximity ****
+10:57:13 **** Incremental Build of configuration Default for project Proximity ****
 make all 
 make: Nessuna operazione da eseguire per "all".
 
-08:57:56 Build Finished (took 2s.80ms)
+10:57:15 Build Finished (took 1s.48ms)
 

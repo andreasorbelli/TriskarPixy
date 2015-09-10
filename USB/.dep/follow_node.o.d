@@ -154,7 +154,8 @@ build/obj/follow_node.o: nodes/follow_node.cpp \
  /home/ergae/r2p-sdk/core/Middleware/include/r2p/msg/pixy.hpp \
  /home/ergae/r2p-sdk/core/Middleware/include/r2p/msg/motor.hpp \
  /home/ergae/r2p-sdk/core/Middleware/include/r2p/msg/time.hpp \
- /home/ergae/r2p-sdk/core/Middleware/include/r2p/msg/follow.hpp
+ /home/ergae/r2p-sdk/core/Middleware/include/r2p/msg/follow.hpp \
+ /home/ergae/r2p-sdk/core/Middleware/include/r2p/msg/proximity.hpp
 
 /home/ergae/r2p-sdk/core/ChibiOS/os/kernel/include/ch.h:
 
@@ -467,3 +468,5 @@ build/obj/follow_node.o: nodes/follow_node.cpp \
 /home/ergae/r2p-sdk/core/Middleware/include/r2p/msg/time.hpp:
 
 /home/ergae/r2p-sdk/core/Middleware/include/r2p/msg/follow.hpp:
+
+/home/ergae/r2p-sdk/core/Middleware/include/r2p/msg/proximity.hpp:

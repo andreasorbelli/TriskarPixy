@@ -468,11 +468,41 @@ static const ShellCommand commands[] = {  { "unfollow", cmd_unfollow_automatic }
 
 static const ShellConfig usb_shell_cfg = { (BaseSequentialStream *) &SDU1, commands };
 
+/*
+float enc0;
+float enc1;
+float enc2;
 
+bool enc0_cb(const r2p::EncoderMsg &msg) {
+	enc0 = msg.delta;
+
+	return true;
+}
+
+bool enc1_cb(const r2p::EncoderMsg &msg) {
+	enc1 = msg.delta;
+
+	return true;
+}
+
+bool enc2_cb(const r2p::EncoderMsg &msg) {
+	enc2 = msg.delta;
+
+	return true;
+}
+*/
 msg_t shell_node(void *arg) {
 	r2p::Node node("shell");
 	Thread *usb_shelltp = NULL;
 
+	/*r2p::Subscriber<r2p::EncoderMsg, 5> enc0_sub(enc0_cb);
+	r2p::Subscriber<r2p::EncoderMsg, 5> enc1_sub(enc1_cb);
+	r2p::Subscriber<r2p::EncoderMsg, 5> enc2_sub(enc2_cb);
+
+	node.subscribe(enc0_sub, "encoder0");
+	node.subscribe(enc1_sub, "encoder1");
+	node.subscribe(enc2_sub, "encoder2");
+*/
 	/*
 	 * Initializes a serial-over-USB CDC driver.
 	 */
@@ -501,6 +531,11 @@ msg_t shell_node(void *arg) {
 			chThdRelease(usb_shelltp); /* Recovers memory of the previous shell.   */
 			usb_shelltp = NULL; /* Triggers spawning of a new shell.        */
 		}
+		/*
+		node.spin(r2p::Time::ms(500));
+		if (serialp && stream_enc) {
+			chprintf(serialp, "ENC0: %5f ENC1: %5f ENC2: %5f \r\n", enc0, enc1, enc2);
+		}*/
 
 		r2p::Thread::sleep(r2p::Time::ms(500));
 	}

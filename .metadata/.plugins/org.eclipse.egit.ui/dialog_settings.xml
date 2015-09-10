@@ -18,23 +18,23 @@
 	</section>
 	<section name="org.eclipse.egit.ui.COMMIT_DIALOG_SECTION">
 		<item value="630" key="DIALOG_WIDTH"/>
-		<item value="50" key="DIALOG_Y_ORIGIN"/>
-		<item value="673" key="DIALOG_HEIGHT"/>
+		<item value="65" key="DIALOG_Y_ORIGIN"/>
 		<item value="325" key="DIALOG_X_ORIGIN"/>
+		<item value="643" key="DIALOG_HEIGHT"/>
 		<item value="1|Cantarell|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.egit.ui.internal.pull.PullResultDialog.dialogBounds">
 		<item value="565" key="DIALOG_WIDTH"/>
 		<item value="71" key="DIALOG_Y_ORIGIN"/>
-		<item value="474" key="DIALOG_HEIGHT"/>
 		<item value="359" key="DIALOG_X_ORIGIN"/>
+		<item value="474" key="DIALOG_HEIGHT"/>
 		<item value="1|Cantarell|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
 		<item value="652" key="DIALOG_WIDTH"/>
-		<item value="171" key="DIALOG_Y_ORIGIN"/>
-		<item value="431" key="DIALOG_HEIGHT"/>
+		<item value="186" key="DIALOG_Y_ORIGIN"/>
 		<item value="314" key="DIALOG_X_ORIGIN"/>
+		<item value="401" key="DIALOG_HEIGHT"/>
 		<item value="1|Cantarell|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 </section>

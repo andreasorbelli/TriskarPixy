@@ -78,7 +78,7 @@ msg_t ir_node(void *arg) {
 			pub.publish(msgp);
 		}
 
-		chThdSleepMilliseconds(100);
+		chThdSleepMilliseconds(15);
 	}
 
 	return CH_SUCCESS;

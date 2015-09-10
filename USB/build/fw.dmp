@@ -7,10 +7,10 @@ start address 0x08000ce1
 
 Program Header:
     LOAD off    0x00008000 vaddr 0x08000000 paddr 0x08000000 align 2**15
-         filesz 0x000132ec memsz 0x000132f0 flags rwx
-    LOAD off    0x00020800 vaddr 0x20000800 paddr 0x080132f0 align 2**15
+         filesz 0x0001330c memsz 0x00013310 flags rwx
+    LOAD off    0x00020800 vaddr 0x20000800 paddr 0x08013310 align 2**15
          filesz 0x000008bc memsz 0x000008bc flags rw-
-    LOAD off    0x000210c0 vaddr 0x200010c0 paddr 0x08013bac align 2**15
+    LOAD off    0x000210c0 vaddr 0x200010c0 paddr 0x08013bcc align 2**15
          filesz 0x00000000 memsz 0x000018f0 flags rw-
     LOAD off    0x00028000 vaddr 0x20000000 paddr 0x20000000 align 2**15
          filesz 0x00000000 memsz 0x00000800 flags rw-
@@ -22,39 +22,39 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, DATA
   1 constructors  0000000c  08000188  08000188  00008188  2**2
                   CONTENTS, ALLOC, LOAD, DATA
-  2 .text         0001314c  080001a0  080001a0  000081a0  2**4
+  2 .text         0001316c  080001a0  080001a0  000081a0  2**4
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-  3 .textalign    00000004  080132ec  080132ec  0001b2ec  2**0
+  3 .textalign    00000004  0801330c  0801330c  0001b30c  2**0
                   ALLOC
   4 .stacks       00000800  20000000  20000000  00028000  2**0
                   ALLOC
-  5 .data         000008bc  20000800  080132f0  00020800  2**3
+  5 .data         000008bc  20000800  08013310  00020800  2**3
                   CONTENTS, ALLOC, LOAD, DATA
-  6 .bss          000018f0  200010c0  08013bac  000210c0  2**3
+  6 .bss          000018f0  200010c0  08013bcc  000210c0  2**3
                   ALLOC
-  7 .debug_info   0006e4ba  00000000  00000000  000210bc  2**0
+  7 .debug_info   0006e9e4  00000000  00000000  000210bc  2**0
                   CONTENTS, READONLY, DEBUGGING
-  8 .debug_abbrev 0000c547  00000000  00000000  0008f576  2**0
+  8 .debug_abbrev 0000c535  00000000  00000000  0008faa0  2**0
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_aranges 00002b58  00000000  00000000  0009babd  2**0
+  9 .debug_aranges 00002b80  00000000  00000000  0009bfd5  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_ranges 000027f0  00000000  00000000  0009e615  2**0
+ 10 .debug_ranges 00002818  00000000  00000000  0009eb55  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_line   000149ba  00000000  00000000  000a0e05  2**0
+ 11 .debug_line   00014a3d  00000000  00000000  000a136d  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_str    000100bb  00000000  00000000  000b57bf  2**0
+ 12 .debug_str    000100c4  00000000  00000000  000b5daa  2**0
                   CONTENTS, READONLY, DEBUGGING
- 13 .comment      00000070  00000000  00000000  000c587a  2**0
+ 13 .comment      00000070  00000000  00000000  000c5e6e  2**0
                   CONTENTS, READONLY
- 14 .ARM.attributes 00000037  00000000  00000000  000c58ea  2**0
+ 14 .ARM.attributes 00000037  00000000  00000000  000c5ede  2**0
                   CONTENTS, READONLY
- 15 .debug_frame  00008a48  00000000  00000000  000c5924  2**2
+ 15 .debug_frame  00008aec  00000000  00000000  000c5f18  2**2
                   CONTENTS, READONLY, DEBUGGING
 SYMBOL TABLE:
 08000000 l    d  startup	00000000 startup
 08000188 l    d  constructors	00000000 constructors
 080001a0 l    d  .text	00000000 .text
-080132ec l    d  .textalign	00000000 .textalign
+0801330c l    d  .textalign	00000000 .textalign
 20000000 l    d  .stacks	00000000 .stacks
 20000800 l    d  .data	00000000 .data
 200010c0 l    d  .bss	00000000 .bss
@@ -83,15 +83,15 @@ SYMBOL TABLE:
 0800d7d0 l     F .text	0000009c _ZL8cmd_stopP20BaseSequentialStreamiPPc
 0800d870 l     F .text	00000040 _ZL7cmd_encP20BaseSequentialStreamiPPc
 0800d8b0 l     F .text	000000dc _ZL10cmd_pidcfgP20BaseSequentialStreamiPPc
-08012ea0 l     O .text	00000008 _ZL13usb_shell_cfg
+08012ec0 l     O .text	00000008 _ZL13usb_shell_cfg
 0800df40 l     F .text	00000130 _Z41__static_initialization_and_destruction_0ii
-08012e50 l     O .text	00000050 _ZL8commands
+08012e70 l     O .text	00000050 _ZL8commands
 0800e200 l     F .text	0000000e _GLOBAL__sub_I_vel_node
 00000000 l    df *ABS*	00000000 main.cpp
 20001f88 l     O .bss	00000558 _ZL7wa_info
 200024e0 l     O .bss	0000023c _ZL8rtcantra
-0800eeb0 l     F .text	0000006c _Z41__static_initialization_and_destruction_0ii
-0800ef20 l     F .text	0000000e _GLOBAL__sub_I_rtcan_config
+0800eed0 l     F .text	0000006c _Z41__static_initialization_and_destruction_0ii
+0800ef40 l     F .text	0000000e _GLOBAL__sub_I_rtcan_config
 00000000 l    df *ABS*	00000000 _arm_addsubdf3.o
 00000000 l    df *ABS*	00000000 _arm_muldivdf3.o
 00000000 l    df *ABS*	00000000 _arm_fixdfsi.o
@@ -141,7 +141,7 @@ SYMBOL TABLE:
 08002e30 l     F .text	0000001e gett
 08002e50 l     F .text	00000026 writet
 08002e80 l     F .text	00000026 readt
-080127c0 l     O .text	00000020 vmt
+080127e0 l     O .text	00000020 vmt
 00000000 l    df *ABS*	00000000 serial_usb.c
 20000800 l     O .data	00000007 linecoding
 08002ff0 l     F .text	00000026 write
@@ -152,14 +152,14 @@ SYMBOL TABLE:
 080030d0 l     F .text	0000001e gett
 080030f0 l     F .text	00000026 writet
 08003120 l     F .text	00000026 readt
-080127e0 l     O .text	00000020 vmt
+08012800 l     O .text	00000020 vmt
 08003150 l     F .text	000000e0 inotify
 08003230 l     F .text	000000b2 onotify
 00000000 l    df *ABS*	00000000 spi.c
 00000000 l    df *ABS*	00000000 usb.c
-08012800 l     O .text	00000002 zero_status
-08012810 l     O .text	00000002 active_status
-08012820 l     O .text	00000002 halted_status
+08012820 l     O .text	00000002 zero_status
+08012830 l     O .text	00000002 active_status
+08012840 l     O .text	00000002 halted_status
 08003730 l     F .text	0000003a set_address
 08003770 l     F .text	00000390 default_handler
 00000000 l    df *ABS*	00000000 stm32_dma.c
@@ -172,7 +172,7 @@ SYMBOL TABLE:
 00000000 l    df *ABS*	00000000 spi_lld.c
 20001774 l     O .bss	00000002 dummytx
 00000000 l    df *ABS*	00000000 serial_lld.c
-080128c0 l     O .text	00000010 default_config
+080128e0 l     O .text	00000010 default_config
 08004aa0 l     F .text	00000056 usart_init
 08004b00 l     F .text	0000007a set_error
 08004b80 l     F .text	00000148 serve_interrupt
@@ -181,7 +181,7 @@ SYMBOL TABLE:
 08004d90 l     F .text	00000022 fifo_remove
 20001a58 l     O .bss	00000014 ep0_state
 20001a6c l     O .bss	00000008 ep0setup_buffer
-080128d0 l     O .text	00000024 ep0config
+080128f0 l     O .text	00000024 ep0config
 08004dc0 l     F .text	00000010 usb_pm_reset
 08004dd0 l     F .text	00000040 usb_pm_alloc
 08004e10 l     F .text	00000046 usb_packet_read_to_buffer
@@ -215,21 +215,21 @@ SYMBOL TABLE:
 00000000 l    df *ABS*	00000000 board.c
 00000000 l    df *ABS*	00000000 stubs.c
 00000000 l    df *ABS*	00000000 usbcfg.c
-080129b0 l     O .text	00000012 vcom_device_descriptor_data
-080129d0 l     O .text	00000008 vcom_device_descriptor
-080129e0 l     O .text	00000043 vcom_configuration_descriptor_data
-08012a30 l     O .text	00000008 vcom_configuration_descriptor
-08012a40 l     O .text	00000004 vcom_string0
-08012a50 l     O .text	00000026 vcom_string1
-08012a80 l     O .text	00000038 vcom_string2
-08012ac0 l     O .text	00000008 vcom_string3
-08012ad0 l     O .text	00000020 vcom_strings
+080129d0 l     O .text	00000012 vcom_device_descriptor_data
+080129f0 l     O .text	00000008 vcom_device_descriptor
+08012a00 l     O .text	00000043 vcom_configuration_descriptor_data
+08012a50 l     O .text	00000008 vcom_configuration_descriptor
+08012a60 l     O .text	00000004 vcom_string0
+08012a70 l     O .text	00000026 vcom_string1
+08012aa0 l     O .text	00000038 vcom_string2
+08012ae0 l     O .text	00000008 vcom_string3
+08012af0 l     O .text	00000020 vcom_strings
 080072e0 l     F .text	0000005c get_descriptor
 20001d38 l     O .bss	00000010 ep1instate
 20001d48 l     O .bss	00000014 ep1outstate
-08012af0 l     O .text	00000024 ep1config
+08012b10 l     O .text	00000024 ep1config
 20001d5c l     O .bss	00000010 ep2instate
-08012b20 l     O .text	00000024 ep2config
+08012b40 l     O .text	00000024 ep2config
 08007340 l     F .text	00000078 usb_event
 00000000 l    df *ABS*	00000000 SimplePool_.cpp
 00000000 l    df *ABS*	00000000 StaticQueue_.cpp
@@ -259,7 +259,7 @@ SYMBOL TABLE:
 20001f80 l     O .bss	00000004 _ZL11g_skipStart
 00000000 l    df *ABS*	00000000 follow_node.cpp
 20001f84 l     O .bss	00000004 _ZL6follow
-0800eb10 l     F .text	00000048 _Z5clampIfET_S0_S0_S0_
+0800eb30 l     F .text	00000048 _Z5clampIfET_S0_S0_S0_
 00000000 l    df *ABS*	00000000 aeabi_atexit.c
 00000000 l    df *ABS*	00000000 atof.c
 00000000 l    df *ABS*	00000000 cxa_atexit.c
@@ -270,18 +270,18 @@ SYMBOL TABLE:
 00000000 l    df *ABS*	00000000 strpbrk.c
 00000000 l    df *ABS*	00000000 strspn.c
 00000000 l    df *ABS*	00000000 strtod.c
-0800f200 l     F .text	0000003e sulp
-08012f20 l     O .text	00000014 fpi.5234
-08012f40 l     O .text	00000014 fpinan.5270
-08012f70 l     O .text	00000028 tinytens
+0800f220 l     F .text	0000003e sulp
+08012f40 l     O .text	00000014 fpi.5234
+08012f60 l     O .text	00000014 fpinan.5270
+08012f90 l     O .text	00000028 tinytens
 00000000 l    df *ABS*	00000000 __atexit.c
 00000000 l    df *ABS*	00000000 gdtoa-gethex.c
-08010250 l     F .text	000000a0 rshift
+08010270 l     F .text	000000a0 rshift
 00000000 l    df *ABS*	00000000 gdtoa-hexnan.c
 00000000 l    df *ABS*	00000000 locale.c
 20000c74 l     O .data	00000038 lconv
 00000000 l    df *ABS*	00000000 mprec.c
-080132e0 l     O .text	0000000c p05.5265
+08013300 l     O .text	0000000c p05.5265
 00000000 l    df *ABS*	00000000 strlen.c
 00000000 l    df *ABS*	00000000 mallocr.c
 00000000 l    df *ABS*	00000000 mallocr.c
@@ -292,7 +292,7 @@ SYMBOL TABLE:
 00000000 l    df *ABS*	00000000 impure.c
 20000848 l     O .data	00000428 impure_data
 00000000 l    df *ABS*	00000000 
-080132f0 l       .stacks	00000000 _etext
+08013310 l       .stacks	00000000 _etext
 00000000 l       *UND*	00000000 msObjectInit
 0000a000 l       *ABS*	00000000 __ram_size__
 00000000 l       startup	00000000 _text
@@ -302,14 +302,14 @@ SYMBOL TABLE:
 00000400 l       *ABS*	00000000 __main_stack_size__
 00000400 l       *ABS*	00000000 __process_stack_size__
 08008600  w    F .text	0000002c _ZN3r2p5MutexC2Eb
-08012900 g     O .text	000000a8 pal_default_config
+08012920 g     O .text	000000a8 pal_default_config
 08002bb0 g     F .text	00000038 chPoolInit
 0800db50  w    F .text	00000018 _ZN3r2p12ProximityMsgC1Ev
 08000de0  w    F .text	00000002 Vector58
 0800e210 g     F .text	0000004c _Z7getWordv
 08000de0  w    F .text	00000002 VectorE8
 08000de0  w    F .text	00000002 Vector9C
-08011260 g     F .text	0000005e __any_on
+08011280 g     F .text	0000005e __any_on
 08009f70  w    F .text	00000012 _ZN3r2p10StaticListINS_15LocalSubscriberEE13ConstIteratorC2Ev
 08000c44 g     F .text	00000012 .hidden __aeabi_dcmple
 0800aec0  w    F .text	0000000e _ZN3r2p10Middleware14get_mgmt_topicEv
@@ -335,7 +335,7 @@ SYMBOL TABLE:
 08007ea0  w    F .text	0000001a _ZN3r2p7SysLock5ScopeC2Ev
 0800a040  w    F .text	00000064 _ZN3r2p10StaticListINS_9TransportEE16link_tail_unsafeERNS2_4LinkE
 08000b80 g     F .text	0000007a .hidden __eqdf2
-0800ea50  w    F .text	00000030 _ZN3r2p10SubscriberINS_9FollowMsgELj5EED1Ev
+0800ea70  w    F .text	00000030 _ZN3r2p10SubscriberINS_9FollowMsgELj5EED1Ev
 0800aa70  w    F .text	00000064 _ZN3r2p10StaticListINS_14LocalPublisherEE16link_tail_unsafeERNS2_4LinkE
 0800a4d0  w    F .text	00000014 _ZN3r2p10SpinEvent_C2EPNS_6ThreadE
 08001ed0 g     F .text	00000108 chMtxLockS
@@ -352,7 +352,7 @@ SYMBOL TABLE:
 08001a60 g     F .text	00000026 _thread_memfill
 0800bb90 g     F .text	0000007c _ZN3r2p9TransportC1EPKc
 08006fc0 g     F .text	0000007c rtcan_lld_can_start
-08012cc0 g     O .text	00000024 _ZTVN3r2p15RTCANSubscriberE
+08012ce0 g     O .text	00000024 _ZTVN3r2p15RTCANSubscriberE
 08002ab0 g     F .text	000000fc chHeapFree
 080080b0  w    F .text	00000040 _ZN3r2p13BasePublisher12alloc_unsafeERPNS_7MessageE
 08000de0  w    F .text	00000002 Vector11C
@@ -364,33 +364,33 @@ SYMBOL TABLE:
 0800b4b0  w    F .text	00000022 _ZN3r2p10StaticListINS_16RemoteSubscriberEE8IteratorppEv
 0800bc10 g     F .text	00000054 _ZN3r2p9TransportD2Ev
 08008010  w    F .text	00000024 _ZN3r2pmiERKNS_4TimeES2_
-080118b0 g     F .text	00000002 __malloc_unlock
+080118d0 g     F .text	00000002 __malloc_unlock
 0800a410  w    F .text	000000b4 _ZN3r2p10SpinEvent_4waitERKNS_4TimeE
-08012c30  w    O .text	00000010 _ZTVN3r2p15RemotePublisherE
+08012c50  w    O .text	00000010 _ZTVN3r2p15RemotePublisherE
 0800c7f0 g     F .text	00000032 _ZN3r2p15RTCANSubscriber13notify_unsafeERNS_7MessageERKNS_4TimeE
 080040e0 g     F .text	00000106 _usb_ep0in
 08009ba0  w    F .text	0000001e _ZN3r2p16SubscriberExtBufINS_7MgmtMsgEE7releaseERS1_
 0800b570  w    F .text	00000044 _ZN3r2p10StaticListINS_16RemoteSubscriberEE11link_unsafeERNS2_4LinkE
-08012e30  w    O .text	00000010 _ZTVN3r2p9PublisherINS_9PIDCfgMsgEEE
+08012e50  w    O .text	00000010 _ZTVN3r2p9PublisherINS_9PIDCfgMsgEEE
 080057c0 g     F .text	00000062 usb_lld_prepare_receive
 0800c740 g     F .text	0000001c _ZN3r2p14RTCANPublisherD0Ev
-08012c20  w    O .text	00000010 _ZTVN3r2p9PublisherINS_7MgmtMsgEEE
-0800f240 g     F .text	00000f4c _strtod_r
+08012c40  w    O .text	00000010 _ZTVN3r2p9PublisherINS_7MgmtMsgEEE
+0800f260 g     F .text	00000f4c _strtod_r
 08006b60 g     F .text	0000005c msgqueue_insert
 08007ba0  w    F .text	00000018 _ZN3r2p15MessagePtrQueueD2Ev
 08006f20 g     F .text	0000001c Vector8C
-08012dd0  w    O .text	00000024 _ZTVN3r2p10SubscriberINS_7PixyMsgELj5EEE
+08012df0  w    O .text	00000024 _ZTVN3r2p10SubscriberINS_7PixyMsgELj5EEE
 0800c8c0 g     F .text	00000034 _ZN3r2p10Middleware6rebootEv
-08012e00  w    O .text	00000024 _ZTVN3r2p16SubscriberExtBufINS_7PixyMsgEEE
+08012e20  w    O .text	00000024 _ZTVN3r2p16SubscriberExtBufINS_7PixyMsgEEE
 0800bf20  w    F .text	00000054 _ZN3r2p10StaticListINS_15RemotePublisherEE13unlink_unsafeERNS2_4LinkE
 08006b40 g     F .text	00000002 rtcan_blinker
-0800eb60  w    F .text	00000030 _ZN3r2p16SubscriberExtBufINS_9FollowMsgEEC2EPPS1_jPFbRKS1_E
+0800eb80  w    F .text	00000030 _ZN3r2p16SubscriberExtBufINS_9FollowMsgEEC2EPPS1_jPFbRKS1_E
 0800b4f0  w    F .text	0000002a _ZN3r2p5Topic5allocINS_7MessageEEEbRPT_
 08009f70  w    F .text	00000012 _ZN3r2p10StaticListINS_15LocalSubscriberEE13ConstIteratorC1Ev
-0800ead0  w    F .text	0000001c _ZN3r2p16SubscriberExtBufINS_9FollowMsgEE5fetchERPS1_
+0800eaf0  w    F .text	0000001c _ZN3r2p16SubscriberExtBufINS_9FollowMsgEE5fetchERPS1_
 0800def0  w    F .text	00000030 _ZN3r2p16SubscriberExtBufINS_12ProximityMsgEED1Ev
-08012d50  w    O .text	00000010 _ZTVN3r2p9PublisherINS_6LedMsgEEE
-0800ed80  w    F .text	00000016 _ZN3r2p10StaticListINS_4NodeEED1Ev
+08012d70  w    O .text	00000010 _ZTVN3r2p9PublisherINS_6LedMsgEEE
+0800eda0  w    F .text	00000016 _ZN3r2p10StaticListINS_4NodeEED1Ev
 08004cf0 g     F .text	0000001c VectorDC
 0800b670  w    F .text	00000054 _ZN3r2p10StaticListINS_16RemoteSubscriberEE13unlink_unsafeERNS2_4LinkE
 08007f90  w    F .text	00000022 _ZN3r2p4Time2msEl
@@ -399,7 +399,7 @@ SYMBOL TABLE:
 080050c0 g     F .text	00000010 Vector168
 0800a880 g     F .text	00000040 _ZN3r2p4NodeD2Ev
 08007860 g     F .text	00000030 _ZN3r2p14LocalPublisherC1Ev
-080109b0 g     F .text	0000004c _Balloc
+080109d0 g     F .text	0000004c _Balloc
 0800b400  w    F .text	0000001e _ZNK3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeneERKS3_
 08000000 g     O startup	00000188 _vectors
 0800dd90  w    F .text	0000001c _ZN3r2p16SubscriberExtBufINS_12ProximityMsgEE5fetchERPS1_
@@ -414,7 +414,7 @@ SYMBOL TABLE:
 0800a7c0  w    F .text	00000016 _ZN3r2p9SpinEventD2Ev
 0800b650  w    F .text	00000014 _ZN3r2p10StaticListINS_16RemoteSubscriberEE8IteratorC1EPKNS2_4LinkE
 08007700 g     F .text	00000048 _ZN3r2p14BaseSubscriber14release_unsafeERNS_7MessageE
-08012b70  w    O .text	00000010 _ZTVN3r2p13BasePublisherE
+08012b90  w    O .text	00000010 _ZTVN3r2p13BasePublisherE
 0800bca0  w    F .text	00000020 _ZN3r2p10ScopedLockINS_5MutexEED2Ev
 0800be50  w    F .text	00000060 _ZNK3r2p10StaticListINS_16RemoteSubscriberEE10find_firstEPFbRKS1_PKvES6_
 0800da50  w    F .text	00000024 _ZN3r2p9PublisherINS_9Speed3MsgEEC1Ev
@@ -475,7 +475,7 @@ SYMBOL TABLE:
 08000de0  w    F .text	00000002 VectorA8
 08008540  w    F .text	00000014 _ZN3r2p6Mutex_14acquire_unsafeEv
 08000a30 g     F .text	00000134 memcpy
-08010810 g     F .text	00000184 __hexnan
+08010830 g     F .text	00000184 __hexnan
 08000bfc g     F .text	00000020 .hidden __aeabi_cdrcmple
 0800e160  w    F .text	00000030 _ZN3r2p9PublisherINS_9PIDCfgMsgEED1Ev
 08009d40  w    F .text	00000010 _ZNK3r2p10StaticListINS_15LocalSubscriberEE13ConstIteratorptEv
@@ -496,7 +496,7 @@ SYMBOL TABLE:
 0800a0d0  w    F .text	00000014 _ZN3r2p10StaticListINS_9TransportEE8IteratorC1EPKNS2_4LinkE
 08007750 g     F .text	00000048 _ZN3r2p14BaseSubscriber7releaseERNS_7MessageE
 0800a920  w    F .text	0000001e _ZN3r2p10StaticListINS_15LocalSubscriberEE4linkERNS2_4LinkE
-0800eb90  w    F .text	00000030 _ZN3r2p16SubscriberExtBufINS_9FollowMsgEED1Ev
+0800ebb0  w    F .text	00000030 _ZN3r2p16SubscriberExtBufINS_9FollowMsgEED1Ev
 08007440  w    F .text	0000000c _ZN3r2p10UncopyableD2Ev
 08001600 g     F .text	00000074 chSchReadyI
 08009df0  w    F .text	0000001c _ZN3r2p10StaticListINS_5TopicEEC1Ev
@@ -505,12 +505,12 @@ SYMBOL TABLE:
 0800b8b0 g     F .text	00000148 _ZN3r2p9Transport16touch_subscriberERNS_5TopicEjPh
 0800a2b0  w    F .text	00000054 _ZN3r2p10StaticListINS_9TransportEE13unlink_unsafeERNS2_4LinkE
 20000800 g       .stacks	00000000 __main_thread_stack_end__
-0800ede0  w    F .text	00000020 _ZN3r2p7ReMutexD2Ev
+0800ee00  w    F .text	00000020 _ZN3r2p7ReMutexD2Ev
 08009f30  w    F .text	00000012 _ZN3r2p10StaticListINS_4NodeEE13ConstIteratorC1Ev
 0800a340  w    F .text	00000014 _ZN3r2p10StaticListINS_4NodeEE13ConstIteratorC2EPKNS2_9ConstLinkE
 080085c0  w    F .text	00000016 _ZN3r2p5Mutex14acquire_unsafeEv
 08001440 g     F .text	00000024 _vt_init
-080111b0 g     F .text	00000060 __ratio
+080111d0 g     F .text	00000060 __ratio
 0800a9b0  w    F .text	0000001e _ZNK3r2p10StaticListINS_15LocalSubscriberEE8IteratorneERKS3_
 08002940 g     F .text	00000050 chCoreAllocI
 0800cd70  w    F .text	00000030 _ZN3r2p16SubscriberExtBufINS_6LedMsgEED1Ev
@@ -525,18 +525,18 @@ SYMBOL TABLE:
 08007410 g     F .text	00000022 _ZN3r2p12StaticQueue_C1Ev
 08007890 g     F .text	00000030 _ZN3r2p14LocalPublisherD2Ev
 08004340 g     F .text	00000048 Vector74
-080131e0 g     O .text	000000c8 __mprec_tens
-0800eda0  w    F .text	00000016 _ZN3r2p10StaticListINS_5TopicEED1Ev
+08013200 g     O .text	000000c8 __mprec_tens
+0800edc0  w    F .text	00000016 _ZN3r2p10StaticListINS_5TopicEED1Ev
 08002d10 g     F .text	0000002c halInit
 08000de0  w    F .text	00000002 Vector160
 08009b80  w    F .text	00000020 _ZN3r2p16SubscriberExtBufINS_7MgmtMsgEE5fetchERPS1_RNS_4TimeE
 0800ad50 g     F .text	00000030 _ZN3r2p16RemoteSubscriberD2Ev
-08012cb0 g     O .text	00000010 _ZTVN3r2p14RTCANPublisherE
+08012cd0 g     O .text	00000010 _ZTVN3r2p14RTCANPublisherE
 08000de0  w    F .text	00000002 VectorEC
 200010c0 g       .bss	00000000 _bss_start
 08001880 g     F .text	00000064 chSchDoRescheduleBehind
 08000c80 g     F .text	00000040 .hidden __fixunsdfsi
-0800eda0  w    F .text	00000016 _ZN3r2p10StaticListINS_5TopicEED2Ev
+0800edc0  w    F .text	00000016 _ZN3r2p10StaticListINS_5TopicEED2Ev
 08009bc0  w    F .text	00000018 _ZNK3r2p10StaticListINS_4NodeEE13ConstIterator8is_validEv
 0800b720  w    F .text	0000001c _ZN3r2p6Mutex_C1Ev
 08007b80  w    F .text	00000016 _ZN3r2p10ArrayQueueIPNS_7MessageEED1Ev
@@ -550,8 +550,8 @@ SYMBOL TABLE:
 08001d40 g     F .text	00000084 chThdCreateFromHeap
 0800a0f0  w    F .text	00000060 _ZNK3r2p10StaticListINS_5TopicEE10find_firstEPFbRKS1_PKvES6_
 08000424 g     F .text	0000001e .hidden __aeabi_ui2d
-080109a0 g     F .text	00000008 _localeconv_r
-08010bf0 g     F .text	00000012 __i2b
+080109c0 g     F .text	00000008 _localeconv_r
+08010c10 g     F .text	00000012 __i2b
 0800a3c0  w    F .text	0000000e _ZNK3r2p4Time9to_us_rawEv
 08009f50  w    F .text	00000012 _ZN3r2p10StaticListINS_14LocalPublisherEE13ConstIteratorC2Ev
 08001230 g     F .text	0000002c dbg_check_unlock
@@ -565,7 +565,7 @@ SYMBOL TABLE:
 0800abd0  w    F .text	00000014 _ZN3r2p10StaticListINS_15LocalSubscriberEE8IteratorC2EPKNS2_4LinkE
 080073d0  w    F .text	0000000e _ZN3r2p8SysLock_7acquireEv
 0800a550 g     F .text	00000060 _ZN3r2p4Node9advertiseERNS_14LocalPublisherEPKcRKNS_4TimeEj
-08012ef0  w    O .text	00000024 _ZTVN3r2p16SubscriberExtBufINS_9FollowMsgEEE
+08012f10  w    O .text	00000024 _ZTVN3r2p16SubscriberExtBufINS_9FollowMsgEEE
 08000ce0 g     F .text	000000f4 ResetHandler
 0800ba00 g     F .text	0000001e _ZN3r2p9Transport12advertise_cbERNS_5TopicEPKh
 08002560 g     F .text	000000c8 chIQReadTimeout
@@ -579,7 +579,7 @@ SYMBOL TABLE:
 08008160  w    F .text	0000000e _ZNK3r2p14BaseSubscriber9get_topicEv
 08004520 g     F .text	00000048 Vector124
 08007f70  w    F .text	00000016 _ZN3r2p4TimeC2ERKS0_
-08012d90  w    O .text	00000024 _ZTVN3r2p16SubscriberExtBufINS_12ProximityMsgEEE
+08012db0  w    O .text	00000024 _ZTVN3r2p16SubscriberExtBufINS_12ProximityMsgEEE
 080098d0  w    F .text	0000001e _ZNK3r2p10StaticListINS_4NodeEE8IteratorneERKS3_
 08007d70 g     F .text	00000020 _ZN3r2p15MessagePtrQueueC1EPPNS_7MessageEj
 2000082e g     O .data	00000001 pixy_first_time
@@ -588,7 +588,7 @@ SYMBOL TABLE:
 20002980 g     O .bss	00000004 __malloc_max_sbrked_mem
 0800b310 g     F .text	00000090 _ZN3r2p5TopicC2EPKcjb
 080046f0 g     F .text	000000a8 hal_lld_init
-08012c70 g     O .text	0000001c _ZTVN3r2p9TransportE
+08012c90 g     O .text	0000001c _ZTVN3r2p9TransportE
 08000468 g     F .text	0000003a .hidden __extendsfdf2
 08000764 g     F .text	000001d0 .hidden __aeabi_ddiv
 080058e0 g     F .text	00000034 usb_lld_start_out
@@ -600,38 +600,38 @@ SYMBOL TABLE:
 0800e260 g     F .text	0000009c _Z8getStartv
 0800a7e0 g     F .text	00000098 _ZN3r2p4NodeC1EPKcb
 0800cb60  w    F .text	00000024 _ZN3r2p9PublisherINS_6LedMsgEEC2Ev
-08011020 g     F .text	000000c4 __b2d
+08011040 g     F .text	000000c4 __b2d
 0800bf80  w    F .text	00000018 _ZNK3r2p10StaticListINS_15RemotePublisherEE15is_empty_unsafeEv
 0800b7f0  w    F .text	00000020 _ZN3r2p5MutexD2Ev
 08000510 g     F .text	00000254 .hidden __aeabi_dmul
 08001c10 g     F .text	00000070 chThdExitS
 08007910  w    F .text	0000003c _ZN3r2p10SpinEvent_13signal_unsafeEj
 0800ddb0  w    F .text	0000001e _ZN3r2p16SubscriberExtBufINS_12ProximityMsgEE7releaseERS1_
-0800e9e0  w    F .text	00000018 _ZN3r2p9FollowMsgC2Ev
+0800ea00  w    F .text	00000018 _ZN3r2p9FollowMsgC2Ev
 0800dea0  w    F .text	0000001c _ZN3r2p16SubscriberExtBufINS_7PixyMsgEED0Ev
 0800c9b0 g     F .text	00000018 _ZdlPv
 0800e0c0  w    F .text	00000030 _ZN3r2p9PublisherINS_9FollowMsgEED1Ev
 0800a940  w    F .text	0000002a _ZN3r2p10StaticListINS_15LocalSubscriberEE6unlinkERNS2_4LinkE
-080131c0 g     O .text	00000004 _global_impure_ptr
+080131e0 g     O .text	00000004 _global_impure_ptr
 0800a0b0  w    F .text	00000020 _ZNK3r2p10StaticListINS_9TransportEE8get_headEv
 080036e0 g     F .text	0000000e sduInterruptTransmitted
 08009e60  w    F .text	00000030 _ZN3r2p9PublisherINS_7MgmtMsgEED1Ev
 08007df0  w    F .text	00000012 _ZN3r2p7Message12reset_unsafeEv
 0800b310 g     F .text	00000090 _ZN3r2p5TopicC1EPKcjb
 20001d74 g     O .bss	00000004 _ZN3r2p4Time9INFINITENE
-080130b0 g     O .text	00000100 __hexdig
+080130d0 g     O .text	00000100 __hexdig
 20001a74 g     O .bss	00000004 shell_terminated
 0800c1f0 g     F .text	000000b4 _ZNK3r2p14RTCANTransport16create_publisherERNS_5TopicEPKh
 0800b2a0 g     F .text	00000064 _ZNK3r2p5Topic16patch_pubsub_msgERNS_7MessageERNS_9TransportE
-080132b0 g     O .text	00000028 __mprec_bigtens
-08010ab0 g     F .text	00000098 __s2b
+080132d0 g     O .text	00000028 __mprec_bigtens
+08010ad0 g     F .text	00000098 __s2b
 08000de0  w    F .text	00000002 Vector148
 08009b30  w    F .text	00000028 _ZN3r2p4Node9subscribeINS_7MgmtMsgEEEbRNS_16SubscriberExtBufIT_EEPKcPS4_
 08006750 g     F .text	0000006a rtcan_terr_isr_code
 08000424 g     F .text	0000001e .hidden __floatunsidf
 08009f10  w    F .text	0000001c _ZN3r2p16SubscriberExtBufINS_7MgmtMsgEED0Ev
 0800e070  w    F .text	00000030 _ZN3r2p10SubscriberINS_12ProximityMsgELj5EED1Ev
-08010ea0 g     F .text	00000046 __mcmp
+08010ec0 g     F .text	00000046 __mcmp
 08007820  w    F .text	00000020 _ZN3r2p11StaticQueueINS_14BaseSubscriberEEC1Ev
 20001d78 g     O .bss	0000001c vel_node
 08005960 g     F .text	00000034 usb_lld_stall_out
@@ -640,7 +640,7 @@ SYMBOL TABLE:
 2000127c g     O .bss	00000408 dbg_trace_buffer
 08006470 g     F .text	0000000c shellInit
 0800acb0 g     F .text	00000030 _ZN3r2p15RemotePublisherD2Ev
-0800ea50  w    F .text	00000030 _ZN3r2p10SubscriberINS_9FollowMsgELj5EED2Ev
+0800ea70  w    F .text	00000030 _ZN3r2p10SubscriberINS_9FollowMsgELj5EED2Ev
 0800c030  w    F .text	00000012 _ZN3r2p7Message21get_msg_from_raw_dataEPKh
 08007d50  w    F .text	0000001a _ZN3r2p10StaticListINS_15LocalSubscriberEE4LinkC1ERS1_
 08000de0  w    F .text	00000002 PendSVVector
@@ -669,10 +669,10 @@ SYMBOL TABLE:
 0800b6d0  w    F .text	00000020 _ZN3r2p22TimestampedMsgPtrQueue5EntryC1Ev
 0800dc80  w    F .text	00000028 _ZN3r2p4Node9advertiseINS_9FollowMsgEEEbRNS_9PublisherIT_EEPKcRKNS_4TimeE
 20001d6c g     O .bss	00000004 _ZN3r2p4Time9IMMEDIATEE
-08010b50 g     F .text	00000040 __hi0bits
+08010b70 g     F .text	00000040 __hi0bits
 08008040  w    F .text	00000016 _ZN3r2p7MessageC2Ev
 08000de0  w    F .text	00000002 VectorCC
-0800eb90  w    F .text	00000030 _ZN3r2p16SubscriberExtBufINS_9FollowMsgEED2Ev
+0800ebb0  w    F .text	00000030 _ZN3r2p16SubscriberExtBufINS_9FollowMsgEED2Ev
 0800ada0  w    F .text	00000014 _ZN3r2p4TimeC1IiEET_
 08009f50  w    F .text	00000012 _ZN3r2p10StaticListINS_14LocalPublisherEE13ConstIteratorC1Ev
 08007f50  w    F .text	00000012 _ZN3r2p4TimeC1Ev
@@ -688,13 +688,13 @@ SYMBOL TABLE:
 0800a180  w    F .text	00000016 _ZN3r2p10StaticListINS_4NodeEE13ConstIteratoraSERKS3_
 08007ea0  w    F .text	0000001a _ZN3r2p7SysLock5ScopeC1Ev
 08006f80 g     F .text	0000001c Vector98
-08010190 g     F .text	00000010 strtod
+080101b0 g     F .text	00000010 strtod
 0800b7a0  w    F .text	00000020 _ZN3r2p5MutexC1Ev
 08007860 g     F .text	00000030 _ZN3r2p14LocalPublisherC2Ev
 080096f0 g     F .text	00000120 _ZN3r2p10MiddlewareC1EPKcS2_PNS0_10PubSubStepEj
 0800dbf0  w    F .text	0000001c _ZN3r2p9PublisherINS_9Speed3MsgEE5allocERPS1_
-08012cf0  w    O .text	00000024 _ZTVN3r2p10SubscriberINS_6LedMsgELj5EEE
-08012c90 g     O .text	0000001c _ZTVN3r2p14RTCANTransportE
+08012d10  w    O .text	00000024 _ZTVN3r2p10SubscriberINS_6LedMsgELj5EEE
+08012cb0 g     O .text	0000001c _ZTVN3r2p14RTCANTransportE
 0800dec0  w    F .text	00000030 _ZN3r2p16SubscriberExtBufINS_12ProximityMsgEEC2EPPS1_jPFbRKS1_E
 08007990  w    F .text	00000024 _ZNK3r2p4Node11get_enabledEv
 08007e60 g     F .text	00000038 _ZN3r2p7Message4copyERS0_RKS0_j
@@ -702,7 +702,7 @@ SYMBOL TABLE:
 08009830  w    F .text	00000014 _ZN3r2p4TimeC1IlEET_
 0800c130 g     F .text	00000044 _ZN3r2p14RTCANTransport7send_cbER11rtcan_msg_t
 0800bb50  w    F .text	00000016 _ZN3r2p10StaticListINS_15RemotePublisherEED2Ev
-0800ef40 g     F .text	00000006 atof
+0800ef60 g     F .text	00000006 atof
 080083e0  w    F .text	0000000e _ZNK3r2p5Topic20get_max_queue_lengthEv
 08000de0  w    F .text	00000002 VectorD8
 0800b780  w    F .text	00000016 _ZN3r2p6Mutex_D2Ev
@@ -723,13 +723,13 @@ SYMBOL TABLE:
 08001ea0 g     F .text	00000026 chMtxLock
 0800e4b0  w    F .text	00000024 _ZN3r2p9PublisherINS_7PixyMsgEEC1Ev
 08009dd0  w    F .text	0000001c _ZN3r2p10StaticListINS_4NodeEEC1Ev
-08012c40  w    O .text	00000024 _ZTVN3r2p16RemoteSubscriberE
+08012c60  w    O .text	00000024 _ZTVN3r2p16RemoteSubscriberE
 0800c410  w    F .text	00000016 _ZN3r2p12StaticQueue_D2Ev
 0800c8a0 g     F .text	0000001c _ZN3r2p15RTCANSubscriberD0Ev
-08012e40  w    O .text	00000010 _ZTVN3r2p9PublisherINS_9Speed3MsgEEE
-0800ee00  w    F .text	00000034 _ZN3r2p5TopicD1Ev
+08012e60  w    O .text	00000010 _ZTVN3r2p9PublisherINS_9Speed3MsgEEE
+0800ee20  w    F .text	00000034 _ZN3r2p5TopicD1Ev
 0800cbe0  w    F .text	00000028 _ZN3r2p4Node9advertiseINS_6LedMsgEEEbRNS_9PublisherIT_EEPKcRKNS_4TimeE
-08010d50 g     F .text	000000a0 __pow5mult
+08010d70 g     F .text	000000a0 __pow5mult
 08008360  w    F .text	00000030 _ZN3r2p4Node11set_enabledEb
 080004a4 g     F .text	0000006a .hidden __aeabi_ul2d
 080054f0 g     F .text	00000058 usb_lld_reset
@@ -744,22 +744,22 @@ SYMBOL TABLE:
 08000de0  w    F .text	00000002 Vector178
 08009e10  w    F .text	0000001c _ZN3r2p10StaticListINS_9TransportEEC2Ev
 08003d40 g     F .text	0000004c usbPrepareQueuedReceive
-0800ebe0  w    F .text	00000034 _ZN3r2p7Thread_11create_heapEPvjmPFlS1_ES1_PKc
+0800ec00  w    F .text	00000034 _ZN3r2p7Thread_11create_heapEPvjmPFlS1_ES1_PKc
 0800bde0  w    F .text	00000064 _ZN3r2p10StaticListINS_15RemotePublisherEE16link_tail_unsafeERNS2_4LinkE
 08003bf0 g     F .text	000000a4 usbInitEndpointI
 08001b80 g     F .text	00000038 chThdSleep
 08008320  w    F .text	00000018 _ZN3r2p9SpinEvent6signalEj
-08012b80  w    O .text	00000024 _ZTVN3r2p14BaseSubscriberE
+08012ba0  w    O .text	00000024 _ZTVN3r2p14BaseSubscriberE
 08002390 g     F .text	0000004e chIQInit
 08009dd0  w    F .text	0000001c _ZN3r2p10StaticListINS_4NodeEEC2Ev
 0800a1a0  w    F .text	00000020 _ZNK3r2p10StaticListINS_14LocalPublisherEE5beginEv
-0800edc0  w    F .text	00000016 _ZN3r2p10StaticListINS_9TransportEED2Ev
-08012830 g     O .text	00000090 _stm32_dma_streams
+0800ede0  w    F .text	00000016 _ZN3r2p10StaticListINS_9TransportEED2Ev
+08012850 g     O .text	00000090 _stm32_dma_streams
 2000271c g     O .bss	00000260 _ZN3r2p10Middleware8instanceE
 08004480 g     F .text	00000048 Vector84
 08009e30  w    F .text	00000024 _ZN3r2p9PublisherINS_7MgmtMsgEEC1Ev
 0800c470 g     F .text	00000098 _ZN3r2p14RTCANTransportC1ER11RTCANDriver
-0800ea80  w    F .text	0000001c _ZN3r2p10SubscriberINS_9FollowMsgELj5EED0Ev
+0800eaa0  w    F .text	0000001c _ZN3r2p10SubscriberINS_9FollowMsgELj5EED0Ev
 080089b0 g     F .text	000000ec _ZN3r2p10Middleware9advertiseERNS_14LocalPublisherEPKcRKNS_4TimeEj
 08008260  w    F .text	0000002a _ZN3r2p6Thread13create_staticEPvjmPFlS1_ES1_PKc
 08008690  w    F .text	00000044 _ZN3r2p7ReMutex14release_unsafeEv
@@ -776,7 +776,7 @@ SYMBOL TABLE:
 08003700 g     F .text	00000028 spiObjectInit
 08007bc0 g     F .text	00000080 _ZN3r2p15LocalSubscriberC1EPPNS_7MessageEjPFbRKS1_E
 0800ddd0  w    F .text	00000028 _ZN3r2p4Node9advertiseINS_9PIDCfgMsgEEEbRNS_9PublisherIT_EEPKcRKNS_4TimeE
-08012bc0 g     O .text	00000024 _ZTVN3r2p15LocalSubscriberE
+08012be0 g     O .text	00000024 _ZTVN3r2p15LocalSubscriberE
 08008950 g     F .text	00000034 _ZN3r2p10Middleware3addERNS_4NodeE
 08000c6c g     F .text	00000012 .hidden __aeabi_dcmpgt
 08008dd0 g     F .text	00000600 _ZN3r2p10Middleware14do_mgmt_threadEv
@@ -792,14 +792,14 @@ SYMBOL TABLE:
 0800bfa0 g     F .text	0000007e _ZN3r2p13is_identifierEPKcj
 080048a0 g     F .text	00000078 _pal_lld_init
 0800af60 g     F .text	00000020 _ZN3r2p5Topic5allocEv
-08011960 g     F .text	000001b0 _free_r
+08011980 g     F .text	000001b0 _free_r
 08002c40 g     F .text	00000054 chPoolAllocI
 20000834 g     O .data	0000000c rtcan_config
 08000c58 g     F .text	00000012 .hidden __aeabi_dcmpge
 08002eb0 g     F .text	00000008 sdInit
 0800c870 g     F .text	00000030 _ZN3r2p15RTCANSubscriberD2Ev
 08000de0  w    F .text	00000002 BusFaultVector
-0800ea00  w    F .text	00000048 _ZN3r2p10SubscriberINS_9FollowMsgELj5EEC1EPFbRKS1_E
+0800ea20  w    F .text	00000048 _ZN3r2p10SubscriberINS_9FollowMsgELj5EEC1EPFbRKS1_E
 20001ed0 g     O .bss	000000a8 proximity_sub
 0800a3f0  w    F .text	0000001e _ZN3r2peqERKNS_4TimeES2_
 080001a8 g     F .text	0000027a .hidden __aeabi_dsub
@@ -818,14 +818,14 @@ SYMBOL TABLE:
 2000082d g     O .data	00000001 pidcfg_first_time
 20000830 g     O .data	00000001 proxy_first_time
 0800cd40  w    F .text	00000030 _ZN3r2p16SubscriberExtBufINS_6LedMsgEEC1EPPS1_jPFbRKS1_E
-0800ee40  w    F .text	00000066 _ZN3r2p10MiddlewareD2Ev
+0800ee60  w    F .text	00000066 _ZN3r2p10MiddlewareD2Ev
 080004a4 g     F .text	0000006a .hidden __floatundidf
 080072d0 g     F .text	00000008 __cxa_pure_virtual
 0800b490  w    F .text	0000001e _ZNK3r2p10StaticListINS_16RemoteSubscriberEE8IteratorneERKS3_
 080087d0 g     F .text	000000a4 _ZN3r2p10Middleware5startEv
 08002f30 g     F .text	0000005c sdStart
 08007ef0  w    F .text	00000018 _ZN3r2p11MemoryPool_12alloc_unsafeEv
-08010df0 g     F .text	000000aa __lshift
+08010e10 g     F .text	000000aa __lshift
 08008b00 g     F .text	00000134 _ZN3r2p10Middleware9subscribeERNS_15LocalSubscriberEPKcPNS_7MessageEjj
 0800ce20 g     F .text	00000036 _Z19usb_lld_connect_busP9USBDriver
 08000de0  w    F .text	00000002 Vector140
@@ -834,17 +834,17 @@ SYMBOL TABLE:
 08007550 g     F .text	00000068 _ZN3r2p13BasePublisher22publish_locally_unsafeERNS_7MessageE
 08000de0  w    F .text	00000002 VectorE4
 0800b3a0  w    F .text	00000018 _ZNK3r2p10StaticListINS_16RemoteSubscriberEE15is_empty_unsafeEv
-08012bf0  w    O .text	00000024 _ZTVN3r2p16SubscriberExtBufINS_7MgmtMsgEEE
-0800ebc0  w    F .text	0000001c _ZN3r2p16SubscriberExtBufINS_9FollowMsgEED0Ev
+08012c10  w    O .text	00000024 _ZTVN3r2p16SubscriberExtBufINS_7MgmtMsgEEE
+0800ebe0  w    F .text	0000001c _ZN3r2p16SubscriberExtBufINS_9FollowMsgEED0Ev
 080082a0  w    F .text	00000012 _ZN3r2p6Thread5sleepERKNS_4TimeE
-080101a0 g     F .text	000000a4 __register_exitproc
+080101c0 g     F .text	000000a4 __register_exitproc
 0800bd60  w    F .text	0000001a _ZN3r2p10StaticListINS_9TransportEE4LinkC2ERS1_
 080041f0 g     F .text	000000a8 _usb_ep0out
 08000de0  w    F .text	00000002 VectorC0
 0800dcb0  w    F .text	0000001c _ZN3r2p9PublisherINS_9FollowMsgEE5allocERPS1_
 08007400  w    F .text	00000008 _ZN3r2p7SysLock7releaseEv
 0800bd80  w    F .text	00000060 _ZNK3r2p10StaticListINS_15RemotePublisherEE10find_firstEPFbRKS1_PKvES6_
-0800f060 g     F .text	00000096 strncmp
+0800f080 g     F .text	00000096 strncmp
 08000de0  w    F .text	00000002 Vector158
 0800a4f0  w    F .text	0000001c _ZN3r2p9SpinEvent4waitERKNS_4TimeE
 20000820 g     O .data	00000008 _ZN3r2p19default_ledpub_confE
@@ -858,23 +858,23 @@ SYMBOL TABLE:
 08009920  w    F .text	00000010 _ZNK3r2p10StaticListINS_4NodeEE8IteratorptEv
 08000f40 g     F .text	0000001c _port_switch
 20001da4 g     O .bss	0000001c pidcfg_node
-08010c10 g     F .text	00000134 __multiply
-08012d60  w    O .text	00000024 _ZTVN3r2p10SubscriberINS_12ProximityMsgELj5EEE
+08010c30 g     F .text	00000134 __multiply
+08012d80  w    O .text	00000024 _ZTVN3r2p10SubscriberINS_12ProximityMsgELj5EEE
 0800c760  w    F .text	00000034 _ZN3r2p15RTCANSubscriber6notifyERNS_7MessageERKNS_4TimeE
 08008600  w    F .text	0000002c _ZN3r2p5MutexC1Eb
 0800b1e0 g     F .text	00000040 _ZN3r2p5Topic9advertiseERNS_15RemotePublisherERKNS_4TimeE
 08007440  w    F .text	0000000c _ZN3r2p10UncopyableD1Ev
 0800b260 g     F .text	0000003a _ZN3r2p5Topic9subscribeERNS_16RemoteSubscriberEj
-0800f100 g     F .text	00000066 strncpy
+0800f120 g     F .text	00000066 strncpy
 20002988 g     O .bss	00000028 __malloc_current_mallinfo
 0800aea0  w    F .text	00000020 _ZNK3r2p5Topic22has_remote_subscribersEv
 08009eb0  w    F .text	00000030 _ZN3r2p16SubscriberExtBufINS_7MgmtMsgEEC2EPPS1_jPFbRKS1_E
-08012dc0  w    O .text	00000010 _ZTVN3r2p9PublisherINS_9FollowMsgEEE
+08012de0  w    O .text	00000010 _ZTVN3r2p9PublisherINS_9FollowMsgEEE
 08008040  w    F .text	00000016 _ZN3r2p7MessageC1Ev
-080110f0 g     F .text	000000ba __d2b
+08011110 g     F .text	000000ba __d2b
 08000e30 g     F .text	00000030 SVCallVector
 0800a3a0  w    F .text	00000014 _ZN3r2p10StaticListINS_15LocalSubscriberEE13ConstIteratorC2EPKNS2_9ConstLinkE
-0800f010 g     F .text	00000044 strcasecmp
+0800f030 g     F .text	00000044 strcasecmp
 08000cc0  w    F .text	00000002 __late_init
 0800e510  w    F .text	0000001c _ZN3r2p9PublisherINS_7PixyMsgEED0Ev
 0800db50  w    F .text	00000018 _ZN3r2p12ProximityMsgC2Ev
@@ -890,7 +890,7 @@ SYMBOL TABLE:
 2000082c g     O .data	00000001 speed_first_time
 0800e110  w    F .text	00000030 _ZN3r2p10SubscriberINS_7PixyMsgELj5EED2Ev
 0800a0d0  w    F .text	00000014 _ZN3r2p10StaticListINS_9TransportEE8IteratorC2EPKNS2_4LinkE
-0800ef50 g     F .text	00000014 __cxa_atexit
+0800ef70 g     F .text	00000014 __cxa_atexit
 08008460  w    F .text	00000028 _ZN3r2p5Topic12alloc_unsafeEv
 08007900  w    F .text	0000000e _ZNK3r2p10SpinEvent_10get_threadEv
 08009ee0  w    F .text	00000030 _ZN3r2p16SubscriberExtBufINS_7MgmtMsgEED1Ev
@@ -912,8 +912,8 @@ SYMBOL TABLE:
 08000de0  w    F .text	00000002 Vector13C
 08009cf0  w    F .text	00000022 _ZN3r2p10StaticListINS_14LocalPublisherEE13ConstIteratorppEv
 08000764 g     F .text	000001d0 .hidden __divdf3
-08011210 g     F .text	00000046 __copybits
-0800ec20  w    F .text	0000002a _ZN3r2p6Thread11create_heapEPvjmPFlS1_ES1_PKc
+08011230 g     F .text	00000046 __copybits
+0800ec40  w    F .text	0000002a _ZN3r2p6Thread11create_heapEPvjmPFlS1_ES1_PKc
 08003ec0 g     F .text	00000064 _usb_reset
 0800aa10  w    F .text	0000001c _ZN3r2p10StaticListINS_14LocalPublisherEEC1Ev
 20000cac g     O .data	00000408 __malloc_av_
@@ -926,23 +926,23 @@ SYMBOL TABLE:
 08000510 g     F .text	00000254 .hidden __muldf3
 0800ad00 g     F .text	00000044 _ZN3r2p16RemoteSubscriberC1ERNS_9TransportE
 0800b3c0  w    F .text	00000020 _ZN3r2p10StaticListINS_15LocalSubscriberEE12begin_unsafeEv
-080132f0 g       .stacks	00000000 _textdata
+08013310 g       .stacks	00000000 _textdata
 08000de0  w    F .text	00000002 VectorE0
 0800e4b0  w    F .text	00000024 _ZN3r2p9PublisherINS_7PixyMsgEEC2Ev
 0800c050  w    F .text	00000032 _ZN3r2p11MemoryPool_C2EPvjj
 080096d0  w    F .text	00000018 _ZN3r2p7MgmtMsgC1Ev
 08000de0  w    F .text	00000002 VectorF4
 0800e560  w    F .text	0000001c _ZN3r2p9PublisherINS_7PixyMsgEE5allocERPS1_
-08012eb0  w    O .text	00000010 _ZTVN3r2p9PublisherINS_7PixyMsgEEE
+08012ed0  w    O .text	00000010 _ZTVN3r2p9PublisherINS_7PixyMsgEEE
 08000de0  w    F .text	00000002 MemManageVector
 08009d80  w    F .text	0000003e _ZNK3r2p10StaticListINS_9TransportEE5countEv
-080118a0 g     F .text	00000002 __malloc_lock
+080118c0 g     F .text	00000002 __malloc_lock
 08000194 g       constructors	00000000 __fini_array_start
 0800bca0  w    F .text	00000020 _ZN3r2p10ScopedLockINS_5MutexEED1Ev
 08008500  w    F .text	0000001e _ZN3r2p5Topic11extend_poolEPNS_7MessageEj
 08009ee0  w    F .text	00000030 _ZN3r2p16SubscriberExtBufINS_7MgmtMsgEED2Ev
 0800ad00 g     F .text	00000044 _ZN3r2p16RemoteSubscriberC2ERNS_9TransportE
-08011320 g     F .text	0000005e _calloc_r
+08011340 g     F .text	0000005e _calloc_r
 0800cc50  w    F .text	00000018 _ZN3r2p6LedMsgC2Ev
 080074d0  w    F .text	0000001e _ZN3r2p11MemoryPool_11free_unsafeEPv
 08008070  w    F .text	0000000e _ZNK3r2p13BasePublisher9get_topicEv
@@ -954,11 +954,11 @@ SYMBOL TABLE:
 20001dec g     O .bss	0000009c pixy_sub
 08007e10 g     F .text	0000001a _ZN3r2p7Message7acquireEv
 0800bcc0  w    F .text	0000001e _ZNK3r2p10StaticListINS_15RemotePublisherEE10find_firstIPFbRKNS_13BasePublisherEPKcEcEEPS1_T_PKT0_
-0800ef70 g     F .text	0000009a memset
+0800ef90 g     F .text	0000009a memset
 0800c7a0  w    F .text	00000034 _ZN3r2p15RTCANSubscriber5fetchERPNS_7MessageERNS_4TimeE
-0800ea00  w    F .text	00000048 _ZN3r2p10SubscriberINS_9FollowMsgELj5EEC2EPFbRKS1_E
+0800ea20  w    F .text	00000048 _ZN3r2p10SubscriberINS_9FollowMsgELj5EEC2EPFbRKS1_E
 0800e190  w    F .text	0000001c _ZN3r2p9PublisherINS_9PIDCfgMsgEED0Ev
-0800ec50 g     F .text	00000130 main
+0800ec70 g     F .text	00000130 main
 0800c6e0 g     F .text	00000028 _ZN3r2p14RTCANPublisherC2ERNS_9TransportE
 080042a0 g     F .text	00000044 Vector6C
 08007b80  w    F .text	00000016 _ZN3r2p10ArrayQueueIPNS_7MessageEED2Ev
@@ -981,9 +981,9 @@ SYMBOL TABLE:
 08007cf0  w    F .text	00000060 _ZN3r2p10ArrayQueueIPNS_7MessageEE11post_unsafeES2_
 08000990 g     F .text	0000009e .hidden __truncdfsf2
 0800e1b0  w    F .text	00000030 _ZN3r2p9PublisherINS_9Speed3MsgEED2Ev
-0800ed80  w    F .text	00000016 _ZN3r2p10StaticListINS_4NodeEED2Ev
+0800eda0  w    F .text	00000016 _ZN3r2p10StaticListINS_4NodeEED2Ev
 08000194 g       constructors	00000000 __init_array_end
-08011380 g     F .text	0000051c _malloc_r
+080113a0 g     F .text	0000051c _malloc_r
 0800dcf0  w    F .text	0000002a _ZN3r2p4Node9subscribeINS_7PixyMsgELj5EEEbRNS_10SubscriberIT_XT0_EEEPKc
 080004b4 g     F .text	0000005a .hidden __aeabi_l2d
 08000de0  w    F .text	00000002 VectorC4
@@ -991,13 +991,13 @@ SYMBOL TABLE:
 0800a510  w    F .text	00000022 _ZN3r2p9SpinEventC2EPNS_6ThreadE
 0800b720  w    F .text	0000001c _ZN3r2p6Mutex_C2Ev
 08008880 g     F .text	000000c4 _ZN3r2p10Middleware4stopEv
-08012ec0  w    O .text	00000024 _ZTVN3r2p10SubscriberINS_9FollowMsgELj5EEE
+08012ee0  w    O .text	00000024 _ZTVN3r2p10SubscriberINS_9FollowMsgELj5EEE
 0800a200  w    F .text	00000016 _ZN3r2p10StaticListINS_15LocalSubscriberEE13ConstIteratoraSERKS3_
 08000de0  w    F .text	00000002 Vector180
 0800ccc0  w    F .text	00000030 _ZN3r2p10SubscriberINS_6LedMsgELj5EED2Ev
 080099c0  w    F .text	00000020 _ZN3r2p10StaticListINS_9TransportEE5beginEv
 0800c430  w    F .text	00000020 _ZN3r2p11StaticQueueINS_14BaseSubscriberEED2Ev
-0800eaf0  w    F .text	0000001e _ZN3r2p16SubscriberExtBufINS_9FollowMsgEE7releaseERS1_
+0800eb10  w    F .text	0000001e _ZN3r2p16SubscriberExtBufINS_9FollowMsgEE7releaseERS1_
 0800a310  w    F .text	00000018 _ZNK3r2p10StaticListINS_9TransportEE15is_empty_unsafeEv
 080067c0 g     F .text	000001ae rtcan_rx_isr_code
 08001e70 g     F .text	00000030 chMtxInit
@@ -1009,14 +1009,14 @@ SYMBOL TABLE:
 0800c510 g     F .text	00000048 _ZN3r2p14RTCANTransportD1Ev
 0800e580  w    F .text	0000001e _ZN3r2p9PublisherINS_7PixyMsgEE7publishERS1_
 08000de0  w    F .text	00000002 VectorB0
-080118c0 g     F .text	0000009c _malloc_trim_r
-080127a0 g     O .text	00000016 ch_debug
+080118e0 g     F .text	0000009c _malloc_trim_r
+080127c0 g     O .text	00000016 ch_debug
 08003b60 g     F .text	00000084 usbStart
-0800e5a0 g     F .text	00000432 _Z11follow_nodePv
+0800e5a0 g     F .text	00000454 _Z11follow_nodePv
 08006f40 g     F .text	0000001c Vector90
 080021f0 g     F .text	00000070 chEvtSignalI
 0800a330  w    F .text	0000000e _ZNK3r2p10StaticListINS_9TransportEE15get_head_unsafeEv
-0800ee00  w    F .text	00000034 _ZN3r2p5TopicD2Ev
+0800ee20  w    F .text	00000034 _ZN3r2p5TopicD2Ev
 20001278 g     O .bss	00000004 dbg_lock_cnt
 08007680 g     F .text	0000002c _ZN3r2p13BasePublisherD1Ev
 0800c3f0  w    F .text	00000020 _ZN3r2p10MemoryPoolI11rtcan_msg_tED1Ev
@@ -1056,16 +1056,16 @@ SYMBOL TABLE:
 0800a020  w    F .text	00000014 _ZN3r2p10StaticListINS_4NodeEE8IteratorC1EPKNS2_4LinkE
 0800de70  w    F .text	00000030 _ZN3r2p16SubscriberExtBufINS_7PixyMsgEED1Ev
 080073e0  w    F .text	0000000e _ZN3r2p8SysLock_7releaseEv
-08012b60 g     O .text	00000008 serusbcfg
+08012b80 g     O .text	00000008 serusbcfg
 080078c0  w    F .text	0000001a _ZN3r2p10StaticListINS_14LocalPublisherEE4LinkC2ERS1_
 080050d0 g     F .text	000003a8 Vector16C
-0800eaa0  w    F .text	0000002a _ZN3r2p4Node9subscribeINS_9FollowMsgELj5EEEbRNS_10SubscriberIT_XT0_EEEPKc
+0800eac0  w    F .text	0000002a _ZN3r2p4Node9subscribeINS_9FollowMsgELj5EEEbRNS_10SubscriberIT_XT0_EEEPKc
 080081a0  w    F .text	00000034 _ZN3r2p7Thread_13create_staticEPvjmPFlS1_ES1_PKc
 0800e0f0  w    F .text	0000001c _ZN3r2p9PublisherINS_9FollowMsgEED0Ev
 0800c690  w    F .text	00000050 _ZNK3r2p10StaticListINS_5TopicEE8index_ofERKS1_
 0800e0a0  w    F .text	0000001c _ZN3r2p10SubscriberINS_12ProximityMsgELj5EED0Ev
 0800abb0  w    F .text	00000020 _ZNK3r2p10StaticListINS_15LocalSubscriberEE8get_headEv
-0800ede0  w    F .text	00000020 _ZN3r2p7ReMutexD1Ev
+0800ee00  w    F .text	00000020 _ZN3r2p7ReMutexD1Ev
 0800b1a0 g     F .text	00000040 _ZN3r2p5Topic9advertiseERNS_14LocalPublisherERKNS_4TimeE
 08009890  w    F .text	00000020 _ZN3r2p10StaticListINS_4NodeEE5beginEv
 08009ae0  w    F .text	0000001e _ZNK3r2p10StaticListINS_5TopicEE10find_firstIPFbRKS1_PKcEcEEPS1_T_PKT0_
@@ -1091,14 +1091,14 @@ SYMBOL TABLE:
 08002630 g     F .text	0000004e chOQInit
 080024d0 g     F .text	0000008e chIQGetTimeout
 20000800 g       .data	00000000 _data
-08010fd0 g     F .text	00000050 __ulp
+08010ff0 g     F .text	00000050 __ulp
 20000828 g     O .data	00000004 _ZN3r2p19default_ledsub_confE
 08007d90  w    F .text	00000054 _ZN3r2p10ArrayQueueIPNS_7MessageEEC1EPS2_j
 08002ce0 g     F .text	0000002a chPoolFree
 0800b7a0  w    F .text	00000020 _ZN3r2p5MutexC2Ev
 08007f50  w    F .text	00000012 _ZN3r2p4TimeC2Ev
 080078e0  w    F .text	00000016 _ZN3r2p4TimeaSERKS0_
-0800edc0  w    F .text	00000016 _ZN3r2p10StaticListINS_9TransportEED1Ev
+0800ede0  w    F .text	00000016 _ZN3r2p10StaticListINS_9TransportEED1Ev
 0800e140  w    F .text	0000001c _ZN3r2p10SubscriberINS_7PixyMsgELj5EED0Ev
 08008490  w    F .text	00000032 _ZNK3r2p5Topic16compute_deadlineERKNS_4TimeE
 08008350  w    F .text	0000000e _ZNK3r2p4Node15get_subscribersEv
@@ -1108,7 +1108,7 @@ SYMBOL TABLE:
 0800aa30  w    F .text	0000001c _ZN3r2p10StaticListINS_15LocalSubscriberEEC2Ev
 08000de0  w    F .text	00000002 Vector144
 08009e30  w    F .text	00000024 _ZN3r2p9PublisherINS_7MgmtMsgEEC2Ev
-0800ee40  w    F .text	00000066 _ZN3r2p10MiddlewareD1Ev
+0800ee60  w    F .text	00000066 _ZN3r2p10MiddlewareD1Ev
 08006970 g     F .text	00000008 rtcanInit
 08004430 g     F .text	00000048 Vector80
 08002430 g     F .text	00000092 chIQPutI
@@ -1142,7 +1142,7 @@ SYMBOL TABLE:
 08008120  w    F .text	0000003c _ZN3r2p13BasePublisher16publish_remotelyERNS_7MessageE
 080085a0  w    F .text	00000016 _ZN3r2p5Mutex10initializeEv
 08007970  w    F .text	00000018 _ZN3r2p9SpinEvent13signal_unsafeEj
-08012bb0  w    O .text	00000010 _ZTVN3r2p14LocalPublisherE
+08012bd0  w    O .text	00000010 _ZTVN3r2p14LocalPublisherE
 0800e530  w    F .text	00000028 _ZN3r2p4Node9advertiseINS_7PixyMsgEEEbRNS_9PublisherIT_EEPKcRKNS_4TimeE
 0800bb70  w    F .text	00000016 _ZN3r2p10StaticListINS_16RemoteSubscriberEED2Ev
 080099a0  w    F .text	0000001e _ZN3r2p10StaticListINS_9TransportEE4linkERNS2_4LinkE
@@ -1167,7 +1167,7 @@ SYMBOL TABLE:
 08000de0  w    F .text	00000002 Vector170
 08002ec0 g     F .text	00000064 sdObjectInit
 0800c2b0 g     F .text	0000003a _ZNK3r2p14RTCANTransport17create_subscriberERNS_5TopicEPNS_22TimestampedMsgPtrQueue5EntryEj
-08012d20  w    O .text	00000024 _ZTVN3r2p16SubscriberExtBufINS_6LedMsgEEE
+08012d40  w    O .text	00000024 _ZTVN3r2p16SubscriberExtBufINS_6LedMsgEEE
 0800ba50 g     F .text	00000064 _ZN3r2p9Transport9advertiseERNS_15RemotePublisherEPKcRKNS_4TimeEj
 0800bc70  w    F .text	00000028 _ZN3r2p10ScopedLockINS_5MutexEEC1ERS1_
 08000de0  w    F .text	00000002 Vector88
@@ -1181,7 +1181,7 @@ SYMBOL TABLE:
 08009810 g     F .text	0000001c _ZN3r2p10Middleware12mgmt_threadfEPv
 0800b440  w    F .text	00000010 _ZNK3r2p10StaticListINS_15LocalSubscriberEE14IteratorUnsafeptEv
 20000400 g       .stacks	00000000 __main_thread_stack_base__
-08010ef0 g     F .text	000000d2 __mdiff
+08010f10 g     F .text	000000d2 __mdiff
 08000940 g     F .text	0000004e .hidden __aeabi_d2iz
 0800de40  w    F .text	00000030 _ZN3r2p16SubscriberExtBufINS_7PixyMsgEEC1EPPS1_jPFbRKS1_E
 08003b00 g     F .text	00000008 usbInit
@@ -1197,7 +1197,7 @@ SYMBOL TABLE:
 08000de0  w    F .text	00000002 Vector10C
 080013c0 g     F .text	00000060 dbg_trace
 08007840 g     F .text	00000018 _ZN3r2p19BaseSubscriberQueueC1Ev
-08012fa0 g     O .text	00000101 _ctype_
+08012fc0 g     O .text	00000101 _ctype_
 0800e4e0  w    F .text	00000030 _ZN3r2p9PublisherINS_7PixyMsgEED1Ev
 08000188 g       constructors	00000000 __init_array_start
 0800a160  w    F .text	00000020 _ZNK3r2p10StaticListINS_4NodeEE5beginEv
@@ -1210,7 +1210,7 @@ SYMBOL TABLE:
 08007490  w    F .text	00000040 _ZN3r2p7Message14release_unsafeEv
 08007b30 g     F .text	00000048 _ZN3r2p15LocalSubscriber6notifyERNS_7MessageERKNS_4TimeE
 08005920 g     F .text	00000034 usb_lld_start_in
-0800eb60  w    F .text	00000030 _ZN3r2p16SubscriberExtBufINS_9FollowMsgEEC1EPPS1_jPFbRKS1_E
+0800eb80  w    F .text	00000030 _ZN3r2p16SubscriberExtBufINS_9FollowMsgEEC1EPPS1_jPFbRKS1_E
 08007890 g     F .text	00000030 _ZN3r2p14LocalPublisherD1Ev
 080056d0 g     F .text	00000038 usb_lld_get_status_out
 08008520  w    F .text	00000014 _ZN3r2p6Mutex_10initializeEv
@@ -1218,7 +1218,7 @@ SYMBOL TABLE:
 08000de0  w    F .text	00000002 Vector14C
 08009a50  w    F .text	00000030 _ZNK3r2p10StaticListINS_4NodeEE15contains_unsafeERKS1_
 0800b5c0  w    F .text	0000001c _ZN3r2p10StaticListINS_16RemoteSubscriberEEC1Ev
-0800f1c0 g     F .text	00000034 strspn
+0800f1e0 g     F .text	00000034 strspn
 0800dec0  w    F .text	00000030 _ZN3r2p16SubscriberExtBufINS_12ProximityMsgEEC1EPPS1_jPFbRKS1_E
 080019c0 g     F .text	0000009c _thread_init
 08000de0  w    F .text	00000002 Vector50
@@ -1227,7 +1227,7 @@ SYMBOL TABLE:
 0800b650  w    F .text	00000014 _ZN3r2p10StaticListINS_16RemoteSubscriberEE8IteratorC2EPKNS2_4LinkE
 0800a220  w    F .text	00000054 _ZN3r2p10StaticListINS_5TopicEE13unlink_unsafeERNS2_4LinkE
 08007fc0  w    F .text	0000001e _ZN3r2pgeERKNS_4TimeES2_
-080112c0 g     F .text	0000005c strlen
+080112e0 g     F .text	0000005c strlen
 0800b6f0  w    F .text	00000014 _ZN3r2p6Mutex_7acquireEv
 08008340  w    F .text	0000000e _ZNK3r2p4Node14get_publishersEv
 08007040 g     F .text	00000020 rtcan_lld_can_txe
@@ -1239,7 +1239,7 @@ SYMBOL TABLE:
 0800cc50  w    F .text	00000018 _ZN3r2p6LedMsgC1Ev
 0800c830 g     F .text	0000000c _ZNK3r2p15RTCANSubscriber16get_queue_lengthEv
 08001bc0 g     F .text	00000030 chThdYield
-080102f0 g     F .text	00000514 __gethex
+08010310 g     F .text	00000514 __gethex
 0800bd00  w    F .text	0000001e _ZNK3r2p10StaticListINS_16RemoteSubscriberEE10find_firstIPFbRKNS_14BaseSubscriberEPKcEcEEPS1_T_PKT0_
 0800dbc0  w    F .text	00000028 _ZN3r2p4Node9advertiseINS_9Speed3MsgEEEbRNS_9PublisherIT_EEPKcRKNS_4TimeE
 0800c710 g     F .text	00000030 _ZN3r2p14RTCANPublisherD1Ev
@@ -1280,7 +1280,7 @@ SYMBOL TABLE:
 0800c640  w    F .text	0000001a _ZN3r2p10MemoryPoolI11rtcan_msg_tE11free_unsafeEPS1_
 0800d990 g     F .text	000000c0 _Z10shell_nodePv
 08008300  w    F .text	00000018 _ZN3r2p9SpinEvent10set_threadEPNS_6ThreadE
-08010b90 g     F .text	0000005a __lo0bits
+08010bb0 g     F .text	0000005a __lo0bits
 080032f0 g     F .text	00000002 sduInit
 08000de0  w    F .text	00000002 Vector34
 0800b760  w    F .text	00000016 _ZN3r2p5Mutex7releaseEv
@@ -1291,7 +1291,7 @@ SYMBOL TABLE:
 080023e0 g     F .text	0000004a chIQResetI
 0800b810 g     F .text	00000098 _ZN3r2p9Transport15touch_publisherERNS_5TopicEPKh
 080072b0 g     F .text	00000008 __early_init
-0800ef30 g     F .text	0000000a __aeabi_atexit
+0800ef50 g     F .text	0000000a __aeabi_atexit
 08009c60  w    F .text	00000022 _ZNK3r2p10StaticListINS_14LocalPublisherEE7restartERNS2_13ConstIteratorE
 08007450  w    F .text	0000003c _ZN3r2p7Message14acquire_unsafeEv
 08009df0  w    F .text	0000001c _ZN3r2p10StaticListINS_5TopicEEC2Ev
@@ -1299,7 +1299,7 @@ SYMBOL TABLE:
 20001eb4 g     O .bss	0000001c proximity_node
 08004570 g     F .text	00000048 Vector128
 0800cb90  w    F .text	00000030 _ZN3r2p9PublisherINS_6LedMsgEED2Ev
-08012b50 g     O .text	00000010 usbcfg
+08012b70 g     O .text	00000010 usbcfg
 08009870  w    F .text	0000001e _ZN3r2p10StaticListINS_5TopicEE4linkERNS2_4LinkE
 0800e0c0  w    F .text	00000030 _ZN3r2p9PublisherINS_9FollowMsgEED2Ev
 08007650 g     F .text	00000028 _ZN3r2p13BasePublisherC2Ev
@@ -1308,8 +1308,8 @@ SYMBOL TABLE:
 0800c180 g     F .text	00000068 _ZN3r2p14RTCANTransport7recv_cbER11rtcan_msg_t
 0800de00  w    F .text	0000001c _ZN3r2p9PublisherINS_9PIDCfgMsgEE5allocERPS1_
 08005570 g     F .text	00000154 usb_lld_init_endpoint
-0800f170 g     F .text	00000048 strpbrk
-0800e9e0  w    F .text	00000018 _ZN3r2p9FollowMsgC1Ev
+0800f190 g     F .text	00000048 strpbrk
+0800ea00  w    F .text	00000018 _ZN3r2p9FollowMsgC1Ev
 0800b5e0  w    F .text	0000001a _ZN3r2p10StaticListINS_5TopicEE4LinkC2ERS1_
 0800c9f0 g     F .text	000000ac _ZN3r2p11ledpub_nodeEPv
 08000de0  w    F .text	00000002 Vector20
@@ -1320,9 +1320,9 @@ SYMBOL TABLE:
 0800c450  w    F .text	00000018 _ZN3r2p19BaseSubscriberQueueD1Ev
 08008990 g     F .text	00000020 _ZN3r2p10Middleware3addERNS_9TransportE
 08009a20  w    F .text	00000022 _ZN3r2p10StaticListINS_9TransportEE8IteratorppEv
-08010a20 g     F .text	00000082 __multadd
+08010a40 g     F .text	00000082 __multadd
 08007ba0  w    F .text	00000018 _ZN3r2p15MessagePtrQueueD1Ev
-08010a00 g     F .text	00000012 _Bfree
+08010a20 g     F .text	00000012 _Bfree
 080099e0  w    F .text	00000018 _ZN3r2p10StaticListINS_9TransportEE3endEv
 08000de0  w    F .text	00000002 Vector174
 08009eb0  w    F .text	00000030 _ZN3r2p16SubscriberExtBufINS_7MgmtMsgEEC1EPPS1_jPFbRKS1_E
